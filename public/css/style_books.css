@@ -146,6 +146,7 @@ table {
     background-color: var(--bg);
     box-shadow: 4px 4px 8px var(--shadow);
     max-width: 100%;
+    min-width: 95%;
 }
 
 blockquote {
@@ -175,8 +176,63 @@ blockquote {
   font-size: 1.1em;
 }
 
-/* ---------- Links ---------- */
+/* links */
 a {
     color: var(--link);
     text-decoration: none;
+}
+
+/* table of contents */
+.toc {
+  background: var(--bg-paper, #f5f0e8);
+  border: 1px solid var(--border, #c8b99a);
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 2.5rem;
+  max-width: 680px;
+}
+
+.toc-title {
+  display: block;
+  font-family: 'Libertinus Math', serif;
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+  color: var(--text, #2a2a2a);
+}
+
+.toc ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.toc li {
+  line-height: 1.7;
+}
+
+.toc-h3 {
+  padding-left: 1.2rem;
+}
+
+.toc a {
+  text-decoration: none;
+  color: var(--link, #5a4a2a);
+  font-size: 0.95rem;
+  transition: color 0.2s;
+}
+
+.toc a:hover,
+.toc a.toc-active {
+  color: var(--accent, #8a6a2a);
+  text-decoration: underline;
+}
+
+/* Dark mode */
+body.dark .toc {
+  background: #1e1b14;
+  border-color: #4a3f2a;
+}
+
+body.dark .toc a {
+  color: #c8a96e;
 }

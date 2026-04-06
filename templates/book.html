@@ -1,31 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{TITLE}}</title>
-    <link rel="stylesheet" href="/css/style_books.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style_books.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap"
+      rel="stylesheet"
+    />
     <script>
       window.MathJax = {
         tex: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$','$$'], ['\\[','\\]']],
-          processEscapes: true
+          inlineMath: [
+            ["$", "$"],
+            ["\\(", "\\)"],
+          ],
+          displayMath: [
+            ["$$", "$$"],
+            ["\\[", "\\]"],
+          ],
+          processEscapes: true,
         },
         options: {
-          skipHtmlTags: ['script','noscript','textarea','pre','code']
-        }
+          skipHtmlTags: ["script", "noscript", "textarea", "pre", "code"],
+        },
       };
     </script>
 
     <script
       id="MathJax-script"
       async
-      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js">
-    </script>
+      src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"
+    ></script>
   </head>
   <body>
     <div class="main">
@@ -34,29 +43,92 @@
       </header>
       <nav class="nav-back">
         <button onclick="history.back()"><strong>Voltar</strong></button>
-        <button id="theme-toggle" aria-label="Toggle dark mode"><b>🌙 Trevas</b></button>
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <b>🌙 Trevas</b>
+        </button>
       </nav>
       <div class="book-content">{{CONTENT}}</div>
     </div>
     <script>
-      const btn = document.getElementById('theme-toggle');
+      const btn = document.getElementById("theme-toggle");
       const root = document.documentElement;
 
       function setTheme(theme) {
-          root.style.colorScheme = theme;
-          localStorage.setItem('theme', theme);
-          btn.textContent = theme === 'dark' ? '☀️ Luz' : '🌙 Trevas';
-          document.body.classList.toggle('dark', theme === 'dark');
+        root.style.colorScheme = theme;
+        localStorage.setItem("theme", theme);
+        btn.textContent = theme === "dark" ? "☀️ Luz" : "🌙 Trevas";
+        document.body.classList.toggle("dark", theme === "dark");
       }
 
       // Restore saved preference on page load
-      const saved = localStorage.getItem('theme') || 'light';
+      const saved = localStorage.getItem("theme") || "light";
       setTheme(saved);
 
-      btn.addEventListener('click', () => {
-          const current = root.style.colorScheme || 'light';
-          setTheme(current === 'light' ? 'dark' : 'light');
+      btn.addEventListener("click", () => {
+        const current = root.style.colorScheme || "light";
+        setTheme(current === "light" ? "dark" : "light");
       });
+    </script>
+    <script>
+      (function () {
+        const content = document.querySelector(".book-content");
+        if (!content) return;
+
+        // Collect headings
+        const headings = Array.from(content.querySelectorAll("h2, h3"));
+        if (headings.length < 2) return; // Not worth showing TOC for tiny pages
+
+        // Assign anchor IDs to each heading
+        headings.forEach((h, i) => {
+          if (!h.id) {
+            h.id =
+              "section-" +
+              i +
+              "-" +
+              h.textContent
+                .trim()
+                .toLowerCase()
+                .replace(/\s+/g, "-")
+                .replace(/[^\w-]/g, "");
+          }
+        });
+
+        // Build TOC element
+        const toc = document.createElement("nav");
+        toc.className = "toc";
+        toc.innerHTML = '<strong class="toc-title">Índice</strong>';
+
+        const ul = document.createElement("ul");
+        headings.forEach((h) => {
+          const li = document.createElement("li");
+          li.className = "toc-" + h.tagName.toLowerCase(); // toc-h2 or toc-h3
+          const a = document.createElement("a");
+          a.href = "#" + h.id;
+          a.textContent = h.textContent;
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+
+        toc.appendChild(ul);
+
+        // Highlight active section on scroll
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              const id = entry.target.id;
+              const link = toc.querySelector(`a[href="#${id}"]`);
+              if (link)
+                link.classList.toggle("toc-active", entry.isIntersecting);
+            });
+          },
+          { rootMargin: "0px 0px -70% 0px" },
+        );
+
+        headings.forEach((h) => observer.observe(h));
+
+        // Insert TOC before the book content
+        content.parentNode.insertBefore(toc, content);
+      })();
     </script>
   </body>
 </html>
