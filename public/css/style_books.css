@@ -227,12 +227,7 @@ a {
   text-decoration: underline;
 }
 
-/* Dark mode */
 body.dark .toc {
-  background: #1e1b14;
-  border-color: #4a3f2a;
-}
-
-body.dark .toc a {
-  color: #c8a96e;
+  background-color: var(--bg);
+  border-color: var(--border);
 }
