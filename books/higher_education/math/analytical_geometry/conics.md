@@ -16,7 +16,7 @@ $$
 
 Dessa definição extrai-se a popular construção de elipses com dois pontos fixos, um lápis e um barbante amarrado nos pontos fixos. Apoia-se o lápis no barbante e desenha-se de forma que o barbante mantenha-se esticado. O traçado final é uma elipse. 
 
-!()[https://upload.wikimedia.org/wikipedia/commons/2/2e/Ellipse_Animation_Small.gif]
+![](https://upload.wikimedia.org/wikipedia/commons/2/2e/Ellipse_Animation_Small.gif)
 
 <i>Construção geométrica de uma elipse a partir de pontos fixos. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Ellipse_Animation_Small.gif" target="_blank">Wikimedia Commons</a>.</i>
 
