@@ -6,7 +6,7 @@
 
 ![São Paulo Metro](https://upload.wikimedia.org/wikipedia/commons/0/00/Metro_de_S%C3%A3o_Paulo%2C_Luz_Station%2C_Brazil.jpg)
 
-<i>🎶🎹🎶🎹Próxima estação, next station, Butantã... (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Metro_de_S%C3%A3o_Paulo,_Luz_Station,_Brazil.jpg">Wikimedia Commons</a>)</i>
+<i>🎶🎹🎶🎹Próxima estação, next station, Butantã... (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Metro_de_S%C3%A3o_Paulo,_Luz_Station,_Brazil.jpg" target="_blank">Wikimedia Commons</a>)</i>
 
 A linha 1-Azul do metrô de São Paulo, também conhecida como Linha Norte-Sul, é a mais antiga linha do sistema do metrô, inaugurada em 1974. Também é uma das maiores e mais movimentadas, com milhões de passageiros atravessando os 20 quilômetros de trilhos todos os dias pelos mais variados motivos. A capital não poderia viver sem ela. 
 
@@ -154,11 +154,11 @@ Expandindo o minuendo do numerador por meio do binômio de Newton, temos que:
 
 $$
 \begin{align*}
-(x+h)^n &= {n \choose 0}x^n + {n \choose 1}x^{n-1} \cdot h + {n \choose 2} x^{n-2} \cdot h^2 + ... + {n \choose n} h^n \\\\ 
-&= \dfrac{n!}{0!(n-0)!} x^n + \dfrac{n!}{1!(n-1)!}x^{n-1}\cdot h + \dfrac{n!}{2!(n-2)!}
-\cdot h^2 + ...+ \dfrac{n!}{n!(n-n)!} \cdot h^n \\\\ 
-&= \dfrac{n!}{n!} x^n + \dfrac{n!}{(n-1)!} x^{n-1} \cdot h + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n \\\\ 
-&= x^n + nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n
+    (x+h)^n &= {n \choose 0}x^n + {n \choose 1}x^{n-1} \cdot h + {n \choose 2} x^{n-2} \cdot h^2 + ... + {n \choose n} h^n \\\\ 
+    &= \dfrac{n!}{0!(n-0)!} x^n + \dfrac{n!}{1!(n-1)!}x^{n-1}\cdot h + \dfrac{n!}{2!(n-2)!}
+    \cdot h^2 + ...+ \dfrac{n!}{n!(n-n)!} \cdot h^n \\\\ 
+    &= \dfrac{n!}{n!} x^n + \dfrac{n!}{(n-1)!} x^{n-1} \cdot h + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n \\\\ 
+    &= x^n + nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n
 \end{align*}
 $$
 
@@ -166,9 +166,8 @@ Substituindo a expansão no numerador do limite original, temos:
 
 $$
 \begin{align*} 
-(x+h)^n - x^n &= x^n + nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n - x^n \\\\
-&= nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n
-
+    (x+h)^n - x^n &= x^n + nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n - x^n \\\\
+    &= nhx^{n-1} + \dfrac{n!}{2(n-2)!} \cdot h^2 + ... + h^n
 \end{align*}
 $$
 
@@ -440,6 +439,8 @@ $$
 
 # Outras funções trigonométricas
 
+---
+
 Para essas outras funções, expostas na tabela abaixo, as demonstrações de suas derivadas podem ser realizadas por meio das regras do quociente ou do produto. Não as faremos aqui por questões de brevidade.
 
 $$
@@ -462,9 +463,9 @@ $$
 \end{array}
 $$
 
----
-
 # Funções trigonométricas inversas
+
+---
 
 $$
 \begin{array}{|c|c|}
@@ -486,8 +487,6 @@ $$
 \end{array}
 $$
 
----
-
 As derivadas das funções trigonométricas inversas podem ser demonstradas por meio da técnica da **derivação implícita**, tema da próxima seção. Suas provas também podem ser consultadas no artigo da Wikipedia citado anteriormente, onde estão apresentadas de forma detalhada.
 
 Observe que metade das derivadas coincide com a outra metade, diferindo apenas pelo sinal. Por exemplo:
@@ -504,6 +503,8 @@ Note também que as funções trigonométricas e suas inversas apresentam um pad
 É importante destacar que essas fórmulas são válidas apenas nos domínios em que as funções estão definidas. Por exemplo, $\sin^{-1} x$ está definida apenas no intervalo $[-1,1]$.
 
 # Práticas, regras e técnicas úteis 
+
+---
 
 Esta seção servirá como um compêndio de algumas regras, técnicas e práticas que podem ser úteis em algumas situações, acelerando o processo de derivação e economizando tempo e esforço. 
 

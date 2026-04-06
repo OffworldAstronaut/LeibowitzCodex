@@ -251,4 +251,4 @@ Este ciclo termodinâmico pode ser descrito de forma didática em seis passos.
 
 ![*Funcionamento de um motor Diesel. Imagem original de* [https://www.sciencefacts.net/diesel-cycle.html](https://www.sciencefacts.net/diesel-cycle.html).](./images/introduction_thermodynamics/introduction_thermodynamics_fourstroke.png)
 
-<i>Funcionamento de um motor Diesel. Imagem original <a href="https://www.sciencefacts.net/diesel-cycle.html">daqui</a></i>.
+<i>Funcionamento de um motor Diesel. Imagem original <a href="https://www.sciencefacts.net/diesel-cycle.html" target="_blank">daqui</a></i>.

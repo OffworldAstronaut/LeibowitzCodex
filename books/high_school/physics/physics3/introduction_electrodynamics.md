@@ -14,11 +14,11 @@ A definimos como sendo o **movimento ordenado de cargas elétricas**, no nosso c
 
 <aside>
 
-Por convenções de sinal, o movimento da corrente elétrica num circuito segue a direção oposta ao movimento dos elétrons. 
+Por convenções de sinal, o movimento da corrente elétrica num circuito segue a direção oposta ao movimento dos elétrons. Esta convenção possui raízes nos primórdios da eletrodinâmica, pela <a href="https://en.wikipedia.org/wiki/History_of_electromagnetic_theory" target="_blank">Teoria de Fluídos</a>.
 
 </aside>
 
-O movimento da corrente elétrica por um dado corpo pode ser percebido pela geração de fenômenos **térmicos** (efeito Joule), **luminosos**, **magnéticos** (isso será visto com mais detalhes em eletromagnetismo!), **fisiológicos** (contrações musculares) e/ou **químicos** (eletrodiposição)!
+O movimento da corrente elétrica por um dado corpo pode ser percebido pela geração de fenômenos **térmicos** (efeito Joule), **luminosos**, **magnéticos** (isso será visto com mais detalhes em eletromagnetismo!), **fisiológicos** (contrações musculares) e/ou **químicos** (eletrodiposição).
 
 ### Intensidade de uma corrente
 
@@ -40,22 +40,19 @@ Essa quantidade também pode ser encontrada pela área do gráfico $i \times t$,
 
 ### Amperímetros e voltímetros
 
-Experimentalmente, podemos medir a intensidade de uma corrente por meio de um **amperímetro**, ligado **em série** num circuito. O amperímetro ideal possui uma **resistência elétrica** nula. 
+Experimentalmente, podemos medir a intensidade de uma corrente por meio de um **amperímetro**, ligado **em série** num circuito. O amperímetro ideal possui uma resistência elétrica nula. 
 
 De forma análoga, podemos medir a tensão elétrica entre dois pontos por meio de um **voltímetro**, que deve ser ligado **em paralelo** num circuito e que, idealmente, possui uma resistência que tende ao infinito. 
 
 ### Relação entre corrente e tensão
 
-- Uma tensão **contínua** fornece uma corrente **contínua** - num único sentido, todo o tempo;
-- Uma tensão **alternada** fornece uma corrente **alternada** - seu sentido inverte periodicamente.
+Enquanto uma tensão contínua, isto é, de mesmo sinal ao longo do tempo, fornece uma corrente contínua, que possui um único sentido ao longo do tempo, uma tensão alternada — que varia de sinal em intervalos regulares — fornece uma corrente alternada, com seu sentido invertendo-se periodicamente.
 
 ## Resistência elétrica
 
 Como visto no primeiro livreto de eletrostática, alguns materiais, os **isolantes**, impõem uma certa dificuldade à passagem de carga (corrente) elétrica, enquanto os **condutores** exibem uma certa facilidade. 
 
-Damos o nome de **resistência elétrica** (ou simplesmente **resistência**) a essa propriedade, com ela sendo medida em **Ohms** $( \Omega)$: materiais condutores possuem baixa resistência, enquanto isolantes possuem uma alta resistência elétrica. 
-
-Isso será visto com mais detalhes no próximo livreto: **resistência elétrica!** 
+Damos o nome de <b>resistência elétrica</b> (ou simplesmente **resistência**) a essa propriedade, com ela sendo medida em <b>Ohms</b> $( \Omega)$: materiais condutores possuem baixa resistência, enquanto isolantes possuem uma alta resistência elétrica. A denominação dessa unidade foi feita em homenagem ao físico alemão <a href="https://en.wikipedia.org/wiki/Georg_Ohm" target="_blank">Georg Ohm</a>.
 
 # Somando tensões
 
@@ -65,9 +62,9 @@ Suponha que temos um circuito com algumas baterias, com voltagens diferentes, em
 
 ![Perceba que algumas baterias estão com o polo positivo (o de duas barrinhas) em orientações diferentes! ](./images/introduction_electrodynamics/introduction_electrodynamics_tensions.png)
 
-<i>Perceba que algumas baterias estão com o polo positivo (o de duas barrinhas) em orientações diferentes!</i>
+<i>Perceba que algumas baterias estão com o polo positivo (sinalizado por duas barras) em orientações diferentes.</i>
 
-Qual seria a bateria equivalente a essas quatro? Ou seja, que pudessemos substituir no circuito e ter o mesmo efeito? Podemos saber isso pela **soma de tensões**. 
+Qual seria a bateria equivalente a essas quatro? Ou seja, que pudessemos substituir no circuito e ter o mesmo efeito? Podemos saber isso pela soma de tensões. 
 
 Para somar as tensões corretamente, podemos “ler” o circuito da esquerda para a direita e somarmos ou subtrairmos os valores de acordo com a ordem dos polos que aparecem. Por exemplo, no circuito-exemplo fornecido, temos: 
 

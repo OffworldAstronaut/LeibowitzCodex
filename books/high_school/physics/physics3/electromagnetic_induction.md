@@ -10,7 +10,7 @@ Um exemplo da aplicação do conceito de indução é o forno elétrico, que com
 
 ![Imagem retirada da Wikipédia](https://upload.wikimedia.org/wikipedia/commons/b/b8/Induktionsh%C3%A4ll.JPG)
 
-<i>Você sabia que só é possível utilizar panelas especiais nos fogões de indução? O motivo vem do efeito Joule provocado pela movimentação de cargas: o alumínio possui baixa resistividade, diminuindo o calor emitido e reduzindo a eficácia da panela. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Induktionsh%C3%A4ll.JPG">Wikimedia Commons</a>.</i>
+<i>Você sabia que só é possível utilizar panelas especiais nos fogões de indução? O motivo vem do efeito Joule provocado pela movimentação de cargas: o alumínio possui baixa resistividade, diminuindo o calor emitido e reduzindo a eficácia da panela. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Induktionsh%C3%A4ll.JPG" target="_blank">Wikimedia Commons</a>.</i>
 
 Legal, né? 
 
@@ -56,7 +56,7 @@ Levando essas duas afirmações em conjunto, chegamos na expressão matemática 
 
 ![Originalmente na Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/7/72/Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif)
 
-<i>Animação ilustrando a Lei de Faraday-Lenz. Um campo magnético oscilatório produzido pelo solenoide causa a geração de uma corrente alternada na espira. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif">Wikimedia Commons</a>.</i>
+<i>Animação ilustrando a Lei de Faraday-Lenz. Um campo magnético oscilatório produzido pelo solenoide causa a geração de uma corrente alternada na espira. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Condutor elétrico imerso num campo magnético
 
@@ -81,7 +81,7 @@ Esses componentes são formados pela indução de um dado núcleo ferromagnétic
 
 ![Transformador](https://upload.wikimedia.org/wikipedia/commons/6/64/Transformer3d_col3.svg)
 
-<i>Esquema de um transformador ideal. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Transformer3d_col3.svg">Wikimedia Commons</a>.</i>
+<i>Esquema de um transformador ideal. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Transformer3d_col3.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Por sua vez, essa mudança provoca uma corrente elétrica de sentido variável, que acaba fazendo o efeito inverso na solenoide da outra ponta. Dependendo da diferença do número de voltas das solenoides, é possível aumentar ou diminuir a tensão entre os terminais de um transformador. 
 

@@ -46,7 +46,7 @@ Por exemplo, na imagem da carga positiva acima: você percebe as circunferência
 
 ![Todos os pontos em cada uma das linhas (de cada cor) possuem o mesmo potencial! Perceba que as linhas equipotenciais são perpendiculares às linhas de força!](./images/electric_potential/electric_potential_forcelines.png)
 
-<i>Todos os pontos em cada uma das linhas (de cada cor) possuem o mesmo potencial. Perceba que as linhas equipotenciais são perpendiculares às linhas de força (Captura de tela deste <a href="https://icphysweb.z13.web.core.windows.net/simulation.html">simulador</a>).</i>
+<i>Todos os pontos em cada uma das linhas (de cada cor) possuem o mesmo potencial. Perceba que as linhas equipotenciais são perpendiculares às linhas de força (Captura de tela deste <a href="https://icphysweb.z13.web.core.windows.net/simulation.html" target="_blank">simulador</a>).</i>
 
 # Várias cargas puntiformes
 
@@ -56,7 +56,7 @@ E se formos calcular o potencial elétrico num dado ponto que está próximo de 
 
 ![Como calcular o potencial elétrico no ponto branco? ](./images/electric_potential/electric_potential_multiple_potentials.png)
 
-<i>Como calcular o potencial elétrico no ponto branco? (Captura de tela deste <a href="https://icphysweb.z13.web.core.windows.net/simulation.html">simulador</a>).</i>
+<i>Como calcular o potencial elétrico no ponto branco? (Captura de tela deste <a href="https://icphysweb.z13.web.core.windows.net/simulation.html" target="_blank">simulador</a>).</i>
 
 Precisamos apenas calcular os potenciais elétricos em relação à cada carga e depois somá-los.
 

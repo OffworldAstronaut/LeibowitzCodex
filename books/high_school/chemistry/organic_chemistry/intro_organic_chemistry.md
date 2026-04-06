@@ -4,13 +4,13 @@
 
 ---
 
-No século XVIII, em 1777, Bergman, químico sueco, dividiu a crescente ciência da Química em duas áreas, a química inorgânica, química dos “minerais”, e a química orgânica, a “química dos seres vivos”. 
+No século XVIII, em 1777, <a href="https://en.wikipedia.org/wiki/Torbern_Bergman" target="_blank">Bergman</a>, químico sueco, dividiu a crescente ciência da Química em duas áreas, a química inorgânica, química dos “minerais”, e a química orgânica, a “química dos seres vivos”. 
 
-Nesse mesmo período, havia a Teoria da Força Vital, notavelmente defendida pelo químico sueco Berzelius em 1807, que dizia que somente os seres vivos podiam produzir, sintetizar, produtos orgânicos, produtos esses que Lavoisier verificou a presença de carbono em todos eles. 
+Nesse mesmo período, havia a <a href="https://en.wikipedia.org/wiki/Vitalism" target="_blank">teoria da força vital</a>, notavelmente defendida pelo químico sueco <a href="https://en.wikipedia.org/wiki/J%C3%B6ns_Jacob_Berzelius" target="_blank">Berzelius</a> em 1807, que dizia que somente os seres vivos podiam produzir, sintetizar, produtos orgânicos, produtos esses que <a href="https://en.wikipedia.org/wiki/Antoine_Lavoisier" target="_blank">Lavoisier</a> verificou a presença de carbono em todos eles. 
 
-Porém, em 1828, essa teoria, muito influente, foi derrubada pelo químico alemão Friedrich Wöhler: ele conseguiu sintetizar **ureia** (presente na urina) a partir de compostos inorgânicos, o que a Teoria da Força Vital via como impossível. 
+Porém, em 1828, essa teoria, muito influente, foi derrubada pelo químico alemão <a href="https://en.wikipedia.org/wiki/Friedrich_W%C3%B6hler" target="_blank">Friedrich Wöhler</a>: ele conseguiu sintetizar **ureia** (presente na urina) a partir de compostos inorgânicos, o que a teoria da Força Vital via como impossível. 
 
-Trinta anos depois, Friedrich August Kekulé, químico alemão, em meio a toda enfervescência científica do período, propôs à Academia uma nova maneira de definir a química orgânica, maneira essa que acabou sendo utilizada até hoje — a Química orgânica é a seção da química preocupada de forma especial com o Carbono e suas interações.
+Trinta anos depois, <a href="https://en.wikipedia.org/wiki/August_Kekul%C3%A9" target="_blank">Friedrich August Kekulé</a>, químico alemão, em meio a toda enfervescência científica do período, propôs à Academia uma nova maneira de definir a química orgânica, maneira essa que acabou sendo utilizada até hoje — a Química orgânica é a seção da química preocupada de forma especial com o Carbono e suas interações.
 
 # Postulados de Kekulé
 
@@ -18,9 +18,17 @@ Trinta anos depois, Friedrich August Kekulé, químico alemão, em meio a toda e
 
 Além disso, Kekulé propôs alguns postulados, bases, para todo o estudo da química orgânica, referentes ao seu elemento central, o Carbono.
 
-1. **O carbono é tetravalente**: sempre formando quatro ligações; 
-2. **As quatro ligações do carbono são iguais:** não importa a maneira que denotamos uma dada molécula de carbono, ela é simétrica, são sempre as mesmas moléculas; 
-3. **Os átomos de carbono podem ligar-se entre si formando cadeias:** isso permite uma quantidade absurda de combinações e compostos possíveis que podem ser feitos com o carbono; 
+<aside>
+<b>1º Postulado (Tetravalência do Carbono)</b> — O carbono, em ligações orgânicas, é tetravalente, isto é, sempre forma quatro ligações covalentes.
+</aside>
+
+<aside>
+<b>2º Postulado (Simetria do Carbono)</b> — As moléculas carbônicas são simétricas em relação a todas as suas ligações; não há diferença em compostos químicos se outros átomos se ligarem em posições diferentes.
+</aside>
+
+<aside>
+<b>3º Postulado (Cadeias carbônicas)</b> — Os átomos de carbono podem ligar-se entre si formando cadeias, permitindo uma grande variedade de compostos carbônicos.
+</aside>
 
 # Hibridação
 

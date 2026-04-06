@@ -312,7 +312,7 @@ Agora, se a função estiver sendo rotacionada entorno do eixo y, para calcular 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/31/Shell_integral_undergraph_-_around_y-axis.png)
 
-<i>Ilustração da integração em concha. Note a revolução do gráfico em torno do eixo vertical, enquanto a integral calculada tem sua variável de integração no eixo perpendicular. Imagem por Blacklemon67, via <a href="https://commons.wikimedia.org/wiki/File:Shell_integral_undergraph_-_around_y-axis.png">Wikimedia Commons</a>.</i>
+<i>Ilustração da integração em concha. Note a revolução do gráfico em torno do eixo vertical, enquanto a integral calculada tem sua variável de integração no eixo perpendicular. Imagem por Blacklemon67, via <a href="https://commons.wikimedia.org/wiki/File:Shell_integral_undergraph_-_around_y-axis.png" target="_blank">Wikimedia Commons</a>.</i>
 
 De forma mais geral, é um método utilizado para o cálculo do volume de um sólido de revolução quando os limites de integração estão no eixo **perpendicular** ao eixo de revolução.
 

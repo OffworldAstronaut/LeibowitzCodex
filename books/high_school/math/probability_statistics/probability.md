@@ -95,7 +95,7 @@ $$
 Podemos definir a probabilidade como uma função $P$ que satisfaz as propriedades vistas acima, o que nos dá mais alguns fatos: 
 
 1. $P(\Omega - A)=1-P(A)$
-2. $A\sube B \rightarrow P(A) \le P(B)$
+2. $A\sub B \rightarrow P(A) \le P(B)$
 3. $P(A \cup B) \rightarrow P(A) +P(B)-P(A\cap B)$
 
 # Probabilidade condicional
@@ -165,12 +165,9 @@ Primeiro, temos que $\text{Im}(X)=\{0, 1, 2, 3\}$. Assim, temos que
 $$
 \begin{align*}
     E(X)&= 0\cdot P(X=0)+1\cdot P(X=1) + 2\cdot P(X=2) + 3\cdot P(X=3) \\\\
-
     E(X)&= 0\cdot \dfrac{1}{8}+1 \cdot \dfrac{3}{8}+ 2\cdot \dfrac{3}{8}+ 3\cdot \dfrac{1}{8}\\\\
-
     E(X)&= \dfrac{12}{8}=\dfrac{3}{2}=1.5
 \end{align*}
-
 $$
 
 Ou seja, a cada três lançamentos, é esperado que saiam, em média, 1.5 caras a cada três lançamentos (que é 50% das vezes). Não é de certeza que isso aconteça, mas se executarmos o mesmo experimento várias e várias e várias vezes, a média de caras (a cada três lançamentos) será essa. 

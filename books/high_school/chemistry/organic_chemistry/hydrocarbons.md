@@ -16,7 +16,7 @@ Como dito **anteriormente**, os **hidrocarbonetos** são compostos orgânicos fo
 
 Os **alcanos**, também chamados **parafinas**, são hidrocarbonetos de cadeia aberta e saturada, com todos os seus carbonos possuido **hibridação sp³** (quatro ligações, geometria tetraédrica).
 
-Sua fórmula geral é sempre no formato $\text{C}_n \text{H}_{2n+2}$. 
+Sua fórmula geral é sempre no formato $\text C_n \text H_{2n+2}$. 
 
 Os alcanos são notados por sua estabilidade, graças ao fato de só possuírem ligações simples (sigma) decorrentes de sua hibridação. 
 

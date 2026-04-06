@@ -8,7 +8,7 @@ O que é **trabalho**? O conceito de trabalho na Física está intimamente ligad
 
 ![Plano inclinado](images/work_energy/work_energy_planoinclinado.jpeg)
 
-*Acima podemos ver um plano inclinado utilizado em universidades do século XVIII (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Piano_inclinato_inv_1041_IF_21341.jpg">Wikimedia Commons</a>).*
+<i>Acima podemos ver um plano inclinado utilizado em universidades do século XVIII (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Piano_inclinato_inv_1041_IF_21341.jpg">Wikimedia Commons</a>).</i>
 
 Vamos imaginar que no sopé deste plano inclinado temos um bloquinho que é lançado por uma mola. Desconsiderando o atrito e todas as outras forças que não sejam a força peso, o bloquinho avança com uma velocidade inicial $\overrightarrow{v_o}$ que diminui ao longo do tempo. 
 
@@ -185,7 +185,7 @@ Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **
 
 ![Sistema massa mola](images/work_energy/work_energy_spring_mass_system.gif)
 
-*Um sistema massa mola. Por Chetvorno, via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif">Wikimedia Commons</a>.*
+<i>Um sistema massa mola. Por Chetvorno, via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **poço de potencial**. Observando seu gráfico de energia potencial em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
 
@@ -196,7 +196,7 @@ Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **p
 O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{max}$, com todas as posições possíveis oscilando nessa parábola. 
 
 <aside>
-Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial! Um exemplo interessante pode ser encontrado <a href="">aqui</a>.
+Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.
 </aside>
 
 # Referências 

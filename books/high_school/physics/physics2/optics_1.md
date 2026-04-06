@@ -34,11 +34,11 @@ Muito utilizada em nosso dia a dia por nossos espelhos, a reflexão é um fenôm
 
 ![*Famoso experimento do “lápis quebrado” na água. Por Meganbeckett27, via Wikimedia Commons (CC-BY-SA).*](https://upload.wikimedia.org/wikipedia/commons/e/ed/Pencil_in_glass_of_water_showing_refraction.JPG)
 
-<i>Famoso experimento do “lápis quebrado” na água. Por Meganbeckett27, via <a href="https://commons.wikimedia.org/wiki/File:Pencil_in_glass_of_water_showing_refraction.JPG">Wikimedia Commons (CC-BY-SA)</a>.</i>
+<i>Famoso experimento do “lápis quebrado” na água. Por Meganbeckett27, via <a href="https://commons.wikimedia.org/wiki/File:Pencil_in_glass_of_water_showing_refraction.JPG" target="_blank">Wikimedia Commons (CC-BY-SA)</a>.</i>
 
 ![*A reflexão de um gato. Domínio público, via Wikimedia Commons.*](https://upload.wikimedia.org/wikipedia/commons/b/b0/Tom_View.jpg)
 
-<i>A reflexão de um gato. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Tom_View.jpg">Wikimedia Commons</a>.</i>
+<i>A reflexão de um gato. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Tom_View.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Óptica geométrica
 
@@ -80,7 +80,7 @@ Esta é a razão, por exemplo, de sombras difusas quando ligamos a luz do quarto
 
 ![*Diagrama ilustrando os diferentes tipos de eclipses solares. Por Sigmanexus6 e Streset, via Wikimedia Commons (CC-BY-SA).*](https://upload.wikimedia.org/wikipedia/commons/4/48/Solar_eclipse_types.svg)
 
-<i>Diagrama ilustrando os diferentes tipos de eclipses solares. Por Sigmanexus6 e Streset, via <a href="https://commons.wikimedia.org/wiki/File:Solar_eclipse_types.svg">Wikimedia Commons (CC-BY-SA)</a>.</i>
+<i>Diagrama ilustrando os diferentes tipos de eclipses solares. Por Sigmanexus6 e Streset, via <a href="https://commons.wikimedia.org/wiki/File:Solar_eclipse_types.svg" target="_blank">Wikimedia Commons (CC-BY-SA)</a>.</i>
 
 ## Espelhos
 
@@ -94,7 +94,7 @@ Os mais utilizados em nosso cotidiano, os espelhos **planos** possuem a propried
 
 ![*Trajetória de raios de luz num espelho plano. Domínio público, via Wikimedia Commons.* ](https://upload.wikimedia.org/wikipedia/commons/5/5f/Plane_mirror.png)
 
-<i>Trajetória de raios de luz num espelho plano. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Plane_mirror.png">Wikimedia Commons</a>.</i>
+<i>Trajetória de raios de luz num espelho plano. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Plane_mirror.png" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Esféricos
 
@@ -149,25 +149,25 @@ Entretanto, a critério de visualização, os cenários (comuns) possíveis são
 
 ![*Ilustração do cenário acima. Imagem sob CC-BY-SA, via Wikimedia Commons.*](https://upload.wikimedia.org/wikipedia/commons/9/91/Concavemirror_raydiagram_2FE.svg)
 
-<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_2FE.svg">Wikimedia Commons</a>.</i>
+<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_2FE.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 - Se o objeto estiver **entre o foco e o vértice do espelho**, a imagem será **virtual**, **direita** e **ampliada**.
 
 ![*Ilustração do cenário acima. Imagem sob CC-BY-SA, via Wikimedia Commons.* ](https://upload.wikimedia.org/wikipedia/commons/4/47/Concavemirror_raydiagram_F.svg)
 
-<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_F.svg">Wikimedia Commons</a>.</i>
+<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_F.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 - Se o objeto estiver **sobre o foco** do espelho, nenhuma imagem será formada.
 
 ![*Ilustração do cenário acima. Imagem sob CC-BY-SA, via Wikimedia Commons.*](https://upload.wikimedia.org/wikipedia/commons/4/40/Concavemirror_raydiagram_FE.svg)
 
-<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_FE.svg">Wikimedia Commons</a>.</i>
+<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_FE.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 - Se o objeto estiver **sobre o centro de curvatura**, a imagem será **real**, **invertida** e **de mesmo tamanho**.
 
 ![*Ilustração do cenário acima. Imagem sob CC-BY-SA, via Wikimedia Commons.*](https://upload.wikimedia.org/wikipedia/commons/3/37/Image-Concavemirror_raydiagram_2F_F.svg)
 
-<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_2F_F.svg">Wikimedia Commons</a>.</i>
+<i>Ilustração do cenário acima. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Concavemirror_raydiagram_2F_F.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 - Se o objeto estiver **além do centro de curvatura**, a imagem será **real**, **invertida** e **reduzida**, com seu tamanho diminuindo cada vez mais a medida que o objeto se afasta. No limite, com o objeto ao infinito, a imagem atinge um tamanho infinitesimal a medida que se aproxima do foco do espelho.
 
@@ -181,7 +181,7 @@ O espelho convexo, ao contrário das múltiplas possibilidades do espelho cônca
 
 ![*Espelho convexo numa garagem, permite os motoristas a enxergarem além das quinas.*](https://upload.wikimedia.org/wikipedia/commons/e/ee/2008-03-14_Convex_mirror_in_Atlanta_garage_entrance.jpg)
 
-<i>Espelho convexo numa garagem, permitindo os motoristas a enxergarem além das quinas. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:2008-03-14_Convex_mirror_in_Atlanta_garage_entrance.jpg">Wikimedia Commons</a>.</i>
+<i>Espelho convexo numa garagem, permitindo os motoristas a enxergarem além das quinas. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:2008-03-14_Convex_mirror_in_Atlanta_garage_entrance.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Aumento da imagem
 

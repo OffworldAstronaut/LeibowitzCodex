@@ -6,7 +6,7 @@
 
 O experimento é a base das ciências naturais e, em especial, a atividade central de toda a Física. Toda teoria física, por mais bem elaborada que seja, somente pode ser considerada válida se os experimentos concordam com ela.
 
-Se os experimentos não podem ser adequadamente justificados pela teoria, ela é inadequada e deve ser adaptada ou substituída completamente. Como exemplo para esta prática científica, podemos citar os sucessivos modelos atômicos propostos deste o século XIX: Dalton, Rutherford, Bohr, Schrödinger... todos eles buscaram explicar teoricamente o que o experimento mostrava e seus predecessores falhavam. 
+Se os experimentos não podem ser adequadamente justificados pela teoria, ela é inadequada e deve ser adaptada ou substituída completamente. Como exemplo para esta prática científica, podemos citar os sucessivos modelos atômicos propostos deste o século XIX: <a href="https://en.wikipedia.org/wiki/John Dalton" target="_blank">Dalton</a>, <a href="https://en.wikipedia.org/wiki/Ernest Rutherford" target="_blank">Rutherford</a>, <a href="https://en.wikipedia.org/wiki/Niels Bohr" target="_blank">Bohr</a>, <a href="https://en.wikipedia.org/wiki/Erwin Schrödinger" target="_blank">Schrödinger</a>... todos eles buscaram explicar teoricamente o que o experimento mostrava e seus predecessores falhavam. 
 
 Entretanto, há algo inerente nos experimentos que precisa ser considerado para que estes mantenham sua utilidade: eles estão sujeitos a <b>erros</b>. Uma medida pode se tornar imprecisa por falha no instrumento, inexperiência do aplicador ou até mesmo por interferências externas fora do controle do cientista. Como então levar em conta estes ruídos no processo experimental? 
 
@@ -51,7 +51,7 @@ $$
 
 ## Grandeza com valor desconhecido 
 
-Ao medirmos repetidamente uma grandeza de valor desconhecido, observamos que as leituras raramente coincidem entre si. Esse espalhamento nos resultados é inevitável e constitui a manifestação prática da incerteza da medição. Suas origens são três: fatores instrumentais (a própria resolução do aparelho), fatores humanos (julgamento e reação do operador) e fatores ambientais (temperatura, vibração, pressão atmosférica).
+Ao medirmos repetidamente uma grandeza de valor desconhecido, observamos que as leituras raramente coincidem entre si. Esse espalhamento nos resultados é inevitável e constitui a manifestação prática da incerteza da medição. Suas origens são três: fatores instrumentais (a própria resolução do aparelho), fatores humanos (julgamento e reação do operador) e fatores ambientais (<a href="/books/high_school/physics/physics2/thermal_dilation.html" target="_blank">temperatura</a>, vibração, pressão atmosférica).
 
 ### Algarismos significativos e o algarismo duvidoso
 

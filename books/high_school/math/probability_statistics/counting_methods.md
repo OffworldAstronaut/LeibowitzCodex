@@ -23,7 +23,6 @@ $$
     \left|\bigcup^n_{i=1}A_i\right|&=\sum^n_{i=1}|A_i|-\sum^n_{1\le i\lt j \le n}|A_i\cap A_j| \\\\
     &+\sum^{n}_{1 \le i \lt j \lt k \le n}|A_i \cap A_j \cap A_k|-... +(-1)^{n+1}|A_1\cap ... \cap A_n|
 \end{align*}
-
 $$
 
 Traduzindo isso para uma linguagem comum, seria basicamente um “bota-tira”, que é justamente o nome do princípio: primeiro se soma todos os elementos, depois retira-se a intercessão, depois coloca o que foi retirado mais de uma vez, depois retira-se o excesso e assim por diante, até que todos os conjuntos estejam contados apenas uma vez. 

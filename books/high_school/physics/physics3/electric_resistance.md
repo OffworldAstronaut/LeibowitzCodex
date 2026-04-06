@@ -78,7 +78,7 @@ Quando formarmos uma associação de resistores é interessante ter em mente a i
 
 ![image.png](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Resistors_in_series.svg/3840px-Resistors_in_series.svg.png)
 
-<i>Resistores em série. CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Resistors_in_series.svg">Wikimedia Commons</a>.</i>
+<i>Resistores em série. CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Resistors_in_series.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Acima temos uma representação de resistores **associados em série** ou simplesmente **em série**. 
 
@@ -132,7 +132,7 @@ $$
 
 ## Ponte de Wheatstone
 
-A **ponte de Wheatstone**, nomeada em homenagem ao físico inglês <a href="https://en.wikipedia.org/wiki/Charles Wheatstone">Charles Wheatstone</a>, responsável por sua popularização, é um caso especial de arranjos de resistores. 
+A **ponte de Wheatstone**, nomeada em homenagem ao físico inglês <a href="https://en.wikipedia.org/wiki/Charles Wheatstone" target="_blank">Charles Wheatstone</a>, responsável por sua popularização, é um caso especial de arranjos de resistores. 
 
 Seus resistores não podem ser classificados unicamente como em série ou paralelo, por conta de suas conexões em forma de diamante (são de associação mista). O circuito possui uma importante utilidade na **medição de resistências** por meio do **galvanômetro** conectado no meio dos resistores. 
 

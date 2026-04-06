@@ -38,7 +38,7 @@ Este fenômeno é o que é utilizado nos cabos de utilização, que permite tran
 
 ![*Laser sofrendo reflexão interna total no interior de uma barra de acrílico. Por Timwether, via Wikimedia Commons (CC-BY-SA).*](https://upload.wikimedia.org/wikipedia/commons/b/b0/Laser_in_fibre.jpg)
 
-<i>Laser sofrendo reflexão interna total no interior de uma barra de acrílico. Por Timwether, via <a href="https://commons.wikimedia.org/wiki/File:Laser_in_fibre.jpg">Wikimedia Commons</a> (CC-BY-SA).</i>
+<i>Laser sofrendo reflexão interna total no interior de uma barra de acrílico. Por Timwether, via <a href="https://commons.wikimedia.org/wiki/File:Laser_in_fibre.jpg" target="_blank">Wikimedia Commons</a> (CC-BY-SA).</i>
 
 # Leis da Refração
 
@@ -65,7 +65,7 @@ $$
 
 ![*Raio de luz sofrendo refração. Domínio Público, via Wikimedia Commons.* ](https://upload.wikimedia.org/wikipedia/commons/3/3f/Snells_law2.svg)
 
-<i>Raio de luz sofrendo refração. Domínio Público, via <a href="https://commons.wikimedia.org/wiki/File:Snells_law2.svg">Wikimedia Commons</a>.</i>
+<i>Raio de luz sofrendo refração. Domínio Público, via <a href="https://commons.wikimedia.org/wiki/File:Snells_law2.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Como estamos buscando o caso limite para a ocorrência da reflexão, definimos $\theta_R = 90°$ — o raio não atravessa para o outro meio, propagando-se paralelamente a ele. Dessa forma, podemos substituir $\theta_I = \theta_L$ e completar a prova.
 

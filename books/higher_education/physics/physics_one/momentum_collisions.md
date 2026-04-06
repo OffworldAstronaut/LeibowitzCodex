@@ -48,7 +48,7 @@ Nas colisões inelásticas, as mais comuns, temos a dissipação de energia cin�
 
 ![Fotografia estroboscópica de uma bola de basquete quicando no chão. Perceba que as alturas máximas ficam cada vez menores.](images/momentum_collisions/momentum_collisions_ball_bounce.jpg)
 
-<i>Fotografia estroboscópica de uma bola de basquete quicando no chão. Perceba que as alturas máximas ficam cada vez menores. CC-BY-SA via <a href="https://commons.wikimedia.org/wiki/File:Bouncing_ball_strobe_edit.jpg">Wikimedia Commons</a></i>.
+<i>Fotografia estroboscópica de uma bola de basquete quicando no chão. Perceba que as alturas máximas ficam cada vez menores. CC-BY-SA via <a href="https://commons.wikimedia.org/wiki/File:Bouncing_ball_strobe_edit.jpg" target="_blank">Wikimedia Commons</a></i>.
 
 Nas colisões perfeitamente elásticas, além da conservação do momento, temos a conservação perfeita da energia cinética. Nas colisões perfeitamente inelásticas, o máximo possível de energia cinética é perdido, preservando a conservação do momento. 
 
@@ -137,7 +137,7 @@ As hastes de <b>controle</b>, por sua vez, geralmente feitas de boro ou outro el
 
 ![Diagrama reator nuclear](https://upload.wikimedia.org/wikipedia/commons/a/a7/Nuclear_Reactor_Uranium_Pile_%2830502443888%29.jpg)
 
-<i>Acima: diagrama ilustrando um reator nuclear com hastes de controle de boro e grafite como "moderador" dos nêutrons. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Nuclear_Reactor_Uranium_Pile_(30502443888).jpg">Wikimedia Commons</a>.</i>
+<i>Acima: diagrama ilustrando um reator nuclear com hastes de controle de boro e grafite como "moderador" dos nêutrons. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Nuclear_Reactor_Uranium_Pile_(30502443888).jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 É possível deduzir as expressões para as colisões **perfeitamente elásticas** e **perfeitamente inelásticas** por meio de nossos conhecimentos de mecânica e álgebra linear. Vamos iniciar com o caso perfeitamente elástico.
 Considerando dois corpos com seus centros ligados por um vetor $\Delta \vec{x}$, podemos escrever os impulsos $\vec{J_1}$ e $\vec{J_2}$ sofridos pelos corpos e outras informações nas seguintes equações: 

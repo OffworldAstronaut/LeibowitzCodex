@@ -16,7 +16,9 @@ $$
 
 Dessa definição extrai-se a popular construção de elipses com dois pontos fixos, um lápis e um barbante amarrado nos pontos fixos. Apoia-se o lápis no barbante e desenha-se de forma que o barbante mantenha-se esticado. O traçado final é uma elipse. 
 
-![]()
+!()[https://upload.wikimedia.org/wikipedia/commons/2/2e/Ellipse_Animation_Small.gif]
+
+<i>Construção geométrica de uma elipse a partir de pontos fixos. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Ellipse_Animation_Small.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 Os pontos $F_1$ e $F_2$ são chamados <b>focos</b> da elipse, com os pontos formados pela intersecção da reta que passa por eles com a elipse e pela intersecção da reta perpendicular a esta e que passa pelo ponto médio entre os focos sendo denominados <b>vértices</b>. Sendo os dois primeiros pontos $D$ e $B$ e os dois últimos $A$ e $C$, temos o segmento $\bar{BD}$ de comprimento $a$ (o <b>eixo maior</b>) e o segmento $\bar{AC}$ de comprimento $b$ (o <b>eixo menor</b>). 
 
@@ -95,7 +97,6 @@ $$
 \begin{align*}
     x &= x_1 \cos{\theta} - y_1 \sin{\theta} \\\\
     y &= x_1 \sin{\theta} + y_1 \cos{\theta} \\\\
-
     x_1 &= x \cos{\theta} + y \sin{\theta} \\\\
     y_1 &= -x\sin{\theta} + y \cos{\theta}
 \end{align*}

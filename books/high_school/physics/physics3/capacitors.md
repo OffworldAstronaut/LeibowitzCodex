@@ -8,12 +8,6 @@ Imagine que você tem duas placas metálicas separadas por uma distância $d$, i
 
 Ao conectar uma das placas no terminal positivo e outra placa no terminal negativo, uma placa irá ficar deficiente em elétrons (com carga líquida positiva) e outra irá ficar excedente em elétrons (com carga líquida negativa): um campo elétrico uniforme de uma placa para outra irá surgir! 
 
-<aside>
-
-Não precisamos saber como uma bateria funciona aqui! Isso será explorado mais tarde… 
-
-</aside>
-
 Perceba que se desconectarmos nosso conjunto de placas da bateria e o conectarmos num circuito elétrico, os elétrons acumulados vão fluir e completar o circuito, *descarregando* as placas até que elas estejam neutras novamente. As placas formaram um **capacitor**. 
 
 Os capacitores são componentes elétricos que guardam energia com efeito parecido com uma bateria, somente com a exceção de que eles guardam cargas fornecidas a eles, enquanto as baterias fornecem cargas com base em reações químicas. 
@@ -36,7 +30,7 @@ $$
 
 <aside>
 
-A unidade da capacitância é o <b>Farad</b> $(\text{F})$ em homenagem a Michael Faraday.
+A unidade da capacitância é o <b>Farad</b> $(\text{F})$ em homenagem a <a href="https://en.wikipedia.org/wiki/Michael Faraday" target="_blank">Michael Faraday</a>.
 
 </aside>
 
@@ -144,7 +138,7 @@ Associar em série significa colocar-los em “linha reta” no circuito elétri
 
 ![Um circuito com três capacitores em série!](https://upload.wikimedia.org/wikipedia/commons/6/6f/Series_capacitors.png)
 
-<i>Um circuito com três capacitores em série! (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Series_capacitors.png">Wikimedia Commons</a>.</i>
+<i>Um circuito com três capacitores em série! (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Series_capacitors.png" target="_blank">Wikimedia Commons</a>)</i>
 
 Essa organização permite que o circuito seja submetido à uma maior DDP, já que a voltagem será distribuída entre os capacitores, prevenindo curtos-circuitos. 
 
@@ -181,7 +175,7 @@ Associar em paralelo significa que estamos colocando os componentes “lado a la
 
 ![Um circuito com capacitores em paralelo!](https://upload.wikimedia.org/wikipedia/commons/a/af/Parallel_series_capacitors.png)
 
-<i>Um circuito com capacitores em paralelo! (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Parallel_series_capacitors.png">Wikimedia Commons</a>.</i>
+<i>Um circuito com capacitores em paralelo! (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Parallel_series_capacitors.png" target="_blank">Wikimedia Commons</a>)</i>
 
 Essa organização permite que mais energia seja armazenada no circuito: essa é a origem dos grandes capacitores industriais. 
 

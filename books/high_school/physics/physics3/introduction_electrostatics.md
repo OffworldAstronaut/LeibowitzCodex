@@ -9,7 +9,7 @@ Para iniciarmos os estudos de eletrostática, é fundamental entender o conceito
 Nesse modelo atômico, o átomo é dividido em duas regiões, o **núcleo**, formado por prótons e nêutrons, e a **eletrosfera**, formada por elétrons. Essas partículas possuem uma propriedade chamada **carga elétrica**, podendo ser positiva (+), negativa (-) ou neutra (0), no caso dos prótons, elétrons e nêutrons, respectivamente. 
 
 <aside>
-<i>“A carga elétrica é a propriedade básica da matéria realizada por algumas partículas elementares que governam como partículas são afetadas por um campo elétrico ou magnético.”</i> (<a href="https://www.britannica.com/science/electric-charge">Encyclopaedia Brittanica - Electric Charge</a>)
+<i>“A carga elétrica é a propriedade básica da matéria realizada por algumas partículas elementares que governam como partículas são afetadas por um campo elétrico ou magnético.”</i> (<a href="https://www.britannica.com/science/electric-charge" target="_blank">Encyclopaedia Brittanica - Electric Charge</a>)
 </aside>
 
 É interessante mencionarmos ainda que medimos a carga elétrica dos corpos em **Coulombs $(\text C)$**, com a do elétron e do próton sendo denominada **carga elétrica elementar $(e)$,** valendo $\pm1.6×10^{−19} \text{ C}$, positiva no caso do próton e negativa no caso do elétron. Por ser a carga elétrica de uma única partícula, é impossível um corpo possuir uma carga elétrica menor que a carga elétrica elementar. 

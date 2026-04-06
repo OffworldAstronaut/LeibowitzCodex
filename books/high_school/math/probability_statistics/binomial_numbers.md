@@ -10,7 +10,7 @@ Antes de entendermos o que são os números binomiais, precisamos conhecer a con
 
 <i>Animação ilustrando a construção do triângulo de Pascal. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:PascalTriangleAnimated2.gif" target="_blank">Wikimedia Commons</a>.</i>
 
-Quando contamos as linhas e as colunas dele começando a partir de zero, podemos ver que o elemento da linha $n$ e da coluna $k$ é ${n \choose k}$. 
+Quando contamos as linhas e as colunas dele começando a partir de zero, podemos ver que o elemento da linha $n$ e da coluna $k$ é $\binom{n}{k}$. 
 
 Assim, cada número do triângulo é chamado <b>número binomial</b> ou <b>coeficiente binomial</b>, por conta de ser gerado por essas duas “coordenadas” e de possuir uma conexão muito próxima com o <b>Binômio de Newton</b>, que será falado adiante. 
 
@@ -25,7 +25,7 @@ Como dito anteriormente, o Triângulo de Pascal nos mostra várias relações co
 Relembrando a relação, temos que: 
 
 $$
-{n \choose k}+{n \choose k+1}={n+1 \choose k+1}
+\binom{n}{k}+\binom{n}{k+1}=\binom{n+1}{k+1}
 $$
 
 Transportando isso para o Triângulo de Pascal, podemos ver que a soma de dois números adjacentes é igual ao número abaixo da última parcela, da esquerda para a direita.
@@ -35,7 +35,7 @@ Transportando isso para o Triângulo de Pascal, podemos ver que a soma de dois n
 A relação nos fornece a equação: 
 
 $$
-{n \choose k}={n \choose n-k}
+\binom{n}{k} = \binom{n}{n-k}
 $$
 
 Ou seja, ao transportarmos isso para o Triângulo, temos a informação que de os elementos de uma mesma linha que estão à uma mesma distância do triângulo são iguais. 
@@ -47,7 +47,7 @@ O teorema das linhas recebe esse nome pelo fato de afirmar que a soma dos elemen
 Algebricamente, escrevemos: 
 
 $$
-\sum^n_{k=0} {n \choose k}={n \choose 0} + {n \choose 1} + {n \choose 2} + ... + {n \choose n}=2^n
+\sum^n_{k=0} \binom{n}{k}=\binom{n}{0} + \binom{n}{1} + \binom{n}{2} + ... + \binom{n}{n} = 2^n
 $$
 
 ### Teorema das Colunas
@@ -57,10 +57,10 @@ Assim como o teorema das linhas, o teorema das colunas recebe seu nome por conta
 Matematicamente, escrevemos: 
 
 $$
-\sum^p_{k=0}{n+k \choose n}={n \choose n}+{n+1 \choose n}+{n+2 \choose n}+...+{n+p \choose n}={n+p+1 \choose n+1}
+\sum^p_{k=0}\binom{n+k}{n}=\binom{n}{n}+\binom{n+1}{n}+\binom{n+2}{n}+...+\binom{n+p}{n}=\binom{n+p+1}{n+1}
 $$
 
-Ou seja, somando ${n+p \choose n}$ de $p=0$ até um $p\in \N$ qualquer, obtemos ${n+p+1 \choose n+1}$.
+Ou seja, somando $\binom{n+p}{n}$ de $p=0$ até um $p\in \mathbb{N}$ qualquer, obtemos $\binom{n+p+1}{n+1}$.
 
 ### Teorema das Diagonais
 
@@ -69,7 +69,7 @@ Seguindo o mesmo esquema de nomenclatura dos dois teoremas anteriores, o Teorema
 Algebricamente, escrevemos: 
 
 $$
-\sum^p_{k=0}{n+k \choose k}={n \choose 0}+{n+1 \choose 1}+{n+2 \choose 2}+...+{n+p \choose p}={n+p+1 \choose p}
+\sum^p_{k=0}\binom{n+k}{k} = \binom{n}{0}+\binom{n+1}{1}+\binom{n+2}{2}+...+\binom{n+p}{p}=\binom{n+p+1}{p}
 $$
 
 ## Desenvolvendo somas polinomiais
@@ -127,7 +127,7 @@ k(k+1)=k^2+k
 $$
 
 $$
- {k+1 \choose 2}=\dfrac{(k+1)k}{2}
+\binom{k+1}{2}=\dfrac{(k+1)k}{2}
 $$
 
 Assim, para transformar esse produto numa combinação, precisamos multiplicar e dividir por 2. 
@@ -135,19 +135,19 @@ Assim, para transformar esse produto numa combinação, precisamos multiplicar e
 Logo, temos que: 
 
 $$
-\sum^n_{k=1}2\dfrac{k(k+1)}{2!} \Longrightarrow 2\sum^n_{k=1}{k+1 \choose 2}
+\sum^n_{k=1}2\dfrac{k(k+1)}{2!} \Longrightarrow 2\sum^n_{k=1}\binom{k+1}{2}
 $$
 
 Agora, temos a expressão completa: 
 
 $$
-\sum^n_{k=1}k^2=2\sum^n_{k=1}{k+1 \choose 2}-\sum^n_{k=1}{k \choose 1}
+\sum^n_{k=1}k^2=2\sum^n_{k=1}\binom{k+1}{2}-\sum^n_{k=1}\binom{k}{1}
 $$
 
 Por fim, aplicando o Teorema das Colunas em cada um dos somatórios, temos, finalmente, que: 
 
 $$
-\sum^n_{k=1}k^2=2{n+2 \choose 3}-{n+1 \choose 2}=\dfrac{n(n+1)(2n+1)}{6}
+\sum^n_{k=1}k^2=2\binom{n+2}{3}-\binom{n+1}{2}=\dfrac{n(n+1)(2n+1)}{6}
 $$
 
 Podemos resolver as mais variadas somas se utilizando desse método. 
@@ -159,21 +159,21 @@ Podemos resolver as mais variadas somas se utilizando desse método.
 O Binômio de Newton é uma expressão matemática na forma $(a+b)^n$, com $a,b\in \R$ e $n \in \N$ que pode ser escrita da seguinte forma: 
 
 $$
-(a+b)^n=\sum^n_{k=0}{n \choose k}a^{n-k}b^k=
-\sum^n_{k=0}{n \choose k}a^kb^{n-k}
+(a+b)^n=\sum^n_{k=0}\binom{n}{k}a^{n-k}b^k=
+\sum^n_{k=0}\binom{n}{k}a^kb^{n-k}
 $$
 
 Que pode ser expandido assim: 
 
 $$
-(a+b)^n={n \choose 0}a^nb⁰+{n \choose 1}a^{n-1}b^1+...+{n \choose n}a^0b^n
+(a+b)^n=\binom{n}{0}a^nb⁰+\binom{n}{1}a^{n-1}b^1+...+\binom{n}{n}a^0b^n
 $$
 
 ## Por que os coeficientes são assim?
 
-Os coeficientes do Binômio são números no formato ${n \choose k}$, mas, por quê? 
+Os coeficientes do Binômio são números no formato $\binom{n}{k}$, mas, por quê? 
 
-Primeiro, temos que saber que, obviamente, $(a+b)^n$ é a mesma coisa que o produto de $(a+b)$ com ele mesmo $n$ vezes. Assim, para obtermos $a^nb⁰$, precisamos escolher $a$ em cada produto $n$ vezes, o que nos dá ${n \choose 0}$. Esse raciocínio é repetido para cada monômio da expressão: precisamos escolher um dos dois números $k$ vezes para formar aquele monômio em específico, o que nos acaba por gerar coeficientes no formato binomial. 
+Primeiro, temos que saber que, obviamente, $(a+b)^n$ é a mesma coisa que o produto de $(a+b)$ com ele mesmo $n$ vezes. Assim, para obtermos $a^nb⁰$, precisamos escolher $a$ em cada produto $n$ vezes, o que nos dá $\binom{n}{0}$. Esse raciocínio é repetido para cada monômio da expressão: precisamos escolher um dos dois números $k$ vezes para formar aquele monômio em específico, o que nos acaba por gerar coeficientes no formato binomial. 
 
 <aside>
 
@@ -185,25 +185,25 @@ Note que os coeficientes do Binômio são números que estão no Triângulo de P
 
 Imaginemos o seguinte problema: Qual o coeficiente do termo $a^3b^2$ do binômio $(a+b)^{10}$?
 
-Como podemos encontrar o número no formato ${n \choose k}$ que acompanha a parte literal $a^6b^4$ desse monômio que está dentro desse Binômio de Newton?
+Como podemos encontrar o número no formato $\binom{n}{k}$ que acompanha a parte literal $a^6b^4$ desse monômio que está dentro desse Binômio de Newton?
 
 A resposta é clara: primeiro, precisamos achar uma expressão que nos dê o **termo genérico** da expressão, i.e que pode nos fornecer qualquer termo que está dentro do binômio. 
 
 Vamos nos lembrar da expressão do binômio: 
 
 $$
-\sum^n_{k=0}{n \choose k}a^{n-k}b^k=\sum^n_{k=0}{n \choose k}a^kb^{n-k}
+\sum^n_{k=0}\binom{n}{k}a^{n-k}b^k=\sum^n_{k=0}\binom{n}{k}a^kb^{n-k}
 $$
 
 Agora, substituindo $n=10$… 
 
 $$
-\sum^{10}_{k=0}{10 \choose k}a^kb^{10-k}
+\sum^{10}_{k=0}\binom{10}{k}a^kb^{10-k}
 $$
 
 Essa expressão nos dá qualquer termo do binômio $(a+b)^{10}$. 
 
-Para respondermos a questão, precisamos notar uma coisa: comparando as informações dadas (a parte literal) e a expressão encontrada, temos que $k=6$, logo, o coeficiente será ${10 \choose 6}$, que é: 
+Para respondermos a questão, precisamos notar uma coisa: comparando as informações dadas (a parte literal) e a expressão encontrada, temos que $k=6$, logo, o coeficiente será $\binom{10}{6}$, que é: 
 
 $$
 \dfrac{10!}{6!(10-6)!}=\dfrac{10!}{6!4!}=210

@@ -20,7 +20,7 @@ Vale deixar claro que embora elas sejam chamadas “linhas de força”, nenhuma
 
 ![Note como os vetores do campo elétrico mudam de direção de acordo com sua posição! Note também a intensidade do campo elétrico (ela decai de forma inversamente proporcional ao quadrado da distância). ](./images/electric_potential/electric_potential_forcelines.png)
 
-<i>Note como os vetores do campo elétrico mudam de direção de acordo com sua posição! Note também a intensidade do campo elétrico (ela decai de forma inversamente proporcional ao quadrado da distância). (Captura de tela desse <a href="https://icphysweb.z13.web.core.windows.net/simulation.html">simulador</a>).</i>
+<i>Note como os vetores do campo elétrico mudam de direção de acordo com sua posição! Note também a intensidade do campo elétrico (ela decai de forma inversamente proporcional ao quadrado da distância). (Captura de tela desse <a href="https://icphysweb.z13.web.core.windows.net/simulation.html" target="_blank">simulador</a>).</i>
 
 Essa imagem também evidencia uma informação muito útil se encontrarmos alguma linha de força de forma não muito padronizada: **o vetor campo elétrico** daquele ponto **é sempre tangente às linhas de força**, já que elas são formadas de muitos e muitos pequenos vetores de campo elétrico, um para cada ponto do espaço. 
 

@@ -188,14 +188,12 @@ a {
   border: 1px solid var(--border, #c8b99a);
   border-radius: 6px;
   padding: 1rem 1.25rem;
-  margin-bottom: 2.5rem;
-  max-width: 680px;
 }
 
 .toc-title {
   display: block;
   font-family: 'Libertinus Math', serif;
-  font-size: 1.05rem;
+  font-size: 1.4rem;
   margin-bottom: 0.6rem;
   color: var(--text, #2a2a2a);
 }
@@ -217,7 +215,7 @@ a {
 .toc a {
   text-decoration: none;
   color: var(--link, #5a4a2a);
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   transition: color 0.2s;
 }
 

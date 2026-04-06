@@ -10,7 +10,7 @@ Levando em conta que a grandeza de <b>velocidade (média)</b> é a proporção d
 
 De forma semelhante, a aceleração é o valor da segunda derivada da função deslocamento num dado ponto. De fato, a partir das operações de integração e derivação, podemos encontrar as equações de movimento para qualquer móvel. 
 
-Uma aplicação notável desta última informação são os <b>Sistemas de Navegação Inercial</b> (<i>Inertial Navigation Systems</i>). Os SNIs são capazes de determinar a posição atual do veículo independentemente de informação externa, somente a partir do registro da aceleração sofrida pelo veículo ao longo do tempo e de uma posição inicial registrada na memória. São geralmente utilizados em aeronaves e espaçonaves, além de embarcações, como sistemas redundantes, caso a comunicação falhe.
+Uma aplicação notável desta última informação são os <b><a href="https://en.wikipedia.org/wiki/Inertial Navigation System" target="_blank">Sistemas de Navegação Inercial</a></b> (<i>Inertial Navigation Systems</i>). Os SNIs são capazes de determinar a posição atual do veículo independentemente de informação externa, somente a partir do registro da aceleração sofrida pelo veículo ao longo do tempo e de uma posição inicial registrada na memória. São geralmente utilizados em aeronaves e espaçonaves, além de embarcações, como sistemas redundantes, caso a comunicação falhe.
 
 # Vetores
 
@@ -37,7 +37,7 @@ Ao representarmos os vetores, fazemos o uso dos chamados <b>componentes</b>, pro
 
 <aside>
 
-Este livro possui o objetivo de ser um resumo adequado para a disciplina de Física 1, dispensando muito da profundidade e rigorosidade matemática em favor de algo mais simples e especializado. Algo mais aprofundado será escrito na parte matemática (nos tópicos sobre Geometria Analítica e Álgebra Linear).
+Este livro possui o objetivo de ser um resumo adequado para a disciplina de Física 1, dispensando muito da profundidade e rigorosidade matemática em favor de algo mais simples e especializado. Algo mais aprofundado será escrito na parte matemática (nos tópicos sobre <a href="/books/higher_education/math/analytical_geometry/the_plane.html">Geometria Analítica</a> e Álgebra Linear).
 
 </aside>
 
@@ -144,7 +144,7 @@ Como propriedade notável, o produto escalar nos fornece a componente de um dado
 
 ![](https://upload.wikimedia.org/wikipedia/commons/3/3e/Dot_Product.svg)
 
-<i>Ilustração da projeção escalar entre dois vetores. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Dot_Product.svg">Wikimedia Commons</a>.</i>
+<i>Ilustração da projeção escalar entre dois vetores. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Dot_Product.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Produto vetorial
 

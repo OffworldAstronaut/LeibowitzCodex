@@ -10,7 +10,7 @@ Numa análise microscópica, podemos entender a origem desses campos pelo **mode
 
 ![Modelo de Ising](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/2D_ising_model_on_lattice.svg/3840px-2D_ising_model_on_lattice.svg.png)
 
-<i>Modelo de Ising bidimensional, imagem sob CC-BY, via <a href="https://commons.wikimedia.org/wiki/File:2D_ising_model_on_lattice.svg">Wikimedia Commons</a>.</i>
+<i>Modelo de Ising bidimensional, imagem sob CC-BY, via <a href="https://commons.wikimedia.org/wiki/File:2D_ising_model_on_lattice.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 <aside>
 
@@ -28,7 +28,7 @@ Objetos magnetizados são denominados **ímãs**, possuindo dois **polos**, extr
 
 ![Ímã](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/VFPt_cylindrical_magnet_thumb.svg/3840px-VFPt_cylindrical_magnet_thumb.svg.png)
 
-<i>Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:VFPt_cylindrical_magnet_thumb.svg">Wikimedia Commons</a>.</i>
+<i>Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:VFPt_cylindrical_magnet_thumb.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Os ímãs possuem dois princípios fundamentais, com o primeiro estabelecendo que é impossível separar os polos magnéticos de um ímã: se tentarmos particioná-lo ao meio, não iremos ter metade com um polo norte e outra com um polo sul, e sim dois novos ímãs com suas próprias duplas norte-sul.
 
@@ -62,6 +62,6 @@ Para citar materiais paramagnéticos, podemos pensar no alumínio e na platina, 
 
 Por fim, temos os materiais **diamagnéticos** (”dia” vem do grego, *através*), que respondem fracamente a um campo magnético externo, porém com seu próprio campo magnético, de sinal oposto, provocando uma leve repulsão.
 
-Um exemplo notável de material diamagnético é a **água**: <a href="https://www.science.org/content/article/floating-frogs">um sapo até foi levitado utilizando ímãs</a>!
+Um exemplo notável de material diamagnético é a **água**: <a href="https://www.science.org/content/article/floating-frogs" target="_blank">um sapo até foi levitado utilizando ímãs</a>!
 
 Os holandeses são fora da curva.

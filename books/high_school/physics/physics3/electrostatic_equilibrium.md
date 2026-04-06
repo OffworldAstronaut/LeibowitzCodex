@@ -6,12 +6,7 @@
 
 Quando temos um **condutor eletrizado**, a tendência é que ele entre, eventualmente, em **equilíbrio eletrostático**. 
 
-Um corpo estar em equilíbrio eletrostático significa que suas cargas não estão mais se movimentando, e isso nos fornece algumas informações:
-
-- O campo elétrico no interior desse corpo condutor é nulo (afinal, se tivesse campo as cargas estariam se movimentando, o que não é verdade); 
-- O potencial elétrico é sempre constante, logo, a diferença de potencial é sempre nula;
-- Cargas distribuídas na superfície possuem campos elétricos perpendiculares à ela; 
-- Campos elétricos externos são anulados no interior do corpo.
+Um corpo estar em equilíbrio eletrostático significa que suas cargas não estão mais se movimentando, ou seja, o campo elétrico no interior desse corpo condutor é nulo. Por consequência, o potencial elétrico no interior desse corpo é sempre constante, com campos elétricos externos sendo anulados no interior desse corpo e as cargas elétricas excedentes distribuídas na superfície possuindo campos elétricos perpendiculares a elas.
 
 ![Uma esfera metálica carregada positivamente. Note as cargas distribuídas na superfície e o campo elétrico perpendicular. ](./images/electrostatic_equilibrium/electrostatic_equilibrium_esfera_carregada_positivamente.png)
 
@@ -25,13 +20,13 @@ Essas estruturas são aplicações práticas dos princípios detalhados acima, p
 
 ![GIF direto da Wikipédia! Preste muita atenção às cargas e ao campo!](https://upload.wikimedia.org/wikipedia/commons/f/f3/Faraday_cage.gif)
 
-<i>Preste atenção às cargas e ao campo. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Faraday_cage.gif">Wikimedia Commons</a></i>
+<i>Preste atenção às cargas e ao campo. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Faraday_cage.gif" target="_blank">Wikimedia Commons</a></i>
 
 O GIF acima ilustra o funcionamento de uma gaiola de Faraday quadrada: o campo elétrico estimula a **redistribuição de cargas** no condutor até ele **atingir o equilíbrio eletrostático**. O **campo elétrico no interior da gaiola cessa**, note que as cargas ficaram nos lados opostos ao sentido do campo. 
 
 ![Uma demonstração de uma gaiola de Faraday num evento científico. Elas estão bem! ](https://upload.wikimedia.org/wikipedia/commons/c/c0/Cage_de_Faraday.jpg)
 
-<i>Uma demonstração de uma gaiola de Faraday num evento científico. Elas estão bem! (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Cage_de_Faraday.jpg">Wikimedia Commons</a>)</i>
+<i>Uma demonstração de uma gaiola de Faraday num evento científico. Elas estão bem! (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Cage_de_Faraday.jpg" target="_blank">Wikimedia Commons</a>)</i>
 
 Ou seja… você pode ficar tranquilo ao andar de avião numa tempestade! Os raios não são problema
 
@@ -83,4 +78,4 @@ Mais cargas no mesmo lugar implica que o campo elétrico na superfície pontuda 
 
 ![Shazam! Em cidades com arranha-céus e outras estruturas altas e pontudas, é comum ver raios as atingindo. ](https://upload.wikimedia.org/wikipedia/commons/7/77/Funkturm_Arsenal_Blitze.jpg)
 
-<i>Shazam! Em cidades com arranha-céus e outras estruturas altas e pontudas, é comum ver raios as atingindo (Imagem sob CC-BY-SA, via <a href="https://upload.wikimedia.org/wikipedia/commons/7/77/Funkturm_Arsenal_Blitze.jpg">Wikimedia Commons</a>).</i>
+<i>Shazam! Em cidades com arranha-céus e outras estruturas altas e pontudas, é comum ver raios as atingindo (Imagem sob CC-BY-SA, via <a href="https://upload.wikimedia.org/wikipedia/commons/7/77/Funkturm_Arsenal_Blitze.jpg" target="_blank">Wikimedia Commons</a>).</i>

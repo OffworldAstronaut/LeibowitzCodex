@@ -145,7 +145,7 @@ Os compostos **mononucleares** possuem apenas um **anel aromático**, enquanto o
 
 A **regra de Hückel** nos fornece uma maneira simples de identificar se um composto é **aromático** ou não, mesmo em **casos mais gerais** (sim, há mais definições de “composto aromático” do que apenas possuir **benzeno**)! 
 
-Essa regra estabelece que, se um dado composto satisfazer a equação $4n+2=\text{# de ligações } \pi$, com $n \in \mathbb{N}$, então o composto analisado é um **composto aromático**. 
+Essa regra estabelece que, se um dado composto satisfazer a equação $4n+2=\text{número de ligações} \pi$, com $n \in \mathbb{N}$, então o composto analisado é um **composto aromático**. 
 
 Por exemplo, um **anel de benzeno** possui 3 duplas ligações, ou seja possui 6 “**elétrons** $\pi$” (”elétrons”, nesse contexto, inclui todos os elétrons das ligações), ora, podemos solucionar a equação com $n=1$, logo, pela **regra de Hückel**, o benzeno é um composto aromático. 
 

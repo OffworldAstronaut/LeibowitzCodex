@@ -61,7 +61,7 @@ Se a carga estiver se movendo de forma oblíqua em relação ao campo magnético
 
 ![Perceba!](https://upload.wikimedia.org/wikipedia/commons/c/cf/Lorentz_force_on_charged_particles_in_bubble_chamber_-_HD.6D.635_%2812000265314%29.svg)
 
-<i>Ação da Força de Lorentz sobre partículas carregadas. Perceba as trajetórias helicoidais. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Lorentz_force_on_charged_particles_in_bubble_chamber_-_HD.6D.635_(12000265314).svg">Wikimedia Commons</a>.</i>
+<i>Ação da Força de Lorentz sobre partículas carregadas. Perceba as trajetórias helicoidais. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Lorentz_force_on_charged_particles_in_bubble_chamber_-_HD.6D.635_(12000265314).svg" target="_blank">Wikimedia Commons</a>.</i>
 
 # Sobre um fio
 
