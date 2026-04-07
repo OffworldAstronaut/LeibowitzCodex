@@ -20,6 +20,12 @@ teóricos, o segundo expondo a história da técnica — incluindo suas variante
 e o terceiro discorrendo sobre as aplicações desse processo em diversos processos biomédicos,
 principalmente em diagnósticos e diferenciação de doenças.
 
+<aside>
+
+Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/raman_bio.pdf">aqui</a>.
+
+</aside>
+
 # Fundamentos teóricos 
 
 --- 
