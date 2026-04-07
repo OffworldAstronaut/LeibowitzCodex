@@ -26,6 +26,20 @@ Esse teorema pode ser compreendido como uma generalização do teorema de Rolle,
 
 Desse último caso, um exemplo muito palpável é o do velocímetro de um carro. Se numa viagem um automóvel teve uma velocidade média de 60 km/h, o TVM estabelece que houve pelo menos um instante em que o velocímetro marcou **exatamente 60 km/h**.
 
+# Regra de L'Hôpital 
+
+A Regra de L'Hôpital, também conhecida por Regra de Bernoulli, é uma excelente ferramenta para a resolução de limites que resultam em formas indeterminadas do tipo $\dfrac{0}{0}$ e $\dfrac{\infty}{\infty}$ caso o caminho da substituição direta seja adotado. 
+
+<aside>
+
+Teorema (Regra de L'Hôpital) — Sejam duas funções reais $f$ e $g$ contínuas e $c \in \mathbb{R}$. Caso $\lim_{x \rightarrow c}\dfrac{f(x)}{g(x)}$ resulte numa indeterminação do tipo $\dfrac{0}{0}$ ou $\dfrac{\infty}$, é válida a seguinte relação:
+
+$$
+\lim_{x \rightarrow c} \dfrac{f(x)}{g(x)} = \lim_{x \rightarrow c} \dfrac{f'(x)}{g'(x)}
+$$
+
+</aside>
+
 # Montando gráficos
 
 ---
