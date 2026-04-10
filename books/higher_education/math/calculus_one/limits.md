@@ -316,9 +316,23 @@ $$
 
 <aside>
 
-Caso ainda não tenha ficado claro, o uso de $\pm$ reflete uma “shorthand” para evitar escrever várias maneiras de conceitos parecidos — $\pm \infty$ pode ser expandido para $+ \infty$ e $-\infty$, por exemplo. Não necessariamente as duas coisas ao mesmo tempo, mas sim que existem duas variações, uma positiva e outra negativa, para as duas direções da reta real. 
+Caso ainda não tenha ficado claro, o uso de $\pm$ indica um atalho para evitar escrever várias maneiras de conceitos parecidos — $\pm \infty$ pode ser expandido para $+ \infty$ e $-\infty$, por exemplo. Não necessariamente as duas coisas ao mesmo tempo, mas sim que existem duas variações, uma positiva e outra negativa, para as duas direções da reta real. 
 
 </aside>
+
+De forma geral, uma estratégia muito útil para calcular limites no infinito de uma determinada função, particularmente funções polinomiais, é dividir cada um de seus termos pelo monômio de maior grau. Como exemplo, podemos ver o cálculo do limite infinito abaixo. 
+
+$$
+\begin{align*}
+    \lim_{x \rightarrow \infty} \dfrac{x^2 + x}{x^2 - 1} &= \lim_{x \rightarrow \infty} \dfrac{\dfrac{x^2}{x^2} + \dfrac{x}{x^2}}{\dfrac{x^2}{x^2} - \dfrac{1}{x^2}} \\\\
+    &= \lim_{x \rightarrow \infty} \dfrac{1 + \dfrac{1}{x}}{1 - \dfrac{1}{x^2}}
+    &= \dfrac{1}{1} = 1
+\end{align*}
+$$
+
+Perceba que um limite aparentemente complexo torna-se relativamente simples ao reescrever uma função de forma que o máximo de termos tenda a zero quando $x$ torna-se arbitrariamente grande. 
+
+Agora, e para o cálculo de limites com indeterminações da forma $\infty - \infty$, como podemos proceder? Uma estratégia possível é a combinação do rearranjamento algébrico com a aplicação da <a href="/books/higher_education/math/calculus_one/derivatives_applications.html" target="_blank">Regra de L'Hôpital</a>.
 
 Por consequẽncia, e finalizando o motivo da abertura desse adendo sobre limites no infinito, a reta $y=L$ é chamada **assíntota horizontal** da função $f$. 
 
@@ -347,7 +361,7 @@ Como exemplo, podemos citar a função $f(x)= \dfrac{x^2 - 9}{2x -4}$. Efetuando
 
 <i>Em verde, temos a função racional original. Em cinza, a reta produzida pela equação encontrada. Perceba que ela é a assíntota oblíqua da função.</i>
 
-# Apêndice: Continuidade
+# Apêndice I — Continuidade
 
 ---
 
@@ -389,3 +403,25 @@ Uma de suas aplicações, por exemplo, é demonstrar que expressões complexas p
 Logo, existe um número $x \in I$ tal que $f(x)=n$.
 
 Ou seja, ao escolhermos um valor dentro do intervalo da imagem de nossa função, deve existir mu valor do domínio correspondente, já que a função é contínua.
+
+# Apêndice II — Limites Fundamentais 
+
+---
+
+## Limite fundamental trigonométrico 
+
+Denominamos o limite $\lim_{x \rightarrow 0}\dfrac{\sin{x}}{x} = 1$ como o <b>limite fundamental trigonométrico</b>. A importância deste limite vem de sua utilidade em demonstrar muitas outras relações, além de permitir simplificar a resolver muitos outros limites de funções trigonométricas. 
+
+Este resultado pode ser demonstrado por meio da combinação de uma construção geométrica com o teorema do confronto. 
+
+<aside>
+
+<b>Limite fundamental trigonométrico (Demonstração)</b> — No plano, construa o círculo unitário e defina os pontos 
+
+</aside>
+
+## Limite fundamental exponencial 
+
+O limite $\lim_{x \rightarrow \infty} \left(1 + \dfrac{1}{x}\right)^x = e$ recebe o nome de <b>limite fundamental exponencial</b>, definindo o número $e$ como o limite de uma sequência. Este número possui uma enorme importância matemática, permitindo a facilitação de diversos cálculos por meio de suas propriedades. 
+
+Denominado <b>número de Euler</b> ou <b>número neperiano</b>, ele pode ser <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html">definido de uma outra maneira</a>, por meio de logaritmos, permitindo uma nova interpretação. 

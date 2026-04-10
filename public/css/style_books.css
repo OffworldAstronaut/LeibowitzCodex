@@ -208,9 +208,9 @@ a {
   line-height: 1.7;
 }
 
-.toc-h3 {
-  padding-left: 1.2rem;
-}
+.toc-h1 { padding-left: 0; }
+.toc-h2 { padding-left: 1.2rem; }
+.toc-h3 { padding-left: 2.4rem; }
 
 .toc a {
   text-decoration: none;
