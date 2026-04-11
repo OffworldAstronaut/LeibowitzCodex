@@ -22,7 +22,7 @@ Dessa definição extrai-se a popular construção de elipses com dois pontos fi
 
 Os pontos $F_1$ e $F_2$ são chamados <b>focos</b> da elipse, com os pontos formados pela intersecção da reta que passa por eles com a elipse e pela intersecção da reta perpendicular a esta e que passa pelo ponto médio entre os focos sendo denominados <b>vértices</b>. Sendo os dois primeiros pontos $D$ e $B$ e os dois últimos $A$ e $C$, temos o segmento $\bar{BD}$ de comprimento $a$ (o <b>eixo maior</b>) e o segmento $\bar{AC}$ de comprimento $b$ (o <b>eixo menor</b>). 
 
-A equação da elipse no plano cartesiano, centrada na origem, é dada por: 
+A equação reduzida da elipse no plano cartesiano, centrada na origem com seus focos sobre o eixo das abscissas, é dada por: 
 
 $$
 \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1
@@ -34,7 +34,7 @@ Dados dois pontos $F_1$ e $F_2$ e um número $r \lt d(F_1, F_2)$, a hipérbole �
 
 De forma similar a elipse, os pontos $A_1$ e $A_2$ formados pela intersecção da hipérbole com o segmento de reta que une os seus focos são chamados de <b>vértices</b> da hipérbole. 
 
-Uma hipérbole centrada na origem é dada pela equação 
+Uma hipérbole centrada na origem com focos sobre o eixo das abscissas é dada pela equação reduzida
 
 $$ 
 \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} = 1
@@ -49,13 +49,13 @@ $$
 \end{align*}
 $$
 
-São chamadas <b>assíntotas</b> da hipérbole, sendo os casos extremos das retas secantes à hipérbole que passam pela origem, com estas possuindo coeficientes angulares $m \in \left[-\dfrac{b}{a}, \dfrac{b}{a}\right]$.
+são chamadas <b>assíntotas</b> da hipérbole, sendo os casos extremos das retas secantes à hipérbole que passam pela origem, com estas possuindo coeficientes angulares $m \in \left[-\dfrac{b}{a}, \dfrac{b}{a}\right]$.
 
 ## Parábolas 
 
-Dados um ponto $F$ e uma reta $r$, chamamos de <b>parábola de foco $F$ e diretriz $r$</b> o conjunto de pontos que satisfaz $d(P, F) = d(P, r)$. Perceba que a reta "diretriz" "direciona" a orientação da parábola no plano. 
+Dados um ponto $F$ e uma reta $r$, chamamos de <b>parábola de foco $F$ e diretriz $r$</b> o conjunto de pontos que satisfaz $d(P, F) = d(P, r)$. Perceba que a reta diretriz <i>direciona</i> a orientação da parábola no plano. 
 
-Quando consideramos as posições de uma parábola no plano, há quatro casos especiais que podem ser analisados: concavidade para cima, concavidade para baixo, concavidade para a direita e concavidade para a esquerda. Respectivamente, suas equações são: 
+Quando consideramos as posições de uma parábola com seu vértice na origem, há quatro casos especiais que podem ser analisados: concavidade para cima, concavidade para baixo, concavidade para a direita e concavidade para a esquerda. Respectivamente, suas equações são: 
 
 $$ 
 \begin{align*}
@@ -83,77 +83,66 @@ Esta relação pode ser demonstrada/visualizada por meio de um diagrama contendo
 
 <aside>
 
-Numa interpretação física, modificar o meu sistema de coordenadas (mais usualmente por meio de translação) é a chamada "mudança de referencial", tornando possível a análise de um sistema físico a partir de outro "ponto de vista".
+Numa interpretação física, modificar o meu sistema de coordenadas (mais usualmente por meio de translação) é a chamada <b><a href="/books/higher_education/physics/physics_one/kinematics.html" target="_blank">mudança de referencial</a></b>, tornando possível a análise de um sistema físico a partir de outro "ponto de vista".
 
 </aside>
 
 ## Rotação 
 
-Ao rotacionar os eixos coordenados em um ângulo $\theta$, mensurado no sentido usual (anti-horário), criamos um outro sistema de coordenadas em que todos os pontos $P(x,y)$ do sistema usual recebem novas coordenadas $(x_1, y_1) = (x\cos{\theta} + y\sin{\theta}, -x\sin{\theta} + y\cos{\theta})$.
+Ao rotacionar os eixos coordenados em um ângulo $\theta$, mensurado no sentido usual (anti-horário), criamos um outro sistema de coordenadas em que todos os pontos $P(x,y)$ do sistema usual recebem novas coordenadas $(x_1, y_1) = (x\cos{\theta} - y\sin{\theta}, x\sin{\theta} + y\cos{\theta})$.
 
-De fato, essa conversão pode ser facilmente feita entre os dois sistemas seguindo as equações: 
+De fato, qualquer ponto (vetor) $(x, y)$ no plano pode ser rotacionado em $\theta$ graus para um ponto (vetor) $(x_1, y_1)$ por meio de sua multiplicação por uma <b>matriz de rotação</b>. 
 
 $$
-\begin{align*}
-    x &= x_1 \cos{\theta} - y_1 \sin{\theta} \\\\
-    y &= x_1 \sin{\theta} + y_1 \cos{\theta} \\\\
-    x_1 &= x \cos{\theta} + y \sin{\theta} \\\\
-    y_1 &= -x\sin{\theta} + y \cos{\theta}
-\end{align*}
+\begin{bmatrix}
+    \cos \theta & -\sin \theta \\\\ 
+    \sin \theta & \cos \theta     
+\end{bmatrix}
+\begin{bmatrix}
+    x \\\\ y
+\end{bmatrix}
+= 
+\begin{bmatrix}
+    x_1 \\\\ y_1
+\end{bmatrix}
 $$
 
 # Equação geral do segundo grau
 
 ---
 
-É possível representar todas as cônicas por meio de uma única equação da forma:
+É conhecido dos nossos estudos anteriores que uma equação do segundo grau em $x$ e em $y$ pode nos fornecer elipses, parábolas e hipérboles. Entretanto, o conjunto das seções cônicas possíveis de serem obtidas por equações do segundo grau é maior. Isso pode ser justificado por meio do seguinte raciocínio. 
+
+Imagine duas retas, $r$ e $s$, com suas respectivas equações cartesianas $ax+by+c=0$ e $a_1x+b_1y+c_1=0$. Vamos indicar o subconjunto do plano formado por estas duas retas pela notação $r \cup s$. Perceba que um dado ponto $P(x_0, y_0)$ pertence a este subconjunto se, e somente se este ponto satisfaz uma equação ou outra. 
+
+Isto implica que este ponto pertence a este conjunto se, e somente se, este satisfaz a equação oriunda do produto das equações de ambas as retas, ou seja, a equação 
 
 $$
-\begin{align*}
-ax^2 + by^2 + cxy + dx + ey + f &= 0 \\\\
-a, b \text{ ou } c &\neq 0
-\end{align*}
+(ax + by + c)(a_1x + b_1y + c_1) = 0
 $$
 
-De fato, não apenas as cônicas usuais (elipses, parábolas e hipérboles) podem ser representadas por uma equação desta forma, mas também outros subconjuntos do plano, como duas retas, uma única reta ou um único ponto. Também é um caso possível que o subconjunto do plano representado seja o conjunto vazio, quando nenhum ponto do plano satisfaça a equação apresentada. 
+É fácil ver que esta equação é uma equação do segundo grau em $x$ e em $y$. Além disso, é notável que as retas podem ser coincidentes, com seu conjunto solução sendo uma reta, concorrentes, fornecendo um único ponto, ou paralelas, com o conjunto solução sendo o conjunto vazio. 
 
-Para explorar estes outros subconjuntos, podemos começar pela indicação do conjunto de pontos formado por duas retas $r$ e $s$. Como estamos considerando os pontos de ambas as retas, estamos considerando o conjunto união, denotado por $r \cup s$. 
-
-Dessa forma, dado um ponto $(x_0, y_0)$ qualquer do plano, este só pertence ao conjunto união se, e somente se, ele satisfaz pelo menos uma das equações das retas.
-
-$$ 
-\begin{align*}
-    r&: ax_0 + by_0 + c = 0 \\\\
-    s&: a_1x_0 + b_1y_0 + c_1 = 0
-\end{align*}
-$$
-
-Também é verdadeiro que, se o ponto considerado pertence a uma das retas e a equação correspondente é satisfeita, a equação do segundo grau formada pelo produto das equações de ambas as retas também é satisfeita, ou seja, a equação formada pelo produto de ambas as equações é a equação cujo conjunto de soluções é o conjunto $r \cup s$. 
+Concluímos que uma equação da forma 
 
 $$
-(ax_0 + by_0 + c)(a_1x_0 + b_1y_0 + c_1) = 0
+Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0
 $$
 
-Perceba que esta equação é claramente uma equação do segundo grau. 
+com $A \neq 0$ ou $C \neq 0$ é uma cônica e o número $\Delta = B^2 - 4AC$ é invariante por rotação e denominado <b>discriminante</b>. Se $\Delta < 0$, a cônica formada é uma elipse ou um ponto; se $\Delta = 0$, uma parábola, uma única reta ou um par de retas paralelas e, por fim, se $\Delta > 0$, uma hipérbole ou um par de retas concorrentes. 
 
-Caso aconteça que $r$ e $s$ sejam coincidentes (a mesma reta), a equação do segundo grau formada irá representar apenas essa reta. É possível ainda que um único ponto do plano seja solução, ou nenhum. 
-
-Todas as opções apresentadas nesta seção também podem ser inclusas na categoria de "cônicas", menos o conjunto vazio. De fato, duas retas, uma única reta e um único ponto também podem ser representados como seções cônicas. 
-
-Retornando à equação apresentada no início da seção, a <b>equação geral do segundo grau</b>, podemos nos utilizar da translação e da rotação de eixos para simplificá-la em casos mais simples. Perceba que podemos rotacionar o sistema de coordenadas de acordo com seus coeficientes pelas relações 
+Como dito anteriormente, a rotação de eixos pode ser uma técnica especialmente útil para simplificação de equações. De fato, é possível provar que eliminaremos o termo $xy$ da equação se rotacionarmos os eixos em um ângulo de 
 
 $$
-\begin{align*}
-\theta &= \dfrac{1}{2}\arctan\left(\dfrac{c}{a-b}\right), a \neq b \\\\
-\theta &= \dfrac{\pi}{4}, a = b
-\end{align*}
+\begin{cases}
+    \dfrac{1}{2}\arctan{\dfrac{B}{A-C}} & A \neq C \\\\ 
+    \dfrac{\pi}{4} & A = C
+\end{cases}
 $$
 
-de forma que a equação seja reduzida para um formato 
+com raciocínios semelhantes podendo ser utilizados para simplificar uma determinada equação dada. 
 
-$$
-\begin{align*}
-Ax_1^2 + By_1^2 + Dx_1 + Ey_1 + F &= 0 \\\\
-A \neq 0 &\text{ ou } B \neq 0
-\end{align*}
-$$
+# Definição unificada das cônicas
+
+--- 
+
