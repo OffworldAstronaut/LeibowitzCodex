@@ -10,9 +10,13 @@ Como dito **anteriormente**, os **hidrocarbonetos** são compostos orgânicos fo
 
 ---
 
-![Aqui temos o **etano (C2H6)**, o segundo alcano mais simples, depois do metano.](images/hydrocarbons/alcohol.png)
+<aside>
 
-<i>Aqui temos o etano (C2H6), o segundo alcano mais simples, depois do metano.</i>
+<span class="smiles">CC</span>
+
+</aside>
+
+O etano (C2H6) é o segundo alcano mais simples, depois do metano.
 
 Os **alcanos**, também chamados **parafinas**, são hidrocarbonetos de cadeia aberta e saturada, com todos os seus carbonos possuido **hibridação sp³** (quatro ligações, geometria tetraédrica).
 
@@ -40,9 +44,13 @@ Pela sua dificuldade em serem encontrados naturalmente, geralmente são sintetiz
 
 ---
 
-![O **1,3-butadieno** é um alcadieno industrialmente importante para a produção de borracha sintética. O 1 e o 3 indicam as posições das ligações duplas.](images/hydrocarbons/buthene.png)
+<aside>
 
-*O **1,3-butadieno** é um alcadieno industrialmente importante para a produção de borracha sintética. O 1 e o 3 indicam as posições das ligações duplas.* 
+<span class="smiles">C=C-C=C</span>
+
+</aside>
+
+O **1,3-butadieno** é um alcadieno industrialmente importante para a produção de borracha sintética. O 1 e o 3 indicam as posições das ligações duplas.
 
 Os **alcadienos** são hidrocarbonetos que possuem duas ligações duplas entre carbonos. 
 
@@ -54,22 +62,30 @@ Se acontecer o caso de equidistância, considera-se a ramificação.
 
 ---
 
-![O **2-butino** é um alcino utilizado na fabricação sintética da vitamina E. Sob condições normais de temperatura e pressão, é um líquido reativo e incolor, de odor pungente. ](images/hydrocarbons/buthine.png)
+<aside>
 
-O **2-butino** é um alcino utilizado na fabricação sintética da vitamina E. Sob condições normais de temperatura e pressão, é um líquido reativo e incolor, de odor pungente. 
+<span class="smiles">CC#CC</span>
 
-![O **1,3-butenino** é um alcenino, normalmente presente em estado gasoso durante condições normais. Era utilizado industrialmente, mas acabou sendo ausentado pelas crescentes preocupações de segurança: ele consegue se autodetonar (explodir sem a presença de ar) se deixado sob uma pressão muito intensa.](images/hydrocarbons/butpropene.png)
+</aside>
 
-O **1,3-butenino** é um alcenino, normalmente presente em estado gasoso durante condições normais. Era utilizado industrialmente, mas acabou sendo ausentado pelas crescentes preocupações de segurança: ele consegue se autodetonar (explodir sem a presença de ar) se deixado sob uma pressão muito intensa.
+<aside>
 
-Os **alcinos**, por sua vez, são hidrocarbonetos insaturados com uma única ligação tripla. 
+<span class="smiles">C=C-C#C</span>
+
+</aside>
+
+<b>Imagem superior:</b> O 2-butino é um alcino utilizado na fabricação sintética da vitamina E. Sob condições normais de temperatura e pressão, é um líquido reativo e incolor, de odor pungente. 
+
+<b>Imagem inferior:</b> O 1,3-butenino é um alcenino, normalmente presente em estado gasoso durante condições normais. Era utilizado industrialmente, mas acabou sendo ausentado pelas crescentes preocupações de segurança: ele consegue se autodetonar (explodir sem a presença de ar) se deixado sob uma pressão muito intensa.
+
+Os <b>alcinos</b>, por sua vez, são hidrocarbonetos insaturados com uma única ligação tripla. 
 
 Por conta da alta instabilidade provocada pelas suas ligações $\pi$, os alcinos são compostos muito reativos. 
 
 A fórmula geral dos alcinos é dada por $\text C_n \text H_{2n-2}$. 
 
-Os **alceninos**, por sua vez, apresentam uma ligação dupla e uma tripla: na nomenclatura, a ligação dupla possui prioridade. Já os **ciclanos** são análogos cíclicos dos alcanos: hidrocarbonetos cíclicos com apenas ligações simples. Sua fórmula geral é dada por $\text C_n \text H_{2n}$. 
+Os <b>alceninos</b>, por sua vez, apresentam uma ligação dupla e uma tripla: na nomenclatura, a ligação dupla possui prioridade. Já os <b>ciclanos</b> são análogos cíclicos dos alcanos: hidrocarbonetos cíclicos com apenas ligações simples. Sua fórmula geral é dada por $\text C_n \text H_{2n}$. 
 
-Sua nomenclatura é idêntica aos ciclanos, com a adição do prefixo **“ciclo-”**. A mesma lógica segue para os ciclenos. 
+Sua nomenclatura é idêntica aos ciclanos, com a adição do prefixo <b>“ciclo-”</b>. A mesma lógica segue para os ciclenos. 
 
-Por fim, no caso dos compostos aromáticos, sua nomenclatura segue o mesmo padrão das outras, com a exceção da adição do sufixo **-benzeno**.
+Por fim, no caso dos compostos aromáticos, sua nomenclatura segue o mesmo padrão das outras, com a exceção da adição do sufixo <b>-benzeno</b>.
