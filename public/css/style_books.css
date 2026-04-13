@@ -230,7 +230,7 @@ body.dark .toc {
   border-color: var(--border);
 }
 
-.smiles svg {
+.smiles {
   width: 100%;
   max-width: 300px;
   height: auto;
