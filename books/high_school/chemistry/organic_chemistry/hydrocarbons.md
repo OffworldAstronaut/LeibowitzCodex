@@ -24,7 +24,7 @@ Os alcanos são notados por sua estabilidade, graças ao fato de só possuírem 
 
 ---
 
-![O **tetrametiletileno** (C6H12) é um alceno, sua reatividade faz com que ele seja um composto inflamável e perigoso para a saúde, utilizado na fabricação de herbicidas.](images/hydrocarbons/heptene.png)
+<span class="smiles">CCCCCC</span>
 
 O **tetrametiletileno** (C6H12) é um alceno, sua reatividade faz com que ele seja um composto inflamável e perigoso para a saúde, utilizado na fabricação de herbicidas.
 

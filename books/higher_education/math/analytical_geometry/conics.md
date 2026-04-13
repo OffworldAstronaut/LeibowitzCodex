@@ -144,5 +144,4 @@ com raciocínios semelhantes podendo ser utilizados para simplificar uma determi
 
 # Definição unificada das cônicas
 
---- 
-
+---
