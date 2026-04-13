@@ -16,33 +16,27 @@
       document.addEventListener("DOMContentLoaded", () => {
         const elements = document.querySelectorAll(".smiles");
 
+        const drawer = new SmilesDrawer.Drawer({
+          width: 250,
+          height: 180,
+          bondThickness: 1.2,
+          fontSizeLarge: 10,
+        });
+
         elements.forEach((el, i) => {
           const smiles = el.textContent.trim();
-          
-          const svg = document.createElementNS(
-            "http://www.w3.org/2000/svg",
-            "svg",
-          );
-          svg.setAttribute("width", "250");
-          svg.setAttribute("height", "180");
 
+          const canvas = document.createElement("canvas");
           el.innerHTML = "";
-          el.appendChild(svg);
+          el.appendChild(canvas);
 
           SmilesDrawer.parse(
             smiles,
             (tree) => {
-              const drawer = new SmilesDrawer.SVGDrawer({
-                width: 250,
-                height: 180,
-                bondThickness: 1.2,
-                fontSizeLarge: 10,
-              });
-
-              drawer.draw(tree, svg, "light", false);
+              drawer.draw(tree, canvas, "light", false);
             },
             (err) => {
-              el.textContent = "Invalid SMILES";
+              el.textContent = "Erro no SMILES";
               console.error(err);
             },
           );
