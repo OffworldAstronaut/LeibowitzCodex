@@ -13,32 +13,42 @@
     />
     <script src="https://unpkg.com/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
     <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const elements = document.querySelectorAll(".smiles");
+      document.addEventListener("DOMContentLoaded", () => {
+        const elements = document.querySelectorAll(".smiles");
 
-  const drawer = new SmilesDrawer.Drawer({
-    width: 250,
-    height: 180,
-    bondThickness: 1.2,
-    fontSizeLarge: 10
-  });
+        elements.forEach((el, i) => {
+          const smiles = el.textContent.trim();
+          
+          const svg = document.createElementNS(
+            "http://www.w3.org/2000/svg",
+            "svg",
+          );
+          svg.setAttribute("width", "250");
+          svg.setAttribute("height", "180");
 
-  elements.forEach((el, i) => {
-    const smiles = el.textContent.trim();
+          el.innerHTML = "";
+          el.appendChild(svg);
 
-    const canvas = document.createElement("canvas");
-    el.innerHTML = "";
-    el.appendChild(canvas);
+          SmilesDrawer.parse(
+            smiles,
+            (tree) => {
+              const drawer = new SmilesDrawer.SVGDrawer({
+                width: 250,
+                height: 180,
+                bondThickness: 1.2,
+                fontSizeLarge: 10,
+              });
 
-    SmilesDrawer.parse(smiles, tree => {
-      drawer.draw(tree, canvas, "light", false);
-    }, err => {
-      el.textContent = "Erro no SMILES";
-      console.error(err);
-    });
-  });
-});
-</script>
+              drawer.draw(tree, svg, "light", false);
+            },
+            (err) => {
+              el.textContent = "Invalid SMILES";
+              console.error(err);
+            },
+          );
+        });
+      });
+    </script>
     <script>
       window.MathJax = {
         tex: {
@@ -104,7 +114,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // Collect headings
         const headings = Array.from(content.querySelectorAll("h1, h2, h3"));
-        if (headings.length < 2) return; 
+        if (headings.length < 2) return;
 
         // Assign anchor IDs to each heading
         headings.forEach((h, i) => {
