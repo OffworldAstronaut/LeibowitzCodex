@@ -6,8 +6,6 @@
 
 Todo o nosso entendimento do Cálculo se apoia no conceito de <b>limites</b>.
 
-Uma definição possível que poderíamos escrever aqui seria a famosa <b>épsilon-delta</b>, porém ela é de certa forma muito complicada para nós que acabamos de entrar nessa aventura, por isso, vamos para uma outra abordagem.
-
 Definimos o limite de uma função $f(x)$ como o número em que podemos tornar o valor da função o quão próximo quanto quisermos dele, sem necessariamente ela o assumir. 
 
 Podemos representar essa quantidade por meio da notação 
@@ -23,6 +21,55 @@ Vale lembrar que estamos assumindo algumas coisas aqui, como o fato de $f$ ser u
 <aside>
 Num primeiro momento, nossa única ferramenta no cálculo desses limites é a aproximação numérica e, por consequência, a interpretação de gráficos.
 Isso mudará quando virmos algumas propriedades de limites, e poderemos calculá-los sem (muito) esforço.
+</aside>
+
+## Épsilon-Delta
+
+Conceitos como "tender", "aproximar", "proximidade" são abstratos o suficiente de forma que a definição intuitiva não possa ser classificada como uma definição matemática de fato. Dessa forma, a definição épsilon-delta de limites, também conhecida por <b>definição formal de limites</b> cumpre o requisito de ser rigorosa. 
+
+<aside>
+
+<b>Definição (Limite de uma função num ponto) — </b> Suponha uma função $f : \mathbb{R} \rightarrow \mathbb{R}$ e dois números reais, $a$ e $L$. Se, para todo $\varepsilon \gt 0$, existir um $\delta \gt 0$ tal que $0 \lt |x - a| \lt \delta$ implica $|f(x) - L| < \varepilon$, dizemos que $L$ é o limite de $f(x)$ quando $x$ tende a $a$, e escrevemos: 
+
+$$
+\lim_{x \rightarrow a} f(x) = L
+$$
+
+</aside>
+
+<aside>
+
+<b>Exemplo (Definição formal de limites)</b> — Pela definição épsilon-delta, prove o seguinte limite.
+
+$$
+\lim_{x \rightarrow 1} 3x-1 = 2 
+$$
+
+Substituindo, percebemos que 
+
+$$
+\begin{align*}
+    |f(x) - L| \lt \varepsilon &\Rightarrow |(3x-1)-2| \lt \varepsilon \\\\
+    &\Rightarrow |3x-3| \lt \varepsilon \\\\
+    &\Rightarrow 3|x-1| \lt \varepsilon \\\\
+    &\Rightarrow |x-1| \lt \dfrac{\varepsilon}{3}
+\end{align*}
+$$
+
+Dessa forma, podemos completar a prova ao definir $\delta = \dfrac{\varepsilon}{3}$: 
+
+$$
+\begin{align*}
+    |x-a| \lt \delta &\Rightarrow |x-1| \lt \dfrac{\varepsilon}{3} \\\\
+    &\Rightarrow 3|x-1| \lt \varepsilon \\\\
+    &\Rightarrow |3x-3| \lt \varepsilon \\\\
+    &\Rightarrow |(3x-1)-2| \lt \varepsilon \\\\
+    &\Rightarrow |f(x) - L| \lt \varepsilon
+\end{align*}
+$$
+
+Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \epsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim.
+
 </aside>
 
 ## Limites laterais

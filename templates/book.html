@@ -11,6 +11,38 @@
       href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/smiles-drawer@2.0.1/dist/smiles-drawer.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const elements = document.querySelectorAll(".smiles");
+
+        const drawer = new SmilesDrawer.Drawer({
+          width: 350,
+          height: 280,
+          bondThickness: 1.4,
+          fontSizeLarge: 12,
+        });
+
+        elements.forEach((el, i) => {
+          const smiles = el.textContent.trim();
+
+          const canvas = document.createElement("canvas");
+          el.innerHTML = "";
+          el.appendChild(canvas);
+
+          SmilesDrawer.parse(
+            smiles,
+            (tree) => {
+              drawer.draw(tree, canvas, "light", false);
+            },
+            (err) => {
+              el.textContent = "Erro no SMILES";
+              console.error(err);
+            },
+          );
+        });
+      });
+    </script>
     <script>
       window.MathJax = {
         tex: {
@@ -76,7 +108,7 @@
 
         // Collect headings
         const headings = Array.from(content.querySelectorAll("h1, h2, h3"));
-        if (headings.length < 2) return; 
+        if (headings.length < 2) return;
 
         // Assign anchor IDs to each heading
         headings.forEach((h, i) => {

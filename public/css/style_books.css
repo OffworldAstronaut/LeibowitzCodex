@@ -229,3 +229,11 @@ body.dark .toc {
   background-color: var(--bg);
   border-color: var(--border);
 }
+
+.smiles {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}

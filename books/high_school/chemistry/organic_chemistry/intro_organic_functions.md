@@ -4,194 +4,256 @@
 
 ---
 
-Antes de começarmos a descrever essa breve introdução sobre as **funções orgânicas**, vamos primeiro relembrar o que é uma **função**, na química. 
+Antes de começarmos a descrever essa breve introdução sobre as <b>funções orgânicas</b>, vamos primeiro relembrar o que é uma <b>função</b>, na química. 
 
-Uma função é **um grupo de compostos** que possui **características** químicas **semelhantes**, como por exemplo, se comportar de maneiras parecidas numa reação. 
+Uma função é <b>um grupo de compostos</b> que possui <b>características</b> químicas <b>semelhantes</b>, como por exemplo, se comportar de maneiras parecidas numa reação. 
 
-As funções podem ser **inorgânicas** (ácidos e bases) e **orgânicas**, que são as que iremos enumerar e discutir um pouco nesse documento.
+As funções podem ser <b>inorgânicas</b> (ácidos e bases) e <b>orgânicas</b>, que são as que iremos enumerar e discutir um pouco nesse documento.
 
 # Hidrocarbonetos
 
 ---
 
-Os **hidrocarbonetos** são conhecidos por esse nome pela sua característica determinante: em sua composição, esses compostos possuem apenas **carbono** e **oxigênio**. Podemos já citar aqui dois hidrocarbonetos bem conhecidos: o **metano** $(\text{CH}_4)$ e o **benzeno $(\text{C}_6\text{H}_6)$**. 
+Os <b>hidrocarbonetos</b> são conhecidos por esse nome pela sua característica determinante: em sua composição, esses compostos possuem apenas <b>carbono</b> e <b>oxigênio</b>. Podemos já citar aqui dois hidrocarbonetos bem conhecidos: o <b>metano</b> $(\text{CH}_4)$ e o <b>benzeno $(\text{C}_6\text{H}_6)$</b>. 
 
 # Funções oxigenadas
 
 ---
 
-As **funções oxigenadas** são denominadas assim pois possuem oxigênio em sua composição. 
+As <b>funções oxigenadas</b> são denominadas assim pois possuem oxigênio em sua composição. 
 
-Esse grupo possui várias subdividisões, de acordo com a presença ou ausência nos compostos de três funções oxigenadas básicas: as **hidroxilas**, as **carboxilas** e as **carbonilas**. 
+Esse grupo possui várias subdividisões, de acordo com a presença ou ausência nos compostos de três funções oxigenadas básicas: as <b>hidroxilas</b>, as <b>carboxilas</b> e as <b>carbonilas</b>. 
 
-![COH4.png](images/intro_organic_functions/COH4.png)
+<aside>
 
-As **hidroxilas** são funções oxigenadas compostas por um átomo de oxigênio ligado **por ligações simples** a um átomo de hidrogênio e a um de carbono. 
+<span class="smiles">C-O</span>
 
-Um exemplo de composto orgânico com uma hidroxila é o **metanol** $(\text{CH}_3\text{OH})$, visto ao lado, perceba a hidroxila no canto esquerdo! Esse **álcool** é um dos exemplos mais simples contendo uma hidroxila. 
+</aside>
 
-![COH2.png](images/intro_organic_functions/COH2.png)
+As <b>hidroxilas</b> são funções oxigenadas compostas por um átomo de oxigênio ligado <b>por ligações simples</b> a um átomo de hidrogênio e a um de carbono. 
 
-As **carbonilas** são funções oxigenadas compostas por um átomo de carbono ligado a um oxigênio por uma **ligação dupla** e a outros dois átomos por ligação simples. 
+Um exemplo de composto orgânico com uma hidroxila é o <b>metanol</b> $(\text{CH}_3\text{OH})$, visto ao lado, perceba a hidroxila no canto esquerdo! Esse <b>álcool</b> é um dos exemplos mais simples contendo uma hidroxila. 
 
-Um exemplo de molécula com essa função é o **formol**, o $\text{CH}_2\text O$, muito utilizado para a preservação de cadáveres, por exemplo.
+<aside>
 
-![CO2H2.png](images/intro_organic_functions/CO2H2.png)
+<span class="smiles">C=O</span>
 
-Por fim, as **carboxilas** são funções que podem ser entendidas como **carbonilas** onde **uma das duas ligações simples** do **carbono** é uma **hidroxila**. 
+</aside>
 
-Um exemplo de molécula com uma carboxila é o **ácido metanoico** $(\text{CO}_2\text H_2)$! 
+As <b>carbonilas</b> são funções oxigenadas compostas por um átomo de carbono ligado a um oxigênio por uma <b>ligação dupla</b> e a outros dois átomos por ligação simples. 
+
+Um exemplo de molécula com essa função é o <b>formol</b>, o $\text{CH}_2\text O$, muito utilizado para a preservação de cadáveres, por exemplo.
+
+<aside>
+
+<span class="smiles">C(-O)=O</span>
+
+</aside>
+
+Por fim, as <b>carboxilas</b> são funções que podem ser entendidas como <b>carbonilas</b> onde <b>uma das duas ligações simples</b> do <b>carbono</b> é uma <b>hidroxila</b>. 
+
+Um exemplo de molécula com uma carboxila é o <b>ácido metanoico</b> $(\text{CO}_2\text H_2)$! 
 
 Esse ácido é o mais simples dos ácidos orgânicos.
 
 ## Álcoois, enóis e fenóis
 
-Os **álcoois** são funções orgânicas que contém **hidroxilas** ligadas a um **carbono saturado**, ou seja, um carbono que **só possui ligações simples**. 
+Os <b>álcoois</b> são funções orgânicas que contém <b>hidroxilas</b> ligadas a um <b>carbono saturado</b>, ou seja, um carbono que <b>só possui ligações simples</b>. 
 
-Eles ainda podem ser subdivididos em **primários, secundários ou terciários**, de acordo com a classificação do carbono da hidroxila. 
+Eles ainda podem ser subdivididos em <b>primários, secundários ou terciários</b>, de acordo com a classificação do carbono da hidroxila. 
 
-Os **enóis**, por sua vez, são funções orgânicas que possuem **hidroxilas** ligadas a um carbono que possui uma **ligação dupla**, enquanto os **fenóis** são funções cujas hidroxilas estão ligadas a um **anel aromático**. 
+Os <b>enóis</b>, por sua vez, são funções orgânicas que possuem <b>hidroxilas</b> ligadas a um carbono que possui uma <b>ligação dupla</b>, enquanto os <b>fenóis</b> são funções cujas hidroxilas estão ligadas a um <b>anel aromático</b>. 
 
-![**Metanol**, um álcool bem simples.](images/intro_organic_functions/COH4.png)
+<aside>
 
-![O **etenol**, o **enol** mais simples de todos.](images/intro_organic_functions/C2OH4.png)
+<span class="smiles">C-O</span>
 
-![O **fenol**.](images/intro_organic_functions/C6OH6.png)
+<span class="smiles">C=C-O</span>
 
+<span class="smiles">C1(-OH)=CC=CC=C1</span>
+
+</aside>
 
 Acima estão retratados o etenol, o enol mais simples de todos; o metanol, um álcool simples e, por último, o fenol. 
 
 ## Aldeídos e cetonas
 
-Os **aldeídos** são funções orgânicas que possuem carbonilas **“nas pontas”** dos compostos, ou seja, que **não** possuem as **duas ligações simples** sendo átomos de **carbono**. O **caso contrário**, com o **carbono** da carbonila possuindo **ligações simples** com outros **dois carbonos**, é denominado **cetona**.
+Os <b>aldeídos</b> são funções orgânicas que possuem carbonilas <b>“nas pontas”</b> dos compostos, ou seja, que <b>não</b> possuem as <b>duas ligações simples</b> sendo átomos de <b>carbono</b>. O <b>caso contrário</b>, com o <b>carbono</b> da carbonila possuindo <b>ligações simples</b> com outros <b>dois carbonos</b>, é denominado <b>cetona</b>.
 
-![Um exemplo de **aldeído**, note a carboxila na “ponta da cadeia’’: somente uma das ligações simples é um carbono! ](images/intro_organic_functions/C2OH4_2.png)
+<aside>
 
-![Uma molécula de **acetona**, que, surpreendemente, é um **cetona!** Perceba que ambas as ligações simples da carbolina são carbonos. ](images/intro_organic_functions/C3OH6.png)
+<span class="smiles">C-C=O</span>
 
-Na primeira imagem há um exemplo de **aldeído**, note a carboxila na “ponta" da cadeia: somente uma das ligações simples é um carbono. Na segunda image, há ma molécula de **acetona**, que, surpreendemente, é um cetona. Perceba que ambas as ligações simples da carbolina são carbonos. 
+<span class="smiles">C-C(=O)-C</span>
+
+</aside>
+
+Na primeira imagem há um exemplo de <b>aldeído</b>, note a carboxila na “ponta" da cadeia: somente uma das ligações simples é um carbono. Na segunda image, há ma molécula de <b>acetona</b>, que, surpreendentemente, é um cetona. Perceba que ambas as ligações simples da carbolina são carbonos. 
 
 ## Éteres, ésteres e anidridos
 
-Os **éteres** são funções orgânicas que possuem um **oxigênio** entre **dois carbonos**, enquanto os **ésteres** são **carbonilas**, com uma das ligações simples do carbono sendo um átomo de oxigênio, que por sua vez está ligado a um outro átomo de carbono. 
+Os <b>éteres</b> são funções orgânicas que possuem um <b>oxigênio</b> entre <b>dois carbonos</b>, enquanto os <b>ésteres</b> são <b>carbonilas</b>, com uma das ligações simples do carbono sendo um átomo de oxigênio, que por sua vez está ligado a um outro átomo de carbono. 
 
-![O **dimetiléter** ou **metoxímetano** é o éter mais simples de todos.](images/intro_organic_functions/C2OH6.png)
+<aside>
 
-![O **metanoato de metila**, éster formado pela reação do **ácido metanoico** com o **metanol**.](images/intro_organic_functions/C2O2H4.png)
+<span class="smiles">C-O-C</span>
+<span class="smiles">C-O-C=O</span>
 
-No primeiro diagrama está retratado um **dimetiléter**, também conhecido por **metoxímetano**. É o éter mais simples de todos. Já na segunda imagem, está retratado o **metanoato de metila**, éster formado pela reação do **ácido metanoico** com o **metanol**.
+</aside>
 
-Por fim, um **anidrido** é formado ao ligarmos o último carbono a um outro átomo de oxigênio por meio de uma **ligação dupla**. 
+No primeiro diagrama está retratado um <b>dimetiléter</b>, também conhecido por <b>metoxímetano</b>. É o éter mais simples de todos. Já na segunda imagem, está retratado o <b>metanoato de metila</b>, éster formado pela reação do <b>ácido metanoico</b> com o <b>metanol</b>.
+
+Por fim, um <b>anidrido</b> é formado ao ligarmos o último carbono a um outro átomo de oxigênio por meio de uma <b>ligação dupla</b>. 
 
 # Funções nitrogenadas
 
 ---
 
-Enquanto as funções **oxigenadas** possuem oxigênio em sua composição, as funções **nitrogenadas** possuem nitrogênio, são elas as **aminas**, **amidas, nitrocompostos e nitrilas**. 
+Enquanto as funções <b>oxigenadas</b> possuem oxigênio em sua composição, as funções <b>nitrogenadas</b> possuem nitrogênio, são elas as <b>aminas</b>, <b>amidas, nitrocompostos e nitrilas</b>. 
 
 ## Aminas
 
-As **aminas** são **funções** **parecidas com a amônia**: o nitrogênio central possui um par de elétrons livres e três ligações simples com outros átomos, sejam eles de **carbono** ou **nitrogênio**. 
+As <b>aminas</b> são <b>funções</b> <b>parecidas com a amônia</b>: o nitrogênio central possui um par de elétrons livres e três ligações simples com outros átomos, sejam eles de <b>carbono</b> ou <b>nitrogênio</b>. 
 
-Dependendo da quantidade de carbonos ligados ao nitrogênio central, podemos classificar as aminas em **primárias**, **secundárias** e **terciárias**. 
+Dependendo da quantidade de carbonos ligados ao nitrogênio central, podemos classificar as aminas em <b>primárias</b>, <b>secundárias</b> e <b>terciárias</b>. 
 
-![image.png](images/intro_organic_functions/CNH5.png)
+<aside>
 
-A molécula ao lado é a **metilamina** $(\text C \text H_5 \text N)$, sendo ela um exemplo de composto que possui uma uma **amina primária**: perceba que temos um nitrogênio ligado a outros dois hidrogênios e a um átomo de carbono por meio de **ligações simples**, o que caracteriza uma amina. 
+<span class="smiles">C-N</span>
 
-Como o nitrogênio está ligado a apenas um átomo de carbono, a metilamina possui uma amina **primária**. 
+</aside>
 
-![image.png](images/intro_organic_functions/C2NH7.png)
+A molécula ao lado é a <b>metilamina</b> $(\text C \text H_5 \text N)$, sendo ela um exemplo de composto que possui uma uma <b>amina primária</b>: perceba que temos um nitrogênio ligado a outros dois hidrogênios e a um átomo de carbono por meio de <b>ligações simples</b>, o que caracteriza uma amina. 
 
-Essa é a **dimetilamina $(\text C_2 \text H_7 \text N)$**, um composto que possui uma **amina secundária**: o nitrogênio central está ligado a **dois** átomos de carbono e um de hidrogênio por ligações simples! 
+Como o nitrogênio está ligado a apenas um átomo de carbono, a metilamina possui uma amina <b>primária</b>. 
+
+<aside>
+
+<span class="smiles">C-N-C</span>
+
+</aside>
+
+Essa é a <b>dimetilamina</b> $(\text C_2 \text H_7 \text N)$, um composto que possui uma <b>amina secundária</b>: o nitrogênio central está ligado a <b>dois</b> átomos de carbono e um de hidrogênio por ligações simples! 
 
 Não esqueça o par de elétrons não-ligantes no Nitrogênio! 
 
-![image.png](images/intro_organic_functions/C3NH9.png)
+<aside>
 
-Para completar o padrão, a molécula ao lado é a **trimetilamina $(\text C_3 \text H_9 \text N)$,** um composto **extremamente tóxico** porém utilizado amplamente na fabricação de tintas, fertilizantes e herbicidas. 
+<span class="smiles">C-N(-C)-C</span>
+
+</aside>
+
+Para completar o padrão, a molécula ao lado é a <b>trimetilamina</b> $(\text C_3 \text H_9 \text N)$, um composto extremamente tóxico porém utilizado amplamente na fabricação de tintas, fertilizantes e herbicidas. 
 
 Interessantemente, também é possível detectar a podridão de um peixe se ele estiver secretando esse composto. 
 
-Perceba que o nitrogênio central está ligado a outros três átomos de carbono: uma amina **terciária!**
+Perceba que o nitrogênio central está ligado a outros três átomos de carbono: uma amina terciária. 
 
 ## Amidas
 
 ---
 
-![image.png](images/intro_organic_functions/CNOH3.png)
+<aside>
 
-As **amidas** são funções orgânicas nitrogenadas cujo átomo de nitrogênio está ligado ao átomo de carbono de uma **carbonila** por uma **ligação simples**. 
+<span class="smiles">N-C=O</span>
 
-Um exemplo de amida é o composto ao lado, uma **formamida** $(\text {CH}_3 \text{NO})$, perceba o **grupo amina** ao lado!
+</aside>
+
+As <b>amidas</b> são funções orgânicas nitrogenadas cujo átomo de nitrogênio está ligado ao átomo de carbono de uma <b>carbonila</b> por uma <b>ligação simples</b>. 
+
+Um exemplo de amida é o composto ao lado, uma <b>formamida</b> $(\text {CH}_3 \text{NO})$, perceba o <b>grupo amina</b> ao lado!
 
 ## Nitrocompostos
 
 ---
 
-![image.png](images/intro_organic_functions/CNO2H3.png)
+<aside>
 
-Também conhecidos pela denominação **nitroderivados**, os nitrocompostos são funções orgânicas que possuem um **grupo** **nitro** $(-\text{NO}_2)$. 
+<span class="smiles">C-[N+](=O)-[O-]</span>
 
-Os nitrocompostos são **comumente explosivos**.
+</aside>
 
-Ao lado, temos uma molécula de **nitrometano** $(\text {CH}_3 \text {NO}_2)$, o nitrocomposto mais simples de todos, utilizado de várias formas, variando de aditivos para combustíveis até como solvente para reações químicas.
+Também conhecidos pela denominação <b>nitroderivados</b>, os nitrocompostos são funções orgânicas que possuem um grupo <b>nitro</b> $(-\text{NO}_2)$. Vale notar que eles são comumente explosivos.
+
+Acima, temos uma molécula de nitrometano $(\text {CH}_3 \text {NO}_2)$, o nitrocomposto mais simples de todos, utilizado de várias formas, variando de aditivos para combustíveis até como solvente para reações químicas.
 
 ## Nitrilas
 
 ---
 
-![image.png](images/intro_organic_functions/C2NH3_2.png)
+<aside>
 
-As **nitrilas** são funções orgânicas caracterizadas por possuírem um **grupo $-\text {CN}$**, com o carbono ligado a outra **função orgânica**: caso isso não aconteça, estamos observendo um **cianeto**, não uma nitrila! 
+<span class="smiles">C-C#N</span>
 
-A molécula ao lado, a **acetonitrila** $(\text C_2 \text H _3 \text N)$, é a **nitrila** mais simples de todas, utilizada em fabricações industriais e na fabricação de baterias, por exemplo. 
+</aside>
+
+As <b>nitrilas</b> são funções orgânicas caracterizadas por possuírem um grupo $-\text {CN}$, com o carbono ligado a outra <b>função orgânica</b>: caso isso não aconteça, estamos observendo um <b>cianeto</b>, não uma nitrila! 
+
+A molécula ao lado, a acetonitrila $(\text C_2 \text H _3 \text N)$, é a nitrila mais simples, utilizada em fabricações industriais e na fabricação de baterias. 
 
 # Compostos halogenados
 
 ---
 
-Por fim, temos os **compostos halogenados**, ou seja, compostos orgânicos que contam com a presença de **halogênios**, normalmente flúor ou cloro.
+Por fim, temos os <b>compostos halogenados</b>, ou seja, compostos orgânicos que contam com a presença de <b>halogênios</b>, geralmente flúor ou cloro.
 
 ## Haletos de alquila
 
-![image.png](images/intro_organic_functions/CBrH3.png)
+<aside>
 
-Também conhecidos pela denominação **haloalcanos**, os **haletos de alquila** são compostos orgânicos que possuem uma ligação entre um **carbono alifático** e um halogênio. 
+<span class="smiles">Br-C</span>
 
-Ao lado, temos o **bromometano** $(\text {CH}_3 \text {Br})$, um exemplo de haloalcano formado pela substituição de um dos hidrogênios do metano por um átomo de bromo.
+</aside>
+
+Também conhecidos pela denominação <b>haloalcanos</b>, os <b>haletos de alquila</b> são compostos orgânicos que possuem uma ligação entre um carbono alifático e um halogênio. 
+
+Acima, temos o bromometano $(\text {CH}_3 \text {Br})$, um exemplo de haloalcano formado pela substituição de um dos hidrogênios do metano por um átomo de bromo.
 
 ## Haletos de acila
 
-![image.png](images/intro_organic_functions/C2ClOH3.png)
+<aside>
 
-De forma semelhante, os **haletos de acila** são compostos orgânicos formados geralmente pela substituição de uma **hidroxila** num **ácido carboxilíco** por um halogênio.
+<span class="smiles">C-C(=O)-Cl</span>
 
-Um exemplo dessa categoria é o **cloreto de acetila $(\text C \text H_3 \text {COCl})$**, visto ao lado. 
+</aside>
 
-É um dos haletos de acila mais simples! 
+De forma semelhante, os <b>haletos de acila</b> são compostos orgânicos formados geralmente pela substituição de uma <b>hidroxila</b> num <b>ácido carboxilíco</b> por um halogênio.
+
+Um exemplo dessa categoria é o cloreto de acetila $(\text C \text H_3 \text {COCl})$, visto acima. É um dos haletos de acila mais simples.
 
 # Série orgânica
 
 ---
 
-Como forma de ajudar na comparação entre moléculas orgânicas, podemos utilizar o conceito de **séries orgânicas**, nada mais que um outro nome para **conjuntos de compostos orgânicos**, com esses conjuntos sendo divididos em algumas categorias, com base na comparação entre as cadeias carbônicas desse conjunto, da minha série. 
+Como forma de ajudar na comparação entre moléculas orgânicas, podemos utilizar o conceito de <b>séries orgânicas</b>. Conjuntos de compostos orgânicos são denominados séries orgânicas, com esses conjuntos sendo divididos em algumas categorias a depender de seus componentes. Há três tipos de séries orgânicas: homólogas, isólogas e heterólogas. 
 
-As **séries homólogas** são conjuntos onde a diferença entre os compostos é um elo $-\text {CH}_2$. Um exemplo de série homóloga seria o conjunto $\{\text{C}\text{H}_4,\text{C}_2\text{H}_6, \text{C}_3\text{H}_8, ...\}$.
+<aside>
 
-As **séries isólogas** são conjuntos onde a diferença entre dois compostos consecutivos é um $\text H_2$, como por exemplo, a série $\{\text C_2 \text H_2, \text C_2 \text H_4, \text C_2 \text H_6...\}$
+As séries <b>homólogas</b> são conjuntos onde a diferença entre os compostos é um elo $-\text {CH}_2$. Um exemplo de série homóloga seria o conjunto $\{\text{C}\text{H}_4,\text{C}_2\text{H}_6, \text{C}_3\text{H}_8, ...\}$.
 
-Por fim, as **séries heterólogas** são conjuntos de compostos orgânicos de funções distintas, porém com a mesma quantidade de átomos de carbono, por exemplo, o conjunto…
+</aside>
+
+<aside>
+
+As <b>séries isólogas</b> são conjuntos onde a diferença entre dois compostos consecutivos é um $\text H_2$, como por exemplo, a série $\{\text C_2 \text H_2, \text C_2 \text H_4, \text C_2 \text H_6...\}$
+
+</aside>
+
+<aside>
+
+Por fim, as <b>séries heterólogas</b> são conjuntos de compostos orgânicos de funções distintas, porém com a mesma quantidade de átomos de carbono, como por exemplo, o conjunto abaixo.
 
 $$
 \{\text {CH}_3 \text{CH}_2 \text{CH}_2\text {OH}, \text {CH}_3 \text{CH}_2 \text{CH}_2\text {O}, \text {CH}_3 \text{COCH}_3\}
 $$
 
+</aside>
+
 # Regras de nomenclatura
 
 ---
 
-Pela imensa quantidade de possíveis compostos orgânicos, observou-se a necessidade de criar uma padronização na questão da nomenclatura. Essa padronização veio em 1892 e continua até os dias de hoje pelas regras da IUPAC (*International Union of Pure and Applied Chemistry -* União Internacional da Química Pura e Aplicada). 
+Pela imensa quantidade de possíveis compostos orgânicos, observou-se a necessidade de criar uma padronização na questão da nomenclatura. Essa padronização veio em 1892 e continua até os dias de hoje pelas regras da União Internacional da Química Pura e Aplicada (<i>International Union of Pure and Applied Chemistry</i> — IUPAC). 
 
 As regras da IUPAC foram construídas a partir de dois princípios básicos: 
 
@@ -201,10 +263,10 @@ As regras da IUPAC foram construídas a partir de dois princípios básicos:
 Oficialmente, a nomenclatura IUPAC é estruturada da seguinte maneira: 
 
 $$
-\text {Prefixo + Intermediário + Sufixo}
+\text {Prefixo + <Intermediário + Sufixo}
 $$
 
-com o **prefixo** indicando o **número** de átomos de carbono na cadeia principal, o **intermediário** indicando o **tipo de ligação** entre os carbonos e o **sufixo** indicando a **função** do composto orgânico. 
+com o <b>prefixo</b> indicando o <b>número</b> de átomos de carbono na cadeia principal, o <b>intermediário</b> indicando o <b>tipo de ligação</b> entre os carbonos e o <b>sufixo</b> indicando a <b>função</b> do composto orgânico. 
 
 Todas as outras regras de nomenclatura são construídas partindo dessa estrutura básica. 
 
@@ -212,158 +274,196 @@ Todas as outras regras de nomenclatura são construídas partindo dessa estrutur
 
 ### Prefixos
 
-| **# de Carbonos** | **Prefixo** |
-| --- | --- |
-| 1 | Met- |
-| 2 | Et- |
-| 3 | Prop- |
-| 4 | But- |
-| 5 | Pent- |
-| 6 | Hex- |
-| 7 | Hept- |
-| 8 | Oct- |
-| 9 | Non- |
-| 10 | Dec- |
-| 11 | Undec- |
+<table>
+  <thead>
+    <tr>
+      <th><b># de Carbonos</b></th>
+      <th><b>Prefixo</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Met-</td></tr>
+    <tr><td>2</td><td>Et-</td></tr>
+    <tr><td>3</td><td>Prop-</td></tr>
+    <tr><td>4</td><td>But-</td></tr>
+    <tr><td>5</td><td>Pent-</td></tr>
+    <tr><td>6</td><td>Hex-</td></tr>
+    <tr><td>7</td><td>Hept-</td></tr>
+    <tr><td>8</td><td>Oct-</td></tr>
+    <tr><td>9</td><td>Non-</td></tr>
+    <tr><td>10</td><td>Dec-</td></tr>
+    <tr><td>11</td><td>Undec-</td></tr>
+  </tbody>
+</table>
 
-Se o composto orgânico for cíclico, ele ainda ganha um prefixo adicional (”**ciclo-”**), que precede todos os outros termos, por exemplo: **ciclopropano**. 
+Se o composto orgânico for cíclico, ele ainda ganha um prefixo adicional (”<b>ciclo-</b>”), que precede todos os outros termos, por exemplo: <b>ciclopropano</b>. 
 
 ### Intermediários
 
-| **Saturação** | **Intermediário** |
-| --- | --- |
-| Saturadas (todas ligações simples) | -an- |
-| 1 dupla | -en- |
-| 2 duplas | -dien- |
-| 3 duplas  | -trien- |
-| 1 tripla  | -in- |
-| 2 triplas | -diin- |
-| 3 triplas  | -triin- |
-| 1 dupla + 1 tripla  | -enin- |
+<table>
+  <thead>
+    <tr>
+      <th><b>Saturação</b></th>
+      <th><b>Intermediário</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Saturadas (todas ligações simples)</td><td>-an-</td></tr>
+    <tr><td>1 dupla</td><td>-en-</td></tr>
+    <tr><td>2 duplas</td><td>-dien-</td></tr>
+    <tr><td>3 duplas</td><td>-trien-</td></tr>
+    <tr><td>1 tripla</td><td>-in-</td></tr>
+    <tr><td>2 triplas</td><td>-diin-</td></tr>
+    <tr><td>3 triplas</td><td>-triin-</td></tr>
+    <tr><td>1 dupla + 1 tripla</td><td>-enin-</td></tr>
+  </tbody>
+</table>
 
 ### Sufixos
 
-| **Função** | **Sufixo** |
-| --- | --- |
-| Hidrocarboneto | -o |
-| Álcool | -ol |
-| Aldeído | -al |
-| Cetona | -ona |
-| Ácido Carboxilíco | -óico |
+<table>
+  <thead>
+    <tr>
+      <th><b>Função</b></th>
+      <th><b>Sufixo</b></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Hidrocarboneto</td><td>-o</td></tr>
+    <tr><td>Álcool</td><td>-ol</td></tr>
+    <tr><td>Aldeído</td><td>-al</td></tr>
+    <tr><td>Cetona</td><td>-ona</td></tr>
+    <tr><td>Ácido Carboxilíco</td><td>-óico</td></tr>
+  </tbody>
+</table>
 
 ## Regras adicionais
 
 As regras dessa seção são complementares da estrutura básica, servindo para categorizar ainda mais os compostos orgânicos de forma que cumpram com os objetivos básicos da IUPAC. 
 
-![Molécula de **but-2-en-1-ol**: a numeração começa pelo carbono mais próximo do grupo funcional, a hidroxila: no carbono “1” temos o OH, enquanto no carbono 2 temos a ligação dupla.](images/intro_organic_functions/C4OH8.png)
+<aside>
 
-*Molécula de **but-2-en-1-ol**: a numeração começa pelo carbono mais próximo do grupo funcional, a hidroxila: no carbono “1” temos o OH, enquanto no carbono 2 temos a ligação dupla.*
+<span class="smiles">C-C=C-C-O</span>
 
-Primeiramente, **se a cadeia carbônica permitir diferentes localizações** para **grupos funcionais** ou **insaturações**, é **obrigatório numerar os carbonos da cadeia principal** para indicar a **posição exata** dessas características, com a **numeração começando pela extremidade mais próxima do grupo funcional** ou, no caso de um hidrocarboneto, da insaturação (se houver).
+</aside>
 
-Uma outra indicação é a seguinte: **se houver mais de uma possibilidade de numeração**, é necessário **escolher** aquela que faça com que a **soma dos números que indicam as ramificações**, saturações e os grupos funcionais seja a **menor possível**.
+Molécula de but-2-en-1-ol: a numeração começa pelo carbono mais próximo do grupo funcional, a hidroxila: no carbono “1” temos o OH, enquanto no carbono 2 temos a ligação dupla.
 
-![Molécula de **3-metilpentano:** a molécula possui um metil, presente no carbono **3**, sinalizado na nomenclatura. ](images/intro_organic_functions/C6H14.png)
+Primeiramente, <b>se a cadeia carbônica permitir diferentes localizações</b> para <b>grupos funcionais</b> ou <b>insaturações</b>, é <b>obrigatório numerar os carbonos da cadeia principal</b> para indicar a <b>posição exata</b> dessas características, com a <b>numeração começando pela extremidade mais próxima do grupo funcional</b> ou, no caso de um hidrocarboneto, da insaturação (se houver).
 
-*Molécula de **3-metilpentano:** a molécula possui um metil, presente no carbono **3**, sinalizado na nomenclatura.* 
+Uma outra indicação é a seguinte: <b>se houver mais de uma possibilidade de numeração</b>, é necessário <b>escolher</b> aquela que faça com que a <b>soma dos números que indicam as ramificações</b>, saturações e os grupos funcionais seja a <b>menor possível</b>.
+
+<aside>
+
+<span class="smiles">C-C-C(-C)-C-C</span>
+
+</aside>
+
+Molécula de 3-metilpentano: a molécula possui um metil, presente no carbono <b>3</b>, sinalizado na nomenclatura.
 
 Todas as outras regras mais específicas, com o por exemplo a ausência de numeração num composto cíclico, são consequências diretas das regras acima.
 
 ### Ramificações
 
-As ramificações da **cadeia principal** - a sequência de maior átomos de carbono - são indicadas na nomenclatura IUPAC por meio do número do carbono da cadeia principal. 
+As ramificações da <b>cadeia principal</b> - a sequência de maior átomos de carbono - são indicadas na nomenclatura IUPAC por meio do número do carbono da cadeia principal. 
 
 Elas são indicadas antes da cadeia principal na ordem da nomenclatura, porém com prioridade menor que os grupos funcionais, e maior que as insaturações. 
 
-Para ajudar na nomenclatura das ramificações, indicamos **radicais** que podem formar essas ramificações, na tabela abaixo.
+Para ajudar na nomenclatura das ramificações, indicamos <b>radicais</b> que podem formar essas ramificações, na tabela abaixo.
 
 <aside>
+
 Radicais são compostos orgânicos que perderam um hidrogênio, se tornando instáveis. Normalmente, se ligam as cadeias carbônicas que possuem uma valência livre, formando ramificações. 
+
 </aside>
 
 <aside>
 
-<table>
-   <tr>
-       <th>Classificação</th>
-       <th>Nome</th>
-       <th>Localização da valência livre</th>
-   </tr>
-   <tr>
-        <td>Alquila (1 carbono)</td>
-        <td>Metil</td>
-        <td>—</td>
-   </tr>
-   <tr>
-        <td>Aquila (2 carbonos)</td>
-        <td>Etil</td>
-        <td>Ambos os carbonos primários. Valência livre de ocorrência possível em ambos</td>
-   </tr>
-   <tr>
-        <td>Alquila (3 carbonos)</td>
-        <td>Propil</td>
-        <td>Carbono primário</td>
-   </tr>
-   <tr>
-        <td>Alquila (4 carbonos)</td>
-        <td>Butil</td>
-        <td>Carbono primário da cadeia normal</td>
-   </tr>
-   <tr>
-        <td>Alquila (4 carbonos)</td>
-        <td>S-butil ou metilpropil</td>
-        <td>Carbono secundário da cadeia normal</td>
-   </tr>
-   <tr>
-        <td>Alquila (4 carbonos)</td>
-        <td>T-butil ou 1,1-dimetiletil</td>
-        <td>Carbono terciário</td>
-   </tr>
-   <tr>
-        <td>Alquila (4 carbonos)</td>
-        <td>Isobutil</td>
-        <td>Carbono primário de uma cadeia ramificada</td>
-   </tr>
-   <tr>
-        <td>Alquila (5 carbonos)</td>
-        <td>Pentil</td>
-        <td>Carbono primário no radical com cadeia normal</td>
-   </tr>
-   <tr>
-        <td>Alquila (5 carbonos)</td>
-        <td>Isoamil ou isopentil</td>
-        <td>Carbono primário do radical que possui uma ramificação no carbono 3</td>
-   </tr>
-   <tr>
-        <td>Alquila (5 carbonos)</td>
-        <td>S-amil ou etil-isopropil</td>
-        <td>Carbono secundário do radical com cadeia ramificada</td>
-   </tr>
-   <tr>
-        <td>Alquila (5 carbonos)</td>
-        <td>T-pentil ou 1,1-dimetilpropil</td>
-        <td>Carbono terciário</td>
-   </tr>
-   <tr>
-        <td>Alquila (5 carbonos)</td>
-        <td>Neopentil ou 2,2-dimetilpropil</td>
-        <td>Carbono primário</td>
-   </tr>
-   <tr>
-        <td>Alquenila (2 carbonos)</td>
-        <td>Etenil ou vinil</td>
-        <td>—</td>
-   </tr>
-   <tr>
-        <td>Arila (6 carbonos)</td>
-        <td>Fenil</td>
-        <td>Um dos carbonos do núcleo aromático</td>
-   </tr>
-</table>
+   <table>
+      <thead>
+          <tr>
+              <th><b>Classificação</b></th>
+              <th><b>Nome</b></th>
+              <th><b>Localização da valência livre</b></th>
+          </tr>
+      </thead>
+      <tbody>
+      <tr>
+           <td>Alquila (1 carbono)</td>
+           <td>Metil</td>
+           <td>—</td>
+      </tr>
+      <tr>
+           <td>Aquila (2 carbonos)</td>
+           <td>Etil</td>
+           <td>Ambos os carbonos primários. Valência livre de ocorrência possível em ambos</td>
+      </tr>
+      <tr>
+           <td>Alquila (3 carbonos)</td>
+           <td>Propil</td>
+           <td>Carbono primário</td>
+      </tr>
+      <tr>
+           <td>Alquila (4 carbonos)</td>
+           <td>Butil</td>
+           <td>Carbono primário da cadeia normal</td>
+      </tr>
+      <tr>
+           <td>Alquila (4 carbonos)</td>
+           <td>S-butil ou metilpropil</td>
+           <td>Carbono secundário da cadeia normal</td>
+      </tr>
+      <tr>
+           <td>Alquila (4 carbonos)</td>
+           <td>T-butil ou 1,1-dimetiletil</td>
+           <td>Carbono terciário</td>
+      </tr>
+      <tr>
+           <td>Alquila (4 carbonos)</td>
+           <td>Isobutil</td>
+           <td>Carbono primário de uma cadeia ramificada</td>
+      </tr>
+      <tr>
+           <td>Alquila (5 carbonos)</td>
+           <td>Pentil</td>
+           <td>Carbono primário no radical com cadeia normal</td>
+      </tr>
+      <tr>
+           <td>Alquila (5 carbonos)</td>
+           <td>Isoamil ou isopentil</td>
+           <td>Carbono primário do radical que possui uma ramificação no carbono 3</td>
+      </tr>
+      <tr>
+           <td>Alquila (5 carbonos)</td>
+           <td>S-amil ou etil-isopropil</td>
+           <td>Carbono secundário do radical com cadeia ramificada</td>
+      </tr>
+      <tr>
+           <td>Alquila (5 carbonos)</td>
+           <td>T-pentil ou 1,1-dimetilpropil</td>
+           <td>Carbono terciário</td>
+      </tr>
+      <tr>
+           <td>Alquila (5 carbonos)</td>
+           <td>Neopentil ou 2,2-dimetilpropil</td>
+           <td>Carbono primário</td>
+      </tr>
+      <tr>
+           <td>Alquenila (2 carbonos)</td>
+           <td>Etenil ou vinil</td>
+           <td>—</td>
+      </tr>
+      <tr>
+           <td>Arila (6 carbonos)</td>
+           <td>Fenil</td>
+           <td>Um dos carbonos do núcleo aromático</td>
+      </tr>
+      </tbody>
+   </table>
 
 </aside>
 
-Por exemplo, o composto **3-metilpentano** é chamado assim por possuir um **metil** ligado no terceiro carbono da cadeia principal.
+Por exemplo, o composto <b>3-metilpentano</b> é chamado assim por possuir um <b>metil</b> ligado no terceiro carbono da cadeia principal.
 
 # Regras específicas
 
@@ -373,38 +473,53 @@ Em alguns casos, algumas regras específicas são utilizadas para algumas funç�
 
 ## Hidrocarbonetos aromáticos
 
-![Um exemplo da primeira regra ao lado, um nitrobenzeno! Perceba que o -NO2 é o mesmo composto dos nitrocompostos.](images/intro_organic_functions/nitrobenzene.png)
+<aside>
 
-Um exemplo da primeira regra ao lado, um nitrobenzeno! 
-Perceba que o -NO2 é o mesmo composto dos nitrocompostos. 
+<span class="smiles"> C1(-[N+](=O)-[O-])=CC=CC=C1</span>
 
-No caso dos hidrocarbonetos aromáticos, para nomearmos um composto formado por **um anel de benzeno com um de seus hidrogênios substituídos por algum elemento ou cadeia** (benzenos *monossubstituídos*), nos utilizamos da forma 
+</aside>
+
+Um exemplo da primeira regra ao lado, um nitrobenzeno. Perceba que o -NO2 é o mesmo composto dos nitrocompostos. 
+
+No caso dos hidrocarbonetos aromáticos, para nomearmos um composto formado por <b>um anel de benzeno com um de seus hidrogênios substituídos por algum elemento ou cadeia</b> (benzenos <i>monossubstituídos</i>), nos utilizamos da forma 
 
 $$
 \text {Nome do substituinte + -benzeno}
 $$
 
-Segundamente, é interessante a definição dos grupos **fenil e benzil**. Os **fenis** são benzenos com um de seus hidrogênios removidos, fazendo parte de alguma outra molécula orgânica, enquanto os **benzis** são benzenos com um de seus hidrogênios removidos e conectado com um grupo **metileno** $(\text {CH}_2)$, que por sua vez é conectado com outra molécula orgânica. 
+Segundamente, é interessante a definição dos grupos <b>fenil e benzil</b>. Os <b>fenis</b> são benzenos com um de seus hidrogênios removidos, fazendo parte de alguma outra molécula orgânica, enquanto os <b>benzis</b> são benzenos com um de seus hidrogênios removidos e conectado com um grupo <b>metileno</b> $(\text {CH}_2)$, que por sua vez é conectado com outra molécula orgânica. 
 
-![Um exemplo de benzeno dissubstituído, o 1,2-dimetilbenzeno! ](images/intro_organic_functions/benzene_antennas.png)
+<aside>
 
-*Um exemplo de benzeno dissubstituído, o 1,2-dimetilbenzeno!*
+<span class="smiles">C1(-C)=C(-C)C=CC=C1</span>
 
-Já quando estamos interessados em benzenos *disssubstituídos*, ou seja, com dois de seus hidrogênios substituídos por algum outro composto, temos alguns prefixos que são adicionados, sendo eles: 
+</aside>
 
-1. **orto-**, quando os dois compostos estão um do lado do outro no anel 
-2. **meta-**, quando estão separados por um carbono e 
-3. **para-**, quando estão diametralmente opostos no anel 
+Um exemplo de benzeno dissubstituído, o 1,2-dimetilbenzeno.
+
+Já quando estamos interessados em benzenos <i>disssubstituídos</i>, ou seja, com dois de seus hidrogênios substituídos por algum outro composto, temos alguns prefixos que são adicionados, sendo eles: 
+
+1. <b>orto-</b>, quando os dois compostos estão um do lado do outro no anel 
+2. <b>meta-</b>, quando estão separados por um carbono e 
+3. <b>para-</b>, quando estão diametralmente opostos no anel 
 
 Com três ou mais substituições, eles passam a ser nomeados como os compostos cíclicos.
 
-![Exemplo de fenil, o fenol: um anel benzênico ligado a uma hidroxila.](images/intro_organic_functions/BenOH.png)
+<aside>
 
-*Exemplo de fenil, o fenol: um anel benzênico ligado a uma hidroxila.*
+<span class="smiles"> C1(=O-H)=CC=CC=C1</span>
 
-![Um exemplo de benzil, a benzilamina! Esse composto é formado por um anel benzênico ligado a um metileno (-CH2) e a uma amina primária. ](images/intro_organic_functions/ben_NH2.png)
+</aside>
 
-*Um exemplo de benzil, a benzilamina! Esse composto é formado por um anel benzênico ligado a um metileno (-CH2) e a uma amina primária.* 
+Exemplo de fenil, o fenol: um anel benzênico ligado a uma hidroxila.
+
+<aside>
+
+<span class="smiles"> C1(-C-N(-H)-H)=CC=CC=C1</span>
+
+</aside>
+
+Um exemplo de benzil, a benzilamina. Esse composto é formado por um anel benzênico ligado a um metileno (-CH2) e a uma amina primária.
 
 ## Compostos nitrogenados
 
@@ -412,19 +527,27 @@ Essa seção será dedicada às regras específicas regendo o conjunto dos compo
 
 ### Aminas
 
-![**Dimetilamina** é o nome mais comum desse composto, mas seguindo as orientações da IUPAC, chegamos na nomenclatura ***N*-Etiletanoamina**. ](images/intro_organic_functions/NH_spider.png)
+<aside>
 
-***Dimetilamina** é o nome mais comum desse composto, mas seguindo as orientações da IUPAC, chegamos na nomenclatura ***N*-Etiletanoamina**.* 
+<span class="smiles">C-C-N(-H)-C-C</span>
 
-No caso das **aminas primárias**, formamos seus nomes pelo mesmo padrão básico de nomenclatura, por meio das outras partes do composto, finalizando com o sufixo **“-amina”**. 
+</aside>
 
-No caso das aminas **secundárias** e **terciárias**, as cadeias menores ligadas ao nitrogênio são consideradas ramificações, indicadas pela letra $\text N$. 
+<b>Dimetilamina</b> é o nome mais comum desse composto, mas seguindo as orientações da IUPAC, chegamos na nomenclatura <b><i>N</i>-Etiletanoamina</b>. 
+
+No caso das <b>aminas primárias</b>, formamos seus nomes pelo mesmo padrão básico de nomenclatura, por meio das outras partes do composto, finalizando com o sufixo <b>“-amina”</b>. 
+
+No caso das aminas <b>secundárias</b> e <b>terciárias</b>, as cadeias menores ligadas ao nitrogênio são consideradas ramificações, indicadas pela letra $\text N$. 
 
 ### Amidas
 
-![Esse composto é a **N-Metilacetamida**, formado pela substituição de um hidrogênio da acetamida por um grupo metil. É potencialmente perigosa para o sistema reprodutivo humano.](images/intro_organic_functions/C3NOH7.png)
+<aside>
 
-*Este composto é a **N-Metilacetamida**, formado pela substituição de um hidrogênio da acetamida por um grupo metil. É potencialmente perigosa para o sistema reprodutivo humano.*
+<span class="smiles">C-C(=O)-N(-H)-C</span>
+
+</aside>
+
+Este composto é a <b>N-Metilacetamida</b>, formado pela substituição de um hidrogênio da acetamida por um grupo metil. É potencialmente perigosa para o sistema reprodutivo humano.
 
 A nomenclatura das amidas primárias segue o mesmo padrão das aminas, só mudando o sufixo. 
 
@@ -432,51 +555,67 @@ No caso das amidas secundárias e terciárias, devemos colocar a letra $\text N$
 
 ### Nitrocompostos
 
-![image.png](images/intro_organic_functions/NitroBenzene.png)
+<aside>
 
-A nomenclatura dos nitrocompostos é dada pela adição do prefixo **“nitro-”** ao composto correspondente.
+<span class="smiles"> C1(-NO2)=CC=CC=C1</span>
 
-O composto acima é o **nitrobenzeno**, também chamado de nitrobenzol. Esse composto é utilizado em laboratório como solvente e em processos industriais como precursor da **anilina,** utilizada na confecção de esponjas de prato, por exemplo. 
+</aside>
+
+A nomenclatura dos nitrocompostos é dada pela adição do prefixo <b>“nitro-”</b> ao composto correspondente.
+
+O composto acima é o <b>nitrobenzeno</b>, também chamado de nitrobenzol. Esse composto é utilizado em laboratório como solvente e em processos industriais como precursor da <b>anilina</b>, utilizada na confecção de esponjas de prato, por exemplo. 
 
 ### Nitrila
 
-![image.png](images/intro_organic_functions/C2NH3.png)
+<aside>
 
-*De forma semelhante, as nitrilas são nomeadas pela adição do sufixo **“-nitrila”** ao alcano correspondente.*
+<span class="smiles">C-C#N</span>
 
-Ao lado temos a **acetonitrila**, também conhecida pelo seu outro nome **cianeto de metila**. 
+</aside>
+
+De forma semelhante, as nitrilas são nomeadas pela adição do sufixo <b>“-nitrila”</b> ao alcano correspondente.
+
+Ao lado temos a <b>acetonitrila</b>, também conhecida pelo seu outro nome <b>cianeto de metila</b>. 
 
 Esse composto é instável e inflamável. 
 
 ### Sal quaternário de amônio
 
-![O composto acima é o CTAB, ou brometo de hexadeciltrimetilamônio. É um sólido em temperatura ambiente, utilizado na extração de DNA. ](images/intro_organic_functions/longN.png)
+<aside>
+
+<span class="smiles">CCCCCCCCCCCCCCCC-[N+](-C)(-C)(-C) [Br+]</span>
+
+</aside>
 
 O composto acima é o CTAB, ou brometo de hexadeciltrimetilamônio. É um sólido em temperatura ambiente, utilizado na extração de DNA.
 
 Os sais quaternários de amônio podem ser entendidos na nomenclatura como uma variação das aminas. 
 
-Dessa forma, para nomearmos esses sais, nos utilizamos das mesmas regras das aminas secundárias e terciárias, com a exceção de que o sufixo utlizado será **“-amônio”** além da adição do nome do ânion que acompanha o cátion de nitrogênio. 
+Dessa forma, para nomearmos esses sais, nos utilizamos das mesmas regras das aminas secundárias e terciárias, com a exceção de que o sufixo utlizado será <b>“-amônio”</b> além da adição do nome do ânion que acompanha o cátion de nitrogênio. 
 
 ## Compostos oxigenados
 
-Essa seção será dedicada a algumas notas sobre a nomenclatura dos compostos nitrogenados, em especial aos **anidridos, ésteres, éteres** e **sais de ácidos carboxilícos.**
+Essa seção será dedicada a algumas notas sobre a nomenclatura dos compostos nitrogenados, em especial aos <b>anidridos, ésteres, éteres</b> e <b>sais de ácidos carboxilícos</b>.
 
 ### Anidridos
 
-A nomenclatura dos anidridos é feita pela adição do nome **anidrido**, com o nome, separado por hífen, dos dois ácidos originais da reação. Se os ácidos forem iguais, só é necessário a inclusão do nome uma única vez. Por exemplo, temos o **anidrido etanóico** - formado pela combinação de dois ácidos etanóicos - ou o **anidrido etanoico-butanoico**. 
+A nomenclatura dos anidridos é feita pela adição do nome <b>anidrido</b>, com o nome, separado por hífen, dos dois ácidos originais da reação. Se os ácidos forem iguais, só é necessário a inclusão do nome uma única vez. Por exemplo, temos o <b>anidrido etanóico</b> - formado pela combinação de dois ácidos etanóicos - ou o <b>anidrido etanoico-butanoico</b>. 
 
 ### Ésteres
 
-No caso da nomenclatura dos ésteres, temos que o nome é formado pela nomenclatura do ácido original, trocando o sufixo **“-óico”** por **“-ato”, seguido da preposição “de”** e pelo **nome do radical orgânico** que substituiu o hidrogênio da hidroxila original. 
+No caso da nomenclatura dos ésteres, temos que o nome é formado pela nomenclatura do ácido original, trocando o sufixo <b>“-óico”</b> por <b>“-ato”, seguido da preposição “de”</b> e pelo <b>nome do radical orgânico</b> que substituiu o hidrogênio da hidroxila original. 
 
-![Por exemplo, esse ácido é chamado de **propanoato de etila!**](images/intro_organic_functions/C5O2H6.png)
+<aside>
 
-Por exemplo, esse ácido é chamado de **propanoato de etila.
+<span class="smiles">C-C-C(=O)-O-C-C</span>
+
+</aside>
+
+Por exemplo, esse ácido é chamado de <b>propanoato de etila</b>.
 
 ### Éteres
 
-A nomenclatura da IUPAC no caso dos **éteres** é formada pelo prefixo sendo o prefixo do **menor grupo orgânico**, seguido pelo radical **oxi** e pelo nome do hidrocarboneto correspondente ao maior grupo, por exemplo, o **etoxietano**: 
+A nomenclatura da IUPAC no caso dos <b>éteres</b> é formada pelo prefixo sendo o prefixo do <b>menor grupo orgânico</b>, seguido pelo radical <b>oxi</b> e pelo nome do hidrocarboneto correspondente ao maior grupo, por exemplo, o <b>etoxietano</b>: 
 
 $$
 \text {CH}_2-\text{CH}_2-\text O-\text {CH}_2 - \text {CH}_2
@@ -484,8 +623,12 @@ $$
 
 ### Sais de ácidos carboxilícos
 
-A nomenclatura dos **sais** provenientes dos ácidos carboxilícos segue o padrão da substituição do sufixo **“-óico”** por **“-ato”, seguido pela preposição “de”** e o **nome do elemento** que faz parte do sal, por exemplo, o **3-metilbutanoato de potássio**. 
+A nomenclatura dos <b>sais</b> provenientes dos ácidos carboxilícos segue o padrão da substituição do sufixo <b>“-óico”</b> por <b>“-ato”, seguido pela preposição “de”</b> e o <b>nome do elemento</b> que faz parte do sal, por exemplo, o <b>3-metilbutanoato de potássio</b>. 
 
-![Um sal! Perceba que esse composto está ligado por uma **ligação iônica**, característica dos sais.](images/intro_organic_functions/potassium_salt.png)
+<aside>
 
-Perceba que esse composto está ligado por uma **ligação iônica**, característica dos sais.
+<span class="smiles">C(=O)(-[O-])-C-C(-C)-C [K+]</span>
+
+</aside>
+
+Perceba que esse composto está ligado por uma <b>ligação iônica</b>, característica dos sais.
