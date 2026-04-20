@@ -138,7 +138,7 @@ Seus resistores não podem ser classificados unicamente como em série ou parale
 
 ![Uma ponte de Wheatstone. O galvanômetro conecta os pontos B e D.](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Wheatstone_Bridge.svg/3840px-Wheatstone_Bridge.svg.png)
 
-Uma ponte de Wheatstone. O galvanômetro conecta os pontos B e D.
+Uma ponte de Wheatstone. O galvanômetro conecta os pontos B e C.
 
 <aside>
 
@@ -148,19 +148,15 @@ Um galvanômetro é um amperímetro de baixa intensidade: ambos medem correntes,
 
 Como visto no diagrama, o resistor $R_2$ é um **potenciômetro**, ou seja, podemos variar a sua resistência, e o resistor $R_x$ possui uma resistência desconhecida. 
 
-Como descobrir a resistência de $R_x$ se utilizando das propriedades da ponte? Ajuste $R_2$ até que nenhuma corrente esteja passando pelo galvanômetro! Nesse ponto de equilíbrio, chegaremos que 
+Podemos determinar a resistência $R_x$ ao variarmos a resistência de $R_2$ até que nenhuma corrente esteja passando pelo galvanômetro. Perceba que, neste <a target="_blank" href="/books/high_school/physics/physics3/kirchhoff_laws.html">ponto de equilíbrio</a>, a corrente que chega em C é a mesma que sai deste nó $(I_{AC} = I_{CD})$, com algo idêntico ocorrendo na outra metade do circuito $(I_{AB} = I_{BD})$. Isto ocorre pois não há diferença de potencial entre os pontos C e B $(V_C = V_B)$.
+
+Dessa forma, como $V_C = V_B$, temos que $V_{AC} = V_{AB}$ e $V_{CD} = V_{BD}$: como a tensão nestes nós é igual, a diferença de potencial entre os nós "espelhados" deve ser também igual. 
+
+Portanto, podemos escrever: 
 
 $$
-R_x=\dfrac{R_2}{R_1} R_3
+\dfrac{V_{CD}}{V_{AC}} = \dfrac{V_{BD}}{V_{AB}} \Rightarrow \dfrac{I_2R_2}{I_1R_1} = \dfrac{I_x R_x}{I_3R_3} \therefore \boxed{R_x = \dfrac{R_2}{R_1} R_3}
 $$
-
-### Derivação da expressão 
-
-<aside>
-
-Em breve...
-
-</aside>
 
 ## Curtos-circuitos
 

@@ -42,7 +42,7 @@ São compostos orgânicos que possuem o grupo <b>nitro $(\text {NO}_2)$</b> liga
 
 <aside>
 
-<span class="smiles">Cc1c(cc(cc1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]</span>
+<span class="smiles">CC1=C(C=C(C=C1[N+](=O)[O-])[N+](=O)[O-])[N+](=O)[O-]</span>
 
 </aside>
 
@@ -56,7 +56,7 @@ São substâncias que possuem o grupo funcional $\text {—CN}$. Originam-se da 
 
 <aside>
 
-<span class="smiles">C-C#N</span>
+<span class="smiles">CC#N</span>
 
 </aside>
 
@@ -72,7 +72,7 @@ Apresenta sempre um ânion ligado ao cátion.
 
 <aside>
 
-<span class="smiles">C-[N+](-C)(-C)-C-C(=O)-[O-]</span>
+<span class="smiles">C[N+](C)(C)CC(=O)[O-]</span>
 
 </aside>
 

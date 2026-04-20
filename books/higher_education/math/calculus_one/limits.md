@@ -39,7 +39,7 @@ $$
 
 <aside>
 
-<b>Exemplo (Definição formal de limites)</b> — Pela definição épsilon-delta, prove o seguinte limite.
+<b>Exemplo (Definição formal de limites, retirado de <a target="_blank" href="https://www.ocf.berkeley.edu/~yosenl/math/epsilon-delta.pdf">Lin, 2001</a>)</b> — Pela definição épsilon-delta, prove o seguinte limite.
 
 $$
 \lim_{x \rightarrow 1} 3x-1 = 2 

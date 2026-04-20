@@ -9,7 +9,7 @@ Definimos <b>álcool</b> como sendo todo composto orgânico que possui uma hidro
 Podemos classificá-los em <b>primários</b>, <b>secundários</b> ou <b>terciários</b>, a depender do tipo de carbono que a hidroxila está ligada: se ela estiver ligada a carbonos primários, o álcool será primário, e assim por diante. 
 
 <aside>
-    <span class="smiles">C1(-OH)CCCCC1</span>
+    <span class="smiles">C1CCC(CC1)O</span>
 </aside>
 
 Representação estrutural do <b>ciclohexanol</b>.
@@ -27,7 +27,7 @@ Os <b>enóis</b> são compostos que apresentam uma ou mais hidroxilas ligadas a 
 Eles também podem ser entendidos como <b>alcenos</b> que possuem uma hidroxila ligada a um dos átomos de carbono insaturados. 
 
 <aside>
-    <span class="smiles">C1(-OH)=CC=CC=C1</span>
+    <span class="smiles">C1=CC=C(C=C1)O</span>
 </aside>
 
 O fenol é composto por um grupo fenil (anel benzênico sem um hidrogênio) ligado a uma hidroxila.
@@ -79,7 +79,7 @@ Como exemplo de aldeído podemos citar o <b>butiraldeído</b>, também conhecido
 Os ácidos carboxilícos são chamados assim por possuírem uma <b>carboxila</b> (um carbono ligado duplamente a um hidrogênio e simplesmente a uma hidroxila) ligada a uma cadeia carbônica. 
 
 <aside>
-    <span class="smiles">C-C-C(=O)-OH</span>
+    <span class="smiles">CCC(=O)O</span>
 </aside>
 
 
@@ -94,8 +94,10 @@ Ele é bem corrosivo e também inflamável — a presença de oxigênio contribu
 Os <b>ácidos graxos</b> são muito importantes na Biologia, sendo um subconjunto dos ácidos carboxilícos, mais especificamente, esses ácidos são ácidos carboxilícos de <b>cadeia alifática</b>, podendo ser saturada ou não. Característicamente, suas cadeias são geralmente muito longas.
 
 <aside>
-    <span class="smiles">CCCCCCCCCCCCCCCCCCCC(=O)-OH</span>
+    <span class="smiles">CCCCCCCCCCCCCCCC(=O)O</span>
 </aside>
+
+Acima há um exemplo de ácido graxo, o <b>ácido </b>.
 
 ## Anidrido
 

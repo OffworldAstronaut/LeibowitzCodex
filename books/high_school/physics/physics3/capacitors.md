@@ -36,7 +36,7 @@ A unidade da capacitância é o <b>Farad</b> $(\text{F})$ em homenagem a <a href
 
 Ou seja, quanto de carga é possível guardar nesse condutor para cada **1 volt** de aumento do potencial elétrico? Se podemos guardar muita carga nesse capacitor com pouco aumento do potencial, esse condutor possui uma capacitância **alta**. 
 
-Levando em conta **ambas as placas**, podemos dizer que $V$ é a DDP entre uma placa e outra - lembre-se que enquanto uma fica eletrizada negativamente, outra se torna carregada positivamente! 
+Levando em conta **ambas as placas**, podemos dizer que $V$ é a DDP entre uma placa e outra — lembre-se que enquanto uma fica eletrizada negativamente, outra se torna carregada positivamente.
 
 Embora seja possível encontrar a capacitância de um dado capacitor carregado pela equação acima, ela não é realmente dependente da DDP entre os dois condutores, e sim somente da geometria do capacitor e da sua composição: no caso mais comum, com duas placas metálicas de área $A$ separadas por uma distância $d$, a **capacitância** é dada por
 
@@ -59,10 +59,10 @@ $$
 onde $\kappa$ é a **constante dielétrica** do material.
 
 <aside>
-<ol>
-    <li>Todo material isolante é dielétrico, porém alguns são melhores dielétricos que outros!</li>
-    <li>Colocar um dielétrico entre as placas permite maior capacitância pois diminui a diferença de potencial entre as duas placas! (As cargas polarizadas “forçam” o campo elétrico a alcançá-las ao invés da outra placa)</li>
-</ol>
+    <ol>
+        <li>Todo material isolante é dielétrico, porém alguns são melhores dielétricos que outros;</li>
+        <li>Colocar um dielétrico entre as placas permite maior capacitância pois diminui a diferença de potencial entre as duas placas! (As cargas polarizadas “forçam” o campo elétrico a alcançá-las ao invés da outra placa).</li>
+    </ol>
 </aside>
 
 ### Energia potencial num capacitor
@@ -75,13 +75,23 @@ $$
 
 ou seja, quantos $J$ de energia potencial um capacitor de capacitância $C$ consegue armazenar ao ser submetido a uma DDP de $V$? 
 
-A prova disso pode ser feita utilizando **integração**! Você pode ver a seção opcional abaixo sobre isso!
-
-### Provando a fórmula
-
 <aside>
 
-Em breve.
+<b>Demonstração</b> — Considere um capacitor de capacitância $C$ submetido a uma voltagem $V$. Perceba que carregá-lo em uma carga $dq$ exige uma certa quantidade de energia. Dessa forma, temos que 
+
+$$
+dU = dqV
+$$
+
+com $dU$ sendo uma quantidade infinitesimal de energia que deve ser gasta para mover esta carga e, por consequência, a energia que está sendo armazenada no interior do capacitor.
+
+Note que, para deduzirmos a quantidade total de energia de uma carga $Q$, precisamos somar todos os pacotes $dq$ por meio de uma integração. 
+
+$$
+U = \int_0^Q Vdq = \dfrac{1}{C}\int_0^Qqdq = \dfrac{1}{C} \dfrac{q^2}{2}\biggr\rvert_0^Q = \dfrac{1}{2}\dfrac{Q^2}{C}
+$$
+
+Como $Q = CV$, temos ainda que $\dfrac{1}{2}\dfrac{Q^2}{C} = \dfrac{1}{2}QV = CV^2$.
 
 </aside>
 

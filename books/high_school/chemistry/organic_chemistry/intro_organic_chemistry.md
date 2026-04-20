@@ -132,7 +132,7 @@ Entretanto, como o carbono é <b>tetravalente sempre</b>, podemos restringir a t
 
 <aside>
 
-<span class="smiles">[CH4]</span>
+<span class="smiles">[H][C]([H])([H])[H]</span>
 
 </aside>
 
@@ -142,7 +142,7 @@ O carbono central da ligação possui quatro ligações: todas são simples em r
 
 <aside>
 
-<span class="smiles">C=O</span>
+<span class="smiles">[C]=O</span>
 
 </aside>
 
@@ -150,7 +150,7 @@ Um exemplo para a segunda linha é o <b>formaldeído $(\text{CH}_2\text{O})$</b>
 
 <aside>
 
-<span class="smiles">H-C#N</span>
+<span class="smiles">C#N</span>
 
 </aside>
 
@@ -158,7 +158,7 @@ O primeiro exemplo para a terceira linha pode ser dado pelo <b>cianeto de hidrog
 
 <aside>
 
-<span class="smiles">O=C=O</span>
+<span class="smiles">O=[C]=O</span>
 
 </aside>
 
