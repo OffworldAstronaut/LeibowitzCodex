@@ -121,7 +121,7 @@ $$
 (ax + by + c)(a_1x + b_1y + c_1) = 0
 $$
 
-É fácil ver que esta equação é uma equação do segundo grau em $x$ e em $y$. Além disso, é notável que as retas podem ser coincidentes, com seu conjunto solução sendo uma reta, concorrentes, fornecendo um único ponto, ou paralelas, com o conjunto solução sendo o conjunto vazio. 
+É fácil ver que esta equação é uma equação do segundo grau em $x$ e em $y$. Além disso, é notável que as retas podem ser coincidentes, com seu conjunto solução sendo uma reta, ou concorrentes,fornecendo um único ponto.
 
 Concluímos que uma equação da forma 
 

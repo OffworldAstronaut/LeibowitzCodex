@@ -32,7 +32,7 @@ Esse grupo possui várias subdividisões, de acordo com a presença ou ausência
 
 As <b>hidroxilas</b> são funções oxigenadas compostas por um átomo de oxigênio ligado <b>por ligações simples</b> a um átomo de hidrogênio e a um de carbono. 
 
-Um exemplo de composto orgânico com uma hidroxila é o <b>metanol</b> $(\text{CH}_3\text{OH})$, visto ao lado, perceba a hidroxila no canto esquerdo! Esse <b>álcool</b> é um dos exemplos mais simples contendo uma hidroxila. 
+Um exemplo de composto orgânico com uma hidroxila é o <b>metanol</b> $(\text{CH}_3\text{OH})$, visto acima, perceba a hidroxila no canto esquerdo! Esse <b>álcool</b> é um dos exemplos mais simples contendo uma hidroxila. 
 
 <aside>
 
@@ -123,7 +123,7 @@ Dependendo da quantidade de carbonos ligados ao nitrogênio central, podemos cla
 
 </aside>
 
-A molécula ao lado é a <b>metilamina</b> $(\text C \text H_5 \text N)$, sendo ela um exemplo de composto que possui uma uma <b>amina primária</b>: perceba que temos um nitrogênio ligado a outros dois hidrogênios e a um átomo de carbono por meio de <b>ligações simples</b>, o que caracteriza uma amina. 
+A molécula acima é a <b>metilamina</b> $(\text C \text H_5 \text N)$, sendo ela um exemplo de composto que possui uma uma <b>amina primária</b>: perceba que temos um nitrogênio ligado a outros dois hidrogênios e a um átomo de carbono por meio de <b>ligações simples</b>, o que caracteriza uma amina. 
 
 Como o nitrogênio está ligado a apenas um átomo de carbono, a metilamina possui uma amina <b>primária</b>. 
 
@@ -143,7 +143,7 @@ Não esqueça o par de elétrons não-ligantes no Nitrogênio!
 
 </aside>
 
-Para completar o padrão, a molécula ao lado é a <b>trimetilamina</b> $(\text C_3 \text H_9 \text N)$, um composto extremamente tóxico porém utilizado amplamente na fabricação de tintas, fertilizantes e herbicidas. 
+Para completar o padrão, a molécula acima é a <b>trimetilamina</b> $(\text C_3 \text H_9 \text N)$, um composto extremamente tóxico porém utilizado amplamente na fabricação de tintas, fertilizantes e herbicidas. 
 
 Interessantemente, também é possível detectar a podridão de um peixe se ele estiver secretando esse composto. 
 
@@ -161,7 +161,7 @@ Perceba que o nitrogênio central está ligado a outros três átomos de carbono
 
 As <b>amidas</b> são funções orgânicas nitrogenadas cujo átomo de nitrogênio está ligado ao átomo de carbono de uma <b>carbonila</b> por uma <b>ligação simples</b>. 
 
-Um exemplo de amida é o composto ao lado, uma <b>formamida</b> $(\text {CH}_3 \text{NO})$, perceba o <b>grupo amina</b> ao lado!
+Um exemplo de amida é o composto acima, uma <b>formamida</b> $(\text {CH}_3 \text{NO})$.
 
 ## Nitrocompostos
 
@@ -183,13 +183,13 @@ Acima, temos uma molécula de nitrometano $(\text {CH}_3 \text {NO}_2)$, o nitro
 
 <aside>
 
-<span class="smiles">C-C#N</span>
+<span class="smiles">CC#N</span>
 
 </aside>
 
 As <b>nitrilas</b> são funções orgânicas caracterizadas por possuírem um grupo $-\text {CN}$, com o carbono ligado a outra <b>função orgânica</b>: caso isso não aconteça, estamos observendo um <b>cianeto</b>, não uma nitrila! 
 
-A molécula ao lado, a acetonitrila $(\text C_2 \text H _3 \text N)$, é a nitrila mais simples, utilizada em fabricações industriais e na fabricação de baterias. 
+A molécula acima, a acetonitrila $(\text C_2 \text H _3 \text N)$, é a nitrila mais simples, utilizada em fabricações industriais e na fabricação de baterias. 
 
 # Compostos halogenados
 
@@ -213,7 +213,7 @@ Acima, temos o bromometano $(\text {CH}_3 \text {Br})$, um exemplo de haloalcano
 
 <aside>
 
-<span class="smiles">C-C(=O)-Cl</span>
+<span class="smiles">CC(=O)Cl</span>
 
 </aside>
 
@@ -257,16 +257,14 @@ Pela imensa quantidade de possíveis compostos orgânicos, observou-se a necessi
 
 As regras da IUPAC foram construídas a partir de dois princípios básicos: 
 
+<aside>
+
 1. Cada composto orgânico deve ter um nome próprio, diferente dos outros; 
 2. A partir do nome de um dado composto, deve ser possível esquematizar sua fórmula estrutural e vice-versa. 
 
-Oficialmente, a nomenclatura IUPAC é estruturada da seguinte maneira: 
+</aside>
 
-$$
-\text {Prefixo + <Intermediário + Sufixo}
-$$
-
-com o <b>prefixo</b> indicando o <b>número</b> de átomos de carbono na cadeia principal, o <b>intermediário</b> indicando o <b>tipo de ligação</b> entre os carbonos e o <b>sufixo</b> indicando a <b>função</b> do composto orgânico. 
+Oficialmente, a nomenclatura IUPAC obedece à estrutura <b>Prefixo + Intermediário + Sufixo</b>, com o <b>prefixo</b> indicando o <b>número</b> de átomos de carbono na cadeia principal, o <b>intermediário</b> indicando o <b>tipo de ligação</b> entre os carbonos e o <b>sufixo</b> indicando a <b>função</b> do composto orgânico. 
 
 Todas as outras regras de nomenclatura são construídas partindo dessa estrutura básica. 
 
@@ -377,91 +375,87 @@ Radicais são compostos orgânicos que perderam um hidrogênio, se tornando inst
 
 </aside>
 
-<aside>
-
-   <table>
-      <thead>
-          <tr>
-              <th><b>Classificação</b></th>
-              <th><b>Nome</b></th>
-              <th><b>Localização da valência livre</b></th>
-          </tr>
-      </thead>
-      <tbody>
-      <tr>
-           <td>Alquila (1 carbono)</td>
-           <td>Metil</td>
-           <td>—</td>
-      </tr>
-      <tr>
-           <td>Aquila (2 carbonos)</td>
-           <td>Etil</td>
-           <td>Ambos os carbonos primários. Valência livre de ocorrência possível em ambos</td>
-      </tr>
-      <tr>
-           <td>Alquila (3 carbonos)</td>
-           <td>Propil</td>
-           <td>Carbono primário</td>
-      </tr>
-      <tr>
-           <td>Alquila (4 carbonos)</td>
-           <td>Butil</td>
-           <td>Carbono primário da cadeia normal</td>
-      </tr>
-      <tr>
-           <td>Alquila (4 carbonos)</td>
-           <td>S-butil ou metilpropil</td>
-           <td>Carbono secundário da cadeia normal</td>
-      </tr>
-      <tr>
-           <td>Alquila (4 carbonos)</td>
-           <td>T-butil ou 1,1-dimetiletil</td>
-           <td>Carbono terciário</td>
-      </tr>
-      <tr>
-           <td>Alquila (4 carbonos)</td>
-           <td>Isobutil</td>
-           <td>Carbono primário de uma cadeia ramificada</td>
-      </tr>
-      <tr>
-           <td>Alquila (5 carbonos)</td>
-           <td>Pentil</td>
-           <td>Carbono primário no radical com cadeia normal</td>
-      </tr>
-      <tr>
-           <td>Alquila (5 carbonos)</td>
-           <td>Isoamil ou isopentil</td>
-           <td>Carbono primário do radical que possui uma ramificação no carbono 3</td>
-      </tr>
-      <tr>
-           <td>Alquila (5 carbonos)</td>
-           <td>S-amil ou etil-isopropil</td>
-           <td>Carbono secundário do radical com cadeia ramificada</td>
-      </tr>
-      <tr>
-           <td>Alquila (5 carbonos)</td>
-           <td>T-pentil ou 1,1-dimetilpropil</td>
-           <td>Carbono terciário</td>
-      </tr>
-      <tr>
-           <td>Alquila (5 carbonos)</td>
-           <td>Neopentil ou 2,2-dimetilpropil</td>
-           <td>Carbono primário</td>
-      </tr>
-      <tr>
-           <td>Alquenila (2 carbonos)</td>
-           <td>Etenil ou vinil</td>
-           <td>—</td>
-      </tr>
-      <tr>
-           <td>Arila (6 carbonos)</td>
-           <td>Fenil</td>
-           <td>Um dos carbonos do núcleo aromático</td>
-      </tr>
-      </tbody>
-   </table>
-
-</aside>
+<table>
+   <thead>
+       <tr>
+           <th><b>Classificação</b></th>
+           <th><b>Nome</b></th>
+           <th><b>Localização da valência livre</b></th>
+       </tr>
+   </thead>
+   <tbody>
+   <tr>
+        <td>Alquila (1 carbono)</td>
+        <td>Metil</td>
+        <td>—</td>
+   </tr>
+   <tr>
+        <td>Aquila (2 carbonos)</td>
+        <td>Etil</td>
+        <td>Ambos os carbonos primários. Valência livre de ocorrência possível em ambos</td>
+   </tr>
+   <tr>
+        <td>Alquila (3 carbonos)</td>
+        <td>Propil</td>
+        <td>Carbono primário</td>
+   </tr>
+   <tr>
+        <td>Alquila (4 carbonos)</td>
+        <td>Butil</td>
+        <td>Carbono primário da cadeia normal</td>
+   </tr>
+   <tr>
+        <td>Alquila (4 carbonos)</td>
+        <td>S-butil ou metilpropil</td>
+        <td>Carbono secundário da cadeia normal</td>
+   </tr>
+   <tr>
+        <td>Alquila (4 carbonos)</td>
+        <td>T-butil ou 1,1-dimetiletil</td>
+        <td>Carbono terciário</td>
+   </tr>
+   <tr>
+        <td>Alquila (4 carbonos)</td>
+        <td>Isobutil</td>
+        <td>Carbono primário de uma cadeia ramificada</td>
+   </tr>
+   <tr>
+        <td>Alquila (5 carbonos)</td>
+        <td>Pentil</td>
+        <td>Carbono primário no radical com cadeia normal</td>
+   </tr>
+   <tr>
+        <td>Alquila (5 carbonos)</td>
+        <td>Isoamil ou isopentil</td>
+        <td>Carbono primário do radical que possui uma ramificação no carbono 3</td>
+   </tr>
+   <tr>
+        <td>Alquila (5 carbonos)</td>
+        <td>S-amil ou etil-isopropil</td>
+        <td>Carbono secundário do radical com cadeia ramificada</td>
+   </tr>
+   <tr>
+        <td>Alquila (5 carbonos)</td>
+        <td>T-pentil ou 1,1-dimetilpropil</td>
+        <td>Carbono terciário</td>
+   </tr>
+   <tr>
+        <td>Alquila (5 carbonos)</td>
+        <td>Neopentil ou 2,2-dimetilpropil</td>
+        <td>Carbono primário</td>
+   </tr>
+   <tr>
+        <td>Alquenila (2 carbonos)</td>
+        <td>Etenil ou vinil</td>
+        <td>—</td>
+   </tr>
+   <tr>
+        <td>Arila (6 carbonos)</td>
+        <td>Fenil</td>
+        <td>Um dos carbonos do núcleo aromático</td>
+   </tr>
+   </tbody>
+</table>
 
 Por exemplo, o composto <b>3-metilpentano</b> é chamado assim por possuir um <b>metil</b> ligado no terceiro carbono da cadeia principal.
 
@@ -475,7 +469,7 @@ Em alguns casos, algumas regras específicas são utilizadas para algumas funç�
 
 <aside>
 
-<span class="smiles"> C1(-[N+](=O)-[O-])=CC=CC=C1</span>
+<span class="smiles">C1=CC=C(C=C1)[N+](=O)[O-] </span>
 
 </aside>
 
@@ -499,15 +493,19 @@ Um exemplo de benzeno dissubstituído, o 1,2-dimetilbenzeno.
 
 Já quando estamos interessados em benzenos <i>disssubstituídos</i>, ou seja, com dois de seus hidrogênios substituídos por algum outro composto, temos alguns prefixos que são adicionados, sendo eles: 
 
-1. <b>orto-</b>, quando os dois compostos estão um do lado do outro no anel 
-2. <b>meta-</b>, quando estão separados por um carbono e 
-3. <b>para-</b>, quando estão diametralmente opostos no anel 
+<aside>
+
+1. <b>Orto-</b> — Os dois compostos estão um do lado do outro no anel;
+2. <b>Meta-</b> — Os compostos estão separados por um carbono;
+3. <b>Para-</b> — Os compostos estão diametralmente opostos no anel.
+
+</aside>
 
 Com três ou mais substituições, eles passam a ser nomeados como os compostos cíclicos.
 
 <aside>
 
-<span class="smiles"> C1(=O-H)=CC=CC=C1</span>
+<span class="smiles">C1=CC=C(C=C1)O</span>
 
 </aside>
 
@@ -515,7 +513,7 @@ Exemplo de fenil, o fenol: um anel benzênico ligado a uma hidroxila.
 
 <aside>
 
-<span class="smiles"> C1(-C-N(-H)-H)=CC=CC=C1</span>
+<span class="smiles">C1=CC=C(C=C1)CN</span>
 
 </aside>
 
@@ -529,7 +527,7 @@ Essa seção será dedicada às regras específicas regendo o conjunto dos compo
 
 <aside>
 
-<span class="smiles">C-C-N(-H)-C-C</span>
+<span class="smiles">CNC</span>
 
 </aside>
 
@@ -543,7 +541,7 @@ No caso das aminas <b>secundárias</b> e <b>terciárias</b>, as cadeias menores 
 
 <aside>
 
-<span class="smiles">C-C(=O)-N(-H)-C</span>
+<span class="smiles">CC(=O)NC</span>
 
 </aside>
 
@@ -575,7 +573,7 @@ O composto acima é o <b>nitrobenzeno</b>, também chamado de nitrobenzol. Esse 
 
 De forma semelhante, as nitrilas são nomeadas pela adição do sufixo <b>“-nitrila”</b> ao alcano correspondente.
 
-Ao lado temos a <b>acetonitrila</b>, também conhecida pelo seu outro nome <b>cianeto de metila</b>. 
+Acima temos a <b>acetonitrila</b>, também conhecida pelo seu outro nome <b>cianeto de metila</b>. 
 
 Esse composto é instável e inflamável. 
 
@@ -583,7 +581,7 @@ Esse composto é instável e inflamável.
 
 <aside>
 
-<span class="smiles">CCCCCCCCCCCCCCCC-[N+](-C)(-C)(-C) [Br+]</span>
+<span class="smiles">CCCCCCCCCCCCCCCC[N+](C)(C)C.[Br-]</span>
 
 </aside>
 
@@ -617,9 +615,11 @@ Por exemplo, esse ácido é chamado de <b>propanoato de etila</b>.
 
 A nomenclatura da IUPAC no caso dos <b>éteres</b> é formada pelo prefixo sendo o prefixo do <b>menor grupo orgânico</b>, seguido pelo radical <b>oxi</b> e pelo nome do hidrocarboneto correspondente ao maior grupo, por exemplo, o <b>etoxietano</b>: 
 
-$$
-\text {CH}_2-\text{CH}_2-\text O-\text {CH}_2 - \text {CH}_2
-$$
+<aside>
+
+<span class="smiles">CCOCC</span>
+
+</aside>
 
 ### Sais de ácidos carboxilícos
 
@@ -627,7 +627,7 @@ A nomenclatura dos <b>sais</b> provenientes dos ácidos carboxilícos segue o pa
 
 <aside>
 
-<span class="smiles">C(=O)(-[O-])-C-C(-C)-C [K+]</span>
+<span class="smiles">CC(C)CC(=O)[O-].[K+]</span>
 
 </aside>
 

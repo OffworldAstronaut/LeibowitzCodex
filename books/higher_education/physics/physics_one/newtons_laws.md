@@ -76,7 +76,7 @@ Ou seja, nessas condições, o momento total do sistema é conservado.
 
 O que é uma força? Feynman em sua <a target="_blank" href="https://www.feynmanlectures.caltech.edu/I_12.html">coleção de aulas</a> discorre um pouco sobre essa questão e a resposta dela é ligeiramente engraçada. Não temos uma definição perfeita nem de força, nem das leis de Newton, nem da mecânica. A ciência, por mais exata que ela pareça ser, é composta de diversas aproximações do mundo real. Entretanto, podemos designar uma definição para força, sim, que pode servir para uma ampla variedade de situações: uma força é um ente físico que provoca a mudança do estado de movimento de um corpo. 
 
-Então, como poderíamos ver a massa de um corpo, perante o ponto de vista da mecânica? Talvez uma grandeza física que afere a inércia de um corpo, a sua dificuldade de mudar o seu estado de movimento? Pelo menos nesta edição da página, não trago muitas definições ao leitor, apenas questionamentos interessantes.
+Então, como poderíamos ver a massa de um corpo, perante o ponto de vista da mecânica? Talvez uma grandeza física que afere a inércia de um corpo, a sua dificuldade de mudar o seu estado de movimento? De fato, esta é uma visão válida sobre a massa (inercial) — uma maneira de quantificar a inércia de um corpo. 
 
 ## A Gravitação Universal
 
