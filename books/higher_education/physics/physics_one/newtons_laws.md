@@ -140,22 +140,31 @@ A solda fria ocorre em maior escala, e mais facilmente, entre corpos metálicos 
 escala cotidianamente, em razão de impurezas e rugosidades presentes entre os materiais em contato. Essas atrações entre os átomos são geradas pelas <b>forças de Van der Waals</b>, forças eletrostáticas que, ao considerarmos milhões
 de átomos próximos devido as rugosidades maiores ou menores dos materiais atritados, geram diferentes "dificuldades" de deslizamento de corpos em outros corpos. 
 
-De fato, ao considerarmos um corpo sobre uma superfície sofrendo a atuação de uma força $\vec{F}$, a força de atrito gerada 
-possui três características próprias: enquanto o corpo permanece em repouso, a decomposição da força atuante no eixo paralelo a orientação da superfície possui mesmo módulo e orientação oposta a força de atrito. Esta força de atrito enquanto o corpo permanece em repouso é chamada <b>força de atrito estático</b>, sendo seu módulo escrito por: 
+De fato, ao considerarmos um corpo em repouso sobre uma superfície sofrendo a atuação de uma força $\vec{F}$, a decomposição dessa força no eixo paralelo à orientação da superfície possui mesmo módulo e orientação oposta à força de atrito. Esta força de atrito, enquanto o corpo permanece em repouso, é chamada <b>força de atrito estático</b>, sendo seu módulo exatamente igual ao módulo da força $\vec{F}$ até um dado valor máximo. 
+
+Este valor máximo é determinado pelo coeficiente $\mu_{E}$, único para cada sistema e determinado experimentalmente, seguindo a relação 
 
 $$
-F_{\text{at}} = \mu_E N
+F_{ae} = \mu_E N
 $$
 
-Com $\mu_E$ sendo o <b>coeficiente de atrito estático</b>, próprio do sistema em questão e detectado experimentalmente e $N$ o módulo da força normal que a superfície exerce sobre o corpo. 
+<aside>
 
-Essa força de atrito estático possui um valor máximo, determinado pelo coeficiente $\mu_{EM}$, também único para cada sistema. Se o módulo da força exercida $\vec{F}$ for maior que a magnitude do atrito, o corpo começa a se mover, deslizando sobre a superfície sob o efeito do <b>atrito cinético</b>. O atrito cinético possui uma intensidade constante e mais branda que o atrito estático, dada por: 
+Quando a força de atrito estático possui o mesmo módulo que a força atuante, dizemos que o corpo está na <b>iminência do movimento</b>.
+
+</aside>
+
+Se o módulo da força exercida $\vec{F}$ for maior que este valor máximo, o corpo começa a se mover, deslizando sobre a superfície sob o efeito do <b>atrito cinético</b>. O atrito cinético possui uma intensidade mais branda que o atrito estático, dada por: 
 
 $$
-\vec{F_\text{ac}} = \mu_C N
+F_\text{ac} = \mu_C N
 $$
 
-Com $\mu_C$ sendo seu coeficiente de atrito cinético. 
+Com $\mu_C$ sendo seu coeficiente de atrito cinético. Além disso, diferentemente do atrito estático, que cresce linearmente com $|\vec{F}|$ até que o valor máximo seja atingido, o atrito cinético permanece constante independentemente da magnitude da força aplicada. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/7e/Static_kinetic_friction_vs_time.png)
+
+<i>Gráfico da força de atrito a medida que uma força atuante é intensificada ao longo do tempo. Perceba que a força de atrito estático aumenta de forma aproximadamente linear, enquanto a de atrito cinético é aproximadamente constante. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Static_kinetic_friction_vs_time.png">Wikimedia Commons</a></i>
 
 ## Arrasto 
 
@@ -165,7 +174,7 @@ Chamamos <b>fluido</b>, de forma bem simples, toda substância capaz de escoar, 
 
 <i>Representação de uma esfera se movendo por um fluido com formação de turbulência na parte traseira. Imagem sob CC-BY-SA, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Flow_sphere.svg">Wikimedia Commons</a></i>
 
-Fixando o material do fluido como o ar e o formato do corpo como algo redondo, além de sua velocidade como suficientemente alta para a produção de redemoinhos na parte traseira (turbulência), escrevemos a magnitude da força de arrasto $\vec{D}$ como
+Fixando o material do fluido como o ar e considerando um corpo perfeitamente esférico de densidade uniforme, além de sua velocidade como suficientemente alta para a produção de redemoinhos na parte traseira (turbulência), escrevemos a magnitude da força de arrasto $\vec{D}$ como
 
 $$
 D = \dfrac{1}{2}C\rho A v^2
