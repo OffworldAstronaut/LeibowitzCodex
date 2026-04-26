@@ -308,13 +308,15 @@ $$
 
 são as equações paramétricas da reta que passa pelo ponto $(1,2)$ e possui a direção do vetor $(2, -3)$. Dessa forma, todos os pontos $(1+2t, 2-3t)$, com $t \in \mathbb{R}$ pertencem à reta imaginada. 
 
+O mesmo raciocínio pode ser aplicado para o caso tridimensional. De fato, basta apenas considerar que o ponto e o vetor dados possuem agora três coordenadas.
+
 <aside>
 
 Dadas duas retas, é possível encontrar o ângulo entre elas a partir da equação do produto interno apresentada anteriormente, com os vetores considerados sendo os vetores que dão a direção de cada uma das retas. Por essa razão, eles recebem o nome de <b>vetores diretores</b> das retas.
 
 </aside>
 
-## Equações cartesiana, geral e reduzida 
+## Equações cartesiana, geral, simétrica e reduzida 
 
 Dadas as equações paramétricas apresentadas anteriormente, podemos eliminar o parâmetro $t$ ao multiplcar a primeira equação por $b$ e a segunda por $a$ e, logo após, subtraindo as duas, produzindo: 
 
@@ -350,7 +352,30 @@ $$
 y = mx + k
 $$
 
+Por fim, uma outra adaptação para a equação original produz a <b>equação simétrica</b> da reta. 
+
+$$
+\dfrac{x - x_0}{a} = \dfrac{y - y_0}{b}
+$$
+
 Notavelmente, $m$ nesta equação equivale a $\tan{\theta}$, com $\theta$ sendo o ângulo de intersecção entre a reta e o eixo das abscissas. Em razão disto, o parâmetro $m$ é denominado <b>coeficiente angular</b> ou <b>declividade</b> da reta, com $k$ recebendo a alcunha de <b>coeficiente linear</b>. 
+
+Quando analisamos o caso tridimensional, vemos uma situação análoga. Ao eliminarmos o parâmetro $t$ das equações paramétricas e reorganizando seus termos, produzimos a equação simétrica no caso tridimensional: 
+
+$$
+\dfrac{x - x_0}{a} = \dfrac{y - y_0}{b} = \dfrac{z - z_0}{c}
+$$
+
+Ao contrário do caso bidimensional, uma única equação geral não pode ser confeccionada para representar uma reta. O que pode ser feito é um sistema de duas equações no formato
+
+$$
+\begin{cases}
+    A_1x + B_1y + C_1z + D_1 = 0 \\
+    A_2x + B_2y + C_2z + D_2 = 0
+\end{cases}
+$$
+
+produzindo uma reta no espaço tridimensional. A razão para esta diferença será explicitada em mais detalhes na seção sobre planos.
 
 ## Distância entre um ponto e uma reta 
 
@@ -359,6 +384,16 @@ Dados um ponto $P(x_0, y_0)$ e uma reta $r$ de equação $y = mx + k$, a distân
 $$ 
 d(P, r) = \dfrac{|-y_0 + mx_0 + k|}{\sqrt{1 + m^2}}
 $$
+
+Alternativamente, por meio da equação geral de uma reta, é possível encontrar a expressão: 
+
+$$
+d(P, r) = \dfrac{|Ax_0 + By_0 + C|}{\sqrt{A^2 + B^2}}
+$$
+
+No caso tridimensional, é possível determinar a distância entre um ponto e uma reta por meio de <b>planos</b>. Basta construir um plano que passa pelo ponto dado e que, simultaneamente, é perpendicular a reta dada. A norma do segmento de reta procurado é, dessa forma, a distância entre o ponto dado e o ponto de intersecção entre a reta dada e o plano construído.
+
+Uma solução alternativa é escrever a distância de $P$ a todos os outros pontos da reta em função de um parâmetro $t$ — por meio das equações vetorial/paramétricas — e seguir por meio de derivadas.
 
 # Circunferências e esferas
 
@@ -387,9 +422,78 @@ $$
 
 Com $D, E, F \in \mathbb{R}$.
 
+Em notação de conjunto, podemos definir a circunferência como o conjunto de todos os pontos que estão à uma mesma distância $r$ de um centro $C$. 
+
+Estas mesmas definições estendem-se para a definição de esferas no espaço tridimensional. Para uma esfera centrada em $C(x_0, y_0, z_0)$ de raio $r$, sua <b>equação cartesiana</b> é dada por 
+
+$$
+(x-x_0)^2 + (y-y_0)^2 + (z-z_0)^2 = r^2
+$$
+
+Expandindo e rearranjando os termos, chegamos na equação geral da esfera: 
+
+$$
+x^2 + y^2 + z^2 + Dx + Ey + Fz + G = 0
+$$
+
+Por fim, também podemos escrever as <b>equações paramétricas da esfera</b> por meio do centro $C(x_0, y_0, z_0)$ e um raio $r$ dados e os ângulos $\theta$, na horizontal, e $\phi$, vertical. 
+
+$$
+\begin{cases}
+    x = x_0 + r \cos{\theta} \\\\
+    y = y_0 + r \sin{\theta} \\\\
+    z = z_0 + r \sin{\phi}
+\end{cases}
+$$
+
+
 # Planos
 
 ---
+
+Elevar o nosso ponto de vista para o espaço tridimensional permite analisar os <b>planos</b> como subconjuntos desse espaço. De fato, dado um ponto $P(x_0, y_0, z_0)$ e um vetor $\vec{v} = (v_1, v_2, v_3)$, é possível ver que só existe um único plano $\alpha$ perpendicular ao vetor $\vec{v}$ que contém o ponto $P$. 
+
+De forma alternativa, podemos dizer que um dado ponto $Q(x, y, z)$ somente pertence ao plano mencionado se, e somente se, 
+
+$$
+\vec{PQ} \cdot \vec{v} = 0
+$$
+
+Além disso, já que $\vec{PQ} = (x - x_0, y - y_0, z - z_0)$, podemos expandir a expressão acima para formar a chamada <b>equação cartesiana do plano</b>. 
+
+$$
+v_1(x-x_0) + v_2(y - y_0) + v_3(z - z_0) = 0
+$$
+
+Perceba que esta equação pode ser expandida e reorganizada para algo da forma 
+
+$$
+Ax + By + Cz + D = 0
+$$
+
+com $A, B, C, D \in \mathbb{R}$. Esta equação é denominada <b>equação geral do plano</b>. Perceba que o sistema de duas equações que origina uma reta no espaço é formado por duas equações desse formato. Isso deve-se ao fato de que <b>a intersecção de dois planos determina uma reta</b>. 
+
+É possível visualizar isso de forma mais detalhada ao introduzir o conceito de graus de liberdade. Num espaço bidimensional, a equação da forma $Ax + By + C = 0$ permite deixar uma variável livre enquanto outra é definida pela equação. 
+
+Fazer a mesma coisa no espaço seria permitir duas variáveis livres — é possível assumir quaisquer valores em duas direções — gerando um plano. Enquanto isso, ao intersectar dois planos, estamos restringindo uma outra variável por meio de um sistema de equações. Este sistema pode ter infinitas soluções (uma reta) ou nenhuma — os planos são paralelos.
+
+## Distância de um ponto a um plano 
+
+Dados um plano $\alpha : Ax + By + Cz + D = 0$ e um ponto $P_0(x_0, y_0, z_0)$, temos que a distância entre eles é dada pela expressão 
+
+$$
+d(P, \alpha) = \dfrac{|Ax_0 + By_0 + Cz_0 + D|}{\sqrt{A^2 + B^2 + C^2}}
+$$
+
+<aside>
+
+<b>Dedução</b> — 
+
+</aside>
+
+## Distância entre retas reversas 
+
+Dizemos que duas retas são <b>reversas</b> se elas não se intersectam por pertencerem ao mesmo plano no espaço. Para encontrar a distância entre essas retas, nos utilizamos de projeções. 
 
 
 
