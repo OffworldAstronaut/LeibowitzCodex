@@ -132,20 +132,19 @@ $$
 
 ## Atrito
 
-Chamamos <b>força de atrito</b> a força que se opõe ao movimento e é oriunda do contato entre duas superfícies. Esse 
-atrito, de fato, é a soma vetorial entre as forças provenientes da interação entre os átomos dos corpos atritados, chamado
-"solda fria". O fenômeno da solda fria ocorre quando dois materiais entram em contato e imediatamente unem-se num único corpo. 
+Chamamos <b>força de atrito</b> a força que se opõe ao movimento e é oriunda do contato entre duas superfícies. Esse atrito, de fato, é a soma vetorial entre as forças provenientes da interação entre os átomos dos corpos atritados, chamado
+<b>solda fria</b>.
 
-A solda fria ocorre em maior escala, e mais facilmente, entre corpos metálicos polidos num vácuo, embora ainda ocorra em menor 
-escala cotidianamente, em razão de impurezas e rugosidades presentes entre os materiais em contato. Essas atrações entre os átomos são geradas pelas <b>forças de Van der Waals</b>, forças eletrostáticas que, ao considerarmos milhões
-de átomos próximos devido as rugosidades maiores ou menores dos materiais atritados, geram diferentes "dificuldades" de deslizamento de corpos em outros corpos. 
+O fenômeno da solda fria ocorre quando dois materiais entram em contato, formando pontos microscópicos de solda entre eles. 
+
+Ocorre em maior escala — e mais facilmente — entre corpos metálicos polidos num vácuo, em razão da ausência das impurezas e rugosidades presentes entre os materiais em contato nos casos ordinários. Essas forças interatômicas são de natureza eletrostática (<b>forças de Van der Waals</b>, ...).
 
 De fato, ao considerarmos um corpo em repouso sobre uma superfície sofrendo a atuação de uma força $\vec{F}$, a decomposição dessa força no eixo paralelo à orientação da superfície possui mesmo módulo e orientação oposta à força de atrito. Esta força de atrito, enquanto o corpo permanece em repouso, é chamada <b>força de atrito estático</b>, sendo seu módulo exatamente igual ao módulo da força $\vec{F}$ até um dado valor máximo. 
 
-Este valor máximo é determinado pelo coeficiente $\mu_{E}$, único para cada sistema e determinado experimentalmente, seguindo a relação 
+Este valor máximo é determinado pelo coeficiente $\mu_{EM}$, único para cada sistema e determinado experimentalmente, seguindo a relação 
 
 $$
-F_{ae} = \mu_E N
+F_{ae} = \mu_\text{EM} N
 $$
 
 <aside>

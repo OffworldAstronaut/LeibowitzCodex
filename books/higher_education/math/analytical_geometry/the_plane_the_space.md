@@ -222,7 +222,7 @@ $$
 
 </aside>
 
-Interessantemente, a norma do produto vetorial entre dois vetores é numericamente igual à área de um paralelogramo formado por estes mesmos vetores. De fato, pode-se demonstrar que 
+Interessantemente, a norma do produto vetorial entre dois vetores é numericamente igual à área de um paralelogramo formado por estes mesmos vetores (verifique!). De fato, pode-se demonstrar que 
 
 $$
 ||\vec{u} \times \vec{v}||^2 = ||\vec{u}||^2 ||\vec{v}||^2 - (u \cdot v)^2 \Rightarrow ||\vec{u} \times \vec{v}|| = ||\vec{u}|| \cdot ||\vec{v}|| \sin{\theta}
@@ -249,7 +249,7 @@ Por fim, é possível mostrar que o módulo do produto misto entre três vetores
 
 <aside>
 
-<b>Demonstração</b> — Dados três vetores $\vec{u}, \vec{v}, \vec{w} \in \mathbb{R}^3$, vemos que o paralelogramo formado por eles possui base de área $||\vec{u} \times \vec{v}||$ e altura $h = ||\vec{w}|| \cdot |\cos(\alpha)$, com $\alpha$ sendo o ângulo formado entre o vetor $\vec{w}$ e a altura do paralelepípedo ou entre este e o vetor oriundo do produto vetorial entre $\vec{u}$ e $\vec{v}$. 
+<b>Demonstração</b> — Dados três vetores $\vec{u}, \vec{v}, \vec{w} \in \mathbb{R}^3$, vemos que o paralelepípedo formado por eles possui base de área $||\vec{u} \times \vec{v}||$ e altura $h = ||\vec{w}|| \cdot \cos(\alpha)$, com $\alpha$ sendo o ângulo formado entre o vetor $\vec{w}$ e a altura do paralelepípedo ou entre este e o vetor oriundo do produto vetorial entre $\vec{u}$ e $\vec{v}$. 
 
 Note que 
 
@@ -266,7 +266,7 @@ e, pela definição do volume de um paralelepípedo (produto entre a área da ba
 $$
 \begin{align*}
     V &= ||\vec{u} \times \vec{v}|| \cdot \dfrac{|(\vec{u} \times \vec{v}) \cdot \vec{w}|}{||\vec{u} \times \vec{v}||} \\\\
-    \therefore V &= |(\vec{u} \times \vec{v})| \cdot \vec{w}
+    \therefore V &= ||\vec{u} \times \vec{v}|| \cdot \vec{w}
 \end{align*}
 $$
 
@@ -395,6 +395,123 @@ No caso tridimensional, é possível determinar a distância entre um ponto e um
 
 Uma solução alternativa é escrever a distância de $P$ a todos os outros pontos da reta em função de um parâmetro $t$ — por meio das equações vetorial/paramétricas — e seguir por meio de derivadas.
 
+<aside>
+
+<b>Demonstração (Distância entre ponto e reta, método do plano)</b> — Sejam uma reta $r$ delimitada por um ponto $A(x_a, y_a, z_a)$ e um vetor diretor $\vec{v} = (v_1, v_2, v_3)$ e um ponto $P(x_0, y_0, z_0) \in \mathbb{R^3}$. 
+
+Podemos construir um plano a partir do vetor diretor da reta e do ponto $P$ dado. Além disso, podemos construir as equações paramétricas da reta $r$ dada. Para encontrar o ponto de intersecção entre a reta e o plano construído, basta solucionar o sistema abaixo. 
+
+$$
+\begin{cases}
+    v_1(x - x_0) + v_2(y - y_0) + v_3(z - z_0) = 0 \\\\
+    x = x_a + tv_1 \\\\
+    y = y_a + tv_2 \\\\
+    z = z_a + tv_3 
+\end{cases}
+$$
+
+Substituindo as três últimas equações na primeira e rearranjando os termos, podemos encontrar o valor de $t$ que fornece o ponto de intersecção entre a reta e o plano. 
+
+$$
+\begin{align*}
+    &v_1(x_a + tv_1 - x_0) + v_2(y_a + tv_2 - y_0) + v_3(z_a + tv_3 - z_0) = 0 \\\\
+    &\implies v_1x_a + v_1^2t^2 - v_1x_0 + v_2y_a + v_2^2t - v_2y_0 + v_3z_a + tv_3^2 - v_3z_0 = 0 \\\\
+    &\implies v_1^2t + v_2^2t + v_3^2t = -v_1x_a + v_1x_0 - v_2y_a + v_2y_0 + v_3z_a + v_3z_0 \\\\
+    &\implies t(v_1^2 + v_2^2 + v_3^2) = v_1(x_0 - x_a) + v_2(y_0 - y_a) + v_3(z_0-z_a) \\\\
+    &\therefore t = \dfrac{v_1(x_0 - x_a) + v_2(y_0 - y_a) + v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2}
+\end{align*}
+$$
+
+Substituindo este valor nas equações paramétricas da reta, obtemos: 
+
+$$
+\begin{align*}
+    x &= \dfrac{x_a(v_1^2 + v_2^2 + v_3^2) + v_1^2(x_0 - x_a) + v_1v_2(y_0 - y_a) + v_1v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2} \\\\
+    y &= \dfrac{y_a(v_1^2 + v_2^2 + v_3^2) + v_1v_2(x_0 - x_a) + v_2^2 (y_0 - y_a) + v_2v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2} \\\\
+    z &= \dfrac{z_a(v_1^2 + v_2^2 + v_3^2) + v_1v_3(x_0 - x_a) + v_2v_3 (y_0 - y_a) + v_3^2(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2}
+\end{align*}
+$$
+
+Podemos reescrever essas expressões numa forma mais compacta, obtendo:
+
+$$
+\begin{align*}
+    x &= \dfrac{x_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_1(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle} \\\\
+    y &= \dfrac{y_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_2(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle} \\\\
+    z &= \dfrac{z_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_3(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle}
+\end{align*}
+$$
+
+Assim, pela expressão da distância entre dois pontos, temos que a distância entre o ponto $P(x_0, y_0, z_0)$ dado e o ponto de intersecção $I$ encontrado é
+
+$$
+\begin{align*}
+d(P, I) &= \sqrt{\langle \vec{X}, \vec{X} \rangle + \dfrac{2\langle \vec{v}, \vec{X} \rangle^2}{\langle \vec{v}, \vec{v} \rangle}} \\\\
+\vec{X} &= (x_0 - x_a, y_0 - y_a, z_0 - z_a)
+\end{align*}
+$$
+
+e, portanto, esta é a distância entre o ponto e a reta dados.
+
+</aside>
+
+<aside>
+
+<b>Demonstração (Distância entre ponto e reta, método por produto vetorial)</b> — Sejam $r$ uma reta definida pelo ponto $A(x_a, y_a, z_a)$ e pelo vetor diretor $\vec{v} = (v_1, v_2, v_3)$ e $P(x_0, y_0, z_0)$ um ponto qualquer do espaço. 
+
+Note que a altura do paralelogramo formado pelos vetores $\vec{v}$ e $\vec{AP}$ é igual a 
+
+$$
+h = d(P, r) = \dfrac{||\vec{AP} \times \vec{v}}{||\vec{v}||}
+$$
+
+como visto anteriormente na exploração da interpretação geométrica do produto vetorial. 
+
+</aside>
+
+## Distância entre duas retas no mesmo plano
+
+Num plano, podemos encontrar a distância entre duas retas $r: y = m_1x + b_2$ e $s: y = m_2x + b_2$ por meio da expressão: 
+
+$$
+\begin{cases}
+    0 & \text{se } m_1 \neq m_2 \\\\
+    \dfrac{|b_1 - b_2|}{\sqrt{m^2 + 1}} & \text{se } m_1 = m_2 = m
+\end{cases}
+$$
+
+É fácil ver a razão por trás da primeira condição: coeficientes angulares distintos implica em que as retas são concorrentes e, portanto, possuem um ponto em comum. Dessa forma, sua distância é zero. Para o caso em que as retas são paralelas, isto será demonstrado a seguir. 
+
+<aside>
+
+<b>Demonstração — </b> Sejam duas retas paralelas $r: y = mx + b_1$ e $s: y = mx + b_2$ e uma perpendicular $g: -\dfrac{1}{m}x$. Encontrar a distância $d(r,s)$ implica em encontrar a distância entre os pontos de interseção da reta perpendicular com as paralelas dadas, isto é, os pontos $P(x_p, y_p)$ e $Q(x_q, y_q)$. Os pontos marcam, respectivamente, a interseção da perpendicular com as retas $r$ e $s$. 
+
+Para encontrar as coordenadas do ponto $P(x_p, y_p)$, basta resolver o sistema
+
+$$
+\begin{cases}
+    y = mx + b_1 \\\\ 
+    y = -\dfrac{1}{m}x
+\end{cases}
+$$
+
+por quaisquer métodos. Substituindo de forma direta para encontrar $x$ e substituindo novamente para encontrar $y$, vemos que o ponto $P$ possui coordenadas $P\left(\dfrac{-b_1m}{m^2+1},\dfrac{b_1}{m^2+1}\right)$. 
+
+Seguindo o mesmo processo para o ponto $Q$, encontramos as coordenadas $P\left(\dfrac{-b_2m}{m^2+1},\dfrac{b_2}{m^2+1}\right)$.
+
+Assim, pela expressão para a distância entre dois pontos num plano, temos: 
+
+$$
+\begin{align*}
+    d(P,Q) &= \sqrt{\left(\dfrac{-b_2m + b_1m}{m^2 + 1}\right)^2 + \left(\dfrac{b_2 - b_1}{m^2 + 1}\right)^2} \\\\
+    \therefore d(P,Q) &= \sqrt{\dfrac{m^2(b_1 - b_2)^2}{(m^2 + 1)^2} + \dfrac{(b_2 - b_1)^2}{(m_2 + 1)^2}} \\\\
+    \therefore d(P,Q) &= \sqrt{\dfrac{(b_1-b_2)^2(m^2+1)}{(m^2+1)^2}} \\\\
+    \therefore d(P,Q) &= \dfrac{|b_1 - b_2|}{\sqrt{m^2 + 1}}
+\end{align*}
+$$
+
+</aside>
+
 # Circunferências e esferas
 
 ---
@@ -487,18 +604,84 @@ $$
 
 <aside>
 
-<b>Dedução</b> — 
+<b>Demonstração</b> — Note que os três primeiros coeficientes da equação do plano são as coordenadas de seu vetor normal. Dessa forma, o vetor $\vec{v} = (A, B, C)$ é o vetor normal ao plano e o vetor diretor da reta perpendicular a este e que passa pelo ponto $P$. Dito isso, encontrar a distância entre o ponto $P$ e o ponto de intersecção da perpendicular com o plano solucionará nosso problema. 
+
+Para encontrar o ponto procurado, precisamos solucionar o sistema de equações formado pelas equações paramétricas da reta e a equação do plano dado. 
+
+$$
+\begin{cases}
+    Ax + By + Cz + D = 0 \\\\ 
+    x = x_0 + tA \\\\
+    y = y_0 + tB \\\\ 
+    z = z_0 + tC 
+\end{cases}
+$$
+
+Substituindo as três últimas equações na primeira equação e resolvendo para encontrar $t$, obtemos: 
+
+$$
+\begin{align*}
+    A(x_0 + tA) + B(y_0 + tB) + C(z_0 + tC) + D &= 0 \\\\
+    \therefore Ax_0 + tA^2 + By_0 + tB^2 + Cz_0 + tC^2 + D &= 0 \\\\
+    \therefore t(A^2 + B^2 + C^2) &= -Ax_0 - By_0 - Cz_0 - D \\\\
+    \therefore t \langle \vec{v}, \vec{v} \rangle &= -(Ax_0 + By_0 + Cz_0 + D) \\\\
+    \therefore t &= \dfrac{-(\langle \vec{v}, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle}
+\end{align*}
+$$
+
+Substituindo $t$ nas equações paramétricas da perpendicular, obtemos o ponto $I(x_I, y_I, z_I)$, de coordenadas
+
+$$
+\begin{align*}
+    x_I &= \dfrac{x_0 \langle \vec{v}, \vec{v} \rangle - A(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\\\
+    y_I &= \dfrac{y_0 \langle \vec{v}, \vec{v} \rangle - B(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\\\
+    z_I &= \dfrac{z_0 \langle \vec{v}, \vec{v} \rangle - C(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\\\
+\end{align*}
+$$
+
+Assim, pela expressão da distância entre dois pontos: 
+
+$$
+\begin{align*}
+    d(P, I) &= \sqrt{\dfrac{A^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2} + \dfrac{B^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2} + \dfrac{C^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2}} \\\\
+    d(P, I) &= \sqrt{\dfrac{(A^2 + B^2 + C^2)(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2}} \\\\
+    d(P, I) &= \sqrt{\dfrac{(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle}} \\\\
+    d(P, I) &= \dfrac{|\langle \vec{v}, P \rangle + D|}{||\vec{v}||}
+\end{align*}
+$$
+
+Como queríamos demonstrar.
 
 </aside>
 
+### Distância entre dois planos 
+
+Uma consequência interessante da propriedade interior é a capacidade de encontrar a distância entre dois planos paralelos. De fato, considere os planos $\alpha: Ax + By + Cz + D_1 = 0$ e $\beta: Ax + By + Cz + D_2 = 0$ e os pontos $P(x_0, y_0, z_0) \in \alpha$ e $Q(x_1, y_1, z_1) \in \beta$. O vetor diretor dos planos é $\vec{v} = (A, B, C)$.
+
+Pelo que encontrarmos anteriormente, temos que $d(P, \beta) = \dfrac{|\langle \vec{v}, P \rangle + D_2|}{||\vec{v}||}$ e $d(P, \alpha) = \dfrac{|\langle \vec{v}, Q \rangle + D_1|}{||\vec{v}||}$. Note que $d(P, \beta) = d(Q, \alpha)$ para quaisquer pontos $P$ e $Q$ e, portanto: 
+
+$$
+d(\alpha, \beta) = |\langle \vec{v}, P \rangle + D_2| = |\langle \vec{v}, Q \rangle + D_1|
+$$
+
+
 ## Distância entre retas reversas 
 
-Dizemos que duas retas são <b>reversas</b> se elas não se intersectam por pertencerem ao mesmo plano no espaço. Para encontrar a distância entre essas retas, nos utilizamos de projeções. 
+Dizemos que duas retas são <b>reversas</b> se elas não se intersectam por pertencerem ao mesmo plano no espaço. Para encontrar a distância entre essas retas, nos utilizamos dos conceitos de produto misto e sua interpretação geométrica. 
 
+<aside>
 
+<b>Demonstração</b> — Sejam as retas $r$ e $s$, definidas, respectivamente, pelos pontos $P(x_0, y_0, z_0)$ e $Q(x_1, y_1, z_1)$ e vetores diretores $\vec{u} = (u_1, u_2, u_3)$ e $\vec{v} = (v_1, v_2, v_3)$ retas reversas. Note que, pela interpretação geométrica do produto misto como o volume de um paralelepípedo, a distância $d(r, s)$ será a altura $h$ desse sólido definido pelos vetores $\vec{u}$, $\vec{v}$ e $\vec{PQ}$ e, portanto: 
+
+$$
+d(r,s) = \dfrac{|(\vec{u} \times \vec{v}) \cdot \vec{PQ}|}{||\vec{u} \times \vec{v}||}
+$$
+
+</aside>
 
 # Referências 
 
 --- 
 
 1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.
+2. STEINBRUCH, Alfredo; WINTERLE, Paulo. Geometria Analítica. 2. ed. São Paulo: Makron Books, 2004.
