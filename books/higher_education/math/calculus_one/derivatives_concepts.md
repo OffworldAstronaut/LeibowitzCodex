@@ -128,11 +128,23 @@ Uma produção que na verdade perde quilos de vidros a cada hora, indicando, tal
 
 A primeira dessas propriedades, e provavelmente a mais direta, é que a derivada de uma função constante é nula.
 
-De fato, sendo $f(x)=c$, podemos deduzir — a título de curiosidade —, essa propriedade da seguinte maneira: 
+<aside>
+
+<b>Demonstração (derivada de uma função constante)</b> — Seja $f: \mathbb{R} \to \mathbb{R}$ uma função constante com lei de formação $f(x) = c, \forall c$. 
+
+Pela definição de derivada, temos: 
 
 $$
-f'(x)=\lim_{h \rightarrow 0} \dfrac{f(x+h) - f(x)}{h} = \lim_{h \rightarrow 0} \dfrac{c - c}{h} = \lim_{h \rightarrow 0} \dfrac{0}{h}=0
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{f(x + h) - f(x)}{h}\right) &= \lim_{h \to 0}\left(\dfrac{c-c}{h}\right) \\\\ 
+    &= \lim_{h \to 0}\left(\dfrac{0}{h}\right) \\\\ 
+    &= 0.
+\end{align*}
 $$
+
+Note que a divisão do segundo passo é possível pois $h \neq 0$. 
+
+</aside>
 
 ## Função potência
 
@@ -208,15 +220,39 @@ g'(x)&=\lim_{h \rightarrow 0} \dfrac{g(x+h)-g(x)}{h}=\lim_{h \rightarrow 0} \dfr
 \end{align*}
 $$
 
-Perceba que a última afirmação é dada por meio de propriedades de limites — a constante “sai”.
+O último passo é justificado por meio das propriedades de limites (limite do produto entre uma função e uma constante).
 
 ## Regra da soma ou da diferença
 
-Ao derivarmos uma função formada pela soma, ou pela diferença, de duas outras funções, sua derivada será a soma (ou a diferença) das derivadas das funções que a formam, isto é
+Ao derivarmos uma função formada pela soma de duas outras funções, sua derivada será a soma das derivadas das funções que a formam, isto é
 
 $$
-F(x)=f(x) \pm g(x) \Rightarrow F'(x)=f'(x) \pm g'(x)
+F(x)=f(x) + g(x) \implies F'(x)=f'(x) + g'(x)
 $$
+
+<aside>
+
+<b>Demonstração (derivada da soma de duas funções)</b> — Sejam $f(x)$ e $g(x)$ funções diferenciáveis. Temos, pela definição de derivada: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{f(x+h)+g(x+h)-f(x)-g(x)}{h}\right) &= \lim_{h \to 0}\left(\dfrac{f(x+h)-f(x)+g(x+h)-g(x)}{h}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{f(x+h)-f(x)}{h} + \dfrac{g(x+h)-g(x)}{h}\right)
+\end{align*}
+$$
+
+Como $f$ e $g$ são ambas diferenciáveis, temos que os limites $\lim_{h \to 0}\left(\dfrac{f(x+h)-f(x)}{h}\right)$ e $\lim_{h \to 0}\left(\dfrac{g(x+h)-g(x)}{h}\right)$ existem. Logo, pela propriedade do limite da soma, segue que 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{f(x+h)-f(x)}{h} + \dfrac{g(x+h)-g(x)}{h}\right) &= \lim_{h \to 0}\left(\dfrac{f(x+h)-f(x)}{h}\right) + \lim_{h \to 0}\left(\dfrac{g(x+h)-g(x)}{h}\right) \\\\
+    &= f'(x) + g'(x) 
+\end{align*}
+$$
+
+Como queríamos demonstrar.
+
+</aside>
 
 ## Regra do produto
 
@@ -226,7 +262,28 @@ $$
 F'(x)=f'(x)g(x)+f(x)g'(x)
 $$
 
-Essa propriedade pode ser demonstrada pela definição de derivada — simplificações e expansões das expressões. 
+<aside>
+
+<b>Demonstração (derivada do produto de duas funções)</b> — Sejam $f$ e $g$ diferenciáveis. Pela definição de derivada, temos: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{f(x+h)g(x+h)-f(x)g(x)}{h}\right) &= \lim_{h \to 0}\left(\dfrac{f(x+h)g(x+h)-f(x)g(x+h)+f(x)g(x+h)-f(x)g(x)}{h}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{g(x+h)[f(x+h)-f(x)]+f(x)[g(x+h)-g(x)]}{h}\right) \\\\
+    &= \lim_{h \to 0}\left(g(x+h) \cdot \dfrac{f(x+h)-f(x)}{h} + f(x) \cdot \dfrac{g(x+h)-g(x)}{h}\right)
+\end{align*}
+$$
+
+Como $f$ e $g$ são diferenciáveis e portanto, também contínuas, segue que 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(g(x+h) \cdot \dfrac{f(x+h)-f(x)}{h} + f(x) \cdot \dfrac{g(x+h)-g(x)}{h}\right) &= f'(x)g(x) + f(x)g'(x) \\\\ 
+    &\therefore (fg)'=f'g + fg'
+\end{align*}
+$$
+
+</aside>
 
 ## Regra do quociente
 
@@ -236,7 +293,29 @@ $$
 F'(x)=\dfrac{g(x)f'(x)-f(x)g'(x)}{[g(x)]^2}
 $$
 
-Essa regra pode ser demonstrada a partir da regra do produto de maneira relativamente direta. Pode também ser demonstrada pela definição de derivada de uma maneira robusta. 
+<aside>
+
+<b>Demonstração (derivada do quociente de duas funções)</b> — Sejam $f$ e $g$ diferenciáveis com $g \neq 0$. Pela definição de derivada: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{\dfrac{f(x+h)}{g(x+h)} - \dfrac{f(x)}{g(x)}}{h}\right) &= \lim_{h \to 0}\left(\dfrac{g(x)f(x+h)-f(x)g(x+h)}{hg(x)g(x+h)}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{g(x)f(x+h)-f(x)g(x+h)}{h} \cdot \dfrac{1}{g(x)g(x+h)}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{g(x)f(x+h)-g(x)f(x)+g(x)f(x)-f(x)g(x+h)}{h} \cdot \dfrac{1}{g(x)g(x+h)}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{g(x)[f(x+h)-f(x)]-f(x)[g(x+h)-g(x)]}{h} \cdot \dfrac{1}{g(x)g(x+h)}\right) \\\\
+    &= \lim_{h \to 0}\left(\left[g(x) \cdot \dfrac{f(x+h)-f(x)}{h} - f(x) \cdot \dfrac{g(x+h)-g(x)}{h}\right] \cdot \dfrac{1}{g(x)g(x+h)}\right)
+\end{align*}
+$$
+
+Como $f$ e $g$ são diferenciáveis e, portanto, contínuas, vale que: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\left[g(x) \cdot \dfrac{f(x+h)-f(x)}{h} - f(x) \cdot \dfrac{g(x+h)-g(x)}{h}\right] \cdot \dfrac{1}{g(x)g(x+h)}\right) &= \dfrac{f'g-fg'}{g^2}
+\end{align*}
+$$
+
+</aside>
 
 ## Regra da cadeia
 
@@ -275,6 +354,41 @@ $$
 &= \dfrac{5}{2\sqrt{5x-8}}
 \end{align*}
 $$
+
+<aside>
+
+<b>Demonstração (regra da cadeia, adaptada de MathStackExchange)</b> — Sejam $f$ e $g$ funções e $a \in \mathbb{R}$. Definimos uma função $\phi : \mathbb{R} \to \mathbb{R}$ tal que: 
+
+$$
+\phi(t)=
+\begin{cases}
+    \dfrac{f(t) - f(g(a))}{t-g(a)} & t \neq g(a) \\\\
+    f'(g(a)) & t = g(a)
+\end{cases}
+$$
+
+Por construção, $\phi$ é contínua em $g(a)$. Além disso, $g$ é contínua em $a$ por ser diferenciável em $a$. Dessa forma, $\phi(g)$ é contínua em $a$. 
+
+Perceba que, $\forall x \neq a$ vale 
+
+$$
+\dfrac{f(g(x)) - f(g(a))}{x-a} = \phi(g(x)) \cdot \dfrac{g(x)-g(a)}{x-a}
+$$
+
+e, portanto, 
+
+$$
+\begin{align*}
+    (f(g))'(a) &= \lim_{x \to a}\left(\dfrac{f(g(x)) - f(g(a))}{x-a}\right) \\\\
+    &= \lim_{x \to a}\left(\phi(g(x))\right) \cdot \lim_{x \to a}\left(\dfrac{g(x)-g(a)}{x-a}\right) \\\\ 
+    &= \phi(g(a)) \cdot g'(a) \\\\ 
+    &= f'(g(a)) \cdot g'(a)
+\end{align*}
+$$
+
+Como queríamos demonstrar.
+
+</aside>
 
 # Derivando funções exponenciais
 
@@ -324,6 +438,29 @@ $$
 $$
 
 Ou seja, a derivada da **função exponencial natural** — $f(x)=e^x$ — é ela própria. 
+
+<aside>
+
+<b>Demonstração do limite "conveniente"</b> — Para encontrar o limite $\lim_{h \to 0}\left(\dfrac{e^h-1}{h}\right)$, iremos nos utilizar do limite exponencial fundamental. 
+
+Dessa forma, fazendo $t = \dfrac{1}{e^h-1}$, segue que $\dfrac{1}{t} = e^h - 1$. Realizando a mudança de variável no limite, de $h$ para $t$: 
+
+$$
+\begin{align*}
+    \lim_{t \to \infty} \left(\dfrac{\dfrac{1}{t}}{\ln\left({1 + \dfrac{1}{t}}\right)}\right) &= \lim_{t \to \infty} \left(\dfrac{1}{t\ln\left({1 + \dfrac{1}{t}}\right)}\right) \\\\
+    &= \lim_{t \to \infty} \left(\dfrac{1}{\ln\left(\left(1+\dfrac{1}{t}\right)^t\right)}\right)
+\end{align*}
+$$
+
+Por definição, sabe-se que $\lim_{t \to \infty} \left(1 + \dfrac{1}{t}\right)^{t} = e$. Além disso, pela continuidade da função logarítmica em todo seu domínio: 
+
+$$
+\begin{align*}
+    \lim_{t \to \infty} \left(\dfrac{1}{\ln\left(\left(1+\dfrac{1}{t}\right)^t\right)}\right) &= \lim_{t \to \infty} \left(\dfrac{1}{\ln{e}}\right) = \dfrac{1}{1} = 1.
+\end{align*}
+$$
+
+</aside>
 
 “Mas e as outras bases?”, alguém pode se questionar, mas não se preocupe, pois esse número que encontramos é justamente a chave que irá permitir a superação de nossa barreira no cálculo da derivada de uma exponencial qualquer. 
 
@@ -375,15 +512,59 @@ Essa regra será bastante útil em situações de funções exponenciais compost
 
 ---
 
-Podemos denominar **função logarítmica** toda função $f(x)=\log_bx$, com todas as restrições numéricas necessárias para que o logaritmo exista, como por exemplo, que $b>0$ e $b\neq 1$. 
+Podemos denominar **função logaritmo** toda função $f(x)=\log_bx$, com todas as restrições numéricas necessárias para que o logaritmo exista, como por exemplo, que $b>0$ e $b\neq 1$. Em especial, podemos calcular a derivada da função logaritmo natural como base para o caso geral. 
 
-Por meio da **derivação implícita**, técnica que veremos adiante, podemos encontrar que as derivadas das funções logarítmicas são da forma:
+<aside>
+
+<b>Demonstração (derivada da função logaritmo)</b> — Pela definição de derivada, temos: 
 
 $$
-f'(x)=\dfrac{1}{x \cdot \ln b}
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{\ln{(x+h)}-\ln{x}}{h}\right) &= \lim_{h \to 0}\left(\dfrac{\ln{\left(\dfrac{x+h}{x}\right)}}{h}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{\ln{\left(1 + \dfrac{h}{x}\right)}}{h}\right)
+\end{align*}
 $$
 
-Por exemplo, quando $b=e$, temos que $f'(x)=\dfrac{1}{x}$.
+Fazendo $t = \dfrac{h}{x}$, temos: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{\ln{\left(1 + \dfrac{h}{x}\right)}}{h}\right) &= \lim_{t \to 0}\left(\dfrac{\ln\left(1 + t\right)}{xt}\right) \\\\
+    &= \lim_{t \to 0}\left(\dfrac{1}{xt}\ln\left(1 + t\right)\right) \\\\
+    &= \dfrac{1}{x} \cdot \lim_{t \to 0} \left(\left(1 + t\right)^{1/t}\right)
+\end{align*}
+$$
+
+Como a função $\ln(1+t)^{1/t}$ é contínua em todo o seu domínio, podemos escrever: 
+
+$$
+\dfrac{1}{x} \cdot \lim_{t \to 0} \left(\left(1 + t\right)^{1/t}\right) = \dfrac{1}{x} \cdot \ln\left(\lim_{t \to 0}\left(1+t\right)^{1/t}\right)
+$$
+
+Note que o limite $\lim_{t \to 0}\left(1+t\right)^{1/t}$ é um limite fundamental, valendo $\lim_{t \to 0}\left(1+t\right)^{1/t} = e$. Portanto: 
+
+$$
+\begin{align*}
+    \dfrac{1}{x} \cdot \lim_{t \to 0} \left(\left(1 + t\right)^{1/t}\right) &= \dfrac{1}{x} \cdot \ln{e} \\\\
+    &=\dfrac{1}{x}
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Corolário (derivada da função logaritmo, base qualquer)</b> — Pela propriedade da mudança de base de logaritmos, segue-se que: 
+
+$$
+\begin{align*}
+\log_ax = \dfrac{\ln x}{\ln a} \implies \dfrac{d}{dx}(\log_a{x}) &= \dfrac{d}{dx}\left(\dfrac{\ln{x}}{\ln{a}}\right) \\\\    
+&= \dfrac{1}{\ln{a}} \dfrac{d}{dx}\ln{x} \\\\
+&= \dfrac{1}{x\ln{a}}
+\end{align*}
+$$
+
+</aside>
 
 # Derivadas de funções trigonométricas
 
@@ -393,49 +574,155 @@ Todas as funções trigonométricas podem ser reconstruídas por meio de recombi
 
 ## Derivando a função seno
 
-Pela definição, temos: 
+Antes de derivar a função cosseno, precisamos ter em mente o <b>limite trigonométrico fundamental</b>, <a href="/books/higher_education/math/calculus_one/limits.html" target="_blank">visto anteriormente</a>, e o seguinte limite: 
 
 $$
-\dfrac{d}{dx}\sin x =\lim_{h \rightarrow 0} \dfrac{\sin{(x + h)-\sin x}}{h}
+\lim_{h \to 0} \left(\dfrac{\cos{h} - 1}{h}\right) = 0
 $$
 
-Utilizando a propriedade trigonométrica do seno da soma, obtemos: 
+<aside>
+
+<b>Demonstração</b> — Pela definição de derivada, temos: 
 
 $$
 \begin{align*}
-\dfrac{d}{dx} \sin x &=\lim_{h \rightarrow 0} \dfrac{\sin x \cos h+\sin h \cos x - \sin x}{h}\\\\
-&=\lim_{h \rightarrow 0} \left(\dfrac{\sin h}{h}\cos x + \dfrac{\cos h -1}{h} \sin x \right)\\\\
+    \lim_{h \to 0}\left(\dfrac{\cos{h} - 1}{h}\right) &= \lim_{h \to 0}\left(\dfrac{\cos^2{h}-1}{h \cdot (\cos{h} +1)}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{-\sin^2{h}}{h \cdot (\cos{h} + 1)}\right) \\\\
+    &= -\lim_{h \to 0}\left(\dfrac{\sin{h}}{h} \cdot \dfrac{\sin{h}}{\cos{h} + 1}\right)
 \end{align*}
 $$
 
-Por fim, aplincando os limites fundamentais da trigonometria, cujas provas podem ser encontradas [**neste artigo**](https://en.wikipedia.org/wiki/Differentiation_of_trigonometric_functions) da Wikipedia, obtemos finalmente que:
+Como as funções trigonométricas são contínuas, o limite direito existe e pode ser calculado por substituição direta. O limite no lado esquerdo da multiplicação é o limite trigonométrico fundamental.
+
+Dessa forma, pela propriedade do limite do produto: 
 
 $$
-\dfrac{d}{dx}\sin x=1\cdot \cos x + 0 \cdot \sin x = \cos x
+\begin{align*}
+    -\lim_{h \to 0}\left(\dfrac{\sin{h}}{h} \cdot \dfrac{\sin{h}}{\cos{h} + 1}\right) &= -\left[\lim_{h \to 0}\left(\dfrac{\sin{h}}{h}\right) \cdot \lim_{h \to 0} \left(\dfrac{\sin{h}}{\cos{h} + 1}\right) \right] \\\\
+    &= -\left[1 \cdot 0\right] \\\\
+    &= 0.
+\end{align*}
 $$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (derivada da função seno)</b> — Pela definição de derivada, temos: 
+
+$$
+\lim_{h \to 0}\left(\dfrac{\sin{(x+h)}-\sin{x}}{h}\right)
+$$
+
+Em seguida, pela identidade do seno da soma de dois arcos, segue que: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{\sin{(x+h)}-\sin{x}}{h}\right) &= \lim_{h \to 0}\left(\dfrac{\sin{x}\cos{h} + \cos{x}\sin{h}-\sin{x}}{h}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{\sin{x}(\cos{h}-1) + \cos{x} \sin{h}}{h}\right) \\\\
+    &= \lim_{h \to 0}\left(\sin{x} \cdot \dfrac{\cos{h}-1}{h} + \cos{x} \cdot \dfrac{\sin{h}}{h}\right)
+\end{align*}
+$$
+
+Pela continuidade das funções trigonométricas, pelo limite fundamental e pelo limite acima calculado, portanto, podemos escrever, através da propriedade do limite da soma: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\sin{x} \cdot \dfrac{\cos{h}-1}{h} + \cos{x} \cdot \dfrac{\sin{h}}{h}\right) &= \lim_{h \to 0}\left(\sin{x}\cdot\dfrac{\cos{h}-1}{h}\right) + \lim_{h \to 0}\left (\cos{x} \cdot \dfrac{\sin{h}}{h}\right) \\\\
+    &= \sin{x} \cdot \lim_{h \to 0}\left(\dfrac{\cos{h} - 1}{h}\right) + \cos{x} \cdot \lim_{h \to 0}\left(\dfrac{\sin{h}}{h}\right) \\\\
+    &= \sin{x} \cdot 0 + \cos{x} \cdot 1 \\\\
+    &= \cos{x}
+\end{align*}
+$$
+
+</aside>
+
 
 ## Derivando a função cosseno
 
-Seguindo um caminho semelhante à seção anterior, pela definição, temos que: 
+<aside>
+
+<b>Demonstração (derivada da função cosseno)</b> — Pela definição de derivada, temos: 
 
 $$
-\dfrac{d}{dx}\cos x = \lim_{h \rightarrow 0} \dfrac{\cos{(x + h)} - \cos x}{h}
+\lim_{h \to 0} \left(\dfrac{\cos{(x+h)}-\cos{x}}{h}\right)
 $$
 
-Por meio da identidade do cosseno da soma, podemos reescrever: 
+Pela identidade do cosseno da soma, segue que: 
 
 $$
 \begin{align*}
-\dfrac{d}{dx}\cos x &= \lim_{h \rightarrow 0} \dfrac{\cos x \cos h - \sin x \sin h - \cos x}{h}\\\\
-&= \lim_{h \rightarrow 0} \left(\dfrac{\cos h - 1}{h} \cos x - \dfrac{\sin h}{h} \sin x \right)
+    \lim_{h \to 0} \left(\dfrac{\cos{(x+h)}-\cos{x}}{h}\right) &= \lim_{h \to 0} \left(\dfrac{\cos{x}\cos{h}-\sin{x}\sin{h}-\cos{x}}{h}\right) \\\\ 
+    &= \lim_{h \to 0}\left(\dfrac{\cos{x}(\cos{h}-1)-\sin{x}\sin{h}}{h}\right) \\\\
+    &= \lim_{h \to 0}\left(\cos{x}\cdot\dfrac{\cos{h}-1}{h}-\sin{x}\cdot\dfrac{\sin{h}}{h}\right)
 \end{align*}
 $$
 
-Por fim, pelos limites mencionados na seção anterior, podemos concluir nossa demonstração. 
+Pelos mesmos motivos vistos na prova da derivada da função seno, podemos utilizar a propriedade do limite da soma e logo em seguida utilizar as identidades associadas aos limites. 
 
 $$
-\dfrac{d}{dx}\cos x = 0 \cdot \cos x - 1 \cdot \sin x = - \sin x
+\begin{align*}
+    \lim_{h \to 0}\left(\cos{x}\cdot\dfrac{\cos{h}-1}{h}-\sin{x}\cdot\dfrac{\sin{h}}{h}\right) &= \lim_{h \to 0}\left(\cos{x}\cdot\dfrac{\cos{h}-1}{h}\right) - \lim_{h \to 0}\left(\sin{x}\cdot\dfrac{\sin{h}}{h}\right) \\\\
+    &= \cos{x} \cdot \lim_{h \to 0}\left(\dfrac{\cos{h}-1}{h}\right) - \sin{x} \cdot \lim_{h \to 0}\left(\dfrac{\sin{h}}{h}\right) \\\\
+    &= -\sin{x}
+\end{align*}
 $$
+
+</aside>
+
+## Derivando a função tangente
+
+A função tangente pode ser derivada tanto por primeiros princípios como pela regra do quociente.
+
+<aside>
+
+<b>Demonstração (derivada da função tangente, regra do quociente)</b> — Tome $f(x) = \tan(x) = \dfrac{\sin{x}}{\cos{x}}$. 
+
+Portanto, pela regra do quociente, temos: 
+
+$$
+\begin{align*}
+    f'(x) &= \dfrac{\cos{x}\cos{x}-\sin{x}(-\sin{x})}{\cos^2{x}} \\\\
+    &= \dfrac{\cos^2{x} + \sin^2{x}}{\cos^2{x}} = \dfrac{1}{\cos^2{x}} \\\\
+    &= \sec^2{x}
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (derivada da função tangente, primeiros princípios)</b> — Pela definição de derivada e da função tangente, temos: 
+
+$$
+\begin{align*}    
+    \lim_{h \to 0}\left(\dfrac{\tan(x+h)-\tan(x)}{h}\right) &= \lim_{h \to 0}\left(\dfrac{\dfrac{\sin{(x+h)}}{\cos{(x+h)}} - \dfrac{\sin{x}}{\cos{x}}}{h}\right) \\\\ 
+    &= \lim_{h \to 0}\left(\dfrac{\sin{(x+h)}\cos{x}-\sin{x}\cos{(x+h)}}{h\cos{(x+h)}\cos{x}}\right)
+\end{align*}
+$$
+
+Somando zero e rearranjando a expressão, obtemos: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{\sin{(x+h)}\cos{x}-\sin{x}\cos{(x+h)}}{h\cos{(x+h)}\cos{x}}\right) &= \lim_{h \to 0}\left(\dfrac{\sin{(x+h)}\cos{x}-\sin{x}\cos{x}+\sin{x}\cos{x}-\sin{x}\cos{(x+h)}}{}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{\cos{x}(\sin{(x+h)} - \sin{x}) - \sin{x}(\cos{(x+h)}-\cos{x})}{h\cos{(x+h)\cos{x}}}\right) \\\\
+    &= \lim_{h \to 0} \left[\left(\cos{x} \cdot \dfrac{\sin{(x+h)-\sin{x}}}{h} - \sin{x} \cdot \dfrac{\cos{(x+h)-\cos{x}}}{h}\right)\left(\dfrac{1}{\cos{(x+h)}\cos{x}}\right)\right]
+\end{align*}
+$$
+
+Como as funções seno e cosseno são diferenciáveis em todos os reais, temos: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0} \left[\left(\cos{x} \cdot \dfrac{\sin{(x+h)-\sin{x}}}{h} - \sin{x} \cdot \dfrac{\cos{(x+h)-\cos{x}}}{h}\right)\left(\dfrac{1}{\cos{(x+h)}\cos{x}}\right)\right] &= (\cos^2{x} + \sin^2{x}) \cdot \dfrac{1}{\cos^2{x}} \\\\
+    &= \dfrac{1}{\cos^2{x}} = \sec^2{x}
+\end{align*}
+$$
+
+Como queríamos demonstrar.
+
+</aside>
 
 # Outras funções trigonométricas
 
