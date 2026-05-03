@@ -145,3 +145,33 @@ com raciocínios semelhantes podendo ser utilizados para simplificar uma determi
 # Definição unificada das cônicas
 
 ---
+
+<aside>
+
+<b>Definição (Cônica)</b> — Sejam $r$ uma reta, $F$ um ponto não pertencente à $r$ e $e > 0$, dizemos que o conjunto de pontos do plano que satisfazem a equação 
+
+$$
+d(P,F) = e \cdot d(P,r)
+$$
+
+é uma cônica de excentricidade $e$.
+
+</aside>
+
+<aside>
+
+<b>Demonstração (Elipse como cônica pela definição geral)</b> — 
+
+</aside>
+
+<aside>
+
+<b>Demonstração (Parábola como cônica pela definição geral)</b> —
+
+</aside>
+
+<aside>
+
+<b>Demonstração (Hipérbole como cônica pela definição geral)</b> —
+
+</aside>

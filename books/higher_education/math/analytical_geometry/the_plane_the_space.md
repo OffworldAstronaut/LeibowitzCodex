@@ -37,6 +37,72 @@ $$
 C = \left(\dfrac{x_1+x_2}{2},\dfrac{y_1+y_2}{2},\dfrac{z_1+z_2}{2}\right)
 $$
 
+## Sistema de coordenadas esféricas 
+
+Em alguns problemas, em especial alguns problemas físicos, pode ser uma boa decisão abandonar as coordenadas cartesianas em favor de outros sistemas, como as <b>coordenadas esféricas</b> ou <b>cilíndricas</b>. Com efeito, todos os pontos $P(r\sin{\phi}\cos{\theta},r\sin{\phi}\sin{\theta},r\cos{\phi}) \in \mathbb{R}^3$ com $r \ge 0$, $0 \le \theta \le 2\pi$ e $0 \le \phi \le \pi$ pertencem a uma esfera centrada na origem de raio $r$. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/dc/3D_Spherical_2.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Representação de um sistema de coordenadas esférico.</i>
+
+<aside>
+
+<b>Demonstração (sistema de coordenadas esféricas)</b> — Considere um vetor $\vec{w} \in \mathbb{R}^3$ com origem em $(0,0,0)$ de forma que $||\vec{w}|| = r$. Perceba que este vetor pode ser rotacionado tanto no plano $yz$ como paralelamente ao plano $xy$, formando uma esfera de raio $r$. 
+
+Note que a projeção do vetor $\vec{w}$ no plano $xy$ forma uma circunferência de raio $r\sin{\phi}$. Portanto, os pontos das projeções de todas as possíveis rotações do vetor $\vec{w}$ são da forma
+
+$$
+\begin{cases}
+    x = r\sin{\phi}\cos{\theta} \\\\
+    y = r\sin{\phi}\sin{\theta} \\\\
+    z = 0
+\end{cases} 
+\therefore 
+\boxed{\vec{w}_\text{xy} = (r\sin{\phi}\cos{\theta}, r\sin{\phi}\sin{\theta}, 0)}
+$$
+
+Com efeito, é perceptível ainda que a projeção do vetor $\vec{w}$ sobre o eixo $z$ possui magnitude $r \cos{\phi}$. Portanto, suas coordenadas são $(0, 0, r\cos{\phi})$, pois o vetor está posicionado apenas sobre o eixo das alturas (portanto só possui a terceira coordenada $\alpha \in \mathbb{R}$ não-nula) e
+
+$$
+||\vec{w}_\text{z}|| = \sqrt{0^2 + 0^2 + \alpha^2} = r\cos{\phi} \therefore \alpha = r\cos{\phi}
+$$
+
+Dessa forma, o vetor $\vec{w}$ é da forma $\vec{w} = (r\sin{\phi}\cos{\theta}, r\sin{\phi}\sin{\theta}, 0) + (0, 0, r\cos{\phi}) = (r\sin{\phi}\cos{\theta}, r\sin{\phi}\sin{\theta}, r\cos{\phi})$ e, portanto, é possível descrever qualquer ponto do espaço a partir de $r$, $\theta$ e $\phi$, como queríamos demonstrar.
+
+</aside>
+
+## Sistema de coordenadas cilíndricas
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0e/Coord_system_CY_1.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Representação de um sistema de coordenadas cilíndricas.</i>
+
+Seguindo uma lógica similar às coordenadas esféricas, podemos definir um vetor $\vec{w}$ e, a partir de suas projeções no eixo vertical e no plano $xy$, descrever suas coordenadas em um cilindro. 
+
+<aside>
+
+<b>Demonstração (coordenadas cilíndricas)</b> — Considere um vetor $\vec{w} \in \mathbb{R}^3$ com origem em $(0,0,0)$ de forma que $||\vec{w}|| = d$. Perceba que, ao mantermos a coordenada vertical de $\vec{w}$ livre enquanto rotacionamos este vetor ao redor do eixo das alturas, podemos descrever um cilindro de raio $r$ e altura variável. 
+
+Se considerarmos o ângulo entre o vetor $\vec{w}$ e o plano $xy$ como $\gamma = 90 - \phi$ e, seguindo os passos da projeção no plano $xy$ da demonstração anterior, poderemos escrever as coordenadas do vetor $\vec{w}$ na forma 
+
+$$
+\vec{w} = (d \cos{\gamma}\cos{\theta}, d\cos{\gamma}\sin{\theta},d\sin{\gamma})
+$$
+
+ou, ainda, substituindo $\gamma = 90 - \phi$: 
+
+$$
+\vec{w} = (d\sin{\phi}\cos{\theta}, d\sin{\phi}\sin{\theta},d\cos{\phi})
+$$
+
+(Note que são as mesmas coordenadas deste ponto em coordenadas esféricas se considerarmos uma esfera de raio $r=d$. Isto é deveras útil na conversão entre coordenadas esféricas e cilíndricas.)
+
+Como a altura do ponto é livre para nossa escolha e, simultaneamente, podemos escolher qualquer tamanho para a projeção do vetor no plano $xy$, conclui-se que precisamos apenas, neste sistema de coordenadas, de três grandezas: $\rho$, $\theta$ e $h$. A primeira é a distância horizontal do ponto em relação a origem — a magnitude da projeção no plano —, enquanto $\rho$ é o ângulo entre esta projeção e algum dos eixos coordenados do plano e $h$ é a altura do ponto. 
+
+Podemos portanto descrever qualquer ponto do espaço como um ponto num cilindro, como queríamos demonstrar.
+
+</aside>
+
 # Vetores 
 
 ---
