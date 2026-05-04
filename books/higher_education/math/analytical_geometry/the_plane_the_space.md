@@ -41,7 +41,7 @@ $$
 
 Em alguns problemas, em especial alguns problemas físicos, pode ser uma boa decisão abandonar as coordenadas cartesianas em favor de outros sistemas, como as <b>coordenadas esféricas</b> ou <b>cilíndricas</b>. Com efeito, todos os pontos $P(r\sin{\phi}\cos{\theta},r\sin{\phi}\sin{\theta},r\cos{\phi}) \in \mathbb{R}^3$ com $r \ge 0$, $0 \le \theta \le 2\pi$ e $0 \le \phi \le \pi$ pertencem a uma esfera centrada na origem de raio $r$. 
 
-![](https://upload.wikimedia.org/wikipedia/commons/d/dc/3D_Spherical_2.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/3D_Spherical_2.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original">
 
 <i>Representação de um sistema de coordenadas esférico.</i>
 
@@ -73,7 +73,7 @@ Dessa forma, o vetor $\vec{w}$ é da forma $\vec{w} = (r\sin{\phi}\cos{\theta}, 
 
 ## Sistema de coordenadas cilíndricas
 
-![](https://upload.wikimedia.org/wikipedia/commons/0/0e/Coord_system_CY_1.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Coord_system_CY_1.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original">
 
 <i>Representação de um sistema de coordenadas cilíndricas.</i>
 
@@ -250,9 +250,9 @@ Tomando uma única solução destas infinitas,
 
 $$
 \begin{align*}
-    w_1 = u_1v_3 - v_2u_3 \\\\
-    w_2 = v_1u_3 - u_1z_3 \\\\
-    w_3 = u_1v_2 - v_1u_2 
+    w_1 &= u_1v_3 - v_2u_3 \\\\
+    w_2 &= v_1u_3 - u_1z_3 \\\\
+    w_3 &= u_1v_2 - v_1u_2 
 \end{align*}
 $$
 

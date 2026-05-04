@@ -1,103 +1,83 @@
 # Trabalho e Energia
 
-# As origens do trabalho 
+# Definição
 
---- 
+---
 
-O que é **trabalho**? O conceito de trabalho na Física está intimamente ligado aos conceitos de **energia** e **força**, também. Para ilustrar a origem dessa curiosa grandeza, vamos imaginar uma situação simples: um bloquinho num plano inclinado. 
+O que é **trabalho**? Este conceito está intimamente ligado a conceitos como <b>energia</b> ou <b>força</b>. De fato, sempre que nos referimos a um trabalho, consideramos ele como algo atrelado a uma força que o realiza (trabalho "de" uma força). 
+Para ilustrar esta grandeza, podemos recorrer a situação de um corpo num plano inclinado. 
 
-![Plano inclinado](images/work_energy/work_energy_planoinclinado.jpeg)
-
-<i>Acima podemos ver um plano inclinado utilizado em universidades do século XVIII (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Piano_inclinato_inv_1041_IF_21341.jpg">Wikimedia Commons</a>).</i>
-
-Vamos imaginar que no sopé deste plano inclinado temos um bloquinho que é lançado por uma mola. Desconsiderando o atrito e todas as outras forças que não sejam a força peso, o bloquinho avança com uma velocidade inicial $\overrightarrow{v_o}$ que diminui ao longo do tempo. 
-
-É possível ver que este corpo está em um movimento retilíneo uniformemente variado e, por isso, podemos utilizar as equações:
+De maneira formal, definimos o trabalho realizado por uma força $\vec{F}$ sobre um certo corpo em um deslocamento $\vec{x} = \vec{x_2} - \vec{x_1}$ como a integral 
 
 $$
-\begin{align*}
-x(t) &= x_0 + v_o \cdot t + \dfrac{at^2}{2} \\\\
-v_f &= v_o + at
-\end{align*}
+W = \int_{x_1}^{x_2} \vec{F} \cdot \vec{x} \ dx
 $$
 
-Deduzindo a Equação de Torricceli pela substituição da segunda equação na primeira e rearranjando os termos, chegamos em duas expressões bastante úteis. A primeira é o que chamamos de **constante do movimento**, uma quantidade que não varia ao longo do tempo de execução do movimento, que pode ser útil na resolução de alguns problemas. Já a segunda, mais interessante para nosso objetivo, é uma relação entre a variação da velocidade e a variação do espaço. 
+que, ao considerarmos $\vec{F}$ constante ao longo do movimento, torna-se simplesmente $W = \vec{F} \cdot \vec{x}$. Pela interpretação geométrica do produto escalar no espaço cartesiano, é possível enxergar o trabalho como sendo uma espécie de quantificação da "contribuição" da força $\vec{F}$ ao deslocamento através de sua componente paralela a este. 
 
-$$
-\dfrac{1}{2}(\Delta v)^2 = a \Delta x 
-$$
-
-Multiplicando por $m$ em ambos os lados, a massa do objeto, chegamos numa segunda relação. 
-
-$$
-\begin{align*}
-ma \Delta x &= \dfrac{1}{2}m(\Delta v)^2 \\\\ 
-F \Delta x &= \dfrac{1}{2}m(\Delta v)^2 \\\\ 
-&= \boxed{\dfrac{1}{2}mv_2^2} - \dfrac{1}{2}mv_1^2 \\\\ 
-\end{align*}
-$$
-
-Uma grandeza relacionada diretamente com a força aplicada sobre o objeto e seu deslocamento está ligada com a variação de uma quantidade nova que depende tanto da massa quanto do módulo de sua velocidade. Essa grandeza chama-se **trabalho de uma força**.
-
-De fato, essa quantidade própria do movimento do corpo que é variada pelo trabalho é chamada **energia cinética** $(K)$, podendo ser também escrita em função do momento: $\dfrac{p^2}{2m}$.
-
-Perceba que, ao montar um gráfico $P \times x$, essa grandeza corresponde à área sob a curva. Isso será de especial motivação para o teorema a seguir.
+Se nos atermos simplesmente ao caso unidimensional, temos ainda que $W = F \cdot x$. O sinal da grandeza nos fornece a informação se a força está atuando em prol, contra ou indiferentemente ao deslocamento. 
 
 # Teorema Trabalho-Energia Cinética
 
 --- 
 
-O **teorema trabalho-energia cinética** declara que o trabalho realizado por uma força é a variação da energia cinética de um corpo, exatamente o que acabamos de vislumbrar, com um único diferencial: essa conclusão é válida para **qualquer força**, inclusive uma força variável, ao contrário do caso base que exploramos, com uma força constante no tempo. 
+O <b>teorema trabalho-energia cinética</b> relaciona o trabalho realizado sobre um corpo, por uma força, com uma nova grandeza denominada <b>energia cinética</b>. Para compreendermos melhor, vamos imaginar que no sopé deste plano inclinado (retratado abaixo) temos um bloquinho que é lançado no trilho por uma mola. Desconsiderando o atrito e todas as outras forças que não sejam a força peso, o bloquinho avança com uma velocidade inicial $\vec{v_0}$ que diminui ao longo do tempo. 
 
-Supondo o trabalho $W$ de uma força $F$ como a seguinte integral, podemos desenvolvê-la para encontrar o resultado esperado. 
+![Plano inclinado](images/work_energy/work_energy_planoinclinado.jpeg)
+
+<i>Acima podemos ver um plano inclinado utilizado em universidades do século XVIII (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Piano_inclinato_inv_1041_IF_21341.jpg">Wikimedia Commons</a>).</i>
+
+Como este corpo está num estado de movimento retilíneo uniformemente variado, podemos utilizar as equações a seguir para descrever sua dinâmica.
 
 $$
-\begin{align}
-W &= \int_{x_1}^{x_2} F \ dx \\\\ 
-&= \int_{x_1}^{x_2} m \dfrac{dv}{dt} \ dx \\\\
-&= \int_{x_1}^{x_2} mv \dfrac{dv}{dx} \ dx \\\\
-&= \int_{v_1}^{v_2} mv \ dv \\\\
-&= \dfrac{1}{2}mv_2^2 -\dfrac{1}{2}mv_1^2
-\end{align}
+\begin{align*}
+x(t) &= x_0 + v_0 \cdot t + \dfrac{at^2}{2} \\\\
+v_1 &= v_0 + at
+\end{align*}
 $$
 
-Perceba que o passo $(2)$ foi possível por uma aplicação direta do princípio fundamental da dinâmica (2ª Lei de Newton) e a substituição da variável de integração (espaço para velocidade) foi indispensável. 
+Escrevendo a variável $t$ em função das outras na segunda equação e substituindo na primeira, podemos encontrar a <b>equação de Torricceli</b>. Rearranjando os termos desta equação, podemos chegar numa expressão que indica que algo se mantém constante ao longo de todo o movimento. Esta nova expressão pode ser rearranjada novamente para uma forma reduzida.
+
+$$
+\begin{align*}
+    \dfrac{1}{2}v_2^2 - ax_2 &= \dfrac{1}{2}v_1^2 - ax_1 \\\\
+    \dfrac{1}{2}(\Delta v)^2 &= a \Delta x 
+\end{align*}
+$$
+
+Multiplicando ambos os membros da segunda por $m$, a massa do objeto, substituindo $F=ma$ e rearranjando os termos, obtemos: 
+
+$$
+F \Delta x = \dfrac{1}{2}mv_1^2 - \dfrac{1}{2}mv_0^2
+$$
+
+Perceba que a atuação da força gravitacional enquanto o bloquinho sobe o plano inclinado provoca a variação de uma grandeza que depende apenas da massa e da velocidade deste bloquinho. A esta grandeza damos o nome <b>energia cinética</b> e, geralmente, a denotamos por $K$. Rearranjando esta expressão, podemos exprimi-la em função do momento, chegando na expressão $\dfrac{p^2}{2m}$. 
+
+Perceba ainda que esta atuação, quantificada, corresponde ao <b>trabalho da força $F$</b> pela nossa definição matemática inicial na primeira seção. A este resultado damos o nome de <b>teorema trabalho-energia cinética</b> ou simplesmente <b>teorema trabalho-energia</b> e, por consequência, fundamentamos a noção de que trabalho <i>é</i> energia sendo transferida de um sistema para outro por meio de uma força através de um deslocamento.
+
+com efeito, o teorema trabalho-energia cinética é geralmente escrito combinando estas duas informações numa única equação 
+
+$$
+\int_{x_1}^{x_2} \vec{F} \cdot \vec{x} = \Delta K
+$$
 
 <aside>
-Vale mencionar aqui que estas demonstrações podem ser feitas para duas ou três dimensões, mas este documento se atém a primeira dimensão por uma questão de simplicidade.
+
+que relaciona o trabalho de uma força e a variação de energia cinética sofrida por um corpo.
+
+O conceito de energia é algo extremamente difícil de se definir de forma fechada em razão de seu elevadíssimo nível de abstração, entretanto, a dedução acima nos dá uma brecha de como enxergá-la: uma propriedade quantitativa de um sistema que pode ser transferida, com esta transferência sendo descrita como "sofrer" ou "exercer trabalho" e podendo ser identificada por meio de fenômenos como irradiação de calor ou emissão de luz. 
+
 </aside>
 
-Por fim, perceba que ao final chegamos numa expressão em que estamos **integrando o momento** ao longo da variação da velocidade. Esse fato levanta a denominação do Teorema como a "forma integral" da Segunda Lei de Newton.
+<aside>
 
-## Potência
+<i>"It is important to realize that in physics today, we have no knowledge of what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way. However, there are formulas for calculating some numerical quantity, and when we add it all together it gives [...] always the same number. It is an abstract thing in that it does not tell us the mechanism or the reasons for the various formulas." <br><br>(FEYNMAN, Lectures on Physics Vol. 1, Cap. 4)</i>
 
----
+</aside>
 
-Definimos a grandeza **potência** como a **taxa da realização de trabalho ao longo do tempo** de uma força. Como foi demonstrado pelo Teorema anterior, é possível também descrevê-la como a **taxa de transferência energética** de uma força.
+## Energia potencial e conservação de energia
 
-Durante o ensino médio, entramos em contato com a chamada **potência média**, definida por:
-
-$$
-P_{M} = \dfrac{\Delta W}{\Delta t}
-$$
-
-Entretanto, a chamada **potência instantânea**, ou simplesmente **potência**, é expressa como a derivada do trabalho em relação ao tempo. Pelas propriedades do Cálculo, podemos também expressar o trabalho como a integral da potência.
-
-$$
-P = \dfrac{dW}{dt} \Longleftrightarrow  W = \int P \ dt
-$$
-
-# Energia Potencial e a Conservação da Energia
-
----
-
-Uma motivação para o conceito de **energia potencial** vem de um dos passos que tomamos para a definição da energia cinética. Vamos revisitá-lo, mais precisamente, a **constante de movimento**. 
-
-$$
-\dfrac{1}{2}v_2^2 - ax_2 = \dfrac{1}{2}v_1^2 - ax_1
-$$
-
-Ao multiplicarmos ambos os membros pela massa do corpo, $m$, chegamos na expressão: 
+Uma motivação para o conceito de **energia potencial** vem de um dos passos que tomamos para a definição da energia cinética. Vamos revisitá-lo: a **constante de movimento** com ambos os membros multiplicados por $m$. 
 
 $$
 \dfrac{1}{2}mv_2^2 - m \cdot ax_2 = \dfrac{1}{2}mv_1^2 - m \cdot ax_1
@@ -145,6 +125,24 @@ Dessa forma, definindo $x_2 - x_1 = h$, nossa altura,  conseguimos demonstrar a 
 Retornando à distinção entre forças conservativas e não-conservativas (também chamadas de forças **dissipativas**), uma diferença notável entre as duas encerra-se no trabalho: o trabalho de uma força conservativa independe do caminho atravessado pelo móvel, mas apenas das suas posições iniciais e finais. O contrário é dito das dissipativas, em que a "trajetória", a "história" do móvel importa. 
 
 Como exemplos de forças conservativas, podemos citar, além da força peso, a força elástica e a força elétrica.
+
+## Potência
+
+---
+
+Definimos a grandeza **potência** como a **taxa da realização de trabalho ao longo do tempo** de uma força. Como foi demonstrado pelo Teorema anterior, é possível também descrevê-la como a **taxa de transferência energética** de uma força.
+
+Durante o ensino médio, entramos em contato com a chamada **potência média**, definida por:
+
+$$
+P_{M} = \dfrac{\Delta W}{\Delta t}
+$$
+
+Entretanto, a chamada **potência instantânea**, ou simplesmente **potência**, é expressa como a derivada do trabalho em relação ao tempo. Pelas propriedades do Cálculo, podemos também expressar o trabalho como a integral da potência.
+
+$$
+P = \dfrac{dW}{dt} \Longleftrightarrow  W = \int P \ dt
+$$
 
 ## Gráficos de estabilidade
 
