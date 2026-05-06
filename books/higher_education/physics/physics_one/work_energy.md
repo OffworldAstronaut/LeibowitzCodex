@@ -61,9 +61,9 @@ $$
 \int_{x_1}^{x_2} \vec{F} \cdot \vec{x} = \Delta K
 $$
 
-<aside>
-
 que relaciona o trabalho de uma força e a variação de energia cinética sofrida por um corpo.
+
+<aside>
 
 O conceito de energia é algo extremamente difícil de se definir de forma fechada em razão de seu elevadíssimo nível de abstração, entretanto, a dedução acima nos dá uma brecha de como enxergá-la: uma propriedade quantitativa de um sistema que pode ser transferida, com esta transferência sendo descrita como "sofrer" ou "exercer trabalho" e podendo ser identificada por meio de fenômenos como irradiação de calor ou emissão de luz. 
 
