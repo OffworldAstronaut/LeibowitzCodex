@@ -214,6 +214,74 @@ $$
 
 Dessa forma, a constante $K$ é chamada <b>constante da mola</b>, sendo própria do objeto. Também de forma experimental percebe-se que, em molas reais, essa constante pode variar devido a própria deformação do material ao longo do tempo, além de efeitos térmicos. Como consequência deste efeito podemos citar a diminuição da precisão de <b>dinamômetros</b> ao longo do tempo em suas medições.
 
+### Associação de molas 
+
+Ao associarmos molas, como podemos expressar a <b>mola equivalente</b> que, se substituída, terá o mesmo efeito físico que as molas associadas entre si? A expressão irá diferenciar-se para os dois casos possíveis: uma associação <b>em série</b> e uma associação <b>em paralelo</b>.
+
+<aside>
+
+<b>Demonstração (Constante da mola equivalente para N molas em série)</b> — Sejam $N$ molas em série. Uma um dos extremos da estrutura é puxado por uma força $F$ enquanto o outro está preso a uma superfície. Dessa forma, como consideramos molas ideais, temos que 
+
+$$
+F = F_1 = F_2 = F_3 = ... = F_N
+$$
+
+onde $F_i$ é a força restauradora da i-ésima mola atuando em reação à força $F$. Perceba que esta igualdade é valida pois as molas ideais transmitem sem perdas a força através delas. Além disso, pela Lei de Hooke, temos 
+
+$$
+F = -kx \iff x = -\dfrac{F}{k}
+$$
+
+e, portanto, podemos descrever o alongamento total $x_T$ da mola equivalente por
+
+$$
+\begin{align*}
+    x_T = x_1 + ... + x_N &= -\dfrac{F_1}{k_1}-\dfrac{F_2}{k_2}-...-\dfrac{F_N}{k_N} \\\\
+    \therefore x_T &= -\left(\dfrac{F_1}{k_1}+\dfrac{F_2}{k_2}+...+\dfrac{F_N}{k_N}\right)
+\end{align*}
+$$
+
+Dessa forma, podemos montar a equação para a mola equivalente e reorganizar os termos para encontrar $K$, sua constante. 
+
+$$
+\begin{align*}
+    F = -Kx_T &= -K \left[-\left(\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}\right)\right] \\\\
+    \therefore F &= K\left(\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}\right) \\\\
+    \therefore K &= \dfrac{F}{\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}} \\\\
+    \therefore \dfrac{1}{K} &= \dfrac{\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}}{F} \\\\
+    \therefore \dfrac{1}{K} &= \dfrac{1}{k_1} + \dfrac{1}{k_2} + ... + \dfrac{1}{k_N}
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (Constante da mola equivalente para N molas em paralelo)</b> — Sejam $N$ molas em paralelo. Em um dos extremos, as molas estão ligadas a uma superfície imóvel, enquanto na outra extremidade estas são puxadas (após serem ligadas a um fio) por uma força de módulo $F$. Note que, nestas molas ideais, vale 
+
+$$
+F = F_1 + F_2 + ... + F_N 
+$$
+
+Perceba ainda que, ao contrário do caso anterior, todas as molas devem deslocar-se igualmente. Portanto: 
+
+$$
+x_T = x_1 = x_2 = ... = x_N = x
+$$
+
+Dessa forma, a Lei de Hooke para a mola equivalente é dada por: 
+
+$$
+\begin{align*}
+    F = -Kx &= -k_1x_1 - k_2x_1 - ... - k_3x_1 \\\\
+    \therefore F &= -(k_1 + k_2 + ... + k_N)x_1 \\\\
+    \therefore \dfrac{F}{x_1} &= -(k_1 + k_2 + ... + k_N)
+\end{align*}
+$$
+
+Por fim, comparando com a Lei de Hooke, temos que a constante $K$ da mola equivalente é dada por $K = k_1 + k_2 + ... k_N$.
+
+</aside>
 
 # Mudança de referencial
 

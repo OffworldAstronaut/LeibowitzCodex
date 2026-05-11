@@ -61,7 +61,7 @@ $$
 \int_{x_1}^{x_2} \vec{F} \cdot \vec{x} = \Delta K
 $$
 
-que relaciona o trabalho de uma força e a variação de energia cinética sofrida por um corpo.
+que relaciona o trabalho de uma força e a variação de energia cinética sofrida por um corpo. Medimos esta nova grandeza por uma unidade derivada da unidade de força e de deslocamento, o <b>Joule</b> $(\text{J})$. O Joule é definido como o produto entre Newton e metro, com seu nome homenageando o físico inglês James Joule.
 
 <aside>
 

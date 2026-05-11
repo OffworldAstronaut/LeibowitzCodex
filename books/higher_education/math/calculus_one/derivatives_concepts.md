@@ -390,6 +390,21 @@ Como queríamos demonstrar.
 
 </aside>
 
+<aside>
+
+<b>Demonstração (regra da cadeia, alternativa)</b> — Sejam $f$ e $g$ contínuas, com $g$ diferenciável em $x$ e $f$ diferenciável em $g(x)$. Definimos a função $F(x) = (f \circ g)(x)$. Dessa forma, pela definição de derivada, temos que 
+
+$$
+\begin{align*}
+    F'(x) = \lim_{h \to 0} \dfrac{F(x+h) - F(x)}{h} &= \lim_{h \to 0} \dfrac{f(g(x+h)) - f(g(x))}{h} \\\\ 
+    \therefore F'(x) &= \lim_{h \to 0} \dfrac{f(g(x+h)) - f(g(x))}{h} \cdot \dfrac{g(x+h) - g(x)}{g(x+h)-g(x)} \\\\ 
+    \therefore F'(x) &= \lim_{h \to 0} \dfrac{f(g(x+h)) - f(g(x))}{g(x+h) - g(x)} \cdot \dfrac{g(x+h)-g(x)}{h} \\\\ 
+    \therefore F'(x) &= f'(g(x)) \cdot g'(x)
+\end{align*}
+$$
+
+</aside>
+
 # Derivando funções exponenciais
 
 ---
@@ -724,70 +739,16 @@ Como queríamos demonstrar.
 
 </aside>
 
-# Outras funções trigonométricas
+## Derivando a função cossecante 
 
----
 
-Para essas outras funções, expostas na tabela abaixo, as demonstrações de suas derivadas podem ser realizadas por meio das regras do quociente ou do produto. Não as faremos aqui por questões de brevidade.
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Função} & \textbf{Derivada} \\\\
-\hline
-\sin x & \cos x \\\\
-\hline
-\cos x & -\sin x \\\\
-\hline
-\tan x & \sec^2 x \\\\
-\hline
-\cot x & -\csc^2 x \\\\
-\hline
-\sec x & \sec x \tan x \\\\
-\hline
-\csc x & -\csc x \cot x \\\\
-\hline
-\end{array}
-$$
+## Derivando a função secante
 
-# Funções trigonométricas inversas
 
----
 
-$$
-\begin{array}{|c|c|}
-\hline
-\textbf{Função} & \textbf{Derivada} \\\\
-\hline
-\sin^{-1} x & \dfrac{1}{\sqrt{1 - x^2}} \\\\
-\hline
-\cos^{-1} x & -\dfrac{1}{\sqrt{1 - x^2}} \\\\
-\hline
-\tan^{-1} x & \dfrac{1}{x^2 + 1} \\\\
-\hline
-\cot^{-1} x & -\dfrac{1}{x^2 + 1} \\\\
-\hline
-\sec^{-1} x & \dfrac{1}{|x|\sqrt{x^2 - 1}} \\\\
-\hline
-\csc^{-1} x & -\dfrac{1}{|x|\sqrt{x^2 - 1}} \\\\
-\hline
-\end{array}
-$$
+## Derivando a função cotangente 
 
-As derivadas das funções trigonométricas inversas podem ser demonstradas por meio da técnica da **derivação implícita**, tema da próxima seção. Suas provas também podem ser consultadas no artigo da Wikipedia citado anteriormente, onde estão apresentadas de forma detalhada.
-
-Observe que metade das derivadas coincide com a outra metade, diferindo apenas pelo sinal. Por exemplo:
-
-$$
-\begin{aligned}
-\dfrac{d}{dx} \tan^{-1} x &= \dfrac{1}{x^2 + 1} \\\\
-\dfrac{d}{dx} \cot^{-1} x &= -\dfrac{1}{x^2 + 1}
-\end{aligned}
-$$
-
-Note também que as funções trigonométricas e suas inversas apresentam um padrão interessante: os pares de derivadas costumam ser estruturalmente semelhantes, diferindo apenas no sinal. Esse comportamento tem origem nas relações geométricas entre essas funções no círculo trigonométrico.
-
-É importante destacar que essas fórmulas são válidas apenas nos domínios em que as funções estão definidas. Por exemplo, $\sin^{-1} x$ está definida apenas no intervalo $[-1,1]$.
 
 # Práticas, regras e técnicas úteis 
 
@@ -845,7 +806,7 @@ $$
 \end{align*}
 $$
 
-Perceba que estamos considerando o **módulo da expressão** pois a função logaritmo não está definida para números negativos. 
+Perceba que estamos considerando o **módulo da expressão** pois a função logaritmo não está definida para números negativos. Além disso, pode-se demonstrar que $(\ln{|x|})' = (\ln{x})' = \dfrac{1}{x}$. 
 
 $$
 \begin{align*}
@@ -927,6 +888,190 @@ $$
 $$
 
 Simples, prático, eficiente. Essa regra é extremamente útil, e irá nos poupar horas de trabalho.
+
+# Derivando funções inversas
+
+---
+
+<aside>
+
+<b>(GUIDORIZZI, 2001)</b> — Dizemos que $f$ é uma <b>função injetora</b> se, para qualquer $s$ e $t$ pertencentes ao domínio de $f$ vale 
+
+$$
+s \neq t \implies f(s) \neq f(t)
+$$
+
+</aside>
+
+<aside>
+
+<b>(GUIDORIZZI, 2001)</b> — Suponha uma função $f$ injetora. Como para cada $x \in \text{Im}f$ existe um único $y \in D_f$ tal que $f(y) = x$, é possível definir uma função $g$ injetora tal que
+
+$$
+g(x) = y \iff f(y) = x
+$$
+
+Se $f$ é tal que construir uma $g$ é possível, $f$ é denominada <b>inversível</b> e $g$ é a <b>função inversa de $f$</b>. Além disso, podemos denotá-la por $f^{-1}$. 
+
+</aside>
+
+<aside>
+
+<b>(GUIDORIZZI, 2001)</b> — Seja $f$ uma função inversível, com função inversa $g$. Se $f$ for derivável em $q = g(p)$, com $f'(q) \neq 0$, e se $g$ for contínua em $p$, então $g$ será derivável em $p$. 
+
+<b>Demonstração</b> — Note que vale a igualdade 
+
+$$
+\dfrac{g(x)-g(p)}{x-p} = \dfrac{g(x)-g(p)}{f(g(x)) - f(g(p))} = \dfrac{1}{\dfrac{f(g(x)) - f(g(p))}{g(x)-g(p)}}, x \neq p
+$$
+
+Fazendo $u = g(x)$, pela continuidade de $g$ em $p$, $u \to q$ para $x \to p$. Então, 
+
+$$
+\lim_{x \to p} \dfrac{g(x)-g(p)}{x-p} = \lim_{u \to q} \dfrac{1}{\dfrac{f(u)-f(q)}{u-q}}
+$$
+
+Como $\lim_{u \to q} \dfrac{f(u)-f(q)}{u-q} = f'(q)=f'(g(p))$, resulta
+
+$$
+g'(p) = \lim_{x \to p} \dfrac{g(x)-g(p)}{x-p} = \dfrac{1}{f'(g(p))}
+$$
+
+Portanto, $g$ é derivável em $p$ e $g'(p) = \dfrac{1}{f'(g(p))}$. 
+
+
+<b>Demonstração alternativa</b> — Derivando implicitamente a equação, podemos, por meio da cadeia, alcançar a expressão desejada.
+
+$$
+\begin{align*}
+    [f(g(x))]' &= x' \\\\
+    f'(g(x)) \cdot g'(x) &= 1 \\\\
+    g'(x) &= \dfrac{1}{f'(g(x))}
+
+\end{align*}
+$$
+
+</aside>
+
+## Derivando as funções inversas trigonométricas
+
+Para encontrar as funções inversas trigonométricas, podemos tanto aplicar o método da derivação implicita diretamente como utilizar o teorema exposto previamente. 
+
+### Derivando a função arco seno
+
+<aside>
+
+<b>(Demonstração, derivada do arco seno)</b> — Pelo teorema anterior, podemos escrever
+
+$$
+\begin{align*}
+    (\arcsin{x})' &= \dfrac{1}{\sin{(\arcsin{x})'}} \\\\
+    \therefore (\arcsin{x})' &= \dfrac{1}{\cos{(\arcsin{x})}}
+\end{align*}
+$$
+
+Pela relação fundamental da trigonometria, podemos concluir que 
+
+$$
+(\arcsin{x})' = \dfrac{1}{\sqrt{1 - x^2}}
+$$
+
+</aside>
+
+### Derivando a função arco cosseno 
+
+<aside>
+
+<b>(Demonstração, derivada do arco cosseno)</b> — Pelo teorema anterior, podemos escrever
+
+$$
+\begin{align*}
+    (\arccos{x})' &= \dfrac{1}{(\cos{\arccos{x}})'} \\\\
+    (\arccos{x})' &= -\dfrac{1}{\sin{\arccos{x}}}
+\end{align*}
+$$
+
+Pela relação fundamental da trigonometria, podemos concluir que 
+
+$$
+(\arccos{x})' = -\dfrac{1}{\sqrt{1 - x^2}}
+$$
+
+</aside>
+
+### Derivando a função arco tangente
+
+<aside>
+
+<b>(Demonstração, derivada do arco tangente)</b> — Pelo teorema anterior, podemos escrever 
+
+$$
+\begin{align*}
+    (\arctg{x})' &= \dfrac{1}{(\tg \arctg{x})'} \\\\
+    \therefore (\arctg{x})' &= \dfrac{1}{\sec^2\arctg{x}}
+\end{align*}
+$$
+
+Pela relação fundamental da trigonometria, concluimos que
+
+$$
+(\arctg{x})' = \dfrac{1}{x^2 + 1}
+$$
+
+</aside>
+
+### Derivando a função arco secante
+
+<aside>
+
+<b>(Demonstração, derivada do arco secante)</b> — Pelo teorema anterior, podemos escrever: 
+
+$$
+\begin{align*}
+    (\text{arcsec }{x})' &= \dfrac{1}{(\sec{\text{arcsec }x})'} \\\\
+    \therefore (\text{arcsec }{x})' &= \dfrac{1}{(\sec{\text{arcsec }{x}})(\tg{\text{arcsec }{x}})} \\\\
+    \therefore (\text{arcsec }{x})' &= \dfrac{1}{|x| \sqrt{x^2 - 1}}
+\end{align*}
+$$
+
+Este último passo é possível pela simplificação da primeira parcela e da aplicação da identidade fundamental trigonométrica. Note que o módulo é necessário nessa expressão para manter o sinal positivo na fração, pois é verificável que a taxa de variação do arco secante é estritamente positiva em seu domínio.
+
+</aside>
+
+### Derivando a função arco cossecante 
+
+<aside>
+
+<b>(Demonstração, derivada do arco cossecante)</b> — Pelo teorema anterior, podemos escrever: 
+
+$$
+\begin{align*}
+    (\text{arccsc }{x})' &= \dfrac{1}{(\csc \text{arccsc }x)'} \\\\
+    \therefore (\text{arccsc }{x})' &= -\dfrac{1}{|x|\sqrt{x^2 - 1}} \\\\
+\end{align*}
+$$
+
+Este último passo é realizado após a aplicação da regra da cadeia e da identidade fundamental trigonométrica. Após simplificar e rearranjar os termos ao final, vale a pena notar o módulo no denominador. Este módulo possui a mesma justificativa da derivada anterior: manter o sinal <b>negativo</b> por todo o domínio, como é possível verificar na prática.
+
+</aside>
+
+### Derivando a função arco cotangente
+
+<aside>
+
+<b>(Demonstração, derivada do arco cotangente)</b> — Pelo teorema anterior, podemos escrever 
+
+$$
+\begin{align*}
+    (\arcctg{x})' &= -\dfrac{1}{\csc^2{\arcctg{x}}} \\\\
+    \therefore (\arcctg{x})' &= \dfrac{1}{1 + x^2}
+\end{align*}
+$$
+
+Esta conclusão pode ser feita a partir da identidade trigonométrica $\csc^2{x} = 1 + \cotg^2{x}$. Basta substituir, simplificar e organizar os termos. 
+
+</aside>
+
 
 # Apêndice: notações para derivada
 

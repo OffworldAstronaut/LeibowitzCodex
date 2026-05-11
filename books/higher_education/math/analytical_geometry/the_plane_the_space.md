@@ -660,6 +660,31 @@ com $A, B, C, D \in \mathbb{R}$. Esta equação é denominada <b>equação geral
 
 Fazer a mesma coisa no espaço seria permitir duas variáveis livres — é possível assumir quaisquer valores em duas direções — gerando um plano. Enquanto isso, ao intersectar dois planos, estamos restringindo uma outra variável por meio de um sistema de equações. Este sistema pode ter infinitas soluções (uma reta) ou nenhuma — os planos são paralelos.
 
+## Plano tangente a uma esfera
+
+Dados uma esfera de raio $r$ e centro $C(x_0, y_0, z_0)$, a equação do plano tangente a esta esfera no ponto $P(x_1, y_1, z_1)$ é
+
+$$
+a_1(x_0 - x_1) + a_2(y_0 - y_1) + a_3(z_0 - z_1) + ||P||^2 - \langle C, P\rangle = 0 
+$$
+
+<aside>
+
+<b>Demonstração</b> — Um plano pode ser definido por um ponto do espaço e um vetor normal. Tomando o ponto como o ponto $P(x_1, y_1, z_1)$ pertencente à esfera e o vetor normal a este plano como o vetor $\vec{CP}=(x_1 - x_0, y_1 - y_0, z_1 - z_0)$, além de um ponto qualquer do espaço como $A = (a_1, a_2, a_3)$, podemos escrever a equação do plano como
+
+$$
+\begin{align*}
+    \vec{CP} \cdot \vec{AP} &= 0 \\\\
+    \therefore (x_1-x_0)(x_1-a_1) + (y_1-y_0)(y_1-a_2) + (z_1-z_0)(z_1-a_3) &= 0 \\\\
+    \therefore x_1^2 - a_1x_1 - x_0x_1 + a_1x_0 + y_1^2 - y_1a_2 - y_0y_1 + y_0a_2 + z_1^2 - z_1a_3 - z_0z_1 + z_0a_3 &= 0 \\\\
+    (x_0 - x_1)a_1 + (y_0 - y_1)a_2 + (z_0 - z_1)a_3 + ||P||^2 - \langle C, P\rangle &= 0 
+\end{align*}
+$$
+
+Que era o que queríamos demonstrar.
+
+</aside>
+
 ## Distância de um ponto a um plano 
 
 Dados um plano $\alpha : Ax + By + Cz + D = 0$ e um ponto $P_0(x_0, y_0, z_0)$, temos que a distância entre eles é dada pela expressão 
