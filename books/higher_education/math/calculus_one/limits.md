@@ -446,10 +446,79 @@ O **teorema do valor intermediário**, também conhecido por **teorema de Bolzan
 
 Uma de suas aplicações, por exemplo, é demonstrar que expressões complexas possuem raízes, fato que poderemos também demonstrar com o conceito de **derivada**, no futuro. 
 
-(Wikipedia) Seja $f$ uma função contínua definida no intervalo $I=[a,b]$ com $f(a) \neq f(b)$ e $n \in \mathbb{R}$ de forma que $f(a) < n < f(b)$. 
-Logo, existe um número $x \in I$ tal que $f(x)=n$.
+<aside>
 
-Ou seja, ao escolhermos um valor dentro do intervalo da imagem de nossa função, deve existir mu valor do domínio correspondente, já que a função é contínua.
+<b>(GUIDORIZZI 2001, Teorema do Valor Intermediário)</b> — Se $f$ for contínua no intervalo fechado $[a,b]$ e se $\gamma$ for um real compreendido entre $f(a)$ e $f(b)$, então existirá pelo menos um $c$ em $[a,b]$ tal que $f(c) = \gamma$. 
+
+<b>Demonstração</b> — Suponhamos $f(a) \lt \gamma \lt f(b)$. Consideremos a função 
+
+$$
+g(x) = f(x) - \gamma, x \in [a,b]
+$$
+
+Como $f$ é contínua em $[a,b]$, $g$ também o é; temos, ainda 
+
+$$
+g(a) = f(a) - \gamma \lt 0 \text{ e } g(b) = f(b) - \gamma \gt 0
+$$
+
+Pelo <b>teorema do anulamento</b>, existe $c$ em $[a,b]$ tal que $g(c) = 0$, ou seja, $f(c) = \gamma$. 
+
+</aside>
+
+Conforme mencionado por Guidorizzi, está abaixo o teorema do anulamento conforme mencionado por este. 
+
+<aside>
+
+<b>(GUIDORIZZI 2001, Teorema do anulamento)</b> — Se $f$ for contínua em $[a,b]$ e se $f(a)$ e $f(b)$ tiverem sinais contrários, então existirá pelo menos um $c \in [a,b]$ tal que $f(c) = 0$. 
+
+<b>Demonstração</b> — Suponhamos $f(a) \lt 0$ e $f(b) \gt 0$. Façamos $a = a_0$ e $b = b_0$; seja $c_0$ o ponto médio do segmento $[a_0, b_0]$. Temos 
+
+$$
+f(c_0) \lt 0 \text{ ou } f(c_0) \ge 0
+$$
+
+Suponhamos $f(c_0) \lt 0$ e façamos $c_0 = a_1$ e $b_0 = b_1$. Temos $f(a_1) \lt 0$ e $f(b_1) \gt 0$. Seja $c_1$ o ponto médio do segmento $[a_1, b_1]$. Temos 
+
+$$
+f(c_1) \lt 0 \text{ ou } f(c_1) \ge 0
+$$
+
+Suponhamos $f(c_1) \ge 0$ e façamos $a_1 = a_2$ e $c_1 = b_2$. Assim, $f(a_2) \lt 0$ e $f(b_2) \ge 0$. Prosseguindo com este raciocínio, construiremos uma sequência de intervalos 
+
+$$
+[a_0, b_0] \sub [a_1, b_1] \sub [a_2, b_2] \sub ... \sub [a_n, b_n]
+$$
+
+que satisfaz as condições da propriedade dos intervalos encaixantes e, tal que, para todo $n$, 
+
+$$
+f(a_n) \lt 0 \text{ e } f(b_n) \ge 0
+$$
+
+Seja $c$ o único real tal que, para todo $n$, 
+
+$$
+a_n \le c \le b_n
+$$
+
+As sequências de termos gerais $a_n$ e $b_n$ convergem para $c$. Segue então, da continuidade de $f$, que 
+
+$$
+\lim_{n \to +\infty} f(a_n) = f(c) \text{ e } \lim_{n \to +\infty} f(b_n) = f(c)
+$$
+
+Portanto, segue que $f(c) \le 0$ e, simultâneamente, $f(c) \ge 0$. Portanto, $f(c) = 0$. 
+
+</aside>
+
+Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o teorema dos intervalos encaixantes. 
+
+<aside>
+
+<b>(ICMC-USP 2020, Teorema dos Intervalos Encaixantes [<a href="https://sites.icmc.usp.br/aurichi/exerc/doku.php?id=limites:valorintermediario" target="_blank">Aqui</a>])</b> — Considere $(I_n)_{n \in \mathbb{N}}$ uma familía de intervalos da forma $I_n = [a_n, b_n]$ tal que, para qualquer $n \in \mathbb{N}$, $[a_{n+1}, b_{n+1}] \sub [a_n, b_n]$ (isto é, $a_n \le a_{n+1} \le b_{n+1} \le b_n$). Então existe $x \in \bigcap_{n \in \mathbb{N}} I_n$. 
+
+</aside>
 
 # Apêndice II — Limites Fundamentais 
 
