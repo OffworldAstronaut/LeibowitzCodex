@@ -1072,7 +1072,6 @@ Esta conclusão pode ser feita a partir da identidade trigonométrica $\csc^2{x}
 
 </aside>
 
-
 # Apêndice: notações para derivada
 
 ---
