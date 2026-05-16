@@ -67,13 +67,13 @@ Perceba que para demonstrar o teorema de Weierstrass foram necessárias noções
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Definição de função limitada)</b> — Dizemos que $f$ é <i>limitada</i> em $A \sub D_f$ se existir $M > 0$ tal que, para todo $x$ em $A$
+<b>(GUIDORIZZI 2001, Definição de função limitada)</b> — Dizemos que $f$ é <i>limitada</i> em $A \subset D_f$ se existir $M > 0$ tal que, para todo $x$ em $A$
 
 $$
 |f(x)| \le M
 $$
 
-Da definição acima, segue que, se $f$ não for limitada em $B \sub D_f$, para todo natural $n$, existe $x_n \in B$, com $|f(x_n)| \gt n$.
+Da definição acima, segue que, se $f$ não for limitada em $B \subset D_f$, para todo natural $n$, existe $x_n \in B$, com $|f(x_n)| \gt n$.
 
 </aside>
 
@@ -84,7 +84,7 @@ Da definição acima, segue que, se $f$ não for limitada em $B \sub D_f$, para 
 <b>Demonstração</b> — Suponhamos, por absurdo, que $f$ não seja limitada em $[a,b]$. Façamos $a = a_1$ e $b = b_1$; existe, então, $x_1 \in [a_1,b_1]$ tal que $|f(x_1) > 1$. Seja $c_1$ o ponto médio de $[a_1, b_1]$; $f$ não será limitada em um dos intervalos $[a_1, c_1]$ ou $[c_1, b_1]$; suponhamos que não seja limitada em $[c_1, b_1]$ e façamos $a_2 = c_1$ e $b_2 = b_1$. Não sendo $f$ limitada em $[a_2, b_2]$, existirá $x_2 \in [a_2, b_2]$ tal que $|f(x_2)| \gt 2$. Prosseguindo com este raciocínio, construiremos uma sequência de intervalos
 
 $$
-[a_1, b_1] \sub [a_2, b_2] \sub [a_3, b_3] \sub ... \sub [a_n, b_n]
+[a_1, b_1] \subset [a_2, b_2] \subset [a_3, b_3] \subset ... \subset [a_n, b_n]
 $$
 
 satisfazendo as condições da propriedade dos intervalos encaixantes e tal que, para todo natural $n \gt 0$, existe $x_n \in [a_n, b_n]$ com 

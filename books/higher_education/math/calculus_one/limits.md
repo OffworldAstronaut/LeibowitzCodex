@@ -29,7 +29,7 @@ Conceitos como "tender", "aproximar", "proximidade" são abstratos o suficiente 
 
 <aside>
 
-<b>Definição (Limite de uma função num ponto) — </b> Suponha uma função $f : \mathbb{R} \rightarrow \mathbb{R}$ e dois números reais, $a$ e $L$. Se, para todo $\varepsilon \gt 0$, existir um $\delta \gt 0$ tal que $0 \lt |x - a| \lt \delta$ implica $|f(x) - L| < \varepilon$, dizemos que $L$ é o limite de $f(x)$ quando $x$ tende a $a$, e escrevemos: 
+<b>Definição (Limite de uma função num ponto) — </b> Suponha uma função $f : \mathbb{R} \rightarrow \mathbb{R}$ e dois números reais, $a$ e $L$. Se, para todo $\varepsilon \gt 0$, existir um $\delta \gt 0$ tal que $0 \lt |x - a| \lt \delta$ implica $|f(x) - L| < \varepsilon$, dizemos que $L$ é o limite de $f(x)$ quando $x$ tende a $a$, e escrevemos: 
 
 $$
 \lim_{x \rightarrow a} f(x) = L
@@ -303,7 +303,9 @@ Quando encontrarmos alguma indeterminação, temos mais uma arma para utilizar e
 
 Também conhecido pelo nome — bem mais descritivo — de **teorema do sanduíche**, o teorema do confronto é uma ferramenta muito útil na determinação de limites de algumas funções de comportamento mais errático.
 
-(Prof. Dr. José Carlos de Lima, UFAL) Dado um número real $a$, seja $I$ um intervalo aberto tal que $a \in I$. Sejam $f, g$ e $h$ funções reais definidas no intervalo aberto $I$ tais que
+<aside>
+
+<b>(Prof. Dr. José Carlos de Lima — UFAL, Teorema do confronto)</b> Dado um número real $a$, seja $I$ um intervalo aberto tal que $a \in I$. Sejam $f, g$ e $h$ funções reais definidas no intervalo aberto $I$ tais que
 
 $$
 g(x) \le f(x) \le h(x)
@@ -316,6 +318,8 @@ $$
 $$
 
 então $\lim_{x \rightarrow a} f(x)=L$.
+
+</aside>
 
 # Assíntotas e limites no infinito
 
@@ -373,7 +377,8 @@ $$
 \begin{align*}
     \lim_{x \rightarrow \infty} \dfrac{x^2 + x}{x^2 - 1} &= \lim_{x \rightarrow \infty} \dfrac{\dfrac{x^2}{x^2} + \dfrac{x}{x^2}}{\dfrac{x^2}{x^2} - \dfrac{1}{x^2}} \\\\
     &= \lim_{x \rightarrow \infty} \dfrac{1 + \dfrac{1}{x}}{1 - \dfrac{1}{x^2}}
-    &= \dfrac{1}{1} = 1
+    &= \dfrac{1}{1} \\\\
+    &= 1
 \end{align*}
 $$
 
@@ -487,7 +492,7 @@ $$
 Suponhamos $f(c_1) \ge 0$ e façamos $a_1 = a_2$ e $c_1 = b_2$. Assim, $f(a_2) \lt 0$ e $f(b_2) \ge 0$. Prosseguindo com este raciocínio, construiremos uma sequência de intervalos 
 
 $$
-[a_0, b_0] \sub [a_1, b_1] \sub [a_2, b_2] \sub ... \sub [a_n, b_n]
+[a_0, b_0] \subset [a_1, b_1] \subset [a_2, b_2] \subset ... \subset [a_n, b_n]
 $$
 
 que satisfaz as condições da propriedade dos intervalos encaixantes e, tal que, para todo $n$, 
@@ -516,7 +521,7 @@ Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o 
 
 <aside>
 
-<b>(ICMC-USP 2020, Teorema dos Intervalos Encaixantes [<a href="https://sites.icmc.usp.br/aurichi/exerc/doku.php?id=limites:valorintermediario" target="_blank">Aqui</a>])</b> — Considere $(I_n)_{n \in \mathbb{N}}$ uma familía de intervalos da forma $I_n = [a_n, b_n]$ tal que, para qualquer $n \in \mathbb{N}$, $[a_{n+1}, b_{n+1}] \sub [a_n, b_n]$ (isto é, $a_n \le a_{n+1} \le b_{n+1} \le b_n$). Então existe $x \in \bigcap_{n \in \mathbb{N}} I_n$. 
+<b>(ICMC-USP 2020, Teorema dos Intervalos Encaixantes [<a href="https://sites.icmc.usp.br/aurichi/exerc/doku.php?id=limites:valorintermediario" target="_blank">Aqui</a>])</b> — Considere $(I_n)_{n \in \mathbb{N}}$ uma familía de intervalos da forma $I_n = [a_n, b_n]$ tal que, para qualquer $n \in \mathbb{N}$, $[a_{n+1}, b_{n+1}] \subset [a_n, b_n]$ (isto é, $a_n \le a_{n+1} \le b_{n+1} \le b_n$). Então existe $x \in \bigcap_{n \in \mathbb{N}} I_n$. 
 
 </aside>
 

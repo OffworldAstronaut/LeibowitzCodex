@@ -162,10 +162,10 @@ A partir do gráfico é possível encontrar a altura máxima, por exemplo:
 
 $$
 \begin{align*}
-    U(y_{max}) &= E - K(y_{max}) \\\\
-    mg y_{max} &= E - \dfrac{1}{2}mv_f^2 \\\\ 
-    E &= mg y_{max} \\\\
-    \dfrac{E}{mg} &= y_{max}
+    U(y_{\text{max}}) &= E - K(y_{\text{max}}) \\\\
+    mg y_{\text{max}} &= E - \dfrac{1}{2}mv_f^2 \\\\ 
+    E &= mg y_{\text{max}} \\\\
+    \dfrac{E}{mg} &= y_{\text{max}}
 \end{align*}
 $$
 
@@ -191,7 +191,7 @@ Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **p
 
 *Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
 
-O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{max}$, com todas as posições possíveis oscilando nessa parábola. 
+O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{\text{max}}$, com todas as posições possíveis oscilando nessa parábola. 
 
 <aside>
 Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.

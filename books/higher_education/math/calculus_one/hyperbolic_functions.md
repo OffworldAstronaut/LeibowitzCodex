@@ -168,6 +168,8 @@ $$
 \end{align*}
 $$
 
+</aside>
+
 <aside>
 
 <b>Derivada do arco cosseno hiperbólico</b> — Pela propriedade previamente explorada, além do análogo hiperbólico para a relação fundamental trigonométrica, temos: 

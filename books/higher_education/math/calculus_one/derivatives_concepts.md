@@ -156,6 +156,8 @@ Por exemplo, dada uma função $f(x)=x^4$, sua derivada será $f'(x)=4x^3$.
 
 ### Prova 1 — Binômio de Newton
 
+<aside>
+
 Seja $f(x)=x^n$ uma função. Por definição, temos que sua derivada $f'(x)$ é dada pelo limite:
 
 $$
@@ -191,7 +193,11 @@ $$
 
 Como queríamos demonstrar.
 
+</aside>
+
 ### Prova 2 — Diferenciação implícita e logarítmica
+
+<aside>
 
 Seja $f(x)=y=x^n$. Logo, temos que: 
 
@@ -207,11 +213,15 @@ $$
 
 Como queríamos demonstrar. Os conceitos de derivação implícita e derivação logarítmica estão descritos mais adiante nesta seção.
 
+</aside>
+
 ## Multiplicação por uma constante
 
 Dadas duas funções $g(x)$ e $f(x)$ e uma constante $c \in \mathbb{R}$, de forma que $g(x)=cf(x)$, a derivada de $g(x)$ é dada pelo produto entre $c$  e $f'$. 
 
 Essa propriedade pode ser demonstrada de forma relativamente simples. 
+
+<aside>
 
 $$
 \begin{align*}
@@ -220,7 +230,10 @@ g'(x)&=\lim_{h \rightarrow 0} \dfrac{g(x+h)-g(x)}{h}=\lim_{h \rightarrow 0} \dfr
 \end{align*}
 $$
 
+</aside>
+
 O último passo é justificado por meio das propriedades de limites (limite do produto entre uma função e uma constante).
+
 
 ## Regra da soma ou da diferença
 
@@ -341,9 +354,9 @@ $$
 
 Com $y$ sendo minha função original, $u$ sendo a minha função “interna”, tratada como variável, e finalmente $x$, a minha verdadeira variável. 
 
-### Exemplo
+<aside>
 
-Definindo a função $y=f(x)=\sqrt{5x-8}$, podemos encontrar sua derivada através da regra da cadeia. 
+<b>Exemplo</b> — Definindo a função $y=f(x)=\sqrt{5x-8}$, podemos encontrar sua derivada através da regra da cadeia. 
 
 Neste exemplo, chamamos $u=5x-8$. Assim, pela regra da cadeia: 
 
@@ -354,6 +367,10 @@ $$
 &= \dfrac{5}{2\sqrt{5x-8}}
 \end{align*}
 $$
+
+</aside>
+
+### Demonstrações
 
 <aside>
 
@@ -589,38 +606,6 @@ Todas as funções trigonométricas podem ser reconstruídas por meio de recombi
 
 ## Derivando a função seno
 
-Antes de derivar a função cosseno, precisamos ter em mente o <b>limite trigonométrico fundamental</b>, <a href="/books/higher_education/math/calculus_one/limits.html" target="_blank">visto anteriormente</a>, e o seguinte limite: 
-
-$$
-\lim_{h \to 0} \left(\dfrac{\cos{h} - 1}{h}\right) = 0
-$$
-
-<aside>
-
-<b>Demonstração</b> — Pela definição de derivada, temos: 
-
-$$
-\begin{align*}
-    \lim_{h \to 0}\left(\dfrac{\cos{h} - 1}{h}\right) &= \lim_{h \to 0}\left(\dfrac{\cos^2{h}-1}{h \cdot (\cos{h} +1)}\right) \\\\
-    &= \lim_{h \to 0}\left(\dfrac{-\sin^2{h}}{h \cdot (\cos{h} + 1)}\right) \\\\
-    &= -\lim_{h \to 0}\left(\dfrac{\sin{h}}{h} \cdot \dfrac{\sin{h}}{\cos{h} + 1}\right)
-\end{align*}
-$$
-
-Como as funções trigonométricas são contínuas, o limite direito existe e pode ser calculado por substituição direta. O limite no lado esquerdo da multiplicação é o limite trigonométrico fundamental.
-
-Dessa forma, pela propriedade do limite do produto: 
-
-$$
-\begin{align*}
-    -\lim_{h \to 0}\left(\dfrac{\sin{h}}{h} \cdot \dfrac{\sin{h}}{\cos{h} + 1}\right) &= -\left[\lim_{h \to 0}\left(\dfrac{\sin{h}}{h}\right) \cdot \lim_{h \to 0} \left(\dfrac{\sin{h}}{\cos{h} + 1}\right) \right] \\\\
-    &= -\left[1 \cdot 0\right] \\\\
-    &= 0.
-\end{align*}
-$$
-
-</aside>
-
 <aside>
 
 <b>Demonstração (derivada da função seno)</b> — Pela definição de derivada, temos: 
@@ -655,6 +640,38 @@ $$
 
 ## Derivando a função cosseno
 
+Antes de derivar a função cosseno, precisamos ter em mente o <b>limite trigonométrico fundamental</b>, <a href="/books/higher_education/math/calculus_one/limits.html" target="_blank">visto anteriormente</a>, e o seguinte limite: 
+
+$$
+\lim_{h \to 0} \left(\dfrac{\cos{h} - 1}{h}\right) = 0
+$$
+
+<aside>
+
+<b>Demonstração</b> — Pela definição de derivada, temos: 
+
+$$
+\begin{align*}
+    \lim_{h \to 0}\left(\dfrac{\cos{h} - 1}{h}\right) &= \lim_{h \to 0}\left(\dfrac{\cos^2{h}-1}{h \cdot (\cos{h} +1)}\right) \\\\
+    &= \lim_{h \to 0}\left(\dfrac{-\sin^2{h}}{h \cdot (\cos{h} + 1)}\right) \\\\
+    &= -\lim_{h \to 0}\left(\dfrac{\sin{h}}{h} \cdot \dfrac{\sin{h}}{\cos{h} + 1}\right)
+\end{align*}
+$$
+
+Como as funções trigonométricas são contínuas, o limite direito existe e pode ser calculado por substituição direta. O limite no lado esquerdo da multiplicação é o limite trigonométrico fundamental.
+
+Dessa forma, pela propriedade do limite do produto: 
+
+$$
+\begin{align*}
+    -\lim_{h \to 0}\left(\dfrac{\sin{h}}{h} \cdot \dfrac{\sin{h}}{\cos{h} + 1}\right) &= -\left[\lim_{h \to 0}\left(\dfrac{\sin{h}}{h}\right) \cdot \lim_{h \to 0} \left(\dfrac{\sin{h}}{\cos{h} + 1}\right) \right] \\\\
+    &= -\left[1 \cdot 0\right] \\\\
+    &= 0.
+\end{align*}
+$$
+
+</aside>
+
 <aside>
 
 <b>Demonstração (derivada da função cosseno)</b> — Pela definição de derivada, temos: 
@@ -673,7 +690,7 @@ $$
 \end{align*}
 $$
 
-Pelos mesmos motivos vistos na prova da derivada da função seno, podemos utilizar a propriedade do limite da soma e logo em seguida utilizar as identidades associadas aos limites. 
+Pelos mesmos motivos vistos na prova da derivada da função seno, podemos utilizar a propriedade do limite da soma e logo em seguida utilizar as identidades associadas aos limites. Além disso, iremos nos utilizar do limite fundamental do cosseno, visto anteriormente.
 
 $$
 \begin{align*}
@@ -698,8 +715,8 @@ Portanto, pela regra do quociente, temos:
 $$
 \begin{align*}
     f'(x) &= \dfrac{\cos{x}\cos{x}-\sin{x}(-\sin{x})}{\cos^2{x}} \\\\
-    &= \dfrac{\cos^2{x} + \sin^2{x}}{\cos^2{x}} = \dfrac{1}{\cos^2{x}} \\\\
-    &= \sec^2{x}
+    \therefore f'(x) &= \dfrac{\cos^2{x} + \sin^2{x}}{\cos^2{x}} = \dfrac{1}{\cos^2{x}} \\\\
+    \therefore f'(x) &= \sec^2{x}
 \end{align*}
 $$
 
@@ -707,31 +724,53 @@ $$
 
 <aside>
 
-<b>Demonstração (derivada da função tangente, primeiros princípios)</b> — Pela definição de derivada e da função tangente, temos: 
-
-$$
-\begin{align*}    
-    \lim_{h \to 0}\left(\dfrac{\tan(x+h)-\tan(x)}{h}\right) &= \lim_{h \to 0}\left(\dfrac{\dfrac{\sin{(x+h)}}{\cos{(x+h)}} - \dfrac{\sin{x}}{\cos{x}}}{h}\right) \\\\ 
-    &= \lim_{h \to 0}\left(\dfrac{\sin{(x+h)}\cos{x}-\sin{x}\cos{(x+h)}}{h\cos{(x+h)}\cos{x}}\right)
-\end{align*}
-$$
-
-Somando zero e rearranjando a expressão, obtemos: 
+<b>Demonstração (derivada da função tangente, primeiros princípios)</b> — Pela definição de derivada, temos: 
 
 $$
 \begin{align*}
-    \lim_{h \to 0}\left(\dfrac{\sin{(x+h)}\cos{x}-\sin{x}\cos{(x+h)}}{h\cos{(x+h)}\cos{x}}\right) &= \lim_{h \to 0}\left(\dfrac{\sin{(x+h)}\cos{x}-\sin{x}\cos{x}+\sin{x}\cos{x}-\sin{x}\cos{(x+h)}}{}\right) \\\\
-    &= \lim_{h \to 0}\left(\dfrac{\cos{x}(\sin{(x+h)} - \sin{x}) - \sin{x}(\cos{(x+h)}-\cos{x})}{h\cos{(x+h)\cos{x}}}\right) \\\\
-    &= \lim_{h \to 0} \left[\left(\cos{x} \cdot \dfrac{\sin{(x+h)-\sin{x}}}{h} - \sin{x} \cdot \dfrac{\cos{(x+h)-\cos{x}}}{h}\right)\left(\dfrac{1}{\cos{(x+h)}\cos{x}}\right)\right]
+    f'(x) &= \lim_{h \to 0} \dfrac{\tan{(x+h)-\tan{x}}}{h}
 \end{align*}
 $$
 
-Como as funções seno e cosseno são diferenciáveis em todos os reais, temos: 
+Pela identidade trigonométrica da tangente da diferença de dois arcos, temos que $\tan{(x+h)}-\tan{x} = \tan{h} \cdot (1 + \tan{(x+h)}\cdot \tan{x})$.
+
+Dessa forma, substituindo no limite, obtemos: 
 
 $$
 \begin{align*}
-    \lim_{h \to 0} \left[\left(\cos{x} \cdot \dfrac{\sin{(x+h)-\sin{x}}}{h} - \sin{x} \cdot \dfrac{\cos{(x+h)-\cos{x}}}{h}\right)\left(\dfrac{1}{\cos{(x+h)}\cos{x}}\right)\right] &= (\cos^2{x} + \sin^2{x}) \cdot \dfrac{1}{\cos^2{x}} \\\\
-    &= \dfrac{1}{\cos^2{x}} = \sec^2{x}
+    f'(x) &= \lim_{h \to 0} \dfrac{\tan{h}(1 + \tan{(x+h)}\cdot \tan{x})}{h} \\\\
+    \therefore f'(x) &= \lim_{h \to 0}\dfrac{\tan{h}}{h} \cdot \lim_{h \to 0} [1 + \tan{(x+h)}\cdot \tan{x}]
+\end{align*}
+$$
+
+A propriedade do limite do produto pode ser aplicada pois $\lim_{h \to 0}\dfrac{\tan{h}}{h} = 1$ e $\lim_{h \to 0} [1 + \tan{(x+h)}\cdot \tan{x} = 1 + \tan^2{x}$.
+
+Portanto, obtemos: 
+
+$$
+\begin{align*}
+    f'(x) &= 1 \cdot (1 + \tan^2{x}) \\\\ 
+    \therefore f'(x) &= \sec^2{x}
+\end{align*}
+$$
+
+Como queríamos demonstrar.
+
+<i>Observação: o limite $\lim_{h \to 0}\dfrac{\tan{h}}{h} = 1$ possui demonstração geométrica de forma similar ao limite fundamental.</i> 
+
+</aside>
+
+## Derivando a função cossecante 
+
+<aside>
+
+<b>Demonstração (derivada da cossecante, regra do quociente)</b> — Pela regra do quociente, obtemos: 
+
+$$
+\begin{align*}
+    (\csc{x})' &= \left(\dfrac{1}{\sin{x}}\right)' \\\\
+    \therefore (\csc{x})' &= -\dfrac{\cos{x}}{\sin^2{x}} \\\\ 
+    \therefore (\csc{x})' &=  -\cot{x} \cdot \csc{x}
 \end{align*}
 $$
 
@@ -739,16 +778,38 @@ Como queríamos demonstrar.
 
 </aside>
 
-## Derivando a função cossecante 
-
-
 
 ## Derivando a função secante
 
+<aside>
 
+<b>Demonstração (derivada da secante, regra do quociente)</b> — Pela regra do quociente, obtemos: 
+
+$$
+\begin{align*}
+    (\sec{x})' &= \left(\dfrac{1}{\cos{x}}\right)' \\\\
+    \therefore (\sec{x})' &= \dfrac{\sin{x}}{\cos^2{x}} \\\\
+    \therefore (\sec{x})' &= \tan{x} \cdot \sec{x}
+\end{align*}
+$$
+
+</aside>
 
 ## Derivando a função cotangente 
 
+<aside>
+
+<b>Demonstração (derivada da cotangente, regra do quociente)</b> — Pela regra do quociente, obtemos: 
+
+$$
+\begin{align*}
+    (\cot{x})' &= \left(\dfrac{1}{\tan{x}}\right)' \\\\
+    \therefore (\cot{x})' &= -\dfrac{\sec^2{x}}{\tan^2{x}} \\\\
+    \therefore (\cot{x})' &= -\csc^2{x}
+\end{align*}
+$$
+
+</aside>
 
 # Práticas, regras e técnicas úteis 
 
@@ -947,7 +1008,6 @@ $$
     [f(g(x))]' &= x' \\\\
     f'(g(x)) \cdot g'(x) &= 1 \\\\
     g'(x) &= \dfrac{1}{f'(g(x))}
-
 \end{align*}
 $$
 
@@ -1007,15 +1067,15 @@ $$
 
 $$
 \begin{align*}
-    (\arctg{x})' &= \dfrac{1}{(\tg \arctg{x})'} \\\\
-    \therefore (\arctg{x})' &= \dfrac{1}{\sec^2\arctg{x}}
+    (\arctan{x})' &= \dfrac{1}{(\tan \arctan{x})'} \\\\
+    \therefore (\arctan{x})' &= \dfrac{1}{\sec^2\arctan{x}}
 \end{align*}
 $$
 
 Pela relação fundamental da trigonometria, concluimos que
 
 $$
-(\arctg{x})' = \dfrac{1}{x^2 + 1}
+(\arctan{x})' = \dfrac{1}{x^2 + 1}
 $$
 
 </aside>
@@ -1029,7 +1089,7 @@ $$
 $$
 \begin{align*}
     (\text{arcsec }{x})' &= \dfrac{1}{(\sec{\text{arcsec }x})'} \\\\
-    \therefore (\text{arcsec }{x})' &= \dfrac{1}{(\sec{\text{arcsec }{x}})(\tg{\text{arcsec }{x}})} \\\\
+    \therefore (\text{arcsec }{x})' &= \dfrac{1}{(\sec{\text{arcsec }{x}})(\tan{\text{arcsec }{x}})} \\\\
     \therefore (\text{arcsec }{x})' &= \dfrac{1}{|x| \sqrt{x^2 - 1}}
 \end{align*}
 $$
@@ -1063,12 +1123,12 @@ Este último passo é realizado após a aplicação da regra da cadeia e da iden
 
 $$
 \begin{align*}
-    (\arcctg{x})' &= -\dfrac{1}{\csc^2{\arcctg{x}}} \\\\
-    \therefore (\arcctg{x})' &= \dfrac{1}{1 + x^2}
+    (\arccot{x})' &= -\dfrac{1}{\csc^2{\arccot{x}}} \\\\
+    \therefore (\arccot{x})' &= \dfrac{1}{1 + x^2}
 \end{align*}
 $$
 
-Esta conclusão pode ser feita a partir da identidade trigonométrica $\csc^2{x} = 1 + \cotg^2{x}$. Basta substituir, simplificar e organizar os termos. 
+Esta conclusão pode ser feita a partir da identidade trigonométrica $\csc^2{x} = 1 + \cot^2{x}$. Basta substituir, simplificar e organizar os termos. 
 
 </aside>
 
