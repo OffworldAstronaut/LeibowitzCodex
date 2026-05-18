@@ -546,3 +546,8 @@ Este resultado pode ser demonstrado por meio da combinação de uma construção
 O limite $\lim_{x \rightarrow \infty} \left(1 + \dfrac{1}{x}\right)^x = e$ recebe o nome de <b>limite fundamental exponencial</b>, definindo o número $e$ como o limite de uma sequência. Este número possui uma enorme importância matemática, permitindo a facilitação de diversos cálculos por meio de suas propriedades. 
 
 Denominado <b>número de Euler</b> ou <b>número neperiano</b>, ele pode ser <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html">definido de uma outra maneira</a>, por meio de logaritmos, permitindo uma nova interpretação. 
+
+# Referências 
+
+1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
+2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.
