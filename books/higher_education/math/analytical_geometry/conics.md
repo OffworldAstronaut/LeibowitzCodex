@@ -160,18 +160,57 @@ $$
 
 <aside>
 
-<b>Demonstração (Elipse como cônica pela definição geral)</b> — 
+<b>Demonstração (Elipse como cônica pela definição geral)</b> — Tomando $F = (c, 0)$, $e = \dfrac{c}{a}$, $c = \sqrt{a^2 - b^2}$ e $r: x = \dfrac{a}{e}$, temos, pela definição geral das cônicas: 
+
+$$
+\begin{align*}
+    d(P, F) &= e \cdot d(P, r) \\\\ 
+    \therefore \sqrt{(x-c)^2 + y^2} &= e \cdot \left(x - \dfrac{a}{e}\right) \\\\ 
+    \therefore \sqrt{(x-c)^2 + y^2} &= e \cdot \left(\dfrac{xe - a}{e}\right) \\\\
+    \therefore \sqrt{(x-c)^2 + y^2} &= xe - a \\\\ 
+    \therefore x^2 - b ^2 + y^2 &= \dfrac{x^2 c^2}{a^2} \\\\
+    \therefore a^2x^2 - a^2b^2 + a^2y^2 &= x^2a^2 - x^2b^2 \\\\ 
+    \therefore a^2y^2 + x^2b^2 &= a^2b^2 \\\\ 
+    \therefore \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} &= 1
+\end{align*}
+$$
+
+Perceba ainda que podemos, pelo mesmo raciocínio, deduzir esta expressão para $F = (-c, 0)$ e diretriz $r: x = -\dfrac{a}{e}$. 
 
 </aside>
 
 <aside>
 
-<b>Demonstração (Parábola como cônica pela definição geral)</b> —
+<b>Demonstração (Parábola como cônica pela definição geral)</b> — Tomando $F = (0, a)$, $e = 1$ e $r: y = -a$, temos, pela definição geral das cônicas: 
+
+$$
+\begin{align*}
+    d(P, F) &= e \cdot d(P, r) \\\\ 
+    \therefore \sqrt{x^2 + (y - a)^2} &= y + a \\\\ 
+    \therefore x^2 + (y - a)^2 &= y^2 + 2ay + a^2 \\\\ 
+    \therefore x^2 + y^2 - 2ay + a^2 &= y^2 + 2ay + a^2 \\\\ 
+    \therefore x^2 - 4ay &= 0 \\\\ 
+    \therefore y &= \dfrac{1}{4a}x^2
+\end{align*}
+$$
 
 </aside>
 
 <aside>
 
-<b>Demonstração (Hipérbole como cônica pela definição geral)</b> —
+<b>Demonstração (Hipérbole como cônica pela definição geral)</b> — Tomando $F = (c, 0)$, $e = \dfrac{c}{a}$, $c = \sqrt{a^2 + b^2}$ e $r: x = \dfrac{a}{e}$, temos, pela definição geral das cônicas: 
+
+$$
+\begin{align*}
+    d(P,F) &= e \cdot d(P, r) \\\\ 
+    \therefore \sqrt{(x-c)^2 + y^2} &= e \cdot \left(x - \dfrac{a}{e}\right) \\\\ 
+    \therefore \sqrt{(x-c)^2 + y^2} &= xe - a \\\\ 
+    \therefore x^2 - 2xc + c^2 + y^2 &= \dfrac{x^2c^2 - 2xca^2 + a^4}{a^2} \\\\ 
+    \therefore a^2x^2 + a^4 + a^2b^2 + a^2y^2 &= a^2x^2 + x^2b^2 + a^4 \\\\ 
+    \therefore \dfrac{x^2}{a^2} - \dfrac{y^2}{b^2} &= 1
+\end{align*}
+$$
+
+Note que esta mesma expressão pode ser deduzida para $F = (-c, 0)$ e diretriz $r: x = -\dfrac{a}{e}$, com $c = \sqrt{a^2 - b^2}$ e $c = \sqrt{b^2 - a^2}$. 
 
 </aside>
