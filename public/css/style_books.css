@@ -107,6 +107,8 @@ button:hover {
 .book-content {
     padding-top: 12px;
     text-align: justify;
+    max-width: 100%;
+    overflow-x: auto;    
 }
 
 .book-content p {
