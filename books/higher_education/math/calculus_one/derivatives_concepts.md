@@ -1123,8 +1123,8 @@ Este último passo é realizado após a aplicação da regra da cadeia e da iden
 
 $$
 \begin{align*}
-    (\arccot{x})' &= -\dfrac{1}{\csc^2{\arccot{x}}} \\\\
-    \therefore (\arccot{x})' &= \dfrac{1}{1 + x^2}
+    (\text{arccot }{ x})' &= -\dfrac{1}{\csc^2{\text{arccot }{ x}}} \\\\
+    \therefore (\text{arccot }{ x})' &= \dfrac{1}{1 + x^2}
 \end{align*}
 $$
 
@@ -1147,6 +1147,8 @@ Uma notação um pouco mais explícita é a de Lagrange. Para uma certa função
 Por sua vez, a notação de Leibnitz é a mais explícita e detalhada de todas as comumente utilizadas, identificando inclusive a variável que a função está sendo derivada. Para uma certa função $f(x)$, podemos denotar sua derivada em relação à variável $x$ por $\dfrac{df}{dx}$ ou $\dfrac{d}{dx}f(x)$.
 
 # Referências 
+
+---
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

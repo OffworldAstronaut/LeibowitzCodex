@@ -318,5 +318,7 @@ Ou seja, quando o diâmetro do balão for 50 cm, seu raio está crescendo numa t
 
 # Referências 
 
+---
+
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

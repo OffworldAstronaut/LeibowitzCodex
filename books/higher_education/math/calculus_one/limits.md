@@ -39,7 +39,7 @@ $$
 
 <aside>
 
-<b>Exemplo (Definição formal de limites, retirado de <a target="_blank" href="https://www.ocf.berkeley.edu/~yosenl/math/epsilon-delta.pdf">Lin, 2001</a>)</b> — Pela definição épsilon-delta, prove o seguinte limite.
+<b>Exemplo I (Definição formal de limites, retirado de <a target="_blank" href="https://www.ocf.berkeley.edu/~yosenl/math/epsilon-delta.pdf">Lin, 2001</a>)</b> — Pela definição épsilon-delta, prove o seguinte limite.
 
 $$
 \lim_{x \rightarrow 1} 3x-1 = 2 
@@ -69,6 +69,60 @@ $$
 $$
 
 Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \epsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim.
+
+</aside>
+
+<aside>
+
+<b>Exemplo II (Definição formal de limites)</b> — Pela definição épsilon-delta, prove o seguinte limite.
+
+$$
+\lim_{x \to 4} x^2 = 16
+$$
+
+Queremos mostrar que, para todo $\varepsilon \gt 0$, $\exists \delta \gt 0$ tal que, se $0 \lt |x-4| \lt \delta$, então $|x^2 - 16| \lt \varepsilon$. Note que $|x^2 - 16| = |x+4||x-4|$. 
+
+Supondo $\delta \le 1$, temos que $0 \lt |x-4| \lt 1 \iff -1 \lt x - 4 \lt 1$ , pelas propriedades do valor absoluto. Somando 8 nos membros da desigualdade, obtemos $7 \lt x+ 4 \lt 9$ e, consequentemente, podemos afirmar que $|x+4| \lt 9$. 
+
+Portanto, podemos afirmar a desigualdade seguinte.
+
+$$
+|x^2 - 16| = |x+4||x-4| \lt 9|x-4| \lt \varepsilon
+$$
+
+Logo, temos que $|x-4| \lt \dfrac{\varepsilon}{9}$ com $\delta = \min{\left(1, \dfrac{\varepsilon}{9}\right)}$ e, portanto, se $\delta = \min{\left(1, \dfrac{\varepsilon}{9}\right)}$, $|x^2 - 16| \lt \varepsilon$, como queríamos demonstrar.
+
+</aside>
+
+<aside>
+
+<b>Exemplo III (Definição formal de limites)</b> — Pela definição épsilon-delta, prove o seguinte limite.
+
+$$
+\lim_{x \to 9} \sqrt{x} = 3
+$$
+
+Queremos mostrar que, para todo $\varepsilon \gt 0$, $\exists \delta \gt 0$ tal que, se $0 \lt |x-9| \lt \delta$, então $|\sqrt{x} - 3| \lt \varepsilon$. Note que 
+
+$$
+|\sqrt{x} - 3| = \dfrac{|\sqrt{x} + 3||\sqrt{x} - 3|}{|\sqrt{x} + 3|}
+$$
+
+Supondo que $\delta \le 1$, temos que $0 \lt |x - 9| lt 1$ e, portanto, $-1 \lt x - 9 \lt 1 \implies 8 \lt x \lt 10 \implies \sqrt{8} \lt \sqrt{x} \lt \sqrt{10} \implies \sqrt{8} + 3 \lt \sqrt{x} + 3 \lt \sqrt{10} + 3$. 
+
+Tomando o recíproco das quantidades e, por isso, invertendo as desigualdades, obtemos:
+
+$$
+\dfrac{1}{\sqrt{8} + 3} \gt \dfrac{1}{\sqrt{x} + 3} \gt \dfrac{1}{\sqrt{10} + 3}
+$$
+
+Note que $\dfrac{1}{\sqrt{8}+3} \lt \dfrac{1}{5}$, pois $\sqrt{8} + 3 \gt 5$. Portanto, podemos escrever:
+
+$$
+|\sqrt{x} - 3| = \dfrac{|x-9|}{|\sqrt{x}+3|} \lt \dfrac{|x-9|}{5} \lt \varepsilon
+$$
+
+Portanto, temos que $|x - 9| \lt 5\varepsilon$. Dessa forma, se $\delta = \min{\left(1, 5\varepsilon\right)}$, $|x-9| \lt \delta$ e, portanto $|\sqrt{x} - 3| \lt \varepsilon$.
 
 </aside>
 
@@ -601,6 +655,8 @@ $$
 $$
 
 # Referências 
+
+---
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

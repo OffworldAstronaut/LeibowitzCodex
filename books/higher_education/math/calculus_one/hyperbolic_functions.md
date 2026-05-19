@@ -237,4 +237,6 @@ $$
 
 # Referências
 
+---
+
 1. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.
