@@ -413,7 +413,7 @@ Como exemplo, podemos citar a função $f(x)= \dfrac{x^2 - 9}{2x -4}$. Efetuando
 
 <i>Em verde, temos a função racional original. Em cinza, a reta produzida pela equação encontrada. Perceba que ela é a assíntota oblíqua da função.</i>
 
-# Apêndice I — Continuidade
+# Continuidade
 
 ---
 
@@ -521,11 +521,11 @@ Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o 
 
 <aside>
 
-<b>(ICMC-USP 2020, Teorema dos Intervalos Encaixantes [<a href="https://sites.icmc.usp.br/aurichi/exerc/doku.php?id=limites:valorintermediario" target="_blank">Aqui</a>])</b> — Considere $(I_n)_{n \in \mathbb{N}}$ uma familía de intervalos da forma $I_n = [a_n, b_n]$ tal que, para qualquer $n \in \mathbb{N}$, $[a_{n+1}, b_{n+1}] \subset [a_n, b_n]$ (isto é, $a_n \le a_{n+1} \le b_{n+1} \le b_n$). Então existe $x \in \bigcap_{n \in \mathbb{N}} I_n$. 
+<b>(ICMC-USP 2020, Teorema dos Intervalos Encaixantes [<a href="https://sites.icmc.usp.br/aurichi/exerc/doku.php?id=limites:valorintermediario" target="_blank">Aqui</a>])</b> — Considere $(I_n), n \in \mathbb{N}$ uma familía de intervalos da forma $I_n = [a_n, b_n]$ tal que, para qualquer $n \in \mathbb{N}$, $[a_{n+1}, b_{n+1}] \subset [a_n, b_n]$ (isto é, $a_n \le a_{n+1} \le b_{n+1} \le b_n$). Então existe $x \in \bigcap_{n \in \mathbb{N}} I_n$. 
 
 </aside>
 
-# Apêndice II — Limites Fundamentais 
+# Apêndice — Limites fundamentais 
 
 ---
 
@@ -533,19 +533,72 @@ Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o 
 
 Denominamos o limite $\lim_{x \rightarrow 0}\dfrac{\sin{x}}{x} = 1$ como o <b>limite fundamental trigonométrico</b>. A importância deste limite vem de sua utilidade em demonstrar muitas outras relações, além de permitir simplificar a resolver muitos outros limites de funções trigonométricas. 
 
-Este resultado pode ser demonstrado por meio da combinação de uma construção geométrica com o teorema do confronto. 
+Para sua demonstração abaixo, nós iremos utilizar apenas o ciclo trigonométrico, formando uma desigualdade de funções com origem geométrica e, por fim, aplicar o teorema do confronto devido a sua continuidade.
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/ec/TrigFunctionDiagram.svg)
 
 <aside>
 
-<b>Limite fundamental trigonométrico (Demonstração)</b> — No plano, construa o círculo unitário e defina os pontos 
+<b>Limite fundamental trigonométrico (Demonstração)</b> — No plano, construa o círculo trigonométrico, juntamente com a reta tangente $r: x = 1$. 
+
+Tomando um ângulo $\theta$ no primeiro quadrante, podemos considerar as figuras geométricas formadas pelo círculo unitário e os segmentos de reta considerados.
+
+Note que a área do triângulo menor, de lados $\sin{\theta}$ e $\cos{\theta}$ é $A_1 = \dfrac{1}{2}\cos{\theta}\sin{\theta}$. Além disso, a área do setor circular formado pelo ângulo $\theta$ é de $A_2 = \dfrac{1}{2}\theta$. Por fim, a área do triângulo maior, formado pela reta tangente, é $A_3 = \dfrac{1}{2}\tan{x}$. 
+
+É perceptível, pela figura, que pode ser montada uma desigualdade entre essas áreas. 
+
+$$
+\dfrac{1}{2}\sin{\theta}\cos{\theta} \le \dfrac{1}{2}\theta \le \dfrac{1}{2}\tan{\theta}
+$$
+
+Multiplicando todos os membros da desigualdade por 2, e dividindo por $\sin{\theta}$, podemos simplificar a expressão. Perceba que esta divisão pode ser realizada em razão de que $\sin{\theta} \gt 0$. 
+
+$$
+\begin{align*}
+    &\therefore \sin{\theta}\cos{\theta} \le \theta \le \tan{\theta} \\\\ 
+    &\therefore \cos{\theta} \le \dfrac{\theta}{\sin{\theta}} \le \dfrac{1}{\cos{\theta}}
+\end{align*}
+$$
+
+Tomando o recíproco de todas as funções — e por isso invertendo a desigualdade — obtemos: 
+
+$$
+\sec{\theta} \ge \dfrac{\sin{\theta}}{\theta} \ge \cos{\theta}
+$$
+
+Como estas funções são contínuas e $\lim_{\theta \to 0} \sec{\theta} = \lim_{\theta \to 0} \cos{\theta} = 1$ temos, pelo teorema do confronto, que 
+
+$$
+\lim_{\theta \to 0} \dfrac{\sin{\theta}}{\theta} = 1
+$$
+
+como queríamos demonstrar.
 
 </aside>
 
 ## Limite fundamental exponencial 
 
-O limite $\lim_{x \rightarrow \infty} \left(1 + \dfrac{1}{x}\right)^x = e$ recebe o nome de <b>limite fundamental exponencial</b>, definindo o número $e$ como o limite de uma sequência. Este número possui uma enorme importância matemática, permitindo a facilitação de diversos cálculos por meio de suas propriedades. 
+É possível demonstrar, por meio de <a href="/books/higher_education/math/calculus_two/sequences.html" target="_blank">sequências</a>, que a sequência 
 
-Denominado <b>número de Euler</b> ou <b>número neperiano</b>, ele pode ser <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html">definido de uma outra maneira</a>, por meio de logaritmos, permitindo uma nova interpretação. 
+$$
+a_n = \left(1 + \dfrac{1}{n}\right)^n = e \approx 2.71
+$$
+
+De fato, ainda é possível demonstrar que
+
+$$
+\lim_{x \to \infty} \left(1 + \dfrac{1}{x}\right)^x = e
+$$
+
+com este limite sendo denominado o <b>limite fundamental exponencial</b>. Este limite possui uma importância considerável para o tratamento no cálculo de funções exponenciais, principalmente em suas <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html">derivadas</a>. Com efeito, ainda é possível demonstrar que 
+
+$$
+\begin{align*}
+    \lim_{x \to -\infty} \left(1 + \dfrac{1}{x}\right)^x &= e \\\\ 
+    \lim_{h \to 0} (1 + h)^{\dfrac{1}{h}} &= e \\\\ 
+    \lim_{h \to 0} \dfrac{e^h - 1}{h} &= 1
+\end{align*}
+$$
 
 # Referências 
 
