@@ -106,9 +106,7 @@ button:hover {
 /* ---------- Book Content ---------- */
 .book-content {
     padding-top: 12px;
-    text-align: justify;
-    max-width: 100%;
-    overflow-x: auto;    
+    text-align: justify;    
 }
 
 .book-content p {
@@ -149,6 +147,7 @@ table {
     box-shadow: 4px 4px 8px var(--shadow);
     max-width: 100%;
     min-width: 95%;
+    overflow-x: scroll;
 }
 
 blockquote {
