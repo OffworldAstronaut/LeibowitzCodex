@@ -68,7 +68,7 @@ $$
 \end{align*}
 $$
 
-Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \epsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim.
+Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \epsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim. Um passo importante para efetuar este primeiro passo é buscar outro termo que seja independente de $x$ e que satisfaça a desigualdade, permitindo limitar sua expressão com $|x-a|$ e consequentemente atribuir um valor para $\delta$ em função de $\varepsilon$. 
 
 </aside>
 
@@ -108,7 +108,7 @@ $$
 |\sqrt{x} - 3| = \dfrac{|\sqrt{x} + 3||\sqrt{x} - 3|}{|\sqrt{x} + 3|}
 $$
 
-Supondo que $\delta \le 1$, temos que $0 \lt |x - 9| lt 1$ e, portanto, $-1 \lt x - 9 \lt 1 \implies 8 \lt x \lt 10 \implies \sqrt{8} \lt \sqrt{x} \lt \sqrt{10} \implies \sqrt{8} + 3 \lt \sqrt{x} + 3 \lt \sqrt{10} + 3$. 
+Supondo que $\delta \le 1$, temos que $0 \lt |x - 9| \lt 1$ e, portanto, $-1 \lt x - 9 \lt 1 \implies 8 \lt x \lt 10 \implies \sqrt{8} \lt \sqrt{x} \lt \sqrt{10} \implies \sqrt{8} + 3 \lt \sqrt{x} + 3 \lt \sqrt{10} + 3$. 
 
 Tomando o recíproco das quantidades e, por isso, invertendo as desigualdades, obtemos:
 
