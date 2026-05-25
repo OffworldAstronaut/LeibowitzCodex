@@ -214,3 +214,9 @@ $$
 Note que esta mesma expressão pode ser deduzida para $F = (-c, 0)$ e diretriz $r: x = -\dfrac{a}{e}$, com $c = \sqrt{a^2 - b^2}$ e $c = \sqrt{b^2 - a^2}$. 
 
 </aside>
+
+# Referências 
+
+--- 
+
+1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.

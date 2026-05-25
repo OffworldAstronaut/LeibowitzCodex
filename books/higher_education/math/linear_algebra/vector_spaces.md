@@ -120,7 +120,7 @@ $$
 
 ## Bases ordenadas e mudança de base
 
-Por padrão, a ordem dos vetores em uma base não importa para nosso tratamento com espaços vetoriais, em decorrência de estarmos tratando com conjuntos. Entretanto, fixar a ordem das bases (e por isso definir bases <i>ordenadas</b>) nos permite criar a noção de <b>coordenadas</b> num espaço vetorial. 
+Por padrão, a ordem dos vetores em uma base não importa para nosso tratamento com espaços vetoriais, em decorrência de estarmos tratando com conjuntos. Entretanto, fixar a ordem das bases (e por isso definir bases <i>ordenadas</i>) nos permite criar a noção de <b>coordenadas</b> num espaço vetorial. 
 
 De fato, se tivermos um vetor $u$ expresso pela equação 
 
