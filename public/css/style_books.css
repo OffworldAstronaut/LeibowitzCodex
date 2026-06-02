@@ -270,24 +270,14 @@ textarea,
 .book-content p:first-of-type::first-letter {
     font-family: "Libertinus Math", "Georgia", serif;
     font-weight: bold;
-    
-    
     float: left;
     font-size: clamp(3.2rem, 8vw, 4.2rem); 
     line-height: 0.82;
     margin-top: 0.12em;
     margin-right: 0.1em;
     padding: 0.05em 0.08em 0 0.05em;
-    
-    
-    color: var(--link); 
-    
-    
-    border: 1px dashed var(--border);
-    background-color: var(--surface);
-    border-radius: 4px;
-    
-    
+    color: var(--link);
+
     text-shadow: 1px 1px 0px var(--bg), 2px 2px 0px var(--border);
 }
 
@@ -302,7 +292,7 @@ textarea,
 
 /* ---- Estilização dos títulos ---- */ 
 
-.book-content h2, h3 {
+.book-content h1, h2, h3 {
     font-family: "Libertinus Math", serif;
     font-size: clamp(1.5rem, 4.5vw, 1.9rem);
     color: var(--link); 
@@ -312,7 +302,7 @@ textarea,
     text-align: left;
 }
 
-.book-content h2::after, h3::after {
+.book-content h1::after, h2::after, h3::after {
     content: "";
     display: block;
     width: 40%;
