@@ -105,6 +105,14 @@ $$
 W = \int F \ dx= - \Delta U
 $$
 
+Por fim, perceba que desta relação é possível escrever a energia potencial num ponto $P$ por meio da integral 
+
+$$
+U(P) = - \int_{P_0}^{P} F \ dx
+$$
+
+com $U(P_0) = 0$. De fato, a energia potencial de um corpo num ponto é apenas o trabalho necessário para movê-lo de uma dada posição de referênicia até este ponto.
+
 <aside>
 
 Podemos justificar essa expressão ao escrever $E = T + U$, derivar a equação em relação ao tempo e reorganizar os termos. 
@@ -122,7 +130,7 @@ $$
 
 Dessa forma, definindo $x_2 - x_1 = h$, nossa altura,  conseguimos demonstrar a tão conhecida $U(h) = mgh$. 
 
-Retornando à distinção entre forças conservativas e não-conservativas (também chamadas de forças **dissipativas**), uma diferença notável entre as duas encerra-se no trabalho: o trabalho de uma força conservativa independe do caminho atravessado pelo móvel, mas apenas das suas posições iniciais e finais. O contrário é dito das dissipativas, em que a "trajetória", a "história" do móvel importa. 
+Retornando à distinção entre forças conservativas e não-conservativas (também chamadas de forças **dissipativas**), uma diferença notável entre as duas encerra-se no trabalho: o trabalho de uma força conservativa independe do caminho atravessado pelo móvel, mas apenas das suas posições iniciais e finais. O contrário é dito das dissipativas, em que a "trajetória", a "história" do móvel importa.
 
 Como exemplos de forças conservativas, podemos citar, além da força peso, a força elástica e a força elétrica.
 
@@ -203,3 +211,4 @@ Experimente imaginar um gráfico de potencial diferente e explorar as limitaçõ
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>).
+3. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013

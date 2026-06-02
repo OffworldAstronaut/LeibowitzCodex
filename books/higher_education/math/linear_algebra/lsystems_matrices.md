@@ -1,4 +1,4 @@
-# Sistemas lineares e Matrizes
+# Sistemas Lineares e Matrizes
 
 # Sistemas lineares
 
@@ -155,12 +155,16 @@ $$
 
 Ou seja, para somar duas matrizes, basta somar elemento a elemento.
 
+<aside>
+
 Para essa operação valem algumas propriedades. Considere $A, B, C \in M_{m \times n} (\mathbb{R})$.
 
 1. $A + (B+C) = (A+B)+C$ (propriedade associativa)
 2. $A + B = B + A$ (propriedade comutativa)
 3. $\exists O \in M_{m \times n} | A + O = A, \forall A$ (existência de elemento neutro)
 4. $\exists (-A) | A+(-A)=O, \forall A$ (existência do elemento oposto para qualquer matriz)
+
+</aside>
 
 <aside>
 
@@ -294,12 +298,16 @@ $$
 
 Isto é, o produto entre uma matriz e um número real $\lambda$ retorna uma matriz em que os elementos da matriz original foram multiplicados por $\lambda$.
 
+<aside>
+
 Para esta operação valem as seguintes propriedades:
 
 1. $(\alpha \beta) A = \alpha(\beta A)$
 2. $(\alpha + \beta)A = \alpha A + \beta A$
 3. $\alpha (A + B) = \alpha A + \alpha B$
 4. $1A = A$
+
+</aside>
 
 <aside>
 
@@ -364,10 +372,14 @@ $$
 \end{pmatrix}_{2 \times 2}
 $$
 
+<aside>
+
 No produto entre matrizes valem as seguintes propriedades. Considere $A_{m \times n}, B_{n \times p}, C_{p \times q}$.
 
 1. $A(BC) = (AB)C$
 2. $A(B+C) = AB + AC$
+
+</aside>
 
 <aside>
 
@@ -580,11 +592,15 @@ Se uma matriz $A$ é inversível, é possível determinar sua inversa por meio d
 
 De fato, essas operações são idênticas às operações elementares definidas para sistemas lineares. Como será visto adiante, sistemas lineares podem ser representados por matrizes, ou seja, podem ser escritos em uma <b>forma matricial</b>.
 
+<aside>
+
 São operações elementares de uma matriz $A$ qualquer:
 
 1. Permutar duas de suas linhas
 2. Multiplicar uma linha por um $\lambda \in \mathbb{R}$, com $\lambda \neq 0$
 3. Somar uma linha em outra
+
+</aside>
 
 De forma semelhante, se uma matriz $B$ pode ser obtida a partir de um número finito de operações elementares em $A$, dizemos que $A$ é <b>semelhante</b> a $B$ e denotamos esta relação por $A \sim B$. Valem as mesmas propriedades para a semelhança entre sistemas lineares.
 

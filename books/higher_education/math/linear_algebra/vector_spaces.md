@@ -4,11 +4,11 @@
 
 --- 
 
-Chamamos espaços vetoriais todos os conjuntos $V \neq \empty$ munidos com duas operações ("adição" e "multiplicação por escalar"). Além disso, estas operações devem satisfazer cada uma algumas propriedades. Podemos, então, escrever a seguinte definição. 
+Chamamos espaços vetoriais todos os conjuntos $V \neq \emptyset$ munidos com duas operações ("adição" e "multiplicação por escalar"). Além disso, estas operações devem satisfazer cada uma algumas propriedades. Podemos, então, escrever a seguinte definição. 
 
 <aside>
 
-<b>(CALLIOLI 1981, Definição de espaço vetorial)</b> — Dizemos que um conjunto $V \neq \empty$ é um espaço vetorial sobre $\mathbb{R}$ quando, e somente quando, por um lado, existe uma adição $(u, v) \longmapsto u + v$ em $V$ de forma que: 
+<b>(CALLIOLI 1981, Definição de espaço vetorial)</b> — Dizemos que um conjunto $V \neq \emptyset$ é um espaço vetorial sobre $\mathbb{R}$ quando, e somente quando, por um lado, existe uma adição $(u, v) \longmapsto u + v$ em $V$ de forma que: 
 
 1. $u + v = v + u, \forall u, v \in V$ (comutatividade)
 2. $u + (v + w) = (u + v) + w, \forall u, v, w \in V$ (associatividade)

@@ -240,3 +240,62 @@ body.dark .toc {
   display: block;
   margin: 1em auto;
 }
+
+/* ---------- Custom Cursor ---------- */
+
+/* Default cursor */
+html,
+body {
+    cursor: url('/cursors/featherpenpointer.cur'), auto;
+}
+
+/* Links and clickable elements */
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"] {
+    cursor: url('/cursors/featherpenlinkselect.cur'), pointer;
+}
+
+/* Text editing and selection */
+input,
+textarea,
+[contenteditable="true"] {
+    cursor: url('/cursors/featherpentextselect.cur'), text;
+}
+
+/* ---------- Letra Capitular ---------- */
+
+.book-content p:first-of-type::first-letter {
+    font-family: "Libertinus Math", "Georgia", serif;
+    font-weight: bold;
+    
+    
+    float: left;
+    font-size: clamp(3.2rem, 8vw, 4.2rem); 
+    line-height: 0.82;
+    margin-top: 0.12em;
+    margin-right: 0.1em;
+    padding: 0.05em 0.08em 0 0.05em;
+    
+    
+    color: var(--link); 
+    
+    
+    border: 1px dashed var(--border);
+    background-color: var(--surface);
+    border-radius: 4px;
+    
+    
+    text-shadow: 1px 1px 0px var(--bg), 2px 2px 0px var(--border);
+}
+
+
+@media (max-width: 480px) {
+    .book-content p:first-of-type::first-letter {
+        font-size: 3rem;
+        margin-top: 0.05em;
+        margin-right: 0.08em;
+    }
+}

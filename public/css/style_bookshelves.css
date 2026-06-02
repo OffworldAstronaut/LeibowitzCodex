@@ -161,3 +161,27 @@ button:hover {
     color: var(--text);
     opacity: 0.9;
 }
+
+/* ---------- Custom Cursor ---------- */
+
+/* Default cursor */
+html,
+body {
+    cursor: url('/cursors/featherpenpointer.cur'), auto;
+}
+
+/* Links and clickable elements */
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"] {
+    cursor: url('/cursors/featherpenlinkselect.cur'), pointer;
+}
+
+/* Text editing and selection */
+input,
+textarea,
+[contenteditable="true"] {
+    cursor: url('/cursors/featherpentextselect.cur'), text;
+}

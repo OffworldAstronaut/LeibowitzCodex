@@ -134,6 +134,18 @@ formando cones centrados na origem. Ainda temos que, se $a = b$, os cones são c
 
 <i>Acima: animação ilustrando todas as cônicas de revolução. O cone pode ser observado no canto superior direito. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Quadrics.gif" target="_blank">Wikimedia Commons</a>.</i>
 
+# Construindo superfícies de revolução
+
+---
+
+Podemos construir superfícies de revolução ao rotacionar qualquer curva em torno de um dado eixo coordenado. Por exemplo, qual a superfície resultante da rotação da curva $z = y^2$ em torno do eixo $z$? 
+
+![](/books/higher_education/math/analytical_geometry/images/paraboloide_y=0.png)
+
+Perceba que rotacionar esta curva implica que cada ponto irá descrever uma circunferência de centro $(0,0,z)$ e raio $r = \sqrt{y^2 + x^2}$. Note ainda que este raio é justamente a distância entre o eixo $z$ e um ponto da parábola original e, portanto, $r = |y| \implies r^2 = y^2$, assim, podemos substituir $y^2$ por $y^2 + x^2$ na equação original para escrever a equação desta quádrica, um paraboloide cujo eixo de simetria é o eixo $z$.
+
+![](/books/higher_education/math/analytical_geometry/images/paraboloide.png)
+
 # Referências 
 
 --- 
