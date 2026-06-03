@@ -2,7 +2,7 @@
 
 # Energia e potência elétrica
 
----
+
 
 Antes de entrarmos nos tópicos de geradores e receptores, é importante darmos uma breve introdução sobre **energia e potência elétrica**. 
 
@@ -28,7 +28,7 @@ Ou seja, no dia a dia, se quisermos encontrar a energia utilizada por um dado eq
 
 # Geradores
 
----
+
 
 Na teoria de circuitos, **geradores** são componentes elétricos que **transformam** outras formas de energia (térmica, cinética, …) em energia **elétrica**. 
 
@@ -105,7 +105,7 @@ $$
 
 # Receptores
 
----
+
 
 Consideramos um **receptor** qualquer equipamento elétrico que transforma energia elétrica em outras que não sejam necessariamente calor. Equipamentos como liquidificadores e LEDs são receptores. 
 

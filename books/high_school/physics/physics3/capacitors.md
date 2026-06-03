@@ -2,7 +2,7 @@
 
 # Criando um capacitor
 
----
+
 
 Imagine que você tem duas placas metálicas separadas por uma distância $d$, isoladas de tudo e de todos, e uma bateria com seus terminais positivos e negativos. 
 
@@ -138,7 +138,7 @@ Interessante!
 
 # Associação de capacitores
 
----
+
 
 Num circuito, podemos **associar** capacitores, ou seja, conectá-los em proximidade para que funcionem em conjunto. Existem duas formas de **associar** esses componentes: em **série** e em **paralelo**. 
 

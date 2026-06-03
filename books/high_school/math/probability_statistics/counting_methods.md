@@ -2,7 +2,7 @@
 
 # Princípio da Inclusão-Exclusão
 
----
+
 
 O <b>Princípio da Inclusão-Exclusão (PIE)</b> nos dá uma relação matemática para encontrar o número de elementos de dois ou mais conjuntos que não são necessariamente disjuntos (ou seja, possuem uma <b>intersecção</b>). 
 
@@ -35,7 +35,7 @@ Uma curiosidade sobre o $(-1)^{n+1}$ no final é que, se $n$ for par, o final se
 
 # Lemas de Kaplansky
 
----
+
 
 Os **Lemas de Kaplansky** nos dão uma maneira de responder as seguintes perguntas: 
 

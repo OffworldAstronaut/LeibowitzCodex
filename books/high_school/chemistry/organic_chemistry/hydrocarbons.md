@@ -2,13 +2,13 @@
 
 # Introdução
 
----
+
 
 Como dito **anteriormente**, os **hidrocarbonetos** são compostos orgânicos formados apenas por átomos de carbono e hidrogênio. Assim como outros conjuntos, os hidrocarbonetos possuem subclassificações com o objetivo de facilitar o estudo científico.
 
 # Alcanos
 
----
+
 
 <aside>
 
@@ -26,7 +26,7 @@ Os alcanos são notados por sua estabilidade, graças ao fato de só possuírem 
 
 # Alcenos
 
----
+
 
 <aside>
 
@@ -42,7 +42,7 @@ Pela sua dificuldade em serem encontrados naturalmente, geralmente são sintetiz
 
 # Alcadienos
 
----
+
 
 <aside>
 
@@ -60,7 +60,7 @@ Se acontecer o caso de equidistância, considera-se a ramificação.
 
 # Alcinos, alceninos, ciclanos, ciclenos e benzenos
 
----
+
 
 <aside>
 

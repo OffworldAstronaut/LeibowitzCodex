@@ -2,7 +2,7 @@
 
 # Definições iniciais
 
----
+
 
 Definimos **Óptica** como o ramo da Física cujo objeto de estudo são os fenômenos provenientes da luz, ou seja, da radiação eletromagnética. A luz, cuja propagação se dá em forma ondulatória, pode possuir diferentes níveis de energia e, com isso, diferentes frequências, velocidades de propagação e comprimentos de onda. 
 
@@ -195,7 +195,7 @@ Como veremos a seguir, essa relação simples nos consegue fornecer bastante inf
 
 # Equação de Gauss
 
----
+
 
 A Equação de Gauss relaciona três medidas num espelho: a distância focal ($f$), a distância entre o objeto e o vértice ($p$) e a distância entre a imagem e o vértice ($p'$). 
 
@@ -212,7 +212,7 @@ Para os valores de $f$, $p$ e $p'$ nós estabelecemos algumas convenções:
 
 ## Relação com o aumento da imagem
 
----
+
 
 A Equação de Gauss possui uma relação com o cálculo do aumento da imagem, que é o seguinte: 
 

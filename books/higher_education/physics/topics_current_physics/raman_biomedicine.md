@@ -2,7 +2,7 @@
 
 # Introdução 
 
---- 
+ 
 
 Chamamos biofotônica a área interdisciplinar entre a Fı́sica e a Biologia que se utiliza da
 óptica para manipular e estudar sistemas biológicos. Uma ferramenta crucial para a biofotônica
@@ -28,7 +28,7 @@ Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/
 
 # Fundamentos teóricos 
 
---- 
+ 
 
 ## Interação luz-matéria 
 
@@ -105,7 +105,7 @@ organizar os dados para apresentá-los ao pesquisador.[4]
 
 # Histórico 
 
---- 
+ 
 
 ## Origem e consolidação 
 
@@ -174,7 +174,7 @@ vivo.[4] [9] [10]
 
 # Aplicações biomédicas 
 
---- 
+ 
 
 O potencial da espectroscopia Raman em aplicações biomédicas enraiza-se na capacidade
 do processo de fornecer assinaturas únicas para cada amostra, além de dispensar o uso de iden-
@@ -251,7 +251,7 @@ possui aplicação no desenvolvimento de novos compostos, incluindo em escala na
 
 # Conclusão 
 
---- 
+ 
 
 Este trabalho concentrou-se em abordar a espectroscopia Raman e sua utilidade para a
 biofotônica numa visão concisa e introdutória, abordando os principais feitos na área, como
@@ -268,7 +268,7 @@ outras técnicas, como a fototerapia ou a terapia gênica.
 
 # Referências 
 
----
+
 
 [1]: R. Paschotta. Scattering. RP Photonics Encyclopedia, 2019. Available online at https:
 //www.rp-photonics.com/scattering.html.

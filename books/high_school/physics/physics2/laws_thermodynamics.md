@@ -2,7 +2,7 @@
 
 # O que são?
 
----
+
 
 As leis da Termodinâmica estão para a termodinâmica assim como as Leis de Newton estão para a mecânica — elas descrevem os fenômenos naturais com exatidão. Enquanto na mecânica temos a relação entre força, energia e movimento, as leis termodinâmicas estabelecem a relação entre calor e trabalho.
 
@@ -10,7 +10,7 @@ Além do princípio das trocas de calor (chamado às vezes de “zerésima lei�
 
 # A Primeira Lei da Termodinâmica
 
----
+
 
 Também conhecida como a **Lei da Conservação de Energia**, a primeira lei estabelece que o calor recebido ou cedido pelo sistema $(Q)$ é igual a soma da variação de sua energia interna $(\Delta U)$ com o trabalho realizado $(\tau)$. De forma alternativa, é equivalente dizer que a variação de energia interna de um gás se dá pela diferença entre o calor recebido e o trabalho realizado.
 
@@ -26,7 +26,7 @@ Um caso comum de uma transformação adiabática é a rápida expansão sofrida 
 
 # A Segunda Lei da Termodinâmica
 
----
+
 
 A segunda lei estabelece a impossibilidade da existência de um fluxo de calor com origem num corpo mais frio em direção a um corpo mais quente, de forma espontânea. Para que isso ocorra, é necessário a aplicação de alguma **energia extra** (exemplo clássico: refrigeradores). 
 
@@ -40,7 +40,7 @@ Em termos de uma outra grandeza, **entropia** (que mede a “desordem” de um s
 
 # A Terceira Lei da Termodinâmica
 
----
+
 
 A terceira lei afirma que, à medida que a temperatura de um material se aproxima do **zero absoluto**, sua entropia se aproxima de um **valor constante** chamado “entropia residual”.
 

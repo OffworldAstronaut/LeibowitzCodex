@@ -2,7 +2,7 @@
 
 # Introdução
 
----
+
 
 Chamamos **calorimetria** a área da termologia preocupada em estudar as <a href="/books/high_school/physics/physics2/termology_fundaments.html">trocas de calor</a>, energia térmica, entre corpos. 
 
@@ -10,7 +10,7 @@ Podemos classificar o calor em duas categorias, segundo seus efeitos: o calor **
 
 # Capacidade térmica e calor específico
 
----
+
 
 A **capacidade térmica $(\text C)$** é uma grandeza física que exprime a quantidade de calor necessária para provocar uma mudança de $\Delta \theta$ na temperatura de um corpo. Essa grandeza é geralmente expressa em unidades de $\text{cal} / \text{°C}$ ou em $\text{J} / \text{K}$. 
 
@@ -34,7 +34,7 @@ $$
 
 # Mudanças de fase e calor latente
 
----
+
 
 A partir do momento em que um corpo atinge uma temperatura de **mudança de fase**, todo calor recebido a ou cedido por esse corpo não alterará sua temperatura, sendo assim classificado como **calor latente**. 
 
@@ -50,7 +50,7 @@ $$
 
 # Trocas de calor
 
----
+
 
 Baseado no **princípio das trocas de calor**, sabemos que os corpos tendem a trocar calor, fluindo do mais quente para o mais frio, até que seja atingido o equilíbrio térmico. Existem diferentes formas que essa troca pode acontecer, chamadas **formas de transmissão**.
 

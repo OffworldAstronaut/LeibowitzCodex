@@ -2,7 +2,7 @@
 
 # Teorema de Rolle
 
----
+
 
 O teorema de Rolle é um importante teorema da análise real que permite a identificação dos máximos e mínimos de uma função. Esta identificação é realizada por meio dos pontos em que a função derivada possui um valor nulo: qualquer ponto fora deste "equilíbrio" terá uma tendência de acréscimo ou decréscimo, a menos que a função seja constante em todo o intervalo.
 
@@ -194,7 +194,7 @@ $$
 
 # Regras de L'Hôpital 
 
----
+
 
 As regras de L'Hôpital, nomeadas em homenagem ao matemático francês Guillaume François Antoine, o <a href="https://en.wikipedia.org/wiki/Guillaume de l'Hôpital">Marquês de l'Hôpital</a>, são duas propriedades matemáticas que permitem a simplificação de alguns limites de funções racionais. 
 
@@ -244,7 +244,7 @@ Perceba que esta regra continua válida caso $x \to p^-$ seja substituido por $x
 
 # Montando gráficos
 
----
+
 
 Podemos esboçar gráficos de diversas funções reais utilizando consequências dos conceitos de derivadas e limites. O objetivo desta seção é esboçar algumas técnicas para que esse esboço se torne possível. Talvez não seja possível realmente desenhar o gráfico em todos os seus detalhes, mas a *noção* do comportamento da função estará no alcance de suas mãos. 
 
@@ -282,7 +282,7 @@ A partir dessas observações, podemos ver que as duas derivadas nos fornecem al
 
 # Taxas relacionadas
 
----
+
 
 Os problemas de **taxas relacionadas** são problemas de cálculo relativamente comuns. Nesses problemas, temos taxas de variação produtos da mesma causa e, por isso, relacionadas entre si. 
 
@@ -318,7 +318,7 @@ Ou seja, quando o diâmetro do balão for 50 cm, seu raio está crescendo numa t
 
 # Referências 
 
----
+
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

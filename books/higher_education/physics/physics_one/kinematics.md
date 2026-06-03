@@ -2,7 +2,7 @@
 
 # Conceitos iniciais 
 
----
+
 
 Chamamos <b>cinemática</b> a descrição física do movimento de um corpo ao longo do tempo. Os elementos básicos desta descrição são as grandezas de posição e tempo. 
 
@@ -14,7 +14,7 @@ Uma aplicação notável desta última informação são os <b><a href="https://
 
 # Vetores
 
---- 
+ 
 
 Chamamos <b>vetores</b> os objetos matemáticos que possuem um módulo (magnitude) e uma orientação. No campo da Física, algumas grandezas são descritas como <i>vetoriais</i>, possuindo direção e magnitude e descritas utilizando estes objetos. Como exemplo, podemos citar entes físicos como força e momento. Estas grandezas contrastam com as chamadas <b>escalares</b>, descritas por números reais ("escalares"). Dentre estas últimas, podemos citar como exemplo a temperatura ou a energia cinética de um corpo. 
 
@@ -160,7 +160,7 @@ Vale lembrar que, por consequência das definições do produto vetorial, e do e
 
 # Representando movimentos em duas e três dimensões
 
----
+
 
 Combinando os conceitos do Cálculo com os sistemas de coordenadas, é possível descrever movimentos no espaço tridimensional de forma completa. Para um ponto material, medimos sua <b>posição</b> em relação à origem por um vetor da forma: 
 
@@ -199,7 +199,7 @@ $$
 
 # Movimentos especiais 
 
----
+
 
 No estudo da cinemática, convém estudar com mais detalhes alguns movimentos simples devido a sua imensa importância e presença em numerosos sistemas físicos, incluindo os de nosso cotidiano. São estes os <b>movimentos balísticos</b> e os <b>movimentos circulares uniformes</b>.
 
@@ -279,7 +279,7 @@ $$
 
 # Referências 
 
----
+
 
 1. HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de física, v. 1: mecânica. 10. ed. Rio de Janeiro: LTC, 2016;
 2. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015;

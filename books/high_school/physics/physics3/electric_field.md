@@ -2,7 +2,7 @@
 
 # O que são campos?
 
----
+
 
 Podemos definir **campos** na física como uma entidade física que permite a interação à distância entre corpos, ou seja, sem que haja nenhum tipo de contato físico entre eles. Matematicamente, podemos descrever campos como funções que recebem coordenadas temporais e no tempo e retornam números (no caso dos **campos escalares**) ou vetores (no caso dos **campos vetoriais**). 
 
@@ -26,7 +26,7 @@ Essa imagem também evidencia uma informação muito útil se encontrarmos algum
 
 # Intensidade de um campo elétrico
 
----
+
 
 Para um ponto $(x,y,z)$ qualquer do espaço, podemos dizer que a **força eletrostática** (ou força coulombiana) que será exercida pelo vetor campo elétrico (criado por uma carga de valor $Q_1$) caso exista uma carga de valor $Q_2$ naquele ponto é dada por
 

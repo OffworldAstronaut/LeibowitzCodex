@@ -2,7 +2,7 @@
 
 # Indução
 
----
+
 
 A indução eletromagnética é o fenômeno físico que provoca a **geração** de **força eletromotriz** (diferença de potencial) num dado **material condutor** quando este é submetido à **influência de um campo magnético variável**. 
 
@@ -18,7 +18,7 @@ As próximas seções deste página servirão para a melhor compreensão desse c
 
 # Fluxo magnético
 
----
+
 
 Chamamos de **fluxo magnético** $(\Phi)$ de uma superfície a intensidade de um campo magnético por unidade de área $A$, ou seja 
 
@@ -32,7 +32,7 @@ O fluxo magnético é medido pela unidade **Weber** $(\text {Wb})$.
 
 # Lei de Faraday-Lenz
 
----
+
 
 Duas leis, comumente interpretadas em conjunto, que formam a base dos **transformadores** da atualidade são a Lei de Indução de Faraday e a Lei de Lenz; a segunda pode ser vista como um aprimoramento da primeira.
 
@@ -73,7 +73,7 @@ $$
 
 # Transformadores
 
----
+
 
 Os **transformadores** são componentes elétricos que alteram a tensão elétrica enquanto mantém a potência constante. 
 

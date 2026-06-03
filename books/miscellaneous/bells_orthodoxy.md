@@ -2,7 +2,7 @@
 
 # História
 
----
+
 
 Após a cristianização da Rússia de Kiev por volta do século X, o uso de sinos foi gradativamente consolidado, juntamente com a utilização de um outro instrumento de percussão, o chamado <i>semantron</i>, de origem grega. Hoje em dia, embora muitas igrejas tenham dado preferência aos sinos em detrimento do <i>semantron</i>, a prática de utilizar ambos sobrevive, principalmente em mosteiros.
 
@@ -12,7 +12,7 @@ Com a perseguição ao Cristianismo ocorrida na União Soviética, múltiplos si
 
 # Teologia
 
----
+
 
 Além das funções usuais dos sinos, que também são comuns ao ocidente, como expressar alegria e chamar os fiéis para os serviços litúrgicos, os sinos na Ortodoxia Russa possuem razões de existência teológicas, com seu uso excedendo o prático e alcançando o espiritual. 
 
@@ -36,7 +36,7 @@ Um aspecto teológico interessante é o seu simbolismo com a proclamação do Ev
 
 # Técnica
 
----
+
 
 Com respeito à técnica de toque desses sinos, a tradicional prática é seu soamento apenas pela movimentação do badalo, conservando a estrutura do sino estacionária. Para permitir o soamento de diversos sinos, um customizado sistema de cordas é desenhado, com todas convergindo aproximadamente no meio da coleção de sinos, para utilização do <i>zvonar</i>. 
 
@@ -135,7 +135,7 @@ Uma variação menor, o <i>dvuzvon</i> (”duplo-badalo”), é executada diminu
 
 # Ocasiões
 
----
+
 
 Os tipos de toques acima podem ser combinados e tocados em diferentes momentos do mesmo serviço litúrgico ou particularmente ao longo do ano, como o <i>perezvon</i>. Embora certas regularidades existam, é difícil contabilizar todas as variações e tradições existentes sobre o toque de sinos. 
 

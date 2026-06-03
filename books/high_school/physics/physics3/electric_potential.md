@@ -2,7 +2,7 @@
 
 # O que é um potencial elétrico?
 
----
+
 
 Enquanto o **campo elétrico** é um **campo vetorial**, o **potencial elétrico** é um **campo escalar**, ou seja, quando tivermos uma carga no espaço, cada ponto ao redor dela irá receber uma **energia potencial elétrica** atrelada a ele. 
 
@@ -36,7 +36,7 @@ $$
 
 # Superfícies equipotenciais
 
----
+
 
 Como o nome sugere, uma **superfície equipotencial** é uma superfície, uma região, onde todos os seus pontos possuem o mesmo potencial elétrico. 
 
@@ -50,7 +50,7 @@ Por exemplo, na imagem da carga positiva acima: você percebe as circunferência
 
 # Várias cargas puntiformes
 
----
+
 
 E se formos calcular o potencial elétrico num dado ponto que está próximo de várias (mais de uma) cargas puntiforme, como no caso abaixo? 
 
@@ -68,7 +68,7 @@ $$
 
 # Diferença de potencial (DDP)
 
----
+
 
 A **diferença de potencial** (DDP) entre dois pontos, chamada também de **tensão elétrica** ou ainda, coloquialmente, de **“voltagem”**, é exatamente o que o nome nos dá indícios: $\Delta V =V_1 - V_0$. 
 

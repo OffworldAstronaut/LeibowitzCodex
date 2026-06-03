@@ -2,7 +2,7 @@
 
 # Dilatação
 
----
+
 
 A **dilatação térmica** é um fenômeno causado pelo aumento das distâncias entre as partículas de um corpo. Esse aumento é provocado pelo enfraquecimento das forças eletrostáticas entre as partículas a medida que a temperatura aumenta. 
 
@@ -12,7 +12,7 @@ Em sólidos, comumente estudamos a dilatação linear (uma dimensão), superfici
 
 # Sólidos
 
----
+
 
 Em sólidos, podemos calcular as dilatações lineares $(\Delta L)$, superficiais $(\Delta S)$ e volumétricas $(\Delta V)$ da seguinte maneira: 
 
@@ -32,7 +32,7 @@ A dimensão (”unidades”) desses coeficientes é $°\text{C} ^{-1}$.
 
 # Líquidos
 
----
+
 
 Um ponto especial de atenção ao mensurar a dilatação em líquidos, como mencionado acima, é a distinção entre a dilatação do recipiente, a dilatação aparente e a dilatação real do líquido. 
 

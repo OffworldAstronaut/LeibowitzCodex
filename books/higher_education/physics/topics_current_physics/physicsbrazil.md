@@ -2,7 +2,7 @@
 
 # Introdução 
 
---- 
+ 
 
 A Física como campo científico possui importância fundamental na criação e manutenção do mundo
 moderno, alargando o escopo da compreensão do mundo natural pela humanidade e fornecendo base
@@ -27,7 +27,7 @@ Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/
 
 # Breve histórico
 
---- 
+ 
 
 ## Período colonial (1530-1807)
 
@@ -81,7 +81,7 @@ Mesmo com diversas transformações, a abordagem pedagógica presente nas univer
 
 # Dados
 
----
+
 
 ## Discriminação, efeito tesoura e desigualdades
 
@@ -107,7 +107,7 @@ Entretanto, embora conturbado, o salário de um físico especializado brasileiro
     
 # Conclusão 
 
----
+
 
 O ensino e a produção científica no Brasil, em especial a relacionada à Física, teve um início tímido no período colonial e, embora teve seu progresso em ritmo letárgico, alcançou consolidação institucional e governamental ao longo do século XX.
 
@@ -119,7 +119,7 @@ Como perspectivas futuras, espera-se a expansão e interiorização de centros e
 
 # Referências 
 
---- 
+ 
 
 [1]: Welyson Tiano dos Santos Ramos, Matheus Pereira Simões Cruz, Jean Carlos Coelho Felipe, Max Pereira Gonçalves, Elém Patrı́cia Alves Rocha, Fernanda Guerra Lima Medeiros Borsagli, Fidel Edson de Souza, and Paulo Alliprandini Filho. Um pouco sobre a história do ensino de fı́sica no brasil. Mimesis, 45(02), 2025
 

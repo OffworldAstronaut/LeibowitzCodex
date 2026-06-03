@@ -2,7 +2,7 @@
 
 # Triângulo de Pascal
 
----
+
 
 Antes de entendermos o que são os números binomiais, precisamos conhecer a construção do <b>Triângulo de Pascal</b>.
 
@@ -154,7 +154,7 @@ Podemos resolver as mais variadas somas se utilizando desse método.
 
 # Binômio de Newton
 
----
+
 
 O Binômio de Newton é uma expressão matemática na forma $(a+b)^n$, com $a,b\in \R$ e $n \in \N$ que pode ser escrita da seguinte forma: 
 

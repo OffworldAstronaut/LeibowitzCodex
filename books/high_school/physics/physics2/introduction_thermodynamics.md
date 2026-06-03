@@ -2,7 +2,7 @@
 
 # Introdução
 
----
+
 
 Termodinâmica é o estudo de como o **calor** consegue realizar trabalho (isto é, transferir energia) e por consequência ser utilizado para os mais variados propósitos, como mover máquinas. Ao longo do tempo, diferentes estudos e as famosas **leis da termodinâmica** foram desenvolvidas.
 
@@ -16,7 +16,7 @@ Para darmos inicio ao estudo da termodinâmica, iremos primeiro discorrer sobre 
 
 # Gases
 
----
+
 
 Chamamos **gases** os corpos físicos formados por partículas em movimento, com grande quantidade de energia cinética que, ao contrário dos **vapores**, não conseguem ser condensados com facilidade a partir de mudanças em sua temperatura e pressão. 
 
@@ -101,7 +101,7 @@ Quando voltamos os olhares para a **energia cinética** das partículas de um g�
 
 # Transformações gasosas
 
----
+
 
 Chamamos **transformação gasosa** todo processo físico caracterizado pela mudança do **estado inicial** de um gás, ou seja, em seu **volume**, **pressão** ou **temperatura**. Em sistemas fechados (sem alteração do número de partículas do gás), são identificáveis três tipos de transformações: **isobáricas**, **isovolumétricas e isotérmicas**. 
 
@@ -169,7 +169,7 @@ Em casos mais gerais, em que essa expressão pode não se aplicar, o trabalho é
 
 # Ciclos Termodinâmicos — Carnot, Otto e Diesel
 
----
+
 
 Chamamos **ciclos termodinâmicos** as sequências de processos termodinâmicos exercidos num sistema que, após um certo número de processos, retornam o sistema ao estado original. Ciclos termodinâmicos são comuns em motores, com alguns destacando-se pela sua utilização na indústria moderna ou no estudo científico. São eles os ciclos de **Carnot**, **Otto** e **Diesel**.
 

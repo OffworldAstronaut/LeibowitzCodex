@@ -2,7 +2,7 @@
 
 # Sistemas lineares
 
----
+
 
 Para compreendermos os conceitos sobre os <b>sistemas lineares</b>, é necessário primeiro nos debruçar sobre a noção de <b>equação linear</b>.
 
@@ -98,7 +98,7 @@ Por estas operações podemos simplificar sistemas complexos para outros mais si
 
 # Matrizes
 
----
+
 
 Matrizes (reais) são objetos matemáticos formados por uma dupla sequência de números reais arranjados em uma tabela de $m$ linhas e $n$ colunas. Estas matrizes são assim chamadas "matrizes $m \times n$" (lê-se "m por n"), sendo escritas como uma tabela entre parênteses ou colchetes.
 
@@ -709,6 +709,6 @@ A unicidade segue da unicidade da matriz inversa.
 
 # Referências
 
----
+
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.

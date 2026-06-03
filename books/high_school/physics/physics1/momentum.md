@@ -2,7 +2,7 @@
 
 # Definição
 
----
+
 
 Podemos definir a “quantidade de movimento” intuitivamente como o "quanto ele quer continuar" se movendo. Esse conceito está muito ligado com a energia cinética. 
 
@@ -46,7 +46,7 @@ A magnitude de uma força é calculada pela **variação do momento no tempo**.
 
 # Impulso
 
----
+
 
 O **impulso** é uma grandeza vetorial que mede a variação do momento de algum objeto, relacionando nesse processo a força aplicada, o tempo percorrido e a quantidade de movimento. 
 
@@ -74,7 +74,7 @@ $$
 
 # Colisões
 
----
+
 
 Colisões acontecem quando corpos se chocam, podendo ser de três tipos: **perfeitamente elásticas, parcialmente elásticas** ou **perfeitamente inelásticas**. 
 

@@ -2,7 +2,7 @@
 
 # Funções hiperbólicas
 
----
+
 
 Ao considerarmos a circunferência unitária, de equação $x^2 + y^2 = 1$, podemos definir as funções básicas seno e cosseno. Estas funções trigonométricas possuem funções análogas a elas ao considerarmos uma hipérbole de equação $x^2 - y^2 = 1$. 
 
@@ -53,7 +53,7 @@ $$
 
 # Derivadas de funções hiperbólicas 
 
---- 
+ 
 
 Todas as funções hiperbólicas são contínuas e diferenciáveis em seu domínio. Abaixo estão demonstradas suas derivadas.
 
@@ -237,6 +237,6 @@ $$
 
 # Referências
 
----
+
 
 1. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

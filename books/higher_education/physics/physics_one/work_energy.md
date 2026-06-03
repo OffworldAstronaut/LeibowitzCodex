@@ -2,7 +2,7 @@
 
 # Definição
 
----
+
 
 O que é **trabalho**? Este conceito está intimamente ligado a conceitos como <b>energia</b> ou <b>força</b>. De fato, sempre que nos referimos a um trabalho, consideramos ele como algo atrelado a uma força que o realiza (trabalho "de" uma força). 
 Para ilustrar esta grandeza, podemos recorrer a situação de um corpo num plano inclinado. 
@@ -19,7 +19,7 @@ Se nos atermos simplesmente ao caso unidimensional, temos ainda que $W = F \cdot
 
 # Teorema Trabalho-Energia Cinética
 
---- 
+ 
 
 O <b>teorema trabalho-energia cinética</b> relaciona o trabalho realizado sobre um corpo, por uma força, com uma nova grandeza denominada <b>energia cinética</b>. Para compreendermos melhor, vamos imaginar que no sopé deste plano inclinado (retratado abaixo) temos um bloquinho que é lançado no trilho por uma mola. Desconsiderando o atrito e todas as outras forças que não sejam a força peso, o bloquinho avança com uma velocidade inicial $\vec{v_0}$ que diminui ao longo do tempo. 
 
@@ -136,7 +136,7 @@ Como exemplos de forças conservativas, podemos citar, além da força peso, a f
 
 ## Potência
 
----
+
 
 Definimos a grandeza **potência** como a **taxa da realização de trabalho ao longo do tempo** de uma força. Como foi demonstrado pelo Teorema anterior, é possível também descrevê-la como a **taxa de transferência energética** de uma força.
 
@@ -154,7 +154,7 @@ $$
 
 ## Gráficos de estabilidade
 
----
+
 
 É possível representar um sistema físico a partir de um gráfico de sua energia potencial em função de sua posição, com tal representação sendo extremamente útil na análise de algumas situações, permitindo a extração de diversas informações. 
 
@@ -207,7 +207,7 @@ Experimente imaginar um gráfico de potencial diferente e explorar as limitaçõ
 
 # Referências 
 
----
+
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>).

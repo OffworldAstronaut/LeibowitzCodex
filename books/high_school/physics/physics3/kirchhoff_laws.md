@@ -2,7 +2,7 @@
 
 # Leis de Kirchhoff 
 
----
+
 
 As **Leis de Kirchhoff** foram formuladas em 1845 pelo físico alemão Gustav Kirchhoff, com o objetivo de explicar fenômenos relacionados a voltagem e a corrente em circuitos elétricos. 
 

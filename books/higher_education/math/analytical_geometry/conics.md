@@ -2,7 +2,7 @@
 
 # Definições 
 
----
+
 
 Algumas construções geométricas (como a elipse, a parábola e a hipérbole) recebem o nome de "cônicas" ou ainda "seções cônicas" em razão de sua construção tradicional ser realizada a partir do corte de cones de maneiras particulares. Entretanto, outras maneiras de construção e definição existem, que serão exploradas ao longo deste documento. 
 
@@ -70,7 +70,7 @@ Nestes quatro casos especiais, $a = \dfrac{1}{2}d(F,r)$.
 
 # Translação e rotação de eixos
 
----
+
 
 Utilizar novos sistemas de coordenadas originados de translações (movimentos) e/ou rotações do sistema de coordenada usual no plano cartesiano pode se mostrar algo extremamente útil para simplificar equações e problemas.
 
@@ -109,7 +109,7 @@ $$
 
 # Equação geral do segundo grau
 
----
+
 
 É conhecido dos nossos estudos anteriores que uma equação do segundo grau em $x$ e em $y$ pode nos fornecer elipses, parábolas e hipérboles. Entretanto, o conjunto das seções cônicas possíveis de serem obtidas por equações do segundo grau é maior. Isso pode ser justificado por meio do seguinte raciocínio. 
 
@@ -144,7 +144,7 @@ com raciocínios semelhantes podendo ser utilizados para simplificar uma determi
 
 # Definição unificada das cônicas
 
----
+
 
 <aside>
 
@@ -217,6 +217,6 @@ Note que esta mesma expressão pode ser deduzida para $F = (-c, 0)$ e diretriz $
 
 # Referências 
 
---- 
+ 
 
 1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.

@@ -2,7 +2,7 @@
 
 # Resistência elétrica e resistores
 
----
+
 
 Como dito no <a href="/books/high_school/physics/physics3/introduction_electrodynamics.md">livro introdutório</a>, a **resistência elétrica** é uma propriedade de um dado corpo que o faz demonstrar uma certa dificuldade à passagem de eletricidade.
 
@@ -16,7 +16,7 @@ Uma **lâmpada** (incandescente) também é tratada como um **resistor**, sendo 
 
 # Leis de Ohm
 
----
+
 
 As **Leis de Ohm** são leis formuladas pelo físico alemão **Georg Simons Ohm** (1789-1854), tratando-se do fenômeno da resistência elétrica. 
 
@@ -66,7 +66,7 @@ A <b>resistividade elétrica</b> de um material é uma <b>resistência elétrica
 
 # Associação de resistores
 
----
+
 
 Resistores podem ser utilizados de forma conjunta num circuito, o que chamamos de **associação**. Essa associação pode ser feita em **série** ou em **paralelo**, com o objetivo de obter diferentes efeitos em relação à tensão e a corrente. 
 
@@ -74,7 +74,7 @@ Quando formarmos uma associação de resistores é interessante ter em mente a i
 
 ## Em série
 
----
+
 
 ![image.png](https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Resistors_in_series.svg/3840px-Resistors_in_series.svg.png)
 

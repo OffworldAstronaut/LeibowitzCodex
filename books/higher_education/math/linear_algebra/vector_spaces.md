@@ -2,7 +2,7 @@
 
 # Espaços vetoriais 
 
---- 
+ 
 
 Chamamos espaços vetoriais todos os conjuntos $V \neq \emptyset$ munidos com duas operações ("adição" e "multiplicação por escalar"). Além disso, estas operações devem satisfazer cada uma algumas propriedades. Podemos, então, escrever a seguinte definição. 
 
@@ -84,7 +84,7 @@ Além disso, temos que $W = U \oplus V \iff \forall w \in W$ existir uma única 
 
 # Base e dimensão
 
----
+
 
 ## Combinações lineares
 
@@ -156,6 +156,6 @@ Dessa forma, base multiplicar pela esquerda esta matriz com as coordenadas de um
 
 # Referências
 
----
+
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.

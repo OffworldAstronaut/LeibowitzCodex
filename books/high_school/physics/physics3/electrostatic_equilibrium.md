@@ -2,7 +2,7 @@
 
 # Condutores eletrizados
 
----
+
 
 Quando temos um **condutor eletrizado**, a tendência é que ele entre, eventualmente, em **equilíbrio eletrostático**. 
 
@@ -48,7 +48,7 @@ Em breve...
 
 # Rigidez dielétrica
 
----
+
 
 Vocẽ já deve ter lido, visto ou raciocinado que o ar da nossa atmosfera é isolante, certo? Se ele fosse condutor, teríamos que colocar tampas de borracha nas nossas tomadas para que elas não ficassem vazando nossa eletricidade assim como nós fechamos nossas torneiras. 
 
@@ -68,7 +68,7 @@ No caso do ar, sua rigidez dielétrica mede $3\times 10^6 \text{ V/m}$, ou seja,
 
 # Densidade superficial de carga
 
----
+
 
 A **densidade superficial de carga** $(\sigma)$ de um material mede, seguindo seu nome bem intuitivo, a *densidade* de carga na superfície de um corpo, ou seja, quantas cargas eu tenho por cada metro quadrado de área. Assim, $\sigma$ é medida em $\dfrac{\text{C}}{\text{m}^2}$. 
 

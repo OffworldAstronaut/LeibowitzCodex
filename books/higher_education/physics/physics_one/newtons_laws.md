@@ -2,7 +2,7 @@
 
 # Mecânica newtoniana
 
----
+
 
 Antes do estudo de movimentos sistematizado por Isaac Newton, inglês do século XVII, vigorava na academia um amplo consentimento aos desenvolvimentos de Aristóteles, escritos na Antiguidade Clássica. Segundo a física aristotélica, o Universo é permeado por dois tipos de movimento: o movimento <b>natural</b> e o movimento <b>violento</b>. 
 
@@ -285,7 +285,7 @@ Por fim, comparando com a Lei de Hooke, temos que a constante $K$ da mola equiva
 
 # Mudança de referencial
 
----
+
 
 Dado que sempre descrevemos os movimentos com base em algum **referencial**, em algum **sistema de coordenadas**, <a target="_blank" href="kinematics.html">como exposto anteriormente</a>, é interessante analisar a possibilidade da chamada **mudança de referencial**, isto é, analisar os corpos sob o olhar de outros observadores.
 
@@ -305,7 +305,7 @@ Ou seja, conhecendo informações entre os referenciais, é possível facilmente
 
 ## Referenciais inerciais e não-inerciais
 
----
+
 
 Chamamos <b>referencial inercial</b> o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, a Lei da Inércia é válida sem a introdução de forças fictícias que compensam esta aceleração do referencial.
 
@@ -341,7 +341,7 @@ O termo destacado, que provoca a diferença entre a força experienciada pelo me
 
 # Referências 
 
----
+
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>);
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>);

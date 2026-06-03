@@ -2,7 +2,7 @@
 
 # Conceitos iniciais
 
----
+
 
 A **eletrodinâmica** é o estudo das cargas elétricas em movimento, dessa maneira, precisamos nos familiarizar com alguns conceitos e termos para compreendermos essa área da Física bem. 
 
@@ -56,7 +56,7 @@ Damos o nome de <b>resistência elétrica</b> (ou simplesmente **resistência**)
 
 # Somando tensões
 
----
+
 
 Suponha que temos um circuito com algumas baterias, com voltagens diferentes, em série, e não necessariamente na mesma orientação. 
 

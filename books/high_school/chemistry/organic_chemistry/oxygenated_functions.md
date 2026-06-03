@@ -2,7 +2,7 @@
 
 # Álcool
 
----
+
 
 Definimos <b>álcool</b> como sendo todo composto orgânico que possui uma hidroxila ligada diretamente a um carbono saturado em hibridação $\text{sp}^3$ (todas as ligações simples). 
 
@@ -20,7 +20,7 @@ Esse composto é importante industrialmente, sendo uma molécula precursora do n
 
 # Enóis
 
----
+
 
 Os <b>enóis</b> são compostos que apresentam uma ou mais hidroxilas ligadas a átomos de carbonos <b>insaturados</b>. Esses compostos são instáveis, facilmente se convertendo em <b>aldeídos</b> ou <b>cetonas</b>.
 
@@ -36,7 +36,7 @@ O fenol é um enol, formado por uma hidroxila substituindo um hidrogênio do ane
 
 # Fenóis
 
----
+
 
 Os <b>fenóis</b> são compostos que apresentam uma ou mais hidroxilas ligadas diretamente um carbono do <b>anel benzênico</b>. Uma característica importante dos fenóis é que eles possuem um caráter ácido, ionizando-se em meio aquoso, por exemplo… 
 
@@ -48,7 +48,7 @@ Na reação acima, podemos ver a ionização do fenol, nome comum do <b>hidroxib
 
 # Cetonas
 
----
+
 
 Os cetonas são compostos que apresentam a função <b>carbonila</b> (um carbono ligado duplamente a um oxigênio) entre carbonos. 
 
@@ -62,7 +62,7 @@ O acetona é o cetona mais simples, utilizado tanto como solvente industrial com
 
 # Aldeídos
 
----
+
 
 Os <b>aldeídos</b> são compostos que têm uma <b>carbonila</b> na ponta da cadeia com uma das outras ligações sendo a um hidrogênio. 
 
@@ -74,7 +74,7 @@ Como exemplo de aldeído podemos citar o <b>butiraldeído</b>, também conhecido
 
 # Ácido carboxilíco
 
----
+
 
 Os ácidos carboxilícos são chamados assim por possuírem uma <b>carboxila</b> (um carbono ligado duplamente a um hidrogênio e simplesmente a uma hidroxila) ligada a uma cadeia carbônica. 
 
@@ -89,7 +89,7 @@ Ele é bem corrosivo e também inflamável — a presença de oxigênio contribu
 
 ## Ácidos graxos
 
----
+
 
 Os <b>ácidos graxos</b> são muito importantes na Biologia, sendo um subconjunto dos ácidos carboxilícos, mais especificamente, esses ácidos são ácidos carboxilícos de <b>cadeia alifática</b>, podendo ser saturada ou não. Característicamente, suas cadeias são geralmente muito longas.
 
@@ -101,7 +101,7 @@ Acima há um exemplo de ácido graxo, o <b>ácido </b>.
 
 ## Anidrido
 
----
+
 
 <b>Anidridos de ácidos carboxilícos</b> são compostos orgânicos oxigenados originados de uma relação de <b>eliminação</b> ou <b>desidratação</b> entre dois ácidos carboxilícos. 
 
@@ -121,7 +121,7 @@ A nomenclatura é bem sugestiva: “anidrido” tem suas raízes no grego, signi
 
 # Éster
 
----
+
 
 Os <b>ésteres</b> são compostos orgânicos derivados dos ácidos carboxilícos, formados pela substituição do hidrogênio da hidroxila por algum grupo orgânico. 
 
@@ -139,7 +139,7 @@ Esse composto possui cheiro que lembra abacaxi, sendo utilizado na produção de
 
 # Éter
 
----
+
 
 Os <b>éteres</b> são compostos orgânicos formados por um átomo de oxigênio ligado a dos outros radicais orgânicos.
 

@@ -2,7 +2,7 @@
 
 # Conceitos básicos
 
----
+
 
 Definimos a <b>colisão</b> entre duas partículas como o processo de interação decorrente de uma ser lançada contra a outra. Durante esta interação, pode houver troca de energia e momento como consequência.
 
@@ -14,7 +14,7 @@ Na teoria das colisões, o problema mais fundamental é determinar a configuraç
 
 # Impulso 
 
----
+
 
 Podemos motivar a definição de uma nova grandeza, o <b>impulso</b> ($\vec{I}$) associada a uma força $\vec{F}$ a partir do estudo de caso de uma colisão frontal entre duas esferas.
 Note que, para este sistema, temos as seguintes equações de movimento
@@ -39,7 +39,7 @@ fornece o <b>impulso</b> da força $\vec{F}$ durante o instante $(t_i, t_f)$, co
 
 # Colisões elásticas e inelásticas 
 
---- 
+ 
 
 Chamamos colisões <b>elásticas</b> aquelas em que a energia cinética dos corpos é invariante durante o processo de colisão, isto é, os corpos possuem a mesma energia cinética antes e depois de colidirem. Qualquer outro cenário possui, portanto, dissipação de parte dessa energia (luz, calor, ...)  e é classificado como <b>inelástico</b>. 
 
@@ -266,7 +266,7 @@ Ou seja, há um ângulo máximo de deflexão que uma partícula pesada pode sofr
 
 # Referências 
 
---- 
+ 
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
 2. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013

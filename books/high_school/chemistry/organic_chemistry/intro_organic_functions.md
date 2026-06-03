@@ -2,7 +2,7 @@
 
 # O que é uma função?
 
----
+
 
 Antes de começarmos a descrever essa breve introdução sobre as <b>funções orgânicas</b>, vamos primeiro relembrar o que é uma <b>função</b>, na química. 
 
@@ -12,13 +12,13 @@ As funções podem ser <b>inorgânicas</b> (ácidos e bases) e <b>orgânicas</b>
 
 # Hidrocarbonetos
 
----
+
 
 Os <b>hidrocarbonetos</b> são conhecidos por esse nome pela sua característica determinante: em sua composição, esses compostos possuem apenas <b>carbono</b> e <b>oxigênio</b>. Podemos já citar aqui dois hidrocarbonetos bem conhecidos: o <b>metano</b> $(\text{CH}_4)$ e o <b>benzeno $(\text{C}_6\text{H}_6)$</b>. 
 
 # Funções oxigenadas
 
----
+
 
 As <b>funções oxigenadas</b> são denominadas assim pois possuem oxigênio em sua composição. 
 
@@ -107,7 +107,7 @@ Por fim, um <b>anidrido</b> é formado ao ligarmos o último carbono a um outro 
 
 # Funções nitrogenadas
 
----
+
 
 Enquanto as funções <b>oxigenadas</b> possuem oxigênio em sua composição, as funções <b>nitrogenadas</b> possuem nitrogênio, são elas as <b>aminas</b>, <b>amidas, nitrocompostos e nitrilas</b>. 
 
@@ -151,7 +151,7 @@ Perceba que o nitrogênio central está ligado a outros três átomos de carbono
 
 ## Amidas
 
----
+
 
 <aside>
 
@@ -165,7 +165,7 @@ Um exemplo de amida é o composto acima, uma <b>formamida</b> $(\text {CH}_3 \te
 
 ## Nitrocompostos
 
----
+
 
 <aside>
 
@@ -179,7 +179,7 @@ Acima, temos uma molécula de nitrometano $(\text {CH}_3 \text {NO}_2)$, o nitro
 
 ## Nitrilas
 
----
+
 
 <aside>
 
@@ -193,7 +193,7 @@ A molécula acima, a acetonitrila $(\text C_2 \text H _3 \text N)$, é a nitrila
 
 # Compostos halogenados
 
----
+
 
 Por fim, temos os <b>compostos halogenados</b>, ou seja, compostos orgânicos que contam com a presença de <b>halogênios</b>, geralmente flúor ou cloro.
 
@@ -223,7 +223,7 @@ Um exemplo dessa categoria é o cloreto de acetila $(\text C \text H_3 \text {CO
 
 # Série orgânica
 
----
+
 
 Como forma de ajudar na comparação entre moléculas orgânicas, podemos utilizar o conceito de <b>séries orgânicas</b>. Conjuntos de compostos orgânicos são denominados séries orgânicas, com esses conjuntos sendo divididos em algumas categorias a depender de seus componentes. Há três tipos de séries orgânicas: homólogas, isólogas e heterólogas. 
 
@@ -251,7 +251,7 @@ $$
 
 # Regras de nomenclatura
 
----
+
 
 Pela imensa quantidade de possíveis compostos orgânicos, observou-se a necessidade de criar uma padronização na questão da nomenclatura. Essa padronização veio em 1892 e continua até os dias de hoje pelas regras da União Internacional da Química Pura e Aplicada (<i>International Union of Pure and Applied Chemistry</i> — IUPAC). 
 
@@ -461,7 +461,7 @@ Por exemplo, o composto <b>3-metilpentano</b> é chamado assim por possuir um <b
 
 # Regras específicas
 
----
+
 
 Em alguns casos, algumas regras específicas são utilizadas para algumas funções orgânicas. Elas serão descorridas abaixo. 
 

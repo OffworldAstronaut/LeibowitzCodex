@@ -2,7 +2,7 @@
 
 # Sequências
 
----
+
 
 Para entendermos o que são recorrências, primeiro temos que saber o que são **sequências**. 
 
@@ -20,7 +20,7 @@ $$
 
 # Recorrências
 
----
+
 
 Uma <b>recorrência</b> é definida como uma expressão matemática que relaciona o próximo termo de uma sequência com os termos anteriores. 
 

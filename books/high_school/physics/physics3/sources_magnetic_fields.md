@@ -2,7 +2,7 @@
 
 # Fio retilíneo
 
----
+
 
 Num fio retilíneo com uma corrente elétrica $I$, podemos saber a orientação do campo magnético por meio da **regra da mão direita:** posicione sua mão direita com seu polegar estendido de forma que o polegar aponte para a direção da corrente elétrica. 
 
@@ -27,7 +27,7 @@ Não irei explicar tanto aqui justamente por falta de habilidade da minha parte,
 
 # Espira
 
----
+
 
 Uma **espira** é um fio curvado de forma que ele se torna quase uma argola. 
 
@@ -53,7 +53,7 @@ Na expressão acima, $B$ é a intensidade do campo magnético no centro da espir
 
 # Solenoide
 
----
+
 
 Solenoides são estruturas formadas pela conexão de várias espiras, formando algo parecido com uma mola. Eles são amplamente utilizados na confecção de eletroímãs. 
 

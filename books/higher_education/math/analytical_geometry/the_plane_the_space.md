@@ -2,7 +2,7 @@
 
 # Sistema de coordenadas 
 
---- 
+ 
 
 Ao escolher um plano formado por retas perpendiculares entre si, comumente chamadas de $x$ e $y$, 
 e muni-lo com uma métrica, definindo uma certa distância da origem sobre as retas — intersecção das retas, denominadas eixos — como a unidade, formamos um <b>sistema de coordenadas</b> para este plano escolhido, formando um <b>plano cartesiano</b>. A construção recebe este nome em homenagem a René Descartes, filósofo e matemático francês, um dos fundadores da Geometria Analítica. 
@@ -105,7 +105,7 @@ Podemos portanto descrever qualquer ponto do espaço como um ponto num cilindro,
 
 # Vetores 
 
----
+
 
 Podemos interpretar os pontos do plano como vetores, definindo com isto a grandeza do <b>módulo</b> do vetor (também conhecida como intensidade, magnitude...) denotada por $|\vec{v}|$ ou $||\vec{v}||$. Dessa forma, dado um vetor $\vec{P} = (x,y)$, temos que $||\vec{P}|| = \sqrt{x^2 + y^2}$. 
 
@@ -340,7 +340,7 @@ $$
 
 # Retas 
 
----
+
 
 Sendo $\vec{v} = (a,b)$ um vetor não-nulo e $A = (x_0, y_0)$ um ponto do plano cartesiano, podemos dizer que um ponto $P(x, y)$ só pertence à reta que contém $A$, na direção de $\vec{v}$, se
 
@@ -580,7 +580,7 @@ $$
 
 # Circunferências e esferas
 
----
+
 
 Assim como retas, também podemos representar circunferências por equações. Desta forma, considerando um ponto $C = (x_0, y_0)$ — o centro da circunferência — e um vetor $A = (x_0 + r, y_0)$ com $r$ sendo o raio da construção geométrica e $t$ o ângulo formado entre um certo ponto $P$ pertencente à circunferência e o vetor $A$, podemos escrever que todo ponto $P$ cujas coordenadas satisfaçam o sistema
 
@@ -632,7 +632,7 @@ $$
 
 # Planos
 
----
+
 
 Elevar o nosso ponto de vista para o espaço tridimensional permite analisar os <b>planos</b> como subconjuntos desse espaço. De fato, dado um ponto $P(x_0, y_0, z_0)$ e um vetor $\vec{v} = (v_1, v_2, v_3)$, é possível ver que só existe um único plano $\alpha$ perpendicular ao vetor $\vec{v}$ que contém o ponto $P$. 
 
@@ -772,7 +772,7 @@ $$
 
 # Referências 
 
---- 
+ 
 
 1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.
 2. STEINBRUCH, Alfredo; WINTERLE, Paulo. Geometria Analítica. 2. ed. São Paulo: Makron Books, 2004.

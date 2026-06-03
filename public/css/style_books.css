@@ -293,20 +293,13 @@ textarea,
 /* ---- Estilização dos títulos ---- */ 
 
 .book-content h1, h2, h3 {
-    font-family: "Libertinus Math", serif;
-    font-size: clamp(1.5rem, 4.5vw, 1.9rem);
     color: var(--link); 
-    
-    margin-top: 2em;
-    margin-bottom: 0.8em;
-    text-align: left;
 }
 
 .book-content h1::after, h2::after, h3::after {
     content: "";
     display: block;
-    width: 40%;
-    height: 1px;
+    height: 3px;
     margin-top: 0.3em;
     background: linear-gradient(to right, var(--border), transparent);
 }

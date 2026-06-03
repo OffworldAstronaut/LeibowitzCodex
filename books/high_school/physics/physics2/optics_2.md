@@ -2,13 +2,13 @@
 
 # Definição
 
----
+
 
 Chamamos **refração**, do latim *refratare* (”quebrar-se”), o fenômeno óptico da mudança de velocidade de um raio de luz, quando este muda de meio óptico. Uma consequência dessa mudança de velocidade é a mudança também da direção de propagação desse raio. 
 
 # Índice de refração e continuidade óptica
 
----
+
 
 Cada meio possui um certo **índice de refração**, uma grandeza que exprime o quanto um raio de luz muda de velocidade ao atravessar para aquele meio. Este índice possui duas variações, **absoluto** ou **relativo**. 
 
@@ -42,7 +42,7 @@ Este fenômeno é o que é utilizado nos cabos de utilização, que permite tran
 
 # Leis da Refração
 
----
+
 
 Leis naturais para a descrição do fenômeno da refração foram escritas ao longo dos anos, comc duas leis fundamentais sendo definidas. É importante notar a utilização de termos da **óptica geométrica**, tratados neste documento — <a href="/books/high_school/physics/physics2/optics_1.html">Fundamentos da Óptica Geométrica I — Reflexão e Espelhos</a>. 
 
@@ -80,13 +80,13 @@ $$
 
 # Lentes
 
----
+
 
 As lentes são dispositivos ópticos (como os espelhos), geralmente feitos de vidro, que desviam a luz que passa por eles por meio do fenômeno da refração.  
 
 ## Convergentes
 
----
+
 
 Uma lente é classificada como convergente quando os raios de luz paralelos incidentes convergem (”passam pelo”) no mesmo ponto, que recebe o nome de **foco**. O foco das lentes convergentes é chamado de *real*, por conta que os raios de luz estão realmente indo para lá. 
 
@@ -115,7 +115,7 @@ Os variados caminhos que a luz incidente num espelho ou numa lente pode assumir 
 
 # Sistemas ópticos especiais
 
----
+
 
 ## Dioptro plano
 

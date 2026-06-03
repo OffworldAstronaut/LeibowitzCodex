@@ -2,7 +2,7 @@
 
 # Quádricas 
 
---- 
+ 
 
 De forma simples, podemos entender as <b>quádricas</b> como o análogo tridimensional das <b><a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank">cônicas</a></b>. Com efeito, dizemos que todas as figuras geométricas formadas pelas soluções das equações da forma 
 
@@ -40,7 +40,7 @@ $$
 
 ## Hiperboloide de revolução 
 
----
+
 
 Um hiperboloide de revolução é obtido pela rotação de uma hipérbole em torno de algum de seus eixos principais.
 
@@ -136,7 +136,7 @@ formando cones centrados na origem. Ainda temos que, se $a = b$, os cones são c
 
 # Construindo superfícies de revolução
 
----
+
 
 Podemos construir superfícies de revolução ao rotacionar qualquer curva em torno de um dado eixo coordenado. Por exemplo, qual a superfície resultante da rotação da curva $z = y^2$ em torno do eixo $z$? 
 
@@ -148,7 +148,7 @@ Perceba que rotacionar esta curva implica que cada ponto irá descrever uma circ
 
 # Referências 
 
---- 
+ 
 
 1. LIMA, G.; SILVA. Geometria analitica 2ª ed. Rio de Janeiro. 2015.
 2. WINTERLE, Paulo. Vetores e geometria analítica. 2ª ed. São Paulo: Pearson, 2014.

@@ -2,13 +2,13 @@
 
 # Introdução
 
----
+
 
 No quesito <b>permutações</b>, a ordem de cada elemento é importante, porém, quando passamos a estudar <b>combinações</b> de elementos, ela deixa de ser. Portanto, nesse documento estará várias coisas sobre <b>como escolher objetos sem que a ordem seja importante</b>. 
 
 # Escolhendo “k” objetos de “n” dados
 
----
+
 
 Podemos escolher $k$ objetos de $n$ dados nos utilizando da seguinte expressão: 
 
@@ -42,7 +42,7 @@ Ou seja, na verdade, só temos realmente 3 possibilidades de duplas partindo de 
 
 # Relação de Stifel
 
----
+
 
 Sendo $n \ge k \ge 1$, com $n, k \in \mathbb{N}$, temos a seguinte relação: 
 
@@ -106,7 +106,7 @@ $$
 
 # Combinações com repetições
 
----
+
 
 As <b>combinações com repetições</b>, também conhecidas por <b>combinações completas</b> são as combinações de $k$ elementos que podemos formar dentre $n$ elementos, sabendo que um mesmo elemento pode se repetir nessa nossa escolha. 
 

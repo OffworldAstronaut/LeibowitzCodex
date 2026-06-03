@@ -2,7 +2,7 @@
 
 # Introdução
 
----
+
 
 ![São Paulo Metro](https://upload.wikimedia.org/wikipedia/commons/0/00/Metro_de_S%C3%A3o_Paulo%2C_Luz_Station%2C_Brazil.jpg)
 
@@ -28,7 +28,7 @@ Essa visualização de uma **taxa de mudança** em tempos cada vez menores nos l
 
 # Definição
 
----
+
 
 Definimos derivada como o limite da **taxa de variação média** de uma função quando o intervalo $h$entre os valores da nossa variável (tempo, espaço, …) se torna cada vez mais próximo de zero, ou seja, estamos medindo o quão “sensível” a função é em resposta a uma pequena mudança no seu valor de entrada. 
 
@@ -120,7 +120,7 @@ Uma produção que na verdade perde quilos de vidros a cada hora, indicando, tal
 
 # Regras de derivação
 
----
+
 
 É perceptível que se utilizar da definição de derivação sempre que se fazer necessário calcular uma derivada é algo trabalhoso e demorado. Por isso, podemos nos utilizar das **regras de derivação**, propriedades do cálculo de derivadas — muitas delas derivadas das propriedades de limites — que facilitam nosso trabalho e diminuem nosso esforço.
 
@@ -424,7 +424,7 @@ $$
 
 # Derivando funções exponenciais
 
----
+
 
 As funções exponenciais formam um problema único no estudo do cálculo, pois obter sua derivada mostra-se algo um pouco mais complexo, que iremos abordar ao longo dessa seção.
 
@@ -542,7 +542,7 @@ Essa regra será bastante útil em situações de funções exponenciais compost
 
 # Derivando funções logarítmicas
 
----
+
 
 Podemos denominar **função logaritmo** toda função $f(x)=\log_bx$, com todas as restrições numéricas necessárias para que o logaritmo exista, como por exemplo, que $b>0$ e $b\neq 1$. Em especial, podemos calcular a derivada da função logaritmo natural como base para o caso geral. 
 
@@ -600,7 +600,7 @@ $$
 
 # Derivadas de funções trigonométricas
 
----
+
 
 Todas as funções trigonométricas podem ser reconstruídas por meio de recombinações das funções seno e cosseno. Tendo isso em vista, abaixo estarão as suas derivadas pela definição e em seguida uma lista das derivadas das outras funções.
 
@@ -813,7 +813,7 @@ $$
 
 # Práticas, regras e técnicas úteis 
 
----
+
 
 Esta seção servirá como um compêndio de algumas regras, técnicas e práticas que podem ser úteis em algumas situações, acelerando o processo de derivação e economizando tempo e esforço. 
 
@@ -952,7 +952,7 @@ Simples, prático, eficiente. Essa regra é extremamente útil, e irá nos poupa
 
 # Derivando funções inversas
 
----
+
 
 <aside>
 
@@ -1134,7 +1134,7 @@ Esta conclusão pode ser feita a partir da identidade trigonométrica $\csc^2{x}
 
 # Apêndice: notações para derivada
 
----
+
 
 Ao longo dos anos, diversas notações para representar a função derivada foram desenvolvidas, com as mais conhecidas sendo as de **Newton**, **Leibnitz** e **Lagrange**. Enquanto a primeira é utilizada mais nos campos da Física, as duas últimas são mais gerais, podendo ser encontradas em uma variedade de contextos.
 
@@ -1148,7 +1148,7 @@ Por sua vez, a notação de Leibnitz é a mais explícita e detalhada de todas a
 
 # Referências 
 
----
+
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

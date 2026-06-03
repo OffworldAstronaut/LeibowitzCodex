@@ -2,7 +2,7 @@
 
 # Definição
 
----
+
 
 Todo o nosso entendimento do Cálculo se apoia no conceito de <b>limites</b>.
 
@@ -154,7 +154,7 @@ $$
 
 # Propriedades
 
----
+
 
 Como dito anteriormente, as propriedades de limites nos serão muito úteis para calculá-los sem a necessidade de gráficos ou tediantes aproximações numéricas. Aqui estão reunidas todas, ou pelo menos as mais importantes, em ordem crescente de complexidade. 
 
@@ -246,7 +246,7 @@ Se possível, tente provar essa propriedade também! É interessante ver como tu
 
 # Indeterminações
 
----
+
 
 Muitas vezes, ao tentarmos calcular o limite de uma dada expressão, caímos em indeterminações dos mais variados tipos, como $\dfrac{0}{0}$ ou $\dfrac{\infty}{\infty}$ — isso não significa a sua inexistência, mas sim que tentarmos avaliar esse limite diretamente não nos fornecerá uma resposta clara. 
 
@@ -353,7 +353,7 @@ Quando encontrarmos alguma indeterminação, temos mais uma arma para utilizar e
 
 # Teorema do confronto
 
----
+
 
 Também conhecido pelo nome — bem mais descritivo — de **teorema do sanduíche**, o teorema do confronto é uma ferramenta muito útil na determinação de limites de algumas funções de comportamento mais errático.
 
@@ -377,7 +377,7 @@ então $\lim_{x \rightarrow a} f(x)=L$.
 
 # Assíntotas e limites no infinito
 
----
+
 
 As **assíntotas** são definidas como curvas que se aproximam de uma dada reta mas nunca a tocam. Importantes como uma outra lente para a análise de funções e uma ferramenta para a montagem de gráficos, as assíntotas podem ser de três tipos: **verticais**, **horizontais** e **oblíquas**. 
 
@@ -469,7 +469,7 @@ Como exemplo, podemos citar a função $f(x)= \dfrac{x^2 - 9}{2x -4}$. Efetuando
 
 # Continuidade
 
----
+
 
 Quando estudamos matemática, normalmente temos uma noção do significado de expressões como **contínua**, **descontínua** ou **discreta** quando nos referimos a funções. Geralmente, definimos uma função **contínua** como aquela que “podemos desenhar sem tirar o lápis do papel”, com a **descontínua** possuindo alguma falha que interrompe o gráfico da função, enquanto a **discreta** é formada apenas de pontos isolados, sem realmente nenhuma curva sem formada. 
 
@@ -581,7 +581,7 @@ Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o 
 
 # Apêndice — Limites fundamentais 
 
----
+
 
 ## Limite fundamental trigonométrico 
 
@@ -656,7 +656,7 @@ $$
 
 # Referências 
 
----
+
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

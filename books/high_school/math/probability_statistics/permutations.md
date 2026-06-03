@@ -2,13 +2,13 @@
 
 # Definição
 
----
+
 
 O que é <b>permutar</b>? Permutar não é nada mais nada menos do que “reorganizar”, “rearranjar” uma coleção de objetos. Por exemplo, no conjunto $A=\{1, 2, 3, 4\}$, uma permutação possível seria $\{2, 3, 1, 4\}$ ou $\{3, 1, 4, 2\}$. 
 
 # Princípios
 
----
+
 
 Na arte matemática das permutações, temos dois princípios básicos que vão formar a sustentação de todo o nosso raciocínio, são eles o <b>princípio aditivo</b> e o <b>princípio multiplicativo</b>. 
 
@@ -70,7 +70,7 @@ Multiplicando o número de linhas pelo número de colunas, vemos que sim, temos 
 
 # Permutações lineares
 
----
+
 
 ## Permutação com objetos diferentes
 
@@ -118,7 +118,7 @@ Onde $k_1$ é a quantidade de elementos do tipo 1, $k_2$ é a quantidade de elem
 
 # Permutações circulares
 
----
+
 
 Para entender o conceito de uma permutação circular, vamos imaginar a seguinte situação: temos 3 crianças, Ana, Bia e Carlos, brincando de ciranda no meio da praça. De quantas maneiras podemos organizar essa roda? 
 
@@ -138,7 +138,7 @@ $$
 
 # Permutações caóticas
 
----
+
 
 Ao considerarmos um conjunto de elementos, uma permutação desse conjunto é dita ser <i>caótica</i> se todos os elementos estão em posições diferentes do conjunto "original". Por exemplo, na lista $\{1, 2, 3, 4\}$, a permutação $\{2, 4, 1, 3\}$ é caótica, enquanto a permutação $\{1, 3, 2, 4\}$ não o é, pois o “1” está na sua posição original. 
 

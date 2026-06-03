@@ -2,7 +2,7 @@
 
 # Os números racionais
 
----
+
 
 Dentre os possíveis números, podemos definir os números naturais $\mathbb{N} = \{1, 2, 3, ...\}$, os inteiros $\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ... \}$ e, a partir destes, os <b>números racionais</b>.
 
@@ -61,7 +61,7 @@ Portanto, o número irracional $(n+1)s$ está entre $a$ e $b$. Fazendo-se $(n+1)
 
 # Os números reais 
 
---- 
+ 
 
 Os números reais, representados pelo símbolo de seu conjunto $(\mathbb{R})$, e seus subconjuntos, os dos números racionais (e naturais, e inteiros, ...) e irracionais podem ser representados por pontos numa reta. Nesta reta, o ponto de origem $(\text{O})$, cuja posição é escolhida arbitrariamente, é geralmente associado ao número zero.
 
@@ -89,7 +89,7 @@ Os números reais ainda possuem duas propriedades muito importantes em sua anál
 
 # Referências 
 
---- 
+ 
 
 1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.
 2. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC

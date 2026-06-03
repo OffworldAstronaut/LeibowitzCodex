@@ -2,7 +2,7 @@
 
 # Introdução
 
----
+
 
 O laser é uma das aplicações mais bem sucedidas da física quântica. Desde sua concepção na década de 1960, feixes laser foram utilizados nas mais variadas áreas científicas, industriais, comerciais e até militares, impactando-as de forma irreversível.
 
@@ -18,7 +18,7 @@ Este trabalho também pode ser acessado em .pdf <a target="_blank" href="./pdfs/
 
 # Fundamentos teóricos
 
----
+
 
 Nesta seção, iremos explorar o funcionamento de um sistema laser e seus fundamentos físicos. A concepção do laser está apoiada na mecânica quântica, especialmente nos chamados <b>níveis de energia</b> e no fenômeno da emissão estimulada de luz pelos átomos.
 
@@ -49,7 +49,7 @@ Estes espelhos são essenciais para o funcionamento do aparato, pois refletem os
 
 # Histórico
 
----
+
 
 O laser traça suas origens ao início do século XX, em 1916, com uma sugestão do físico alemão Albert Einstein sobre o comportamento de átomos excitados. Einstein sugeriu que estes átomos excitados poderiam dissipar sua energia em forma de luz.[1]
 
@@ -71,7 +71,7 @@ Por fim, após os seus primeiros anos como aparelho puramente experimental, a hi
 
 # Aplicações
 
----
+
 
 Desde sua concepção, numerosas aplicações para os lasers foram concebidas, desde de aplicações científicas na ciência dos materiais e geofísica, até bélicas por meio de guias de mísseis ou visores de armas.
 
@@ -113,7 +113,7 @@ Em potências intermediárias, a destruição de equipamentos ópticos ou optoel
     
 # Conclusão
 
----
+
 
 O trabalho buscou apresentar de forma simples e abrangente os fundamentos teóricos, história e aplicações da tecnologia laser em suas mais variadas formas. A primeira seção abordou conceitos como níveis de energia, emissão estimulada, coerência, meio ativo, bombeamento e ganho óptico, enquanto a seção seguinte concentrou-se em contextualizar esses avanços técnicos na história. 
 
@@ -121,7 +121,7 @@ Por fim, o trabalho finalizou com uma descrição das diferentes aplicações da
 
 # Referências 
 
----
+
 
 [1]: Encyclopaedia Britannica. Laser. https://www.britannica.com/technology/laser, 2025. Acesso em 9 de março de 2026.
 

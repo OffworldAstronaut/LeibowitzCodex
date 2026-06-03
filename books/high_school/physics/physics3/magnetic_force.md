@@ -2,7 +2,7 @@
 
 # Lorentz
 
----
+
 
 Quando uma carga elétrica é submetida a um campo magnético, ela sofre influência da chamada **força de Lorentz**, nomeada em homenagem ao grande físico neerlandês **Hendrik Lorentz**. 
 
@@ -65,7 +65,7 @@ Se a carga estiver se movendo de forma oblíqua em relação ao campo magnético
 
 # Sobre um fio
 
----
+
 
 Se tivermos um fio sob efeito de um campo magnético com corrente elétrica passando em seu interior, teremos que a força magnética que age no fio tem intensidade de 
 
@@ -77,7 +77,7 @@ Onde $\theta$ é o ângulo entre o **fio e o campo magnético**.
 
 # Entre fios
 
----
+
 
 Quando temos dois fios retilíneos percorridos por correntes elétricas, saberemos que: 
 

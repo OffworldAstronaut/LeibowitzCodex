@@ -2,7 +2,7 @@
 
 # Temperatura e Calor
 
----
+
 
 No estudo da termologia (do grego *thermos*, calor, e *logos*, estudo), dois conceitos são fundamento para todos os outros. São eles os conceitos de **temperatura** e **calor**. 
 
@@ -16,7 +16,7 @@ Por outro lado, definimos **calor** como a energia térmica em trânsito. Essa e
 
 # Escalas termométricas
 
----
+
 
 Chamamos de **escalas termométricas** sistemas de referências numéricos utilizados para a aferição de temperatura. Diferentes escalas existem, com as mais utilizadas sendo as escalas **Celcius**, **Fahrenheit** e **Kelvin**. 
 
@@ -44,7 +44,7 @@ A razão da impossibilidade de atingir essa temperatura vem dos estudos da termo
 
 # Conversão de escalas
 
----
+
 
 Muitas outras escalas foram inventadas para a medição da temperatura, como as escalas Rankine $(°\text R)$, Roemer $(°\text{R}ø)$ ou Newton $(°\text N)$. Por essa grande variedade e, simultaneamente, pela ausência de utilização de um único padrão em todos os casos, é necessária muitas vezes a conversão entre diferentes escalas termométricas. 
 

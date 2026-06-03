@@ -2,7 +2,7 @@
 
 # Introdução 
 
---- 
+ 
 
 Quando estudamos o estudo das **integrais** em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada **Integral de Riemann**, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
 
@@ -18,7 +18,7 @@ Dessa forma, para compreendermos a definição exposta por Riemann para esse imp
 
 ## Partição de um intervalo
 
----
+
 
 Definimos a partição de um intervalo da seguinte maneira: 
 
@@ -42,7 +42,7 @@ Com $i$ referindo-se a cada ponto na partição. No exemplo acima, a norma da pa
 
 ## Soma de Riemann
 
----
+
 
 A soma de Riemann é uma das maneiras de construir a <b>integral de Riemann</b>, talvez a mais conhecida. Definimos-a da seguinte maneira: 
 
@@ -63,7 +63,7 @@ onde $\Delta t_i = t_i - t_{i-1}$</i>
 
 # Definindo integrais (de Riemann)
 
----
+
 
 Por fim, chegamos à definição de integral chegada por **Bernhard Riemann**, que se utiliza dos conceitos expostos anteriormente, a **soma de Riemann** e a **partição** de um conjunto. Ela é definida da seguinte forma:
 
@@ -85,7 +85,7 @@ para nos referir à área $L$ sob o gráfico da função $f(x)$ entre os valores
 
 ## Propriedades da integral
 
----
+
 
 Dada essa definição inicial da integral, podemos encontrar algumas de suas propriedades, decorrentes do fato de que elas são, na verdade, limites. 
 
@@ -104,7 +104,7 @@ Além disso, temos que toda função **contínua** é **integrável**, embora al
 
 # Calculando integrais
 
----
+
 
 Até aqui, conseguimos definir integrais, operações que nos fornecem a área sob o gráfico de uma determinada função, mas não temos ainda um método eficiente de calculá-las: seguir a definição de Riemann seria um trabalho descomunalmente intensivo. 
 
@@ -112,7 +112,7 @@ Dessa forma, vamos introduzir alguns conceitos, a saber os conceitos de **primit
 
 ## Primitivas
 
----
+
 
 Definimos **primitivas**, também conhecidas como **antiderivadas**, da seguinte maneira:
 
@@ -159,13 +159,13 @@ Por fim, é importante ter em mente outro teorema importante, demonstrado no ap�
 
 ## Técnicas de integração
 
----
+
 
 As **primitivas** — e as integrais de forma geral — possuem propriedades úteis que facilitam o seu cálculo, que por sua vez irá colaborar no cálculo de integrais, consequência exposta na próxima seção. 
 
 ### Mudança de variável
 
----
+
 
 A propriedade da mudança de variável nos permite mudar a variável da função que está sendo integrada, permitindo uma maior facilidade. A ideia por trás dessa propriedade é uma espécie de “desfazimento” da regra da cadeia.
 
@@ -201,7 +201,7 @@ Nesse exemplo, definimos $u = g(x) = x-2$. Pela diferenciação, temos que $\dfr
 
 ### Integração por partes
 
----
+
 
 A **integração por partes** é uma maneira de “reverter” a regra do produto. 
 
@@ -223,7 +223,7 @@ Com $k$ sendo a constante de integração, qualquer número real.
 
 ### Integração por frações parciais
 
----
+
 
 Podemos nos utilizar deste método quando precisamos integrar uma função racional $R(x)=\dfrac{P(x)}{Q(x)}$. A ideia é reescrever essa função como uma soma de frações mais simples cujos denominadores são fatores linear ou quadráticos do polinômio denominador.
 
@@ -278,13 +278,13 @@ $$
 
 # Sólidos de revolução: volumes, áreas e comprimentos
 
----
+
 
 Chamamos de **sólido de revolução** o sólido gerado pela rotação do gráfico de uma função em torno de um eixo (linha reta). Embora essa rotação seja possível para qualquer eixo, neste documento iremos tratar apenas dos eixos horizontais e verticais, em especial os cartesianos $(x=0; y=0)$.
 
 ## Revolução em torno do eixo horizontal
 
----
+
 
 Podemos calcular o **volume desse sólido** por meio de uma adaptação da expressão usual para uma integral, consequência da modificação da soma de Riemann para esse novo cenário: ao invés de somarmos infinitos retângulos, iremos somar infinitos **cilindros**, formados pela rotação desses “retangulinhos”.
 
@@ -306,7 +306,7 @@ Com $y_R$ sendo a constante da reta horizontal, o eixo de rotação.
 
 ## Revolução em torno do eixo vertical
 
----
+
 
 Agora, se a função estiver sendo rotacionada entorno do eixo y, para calcular o volume desse sólido teremos que nos valer da chamada <i>shell integration</i> (”integração em concha”).
 
@@ -328,7 +328,7 @@ Perceba que um sólido de revolução possui uma superfície externa, uma **“c
 
 # Apêndice A: Teorema do Valor Médio para Integrais
 
----
+
 
 Podemos adaptar o **teorema do valor médio (TVM)**, originalmente definido para a operação de derivação, para a integração.
 
@@ -352,7 +352,7 @@ Calcular essa última expressão é o equivalente de encontrar a área do retân
 
 ## Demonstração 
 
----
+
 
 Podemos demonstrar esse teorema da seguinte maneira: 
 
@@ -388,7 +388,7 @@ Por fim, pelo teorema do valor intermediário regular, concluímos que $\exists 
 
 ## Exemplo de utilização
 
----
+
 
 Esta adaptação do TVM é útil na demonstração feita anteriormente, de que toda função contínua possui primitiva(s). 
 
@@ -413,7 +413,7 @@ Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
 
 # Apêndice B: Primitivas de potências de trigonométricas
 
----
+
 
 É possível encontrar algumas propriedades que facilitam o cálculo das primitivas de produtos de funções trigonométricas e em especial suas potências, inclusive por **fórmulas de recorrência**. 
 
@@ -441,7 +441,7 @@ No primeiro caso de paridade, ainda é útil a substituição $u=\sec{x}$.
 
 ## Fórmulas de recorrência
 
----
+
 
 Abaixo estão listadas algumas expressões de recorrência para o cálculo das primitivas das potências de diversas funções trigonométricas. 
 
@@ -459,6 +459,6 @@ $$
 
 # Referências 
 
----
+
 
 1. <i>Playlist</i> de cálculo diferencial e integral da USP — Coleção de aulas com o prof. Dr. Alexandre Lymberopoulos (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx">Acesse aqui</a>);

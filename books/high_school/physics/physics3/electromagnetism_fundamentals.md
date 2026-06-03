@@ -2,7 +2,7 @@
 
 # Campos magnéticos
 
----
+
 
 De forma análoga ao campo elétrico, a força magnética é efetuada por meio de um **campo magnético**, e no estudo do eletromagnetismo uma característica apoia todo o nosso estudo: cargas elétricas em movimento, ou seja, correntes elétricas, geram campos magnéticos. 
 

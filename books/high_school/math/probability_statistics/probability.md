@@ -2,7 +2,7 @@
 
 # Introdução
 
----
+
 
 A noção de probabilidade é bem intuitiva. Todo mundo tem uma ideia do que é ter “20% de chance” ou entender o que é a frase “1 em cada 3”, por exemplo. Assim, podemos dizer que o estudo da probabilidade vai se tratar de experimentos aleatórios. 
 
@@ -14,7 +14,7 @@ Um <b>experimento aleatório</b> é uma ação cujo resultado não se pode preve
 
 # Conceitos básicos
 
----
+
 
 Vamos agora começar a entrar mais a fundo! 
 
@@ -62,7 +62,7 @@ $$
 
 # Propriedades
 
----
+
 
 <aside>
 
@@ -90,7 +90,7 @@ $$
 
 # Probabilidade como uma função
 
----
+
 
 Podemos definir a probabilidade como uma função $P$ que satisfaz as propriedades vistas acima, o que nos dá mais alguns fatos: 
 
@@ -100,7 +100,7 @@ Podemos definir a probabilidade como uma função $P$ que satisfaz as propriedad
 
 # Probabilidade condicional
 
----
+
 
 Definimos a <b>probabilidade condicional</b> de um evento $A$, dado que aconteceu um evento $B$, por 
 
@@ -112,7 +112,7 @@ Com $P(B) > 0$, obrigatoriamente.
 
 # Variáveis aleatórias
 
----
+
 
 Formalmente, uma variável aleatória $X$ é definida como sendo uma função $X:\Omega \rightarrow \mathbb{R}$, mas podemos pensar nela como sendo uma maneira de “contar” algo que quisermos num espaço aleatório, ou seja, não temos o valor da variável de antemão: o valor depende do resultado do experimento. 
 
@@ -144,7 +144,7 @@ Temos $\dfrac{3}{8}$ de chance de que nosso lançamento tenha exatamente duas ca
 
 # Esperança
 
----
+
 
 A <b>esperança</b> de uma variável aleatória $X$ pode ser entendida como seu <b>valor médio esperado</b>, ou seja, depois de muitos lançamentos, essa variável irá tender para esse valor. 
 
@@ -176,7 +176,7 @@ Ou seja, a cada três lançamentos, é esperado que saiam, em média, 1.5 caras 
 
 # Distribuições de probabilidade em variáveis aleatórias
 
----
+
 
 Os eventos do conjunto universo, e por consequência o $X$ que podemos escolher, podem assumir diferentes “maneiras” de terem seus valores de probabilidade distribuídos, por exemplo, no caso de uma moeda honesta, só temos duas possibilidades com 50% de chance para cada, mas numa distribuição de notas numa classe média é esperado que tenhamos algo mais ou menos assim: 
 

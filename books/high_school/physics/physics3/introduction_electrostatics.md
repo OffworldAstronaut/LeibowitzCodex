@@ -2,7 +2,7 @@
 
 # Carga elétrica
 
----
+
 
 Para iniciarmos os estudos de eletrostática, é fundamental entender o conceito de **carga elétrica**, e para isso, é importante revisarmos os modelos atômicos, mais especificamente o **modelo atômico de Rutherford-Bohr**. 
 
@@ -16,7 +16,7 @@ Nesse modelo atômico, o átomo é dividido em duas regiões, o **núcleo**, for
 
 # Princípios da Eletrostática
 
----
+
 
 Além disso, temos dois fenômenos que são fundamentais para toda a Eletrostática, fenômenos esses que acontecem em relação às cargas elétricas: o **princípio da atração e repulsão** e a **quantização das cargas elétricas**. 
 
@@ -46,7 +46,7 @@ onde $Q$ é a carga elétrica de um corpo, $e$ é a carga elementar e $n$ é um 
 
 # Corpos
 
----
+
 
 Os corpos possuem um papel central na Eletrostática, afinal, eles são formados por átomos, com estes sendo formados por partículas que possuem carga elétrica: são eles que armazenam as cargas e as transmitem ou impedem sua passagem para outros corpos. 
 
@@ -68,7 +68,7 @@ Podemos citar alguns materiais condutores comuns, como cobre e estanho, e isolan
 
 # Processos de Eletrização
 
----
+
 
 **Eletrizar** um corpo é fazer com que um corpo neutro se torne eletrizado, ou seja, um **processo de eletrização** é uma maneira de fornecermos ou retirarmos elétrons de um corpo. 
 
@@ -84,7 +84,7 @@ Ao **atritarmos** dois corpos **neutros** de **materiais diferentes**, um dos co
 Esse acontecimento é chamado de **efeito triboelétrico**, e por conta disso temos a chamada **série triboelétrica**, uma **tabela** com diferentes materiais que pode nos ajudar a prever o comportamento elétrico de dois materiais quando atritados. 
 
 | **Pele humana seca** |
-| --- |
+|  |
 | **Couro** |
 | **Vidro** |
 | **Cabelo humano** |
@@ -138,7 +138,7 @@ Se o **eletroscópio** estiver **eletrizado**, a depender da carga do corpo apro
 
 # Lei de Coulomb
 
----
+
 
 A **Lei de Coulomb**, descrita pelo físico francês Charles Augustin de Coulomb (ele também recebe em homenagem o **nome da unidade de carga elétrica**), nos permite quantificar a força de atração ou repulsão entre as cargas elétricas, cuja existência é garantida pelo primeiro princípio da eletrostática. 
 
