@@ -8,7 +8,7 @@ Chamamos espaços vetoriais todos os conjuntos $V \neq \emptyset$ munidos com du
 
 <aside>
 
-<b>(CALLIOLI 1981, Definição de espaço vetorial)</b> — Dizemos que um conjunto $V \neq \emptyset$ é um espaço vetorial sobre $\mathbb{R}$ quando, e somente quando, por um lado, existe uma adição $(u, v) \longmapsto u + v$ em $V$ de forma que: 
+<b>CALLIOLI 1981, Definição de espaço vetorial</b> — Dizemos que um conjunto $V \neq \emptyset$ é um espaço vetorial sobre $\mathbb{R}$ quando, e somente quando, por um lado, existe uma adição $(u, v) \longmapsto u + v$ em $V$ de forma que: 
 
 1. $u + v = v + u, \forall u, v \in V$ (comutatividade)
 2. $u + (v + w) = (u + v) + w, \forall u, v, w \in V$ (associatividade)
@@ -54,7 +54,7 @@ De forma sucinta, um subespaço vetorial é um subconjunto de um espaço vetoria
 
 <aside>
 
-<b>(CALLIOLI 1981, Definição de um subespaço vetorial)</b> — Seja $V$ um espaço vetorial sobre $\mathbb{R}$. Um subespaço vetorial de $V$ é um subconjunto $W \subset V$, tal que: 
+<b>CALLIOLI 1981, Definição de um subespaço vetorial</b> — Seja $V$ um espaço vetorial sobre $\mathbb{R}$. Um subespaço vetorial de $V$ é um subconjunto $W \subset V$, tal que: 
 
 1. $o \in W$
 2. $\forall u,v \in W, u + v \in W$ 
@@ -68,7 +68,7 @@ Interessantemente, podemos definir uma operação <b>soma</b> para dois subespa�
 
 <aside>
 
-<b>(CALLIOLI 1981, Definição da soma de subespaços)</b> — Sejam $U$ e $V$ subespaços vetoriais de um espaço vetorial $W$. Indicaremos por $U+V$ e chamaremos de <b>soma de $U$ com $V$</b> o seguinte subconjunto de W: 
+<b>CALLIOLI 1981, Definição da soma de subespaços</b> — Sejam $U$ e $V$ subespaços vetoriais de um espaço vetorial $W$. Indicaremos por $U+V$ e chamaremos de <b>soma de $U$ com $V$</b> o seguinte subconjunto de W: 
 
 $$
 U + V = \{u + v | u \in U, v \in V\}
@@ -83,8 +83,6 @@ Além disso, temos que $W = U \oplus V \iff \forall w \in W$ existir uma única 
 </aside>
 
 # Base e dimensão
-
-
 
 ## Combinações lineares
 
@@ -155,7 +153,5 @@ $$
 Dessa forma, base multiplicar pela esquerda esta matriz com as coordenadas de um dado vetor na base $B$ para obter uma matriz coluna com as coordenadas deste mesmo vetor na base $C$. 
 
 # Referências
-
-
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.

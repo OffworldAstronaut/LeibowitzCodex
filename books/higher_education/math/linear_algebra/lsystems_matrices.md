@@ -2,19 +2,15 @@
 
 # Sistemas lineares
 
-
-
-Para compreendermos os conceitos sobre os <b>sistemas lineares</b>, é necessário primeiro nos debruçar sobre a noção de <b>equação linear</b>.
-
-Dizemos que uma equação da forma
+Para compreendermos os conceitos sobre os <b>sistemas lineares</b>, é necessário primeiro nos debruçar sobre a noção de <b>equação linear</b>. Definimos uma equação da forma
 
 $$
 \alpha_1x_1 + \alpha_2x_2 + ... + \alpha_nx_n = \beta, \text{com }\alpha, \beta \in \mathbb{R}, \text{e } n \ge 1
 $$
 
-é uma <b>equação linear</b>. Além disso, se a n-upla $(b_1, b_2, ..., b_n) \in \mathbb{R}^N$ satisfizer a relação ao fazermos $x_1 = b_1$, $x_2 = b_2$, ..., $x_n = b_n$, dizemos que esta n-upla é uma <b>solução</b> da equação linear.
+como uma <b>equação linear</b>. Além disso, se a n-upla $(b_1, b_2, ..., b_n) \in \mathbb{R}^N$ satisfizer a relação ao fazermos $x_1 = b_1$, $x_2 = b_2$, ..., $x_n = b_n$, dizemos que esta n-upla é uma <b>solução</b> da equação linear.
 
-Definimos um sistema de equações $S$ de $m$ equações e $n$ incógnitas, com $m, n \ge 1$, como um conjunto de equações lineares da forma
+Definimos um <b>sistema de equações</b> $S$ de $m$ equações e $n$ incógnitas, com $m, n \ge 1$, como um conjunto de equações lineares da forma
 
 $$
 S:
@@ -56,11 +52,9 @@ Dados três sistemas lineares $S_1, S_2, S_3$, valem ainda as propriedades:
 
 <b>Teorema</b> — As operações elementares preservam o conjunto solução de um sistema linear.
 
-<b>Demonstração</b> — Considere um sistema linear $S$.
+<b>Demonstração</b> — Considere um sistema linear $S$. Permutar duas equações não altera o conjunto solução, pois a ordem das equações é irrelevante para a simultaneidade das condições impostas.
 
-1. Permutar duas equações não altera o conjunto solução, pois a ordem das equações é irrelevante para a simultaneidade das condições impostas.
-
-2. Multiplicar uma equação por $\lambda \neq 0$ produz uma equação equivalente, pois
+Além disso, Multiplicar uma equação por $\lambda \neq 0$ produz uma equação equivalente, pois
 
 $$
 a_1x_1 + ... + a_nx_n = b
@@ -74,7 +68,7 @@ $$
 
 também o é.
 
-3. Se substituímos uma equação pela soma dela com outra, qualquer solução do sistema original continua satisfazendo a nova equação, pois a soma de igualdades válidas permanece válida. Reciprocamente, como a operação pode ser revertida pela subtração da equação adicionada, o conjunto solução permanece inalterado.
+Por fim, se substituímos uma equação pela soma dela com outra, qualquer solução do sistema original continua satisfazendo a nova equação, pois a soma de igualdades válidas permanece válida. Reciprocamente, como a operação pode ser revertida pela subtração da equação adicionada, o conjunto solução permanece inalterado.
 
 Logo, todas as operações elementares preservam o conjunto solução do sistema.
 
@@ -84,21 +78,15 @@ Logo, todas as operações elementares preservam o conjunto solução do sistema
 
 <b>Teorema</b> — A relação de equivalência entre sistemas lineares é reflexiva, simétrica e transitiva.
 
-<b>Demonstração</b> — Considere os seguintes raciocínios para cada propriedade.
+<b>Demonstração</b> — Considere os seguintes raciocínios para cada propriedade a seguir.
 
-1. Reflexividade: todo sistema possui o mesmo conjunto solução que ele próprio, portanto $S_1 \sim S_1$.
-
-2. Simetria: se $S_1 \sim S_2$, então ambos possuem o mesmo conjunto solução. Logo, $S_2$ possui o mesmo conjunto solução que $S_1$, isto é, $S_2 \sim S_1$.
-
-3. Transitividade: se $S_1 \sim S_2$ e $S_2 \sim S_3$, então os três sistemas possuem o mesmo conjunto solução. Portanto, $S_1 \sim S_3$.
+Todo sistema possui o mesmo conjunto solução que ele próprio, portanto $S_1 \sim S_1$ (reflexividade). Além disso, se $S_1 \sim S_2$, então ambos possuem o mesmo conjunto solução. Logo, $S_2$ possui o mesmo conjunto solução que $S_1$, isto é, $S_2 \sim S_1$ (simetria). Por fim, se $S_1 \sim S_2$ e $S_2 \sim S_3$, então os três sistemas possuem o mesmo conjunto solução. Portanto, $S_1 \sim S_3$ (transitividade).
 
 </aside>
 
 Por estas operações podemos simplificar sistemas complexos para outros mais simples e de mais fácil resolução.
 
 # Matrizes
-
-
 
 Matrizes (reais) são objetos matemáticos formados por uma dupla sequência de números reais arranjados em uma tabela de $m$ linhas e $n$ colunas. Estas matrizes são assim chamadas "matrizes $m \times n$" (lê-se "m por n"), sendo escritas como uma tabela entre parênteses ou colchetes.
 
@@ -159,10 +147,28 @@ Ou seja, para somar duas matrizes, basta somar elemento a elemento.
 
 Para essa operação valem algumas propriedades. Considere $A, B, C \in M_{m \times n} (\mathbb{R})$.
 
-1. $A + (B+C) = (A+B)+C$ (propriedade associativa)
-2. $A + B = B + A$ (propriedade comutativa)
-3. $\exists O \in M_{m \times n} | A + O = A, \forall A$ (existência de elemento neutro)
-4. $\exists (-A) | A+(-A)=O, \forall A$ (existência do elemento oposto para qualquer matriz)
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Propriedade</th>
+    </tr>
+    <tr>
+        <td>$A + (B+C) = (A+B)+C$</td>
+        <td>propriedade associativa</td>
+    </tr>
+    <tr>
+        <td>$A + B = B + A$</td>
+        <td>propriedade comutativa</td>
+    </tr>
+    <tr>
+        <td>$\exists O \in M_{m \times n} | A + O = A, \forall A$</td>
+        <td>existência de elemento neutro</td>
+    </tr>
+    <tr>
+        <td>$\exists (-A) | A+(-A)=O, \forall A$</td>
+        <td>existência do elemento oposto para qualquer matriz</td>
+    </tr>
+</table>
 
 </aside>
 
@@ -302,10 +308,28 @@ Isto é, o produto entre uma matriz e um número real $\lambda$ retorna uma matr
 
 Para esta operação valem as seguintes propriedades:
 
-1. $(\alpha \beta) A = \alpha(\beta A)$
-2. $(\alpha + \beta)A = \alpha A + \beta A$
-3. $\alpha (A + B) = \alpha A + \alpha B$
-4. $1A = A$
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Propriedade</th>
+    </tr>
+    <tr>
+        <td>$(\alpha \beta) A = \alpha(\beta A)$</td>
+        <td>propriedade associativa</td>
+    </tr>
+    <tr>
+        <td>$(\alpha + \beta)A = \alpha A + \beta A$</td>
+        <td>propriedade distributiva 1</td>
+    </tr>
+    <tr>
+        <td>$\alpha (A + B) = \alpha A + \alpha B$</td>
+        <td>propriedade distributiva 2</td>
+    </tr>
+    <tr>
+        <td>$1A = A$</td>
+        <td>existência de elemento neutro</td>
+    </tr>
+</table>
 
 </aside>
 
@@ -376,8 +400,20 @@ $$
 
 No produto entre matrizes valem as seguintes propriedades. Considere $A_{m \times n}, B_{n \times p}, C_{p \times q}$.
 
-1. $A(BC) = (AB)C$
-2. $A(B+C) = AB + AC$
+<table>
+    <tr>
+        <th>Nome</th>
+        <th>Propriedade</th>
+    </tr>
+    <tr>
+        <td>$A(BC) = (AB)C$</td>
+        <td>propriedade associativa</td>
+    </tr>
+    <tr>
+        <td>$A(B+C) = AB + AC$</td>
+        <td>propriedade distributiva em relação à adição</td>
+    </tr>
+</table>
 
 </aside>
 
@@ -592,15 +628,7 @@ Se uma matriz $A$ é inversível, é possível determinar sua inversa por meio d
 
 De fato, essas operações são idênticas às operações elementares definidas para sistemas lineares. Como será visto adiante, sistemas lineares podem ser representados por matrizes, ou seja, podem ser escritos em uma <b>forma matricial</b>.
 
-<aside>
-
-São operações elementares de uma matriz $A$ qualquer:
-
-1. Permutar duas de suas linhas
-2. Multiplicar uma linha por um $\lambda \in \mathbb{R}$, com $\lambda \neq 0$
-3. Somar uma linha em outra
-
-</aside>
+São operações elementares, de uma matriz $A$ qualquer, permutar duas de suas linhas; multiplicar uma linha por um $\lambda \in \mathbb{R}$, com $\lambda \neq 0$ e somar uma linha em outra.
 
 De forma semelhante, se uma matriz $B$ pode ser obtida a partir de um número finito de operações elementares em $A$, dizemos que $A$ é <b>semelhante</b> a $B$ e denotamos esta relação por $A \sim B$. Valem as mesmas propriedades para a semelhança entre sistemas lineares.
 

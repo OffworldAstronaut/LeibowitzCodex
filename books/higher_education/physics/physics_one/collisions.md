@@ -2,19 +2,19 @@
 
 # Conceitos básicos
 
-
-
 Definimos a <b>colisão</b> entre duas partículas como o processo de interação decorrente de uma ser lançada contra a outra. Durante esta interação, pode houver troca de energia e momento como consequência.
 
 Com efeito, diferentes resultados podem emergir: duas partículas podem simplesmente interagir e mudar de direção (espalhamento), fundir-se em uma única partícula, quebrar-se em diversas partículas (fragmentação) ou ainda se tornarem partículas diferentes, como em reações químicas ou nucleares, por exemplo. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e3/Compton-scattering.svg)
+
+<i>Um exemplo de fenômeno de colisão que pode ser citado é o efeito Compton: o espalhamento (deflexão) de fótons quando estes colidem com elétrons em um dado material. Enquanto o eletromagnetismo clássico previu um comprimento de onda constante, Compton mostrou que os raios de luz emergiam com um comprimento de onda diferente. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Compton-scattering.svg" target="_blank">Wikimedia Commons</a></i>
 
 Ao estudarmos colisões, usualmente dividimos o processo em três etapas. Inicialmente, as duas partículas possuem interação desprezível entre si, até entrarem numa região de interação por um tempo muito menor do que o tempo total de observação do sistema. Após essa interação rápida — a colisão — as duas partículas (ou o que vier após) interagem de forma desprezível pelo retstante do tempo considerado. Estes três estágios são, na ordem de acontecimento, a <b>configuração inicial</b>, a <b>configuração intermediária</b> e a <b>configuração final</b>. 
 
 Na teoria das colisões, o problema mais fundamental é determinar a configuração final de um sistema a partir de sua configuração inicial. 
 
 # Impulso 
-
-
 
 Podemos motivar a definição de uma nova grandeza, o <b>impulso</b> ($\vec{I}$) associada a uma força $\vec{F}$ a partir do estudo de caso de uma colisão frontal entre duas esferas.
 Note que, para este sistema, temos as seguintes equações de movimento
@@ -37,15 +37,21 @@ $$
 
 fornece o <b>impulso</b> da força $\vec{F}$ durante o instante $(t_i, t_f)$, com esse resultado sendo denominado por <b>teorema do impulso-momento</b> ou simplesmente <b>teorema do impulso</b>.
 
-# Colisões elásticas e inelásticas 
+![](https://upload.wikimedia.org/wikipedia/commons/e/e7/Peugeot_306_airbags_deployed.jpg)
 
- 
+<i>A relação direta entre o tempo de atuação da força e a diferença de momentos iniciais e finais de um dado corpo numa colisão motivaram a criação de dispositivos de segurança, como o airbag. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Peugeot_306_airbags_deployed.jpg" target="_blank">Wikimedia Commons</a></i>
+
+# Colisões elásticas e inelásticas 
 
 Chamamos colisões <b>elásticas</b> aquelas em que a energia cinética dos corpos é invariante durante o processo de colisão, isto é, os corpos possuem a mesma energia cinética antes e depois de colidirem. Qualquer outro cenário possui, portanto, dissipação de parte dessa energia (luz, calor, ...)  e é classificado como <b>inelástico</b>. 
 
 ## Colisões unidimensionais elásticas
 
 O caso inicial mais simples que podemos estudar é a colisão frontal unidimensional e elástica entre duas partículas. Além disso, daqui em diante, consideraremos um sistema sem a atuação de forças externas e, portanto, cujo momento total é conservado ao longo do tempo. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e5/Elastischer_sto%C3%9F3.gif)
+
+<i>Animação retratando uma colisão unidimensional elástica entre dois corpos. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Elastischer_sto%C3%9F3.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 Dessa forma, valem as equações
 
@@ -132,6 +138,10 @@ $$
 
 ou seja, as partículas trocam entre si seus momentos e suas velocidades. 
 
+![](https://upload.wikimedia.org/wikipedia/commons/c/c6/Elastischer_sto%C3%9F.gif)
+
+<i>Animação retratando o caso particular de massas iguais. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Elastischer_sto%C3%9F.gif" target="_blank">Wikimedia Commons</a>.</i>
+
 Um outro caso interessante é o de considerarmos uma partícula como um "alvo" em repouso. Esta situação ocorre quando $v_{2i} = p_{2i} = 0$, com sua análise tornando-se interessante ao considerarmos dois casos extremos. 
 
 Quando $m_1 \ll m_2$, temos que 
@@ -152,6 +162,10 @@ As colisões perfeitamente inelásticas são o extremo oposto das condições el
 A razão desta correspondência vem de uma de nossas suposições. Como o momento do sistema está sendo conservado, temos como consequência que o centro de massa deve estar em repouso ou em movimento retilíneo uniforme. Além disso, segue que neste estado pós-colisão não deve haver movimentos internos ao sistema, pois isso implicaria numa energia cinética maior, mas sim uma movimentação conjunta das partículas com o centro de massa. 
 
 Dessa forma, com estas restrições, podemos concluir que, em colisões perfeitamente inelásticas, duas partículas de massa $m_1$ e $m_2$ e velocidades $v_{1i}$ e $v_{2i}$ tornam-se após a colisão uma só partícula de massa $m = m_1 + m_2$ e velocidade final $v_f$. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/de/Inelastischer_sto%C3%9F.gif)
+
+<i>Animação retratando o caso de uma colisão unidimensional perfeitamente inelástica. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Inelastischer_sto%C3%9F.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 Pela conservação de momento, obtemos 
 
@@ -258,15 +272,39 @@ Ou seja, há um ângulo máximo de deflexão que uma partícula pesada pode sofr
 
 ## Colisões bidimensionais inelásticas
 
-<aside>
+Vamos imaginar uma configuração idêntica ao cenário anterior, exceto que dessa colisão surgem duas partículas de massa $m_3$ e $m_4$ e momentos $\vec{p_3}$ e $\vec{p_4}$. A inclusão de massas diferentes no pós-colisão permite a modelagem de fenômenos mais diversos, como reações nucleares. 
 
-<i>A partir daqui o manuscrito possui ainda muitos danos. Parece ser prudente esperar mais um pouco para que os copistas terminem sua restauração. Que tal retornar para <a href="/public/bookshelves.html">as estantes</a> e consultar outro material?</i>
+Assim, pela conservação de momento, agora temos
 
-</aside>
+$$
+\vec{p_1} = \vec{p_3} + \vec{p_4}
+$$
+
+com o raciocínio anterior do plano de colisão ainda sendo válido. Neste cenário, então, $\theta_3$ e $\theta_4$ são os ângulos de espalhamento das partículas no pós-colisão.
+
+Dado que a colisão é inelástica, podemos definir a grandeza 
+
+$$
+Q = T_f - T_i = T_3 + T_4 - T_1
+$$
+
+como o "fator Q" da colisão. Se $Q \lt 0$, parte da energia cinética é perdida e a colisão é chamada <b>endoérgica</b>. Caso contrário, o procesos é <b>exoérgico</b>.
+
+Temos ainda que a lei dos cossenos no triângulo formado no plano de colisão fornece 
+
+$$
+p_4^2 = (\vec{p_1} - \vec{p_3})^2 = p_1^2 + p_3^2 - 2p_1p_3 \cos{\theta_3}
+$$
+
+Escrevendo o momento de cada partícula em função de sua energia cinética, obtemos 
+
+$$
+T_4 = \dfrac{p_4^2}{2m_4} = \dfrac{m_1}{m_4}T_1 + \dfrac{m_3}{m_4}T_3 - 2\dfrac{\sqrt{m_1m_3T_1T_3}}{m_4}\cos{\theta_3}
+$$
+
+Uma conclusão semelhante ao fenômeno unidimensonal ocorre no caso particular de maior dissipação de energia cinética: uma única partícula com a massa das duas emerge, posssuindo a velocidade do centro de massa do sistema.
 
 # Referências 
-
- 
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
 2. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013

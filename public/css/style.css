@@ -82,8 +82,9 @@ h1 {
 
 /* ---------- Buttons ---------- */
 .main_buttons {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
 }
 
 button {
