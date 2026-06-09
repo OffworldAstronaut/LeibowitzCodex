@@ -218,17 +218,37 @@ bijetora e, portanto, um isomorfismo entre $L(U,V)$ e $M_{m \times n} (\mathbb{R
 
 ## Matriz de uma transformação composta 
 
-Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$ e bases $B = \{u_1, u_2, ..., u_n\}$, $C = \{v_1, v_2, ..., v_m\}$ e $D = \{w_1, w_2, ..., w_p\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à $(G \circ F)_{B, D}$ é dada por $(G)_{C,D} \cdot (F)_{B, C}$. 
+Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$ e bases $B = \{u_1, u_2, ..., u_n\}$, $C = \{v_1, v_2, ..., v_m\}$ e $D = \{w_1, w_2, ..., w_p\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à 
+
+$$
+(G \circ F)_{B, D}
+$$
+
+é dada por
+
+$$
+(G)_{C,D} \cdot (F)_{B, C}
+$$
 
 Esta igualdade pode ser verificada comparando o termo geral de $(G \circ F)_{B, D}$ com o termo geral da multiplicação das duas matrizes. 
 
 Como consequência direta da existência de matrizes de transformações compostas, além das noções básicas de mais anteriormente nesta seção, é possível definir a <b>matriz da transformação inversa</b> de uma transformação linear $F: U \to V$.
 
-De fato, se temos dois espaços vetoriais, $U$ e $V$, sobre $\mathbb{R}$ de mesma dimensão $n$ e bases $B$ e $C$, respectivamente, temos que $(F)_{B, C}$ é uma matriz inversível e sua inversa é $(F^{-1})_{B, C}$, representando essa transformação linear inversa. É importante lembrar que para esta função inversa estar definida, é necessário que $F$ seja bijetora, isto é, que $F: U \to V$ seja um isomorfismo entre $U$ e $V$. 
+De fato, se temos dois espaços vetoriais, $U$ e $V$, sobre $\mathbb{R}$ de mesma dimensão $n$ e bases $B$ e $C$, respectivamente, temos que
+
+$$
+(F)_{B, C}
+$$
+
+é uma matriz inversível e sua inversa é
+
+$$
+(F^{-1})_{B, C}
+$$
+
+representando essa transformação linear inversa. É importante lembrar que para esta função inversa estar definida, é necessário que $F$ seja bijetora, isto é, que $F: U \to V$ seja um isomorfismo entre $U$ e $V$. 
 
 Para visualizar uma outra consequência dessa definição, perceba que
-
-<aside>
 
 $$
 \begin{align*}
@@ -237,15 +257,11 @@ $$
 \end{align*}
 $$
 
-</aside>
-
 e, portanto, $I_n$ é a matriz do operador idêntico tanto de $U$ como de $V$.
 
 Destas conclusões podemos explorar um problema interessante. Considere um espaço vetorial $U$ sobre $\mathbb{R}$ de dimensão $n$ e duas bases deste espaço, $B = \{u_1, u_2, ..., u_n\}$ e $C = \{v_1, v_2, ..., v_n\}$. Considere ainda um operador linear de $U$, $T$. Dado duas matrizes $(T)_B$ e $(T)_C$, como relacioná-las por meio de uma expressão? Em outras palavras, como a matriz de um operador linear modifica-se ao considerarmos uma outra base, e como podemos obtê-la? 
 
 De início, sabemos que a matriz de mudança de base de $B$ para $C$ é da forma 
-
-<aside>
 
 $$
 M = (I)_{C, B}
@@ -263,9 +279,17 @@ $$
 M(T)_B M^{-1}=(I)_{C, B} (T)_B (I)_{B, C} = (I)_{C, B}(T)_{B, C} = (T)_C
 $$
 
-</aside>
-
 ## Matrizes semelhantes 
+
+Considere duas matrizes quadradas de ordem $n$, $P$ e $Q$. Dizemos que $P$ é <b>semelhante</b> a $Q$ se, e somente se, existe uma matriz inversível $M_{n \times n}$ de forma que seja possível afirmar
+
+$$
+P = M^{-1}QM
+$$
+
+Essa relação é importante no estudo da álgebra linear pois, caso $P$ e $Q$ sejam semelhantes, elas representam o mesmo operador linear, porém em bases diferentes. É interessante mencionar que a recíproca também é verdadeira: duas matrizes de um mesmo operador linear são semelhantes. 
+
+Dessa descrição é perceptível que $M$ é a <b>matriz de mudança de base</b> do operador linear.
 
 # Espaço dual
 
@@ -289,7 +313,7 @@ Dado então $u = (x_1, ..., x_n) \in \mathbb{R}^n$, temos que $u = x_1e_1 + ... 
 Como a aplicação $F: \mathbb{R}^n \to \mathbb{R}$, com $F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n$ é uma forma linear sobre $\mathbb{R}^n$, podemos afirmar então que 
 
 $$
-F \in (\mathbb{R}^n)^* \iff \exist k_1, ..., k_n \in \mathbb{R} | F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n \forall (x_1, ..., x_n) \in \mathbb{R}^n
+F \in (\mathbb{R}^n)^* \iff \exists k_1, ..., k_n \in \mathbb{R} | F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n \forall (x_1, ..., x_n) \in \mathbb{R}^n
 $$
 
 Isto é, que uma aplicação $F$ é um funcional linear de $\mathbb{R}^n$ se, e somente se, existem escalares $k_1, ..., k_n$ reais tais que, para todo vetor pertencente ao $\mathbb{R}^n$, a aplicação desse vetor resulte na combinação linear de suas coordenadas e dos escalares $k_1, ..., k_n$. 

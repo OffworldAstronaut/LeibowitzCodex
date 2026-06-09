@@ -37,7 +37,7 @@ Assim, quando um conjunto $V$ satisfaz os axiomas acima descritos, este recebe a
 3. $\forall \alpha \in \mathbb{R}, \alpha o = o$
 4. $\forall u \in V, 0u = o$ 
 5. $\alpha u = 0 \iff \alpha = 0$ ou $u = 0$
-6. $\forall \alpha in \mathbb{R}$ e $\forall u \in V$, $(-\alpha)u = \alpha(-u) = -(\alpha u)$
+6. $\forall \alpha \in \mathbb{R}$ e $\forall u \in V$, $(-\alpha)u = \alpha(-u) = -(\alpha u)$
 7. Quaisquer que sejam $\alpha, \beta \in \mathbb{R}$ e $u \in V$, $(\alpha - \beta)u = \alpha u - \beta u$
 8. Quaisquer que sejam $\alpha \in \mathbb{R}$ e $u, v \in V$, $\alpha(u - v) = \alpha u - \alpha v$ 
 9. Dados $\beta, \alpha_1, ..., \alpha_n \in \mathbb{R}$ e $u_1, ..., u_n \in V$, então 

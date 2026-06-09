@@ -143,8 +143,6 @@ $$
 
 Ou seja, para somar duas matrizes, basta somar elemento a elemento.
 
-<aside>
-
 Para essa operação valem algumas propriedades. Considere $A, B, C \in M_{m \times n} (\mathbb{R})$.
 
 <table>
@@ -169,8 +167,6 @@ Para essa operação valem algumas propriedades. Considere $A, B, C \in M_{m \ti
         <td>existência do elemento oposto para qualquer matriz</td>
     </tr>
 </table>
-
-</aside>
 
 <aside>
 
@@ -304,8 +300,6 @@ $$
 
 Isto é, o produto entre uma matriz e um número real $\lambda$ retorna uma matriz em que os elementos da matriz original foram multiplicados por $\lambda$.
 
-<aside>
-
 Para esta operação valem as seguintes propriedades:
 
 <table>
@@ -330,8 +324,6 @@ Para esta operação valem as seguintes propriedades:
         <td>existência de elemento neutro</td>
     </tr>
 </table>
-
-</aside>
 
 <aside>
 
@@ -396,8 +388,6 @@ $$
 \end{pmatrix}_{2 \times 2}
 $$
 
-<aside>
-
 No produto entre matrizes valem as seguintes propriedades. Considere $A_{m \times n}, B_{n \times p}, C_{p \times q}$.
 
 <table>
@@ -414,8 +404,6 @@ No produto entre matrizes valem as seguintes propriedades. Considere $A_{m \time
         <td>propriedade distributiva em relação à adição</td>
     </tr>
 </table>
-
-</aside>
 
 <aside>
 
