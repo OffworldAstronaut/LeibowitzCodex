@@ -1,6 +1,6 @@
-# Sequências 
+# Autovalores e autovetores
 
-# Sequências
+# Autovalores e autovetores
 
 <aside>
 

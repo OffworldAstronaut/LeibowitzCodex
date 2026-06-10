@@ -173,7 +173,7 @@ $$
 g_2 = \dfrac{v_2}{||v_2||} = \left(0, \dfrac{\sqrt{2}}{2}, \dfrac{\sqrt{2}}{2}\right) 
 $$
 
-Excelente. Agora temos $B' = \left\{g_1 = (1, 0, 0), g_2 = \left(0, \dfrac{\sqrt{2}}{2}, \dfrac{\sqrt{2}}{2}\right)\right\}$ como uma base ortonormal de um subespaço do $\mathbb{R}^3$ de dimensão 2 — um plano!
+Excelente. Agora temos $B' = \left\{ g_1 = (1, 0, 0), g_2 = \left(0, \dfrac{\sqrt{2}}{2}, \dfrac{\sqrt{2}}{2}\right) \right\}$ como uma base ortonormal de um subespaço do $\mathbb{R}^3$ de dimensão 2 — um plano!
 
 Aplicando esse processo novamente, podemos ver que o vetor 
 
