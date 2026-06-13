@@ -87,7 +87,7 @@ $$
 
 ## Corpos extensos
 
-Chamamos <b>corpos extensos</b> (ou ainda corpos <b>rídigos</b> ou <b>extensos</b>) aqueles cujas dimensões são relevantes para sua dinâmica, corpos que não podem ser considerados como pontos no espaço. Note que podemos imaginar estes corpos como infinitos pontos materiais de massa infinitesimal. Assim, adaptando a expressão regular para a posição do centro de massa, obtemos 
+Chamamos <b>corpos extensos</b> aqueles cujas dimensões são relevantes para sua dinâmica, corpos que não podem ser considerados como pontos no espaço. Note que podemos imaginar estes corpos como infinitos pontos materiais de massa infinitesimal. Assim, adaptando a expressão regular para a posição do centro de massa, obtemos 
 
 $$
 \dfrac{1}{M} \sum_{i = 1}^N m_i \vec{r_i} \overset{N \to \infty \text{, }m_i \to 0}{=} \dfrac{1}{M} \int_0^M \vec{r} \ dm
@@ -172,7 +172,6 @@ $$
     \therefore m\dfrac{d\vec{v}}{dt} + \dfrac{dm}{dt}\vec{v} &= -\dfrac{dm}{dt}\vec{v_e} + \dfrac{dm}{dt}\vec{v} = \dfrac{dm}{dt}\vec{v_{rel}} + \dfrac{dm}{dt}\vec{v} \\  
     \therefore m\dfrac{d\vec{v}}{dt} + \dfrac{dm}{dt}\vec{v} &= \dfrac{dm}{dt}(\vec{v} - \vec{v_e}) = \dfrac{dm}{dt}(\vec{v} + \vec{v_{rel}}) \\ 
     \therefore \dfrac{d\vec{P}}{dt} &= \dfrac{dm}{dt}(\vec{v} - \vec{v_e}) = \dfrac{dm}{dt}(\vec{v} + \vec{v_{rel}})
-
 \end{align*}
 $$
 
