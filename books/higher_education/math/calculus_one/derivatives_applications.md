@@ -1,14 +1,12 @@
-# Derivadas II — Aplicações
+# Aplicações das derivadas
 
 # Teorema de Rolle
-
-
 
 O teorema de Rolle é um importante teorema da análise real que permite a identificação dos máximos e mínimos de uma função. Esta identificação é realizada por meio dos pontos em que a função derivada possui um valor nulo: qualquer ponto fora deste "equilíbrio" terá uma tendência de acréscimo ou decréscimo, a menos que a função seja constante em todo o intervalo.
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Teorema de Rolle)</b> — Se $f$ for contínua em $[a, b]$, derivável em $(a, b)$ e $f(a)=f(b)$, então existirá pelo menos um $c \in (a, b)$ tal que $f'(c) = 0$. 
+<b>GUIDORIZZI 2001, Teorema de Rolle</b> — Se $f$ for contínua em $[a, b]$, derivável em $(a, b)$ e $f(a)=f(b)$, então existirá pelo menos um $c \in (a, b)$ tal que $f'(c) = 0$. 
 
 <b>Demonstração</b> — Se $f$ for constante em $[a, b]$, então $f'(x)=0$ em $(a,b)$; logo, existirá $c \in (a, b)$ tal que $f'(c)=0$. Suponhamos então, que $f$ não seja constante em $[a, b]$. Como $f$ é contínua no intervalo fechado $[a,b]$, pelo teorema de Weierstrass, existem $x_1$ e $x_2$ em $[a,b]$ tais que $f(x_1)$ e $f(x_2)$ são, respectivamente, os valores máximo e mínimo de $f$ em $[a,b]$. Como $f(x_1) \neq f(x_2)$, pois estamos supondo $f$ não-constante em $[a,b]$, segue que $x_1$ ou $x_2$ pertence a $(a,b)$. Portanto, existe $c \in (a,b)$ tal que $f'(c) = 0$. 
 
@@ -18,7 +16,7 @@ Como a prova acima baseia-se no teorema de Weierstrass, também conhecido pela d
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Teorema de Weierstrass)</b> — Se $f$ for contínua em $[a,b]$, então existirão $x_1$ e $x_2$ em $[a,b]$ tais que $f(x_1) \le f(x) \le f(x_2)$ para todo $x \in [a,b]$. 
+<b>GUIDORIZZI 2001, Teorema de Weierstrass</b> — Se $f$ for contínua em $[a,b]$, então existirão $x_1$ e $x_2$ em $[a,b]$ tais que $f(x_1) \le f(x) \le f(x_2)$ para todo $x \in [a,b]$. 
 
 <b>Demonstração</b> — Sendo $f$ contínua em $[a,b]$, $f$ será limitada em $[a,b]$, daí o conjunto 
 
@@ -67,7 +65,7 @@ Perceba que para demonstrar o teorema de Weierstrass foram necessárias noções
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Definição de função limitada)</b> — Dizemos que $f$ é <i>limitada</i> em $A \subset D_f$ se existir $M > 0$ tal que, para todo $x$ em $A$
+<b>GUIDORIZZI 2001, Definição de função limitada</b> — Dizemos que $f$ é <i>limitada</i> em $A \subset D_f$ se existir $M > 0$ tal que, para todo $x$ em $A$
 
 $$
 |f(x)| \le M
@@ -79,7 +77,7 @@ Da definição acima, segue que, se $f$ não for limitada em $B \subset D_f$, pa
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Teorema da limitação)</b> — Se $f$ for contínua no intervalo fechado $[a,b]$, então $f$ será limitada em $[a,b]$. 
+<b>GUIDORIZZI 2001, Teorema da limitação</b> — Se $f$ for contínua no intervalo fechado $[a,b]$, então $f$ será limitada em $[a,b]$. 
 
 <b>Demonstração</b> — Suponhamos, por absurdo, que $f$ não seja limitada em $[a,b]$. Façamos $a = a_1$ e $b = b_1$; existe, então, $x_1 \in [a_1,b_1]$ tal que $|f(x_1) > 1$. Seja $c_1$ o ponto médio de $[a_1, b_1]$; $f$ não será limitada em um dos intervalos $[a_1, c_1]$ ou $[c_1, b_1]$; suponhamos que não seja limitada em $[c_1, b_1]$ e façamos $a_2 = c_1$ e $b_2 = b_1$. Não sendo $f$ limitada em $[a_2, b_2]$, existirá $x_2 \in [a_2, b_2]$ tal que $|f(x_2)| \gt 2$. Prosseguindo com este raciocínio, construiremos uma sequência de intervalos
 
@@ -109,7 +107,7 @@ O **teorema do valor médio** (**de Lagrange**) é tido como um dos mais importa
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Teorema do Valor Médio)</b> — Seja $f$ uma função real definida no intervalo fechado $[a,b]$ e diferenciável no intervalo aberto $(a,b)$. Logo, existirá pelo menos um $c \in (a,b)$ tal que 
+<b>GUIDORIZZI 2001, Teorema do Valor Médio</b> — Seja $f$ uma função real definida no intervalo fechado $[a,b]$ e diferenciável no intervalo aberto $(a,b)$. Logo, existirá pelo menos um $c \in (a,b)$ tal que 
 
 $$
 f'(c) = \dfrac{f(b)-f(a)}{b-a}
@@ -162,7 +160,7 @@ Um outro teorema ainda mais geral pode ser deduzido, sendo de boa utilidade. De 
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Teorema de Cauchy)</b> — Se $f$ e $g$ forem contínuas em $[a,b]$ e deriváveis em $(a,b)$, então existirá pelo menos um $c \in (a,b)$ tal que
+<b>GUIDORIZZI 2001, Teorema de Cauchy</b> — Se $f$ e $g$ forem contínuas em $[a,b]$ e deriváveis em $(a,b)$, então existirá pelo menos um $c \in (a,b)$ tal que
 
 $$
 [f(b) - f(a)]g'(c) = [g(b)-g(a)]f'(c)
@@ -202,7 +200,7 @@ Esta simplificação, com efeito, permite a solução de indeterminações de ti
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Primeira regra de L'Hôpital)</b> — Sejam $f$ e $g$ deriváveis em $(p - r, p)$ e em $(p, p+r)$ com $r \gt 0$. Além disso, $g'(x) \neq 0$ para $0 \lt |x - p| \lt r$. Nestas condições, se 
+<b>GUIDORIZZI 2001, Primeira regra de L'Hôpital</b> — Sejam $f$ e $g$ deriváveis em $(p - r, p)$ e em $(p, p+r)$ com $r \gt 0$. Além disso, $g'(x) \neq 0$ para $0 \lt |x - p| \lt r$. Nestas condições, se 
 
 $$
 \begin{align*}
@@ -223,7 +221,7 @@ Note que esta regra continua válida caso $x \to p$ seja substituido por $x \to 
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Segunda regra de L'Hôpital)</b> — Sejam $f$ e $g$ deriváveis em $(m, p)$ com $g'(x)\neq 0$ em $(m, p)$. Nestas condições, se 
+<b>GUIDORIZZI 2001, Segunda regra de L'Hôpital</b> — Sejam $f$ e $g$ deriváveis em $(m, p)$ com $g'(x)\neq 0$ em $(m, p)$. Nestas condições, se 
 
 $$
 \begin{align*}
@@ -282,8 +280,6 @@ A partir dessas observações, podemos ver que as duas derivadas nos fornecem al
 
 # Taxas relacionadas
 
-
-
 Os problemas de **taxas relacionadas** são problemas de cálculo relativamente comuns. Nesses problemas, temos taxas de variação produtos da mesma causa e, por isso, relacionadas entre si. 
 
 Podemos citar como exemplo a questão abaixo, formulada pelo prof. Dr. José Carlos de Lima, do Instituto de Matemática da UFAL: 
@@ -316,9 +312,88 @@ $$
 
 Ou seja, quando o diâmetro do balão for 50 cm, seu raio está crescendo numa taxa de $400 \text{/} \pi$ centímetros por segundo.
 
-# Referências 
+# Fórmula de Taylor
 
+É possível aproximar localmente uma função diferenciável por meio de uma função afim. De fato, dada uma função $f(x)$, a função 
+
+$$
+T(x) = f(x_0) + f'(x_0)(x-x_0)
+$$
+
+é a reta tangente ao gráfico de $f(x)$ no ponto $(x_0, f(x_0))$.
+
+A função $T(x)$ recebe então o nome de <b>polinômio de Taylor</b> de $f$ de ordem 1 em volta de $x_0$. Com efeito, é possível montar uma expressão para o erro dessa aproximação linear em termos da segunda derivada de $f$. Na verdade, podemos continuar aumentando a precisão das nossas aproximações em torno de $x_0$ o tanto quanto quisermos, com polinômios de grau cada vez maiores, os <b>polinômios de Taylor</b>.
+
+<aside>
+
+<b>Teorema</b> — Seja $f$ diferenciável de ordem $n$ no intervalo $I$, e seja $x_0 \in I$. 
+O polinômio 
+
+$$
+P(x) = f(x_0) + f'(x_0)(x-x_0) + \dfrac{f''(x_0)}{2!}(x-x_0)^2 + ... + \dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n
+$$
+
+é dito o polinômio de Taylor, de ordem $n$, de $f$ em torno de $x_0$. Vale mencionar brevemente que quando $x_0 = 0$, denominamos estes polinômios como <b>polinômios de MacLaurin</b>. 
+
+<aside>
+
+<b>Teorema (fórmula de Taylor com resto de Lagrange)</b> — Seja $f$ diferenciável de ordem $n+1$ no intervalo $I$ e sejam $x, x_0 \in I$. Existe, então, pelo menos um $\bar{x}$ no intervalo aberto de extremos $x_0$ e $x$ de forma que 
+
+$$
+f(x) = P(x) + \dfrac{f^{(n+1)}(\bar{x})}{(n+1)!}(x-x_0)^{n+1}
+$$
+
+com $P(x)$ sendo o polinômio de Taylor de ordem $n$, como exposto anteriormente.
+
+</aside>
+
+<aside>
+
+<b>Teorema</b> — Seja $f$ derivável até a segunda ordem no intervalo $I$, com $x_0 \in I$. Logo, existe $M \gt 0$ tal que $|f''(x)| \le M, \forall x \in I$ e, além disso, para todo $x \in I$ vale 
+
+$$
+|f(x) - P(x)| \le \dfrac{M}{2}|x - x_0|^2 
+$$
+
+com $P(x) = f(x_0) + f'(x_0)(x-x_0)$.
+
+</aside>
+
+<aside>
+
+<b>Exemplo</b> — Aproxime a função $\ln{x}$ no ponto $x_0 = 1.003$.
+
+Fazendo $f(x) = \ln{x}$, temos que o polinômio de Taylor de ordem 1 de $f$ nos arredores de $x_0 = 1$ é 
+
+$$
+P(x) = f(1) + f'(1)(x-1)
+$$
+
+Como $f(1) = 0$ e $f'(1) = 1$, temos que $P(x) = x - 1$. Logo, por Taylor, $\ln{1.003} \approx 0.003$. Como podemos avaliar o erro de aproximação? Note que como não sabemos $\bar{x}$, o teorema anterior nos fornece uma maneira de estimar o erro.
+
+Como $f'(x) = \dfrac{1}{x}$ e $f''(x) = -\dfrac{1}{x^2}$, temos que $|f'(x)| \le 1, \forall x \ge 1$. Logo, pelo teorema anterior, temos uma função $f$ derivável no intervalo $(1, + \infty)$ com $M = 1 \gt 0$ de forma que $|f''(x)| \le 1, \forall x \in (1, + \infty)$. Assim, vale também $|\ln{x} - (x - 1)| \le \dfrac{1}{2}|x-1|^2$, $\forall x \in (1, + \infty)$. 
+
+Finalmente, tomando $x = 1.003$, temos $|\ln{1.003} - 0.003| \le 0.0000045$. Completamos nossa estimativa: temos um erro de aproximação menor que $10^{-5}$!
+
+A importância da fórmula de Taylor reside nestas aproximações: era este o método para encontrar os valores de funções como senos, cossenos e logaritmos para a confecção das antigas tábuas, hoje caídas em desuso em função das calculadoras e computadores, de fácil acesso. Todos os algoritmos para aproximação de funções presentes hoje nessas máquinas se baseiam na fórmula de Taylor. 
+
+</aside>
+
+# Método de Newton-Raphson
+
+O <b>método de Newton-Raphson</b>, nomeado em homenagem aos matemáticos Isaac Newton — e físico — e Joseph Raphson, é um método iterativo para a computação de raízes de equações. Como algoritmo, formalizamos o método da seguinte forma. 
+
+Seja $f(x)$ uam função bem comportada (contínua, sem bicos, ...) com $r \in \mathbb{R}$ de forma que $f(r) = 0$. Seja ainda $x_0$ uma estimativa inicial para $r$. Cada nova estimativa $x_{n+1}$ será então dada pela expressão 
+
+$$
+x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}
+$$
+
+É notável mencionar que o método de Newton fica extremamente mais impreciso para funções menos comportadas, com más escolhas para $x_0$ também contribuindo para uma possível imprecisão. Entretanto, para funções mais simples, o método é acurado e de rápida convergência.
+
+# Referências 
 
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.
+3. ANSTEE, Richard. <i>The Newton-Raphson Method</i>. Notas de aula. (<a href="https://personal.math.ubc.ca/~anstee/math104/newtonmethod.pdf" target="_blank">Acesse aqui!</a>)
