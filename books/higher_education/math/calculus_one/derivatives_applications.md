@@ -335,6 +335,8 @@ $$
 
 é dito o polinômio de Taylor, de ordem $n$, de $f$ em torno de $x_0$. Vale mencionar brevemente que quando $x_0 = 0$, denominamos estes polinômios como <b>polinômios de MacLaurin</b>. 
 
+</aside>
+
 <aside>
 
 <b>Teorema (fórmula de Taylor com resto de Lagrange)</b> — Seja $f$ diferenciável de ordem $n+1$ no intervalo $I$ e sejam $x, x_0 \in I$. Existe, então, pelo menos um $\bar{x}$ no intervalo aberto de extremos $x_0$ e $x$ de forma que 
