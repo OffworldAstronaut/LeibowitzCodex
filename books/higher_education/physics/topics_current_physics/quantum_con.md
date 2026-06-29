@@ -1,3 +1,5 @@
+# Do Charlatanismo Quântico
+
 # Introdução
 
 A revolução quântica entre os anos finais do século XIX e o inı́cio do século XX provou ser uma das maiores transformações sofridas pela Fı́sica. Entretanto, pela sua notável dificuldade de compreensão e interpretação por acadêmicos e não-acadêmicos, a mecânica quântica tornou-se objeto de crenças pseudocientı́ficas com tópicos variando da metafı́sica a uma espécie de medicina alternativa.

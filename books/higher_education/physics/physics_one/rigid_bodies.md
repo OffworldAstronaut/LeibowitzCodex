@@ -268,10 +268,6 @@ Uma consequência interessante dessa formulação é que, fixado um instante do 
 
 Essa característica do rolamento puro permite sua descrição como uma rotação pura em torno do ponto de contato com o solo em cada instante.
 
-# Momento angular e velocidade angular
-
-
-
 # Referências
 
 1. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013

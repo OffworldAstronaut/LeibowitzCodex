@@ -2,12 +2,13 @@
     color-scheme: light dark;
 
     /* ── Papery light palette ── */
-    --bg:          light-dark(#f5f0e8, #0c0c0c);
-    --surface:     light-dark(#ede7d9, #1a1919);
-    --surface-hover: light-dark(#e0d8c8, #2a2828);
-    --text:        light-dark(#1c1812, #faf9f6);
-    --text-muted:  light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85));
-    --link:        light-dark(#7a4f1e, wheat);
+    --bg:                   light-dark(#f5f0e8, #0c0c0c);
+    --surface:              light-dark(#ede7d9, #1a1919);
+    --surface-hover:        light-dark(#e0d8c8, #2a2828);
+    --text:                 light-dark(#1c1812, #faf9f6);
+    --text-muted:           light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85));
+    --link:                 light-dark(#7a4f1e, wheat);
+    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
 }
 
 body {
@@ -140,4 +141,8 @@ input,
 textarea,
 [contenteditable="true"] {
     cursor: url('/cursors/featherpentextselect.cur'), text;
+}
+
+::selection { 
+    background: var(--selection-hl)
 }
