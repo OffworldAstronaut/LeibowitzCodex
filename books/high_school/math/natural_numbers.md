@@ -110,7 +110,7 @@ Por fim, podemos demonstrar a validade dessas opreações para todos os naturais
 
 ## Ordem entre os naturais
 
-No conjunto dos números naturais há uma relação entre dois elementos que chamamos <b>relação de ordem</b>. Essa relação, dados dois naturais $m$ e $n$, é denotada por $m \lt n$ e lida como "$m$ é menor que $n$" se existe algum $p$ natural tal que $n = m + p$. 
+No conjunto dos números naturais há uma relação entre dois elementos que chamamos <b>relação de ordem</b>. Essa relação, dados dois naturais $m$ e $n$, é denotada por $m \lt n$ e lida como "m é menor que n" se existe algum $p$ natural tal que $n = m + p$. 
 
 Essa relação, $m \lt n$, ainda tem algumas propriedades. 
 
@@ -134,7 +134,7 @@ Essa relação, $m \lt n$, ainda tem algumas propriedades.
 
 <aside>
 
-<b>4ª Propriedade (Boa ordenação)</b> — Todo subconjunto não vazio $X \sub \mathbb{N}$ possui um menor elemento.
+<b>4ª Propriedade (Boa ordenação)</b> — Todo subconjunto não vazio $X \subset \mathbb{N}$ possui um menor elemento.
 
 </aside>
 

@@ -381,17 +381,27 @@ A importância da fórmula de Taylor reside nestas aproximações: era este o m�
 
 </aside>
 
+Uma das aplicações mais conhecidas da aproximação de Taylor é o caso da função seno, $f(x) = \sin{x}$. Esta função é fundamental para a descrição física de movimentos harmônicos, como o movimento harmônico simples (MHS). Em sua resolução, uma aproximação conveniente é feita, $\sin{x} \approx x$, baseando-se na precisão cada vez maior da linearização para $x \to 0$. 
+
+Como exemplo ligeriamente diferente, ilustramos abaixo as diferentes aproximações para $f(x)=\sin{x}$ no ponto $x_0 = \dfrac{\pi}{2}$ com polinômios de Taylor de diversos graus. 
+
+![](/books/higher_education/math/calculus_one/images/derivatives_applications/taylor_sinx_pi2.png)
+
 # Método de Newton-Raphson
 
 O <b>método de Newton-Raphson</b>, nomeado em homenagem aos matemáticos Isaac Newton — e físico — e Joseph Raphson, é um método iterativo para a computação de raízes de equações. Como algoritmo, formalizamos o método da seguinte forma. 
 
-Seja $f(x)$ uam função bem comportada (contínua, sem bicos, ...) com $r \in \mathbb{R}$ de forma que $f(r) = 0$. Seja ainda $x_0$ uma estimativa inicial para $r$. Cada nova estimativa $x_{n+1}$ será então dada pela expressão 
+Seja $f(x)$ uma função bem comportada (contínua, sem bicos, ...) com $r \in \mathbb{R}$ de forma que $f(r) = 0$. Seja ainda $x_0$ uma estimativa inicial para $r$. Cada nova estimativa $x_{n+1}$ será então dada pela expressão 
 
 $$
 x_{n+1} = x_n - \dfrac{f(x_n)}{f'(x_n)}
 $$
 
 É notável mencionar que o método de Newton fica extremamente mais impreciso para funções menos comportadas, com más escolhas para $x_0$ também contribuindo para uma possível imprecisão. Entretanto, para funções mais simples, o método é acurado e de rápida convergência.
+
+Abaixo temos um exemplo da execução do método de Newton-Raphson para determinação das raízes do polinômio $P(x) = 5x^4 - 10x^3 + 2x^2 - 2x + 2$. 
+
+![](/books/higher_education/math/calculus_one/images/derivatives_applications/newton_convergence.png)
 
 # Referências 
 

@@ -26,11 +26,11 @@ Podemos facilmente representá-los pela propriedade lógica da <b>identidade</b>
 
 Assim como podemos relacionar números ou outros objetos simples com conjuntos por uma relação de <b>pertencimento</b>, podemos relacionar conjuntos com outros conjuntos por uma relação de <b>inclusão</b>.
 
-Para introduzir a noção desta relação, vamos imaginar dois conjuntos $A$ e $B$. Se todo elemento de $A$ também for elemento de $B$, dizemos que $A$ <b>está contido em</b> ou então <b>é subconjunto de</b> $B$. Denotamos esta relação (de inclusão) por $A \sub B$. Por outro lado, quando $A$ não está contido em $B$, representados por $A \not\sub B$. 
+Para introduzir a noção desta relação, vamos imaginar dois conjuntos $A$ e $B$. Se todo elemento de $A$ também for elemento de $B$, dizemos que $A$ <b>está contido em</b> ou então <b>é subconjunto de</b> $B$. Denotamos esta relação (de inclusão) por $A \subset B$. Por outro lado, quando $A$ não está contido em $B$, representados por $A \not\subset B$. 
 
-Desta relação podemos extrair algumas propriedades importantes. Dados três conjuntos $A$, $B$ e $C$, vale que: $A \sub A$, para todo $A$; se $A \sub B$ e $B \sub A$, então $A = B$; se $A \sub B$ e $B \sub C$, então $A \sub C$.
+Desta relação podemos extrair algumas propriedades importantes. Dados três conjuntos $A$, $B$ e $C$, vale que: $A \subset A$, para todo $A$; se $A \subset B$ e $B \subset A$, então $A = B$; se $A \subset B$ e $B \subset C$, então $A \subset C$.
 
-Além disso, para todo conjunto $A$ temos que $\empty \sub A$ (o conjunto vazio é um subconjunto de qualquer outro). Esta propriedade motiva a definição de um chamado <b>subconjunto próprio</b>. Dizemos que um conjunto $A$ é um subconjunto próprio de um conjunto $B$ se, simultaneamente, $A \sub B$, $A \neq \empty$ e $A \neq B$.
+Além disso, para todo conjunto $A$ temos que $\emptyset \subset A$ (o conjunto vazio é um subconjunto de qualquer outro). Esta propriedade motiva a definição de um chamado <b>subconjunto próprio</b>. Dizemos que um conjunto $A$ é um subconjunto próprio de um conjunto $B$ se, simultaneamente, $A \subset B$, $A \neq \emptyset$ e $A \neq B$.
 
 <aside>
 
@@ -42,14 +42,14 @@ Além disso, para todo conjunto $A$ temos que $\empty \sub A$ (o conjunto vazio 
 
 Para começarmos a falar de complementares, temos que primeiro introduzir a noção de <b>conjunto universo</b>, geralmente denotado por $U$. Dizemos que o conjunto universo é um conjunto que fixamos e que contém todos os possíveis conjuntos e elementos de nossa consideração (por isso "Universo").
 
-Dessa forma, considere um conjunto $A \sub U$. Definimos o <b>conjunto complementar de $A$</b> ou simplesmente o <b>complementar</b> de $A$ como o conjunto formado por todos os elementos de $U$ que não estão em $A$. Podemos denotá-lo por $A^C$.
+Dessa forma, considere um conjunto $A \subset U$. Definimos o <b>conjunto complementar de $A$</b> ou simplesmente o <b>complementar</b> de $A$ como o conjunto formado por todos os elementos de $U$ que não estão em $A$. Podemos denotá-lo por $A^C$.
 
 Da complementaridade podemos verificar duas propriedades: todo conjunto é complementar de seu complementar; se um conjunto está contido em outro, seu complementar contém o complementar desse outro. 
 
 Se utilizarmos da simbologia lógica, podemos expressar a primeira propriedade por $(A^C)^C = A$ e a segunda propriedade pela equivalência 
 
 $$
-A \sub B \iff B^C \sub A^C
+A \subset B \iff B^C \subset A^C
 $$
 
 Essa equivalência pode ser interepretada sob a visão das proposições lógicas. Sendo $P$ e $Q$ proposições, temos que vale 
@@ -58,7 +58,7 @@ $$
 P \implies Q \iff Q' \implies P'
 $$
 
-A afirmação $Q' \implies P'$ é chamada <b>contrapositiva</b> de $P \implies Q$. A utilização de contrapositiva pode ser útil na confecção de provas e visualização de teoremas. Por fim, como curiosidade, temos que $U^C = \empty$ e $\empty^C = U$.
+A afirmação $Q' \implies P'$ é chamada <b>contrapositiva</b> de $P \implies Q$. A utilização de contrapositiva pode ser útil na confecção de provas e visualização de teoremas. Por fim, como curiosidade, temos que $U^C = \emptyset$ e $\emptyset^C = U$.
 
 # Reunião e intersecção
 
@@ -97,15 +97,15 @@ $$
 Além disso, valem a equivalência
 
 $$
-A \cup B = B \iff A \sub B \iff A \cap B = A
+A \cup B = B \iff A \subset B \iff A \cap B = A
 $$
 
 e as implicações 
 
 $$
 \begin{align*}
-    A \sub B &\implies A \cup C \sub B \cup C \\ 
-    A \sub B &\implies A \cap C \sub B \cap C
+    A \subset B &\implies A \cup C \subset B \cup C \\ 
+    A \subset B &\implies A \cap C \subset B \cap C
 \end{align*}
 $$
 
