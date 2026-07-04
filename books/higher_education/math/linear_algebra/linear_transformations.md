@@ -59,15 +59,51 @@ $$
 
 Desta definição inicial decorre que o núcleo de uma transformação linear é um subespaço vetorial de $U$ e que $F$ é injetora se, e somente se, seu núcleo conter apenas o vetor nulo. 
 
-## Teorema do núcleo e da imagem 
+Um resultado interessante que pode ser extraído é o seguinte:
 
-Dados dois espaços vetoriais $U$ e $V$ sobre $\mathbb{R}$, ambos com dimensão finita, então, para uma transformação linear qualquer $F: U \to V$, vale 
+<aside>
+
+<b>Teorema</b> — Dada uma transformação linear $T: U \to V$, é válido que $\dim{\ker{T}} \le \dim{U}$ e, ao mesmo tempo, é válido que $\dim{\text{Im}(T)} \le \min{\{\dim{U}, \dim{V}\}}$. 
+
+</aside>
+
+Além disso, um outro teorema relaciona o núcleo e a imagem de uma transformação por uma importante equação:
+
+<aside>
+
+<b>Teorema (do Núcleo e da Imagem)</b> — Dados dois espaços vetoriais $U$ e $V$ sobre $\mathbb{R}$, ambos com dimensão finita, então, para uma transformação linear qualquer $F: U \to V$, vale 
 
 $$
 \dim{U} = \dim{\ker{F}} + \dim{\text{Im}(F)}
 $$
 
-Como corolário deste teorema, temos que as seguintes afirmações são equivalentes: $F$ é sobrejetora; $F$ é bijetora; $F$ é injetora$; $F$ transforma uma base de $U$ em uma base de $V$. 
+</aside>
+
+<aside>
+
+<b>Corolário</b> — São equivalentes as afirmações: $F$ é sobrejetora; $F$ é bijetora; $F$ é injetora; $F$ transforma uma base de $U$ em uma base de $V$. 
+
+</aside>
+
+Estes teoremas em conjunto ainda fornecem condições para que determinados subespaços sejam imagens ou núcleos de transformações lineares. Com efeito, se $Z$ for o núcleo de uma transformação linear $T$, temos que 
+
+$$
+\dim{U} = \dim{Z} + \dim{\text{Im}(T)} \le \dim{Z} + \dim{V}
+$$
+
+assim, a desigualdade 
+
+$$
+\dim{U} - \dim{V} \le \dim{Z}
+$$
+
+é a única condição necessária para que um subespaço $Z$ seja o núcleo de alguma transformação linear de $U$ em $V$. Com efeito, podemos resumir essas investigações num terceiro teorema. 
+
+<aside>
+
+<b>Teorema</b> — Sejam $U$ e $V$ espaços vetoriais de dimensão finita. Um subespaço $Z$ de $U$ é o núcleo de uma transformação linear de $U$ em $V$ se, e somente se, $\dim{Z} \ge \dim{U} - \dim{V}$. Além disso, um subespaço $W$ de $V$ é a imagem de uma transformação linear de $U$ em $V$ se, e somente se, $\dim{W} \le \dim{U}$.
+
+</aside>
 
 ## Isomorfismo e automorfismo
 
@@ -291,6 +327,122 @@ Essa relação é importante no estudo da álgebra linear pois, caso $P$ e $Q$ s
 
 Dessa descrição é perceptível que $M$ é a <b>matriz de mudança de base</b> do operador linear.
 
+## Interpretando matrizes-transformações
+
+Como notado no início dessa seção, é possível interpretar matrizes como transformações e transformações como matrizes. Essa bijeção nos permite introduzir conceitos como <b>núcleo</b>, <b>imagem</b>, <b>nulidade</b> e <b>posto</b> de uma dada matriz. 
+
+Na verdade, essa bijeção entre transformações lineares e matrizes é tão importante que inaugurou duas maneiras de "enxergar" a Álgebra Linear. A primeira maneira é mais algébrica, enquanto a segunda se utiliza quase em sua totalidade de uma linguagem matricial. 
+
+Assim, sendo $A$ uma matriz $m$ por $n$ — uma transformação linear de $U$ em $V$, com $\dim{U} = n$ e $\dim{V} = m$ — podemos definir a <b>imagem de $A$</b>. 
+
+A imagem de $A$ é o conjunto de todos os vetores $y$ tais que $Ax = y$, com $x \in U$. Note que essa aplicação pode ser escrita como a combinação linear das colunas da matriz $A$ (verifique!). Por exemplo, considere a transformação linear $A: \mathbb{R}^3 \mapsto \mathbb{R}^3$ dada pela matriz 
+
+$$
+A = 
+\begin{pmatrix}
+    1 & 2 & 4 \\ 
+    3 & 1 & 2 \\ 
+    0 & 2 & 4 
+\end{pmatrix}
+$$
+
+Aplicando esta transformação num vetor coluna, obtemos
+
+$$
+Ax = 
+\begin{pmatrix}
+    1 & 2 & 4 \\ 
+    3 & 1 & 2 \\ 
+    0 & 2 & 4 
+\end{pmatrix}
+\begin{pmatrix}
+    x \\ y \\ z
+\end{pmatrix}
+=
+\begin{pmatrix}
+    1 \\ 3 \\ 0
+\end{pmatrix}
+x
++
+\begin{pmatrix}
+    2 \\ 1 \\ 2
+\end{pmatrix}
+y
++
+\begin{pmatrix}
+    4 \\ 2 \\ 4
+\end{pmatrix}
+z
+$$
+
+Essa percepção de que a imagem de $A$ é construída à partir da combinação linear de suas colunas nos introduz ao conceito de <b>posto</b>. O posto da matriz $A$ é a dimensão da imagem de $A$, isto é, o número de vetores-coluna de $A$ que são linearmente dependentes.
+
+No exemplo acima, podemos verificar que o posto de $A$ é 2, i.e $\dim{\text{Im}(A)}=2$, pois embora as duas últimas colunas sejam múltiplas uma da outra, estas não podem ser formadas por uma combinação linear com a primeira coluna.
+
+Embora a análise inicial seja feita pelas colunas de $A$, é possível demonstrar que a dimensão da imagem desta matriz é o número máximo de vetores linha linearmente independentes (é equivalente verificar a independência linear entre as linhas ou entre as colunas). Além disso, o posto pode ser encontrado com a ajuda de <b><a href="/books/higher_education/math/linear_algebra/determinants.html" target="_blank">determinantes</a></b>.
+
+Relembrando o conceito de <b>menor</b> (a matriz obtida ao eliminar a i-ésima linha e a j-ésima coluna da matriz original), podemos afirmar que, para uma dada matriz $A$, seu posto é nulo se o determinante de todo menor for nulo. Caso contrário, seu posto é igual à ordem do menor de maior ordem cujo determinante é não-nulo. 
+
+Tomando novamente como exemplo a matriz do operador linear em $\mathbb{R}^3$ exposto anteriormente, podemos verificar que, embora 
+
+$$
+\det{
+    \begin{pmatrix}
+        1 & 2 & 4 \\ 
+        3 & 1 & 2 \\ 
+        0 & 2 & 4 
+    \end{pmatrix}
+}
+=0
+$$
+
+temos que 
+
+$$
+\det{
+    \begin{pmatrix}
+        1 & 2 \\ 
+        3 & 1 
+    \end{pmatrix}
+}
+=
+\det{
+    \begin{pmatrix}
+        3 & 1 \\ 
+        0 & 2 
+    \end{pmatrix}
+}
+\neq 0
+$$
+
+Um outro conceito que pode ser transportado para a linguagem de matriz é o conceito de <b>núcleo</b>. Com efeito, definimos núcleo como o conjunto de vetores $x \in U$ tais que $Ax = 0$. Isto é, $\ker{A} = \{x \in U | Ax = 0\}$. 
+
+Além disso, chamamos a dimensão do núcleo de $A$ de <b>nulidade</b> de $A$ e denotamos-a por $\text{nul }{A}$. Dessa forma, podemos novamente enunciar o <b>teorema do núcleo e da imagem</b>, visto acima, numa linguagem matricial. Assim, para uma matriz $A_{m \times n}$, 
+
+$$
+\text{nul }{A} + \text{posto }{A} = n
+$$
+
+De forma análoga, podemos expressar o outro teorema, que estabelece as condições mínimas para que subespaços sejam núcleos ou imagens de transformações lineares, numa linguagem matricial. 
+
+<aside>
+
+<b>Teorema</b> — Se $Z$ é um subespaço de $U$, com $\dim{U} = n$, de forma que 
+
+$$
+k = \dim{Z} \ge n - m
+$$
+
+então $Z$ é o núcleo de uma matriz $T_{m\times n}$ de posto $n-k$. Além disso, se $W$ é um subespaço de $V$, de forma que $\dim{V} = m$, tal que 
+
+$$
+p = \dim{W} \le n
+$$
+
+então $W$ é a imagem de alguma matriz $A_{m \times n}$.
+
+</aside>
+
 # Espaço dual
 
 Dado um espaço vetorial $U$ sobre $\mathbb{R}$, denominamos por <b>espaço dual</b> de $U$ (e denotamos por $U^*$) o espaço de todas as transformações lineares $F: U \to \mathbb{R}$. Dessa forma, podemos escrever $L(U, \mathbb{R}) = U^*$. Cada transformação $F \in U^*$ é chamada <b>forma linear</b> ou <b>funcional linear</b> sobre $U$. 
@@ -360,3 +512,4 @@ e, portanto, o conjunto $\{F_1, ..., F_n\}$ é linearmente independente em $U^*$
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.
 2. Website da iniciação científica de Alfredo Vitorino, IMECC-UNICAMP, <i>Álgebra Linear e Aplicações</i>. (<a href="https://www.ime.unicamp.br/~marcia/AlgebraLinear/index.html" target="_blank">Acesse aqui</a>)
+3. KAPLAN, Wilfred; LEWIS, Donald J. Cálculo e Álgebra Linear. v. 3. Rio de Janeiro: Livros Técnicos e Científicos, 1972

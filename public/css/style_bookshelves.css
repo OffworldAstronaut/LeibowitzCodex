@@ -22,21 +22,35 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-body::before {
+body::before,
+body::after {
     content: "";
     position: fixed;
     inset: 0;
-    background-image: url('../The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 1;
     pointer-events: none;
     z-index: 0;
+    transition: opacity 0.4s ease;
 }
 
-body.dark::before { 
-    opacity: 0.06;
+body::before {
+    background-image: url('../The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
+    opacity: 1.00;
+}
+
+body::after {
+    background-image: url('../Refectory_in_a_Greek_Monastery_\(Mount_Athos\).png');
+    opacity: 0;
+}
+
+body.dark::before {
+    opacity: 0;
+}
+
+body.dark::after {
+    opacity: 0.20;
 }
 
 .main {
