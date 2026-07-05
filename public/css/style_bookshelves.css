@@ -13,6 +13,7 @@
     
     --gold:       #9B7A2F;
     --gold-faint: rgba(155, 122, 47, 0.45);
+    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
 }
 
 body {
@@ -198,4 +199,8 @@ input,
 textarea,
 [contenteditable="true"] {
     cursor: url('/cursors/featherpentextselect.cur'), text;
+}
+
+::selection { 
+    background: var(--selection-hl)
 }

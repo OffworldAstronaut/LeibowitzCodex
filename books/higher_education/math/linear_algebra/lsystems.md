@@ -52,6 +52,10 @@ Dados três sistemas lineares $S_1, S_2, S_3$, valem ainda as propriedades:
 
 <b>Teorema</b> — As operações elementares preservam o conjunto solução de um sistema linear.
 
+</aside>
+
+<aside>
+
 <b>Demonstração</b> — Considere um sistema linear $S$. Permutar duas equações não altera o conjunto solução, pois a ordem das equações é irrelevante para a simultaneidade das condições impostas.
 
 Além disso, Multiplicar uma equação por $\lambda \neq 0$ produz uma equação equivalente, pois
@@ -77,6 +81,10 @@ Logo, todas as operações elementares preservam o conjunto solução do sistema
 <aside>
 
 <b>Teorema</b> — A relação de equivalência entre sistemas lineares é reflexiva, simétrica e transitiva.
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Considere os seguintes raciocínios para cada propriedade a seguir.
 

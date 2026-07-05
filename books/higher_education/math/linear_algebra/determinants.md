@@ -50,7 +50,7 @@ $$
 Seus produtos elementares são da forma 
 
 $$
-a_{1j_1}a{2j_2}
+a_{1j_1}a_{2j_2}
 $$
 
 Como cada elemento vemd e uma linha diferente, temos $2! = 2$ permutações distintas nas colunas. Logo, temos os produtos elementares 
@@ -67,29 +67,63 @@ Note que no primeiro produto a permutação das colunas associada a ele é $(1, 
 Portanto, pela definição de determinante, temos que 
 
 $$
-\det{A} = a_{11}a_{22} - a_{12} - a{21}
+\det{A} = a_{11}a_{22} - a_{12} - a_{21}
 $$
 
 # Propriedades
 
-<aside>
-
 A função determinante possui algumas propriedades notáveis. São elas: 
 
-1. O determinante de uma matriz é igual ao determinante de sua transposta, isto é, $\det{A} = \det{A^t}$;
-2. O determinante de uma matriz diagonal, ou de uma matriz triangular, é o produto dos elementos de sua diagonal principal;
-3. Caso uma matriz possua uma linha ou coluna nula, seu determinante é nulo;
-4. Caso uma matriz possua linhas ou colunas proporcionais, seu determinante é nulo;
-5. Permutar duas linhas de uma matriz $A$ inverte o sinal de seu determinante;
-6. Multiplicar uma única linha por um escalar $\alpha$ multiplica seu determinante por $\alpha$;
-7. Somar um múltiplo não nulo de uma linha em outra não altera o determinante da matriz;
-8. Uma matriz quadrada possui inversa se, e somente se, seu determinante for não-nulo;
-9.  O determinante da matriz elementar que representa a permuta duas linhas é igual a -1;
-10. O determinante da matriz elementar que representa o produto de uma linha por um escalar $\alpha \neq 0$ é igual a $\alpha$;
-11. O determinante da matriz elementar que representa a operação de somar um múltiplo não nulo de uma linha em outra é igual a 1;
-12. O determinante do produto de duas matrizes quaisquer é o produto entre seus determinantes.
-
-</aside>
+<table><tbody>
+  <tr>
+    <td>1</td>
+    <td>O determinante de uma matriz é igual ao determinante de sua transposta, isto é, $\det{A} = \det{A^t}$;</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>O determinante de uma matriz diagonal, ou de uma matriz triangular, é o produto dos elementos de sua diagonal principal;</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Caso uma matriz possua uma linha ou coluna nula, seu determinante é nulo;</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Caso uma matriz possua linhas ou colunas proporcionais, seu determinante é nulo;</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Permutar duas linhas de uma matriz $A$ inverte o sinal de seu determinante;</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Multiplicar uma única linha por um escalar $\alpha$ multiplica seu determinante por $\alpha$;</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Somar um múltiplo não nulo de uma linha em outra não altera o determinante da matriz;</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Uma matriz quadrada possui inversa se, e somente se, seu determinante for não-nulo;</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>O determinante da matriz elementar que representa a permuta duas linhas é igual a -1;</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>O determinante da matriz elementar que representa o produto de uma linha por um escalar $\alpha \neq 0$ é igual a $\alpha$;</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>O determinante da matriz elementar que representa a operação de somar um múltiplo não nulo de uma linha em outra é igual a 1;</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>O determinante do produto de duas matrizes quaisquer é o produto entre seus determinantes.</td>
+  </tr>
+</tbody></table>
 
 Vale mencionar que a <b>transposta</b> de uma matriz, conforme mencionada na primeira propriedade, é a matriz produzida ao escrever as linhas de uma matriz como as colunas de outra (ou as colunas de uma matriz como as linhas de outra). Por exemplo, a transposta da matriz
 
@@ -111,7 +145,7 @@ $$
 
 Além disso, a oitava propriedade é possívelmente uma das mais importantes da Álgebra Linear, interligando a resolução de sistemas lineares (e se estes possuem solução única) com o estudo de suas matrizes correspondentes.
 
-De fato, ao escalonarmos um <a href="/books/higher_education/math/linear_algebra/lsystems_matrices.html" target="_blank">sistema linear de Cramer</a> com $n$ equações, vemos que sua matriz de coeficientes é a matriz identidade, $I_n$. Como esta matriz é escalonada por meio da multiplicação da matriz de coeficientes original por diversas matrizes elementares, sabemos que o determinante da matriz original é não-nulo, pois os determinantes das matrizes elementares são sempre não-nulos e a matriz identidade possui $\det{I_n} = 1$.
+De fato, ao escalonarmos um <a href="/books/higher_education/math/linear_algebra/lsystems.html" target="_blank">sistema linear de Cramer</a> com $n$ equações, vemos que sua matriz de coeficientes é a matriz identidade, $I_n$. Como esta matriz é escalonada por meio da multiplicação da matriz de coeficientes original por diversas matrizes elementares, sabemos que o determinante da matriz original é não-nulo, pois os determinantes das matrizes elementares são sempre não-nulos e a matriz identidade possui $\det{I_n} = 1$.
 
 Além disso, da ligação entre sistemas lineares e determinantes é imprescindível discorrer um pouco sobre a regra de Cramer, e para falar sobre a regra de Cramer, é necessário explorar os conceitos de cofator e matriz adjunta. 
 

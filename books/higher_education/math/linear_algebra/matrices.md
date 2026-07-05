@@ -2,7 +2,7 @@
 
 # Matrizes
 
-Matrizes (reais) são objetos matemáticos formados por uma dupla sequência de números reais arranjados em uma tabela de $m$ linhas e $n$ colunas. Estas matrizes são assim chamadas "matrizes $m \times n$" (lê-se "m por n"), sendo escritas como uma tabela entre parênteses ou colchetes.
+Matrizes (reais) são objetos matemáticos formados por uma dupla sequência de números reais arranjados em uma tabela de $m$ linhas e $n$ colunas. Estas matrizes são assim chamadas "matrizes m por n", sendo escritas como uma tabela entre parênteses ou colchetes.
 
 $$
 A_1 =
@@ -86,6 +86,10 @@ Para essa operação valem algumas propriedades. Considere $A, B, C \in M_{m \ti
 
 <b>Teorema</b> — A adição de matrizes é associativa.
 
+</aside>
+
+<aside>
+
 <b>Demonstração</b> — Sejam $A=(a_{ij}), B=(b_{ij})$ e $C=(c_{ij})$. Então,
 
 $$
@@ -115,6 +119,10 @@ $$
 <aside>
 
 <b>Teorema</b> — A adição de matrizes é comutativa.
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Temos
 
@@ -146,6 +154,10 @@ $$
 
 <b>Teorema</b> — Existe matriz neutra para a adição.
 
+</aside>
+
+<aside>
+
 <b>Demonstração</b> — Considere a matriz nula
 
 $$
@@ -169,6 +181,10 @@ $$
 <aside>
 
 <b>Teorema</b> — Toda matriz possui elemento oposto.
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Dada $A=(a_{ij})$, definimos
 
@@ -242,6 +258,10 @@ Para esta operação valem as seguintes propriedades:
 <aside>
 
 <b>Teorema</b> — Valem as propriedades do produto por escalar.
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Todas seguem diretamente das propriedades dos números reais.
 
@@ -323,6 +343,10 @@ No produto entre matrizes valem as seguintes propriedades. Considere $A_{m \time
 
 <b>Teorema</b> — O produto de matrizes é associativo.
 
+</aside>
+
+<aside>
+
 <b>Demonstração</b> — Considere o elemento $(i,k)$ de $A(BC)$:
 
 $$
@@ -376,6 +400,10 @@ $$
 <aside>
 
 <b>Teorema</b> — O produto de matrizes é distributivo em relação à adição.
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Temos
 
@@ -434,6 +462,10 @@ Por ser elemento neutro dessa operação, esta matriz satisfaz a relação $AI_n
 
 <b>Teorema</b> — A matriz identidade é elemento neutro da multiplicação matricial.
 
+</aside>
+
+<aside>
+
 <b>Demonstração</b> — Seja $A=(a_{ij})$. Então,
 
 $$
@@ -466,6 +498,10 @@ Dizemos ainda que certa matriz $A$ é <b>inversível</b> se, e somente se, exist
 
 <b>Teorema</b> — Se uma linha ou coluna de uma matriz é nula, esta matriz não é inversível.
 
+</aside>
+
+<aside>
+
 <b>Demonstração</b> — Suponha que a linha $i$ de $A$ seja nula. Então, para qualquer matriz $B$, a linha $i$ de $AB$ também será nula, pois
 
 $$
@@ -487,6 +523,10 @@ O caso de coluna nula é análogo.
 $$
 (AB)^{-1}=B^{-1}A^{-1}.
 $$
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Temos que
 
@@ -511,6 +551,10 @@ Logo, $B^{-1}A^{-1}$ é a inversa de $AB$.
 $$
 (A^{-1})^{-1}=A.
 $$
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Pela definição da matriz inversa,
 
@@ -537,6 +581,10 @@ De forma semelhante, se uma matriz $B$ pode ser obtida a partir de um número fi
 <aside>
 
 <b>Teorema</b> — Uma matriz $A$ é inversível se, e somente se, $A \sim I_n$. As mesmas operações que transformam $A$ em $I_n$ transformam $I_n$ em $A^{-1}$.
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Cada operação elementar sobre as linhas de uma matriz corresponde à multiplicação à esquerda por uma matriz elementar inversível.
 
@@ -602,6 +650,10 @@ $$
 $$
 X=A^{-1}B
 $$
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Considere o sistema matricial
 

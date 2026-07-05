@@ -312,3 +312,7 @@ Ou seja, podemos reduzir esse somatório para a expressão $[p+(1-p)]^{n-1}$, qu
 Em construção...
 
 </aside>
+
+# Referências
+
+1. MORGADO, A. C. O. et al. Análise Combinatória e Probabilidade. 9. ed. Rio de Janeiro: SBM, 2006

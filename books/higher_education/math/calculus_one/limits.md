@@ -2,8 +2,6 @@
 
 # Definição
 
-
-
 Todo o nosso entendimento do Cálculo se apoia no conceito de <b>limites</b>.
 
 Definimos o limite de uma função $f(x)$ como o número em que podemos tornar o valor da função o quão próximo quanto quisermos dele, sem necessariamente ela o assumir. 
@@ -154,8 +152,6 @@ $$
 
 # Propriedades
 
-
-
 Como dito anteriormente, as propriedades de limites nos serão muito úteis para calculá-los sem a necessidade de gráficos ou tediantes aproximações numéricas. Aqui estão reunidas todas, ou pelo menos as mais importantes, em ordem crescente de complexidade. 
 
 ## Limite de uma constante
@@ -217,7 +213,7 @@ $$
 O limite da razão entre $f$ e $g$ é o quociente entre os limites de cada uma, ou seja:
 
 $$
-\lim_{x \rightarrow a} \left[\frac{f(x)}{g(x)}\right]=\frac{L_1}{L_2}
+\lim_{x \rightarrow a} \left[\dfrac{f(x)}{g(x)}\right]=\dfrac{L_1}{L_2}
 $$
 
 Claro, para isso precisamos que $g(x), L_2 \neq 0$.
@@ -233,7 +229,7 @@ Temos que o limite de um polinômio $p(x)$ num dado número $a$ é o mesmo que c
 Por fim, se $f$ e $g$ forem polinômios e $F$ for uma função racional, isto é, uma função formada pela razão entre os dois polinômios dados,
 
 $$
-F(x)=\frac{f(x)}{g(x)}
+F(x)=\dfrac{f(x)}{g(x)}
 $$
 
 podemos concluir, pelas propriedades de **limite de um polinômio** e **limite de um quociente**, que
@@ -245,8 +241,6 @@ $$
 Se possível, tente provar essa propriedade também! É interessante ver como tudo se encaixa.
 
 # Indeterminações
-
-
 
 Muitas vezes, ao tentarmos calcular o limite de uma dada expressão, caímos em indeterminações dos mais variados tipos, como $\dfrac{0}{0}$ ou $\dfrac{\infty}{\infty}$ — isso não significa a sua inexistência, mas sim que tentarmos avaliar esse limite diretamente não nos fornecerá uma resposta clara. 
 
@@ -353,13 +347,11 @@ Quando encontrarmos alguma indeterminação, temos mais uma arma para utilizar e
 
 # Teorema do confronto
 
-
-
 Também conhecido pelo nome — bem mais descritivo — de **teorema do sanduíche**, o teorema do confronto é uma ferramenta muito útil na determinação de limites de algumas funções de comportamento mais errático.
 
 <aside>
 
-<b>(Prof. Dr. José Carlos de Lima — UFAL, Teorema do confronto)</b> Dado um número real $a$, seja $I$ um intervalo aberto tal que $a \in I$. Sejam $f, g$ e $h$ funções reais definidas no intervalo aberto $I$ tais que
+<b>Teorema (Prof. Dr. José Carlos de Lima, Teorema do Confronto)</b> — Dado um número real $a$, seja $I$ um intervalo aberto tal que $a \in I$. Sejam $f, g$ e $h$ funções reais definidas no intervalo aberto $I$ tais que
 
 $$
 g(x) \le f(x) \le h(x)
@@ -376,8 +368,6 @@ então $\lim_{x \rightarrow a} f(x)=L$.
 </aside>
 
 # Assíntotas e limites no infinito
-
-
 
 As **assíntotas** são definidas como curvas que se aproximam de uma dada reta mas nunca a tocam. Importantes como uma outra lente para a análise de funções e uma ferramenta para a montagem de gráficos, as assíntotas podem ser de três tipos: **verticais**, **horizontais** e **oblíquas**. 
 
@@ -429,9 +419,9 @@ De forma geral, uma estratégia muito útil para calcular limites no infinito de
 
 $$
 \begin{align*}
-    \lim_{x \rightarrow \infty} \dfrac{x^2 + x}{x^2 - 1} &= \lim_{x \rightarrow \infty} \dfrac{\dfrac{x^2}{x^2} + \dfrac{x}{x^2}}{\dfrac{x^2}{x^2} - \dfrac{1}{x^2}} \\\\
-    &= \lim_{x \rightarrow \infty} \dfrac{1 + \dfrac{1}{x}}{1 - \dfrac{1}{x^2}}
-    &= \dfrac{1}{1} \\\\
+    \lim_{x \rightarrow \infty} \dfrac{x^2 + x}{x^2 - 1} &= \lim_{x \rightarrow \infty} \dfrac{\dfrac{x^2}{x^2} + \dfrac{x}{x^2}}{\dfrac{x^2}{x^2} - \dfrac{1}{x^2}} \\
+    &= \lim_{x \rightarrow \infty} \dfrac{1 + \dfrac{1}{x}}{1 - \dfrac{1}{x^2}} \\ 
+    &= \dfrac{1}{1} \\
     &= 1
 \end{align*}
 $$
@@ -469,45 +459,48 @@ Como exemplo, podemos citar a função $f(x)= \dfrac{x^2 - 9}{2x -4}$. Efetuando
 
 # Continuidade
 
+Quando estudamos matemática, normalmente temos uma noção do significado de expressões como <b>contínua</b>, <b>descontínua</b> ou <b>discreta</b> quando nos referimos a funções. Geralmente, definimos uma função <b>contínua</b> como aquela que “podemos desenhar sem tirar o lápis do papel”, com a <b>descontínua</b> possuindo alguma falha que interrompe o gráfico da função, enquanto a <b>discreta</b> é formada apenas de pontos isolados, sem realmente nenhuma curva sem formada. 
 
-
-Quando estudamos matemática, normalmente temos uma noção do significado de expressões como **contínua**, **descontínua** ou **discreta** quando nos referimos a funções. Geralmente, definimos uma função **contínua** como aquela que “podemos desenhar sem tirar o lápis do papel”, com a **descontínua** possuindo alguma falha que interrompe o gráfico da função, enquanto a **discreta** é formada apenas de pontos isolados, sem realmente nenhuma curva sem formada. 
-
-É interessante definirmos esses conceitos de maneira mais precisa, no estudo do Cálculo, por sua tremenda utilidade nesse campo da matemática e consequentemente em muitos outros, como probabilidade. Uma das ferramentas para fazermos isso são os **limites**.
-
-## Definição
+É interessante definirmos esses conceitos de maneira mais precisa, no estudo do Cálculo, por sua tremenda utilidade nesse campo da matemática e consequentemente em muitos outros, como probabilidade. Uma das ferramentas para fazermos isso são os <b>limites</b>.
 
 Dessa forma, podemos definir continuidade da seguinte maneira:
 
-(Prof. Dr. José Carlos de Lima, UFAL) Dizemos que uma função $f$ é contínua em um número $a$ se, e somente se, ocorrer que $\lim_{x \rightarrow a} f(x) = f(a)$.
+<aside>
+
+<b>Definição (Prof. Dr. José Carlos de Lima, Continuidade)</b> — Dizemos que uma função $f$ é contínua em um número $a$ se, e somente se, ocorrer que $\lim_{x \rightarrow a} f(x) = f(a)$.
 Se $f$ não é contínua em $a$, dizemos simplesmente que ela é descontínua em $a$.
 
-As definições de **continuidade à direita** e **continuidade à esquerda** podem ser extraídas dessa definição primordial pela mudança do limite padrão pelo limite lateral correspondente.
+</aside>
 
-### Continuidade num intervalo
+As definições de <b>continuidade à direita</b> e <b>continuidade à esquerda</b> podem ser extraídas dessa definição primordial pela mudança do limite padrão pelo limite lateral correspondente.
 
-Podemos ainda expandir o conceito de **continuidade** exposto acima, que se preocupa apenas com a função num dado número, para que abranja todo um intervalo. 
-
-(Prof. Dr. José Carlos de Lima, UFAL) Uma função é dita contínua em um intervalo $I$ se ela é contínua para cada número $a$ desse intervalo, ou seja, para cada $a \in I$, teremos que $\lim_{x \rightarrow a}f(x)=f(a)$.
-Caso $a$ seja algum dos extremos do intervalo, deve ser empregada a continuidade lateral adequada.
+Podemos ainda expandir o conceito de <b>continuidade</b> exposto acima, que se preocupa apenas com a função num dado número, para que abranja todo um intervalo. 
 
 <aside>
 
-Nos utilizando dessas definições, podemos ainda afirmar que todas as funções polinomiais, de raízes, trigonométricas (e suas inversas), exponenciais, racionais e logarítmicas são contínuas em todos os valores que fazem parte de seu conjunto domínio.
+<b>Definição (Prof. Dr. José Carlos de Lima, Continuidade num intervalo)</b> — Uma função é dita contínua em um intervalo $I$ se ela é contínua para cada número $a$ desse intervalo, ou seja, para cada $a \in I$, teremos que $\lim_{x \rightarrow a}f(x)=f(a)$.
+
+Caso $a$ seja algum dos extremos do intervalo, deve ser empregada a continuidade lateral adequada.
 
 </aside>
+
+Nos utilizando dessas definições, podemos ainda afirmar que todas as funções polinomiais, de raízes, trigonométricas (e suas inversas), exponenciais, racionais e logarítmicas são contínuas em todos os valores que fazem parte de seu conjunto domínio.
 
 Vale lembrar que ao analisarmos funções compostas de outras funções, seu domínio depende do domínio das funções que a constituem — por consequência, a sua continuidade também depende disso.
 
 ## Teorema do Valor Intermediário
 
-O **teorema do valor intermediário**, também conhecido por **teorema de Bolzano** ou ainda **teorema de Bolzano-Cauchy**, é um importante teorema da análise real e do cálculo, servindo de boa ferramenta para a resolução de vários problemas que podem surgir. 
+O <b>teorema do valor intermediário</b>, também conhecido por <b>teorema de Bolzano</b> ou ainda <b>teorema de Bolzano-Cauchy</b>, é um importante teorema da análise real e do cálculo, servindo de boa ferramenta para a resolução de vários problemas que podem surgir. 
 
-Uma de suas aplicações, por exemplo, é demonstrar que expressões complexas possuem raízes, fato que poderemos também demonstrar com o conceito de **derivada**, no futuro. 
+Uma de suas aplicações, por exemplo, é demonstrar que expressões complexas possuem raízes, fato que poderemos também demonstrar com o conceito de <b>derivada</b>, no futuro. 
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Teorema do Valor Intermediário)</b> — Se $f$ for contínua no intervalo fechado $[a,b]$ e se $\gamma$ for um real compreendido entre $f(a)$ e $f(b)$, então existirá pelo menos um $c$ em $[a,b]$ tal que $f(c) = \gamma$. 
+<b>Teorema — (Guidorizzi, Teorema do Valor Intermediário)</b> — Se $f$ for contínua no intervalo fechado $[a,b]$ e se $\gamma$ for um real compreendido entre $f(a)$ e $f(b)$, então existirá pelo menos um $c$ em $[a,b]$ tal que $f(c) = \gamma$. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Suponhamos $f(a) \lt \gamma \lt f(b)$. Consideremos a função 
 
@@ -529,7 +522,11 @@ Conforme mencionado por Guidorizzi, está abaixo o teorema do anulamento conform
 
 <aside>
 
-<b>(GUIDORIZZI 2001, Teorema do anulamento)</b> — Se $f$ for contínua em $[a,b]$ e se $f(a)$ e $f(b)$ tiverem sinais contrários, então existirá pelo menos um $c \in [a,b]$ tal que $f(c) = 0$. 
+<b>Teorema (Guidorizzi, Teorema do anulamento)</b> — Se $f$ for contínua em $[a,b]$ e se $f(a)$ e $f(b)$ tiverem sinais contrários, então existirá pelo menos um $c \in [a,b]$ tal que $f(c) = 0$. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Suponhamos $f(a) \lt 0$ e $f(b) \gt 0$. Façamos $a = a_0$ e $b = b_0$; seja $c_0$ o ponto médio do segmento $[a_0, b_0]$. Temos 
 
@@ -575,13 +572,11 @@ Percebe-se que é necessário ainda ter em mente algo ainda mais fundamental: o 
 
 <aside>
 
-<b>(ICMC-USP 2020, Teorema dos Intervalos Encaixantes [<a href="https://sites.icmc.usp.br/aurichi/exerc/doku.php?id=limites:valorintermediario" target="_blank">Aqui</a>])</b> — Considere $(I_n), n \in \mathbb{N}$ uma familía de intervalos da forma $I_n = [a_n, b_n]$ tal que, para qualquer $n \in \mathbb{N}$, $[a_{n+1}, b_{n+1}] \subset [a_n, b_n]$ (isto é, $a_n \le a_{n+1} \le b_{n+1} \le b_n$). Então existe $x \in \bigcap_{n \in \mathbb{N}} I_n$. 
+<b>Teorema (Guidorizzi, Propriedade dos Intervalos Encaixantes)</b> — Seja $[a_0, b_0], [a_1, b_1], [a_2, b_2], ..., [a_n, b_n]$ uma sequência de intervalos de forma que: cada intervalo da sequência contenha o seguinte; para todo $r \gt 0$, existe um natural $n$ tal que $b_n - a_n \lt r$ (à medida que $n$ cresce, o comprimento do intervalo $[a_n, b_n]$ tende à zero). Logo, existe um único $\alpha \in \mathbb{R}$ que pertence a todos os intervalos da sequência. Como consequência, vemos que a reta real não possui "buracos", com todos os seus pontos sendo relacionados a um número real.
 
 </aside>
 
-# Apêndice — Limites fundamentais 
-
-
+# Limites fundamentais 
 
 ## Limite fundamental trigonométrico 
 
@@ -593,7 +588,7 @@ Para sua demonstração abaixo, nós iremos utilizar apenas o ciclo trigonométr
 
 <aside>
 
-<b>Limite fundamental trigonométrico (Demonstração)</b> — No plano, construa o círculo trigonométrico, juntamente com a reta tangente $r: x = 1$. 
+<b>Demonstração (Limite fundamental trigonométrico)</b> — No plano, construa o círculo trigonométrico, juntamente com a reta tangente $r: x = 1$. 
 
 Tomando um ângulo $\theta$ no primeiro quadrante, podemos considerar as figuras geométricas formadas pelo círculo unitário e os segmentos de reta considerados.
 
@@ -655,8 +650,6 @@ $$
 $$
 
 # Referências 
-
-
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
 2. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

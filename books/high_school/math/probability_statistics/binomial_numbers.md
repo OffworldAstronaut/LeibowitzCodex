@@ -2,8 +2,6 @@
 
 # Triângulo de Pascal
 
-
-
 Antes de entendermos o que são os números binomiais, precisamos conhecer a construção do <b>Triângulo de Pascal</b>.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
@@ -154,8 +152,6 @@ Podemos resolver as mais variadas somas se utilizando desse método.
 
 # Binômio de Newton
 
-
-
 O Binômio de Newton é uma expressão matemática na forma $(a+b)^n$, com $a,b\in \R$ e $n \in \N$ que pode ser escrita da seguinte forma: 
 
 $$
@@ -210,3 +206,7 @@ $$
 $$
 
 Ou seja, o coeficiente que estávamos procurando é 210! O termo resultante será $210a^6b^4$.
+
+# Referências
+
+1. MORGADO, A. C. O. et al. Análise Combinatória e Probabilidade. 9. ed. Rio de Janeiro: SBM, 2006

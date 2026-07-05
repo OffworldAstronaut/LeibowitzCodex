@@ -2,8 +2,6 @@
 
 # Funções hiperbólicas
 
-
-
 Ao considerarmos a circunferência unitária, de equação $x^2 + y^2 = 1$, podemos definir as funções básicas seno e cosseno. Estas funções trigonométricas possuem funções análogas a elas ao considerarmos uma hipérbole de equação $x^2 - y^2 = 1$. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9f/Hyperbolic_functions_sinh%2C_cosh%2C_tanh.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
@@ -18,8 +16,6 @@ As funções hiperbólicas possuem diversas aplicações na física, química e 
 
 Estas funções, seno hiperbólico ($\sinh$) e cosseno hiperbólico ($\cosh$), além de todas as outras funções derivadas destas, podem ser escritas de forma algébrica. 
 
-<aside>
-
 $$
 \begin{align*}
     \sinh{x} &= \dfrac{e^x - e^{-x}}{2} \\\\
@@ -31,11 +27,7 @@ $$
 \end{align*}
 $$
 
-</aside>
-
 Além disso, valem as propriedades a seguir. 
-
-<aside>
 
 $$
 \begin{align*}
@@ -49,11 +41,7 @@ $$
 \end{align*}
 $$
 
-</aside>
-
 # Derivadas de funções hiperbólicas 
-
- 
 
 Todas as funções hiperbólicas são contínuas e diferenciáveis em seu domínio. Abaixo estão demonstradas suas derivadas.
 
@@ -61,7 +49,7 @@ Todas as funções hiperbólicas são contínuas e diferenciáveis em seu domín
 
 <aside>
 
-<b>Derivada do seno hiperbólico</b> — Pelas propriedades de linearidade, derivada da soma e regra da cadeia, temos: 
+<b>Demonstração (Derivada do seno hiperbólico)</b> — Pelas propriedades de linearidade, derivada da soma e regra da cadeia, temos: 
 
 $$
 \begin{align*}
@@ -76,7 +64,7 @@ $$
 
 <aside>
 
-<b>Derivada do cosseno hiperbólico</b> — Pelas propriedades de linearidade, derivada da soma e regra da cadeia, temos: 
+<b>Demonstração (Derivada do cosseno hiperbólico)</b> — Pelas propriedades de linearidade, derivada da soma e regra da cadeia, temos: 
 
 $$
 \begin{align*}
@@ -91,7 +79,7 @@ $$
 
 <aside>
 
-<b>Derivada da tangente hiperbólica</b> — Pela regra do quociente, temos: 
+<b>Demonstração (Derivada da tangente hiperbólica)</b> — Pela regra do quociente, temos: 
 
 $$
 \begin{align*}
@@ -107,7 +95,7 @@ $$
 
 <aside>
 
-<b>Derivada da cossecante hiperbólica</b> — Pela regra do quociente, temos: 
+<b>Demonstração (Derivada da cossecante hiperbólica)</b> — Pela regra do quociente, temos: 
 
 $$
 \begin{align*}
@@ -123,7 +111,7 @@ $$
 
 <aside>
 
-<b>Derivada da secante hiperbólica</b> — Pela regra do quociente temos: 
+<b>Demonstração (Derivada da secante hiperbólica)</b> — Pela regra do quociente temos: 
 
 $$
 \begin{align*}
@@ -139,7 +127,7 @@ $$
 
 <aside>
 
-<b>Derivada da cotangente hiperbólica</b> — Pela regra do quociente, temos: 
+<b>Demonstração (Derivada da cotangente hiperbólica)</b> — Pela regra do quociente, temos: 
 
 $$
 \begin{align*}
@@ -155,11 +143,11 @@ $$
 
 ## Funções inversas
 
-Pela propriedade previamente demonstrada no códice sobre <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html" target="_blank">derivadas</a>, podemos facilmente encontrar as derivadas das funções inversas trigonométricas.
+Pela propriedade previamente demonstrada no códice sobre <a href="/books/higher_education/math/calculus_one/derivatives_inverses.html" target="_blank">derivadas inversas</a>, podemos facilmente encontrar as derivadas das funções inversas trigonométricas.
 
 <aside>
 
-<b>Derivada do arco seno hiperbólico</b> — Aplicando a propriedade previamente explorada, além do análogo hiperbólico para a relação fundamental da trigonometria, obtemos: 
+<b>Demonstração (Derivada do arco seno hiperbólico)</b> — Aplicando a propriedade previamente explorada, além do análogo hiperbólico para a relação fundamental da trigonometria, obtemos: 
 
 $$
 \begin{align*}
@@ -172,7 +160,7 @@ $$
 
 <aside>
 
-<b>Derivada do arco cosseno hiperbólico</b> — Pela propriedade previamente explorada, além do análogo hiperbólico para a relação fundamental trigonométrica, temos: 
+<b>Demonstração (Derivada do arco cosseno hiperbólico)</b> — Pela propriedade previamente explorada, além do análogo hiperbólico para a relação fundamental trigonométrica, temos: 
 
 $$
 \begin{align*}
@@ -185,7 +173,7 @@ $$
 
 <aside>
 
-<b>Derivada do arco tangente hiperbólico</b> — Através da propriedade previamente explorada, além do análogo hiperbólico para a relação fundamental da trigonometria, obtemos: 
+<b>Demonstração (Derivada do arco tangente hiperbólico)</b> — Através da propriedade previamente explorada, além do análogo hiperbólico para a relação fundamental da trigonometria, obtemos: 
 
 $$
 \begin{align*}
@@ -198,7 +186,7 @@ $$
 
 <aside>
 
-<b>Derivada do arco cossecante hiperbólico</b> — Por meio da propriedade previamente explorada e da relação hiperbólica análoga a relação fundamental trigonométrica, temos: 
+<b>Demonstração (Derivada do arco cossecante hiperbólico)</b> — Por meio da propriedade previamente explorada e da relação hiperbólica análoga a relação fundamental trigonométrica, temos: 
 
 $$
 \begin{align*}
@@ -211,7 +199,7 @@ $$
 
 <aside>
 
-<b>Derivada do arco secante hiperbólico</b> — Por meio da propriedade previamente explorada e da análoga relação hiperbólica a relação fundamental da trigonometria, obtemos: 
+<b>Demonstração (Derivada do arco secante hiperbólico)</b> — Por meio da propriedade previamente explorada e da análoga relação hiperbólica a relação fundamental da trigonometria, obtemos: 
 
 $$
 \begin{align*}
@@ -224,7 +212,7 @@ $$
 
 <aside>
 
-<b>Derivada do arco cotangente hiperbólico</b> — Por meio da propriedade previamente explorada e da análoga relação das funções hiperbólicas, que é análoga a relação trigonométrica fundamental, temos: 
+<b>Demonstração (Derivada do arco cotangente hiperbólico)</b> — Por meio da propriedade previamente explorada e da análoga relação das funções hiperbólicas, que é análoga a relação trigonométrica fundamental, temos: 
 
 $$
 \begin{align*}
@@ -236,7 +224,5 @@ $$
 </aside>
 
 # Referências
-
-
 
 1. STEWART, James. Cálculo. Volume 1. 6. ed. São Paulo: Cengage Learning, 2009.

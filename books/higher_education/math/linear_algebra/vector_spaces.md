@@ -2,20 +2,18 @@
 
 # Espaços vetoriais 
 
- 
-
 Chamamos espaços vetoriais todos os conjuntos $V \neq \emptyset$ munidos com duas operações ("adição" e "multiplicação por escalar"). Além disso, estas operações devem satisfazer cada uma algumas propriedades. Podemos, então, escrever a seguinte definição. 
 
 <aside>
 
-<b>CALLIOLI 1981, Definição de espaço vetorial</b> — Dizemos que um conjunto $V \neq \emptyset$ é um espaço vetorial sobre $\mathbb{R}$ quando, e somente quando, por um lado, existe uma adição $(u, v) \longmapsto u + v$ em $V$ de forma que: 
+<b>Definição (Callioli, Espaço vetorial)</b> — Dizemos que um conjunto $V \neq \emptyset$ é um espaço vetorial sobre $\mathbb{R}$ quando, e somente quando, por um lado, existe uma adição $(u, v) \longmapsto u + v$ em $V$ de forma que: 
 
 1. $u + v = v + u, \forall u, v \in V$ (comutatividade)
 2. $u + (v + w) = (u + v) + w, \forall u, v, w \in V$ (associatividade)
 3. $\exists o \in V | u + o = u, \forall u \in V$ (existência de elemento neutro)
 4. $\forall u \in V, \exists (-u) \in V | u + (-u) = o$ (existência de elemento oposto)
 
-Além disso, deve estar definida neste conjunto uma operação de multiplicação por escalar, isto é, a cada par $(\alpha, u) \in \mathbb{R} \times V$ está associado um único elemento de $V$. Este elemento único é indicado por $\alpha u$. Esta operação deve satisfazer as seguintes condições para quaisquer $u, v \in V$ e $\alpha, \beta in \mathbb{R}$.
+Além disso, deve estar definida neste conjunto uma operação de multiplicação por escalar, isto é, a cada par $(\alpha, u) \in \mathbb{R} \times V$ está associado um único elemento de $V$. Este elemento único é indicado por $\alpha u$. Esta operação deve satisfazer as seguintes condições para quaisquer $u, v \in V$ e $\alpha, \beta \in \mathbb{R}$.
 
 1. $\alpha(\beta u) = (\alpha \beta)u$ 
 2. $(\alpha + \beta)u = \alpha u + \beta u$ 
@@ -54,7 +52,7 @@ De forma sucinta, um subespaço vetorial é um subconjunto de um espaço vetoria
 
 <aside>
 
-<b>CALLIOLI 1981, Definição de um subespaço vetorial</b> — Seja $V$ um espaço vetorial sobre $\mathbb{R}$. Um subespaço vetorial de $V$ é um subconjunto $W \subset V$, tal que: 
+<b>Definição (Callioli, Subespaço vetorial)</b> — Seja $V$ um espaço vetorial sobre $\mathbb{R}$. Um subespaço vetorial de $V$ é um subconjunto $W \subset V$, tal que: 
 
 1. $o \in W$
 2. $\forall u,v \in W, u + v \in W$ 
@@ -68,7 +66,7 @@ Interessantemente, podemos definir uma operação <b>soma</b> para dois subespa�
 
 <aside>
 
-<b>CALLIOLI 1981, Definição da soma de subespaços</b> — Sejam $U$ e $V$ subespaços vetoriais de um espaço vetorial $W$. Indicaremos por $U+V$ e chamaremos de <b>soma de $U$ com $V$</b> o seguinte subconjunto de W: 
+<b>Definição (Callioli, Soma de subespaços)</b> — Sejam $U$ e $V$ subespaços vetoriais de um espaço vetorial $W$. Indicaremos por $U+V$ e chamaremos de <b>soma de $U$ com $V$</b> o seguinte subconjunto de W: 
 
 $$
 U + V = \{u + v | u \in U, v \in V\}

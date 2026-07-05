@@ -141,7 +141,7 @@ O processo de ortonormalização de Gram-Schmidt, nomeado em homenagem aos matem
 
 <aside>
 
-Seja $S = \{v_1, v_2, ..., v_n\}$ um subconjunto ortonormal de um espaço euclidiano $U$. Então, para todo $u \in U$, o vetor $w = u - \langle u, v_1 \rangle v_1 - ... - \langle u, v_n \rangle v_n$ é ortogonal a todo vetor do subespaço gerado pelos vetores de $S$. 
+<b>Teorema</b> — Seja $S = \{v_1, v_2, ..., v_n\}$ um subconjunto ortonormal de um espaço euclidiano $U$. Então, para todo $u \in U$, o vetor $w = u - \langle u, v_1 \rangle v_1 - ... - \langle u, v_n \rangle v_n$ é ortogonal a todo vetor do subespaço gerado pelos vetores de $S$. 
 
 </aside>
 
@@ -240,6 +240,10 @@ Como últimos dois resultados importantes desta seção, é importante apresenta
 <aside>
 
 <b>Teorema</b> — Toda isometria $T \in L(U)$ é um isomorfismo. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Podemos demonstrar essa relação ao mostrar que a isometria $T$ é injetora. De fato, temos que, dado um certo $u \in U$:
 

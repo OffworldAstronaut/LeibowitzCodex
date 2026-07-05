@@ -2,8 +2,6 @@
 
 # Os números racionais
 
-
-
 Dentre os possíveis números, podemos definir os números naturais $\mathbb{N} = \{1, 2, 3, ...\}$, os inteiros $\mathbb{Z} = \{..., -3, -2, -1, 0, 1, 2, 3, ... \}$ e, a partir destes, os <b>números racionais</b>.
 
 São membros do conjunto dos números racionais — denotado por $\mathbb{Q}$ — todos aqueles que podem ser escritos por meio de uma razão $\dfrac{p}{q}$, com $p$ e $q$ sendo números inteiros e, especialmente, $q \neq 0$. É possível denotar o conjunto dos números racionais da seguinte maneira: 
@@ -18,7 +16,7 @@ São membros do conjunto dos números irracionais, denotado pelo símbolo $\math
 
 Entre os números irracionais, a raiz quadrada de dois merece especial destaque pela sua simplicidade de construção e a prova de sua irracionalidade, que se originou na Grécia Antiga com o pensador pitagórico Hípaso, que foi afogado por seus pares após infringir a crença da seita que todo o Universo baseava-se em números racionais. 
 
-Para conduzir o raciocínio que levou Hípaso à morte, vamos supor primeiramente que a raíz é irracional, isto é, que 
+Para conduzir o raciocínio que levou Hípaso à morte, vamos supor primeiramente que a raíz é racional, isto é, que 
 
 $$
 \sqrt{2} = \dfrac{p}{q}
@@ -36,7 +34,11 @@ Pelo mesmo argumento, concluímos que $q$ também é par. Ora, a partir de uma s
 
 <aside>
 
-<b>(REIS & SILVA 2015) Proposição 1.</b> Sejam $a, b \in \mathbb{R}$ com $a < b$. Entre $a$ e $b$ existem infinitos números racionais e irracionais. 
+<b>Proposição 1 (Reis & Silva, Infinidade de números racionais e irracionais)</b> — Sejam $a, b \in \mathbb{R}$ com $a < b$. Entre $a$ e $b$ existem infinitos números racionais e irracionais. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Existem números irracionais arbitrariamente pequenos. Seja então $s$ irracional e positivo tal que $s < b -a$. Seja $n$ o maior inteiro tal que $ns \le a$. Então, o número $(n + 1)
 $ satisfaz a equação 
@@ -53,15 +55,17 @@ Portanto, o número irracional $(n+1)s$ está entre $a$ e $b$. Fazendo-se $(n+1)
 
 <aside>
 
-<b>(REIS & SILVA 2015) Proposição 2.</b> Dado um número real $b$, existem próximos dele, arbitrariamente, números racionais e irracionais. 
+<b>Proposição 2 (Reis e Silva, existência de números racionais e irracionais em qualquer intervalo arbitrário)</b> — Dado um número real $b$, existem próximos dele, arbitrariamente, números racionais e irracionais. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Escolhemos $a \lt b$ com $a$ tão próximo de $b$ quanto desejarmos. Pela proposição 1, concluímos que entre $a$ e $b$ existem infinitos números racionais e irracionais. Estes números estão mais próximos de $b$ que o próprio $a$, portanto, arbitrariamente próximos de $b$. 
 
 </aside>
 
 # Os números reais 
-
- 
 
 Os números reais, representados pelo símbolo de seu conjunto $(\mathbb{R})$, e seus subconjuntos, os dos números racionais (e naturais, e inteiros, ...) e irracionais podem ser representados por pontos numa reta. Nesta reta, o ponto de origem $(\text{O})$, cuja posição é escolhida arbitrariamente, é geralmente associado ao número zero.
 
@@ -74,22 +78,17 @@ Os números reais ainda possuem duas propriedades muito importantes em sua anál
 
 <aside>
 
-<b>(ICMC-USP 2020, Teorema dos Intervalos Encaixantes [<a href="https://sites.icmc.usp.br/aurichi/exerc/doku.php?id=limites:valorintermediario" target="_blank">Aqui</a>])</b> — Considere $(I_n)_{n \in \mathbb{N}}$ uma familía de intervalos da forma $I_n = [a_n, b_n]$ tal que, para qualquer $n \in \mathbb{N}$, $[a_{n+1}, b_{n+1}] \subset [a_n, b_n]$ (isto é, $a_n \le a_{n+1} \le b_{n+1} \le b_n$). Então existe $x \in \bigcap_{n \in \mathbb{N}} I_n$. 
-
-É visível que a reta real não possui "buracos" — todos os pontos são relacionados a um número real. 
+<b>Teorema (Guidorizzi, Propriedade dos Intervalos Encaixantes)</b> — Seja $[a_0, b_0], [a_1, b_1], [a_2, b_2], ..., [a_n, b_n]$ uma sequência de intervalos de forma que: cada intervalo da sequência contenha o seguinte; para todo $r \gt 0$, existe um natural $n$ tal que $b_n - a_n \lt r$ (à medida que $n$ cresce, o comprimento do intervalo $[a_n, b_n]$ tende à zero). Logo, existe um único $\alpha \in \mathbb{R}$ que pertence a todos os intervalos da sequência. Como consequência, vemos que a reta real não possui "buracos", com todos os seus pontos sendo relacionados a um número real.
 
 </aside>
 
-
 <aside>
 
-<b>(GUIDORIZZI 2001, Propriedade de Arquimedes)</b> — Se $x \gt 0$ e $y$ são dois números reais quaisuqer, então existe pelo menos um número natural $n$ tal que $nx \gt y$. 
+<b>Teorema (Guidorizzi, Propriedade de Arquimedes)</b> — Se $x \gt 0$ e $y$ são dois números reais quaisuqer, então existe pelo menos um número natural $n$ tal que $nx \gt y$. 
 
 </aside>
 
 # Referências 
-
- 
 
 1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.
 2. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC

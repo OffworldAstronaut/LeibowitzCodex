@@ -1,16 +1,12 @@
-# Momento linear e colisões
+# Momento linear
 
 # Momento
-
-
 
 Chamamos <b>momento (linear)</b> $(\vec{p})$ a grandeza associada ao movimento de um corpo, dependente de sua massa e velocidade. Originalmente, ao definí-la, Newton a chamou de "quantidade de movimento". Temos ainda que, ao definir o momento para uma partícula ou um corpo, é natural definir o momento de um sistema como o total da soma do momento de todos os corpos pertencentes ao sistema considerado.
 
 A grandeza do momento pode ser compreendida como a "inércia" da mudança de movimento de um corpo. Essa "dificuldade" é classicamente ilustrada pelo exemplo do automóvel e do carrinho de bebê — é infinitamente mais fácil parar um carrinho de bebê com as mãos do que o automóvel. 
 
 # Centro de massa
-
- 
 
 Num sistema com mais de uma partícula, chamamos <b>forças internas</b> ao sistema as forças de interação entre essas partículas. Essas forças internas são chamadas ainda <b>newtonianas</b> quando formam pares ação e reação e, como consequência, conservam o momento total ao longo do tempo, conforme <a href="/books/higher_education/physics/physics_one/newtons_laws.html">visto anteriormente</a>.
 
@@ -102,8 +98,6 @@ $$
 Por fim, é notável mencionar que caso o corpo uniforme considerado possua um centro geométrico, este será o centro de massa do objeto. 
 
 # Sistemas de massa variável
-
-
 
 É possível impulsionar um corpo em sistemas de massa variável por meio da atuação de forças internas. Esta possibilidade se origina da conservação de momento do sistema e, para ilustrar esse fenômeno, podemos recorrer a um experimento mental: imagine um astronauta, um revólver e uma bala. 
 
@@ -204,8 +198,6 @@ Esta equação é conhecida por <b>equação do foguete ideal</b> ou <b>equaçã
 Perceba que a razão $\dfrac{m_i}{m_f}$ possui uma relação exponencial com a velocidade final. Para alcançar velocidades cada vez maiores, precisamos de foguetes com quantidades exponencialmente maiores de combustível. Esta é a razão, portanto, que foguetes possuem estágios: é mais eficiente largar estágios vazios para trás à medida em que se acelera, pois a razão no interior do logaritmo torna-se maior em comparação com estágios anteriores. 
 
 # Referências 
-
-
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>).

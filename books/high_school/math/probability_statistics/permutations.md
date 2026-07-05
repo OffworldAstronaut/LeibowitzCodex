@@ -2,13 +2,9 @@
 
 # Definição
 
-
-
 O que é <b>permutar</b>? Permutar não é nada mais nada menos do que “reorganizar”, “rearranjar” uma coleção de objetos. Por exemplo, no conjunto $A=\{1, 2, 3, 4\}$, uma permutação possível seria $\{2, 3, 1, 4\}$ ou $\{3, 1, 4, 2\}$. 
 
 # Princípios
-
-
 
 Na arte matemática das permutações, temos dois princípios básicos que vão formar a sustentação de todo o nosso raciocínio, são eles o <b>princípio aditivo</b> e o <b>princípio multiplicativo</b>. 
 
@@ -16,11 +12,7 @@ Na arte matemática das permutações, temos dois princípios básicos que vão 
 
 Esse princípio nos diz que o número de elementos do conjunto formado pela união $(\cup)$ de dois conjuntos <b>disjuntos</b> $P$ e $Q$, cada um com $i$ e $j$ elementos, respectivamente, é de $i+j$ elementos. 
 
-<aside>
-
 Dizemos que dois conjuntos são <b>disjuntos</b> quando seus elementos são completamente diferentes entre si; e.g.: $A = \{1, 2\}$ e $B = \{3, 4\}$ são conjuntos disjuntos.
-
-</aside>
 
 Matematicamente, podemos representar esse princípio assim: 
 
@@ -52,25 +44,19 @@ Cada parcela da soma representa mais três possibilidades de combinar uma camisa
 
 Representando as camisas com $k$ e as calças com $c$, temos os seguintes pares ordenados: 
 
-<aside>
-
 $$
 \begin{array}{ccc}
-    (k_1, c_1) & (k_1, c_2) & (k_1, c_3) \\\\
-    (k_2, c_1) & (k_2, c_2) & (k_2, c_3) \\\\
-    (k_3, c_1) & (k_3, c_2) & (k_3, c_3) \\\\
-    (k_4, c_1) & (k_4, c_2) & (k_4, c_3) \\\\
+    (k_1, c_1) & (k_1, c_2) & (k_1, c_3) \\
+    (k_2, c_1) & (k_2, c_2) & (k_2, c_3) \\
+    (k_3, c_1) & (k_3, c_2) & (k_3, c_3) \\
+    (k_4, c_1) & (k_4, c_2) & (k_4, c_3) \\
     (k_5, c_1) & (k_5, c_2) & (k_5, c_3)
 \end{array}
 $$
 
-</aside>
-
 Multiplicando o número de linhas pelo número de colunas, vemos que sim, temos 15 pares, como previsto. 
 
 # Permutações lineares
-
-
 
 ## Permutação com objetos diferentes
 
@@ -78,7 +64,9 @@ Considerando uma lista de vários objetos, todos diferentes entre si $(a_1, a_2,
 
 Sabemos que o conjunto possui 3 elementos, logo, podemos fazer isso de $3! = 3\times2\times1=6$ maneiras diferentes. Isso pode ser visualizado abaixo: 
 
-$\{F, O, X\}, \{F, X, O\}, \{O, X, F\}, \{O, F, X\}$, $\{X, F, O\}$, $\{X, O, F\}$
+$$
+\{F, O, X\}, \{F, X, O\}, \{O, X, F\}, \{O, F, X\}, \{X, F, O\}, \{X, O, F\}
+$$
 
 ## Escolhendo pequenas listas de uma lista maior
 
@@ -118,8 +106,6 @@ Onde $k_1$ é a quantidade de elementos do tipo 1, $k_2$ é a quantidade de elem
 
 # Permutações circulares
 
-
-
 Para entender o conceito de uma permutação circular, vamos imaginar a seguinte situação: temos 3 crianças, Ana, Bia e Carlos, brincando de ciranda no meio da praça. De quantas maneiras podemos organizar essa roda? 
 
 Como são três elementos distintos, a primeira intuição seria efetuar $3!=3\times2\times1=6$, porém, vemos pela imagem abaixo uma propriedade importante: cada configuração possui alguns “espelhos”, que são as rotações da “ciranda”.
@@ -138,8 +124,6 @@ $$
 
 # Permutações caóticas
 
-
-
 Ao considerarmos um conjunto de elementos, uma permutação desse conjunto é dita ser <i>caótica</i> se todos os elementos estão em posições diferentes do conjunto "original". Por exemplo, na lista $\{1, 2, 3, 4\}$, a permutação $\{2, 4, 1, 3\}$ é caótica, enquanto a permutação $\{1, 3, 2, 4\}$ não o é, pois o “1” está na sua posição original. 
 
 Por meio do <b>Princípio da Inclusão-Exclusão</b> (PIE), podemos saber que a quantidade de permutações caóticas de um determinado conjunto $\{1, 2, 3, 4, ..., n\}$ é dada por: 
@@ -153,7 +137,7 @@ $$
 
 <aside>
 
-É importante notar que, assim como visto na página do PIE, o termo $(-1)^n$ funciona como uma “condicional” para determinar se o último termo será uma soma ou uma subtração.
+É importante notar que o termo $(-1)^n$ funciona como uma “condicional” para determinar se o último termo será uma soma ou uma subtração, conforme visto na <a href="/books/high_school/math/probability_statistics/counting_methods.html" target="_blank">discussão sobre o PIE</a>.
 
 </aside>
 
@@ -174,3 +158,7 @@ Colocando $n!$ em evidência, finalmente chegamos na nossa expressão final, que
 $$
 D_n=n!\left(\dfrac{1}{0!}-\dfrac{1}{1!}+\dfrac{1}{2!}-\dfrac{1}{3!}+...+(-1)^n\cdot\dfrac{1}{n!} \right)
 $$
+
+# Referências
+
+1. MORGADO, A. C. O. et al. Análise Combinatória e Probabilidade. 9. ed. Rio de Janeiro: SBM, 2006

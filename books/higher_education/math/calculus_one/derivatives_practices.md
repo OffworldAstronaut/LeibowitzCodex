@@ -4,7 +4,7 @@ Este documento servirá como um compêndio de algumas regras, técnicas e práti
 
 ## Derivação implícita
 
-A **derivação implícita** é uma técnica muito útil para derivar funções oriundas de equações que relacionam $x$ e $y$, pois nem sempre é fácil escrever $y$ diretamente em função de $x$. Quando isso acontece, precisamos usar a derivação implícita: derivamos os dois membros da equação em relação a $x$ enquanto tratamos $y$ como uma função de $x$ ainda desconhecida.
+A <b>derivação implícita</b> é uma técnica muito útil para derivar funções oriundas de equações que relacionam $x$ e $y$, pois nem sempre é fácil escrever $y$ diretamente em função de $x$. Quando isso acontece, precisamos usar a derivação implícita: derivamos os dois membros da equação em relação a $x$ enquanto tratamos $y$ como uma função de $x$ ainda desconhecida.
 
 Por exemplo, considere a equação $x^2+y^2=1$, a equação de um círculo. É fácil ver que podemos explicitar $y=f(x)$ por meio de uma simples reescrita: 
 
@@ -37,7 +37,7 @@ Se quisermos encontrar a expressão original de $y$, poderemos nos utilizar das 
 
 ## Derivação logarítmica
 
-A **derivação logarítmica** é uma prática muito eficiente quando se mostra necessário derivar funções formadas por uma grande quantidade de expressões, mais comumente produtos, quocientes e potências. 
+A <b>derivação logarítmica</b> é uma prática muito eficiente quando se mostra necessário derivar funções formadas por uma grande quantidade de expressões, mais comumente produtos, quocientes e potências. 
 
 Ela consiste apenas em aplicar o logaritmo natural na equação da função, simplificar e derivar implicitamente, extraindo a derivada ao final. 
 
@@ -52,7 +52,7 @@ $$
 \end{align*}
 $$
 
-Perceba que estamos considerando o **módulo da expressão** pois a função logaritmo não está definida para números negativos. Além disso, pode-se demonstrar que $(\ln{|x|})' = (\ln{x})' = \dfrac{1}{x}$. 
+Perceba que estamos considerando o <b>módulo da expressão</b> pois a função logaritmo não está definida para números negativos. Além disso, pode-se demonstrar que $(\ln{|x|})' = (\ln{x})' = \dfrac{1}{x}$. 
 
 $$
 \begin{align*}
@@ -104,7 +104,7 @@ Veja como essa técnica poupou tempo ao evitar que aplicássemos repetidas vezes
 
 ## Regra de L’Hôpital
 
-Enquanto o simples rearranjo algébrico pode levantar indeterminações em alguns limites, a **regra de L’Hôpital** nos ajuda a tratar de forma simples dois tipos de indeterminações, a saber, as de tipos $\dfrac{0}{0}$ ou $\dfrac{\infty}{\infty}$. 
+Enquanto o simples rearranjo algébrico pode levantar indeterminações em alguns limites, a <b>regra de L’Hôpital</b> nos ajuda a tratar de forma simples dois tipos de indeterminações, a saber, as de tipos $\dfrac{0}{0}$ ou $\dfrac{\infty}{\infty}$. 
 
 A regra estabelece que, se supormos duas funções, $f(x)$ e $g(x)$, diferenciáveis em um intervalo aberto $I$, com $g'(x) \neq 0$ — exceto em um dado $a \in I$, possivelmente —, e uma das seguintes situações ocorrerem,
 

@@ -2,8 +2,6 @@
 
 # Conceitos iniciais 
 
-
-
 Chamamos <b>cinemática</b> a descrição física do movimento de um corpo ao longo do tempo. Os elementos básicos desta descrição são as grandezas de posição e tempo. 
 
 Levando em conta que a grandeza de <b>velocidade (média)</b> é a proporção de espaço percorrido num dado tempo, também conhecida, a <b>velocidade instantânea</b> é o valor da função derivada da função deslocamento num dado instante temporal. 
@@ -13,8 +11,6 @@ De forma semelhante, a aceleração é o valor da segunda derivada da função d
 Uma aplicação notável desta última informação são os <b><a href="https://en.wikipedia.org/wiki/Inertial Navigation System" target="_blank">Sistemas de Navegação Inercial</a></b> (<i>Inertial Navigation Systems</i>). Os SNIs são capazes de determinar a posição atual do veículo independentemente de informação externa, somente a partir do registro da aceleração sofrida pelo veículo ao longo do tempo e de uma posição inicial registrada na memória. São geralmente utilizados em aeronaves e espaçonaves, além de embarcações, como sistemas redundantes, caso a comunicação falhe.
 
 # Vetores
-
- 
 
 Chamamos <b>vetores</b> os objetos matemáticos que possuem um módulo (magnitude) e uma orientação. No campo da Física, algumas grandezas são descritas como <i>vetoriais</i>, possuindo direção e magnitude e descritas utilizando estes objetos. Como exemplo, podemos citar entes físicos como força e momento. Estas grandezas contrastam com as chamadas <b>escalares</b>, descritas por números reais ("escalares"). Dentre estas últimas, podemos citar como exemplo a temperatura ou a energia cinética de um corpo. 
 
@@ -33,7 +29,6 @@ Ao representarmos os vetores, fazemos o uso dos chamados <b>componentes</b>, pro
 ![](https://upload.wikimedia.org/wikipedia/commons/8/85/Vector_decomposition_2d.svg)
 
 <i>Ilustração da soma e da decomposição de vetores em seus componentes base. CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Vector_decomposition_2d.svg" target="_blank">Wikimedia Commons</a>.</i>
-
 
 <aside>
 
@@ -160,8 +155,6 @@ Vale lembrar que, por consequência das definições do produto vetorial, e do e
 
 # Representando movimentos em duas e três dimensões
 
-
-
 Combinando os conceitos do Cálculo com os sistemas de coordenadas, é possível descrever movimentos no espaço tridimensional de forma completa. Para um ponto material, medimos sua <b>posição</b> em relação à origem por um vetor da forma: 
 
 $$
@@ -198,8 +191,6 @@ $$
 $$
 
 # Movimentos especiais 
-
-
 
 No estudo da cinemática, convém estudar com mais detalhes alguns movimentos simples devido a sua imensa importância e presença em numerosos sistemas físicos, incluindo os de nosso cotidiano. São estes os <b>movimentos balísticos</b> e os <b>movimentos circulares uniformes</b>.
 
@@ -278,8 +269,6 @@ T = \dfrac{2\pi r}{v}
 $$
 
 # Referências 
-
-
 
 1. HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de física, v. 1: mecânica. 10. ed. Rio de Janeiro: LTC, 2016;
 2. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015;

@@ -11,6 +11,7 @@
     --text-muted:    light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
     --link:          light-dark(#7a4f1e, wheat);
     --shadow:        light-dark(rgba(180,160,120,0.2), rgba(0,0,0,0.25));
+    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
 }
 
 body {
@@ -302,4 +303,8 @@ textarea,
     height: 3px;
     margin-top: 0.3em;
     background: linear-gradient(to right, var(--border), transparent);
+}
+
+::selection { 
+    background: var(--selection-hl)
 }

@@ -18,8 +18,6 @@ Por fim, uma função é classificada como bijetora se esta é simultaneamente i
 
 Dizemos que uma certa função $F: U \to V$, com $U$ e $V$ sendo espaços vetoriais, é uma <b>transformação linear</b> de $U$ em $V$ se vale 
 
-<aside>
-
 $$
 \begin{align*}
     F(\alpha u) &= \alpha F(u), \forall u \in U, \alpha \in \mathbb{R} \\ 
@@ -27,13 +25,9 @@ $$
 \end{align*}
 $$
 
-</aside>
-
 Em especial, quando $U = V$, esta função recebe o nome de <b>operador linear</b>.
 
 Desta definição e das noções anteriores sobre espaços vetoriais decorrem algumas propriedades. Dentre elas, podemos listar que 
-
-<aside>
 
 $$
 \begin{align*}
@@ -45,8 +39,6 @@ $$
 \end{align*}
 $$
 
-</aside>
-
 Isto é — da primeira afirmação para a última —, vale que uma transformação linear leva o vetor nulo de um espaço ao vetor nulo de outro espaço; que uma transformação linear de um oposto leva ao oposto da transformação linear do vetor; que a transformação linear da diferença entre dois vetores é a diferença das transformações lineares de cada vetor; que uma transformação linear leva de subespaço em subespaço e que, finalmente, a imagem da combinação linear de $n$ vetores é a combinação linear das imagens de $n$ vetores.
 
 # Núcleo e imagem
@@ -54,7 +46,7 @@ Isto é — da primeira afirmação para a última —, vale que uma transforma�
 Dados dois espaços vetoriais $U$ e $V$ e uma transformação linear entre eles, definimos o <b>núcleo</b> dessa transformação como o conjunto de todos os elementos $u \in U$ tais que $F(u) = 0$. Em notação de conjuntos, escrevemos 
 
 $$
-\ker{F} = \{u \in U | F(u) = 0\}
+\ker{F} = \\{u \in U | F(u) = 0\\}
 $$
 
 Desta definição inicial decorre que o núcleo de uma transformação linear é um subespaço vetorial de $U$ e que $F$ é injetora se, e somente se, seu núcleo conter apenas o vetor nulo. 
@@ -63,7 +55,7 @@ Um resultado interessante que pode ser extraído é o seguinte:
 
 <aside>
 
-<b>Teorema</b> — Dada uma transformação linear $T: U \to V$, é válido que $\dim{\ker{T}} \le \dim{U}$ e, ao mesmo tempo, é válido que $\dim{\text{Im}(T)} \le \min{\{\dim{U}, \dim{V}\}}$. 
+<b>Teorema</b> — Dada uma transformação linear $T: U \to V$, é válido que $\dim{\ker{T}} \le \dim{U}$ e, ao mesmo tempo, é válido que $\dim{\text{Im}(T)} \le \min{\\{\dim{U}, \dim{V}\\}}$. 
 
 </aside>
 
@@ -153,7 +145,7 @@ $$
 
 # Matriz de uma transformação
 
-Sejam $U$ e $V$ dois espaços vetoriais sobre $\mathbb{R}$ de dimensão finita. Além disso, sejam $B = \{u_1, u_2, ..., u_n\}$ e $C = \{v_1, v_2, ..., v_m\}$ bases de $U$ e $V$, respectivamente. 
+Sejam $U$ e $V$ dois espaços vetoriais sobre $\mathbb{R}$ de dimensão finita. Além disso, sejam $B = \\{u_1, u_2, ..., u_n\\}$ e $C = \\{v_1, v_2, ..., v_m\\}$ bases de $U$ e $V$, respectivamente. 
 
 Note que o vetor genérico $F(u) \in V$ pode ser escrito como $F$ aplicada a uma combinação linear dos vetores de $B$. 
 
@@ -254,7 +246,7 @@ bijetora e, portanto, um isomorfismo entre $L(U,V)$ e $M_{m \times n} (\mathbb{R
 
 ## Matriz de uma transformação composta 
 
-Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$ e bases $B = \{u_1, u_2, ..., u_n\}$, $C = \{v_1, v_2, ..., v_m\}$ e $D = \{w_1, w_2, ..., w_p\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à 
+Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$ e bases $B = \\{u_1, u_2, ..., u_n\\}$, $C = \\{v_1, v_2, ..., v_m\\}$ e $D = \\{w_1, w_2, ..., w_p\\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à 
 
 $$
 (G \circ F)_{B, D}
@@ -295,7 +287,7 @@ $$
 
 e, portanto, $I_n$ é a matriz do operador idêntico tanto de $U$ como de $V$.
 
-Destas conclusões podemos explorar um problema interessante. Considere um espaço vetorial $U$ sobre $\mathbb{R}$ de dimensão $n$ e duas bases deste espaço, $B = \{u_1, u_2, ..., u_n\}$ e $C = \{v_1, v_2, ..., v_n\}$. Considere ainda um operador linear de $U$, $T$. Dado duas matrizes $(T)_B$ e $(T)_C$, como relacioná-las por meio de uma expressão? Em outras palavras, como a matriz de um operador linear modifica-se ao considerarmos uma outra base, e como podemos obtê-la? 
+Destas conclusões podemos explorar um problema interessante. Considere um espaço vetorial $U$ sobre $\mathbb{R}$ de dimensão $n$ e duas bases deste espaço, $B = \\{u_1, u_2, ..., u_n\\}$ e $C = \\{v_1, v_2, ..., v_n\\}$. Considere ainda um operador linear de $U$, $T$. Dado duas matrizes $(T)_B$ e $(T)_C$, como relacioná-las por meio de uma expressão? Em outras palavras, como a matriz de um operador linear modifica-se ao considerarmos uma outra base, e como podemos obtê-la? 
 
 De início, sabemos que a matriz de mudança de base de $B$ para $C$ é da forma 
 
@@ -415,7 +407,7 @@ $$
 \neq 0
 $$
 
-Um outro conceito que pode ser transportado para a linguagem de matriz é o conceito de <b>núcleo</b>. Com efeito, definimos núcleo como o conjunto de vetores $x \in U$ tais que $Ax = 0$. Isto é, $\ker{A} = \{x \in U | Ax = 0\}$. 
+Um outro conceito que pode ser transportado para a linguagem de matriz é o conceito de <b>núcleo</b>. Com efeito, definimos núcleo como o conjunto de vetores $x \in U$ tais que $Ax = 0$. Isto é, $\ker{A} = \\{x \in U | Ax = 0\\}$. 
 
 Além disso, chamamos a dimensão do núcleo de $A$ de <b>nulidade</b> de $A$ e denotamos-a por $\text{nul }{A}$. Dessa forma, podemos novamente enunciar o <b>teorema do núcleo e da imagem</b>, visto acima, numa linguagem matricial. Assim, para uma matriz $A_{m \times n}$, 
 
@@ -449,7 +441,7 @@ Dado um espaço vetorial $U$ sobre $\mathbb{R}$, denominamos por <b>espaço dual
 
 Um exemplo interessante que nos estimula a pensar em técnicas que nos irão ajudar a validar um importante resultado é a forma geral de um funcional linear sobre $\mathbb{R}^n$. 
 
-Imagine uma forma linear $F$ sobre o $\mathbb{R}^n$. Seja então $\{e_1, e_2, ..., e_n\}$ a <b>base canônica</b> do $\mathbb{R}^n$, isto é, 
+Imagine uma forma linear $F$ sobre o $\mathbb{R}^n$. Seja então $\\{e_1, e_2, ..., e_n\\}$ a <b>base canônica</b> do $\mathbb{R}^n$, isto é, 
 
 $$
 \begin{align*}
@@ -506,7 +498,7 @@ $$
 \end{align*}
 $$
 
-e, portanto, o conjunto $\{F_1, ..., F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
+e, portanto, o conjunto $\\{F_1, ..., F_n\\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
 
 # Referências
 

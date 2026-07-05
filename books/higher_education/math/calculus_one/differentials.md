@@ -56,8 +56,8 @@ $$
     d(\cos{x}) &= -\sin{x} \cdot dx \\ 
     d(\tan{x}) &= \sec^2{x} \cdot dx \\ 
     d(\sec{x}) &= \sec{x}\tan{x} \cdot dx \\ 
-    d(\csc{x}) &= -\csc{x}\cotg{x} \cdot dx \\ 
-    d(\cotg{x}) &= -\csc^2{x} \cdot dx \\ 
+    d(\csc{x}) &= -\csc{x}\cot{x} \cdot dx \\ 
+    d(\cot{x}) &= -\csc^2{x} \cdot dx \\ 
     d(e^x) &= e^x \cdot dx \\ 
     d(a^x) &= a^x \ln{a} \cdot dx \\ 
     d(\ln{x}) &= \dfrac{1}{x} dx \\ 

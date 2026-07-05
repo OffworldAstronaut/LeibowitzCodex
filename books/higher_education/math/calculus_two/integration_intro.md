@@ -2,9 +2,9 @@
 
 # Introdução
 
-Quando estudamos o estudo das **integrais** em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada **Integral de Riemann**, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
+Quando estudamos o estudo das <b>integrais</b> em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada <b>Integral de Riemann</b>, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
 
-Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibnitz, o matemático ao lado foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como **limites** e **partições** de conjuntos.
+Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibnitz, o matemático ao lado foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como <b>limites</b> e <b>partições</b> de conjuntos.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/76/Bernhard_Riemann_3.jpg)
 
@@ -12,7 +12,7 @@ Embora o conceito de uma função que nos fornecesse a área sob o gráfico de u
 
 Riemann também é famoso por outras contribuções igualmente monumentais nos campos da análise real, análise complexa. geometria não-euclideana e muitos outros, pavimentando inclusive a matemática necessária para descrever a Relatividade Geral de Einstein. Ele também era bastante tímido e ficava doente com facilidade.
 
-Dessa forma, para compreendermos a definição exposta por Riemann para esse importante objeto matemático, precisamos ter em mente alguns conceitos fundamentais, a saber, a **partição de um intervalo** e a **soma de Riemann**.
+Dessa forma, para compreendermos a definição exposta por Riemann para esse importante objeto matemático, precisamos ter em mente alguns conceitos fundamentais, a saber, a <b>partição de um intervalo</b> e a <b>soma de Riemann</b>.
 
 ## Partição de um intervalo
 
@@ -20,13 +20,13 @@ Definimos a partição de um intervalo da seguinte maneira:
 
 <aside>
 
-<i>Dado um intervalo fechado $I=[a,b]$</i>, chamamos <b>partição de $I$</b> o conjunto de $n+1$ pontos no intervalo $I$ de forma que o valor de cada um seja estritamente maior que o outro. Os valores extremos dessse conjunto $P$ são os extremos do intervalo. 
+<b>Definição (partição de um intervalo)</b> — Dado um intervalo fechado $I=[a,b]$, chamamos <b>partição de $I$</b> o conjunto de $n+1$ pontos no intervalo $I$ de forma que o valor de cada um seja estritamente maior que o outro. Os valores extremos dessse conjunto $P$ são os extremos do intervalo. 
 
 </aside>
 
 ![](images/integration_intro/integration_intro_partition.png)
 
-<i>Um exemplo de partição do intervalo $[0,3].$</i>
+<i>Um exemplo de partição do intervalo $[0,3]$.</i>
 
 A partição de um intervalo o subdivide em $n$ subintervalos, com o tamanho do maior intervalo sendo chamado <b>norma da partição</b> $P$. Em termos mais restritos, podemos definir essa norma pela expressão
 
@@ -42,13 +42,13 @@ A soma de Riemann é uma das maneiras de construir a <b>integral de Riemann</b>,
 
 <aside>
 
-<i>Dados $f: [a,b] \rightarrow \mathbb{R}$ limitada e contínua; $P$ uma partição de $[a,b]$ e números $c_i \in [a,b]$ de forma que $t_{i - 1} < c_i < t_i$ — isto é, cada número $c_i$ pertencendo ao respectivo subintervalo de mesmo índice — definimos a <b>soma de Riemann referente à partição $P$ e à escolha dos $c_i$</b> por
+<b>Definição (soma de Riemann)</b> — Dados $f: [a,b] \rightarrow \mathbb{R}$ limitada e contínua; $P$ uma partição de $[a,b]$ e números $c_i \in [a,b]$ de forma que $t_{i - 1} < c_i < t_i$ — isto é, cada número $c_i$ pertencendo ao respectivo subintervalo de mesmo índice — definimos a <b>soma de Riemann referente à partição $P$ e à escolha dos $c_i$</b> por
 
 $$
 S(f, P, \{c_i\}^n_{i=1}) = \sum_{i=1}^nf(c_i) \cdot \Delta t_i
 $$
 
-onde $\Delta t_i = t_i - t_{i-1}$</i>
+onde $\Delta t_i = t_i - t_{i-1}$
 </aside>
 
 ![](https://upload.wikimedia.org/wikipedia/commons/1/19/Riemann_sum_%28leftbox%29.gif)
@@ -57,15 +57,15 @@ onde $\Delta t_i = t_i - t_{i-1}$</i>
 
 # Definindo integrais (de Riemann)
 
-Por fim, chegamos à definição de integral chegada por **Bernhard Riemann**, que se utiliza dos conceitos expostos anteriormente, a **soma de Riemann** e a **partição** de um conjunto. Ela é definida da seguinte forma:
+Por fim, chegamos à definição de integral chegada por Bernhard Riemann, que se utiliza dos conceitos expostos anteriormente, a <b>soma de Riemann</b> e a <b>partição de um intervalo</b>. Ela é definida da seguinte forma:
 
 <aside>
 
-<i>Seja $f: [a,b] \rightarrow \mathbb{R}$. Dizemos que $f$ é integrável se existe $L \in \mathbb{R}$ tal que $L = \lim_{|P| \rightarrow 0} S(f, P, \{c_i\})$ para toda escolha possível dos $c_i$ numa partição $P$.</i>
+<b>Definição (integral de Riemann)</b> — Seja $f: [a,b] \rightarrow \mathbb{R}$. Dizemos que $f$ é integrável se existe $L \in \mathbb{R}$ tal que $L = \lim_{|P| \rightarrow 0} S(f, P, \{c_i\})$ para toda escolha possível dos $c_i$ numa partição $P$.
 
 </aside>
 
-Ou seja, de forma mais palatável, uma função é **integrável** se, ao analisarmos todas as partições possíveis de seu domínio com normas cada vez menores (mais subintervalos), as somas de Riemann consideradas se aproximam do mesmo número, a mesma área sob o gráfico.
+Ou seja, de forma mais palatável, uma função é <b>integrável</b> se, ao analisarmos todas as partições possíveis de seu domínio com normas cada vez menores (mais subintervalos), as somas de Riemann consideradas se aproximam do mesmo número, a mesma área sob o gráfico.
 
 Por fim, escrevemos esse limite por uma notação resumida,
 
@@ -90,44 +90,39 @@ $$
 \end{align*}
 $$
 
-Além disso, temos que toda função **contínua** é **integrável**, embora algumas funções descontínuas preservem a propriedade de integração. Encontrar todas as condições que tornam uma função integrável está fora do escopo deste documento.
+Além disso, temos que toda função <b>contínua</b> é <b>integrável</b>, embora algumas funções descontínuas preservem a propriedade de integração. Encontrar todas as condições que tornam uma função integrável está fora do escopo deste documento.
 
 # Calculando integrais
 
 Até aqui, conseguimos definir integrais, operações que nos fornecem a área sob o gráfico de uma determinada função, mas não temos ainda um método eficiente de calculá-las: seguir a definição de Riemann seria um trabalho descomunalmente intensivo. 
 
-Dessa forma, vamos introduzir alguns conceitos, a saber os conceitos de **primitivas** e por fim o **Teorema Fundamental do Cálculo**, que irão nos ajudar a calcular integrais de maneiras um pouco mais rápidas. 
+Dessa forma, vamos introduzir alguns conceitos, a saber os conceitos de <b>primitivas</b> e por fim o <b>Teorema Fundamental do Cálculo</b>, que irão nos ajudar a calcular integrais de maneiras um pouco mais rápidas. 
 
 ## Primitivas
 
-Definimos **primitivas**, também conhecidas como **antiderivadas**, da seguinte maneira:
+Definimos <b>primitivas</b>, também conhecidas como <b>antiderivadas</b>, da seguinte maneira:
 
 <aside>
 
-<i>
-
-Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ uma função. Uma <b>primitiva</b> de $f$ é uma função $F: \mathbb{R} \rightarrow \mathbb{R}$ derivável tal que $F'(X) = f(x)$.
-
-</i>
+<b>Definição (primitiva de fuma função)</b> — Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ uma função. Uma <b>primitiva</b> de $f$ é uma função $F: \mathbb{R} \rightarrow \mathbb{R}$ derivável tal que $F'(X) = f(x)$.
 
 </aside>
 
-Uma consequência imediata dessa definição é a constatação de que **se uma função $f$ possui uma primitiva**, ela possui **infinitas**. Demonstrando essa afirmação:
+Uma consequência imediata dessa definição é a constatação de que <b>se uma função $f$ possui uma primitiva</b>, ela possui <b>infinitas</b>. Demonstrando essa afirmação:
 
 <aside>
 
-<i>Se $F(x)$ e $G(x)$ são primitivas de uma função $f(x)$, então:</i>
+<b>Demonstração (existência de infinitas primitivas)</b> — Se $F(x)$ e $G(x)$ são primitivas de uma função $f(x)$, então:
 
 $$
 \begin{align*}
-    F'(x) &= G'(x) \\\\ 
-    F'(x)-G'(x) &= 0 \\\\ 
+    F'(x) &= G'(x) \\
+    F'(x)-G'(x) &= 0 \\
     (F-G)'(x) &= 0
 \end{align*}
-
 $$
 
-<i>Perceba que, pelo <a href="/books/higher_education/math/calculus_one/derivatives_applications.html">teorema do valor médio</a>, $F(x)$ e $G(x)$ diferem apenas por uma constante real, logo:</i>
+Perceba que, pelo <a href="/books/higher_education/math/calculus_one/derivatives_applications.html">teorema do valor médio</a>, $F(x)$ e $G(x)$ diferem apenas por uma constante real, logo:
 
 $$
 F(x) = G(x) + k, k \in \mathbb{R}
@@ -141,24 +136,49 @@ $$
 \int f(x) \ dx
 $$
 
-Por fim, é importante ter em mente outro teorema importante, demonstrado no apêndice, cuja conclusão é que <b>toda função contínua possuí primitiva</b>.
+Por fim, é importante ter em mente outro teorema importante: <b>toda função contínua possuí primitiva</b>.
+
+<aside>
+
+<b>Demonstração (toda função contínua possui primitiva)</b> — Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ contínua. Tome $F(x) = \int_{a}^{x} f(t) \ dt$ e $a \in D_f$. 
+
+$$
+\begin{align}
+  F'(x)&=\lim_{h \rightarrow 0} \dfrac{F(x+h)-F(x)}{h} \\ 
+  &= \lim_{h \rightarrow 0}\dfrac{\int  _a^{x+h} f(t) \ dt - \int_{a}^x f(t) \ dt}{h} \\ 
+  &= \lim_{h \rightarrow 0} \dfrac{\int_x^{x+h} f(t) \ dt}{h}
+\end{align}
+$$
+
+Por meio do teorema do valor médio para integrais (visto ao fim deste documento), podemos reescrever $\int_{x}^{x+h} f(t) \ dt = f(c) \cdot h$, com $c \in [x, x+h]$. 
+
+$$
+\lim_{h \rightarrow 0} \dfrac{f(c) \cdot h}{h}=\lim_{h \rightarrow 0} f(c) = f(x)
+$$
+
+Podemos afirmar essa última igualdade em razão da afirmação que $f$ é uma função contínua. 
+
+Quando $h \rightarrow 0$, o intervalo se estreita e colocamos $c $ arbitrariamente próximo de $x$. Como $f$ é contínua, $\lim_{c \rightarrow x} f(c)=f(x)$.
+Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
+
+</aside>
 
 ## Técnicas de integração
 
-As **primitivas** — e as integrais de forma geral — possuem propriedades úteis que facilitam o seu cálculo, que por sua vez irá colaborar no cálculo de integrais, consequência exposta na próxima seção. 
+As <b>primitivas</b> — e as integrais de forma geral — possuem propriedades úteis que facilitam o seu cálculo, que por sua vez irá colaborar no cálculo de integrais, consequência exposta na próxima seção. 
 
 ### Mudança de variável
 
-A propriedade da mudança de variável nos permite mudar a variável da função que está sendo integrada, permitindo uma maior facilidade. A ideia por trás dessa propriedade é uma espécie de “desfazimento” da regra da cadeia.
+A propriedade da mudança de variável nos permite mudar a variável da função que está sendo integrada, permitindo uma maior facilidade. A ideia por trás dessa propriedade é uma espécie de “inversão” da regra da cadeia.
 
 A seguir, usamos a definição exposta por Guidorizzi:
 
 <aside>
 
-<i>Seja $f$ contínua num intervalo $I$ e sejam $a$ e $b$ dois números reais quaisquer em $I$. Seja $g: [c,d] \rightarrow I$, com $g'$ contínua em $[c,d]$, tal que $g(c) = a$ e $g(d) = b$. Nestas condições:</i>
+<b>Teorema (Guidorizzi, mudança de variável de integração)</b> — Seja $f$ contínua num intervalo $I$ e sejam $a$ e $b$ dois números reais quaisquer em $I$. Seja $g: [c,d] \rightarrow I$, com $g'$ contínua em $[c,d]$, tal que $g(c) = a$ e $g(d) = b$. Nestas condições:
 
 $$
-\int_{a}^{b} f(x) \ dx = \int_{c}^{d} f(g(u)) \cdot g'(u) \text{ du}
+\int_{a}^{b} f(x) \ dx = \int_{c}^{d} f(g(u)) \cdot g'(u) \ du
 $$
 
 </aside>
@@ -173,7 +193,7 @@ $$
 
 <aside>
 
-<i>Perceba que a derivada entre os colchetes com os limites de integração é uma notação condensada para a subtração entre as antiderivadas; lemos <b>avaliada entre</b> $x$ e $y$, com estes dois números sendo os limites de integração.</i>
+Perceba que a derivada entre os colchetes com os limites de integração é uma notação condensada para a subtração entre as antiderivadas. Lemos <b>avaliada entre</b> $x$ e $y$, com estes dois números sendo os limites de integração.
 
 </aside>
 
@@ -254,43 +274,19 @@ $$
 \end{align*}
 $$
 
-
 # Teorema do Valor Médio para Integrais
 
-Podemos adaptar o **teorema do valor médio (TVM)**, originalmente definido para a operação de derivação, para a integração.
+Podemos adaptar o <b>teorema do valor médio (TVM)</b>, originalmente definido para a operação de derivação, para a integração.
 
 <aside>
 
-<i>
-
-Sejam $\phi, f: [a,b] \rightarrow \mathbb{R}$ contínuas com $\phi \ge 0, \forall x \in [a, b]$. Então existe $c \in [a,b]$ tal que $\int_{a}^{b} f(x) \phi(x) \ dx = f(c) \cdot \int_{a}^{b} \phi(x) \ dx$.
-
-</i>
+<b>Teorema (do Valor Médio para Integrais)</b> — Sejam $\phi, f: [a,b] \rightarrow \mathbb{R}$ contínuas com $\phi \ge 0, \forall x \in [a, b]$. Então existe $c \in [a,b]$ tal que $\int_{a}^{b} f(x) \phi(x) \ dx = f(c) \cdot \int_{a}^{b} \phi(x) \ dx$.
 
 </aside>
-
-Uma interessante interpretação geométrica é possível quando $\phi(x) = 1$. 
-
-$$ 
-\phi(x) = 1 \Rightarrow \int_{a}^{b} f(x) \ dx = f(c)(b-a)
-$$
-
-Calcular essa última expressão é o equivalente de encontrar a área do retângulo com base no tamanho dos limites de integração e da altura $f(c)$, além de demonstrarmos que a área desse retângulo possui a mesma área que a integral da função. 
-
-## Demonstração 
-
-Podemos demonstrar esse teorema da seguinte maneira: 
 
 <aside>
 
-<i>
-
-O teorema de Weierstrass (também conhecido pela alcunha <b>teorema dos valores extremos</b>) expõe que $\exists m, M \in \mathbb{R}$ tais que $m \le f(x) \le M, \forall x \in [a,b]$. Como $\phi \ge 0, \forall x in [a,b]$, temos que: 
-
-
-</i>
-
-</aside>
+<b>Demonstração</b> — O teorema de Weierstrass (também conhecido pela alcunha <b>teorema dos valores extremos</b>) expõe que $\exists m, M \in \mathbb{R}$ tais que $m \le f(x) \le M, \forall x \in [a,b]$. Como $\phi \ge 0, \forall x \in [a,b]$, temos que: 
 
 $$
 \begin{align*}
@@ -311,32 +307,19 @@ $$
 
 Por fim, pelo teorema do valor intermediário regular, concluímos que $\exists c \in [a,b]$ tal que $f(c) = \dfrac{\int_{a}^{b}f(x) \cdot \phi(x) \ dx}{I}$, logo, $\int_{a}^{b} f(x) \cdot \phi(x) \ dx = f(c) \cdot \int_{a}^{b} \phi(x) \ dx$, que era o que queríamos demonstrar. 
 
-## Exemplo de utilização
+</aside>
 
-Esta adaptação do TVM é útil na demonstração feita anteriormente, de que toda função contínua possui primitiva(s). 
+Uma interessante interpretação geométrica é possível quando $\phi(x) = 1$. 
 
-Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ contínua. Tome $F(x) = \int_{a}^{x} f(t) \ dt$ e $a \in D_f$. 
-
-$$
-\begin{align}
-  F'(x)&=\lim_{h \rightarrow 0} \dfrac{F(x+h)-F(x)}{h} \\ 
-  &= \lim_{h \rightarrow 0}\dfrac{\int  _a^{x+h} f(t) \ dt - \int_{a}^x f(t) \ dt}{h} \\ 
-  &= \lim_{h \rightarrow 0} \dfrac{\int_x^{x+h} f(t) \ dt}{h}
-\end{align}
+$$ 
+\phi(x) = 1 \Rightarrow \int_{a}^{b} f(x) \ dx = f(c)(b-a)
 $$
 
-Por meio do teorema do valor médio para integrais, podemos reescrever $\int_{x}^{x+h} f(t) \ dt = f(c) \cdot h$, com $c \in [x, x+h]$. 
-
-$$
-\lim_{h \rightarrow 0} \dfrac{f(c) \cdot h}{h}=\lim_{h \rightarrow 0} f(c) = f(x)
-$$
-
-Podemos afirmar essa última igualdade em razão da afirmação que $f$ é uma função contínua. Quando $h \rightarrow 0$, o intervalo se estreita e colocamos $c $ arbitrariamente próximo de $x$. Como $f$ é contínua, $\lim_{c \rightarrow x} f(c)=f(x)$.
-Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
+Calcular essa última expressão é o equivalente de encontrar a área do retângulo com base no tamanho dos limites de integração e da altura $f(c)$, além de demonstrarmos que a área desse retângulo possui a mesma área que a integral da função. 
 
 # Primitivas de potências de trigonométricas
 
-É possível encontrar algumas propriedades que facilitam o cálculo das primitivas de produtos de funções trigonométricas e em especial suas potências, inclusive por **fórmulas de recorrência**. 
+É possível encontrar algumas propriedades que facilitam o cálculo das primitivas de produtos de funções trigonométricas e em especial suas potências, inclusive por <b>fórmulas de recorrência</b>. 
 
 O primeiro caso notável é o da integral $\int \sin^n{x} \cdot \cos^m{x} \ dx$.
 

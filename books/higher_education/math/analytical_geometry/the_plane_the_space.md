@@ -2,8 +2,6 @@
 
 # Sistema de coordenadas 
 
- 
-
 Ao escolher um plano formado por retas perpendiculares entre si, comumente chamadas de $x$ e $y$, 
 e muni-lo com uma métrica, definindo uma certa distância da origem sobre as retas — intersecção das retas, denominadas eixos — como a unidade, formamos um <b>sistema de coordenadas</b> para este plano escolhido, formando um <b>plano cartesiano</b>. A construção recebe este nome em homenagem a René Descartes, filósofo e matemático francês, um dos fundadores da Geometria Analítica. 
 
@@ -105,8 +103,6 @@ Podemos portanto descrever qualquer ponto do espaço como um ponto num cilindro,
 
 # Vetores 
 
-
-
 Podemos interpretar os pontos do plano como vetores, definindo com isto a grandeza do <b>módulo</b> do vetor (também conhecida como intensidade, magnitude...) denotada por $|\vec{v}|$ ou $||\vec{v}||$. Dessa forma, dado um vetor $\vec{P} = (x,y)$, temos que $||\vec{P}|| = \sqrt{x^2 + y^2}$. 
 
 No caso do espaço tridimensional, a norma de um dado vetor $\vec{Q} = (x, y, z)$ seria $||\vec{Q}|| = \sqrt{x^2 + y^2 + z^2}$. Note que, em ambos os casos, a norma de um vetor é numericamente igual a distância de um ponto à origem, salientando a facilidade de interpretação entre pontos no espaço/plano como vetores e vice-versa.
@@ -132,8 +128,6 @@ $$
 
 A operação de multiplicação por escalar também possui algumas propriedades. São elas: 
 
-<aside>
-
 $$ 
 \begin{align*}
     k_1(\vec{a} + \vec{b}) &= k_1\vec{a} + k_1\vec{b} \\\\
@@ -143,8 +137,6 @@ $$
     0 \cdot \vec{a} &= \vec{0}
 \end{align*}
 $$
-
-</aside>
 
 Ainda podemos denominar $(-1) \cdot \vec{a} = -\vec{a}$ como o vetor <b>oposto</b> de $\vec{a}$. Possuem módulos iguais e sentidos opostos, de forma que sua soma é o vetor nulo. 
 
@@ -198,8 +190,6 @@ Multiplicar ambos os membros por $||\vec{a}|| \cdot ||\vec{b}||$ produz a expres
 
 Esta operação, o produto escalar, possui algumas propriedades: 
 
-<aside>
-
 $$
 \begin{align*}
     \vec{a} \cdot \vec{a} &= ||\vec{a}||^2 \\\\
@@ -208,8 +198,6 @@ $$
     (k\vec{a})\vec{b} &= \vec{a} \cdot (k\vec{b}) = k(\vec{a} \cdot \vec{b})
 \end{align*}
 $$
-
-</aside>
 
 Além disto, é possível projetar um vetor sobre o outro por meio da operação de produto interno. Projetar um vetor sobre o outro, neste caso, é encontrar a "sombra" de um vetor $\vec{a}$ num vetor $\vec{b}$, a componente deste vetor que se encontra sobre o outro que, ao adicionada a outro componente <b>perpendicular</b>, produz o vetor $\vec{a}$. 
 
@@ -275,8 +263,6 @@ Vale mencionar que, ao contrário do produto escalar, o produto vetorial não é
 
 Considerando três vetores quaisquer do espaço, valem ainda as propriedades: 
 
-<aside>
-
 $$
 \begin{align*}
     (\vec{u} + \vec{v}) \times \vec{w} &= \vec{u} \times \vec{w} + \vec{v} \times \vec{w} \\\\
@@ -285,8 +271,6 @@ $$
     (\vec{u} \times \vec{v}) \times \vec{w} &= (\vec{w} \cdot \vec{u})\vec{v} - (\vec{w} \cdot \vec{v})\vec{u}
 \end{align*}
 $$
-
-</aside>
 
 Interessantemente, a norma do produto vetorial entre dois vetores é numericamente igual à área de um paralelogramo formado por estes mesmos vetores (verifique!). De fato, pode-se demonstrar que 
 
@@ -315,7 +299,7 @@ Por fim, é possível mostrar que o módulo do produto misto entre três vetores
 
 <aside>
 
-<b>Demonstração</b> — Dados três vetores $\vec{u}, \vec{v}, \vec{w} \in \mathbb{R}^3$, vemos que o paralelepípedo formado por eles possui base de área $||\vec{u} \times \vec{v}||$ e altura $h = ||\vec{w}|| \cdot \cos(\alpha)$, com $\alpha$ sendo o ângulo formado entre o vetor $\vec{w}$ e a altura do paralelepípedo ou entre este e o vetor oriundo do produto vetorial entre $\vec{u}$ e $\vec{v}$. 
+<b>Demonstração (produto misto como volume de paralelepípedo)</b> — Dados três vetores $\vec{u}, \vec{v}, \vec{w} \in \mathbb{R}^3$, vemos que o paralelepípedo formado por eles possui base de área $||\vec{u} \times \vec{v}||$ e altura $h = ||\vec{w}|| \cdot \cos(\alpha)$, com $\alpha$ sendo o ângulo formado entre o vetor $\vec{w}$ e a altura do paralelepípedo ou entre este e o vetor oriundo do produto vetorial entre $\vec{u}$ e $\vec{v}$. 
 
 Note que 
 
@@ -339,8 +323,6 @@ $$
 </aside>
 
 # Retas 
-
-
 
 Sendo $\vec{v} = (a,b)$ um vetor não-nulo e $A = (x_0, y_0)$ um ponto do plano cartesiano, podemos dizer que um ponto $P(x, y)$ só pertence à reta que contém $A$, na direção de $\vec{v}$, se
 
@@ -528,7 +510,7 @@ e, portanto, esta é a distância entre o ponto e a reta dados.
 Note que a altura do paralelogramo formado pelos vetores $\vec{v}$ e $\vec{AP}$ é igual a 
 
 $$
-h = d(P, r) = \dfrac{||\vec{AP} \times \vec{v}}{||\vec{v}||}
+h = d(P, r) = \dfrac{||\vec{AP} \times \vec{v}||}{||\vec{v}||}
 $$
 
 como visto anteriormente na exploração da interpretação geométrica do produto vetorial. 
@@ -550,7 +532,7 @@ $$
 
 <aside>
 
-<b>Demonstração — </b> Sejam duas retas paralelas $r: y = mx + b_1$ e $s: y = mx + b_2$ e uma perpendicular $g: -\dfrac{1}{m}x$. Encontrar a distância $d(r,s)$ implica em encontrar a distância entre os pontos de interseção da reta perpendicular com as paralelas dadas, isto é, os pontos $P(x_p, y_p)$ e $Q(x_q, y_q)$. Os pontos marcam, respectivamente, a interseção da perpendicular com as retas $r$ e $s$. 
+<b>Demonstração (distância entre duas retas no mesmo plano)</b> — Sejam duas retas paralelas $r: y = mx + b_1$ e $s: y = mx + b_2$ e uma perpendicular $g: -\dfrac{1}{m}x$. Encontrar a distância $d(r,s)$ implica em encontrar a distância entre os pontos de interseção da reta perpendicular com as paralelas dadas, isto é, os pontos $P(x_p, y_p)$ e $Q(x_q, y_q)$. Os pontos marcam, respectivamente, a interseção da perpendicular com as retas $r$ e $s$. 
 
 Para encontrar as coordenadas do ponto $P(x_p, y_p)$, basta resolver o sistema
 
@@ -579,8 +561,6 @@ $$
 </aside>
 
 # Circunferências e esferas
-
-
 
 Assim como retas, também podemos representar circunferências por equações. Desta forma, considerando um ponto $C = (x_0, y_0)$ — o centro da circunferência — e um vetor $A = (x_0 + r, y_0)$ com $r$ sendo o raio da construção geométrica e $t$ o ângulo formado entre um certo ponto $P$ pertencente à circunferência e o vetor $A$, podemos escrever que todo ponto $P$ cujas coordenadas satisfaçam o sistema
 
@@ -632,8 +612,6 @@ $$
 
 # Planos
 
-
-
 Elevar o nosso ponto de vista para o espaço tridimensional permite analisar os <b>planos</b> como subconjuntos desse espaço. De fato, dado um ponto $P(x_0, y_0, z_0)$ e um vetor $\vec{v} = (v_1, v_2, v_3)$, é possível ver que só existe um único plano $\alpha$ perpendicular ao vetor $\vec{v}$ que contém o ponto $P$. 
 
 De forma alternativa, podemos dizer que um dado ponto $Q(x, y, z)$ somente pertence ao plano mencionado se, e somente se, 
@@ -670,7 +648,7 @@ $$
 
 <aside>
 
-<b>Demonstração</b> — Um plano pode ser definido por um ponto do espaço e um vetor normal. Tomando o ponto como o ponto $P(x_1, y_1, z_1)$ pertencente à esfera e o vetor normal a este plano como o vetor $\vec{CP}=(x_1 - x_0, y_1 - y_0, z_1 - z_0)$, além de um ponto qualquer do espaço como $A = (a_1, a_2, a_3)$, podemos escrever a equação do plano como
+<b>Demonstração (equação do plano tangente a uma esfera)</b> — Um plano pode ser definido por um ponto do espaço e um vetor normal. Tomando o ponto como o ponto $P(x_1, y_1, z_1)$ pertencente à esfera e o vetor normal a este plano como o vetor $\vec{CP}=(x_1 - x_0, y_1 - y_0, z_1 - z_0)$, além de um ponto qualquer do espaço como $A = (a_1, a_2, a_3)$, podemos escrever a equação do plano como
 
 $$
 \begin{align*}
@@ -695,7 +673,7 @@ $$
 
 <aside>
 
-<b>Demonstração</b> — Note que os três primeiros coeficientes da equação do plano são as coordenadas de seu vetor normal. Dessa forma, o vetor $\vec{v} = (A, B, C)$ é o vetor normal ao plano e o vetor diretor da reta perpendicular a este e que passa pelo ponto $P$. Dito isso, encontrar a distância entre o ponto $P$ e o ponto de intersecção da perpendicular com o plano solucionará nosso problema. 
+<b>Demonstração (distância de um ponto a um plano)</b> — Note que os três primeiros coeficientes da equação do plano são as coordenadas de seu vetor normal. Dessa forma, o vetor $\vec{v} = (A, B, C)$ é o vetor normal ao plano e o vetor diretor da reta perpendicular a este e que passa pelo ponto $P$. Dito isso, encontrar a distância entre o ponto $P$ e o ponto de intersecção da perpendicular com o plano solucionará nosso problema. 
 
 Para encontrar o ponto procurado, precisamos solucionar o sistema de equações formado pelas equações paramétricas da reta e a equação do plano dado. 
 
@@ -762,7 +740,7 @@ Dizemos que duas retas são <b>reversas</b> se elas não se intersectam por pert
 
 <aside>
 
-<b>Demonstração</b> — Sejam as retas $r$ e $s$, definidas, respectivamente, pelos pontos $P(x_0, y_0, z_0)$ e $Q(x_1, y_1, z_1)$ e vetores diretores $\vec{u} = (u_1, u_2, u_3)$ e $\vec{v} = (v_1, v_2, v_3)$ retas reversas. Note que, pela interpretação geométrica do produto misto como o volume de um paralelepípedo, a distância $d(r, s)$ será a altura $h$ desse sólido definido pelos vetores $\vec{u}$, $\vec{v}$ e $\vec{PQ}$ e, portanto: 
+<b>Demonstração (distância entre retas reversas)</b> — Sejam as retas $r$ e $s$, definidas, respectivamente, pelos pontos $P(x_0, y_0, z_0)$ e $Q(x_1, y_1, z_1)$ e vetores diretores $\vec{u} = (u_1, u_2, u_3)$ e $\vec{v} = (v_1, v_2, v_3)$ retas reversas. Note que, pela interpretação geométrica do produto misto como o volume de um paralelepípedo, a distância $d(r, s)$ será a altura $h$ desse sólido definido pelos vetores $\vec{u}$, $\vec{v}$ e $\vec{PQ}$ e, portanto: 
 
 $$
 d(r,s) = \dfrac{|(\vec{u} \times \vec{v}) \cdot \vec{PQ}|}{||\vec{u} \times \vec{v}||}
@@ -771,8 +749,6 @@ $$
 </aside>
 
 # Referências 
-
- 
 
 1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.
 2. STEINBRUCH, Alfredo; WINTERLE, Paulo. Geometria Analítica. 2. ed. São Paulo: Makron Books, 2004.

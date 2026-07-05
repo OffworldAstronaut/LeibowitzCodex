@@ -4,7 +4,7 @@ Para derivar funções inversas, primeiro precisamos ser introduzidos às noçõ
 
 <aside>
 
-<b>(GUIDORIZZI, 2001)</b> — Dizemos que $f$ é uma <b>função injetora</b> se, para qualquer $s$ e $t$ pertencentes ao domínio de $f$ vale 
+<b>Definição (Guidorizzi, função injetora)</b> — Dizemos que $f$ é uma <b>função injetora</b> se, para qualquer $s$ e $t$ pertencentes ao domínio de $f$ vale 
 
 $$
 s \neq t \implies f(s) \neq f(t)
@@ -14,7 +14,7 @@ $$
 
 <aside>
 
-<b>(GUIDORIZZI, 2001)</b> — Suponha uma função $f$ injetora. Como para cada $x \in \text{Im}f$ existe um único $y \in D_f$ tal que $f(y) = x$, é possível definir uma função $g$ injetora tal que
+<b>Definição (Guidorizzi, função inversa)</b> — Suponha uma função $f$ injetora. Como para cada $x \in \text{Im}f$ existe um único $y \in D_f$ tal que $f(y) = x$, é possível definir uma função $g$ injetora tal que
 
 $$
 g(x) = y \iff f(y) = x
@@ -26,7 +26,11 @@ Se $f$ é tal que construir uma $g$ é possível, $f$ é denominada <b>inversív
 
 <aside>
 
-<b>(GUIDORIZZI, 2001)</b> — Seja $f$ uma função inversível, com função inversa $g$. Se $f$ for derivável em $q = g(p)$, com $f'(q) \neq 0$, e se $g$ for contínua em $p$, então $g$ será derivável em $p$. 
+<b>Teorema (Guidorizzi, derivada da função inversa)</b> — Seja $f$ uma função inversível, com função inversa $g$. Se $f$ for derivável em $q = g(p)$, com $f'(q) \neq 0$, e se $g$ for contínua em $p$, então $g$ será derivável em $p$. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Note que vale a igualdade 
 
@@ -69,7 +73,7 @@ Para encontrar as funções inversas trigonométricas, podemos tanto aplicar o m
 
 <aside>
 
-<b>(Demonstração, derivada do arco seno)</b> — Pelo teorema anterior, podemos escrever
+<b>Demonstração (derivada do arco seno)</b> — Pelo teorema anterior, podemos escrever
 
 $$
 \begin{align*}
@@ -90,7 +94,7 @@ $$
 
 <aside>
 
-<b>(Demonstração, derivada do arco cosseno)</b> — Pelo teorema anterior, podemos escrever
+<b>Demonstração (derivada do arco cosseno)</b> — Pelo teorema anterior, podemos escrever
 
 $$
 \begin{align*}
@@ -111,7 +115,7 @@ $$
 
 <aside>
 
-<b>(Demonstração, derivada do arco tangente)</b> — Pelo teorema anterior, podemos escrever 
+<b>Demonstração (derivada do arco tangente)</b> — Pelo teorema anterior, podemos escrever 
 
 $$
 \begin{align*}
@@ -132,7 +136,7 @@ $$
 
 <aside>
 
-<b>(Demonstração, derivada do arco secante)</b> — Pelo teorema anterior, podemos escrever: 
+<b>Demonstração (derivada do arco secante)</b> — Pelo teorema anterior, podemos escrever: 
 
 $$
 \begin{align*}
@@ -150,7 +154,7 @@ Este último passo é possível pela simplificação da primeira parcela e da ap
 
 <aside>
 
-<b>(Demonstração, derivada do arco cossecante)</b> — Pelo teorema anterior, podemos escrever: 
+<b>Demonstração (derivada do arco cossecante)</b> — Pelo teorema anterior, podemos escrever: 
 
 $$
 \begin{align*}
@@ -167,7 +171,7 @@ Este último passo é realizado após a aplicação da regra da cadeia e da iden
 
 <aside>
 
-<b>(Demonstração, derivada do arco cotangente)</b> — Pelo teorema anterior, podemos escrever 
+<b>Demonstração (derivada do arco cotangente)</b> — Pelo teorema anterior, podemos escrever 
 
 $$
 \begin{align*}

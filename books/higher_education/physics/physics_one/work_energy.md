@@ -71,7 +71,7 @@ O conceito de energia é algo extremamente difícil de se definir de forma fecha
 
 <aside>
 
-<i>"It is important to realize that in physics today, we have no knowledge of what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way. However, there are formulas for calculating some numerical quantity, and when we add it all together it gives [...] always the same number. It is an abstract thing in that it does not tell us the mechanism or the reasons for the various formulas." <br><br>(FEYNMAN, Lectures on Physics Vol. 1, Cap. 4)</i>
+<i>It is important to realize that in physics today, we have no knowledge of what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way. However, there are formulas for calculating some numerical quantity, and when we add it all together it gives [...] always the same number. It is an abstract thing in that it does not tell us the mechanism or the reasons for the various formulas. <br><br>(FEYNMAN, Lectures on Physics Vol. 1, Cap. 4)</i>
 
 </aside>
 

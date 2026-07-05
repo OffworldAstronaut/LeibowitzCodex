@@ -2,8 +2,6 @@
 
 # Definições 
 
-
-
 Algumas construções geométricas (como a elipse, a parábola e a hipérbole) recebem o nome de "cônicas" ou ainda "seções cônicas" em razão de sua construção tradicional ser realizada a partir do corte de cones de maneiras particulares. Entretanto, outras maneiras de construção e definição existem, que serão exploradas ao longo deste documento. 
 
 ## Elipses 
@@ -70,8 +68,6 @@ Nestes quatro casos especiais, $a = \dfrac{1}{2}d(F,r)$.
 
 # Translação e rotação de eixos
 
-
-
 Utilizar novos sistemas de coordenadas originados de translações (movimentos) e/ou rotações do sistema de coordenada usual no plano cartesiano pode se mostrar algo extremamente útil para simplificar equações e problemas.
 
 ## Translação 
@@ -83,7 +79,7 @@ Esta relação pode ser demonstrada/visualizada por meio de um diagrama contendo
 
 <aside>
 
-Numa interpretação física, modificar o meu sistema de coordenadas (mais usualmente por meio de translação) é a chamada <b><a href="/books/higher_education/physics/physics_one/kinematics.html" target="_blank">mudança de referencial</a></b>, tornando possível a análise de um sistema físico a partir de outro "ponto de vista".
+Numa interpretação física, modificar o sistema de coordenadas utilizado (mais usualmente por meio de translação) é a chamada <b><a href="/books/higher_education/physics/physics_one/kinematics.html" target="_blank">mudança de referencial</a></b>, tornando possível a análise de um sistema físico a partir de outro "ponto de vista".
 
 </aside>
 
@@ -95,21 +91,19 @@ De fato, qualquer ponto (vetor) $(x, y)$ no plano pode ser rotacionado em $\thet
 
 $$
 \begin{bmatrix}
-    \cos \theta & -\sin \theta \\\\ 
+    \cos \theta & -\sin \theta \\
     \sin \theta & \cos \theta     
 \end{bmatrix}
 \begin{bmatrix}
-    x \\\\ y
+    x \\ y
 \end{bmatrix}
 = 
 \begin{bmatrix}
-    x_1 \\\\ y_1
+    x_1 \\ y_1
 \end{bmatrix}
 $$
 
 # Equação geral do segundo grau
-
-
 
 É conhecido dos nossos estudos anteriores que uma equação do segundo grau em $x$ e em $y$ pode nos fornecer elipses, parábolas e hipérboles. Entretanto, o conjunto das seções cônicas possíveis de serem obtidas por equações do segundo grau é maior. Isso pode ser justificado por meio do seguinte raciocínio. 
 
@@ -135,7 +129,7 @@ Como dito anteriormente, a rotação de eixos pode ser uma técnica especialment
 
 $$
 \begin{cases}
-    \dfrac{1}{2}\arctan{\dfrac{B}{A-C}} & A \neq C \\\\ 
+    \dfrac{1}{2}\arctan{\left(\dfrac{B}{A-C}\right)} & A \neq C \\ 
     \dfrac{\pi}{4} & A = C
 \end{cases}
 $$
@@ -143,8 +137,6 @@ $$
 com raciocínios semelhantes podendo ser utilizados para simplificar uma determinada equação dada. 
 
 # Definição unificada das cônicas
-
-
 
 <aside>
 
@@ -216,7 +208,5 @@ Note que esta mesma expressão pode ser deduzida para $F = (-c, 0)$ e diretriz $
 </aside>
 
 # Referências 
-
- 
 
 1. LIMA, G.; SILVA. Geometria analitica. Rio de Janeiro. 2015.

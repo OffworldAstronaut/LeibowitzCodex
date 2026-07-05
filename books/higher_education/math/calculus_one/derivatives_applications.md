@@ -6,7 +6,11 @@ O teorema de Rolle é um importante teorema da análise real que permite a ident
 
 <aside>
 
-<b>GUIDORIZZI 2001, Teorema de Rolle</b> — Se $f$ for contínua em $[a, b]$, derivável em $(a, b)$ e $f(a)=f(b)$, então existirá pelo menos um $c \in (a, b)$ tal que $f'(c) = 0$. 
+<b>Teorema (Guidorizzi, Teorema de Rolle)</b> — Se $f$ for contínua em $[a, b]$, derivável em $(a, b)$ e $f(a)=f(b)$, então existirá pelo menos um $c \in (a, b)$ tal que $f'(c) = 0$. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Se $f$ for constante em $[a, b]$, então $f'(x)=0$ em $(a,b)$; logo, existirá $c \in (a, b)$ tal que $f'(c)=0$. Suponhamos então, que $f$ não seja constante em $[a, b]$. Como $f$ é contínua no intervalo fechado $[a,b]$, pelo teorema de Weierstrass, existem $x_1$ e $x_2$ em $[a,b]$ tais que $f(x_1)$ e $f(x_2)$ são, respectivamente, os valores máximo e mínimo de $f$ em $[a,b]$. Como $f(x_1) \neq f(x_2)$, pois estamos supondo $f$ não-constante em $[a,b]$, segue que $x_1$ ou $x_2$ pertence a $(a,b)$. Portanto, existe $c \in (a,b)$ tal que $f'(c) = 0$. 
 
@@ -16,7 +20,11 @@ Como a prova acima baseia-se no teorema de Weierstrass, também conhecido pela d
 
 <aside>
 
-<b>GUIDORIZZI 2001, Teorema de Weierstrass</b> — Se $f$ for contínua em $[a,b]$, então existirão $x_1$ e $x_2$ em $[a,b]$ tais que $f(x_1) \le f(x) \le f(x_2)$ para todo $x \in [a,b]$. 
+<b>Teorema (Guidorizzi, Teorema de Weierstrass)</b> — Se $f$ for contínua em $[a,b]$, então existirão $x_1$ e $x_2$ em $[a,b]$ tais que $f(x_1) \le f(x) \le f(x_2)$ para todo $x \in [a,b]$. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Sendo $f$ contínua em $[a,b]$, $f$ será limitada em $[a,b]$, daí o conjunto 
 
@@ -65,7 +73,7 @@ Perceba que para demonstrar o teorema de Weierstrass foram necessárias noções
 
 <aside>
 
-<b>GUIDORIZZI 2001, Definição de função limitada</b> — Dizemos que $f$ é <i>limitada</i> em $A \subset D_f$ se existir $M > 0$ tal que, para todo $x$ em $A$
+<b>Definição (Guidorizzi, Função limitada)</b> — Dizemos que $f$ é <i>limitada</i> em $A \subset D_f$ se existir $M > 0$ tal que, para todo $x$ em $A$
 
 $$
 |f(x)| \le M
@@ -77,7 +85,11 @@ Da definição acima, segue que, se $f$ não for limitada em $B \subset D_f$, pa
 
 <aside>
 
-<b>GUIDORIZZI 2001, Teorema da limitação</b> — Se $f$ for contínua no intervalo fechado $[a,b]$, então $f$ será limitada em $[a,b]$. 
+<b>Teorema (Guidorizzi, Teorema da limitação)</b> — Se $f$ for contínua no intervalo fechado $[a,b]$, então $f$ será limitada em $[a,b]$. 
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Suponhamos, por absurdo, que $f$ não seja limitada em $[a,b]$. Façamos $a = a_1$ e $b = b_1$; existe, então, $x_1 \in [a_1,b_1]$ tal que $|f(x_1) > 1$. Seja $c_1$ o ponto médio de $[a_1, b_1]$; $f$ não será limitada em um dos intervalos $[a_1, c_1]$ ou $[c_1, b_1]$; suponhamos que não seja limitada em $[c_1, b_1]$ e façamos $a_2 = c_1$ e $b_2 = b_1$. Não sendo $f$ limitada em $[a_2, b_2]$, existirá $x_2 \in [a_2, b_2]$ tal que $|f(x_2)| \gt 2$. Prosseguindo com este raciocínio, construiremos uma sequência de intervalos
 
@@ -103,15 +115,19 @@ Como a sequência $x_n$ converge para $c$ e $f$ é contínua em $c$, resulta que
 
 ## Teorema do Valor Médio
 
-O **teorema do valor médio** (**de Lagrange**) é tido como um dos mais importantes teoremas da análise real. 
+O <b>teorema do valor médio</b> (<b>de Lagrange</b>) é tido como um dos mais importantes teoremas da análise real. 
 
 <aside>
 
-<b>GUIDORIZZI 2001, Teorema do Valor Médio</b> — Seja $f$ uma função real definida no intervalo fechado $[a,b]$ e diferenciável no intervalo aberto $(a,b)$. Logo, existirá pelo menos um $c \in (a,b)$ tal que 
+<b>Teorema (Guidorizzi, Teorema do Valor Médio)</b> — Seja $f$ uma função real definida no intervalo fechado $[a,b]$ e diferenciável no intervalo aberto $(a,b)$. Logo, existirá pelo menos um $c \in (a,b)$ tal que 
 
 $$
 f'(c) = \dfrac{f(b)-f(a)}{b-a}
 $$
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Seja $g$ a função dada por 
 
@@ -160,7 +176,7 @@ Um outro teorema ainda mais geral pode ser deduzido, sendo de boa utilidade. De 
 
 <aside>
 
-<b>GUIDORIZZI 2001, Teorema de Cauchy</b> — Se $f$ e $g$ forem contínuas em $[a,b]$ e deriváveis em $(a,b)$, então existirá pelo menos um $c \in (a,b)$ tal que
+<b>Teorema (Guidorizzi, Teorema de Cauchy)</b> — Se $f$ e $g$ forem contínuas em $[a,b]$ e deriváveis em $(a,b)$, então existirá pelo menos um $c \in (a,b)$ tal que
 
 $$
 [f(b) - f(a)]g'(c) = [g(b)-g(a)]f'(c)
@@ -171,6 +187,10 @@ ou, então
 $$
 \dfrac{f(b)-f(a)}{g(b)-g(a)} = \dfrac{f'(c)}{g'(c)}, \text{se } g(b) \neq g(a) \text{ e } g'(c) \neq 0
 $$
+
+</aside>
+
+<aside>
 
 <b>Demonstração</b> — Seja $h(x) = [f(b)-f(a)]g(x) - [g(b)-g(a)]f(x), x \in [a,b]$. 
 
@@ -192,15 +212,13 @@ $$
 
 # Regras de L'Hôpital 
 
-
-
 As regras de L'Hôpital, nomeadas em homenagem ao matemático francês Guillaume François Antoine, o <a href="https://en.wikipedia.org/wiki/Guillaume de l'Hôpital">Marquês de l'Hôpital</a>, são duas propriedades matemáticas que permitem a simplificação de alguns limites de funções racionais. 
 
 Esta simplificação, com efeito, permite a solução de indeterminações de tipo $\dfrac{0}{0}$ e $\dfrac{\infty}{\infty}$. 
 
 <aside>
 
-<b>GUIDORIZZI 2001, Primeira regra de L'Hôpital</b> — Sejam $f$ e $g$ deriváveis em $(p - r, p)$ e em $(p, p+r)$ com $r \gt 0$. Além disso, $g'(x) \neq 0$ para $0 \lt |x - p| \lt r$. Nestas condições, se 
+<b>Teorema (Guidorizzi, Primeira regra de L'Hôpital)</b> — Sejam $f$ e $g$ deriváveis em $(p - r, p)$ e em $(p, p+r)$ com $r \gt 0$. Além disso, $g'(x) \neq 0$ para $0 \lt |x - p| \lt r$. Nestas condições, se 
 
 $$
 \begin{align*}
@@ -221,7 +239,7 @@ Note que esta regra continua válida caso $x \to p$ seja substituido por $x \to 
 
 <aside>
 
-<b>GUIDORIZZI 2001, Segunda regra de L'Hôpital</b> — Sejam $f$ e $g$ deriváveis em $(m, p)$ com $g'(x)\neq 0$ em $(m, p)$. Nestas condições, se 
+<b>Teorema (Guidorizzi, Segunda regra de L'Hôpital)</b> — Sejam $f$ e $g$ deriváveis em $(m, p)$ com $g'(x)\neq 0$ em $(m, p)$. Nestas condições, se 
 
 $$
 \begin{align*}
@@ -242,13 +260,11 @@ Perceba que esta regra continua válida caso $x \to p^-$ seja substituido por $x
 
 # Montando gráficos
 
-
-
-Podemos esboçar gráficos de diversas funções reais utilizando consequências dos conceitos de derivadas e limites. O objetivo desta seção é esboçar algumas técnicas para que esse esboço se torne possível. Talvez não seja possível realmente desenhar o gráfico em todos os seus detalhes, mas a *noção* do comportamento da função estará no alcance de suas mãos. 
+Podemos esboçar gráficos de diversas funções reais utilizando consequências dos conceitos de derivadas e limites. O objetivo desta seção é esboçar algumas técnicas para que esse esboço se torne possível. Talvez não seja possível realmente desenhar o gráfico em todos os seus detalhes, mas a <i>noção</i> do comportamento da função estará no alcance de suas mãos. 
 
 ## Determinando porções crescentes e decrescentes
 
-Como visto anteriormente, a interpretação geométrica da derivada é a inclinação da reta tangente a curva num determinado ponto. Se essa inclinação é negativa, significa que a função é **decrescente** naquela região; inclinações positivas implicam em funções crescentes num dado intervalo. Essa utilização é chamada geralmente de **teste da primeira derivada**.
+Como visto anteriormente, a interpretação geométrica da derivada é a inclinação da reta tangente a curva num determinado ponto. Se essa inclinação é negativa, significa que a função é <b>decrescente</b> naquela região; inclinações positivas implicam em funções crescentes num dado intervalo. Essa utilização é chamada geralmente de <b>teste da primeira derivada</b>. Realizar o estudo de sinal da primeira derivada, portanto, pode fornecer diversas informações sobre o comportamento da função a ser analisada.
 
 ![](images/derivatives_applications/derivatives_applications_first_derivative_test.png)
 
@@ -256,9 +272,9 @@ Como visto anteriormente, a interpretação geométrica da derivada é a inclina
 
 ## Pontos críticos
 
-Chamamos **pontos críticos** os pontos do gráfico de uma dada função $f$ cuja derivada é nula ou inexistente. Uma derivada nula num determinado ponto implica num ponto de **mínimo** ou **máximo**. 
+Chamamos <b>pontos críticos</b> os pontos do gráfico de uma dada função $f$ cuja derivada é nula ou inexistente. Uma derivada nula num determinado ponto (em que a função esteja definida) implica num ponto de <b>mínimo</b> ou <b>máximo</b>. 
 
-Os pontos de máximo ou mínimo podem ser locais ou globais. Os chamamos de locais quando estamos delimitando um subconjunto do domínio da função, enquanto os globais (também chamados **absolutos**) referem-se a todo o domínio.
+Os pontos de máximo ou mínimo podem ser locais ou globais. Os chamamos de locais quando estamos delimitando um subconjunto do domínio da função, enquanto os globais (também chamados <b>absolutos</b>) referem-se a todo o domínio.
 
 Pontos de derivada inexistente implicam regiões de assíntotas verticais, quebras ou então cúspides.
 
@@ -268,19 +284,19 @@ Pontos de derivada inexistente implicam regiões de assíntotas verticais, quebr
 
 ## Teste da segunda derivada
 
-Ao analisarmos a **segunda derivada** de uma função, podemos perceber que ela nos fornece o comportamento da primeira derivada. Por exemplo, vamos analisar a função $f(x)=x^3$ e suas duas primeiras derivadas.
+Ao analisarmos a <b>segunda derivada</b> de uma função, podemos perceber que ela nos fornece o comportamento da primeira derivada. Por exemplo, vamos analisar a função $f(x)=x^3$ e suas duas primeiras derivadas.
 
 ![](images/derivatives_applications/derivative_applications_second_derivative.png)
 
 <i>A primeira derivada é 3x^2, a segunda é 6x. Uma parábola e uma reta, respectivamente.</i>
 
-Perceba que a segunda derivada é negativa enquanto a primeira está caindo e positiva enquanto a primeira está subindo. Além disso, existe um ponto, chamado **ponto de inflexão**, em que $f''(x)=0$, implicando na mudança de direção da primeira derivada. 
+Perceba que a segunda derivada é negativa enquanto a primeira está caindo e positiva enquanto a primeira está subindo. Além disso, existe um ponto, chamado <b>ponto de inflexão</b>, em que $f''(x)=0$, implicando na mudança de direção da primeira derivada. 
 
-A partir dessas observações, podemos ver que as duas derivadas nos fornecem algumas informações sobre o comportamento da função $f$, como a categorização entre **crescente** e **decrescente** e se seu comportamento de crescimento ou decrescimento está acelerando ou retardando. Na Física, conhecemos a segunda derivada da função espaço vs tempo como **aceleração**.
+A partir dessas observações, podemos ver que as duas derivadas nos fornecem algumas informações sobre o comportamento da função $f$, como a categorização entre <b>crescente</b> e <b>decrescente</b> e se seu comportamento de crescimento ou decrescimento está acelerando ou retardando. Na Física, conhecemos a segunda derivada da função espaço vs tempo como <b>aceleração</b>.
 
 # Taxas relacionadas
 
-Os problemas de **taxas relacionadas** são problemas de cálculo relativamente comuns. Nesses problemas, temos taxas de variação produtos da mesma causa e, por isso, relacionadas entre si. 
+Os problemas de <b>taxas relacionadas</b> são relativamente comuns. Neles temos taxas de variação que são produtos da mesma causa e, por isso, relacionadas entre si. 
 
 Podemos citar como exemplo a questão abaixo, formulada pelo prof. Dr. José Carlos de Lima, do Instituto de Matemática da UFAL: 
 

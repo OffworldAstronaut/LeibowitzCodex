@@ -6,7 +6,7 @@ Os conceitos de autovalores (ou valores próprios) e autovetores (ou vetores pr�
 
 <aside>
 
-<b>Definição (Calliolli 1981, Autovalores e autovetores)</b> — Seja $U$ um espaço vetorial sobre um corpo $K$ e seja $T \in L(U)$. Um vetor $u \in U$ não-nulo é um <b>vetor próprio</b> de $T$ se existe um escalar $\lambda$ tal que $T(u) = \lambda u$. Neste caso, $\lambda$ é um <b>valor próprio</b> de $T$ associado a $u$.
+<b>Definição (Calliolli, Autovalores e autovetores)</b> — Seja $U$ um espaço vetorial sobre um corpo $K$ e seja $T \in L(U)$. Um vetor $u \in U$ não-nulo é um <b>vetor próprio</b> de $T$ se existe um escalar $\lambda$ tal que $T(u) = \lambda u$. Neste caso, $\lambda$ é um <b>valor próprio</b> de $T$ associado a $u$.
 
 </aside>
 
@@ -18,8 +18,6 @@ $$
 Au = \lambda u \iff (A - \lambda I)u = o
 $$
 
-<aside>
-
 Essa equivalência nos mostra que, dado um certo valor $\lambda$, o conjunto formado por todos os autovetores (e o vetor nulo) é precisamente o núcleo do operador $(A - \lambda I)$. Esse conjunto é denominado <b>autoespaço</b> de $A$ <b>associado com $\lambda$</b> (ou então <b>subespaço próprio de $\lambda$</b>).
 
 Podemos ainda denotar este subespaço por 
@@ -29,8 +27,6 @@ S_\lambda = V(\lambda) = \{u \in U | Au = \lambda u\}
 $$
 
 Além disso, todos os possíveis pares $(\lambda, u)$ são chamados <b>autopares</b> de $A$.
-
-</aside>
 
 Tomando o determinante dessa matriz, obtemos um polinômio em $\lambda$ de grau $n$, o <b>polinômio característico</b> da matriz $A$. 
 
@@ -44,7 +40,11 @@ As raízes desse polinômio são os autovalores de $A$, e isso pode ser demonstr
 
 <b>Teorema</b> — Os autovalores de $A$ são as raízes do polinômio característico.
 
-Temos por definição que $\lambda$ é autovalor de de $A$ se, e somente se, $\ker{(A - \lambda I_n)} = \neq \{o\}$. Isto equivale a dizer que a matriz $A - \lambda I_n$ não é inversível, isto é, que $\det{(A - \lambda I_n)} = 0$. Como o polinômio característico de $A$ é precisamente o determinante de $A - \lambda I_n$, o teorema está provado.
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Temos por definição que $\lambda$ é autovalor de de $A$ se, e somente se, $\ker{(A - \lambda I_n)} = \neq \{o\}$. Isto equivale a dizer que a matriz $A - \lambda I_n$ não é inversível, isto é, que $\det{(A - \lambda I_n)} = 0$. Como o polinômio característico de $A$ é precisamente o determinante de $A - \lambda I_n$, o teorema está provado.
 
 </aside>
 
@@ -68,7 +68,11 @@ Além disso, temos alguns resultados que podem ser listados, relacionados aos au
 
 <b>Teorema</b> — Se $A$ e $B$ forem matrizes semelhantes, então $A$ e $B$ possuem os mesmos autovalores.
 
-Para demonstrar isso, considere duas matrizes semelhantes $A$ e $B$. Logo, existe uma matriz inversível $M$ tal que $B = M^{-1}AM$. Portanto, vale 
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Considere duas matrizes semelhantes $A$ e $B$. Logo, existe uma matriz inversível $M$ tal que $B = M^{-1}AM$. Portanto, vale 
 
 $$
 \begin{align*}
@@ -278,20 +282,16 @@ H =
 \begin{pmatrix}
     1 & 2 \\ 
     0 & -2
-\end{pmatrix}
-=
-MDM^{-1}
-=
+\end{pmatrix} =
+MDM^{-1} =
 \begin{pmatrix}
     1 & 1 \\ 
     0 & -\frac{3}{2}    
 \end{pmatrix}
-
 \begin{pmatrix}
     1 & 0 \\ 
     0 & -2
 \end{pmatrix}
-
 \begin{pmatrix}
     1 & \frac{2}{3} \\ 
     0 & -\frac{2}{3}
