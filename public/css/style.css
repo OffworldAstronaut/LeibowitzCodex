@@ -1,68 +1,80 @@
+/* SEÇÃO 1 - TEMAS, BODY E VARIÁVEIS GERAIS */
+
+/*NOTA: Pseudoclasse 'root' seleciona o elemento pai de mais alto nível. 
+Definição do esquema de cores do modo claro e do modo escuro.*/
 :root {
     color-scheme: light dark;
 
-    /* ── Papery light palette ── */
-    --bg:                   light-dark(#f5f0e8, #0c0c0c);
-    --surface:              light-dark(#ede7d9, #1a1919);
-    --surface-hover:        light-dark(#e0d8c8, #2a2828);
-    --text:                 light-dark(#1c1812, #faf9f6);
-    --text-muted:           light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85));
-    --link:                 light-dark(#7a4f1e, wheat);
-    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
+    --bg:                   light-dark(#f5f0e8, #0c0c0c); /*cor do fundo translúcido*/
+    --surface:              light-dark(#ede7d9, #1a1919); /*cor do fundo dos elementos*/
+    --surface-hover:        light-dark(#e0d8c8, #2a2828); /* // quando o cursor passar*/
+    --text:                 light-dark(#1c1812, #faf9f6); /*cor do texto*/
+    --text-muted:           light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85)); /**/
+    --link:                 light-dark(#7a4f1e, wheat); /*cor dos links*/
+    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292)); /*cor do destaque de seleção de texto*/
 }
 
 body {
-    margin: 0;
-    color: var(--text);
-    background-color: var(--bg);
-    font-family: "Inter", sans-serif;
+    font-family: "Inter", sans-serif; /*fonte padrão grotesk*/
+    margin: 0px; /*remove completamente a margem do body*/
+    color: var(--text); /*configura a cor do texto*/
+    background-color: var(--bg); /*configura a cor do fundo ("máscara" sobre as imagens)*/
 }
 
+/*pseudoelementos para a criação de duas camadas no body*/
 body::before,
 body::after {
-    content: "";
-    position: fixed;
-    inset: 0;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    pointer-events: none;
-    z-index: 0;
-    transition: opacity 0.4s ease;
+    content: ""; /*sem utilidade - existe apenas por necessidade*/
+    position: fixed; /*fixa as camadas para que estas não sejam deslocadas com o scroll*/
+    inset: 0; /*as camadas ocupam toda a tela*/
+    background-repeat: no-repeat; /*não induz a repetição de imagens no fundo*/
+    background-position: center; /*centraliza o fundo*/
+    background-size: cover; /*a imagem cobre toda a tela sem sofrer distorção*/
+    pointer-events: none; /*o cursor é indiferente às camadas (para não interferir com os elementos da página)*/
+    z-index: 0; /*estes pseudoelementos - e portanto, o fundo - estará antes de todos os outros*/
+    transition: opacity 0.4s ease; /*permite a transição suave e uniforme entre as camadas*/
 }
 
+/*configuração da camada 1 ('before')*/
+
+/*modo claro: a escola de atenas é perfeitamente visível*/
 body::before {
     background-image: url('../The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
     opacity: 1.00;
 }
 
+/*modo escuro: ela desaparece*/
+body.dark::before {
+    opacity: 0;
+}
+
+/*configuração da camada 2 ('after')*/
+
+/*modo claro: os monges não são visíveis*/
 body::after {
     background-image: url('../Refectory_in_a_Greek_Monastery_\(Mount_Athos\).png');
     opacity: 0;
 }
 
-body.dark::before {
-    opacity: 0;
-}
-
+/*modo escuro: os monges são levemente visíveis*/
 body.dark::after {
-    opacity: 0.20;
+    opacity: 0.15;
 }
 
+/* SEÇÃO 2 - ELEMENTOS ESPECÍFICOS */
+
+/*contêiner principal*/
 .main {
-    width: 100%;
-    max-width: min(800px, 92vw);
-    margin: clamp(32px, 10vh, 96px) auto;
-    padding: 0 20px;
-    position: relative;
-    z-index: 1;
-    opacity: 0.9;
+    max-width: min(800px, 92vw); /* responsividade da largura */
+    margin: clamp(32px, 10vh, 96px) auto; /* responsividade da margem */
+    z-index: 1; /* posicionamento dos elementos acima do fundo */
+    opacity: 0.9; /* elementos levemente transparentes */
 }
 
-/* ---------- Header ---------- */
+/*cabeçalho*/
 header {
     text-align: center;
-    display: flex;
+    display: flex; 
     flex-direction: row;
     align-items: center;
     gap: 20px;
@@ -71,18 +83,30 @@ header {
     border-radius: 15px;
 }
 
+.header-text { 
+    margin: auto;
+}
+
+.header-icon { 
+    margin: auto;
+}
+
+/*título da página*/
 h1 {
-    margin: 0;
+    font-family: "Libertinus Math", "Georgia", sans-serif;
     font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0;
 }
 
 #tagline {
-    margin-top: 10px;
-    opacity: var(--text-muted);
+    font-family: "Libertinus Math", "Georgia", sans-serif;
+    font-size: larger;
     color: var(--text-muted);
+    opacity: var(--text-muted);
+    margin-top: 10px;
 }
 
-/* ---------- Introduction ---------- */
+/*blocos de texto antes dos botões*/
 .introduction {
     margin-top: 24px;
 }
@@ -95,7 +119,8 @@ h1 {
     border-radius: 15px;
 }
 
-/* ---------- Buttons ---------- */
+/*estilos dos botões*/
+
 .main_buttons {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -111,14 +136,14 @@ button {
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    transition: background-color 0.2s;
+    transition: background-color 0.4s ease;
 }
 
 button:hover {
     background-color: var(--surface-hover);
 }
 
-/* ---------- Footer ---------- */
+
 footer {
     text-align: center;
     margin-top: clamp(48px, 12vh, 120px);
@@ -127,21 +152,19 @@ footer {
     background-color: var(--surface);
 }
 
-/* ---------- Links ---------- */
+
 a {
     color: var(--link);
     text-decoration: none;
 }
 
-/* ---------- Custom Cursor ---------- */
+/* SEÇÃO 3 - CONFIGURAÇÕES DO CURSOR */
 
-/* Default cursor */
 html,
 body {
     cursor: url('/cursors/featherpenpointer.cur'), auto;
 }
 
-/* Links and clickable elements */
 a,
 button,
 [role="button"],
@@ -150,7 +173,7 @@ input[type="button"] {
     cursor: url('/cursors/featherpenlinkselect.cur'), pointer;
 }
 
-/* Text editing and selection */
+
 input,
 textarea,
 [contenteditable="true"] {
@@ -159,4 +182,61 @@ textarea,
 
 ::selection { 
     background: var(--selection-hl)
+}
+
+/* testes */ 
+
+.introduction p:first-of-type::first-letter {
+    font-family: "Libertinus Math", "Georgia", serif;
+    font-weight: bold;
+    float: left;
+    font-size: clamp(3.2rem, 8vw, 4.2rem); 
+    line-height: 0.82;
+    margin-top: 0.12em;
+    margin-right: 0.1em;
+    padding: 0.05em 0.08em 0 0.05em;
+    color: var(--link);
+
+    text-shadow: 1px 1px 0px var(--bg), 2px 2px 0px var(--border);
+}
+
+.about-card p:first-of-type::first-letter {
+    font-family: "Libertinus Math", "Georgia", serif;
+    font-weight: bold;
+    float: left;
+    font-size: clamp(3.2rem, 8vw, 4.2rem); 
+    line-height: 0.82;
+    margin-top: 0.12em;
+    margin-right: 0.1em;
+    padding: 0.05em 0.08em 0 0.05em;
+    color: var(--link);
+
+    text-shadow: 1px 1px 0px var(--bg), 2px 2px 0px var(--border);
+}
+
+/* ESTILO DO CHANGELOG */
+
+.update-card, .about-card {
+    margin-top: 24px;
+}
+
+.update-card p, .about-card p {
+    text-align: justify;
+    line-height: 1.6;
+    background-color: var(--surface);
+    padding: clamp(20px, 4vw, 35px);
+    border-radius: 15px;
+}
+
+h2 {
+    font-family: "Libertinus Math", "Georgia", sans-serif;
+    font-size: clamp(1rem, 1.3vw, 2rem);
+    margin: 0;
+}
+
+.update-card h2, .about-card h2 {
+    text-align: center;
+    background-color: var(--surface);
+    padding: clamp(20px, 4vw, 25px);
+    border-radius: 15px;
 }

@@ -44,6 +44,65 @@ $$
 
 Perceba que um sólido de revolução possui uma superfície externa, uma **“casca”**, além da própria curva da função $f(x)$. Perguntas naturais a se fazer a partir desse fato são: é possível calcular a área dessas superfícies? É possível calcular o comprimento dessas linhas? A resposta, claro, é sim. 
 
+# Áreas e comprimentos
+
+A expressão para a área de uma superfície de revolução obedece um procedimento similar ao volume de um sólido de revolução. 
+
+Considere uma função $f(x)$ diferenciável, com derivada contínua, com $f(x) \ge 0$ no intervalo $[a,b]$. Considere então uma partição do intervalo $[a,b]$ de forma que $P: a = x_0 \lt x_1 \lt x_2 \lt ... \lt x_n = b$ e, além disso, os números $c_i = \dfrac{1}{2}(x_i + x_{i-1})$ são os pontos médios dos intervalos $[x_{i-1}, x_i]$. 
+
+Temos então que $f'(c_i) = \tan{\alpha_i}$; o segmento $\overline{M_{i-1}M_i}$ é tangente no ponto $(c_i, f(c_i))$. Logo, 
+
+$$
+\overline{M_{i-1}M_i} = \dfrac{\Delta x_i}{|\cos{\alpha_i}|} = |\sec{\alpha_i}| \Delta x_i = \sqrt{1 + [f'(c_i)]^2} \cdot \Delta x_i
+$$
+
+Assim, efetuando a rotação e a soma de Riemann, chegamos na expressão final 
+
+$$
+A_x = 2\pi \int_{a}^{b} f(x) \sqrt{1 + [f'(x)]^2} \ dx 
+$$
+
+para a área da superfície de revolução em torno do eixo $x$. Para uma revolução em torno do eixo $y$, obtemos (tomando $y = f(x)$): 
+
+$$
+A_y = 2 \pi \int_{a}^{b} x \sqrt{1 + \left(\dfrac{dy}{dx}\right)^2} \ dx 
+$$
+
+O mesmo raciocínio pode ser utilizado para a obtenção do comprimento do gráfico de uma função. Dessa forma, imagine $y = f(x)$ diferenciável com derivada contínua num intervalo $[a,b]$ e, além disso, considere uma partição $P: a = x_0 \lt x_1 \lt x_2 \lt ... \lt x_n = b$ desse intervalo.
+
+Ao indicarmos por $L(P)$ o comprimento da poligonal formada pelos vértices $P_i = (x_0, f(x_i))$ com $i = 1, 2, ..., n$, temos: 
+
+$$
+L(P) = \sum_{i = 1}^n \sqrt{(x_i - x_{i-1})^2 + (f(x_i) - f(x_{i-1}))^2}
+$$
+
+Pelo TVM, sabrmos que para todo intervalo $[x_{i-1}, x_{i}]$ existe um $c_i$ tal que 
+
+$$
+f(x_i) - f(x_{i-1}) = f'(c_i) \cdot \Delta x_i
+$$
+
+com $\Delta x_i = x_i - x_{i-1}$. 
+
+Segue então que 
+
+$$
+L(P) = \sum_{i=1}^{n} \sqrt{\Delta x_i^2 + (f'(c_i) \cdot \Delta x_i)^2} = \sum_{i=1}^{n} \sqrt{1 + (f'(c_i))^2}\Delta x_i
+$$
+
+Fazendo então $\Delta x_i \to 0$, temos que $L(P)$ é precisamente o comprimento do gráfico de $f$. 
+
+$$
+L(P) = \int_{a}^{b} \sqrt{1 + \left(\dfrac{dy}{dx}\right)^2} \ dx 
+$$
+
+Ao considerarmos ainda uma curva em $\mathbb{R}^2$ dada em função de um parâmetro $t$, isto é, de forma que cada um de seus pontos são da forma $(x(t), y(t))$ com $t \in I$, um intervalo, vemos que seu comprimento $L$ pode ser dado por 
+
+$$
+L = \int_{a}^{b} \sqrt{\left(\dfrac{dx}{dt}\right)^2 + \left(\dfrac{dy}{dt}\right)^2} \ dt 
+$$
+
 # Referências 
 
 1. <i>Playlist</i> de cálculo diferencial e integral da USP — Coleção de aulas com o prof. Dr. Alexandre Lymberopoulos (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx">Acesse aqui</a>);
+2. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC

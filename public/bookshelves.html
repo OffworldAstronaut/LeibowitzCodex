@@ -9,16 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet"/>
   </head>
   <body>
     <div class="main">
       <header class="header">
-        <img src="favicon_leibowitzcodex.png" style="width: 12vh; min-width: 48px; flex-shrink: 0;">
-        <div>
+        <div class="header-icon">
+                <img src="./crucifix.png" style="width: 14vh; min-width: 48px; flex-shrink: 0;">
+            </div>
+        <div class="header-text">
           <h1>As Grandes Estantes</h1>
-          <p class="subtitle">
-            Por séculos, os monges da Ordem Albertiana copiam os manuscritos que sobreviveram ao Dilúvio de Fogo
-            e os guardam nas Estantes.
+          <p id="tagline">
+            <i>
+              Por séculos, os monges da Ordem Albertiana copiam os manuscritos que sobreviveram ao Dilúvio de Fogo
+              e os guardam nas Estantes.
+            </i>
           </p>
         </div>
       </header>
@@ -228,14 +233,23 @@
           <h3>✣ Calculus II ✣</h3>
         </div>
         <div class="shelf">
-          <a class="book" href="/books/higher_education/math/calculus_two/integration_intro.html">
+          <a class="book" href="/books/higher_education/math/calculus_two/integration.html">
             <span class="book-title">Integração</span>
           </a>
+          <a class="book" href="/books/higher_education/math/calculus_two/integration_techniques.html">
+            <span class="book-title">Técnicas de integração</span>
+          </a>
           <a class="book" href="/books/higher_education/math/calculus_two/solids_revolution.html">
-            <span class="book-title">Sólidos de Revolução</span>
+            <span class="book-title">Sólidos de revolução</span>
+          </a>
+          <a class="book" href="/books/higher_education/math/calculus_two/polar_coordinates.html">
+            <span class="book-title">Coordenadas polares</span>
+          </a>
+          <a class="book" href="/books/higher_education/math/calculus_two/improper_integration.html">
+            <span class="book-title">Integração imprópria</span>
           </a>
           <a class="book" href="/books/higher_education/math/calculus_two/sequences.html">
-            <span class="book-title">Sequências</span>
+            <span class="book-title">Sequências e séries</span>
           </a>
         </div>
         <div class="section-title">
@@ -342,16 +356,26 @@
         </div>
 
         <div class="section-title">
-          <h2>✣ Miscellaneum ✣</h2>
+          <h2>✥ Miscellaneum ✥</h2>
         </div>
         <div class="shelf">
           <a class="book" href="/books/miscellaneous/bells_orthodoxy.html">
             <span class="book-title">Sinos na Ortodoxia Russa</span>
           </a>
         </div>
-
         <div class="section-title">
-          <h2>✣ Archivis Ordinis Leibovicii ✣</h2>
+          <h2>✥ Relliquiae Ante Diluvium Ignis ✥</h2>
+        </div>
+        <div class="shelf">
+          <a class="book" href="/books/reliquiae/geometric_spirit_pascal.html">
+            <span class="book-title">De Ingenio Geometrico</span>
+          </a>
+          <a class="book" href="/books/reliquiae/six_pieces_scarani.html">
+            <span class="book-title">Sex Fragmenta Quantica</span>
+          </a>
+        </div>
+        <div class="section-title">
+          <h2>✥ Archivis Ordinis Leibovicii ✥</h2>
         </div>
         <div class="shelf">
           <a class="book" href="/books/archivis/tenebrae.html">
@@ -365,6 +389,9 @@
           </a>
           <a class="book" href="/books/archivis/imprecationes.html">
             <span class="book-title">Imprecationes</span>
+          </a>
+          <a class="book" href="/books/archivis/molten_stars.html">
+            <span class="book-title">De Stellis Confluentibus</span>
           </a>
         </div>
       </section>

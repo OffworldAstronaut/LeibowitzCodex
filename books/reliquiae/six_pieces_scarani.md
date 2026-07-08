@@ -1,5 +1,5 @@
-# Sequências e séries
+# Six Quantum Pieces 
 
-# Sequências
+# Six Quantum Pieces
 
 <i>Um manuscrito em branco... talvez você deveria voltar mais tarde?<i>

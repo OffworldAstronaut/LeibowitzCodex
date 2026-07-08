@@ -158,121 +158,10 @@ $$
 
 Podemos afirmar essa última igualdade em razão da afirmação que $f$ é uma função contínua. 
 
-Quando $h \rightarrow 0$, o intervalo se estreita e colocamos $c $ arbitrariamente próximo de $x$. Como $f$ é contínua, $\lim_{c \rightarrow x} f(c)=f(x)$.
+Quando $h \rightarrow 0$, o intervalo se estreita e colocamos $c$ arbitrariamente próximo de $x$. Como $f$ é contínua, $\lim_{c \rightarrow x} f(c)=f(x)$.
 Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
 
 </aside>
-
-## Técnicas de integração
-
-As <b>primitivas</b> — e as integrais de forma geral — possuem propriedades úteis que facilitam o seu cálculo, que por sua vez irá colaborar no cálculo de integrais, consequência exposta na próxima seção. 
-
-### Mudança de variável
-
-A propriedade da mudança de variável nos permite mudar a variável da função que está sendo integrada, permitindo uma maior facilidade. A ideia por trás dessa propriedade é uma espécie de “inversão” da regra da cadeia.
-
-A seguir, usamos a definição exposta por Guidorizzi:
-
-<aside>
-
-<b>Teorema (Guidorizzi, mudança de variável de integração)</b> — Seja $f$ contínua num intervalo $I$ e sejam $a$ e $b$ dois números reais quaisquer em $I$. Seja $g: [c,d] \rightarrow I$, com $g'$ contínua em $[c,d]$, tal que $g(c) = a$ e $g(d) = b$. Nestas condições:
-
-$$
-\int_{a}^{b} f(x) \ dx = \int_{c}^{d} f(g(u)) \cdot g'(u) \ du
-$$
-
-</aside>
-
-Por exemplo, na integração $\int_{2}^{3} (x-2)^8 \ dx$, podemos substituir $u = x-2$ e, consequentemente, $du = dx$. Os limites de integração mudarão de acordo com a nova variável, com $x = 2 \rightarrow u = 0, x = 3 \rightarrow u = 1$. 
-
-Por fim, a integral se torna $\int_{0}^{1} u^8 \text{ du}$, tremendamente simplificando sua avaliação: 
-
-$$ 
-\int_{0}^{1} u^8 \text{ du} = \left[\dfrac{u^9}{9}\right]_{0}^{1} = \dfrac{1^9}{9} - \dfrac{0^9}{9} = \dfrac{1}{9}
-$$
-
-<aside>
-
-Perceba que a derivada entre os colchetes com os limites de integração é uma notação condensada para a subtração entre as antiderivadas. Lemos <b>avaliada entre</b> $x$ e $y$, com estes dois números sendo os limites de integração.
-
-</aside>
-
-Por fim, qual o motivo da origem de $du = dx$, e como essa substituição funciona? 
-
-Nesse exemplo, definimos $u = g(x) = x-2$. Pela diferenciação, temos que $\dfrac{du}{dx} = \dfrac{d}{dx}(x-2) = 1 \rightarrow du = dx$. Curiosamente, isso <b>não funcionaria</b>, já que notações de derivadas são apenas notações, não "frações" de fato. Entretanto, isso pode ser provado de forma rigorosa, também. 
-
-### Integração por partes
-
-A **integração por partes** é uma maneira de “reverter” a regra do produto. 
-
-De fato, podemos provar a propriedade: 
-
-$$
-\int f'(x) g(x) \ dx = f(x)g(x) - \int f(x) g'(x) \ dx
-$$
-
-A demonstração é bem direta. Basta apenas encontrar a primitiva de $(fg)'$ e rearranjar os termos.
-
-Um bom e simples exemplo para essa regra é a integral $\int x \cos{x} \ dx$. Por meio da integração por partes, podemos definir $f(x)=x$ e $g'(x) = \cos{x}$. Aplicando a regra: 
-
-$$
-\int x \cos{x} \ dx = x \sin{x} - \int 1 \cdot \sin{x} = x \sin{x} + \cos{x} + k
-$$
-
-Com $k$ sendo a constante de integração, qualquer número real. 
-
-### Integração por frações parciais
-
-Podemos nos utilizar deste método quando precisamos integrar uma função racional $R(x)=\dfrac{P(x)}{Q(x)}$. A ideia é reescrever essa função como uma soma de frações mais simples cujos denominadores são fatores linear ou quadráticos do polinômio denominador.
-
-Esse método possui duas restrições para sua utilização:
-
-- $\text{grau}(P) \lt \text{grau}(Q)$, caso contrário, é recomendado executar a divisão de polinômios primeiro
-- É possível fatorar $Q(x)$ em termos lineares ou quadráticos
-
-Como podemos aplicá-lo? Primeiro fatoramos $Q(x)$, depois disso, montamos a igualdade
-
-$$
-\dfrac{P(x)}{Q(x)}=\sum_i \dfrac{A_i}{x - r_i} + \sum_j \dfrac{B_jx + C_j}{(x^2+px+q)_j}
-$$
-
-com $A_i$, $B_j$ e $C_j$ constantes que ainda não sabemos o valor, $r_i$ as raízes e os denominadores termos lineares ou quadráticos da fatoração de $Q(x)$. Depois, aplicamos a integral em cada termo de forma separada. 
-
-Por exemplo, como integrar a seguinte função racional? 
-
-$$
-\int \dfrac{2x+3}{x^2+x-2} \ dx
-$$
-
-Primeiro, fatoramos o polinômio denominador: 
-
-$$
-x^2+x-2=(x+2)(x-1)
-$$
-
-E reescrevemos a expressão: 
-
-$$
-\dfrac{2x+3}{x^2+x-2} = \dfrac{A}{x-1} + \dfrac{B}{x+2}
-$$
-
-Multiplicando ambos os lados por $x^2 + x - 2$: 
-
-$$
-2x+3=A(x+2)+B(x-1)
-$$
-
-Resolvendo para $A$ e $B$, chegamos em $A=\dfrac{5}{3}$ e $B=\dfrac{1}{3}$. 
-
-Substituindo na integral original, podemos resolvê-la: 
-
-$$
-\begin{align*}
-\int \dfrac{2x+3}{x^2+x-2} &= \int \dfrac{5}{3} \cdot \dfrac{1}{x-1} \ dx\, +\int \dfrac{1}{3} \cdot \dfrac{1}{x+2} \\ 
-&= \dfrac{5}{3} \int \dfrac{1}{x-1} \ dx \, + \dfrac{1}{3} \int \dfrac{1}{x+2} \\ 
-&= \dfrac{5}{3} \ln |x-1| + \dfrac{1}{3} \ln |x+2| + k
-\end{align*}
-$$
 
 # Teorema do Valor Médio para Integrais
 
@@ -296,7 +185,7 @@ $$
 \end{align*}
 $$
 
-Substituindo $int_{a}^{b} \phi(x) \ dx = I$ por brevidade, encontramos: 
+Substituindo $\int_{a}^{b} \phi(x) \ dx = I$ por brevidade, encontramos: 
 
 $$ 
 \begin{align*}
@@ -317,48 +206,7 @@ $$
 
 Calcular essa última expressão é o equivalente de encontrar a área do retângulo com base no tamanho dos limites de integração e da altura $f(c)$, além de demonstrarmos que a área desse retângulo possui a mesma área que a integral da função. 
 
-# Primitivas de potências de trigonométricas
-
-É possível encontrar algumas propriedades que facilitam o cálculo das primitivas de produtos de funções trigonométricas e em especial suas potências, inclusive por <b>fórmulas de recorrência</b>. 
-
-O primeiro caso notável é o da integral $\int \sin^n{x} \cdot \cos^m{x} \ dx$.
-
-Caso $n$ seja ímpar, um atalho rápido é substituir $u = \cos{x}$. Caso $m$ seja ímpar, um outro atalho é substituir $u=\sin{x}$. Se ambos forem pares, a decisão mais prática é rescrever 
-
-$$
-\begin{align*} 
-\sin^2{x} &= \dfrac{1 - \cos{2x}}{2} \\\\ 
-\cos^2{x} &= \dfrac{1 - \cos{2x}}{2}
-\end{align*}
-$$
-
-Além disso, temos o caso da integral $\int \sec^n{x} \tan^m{x} \ dx$, que pode ser da maneira:
-
-$$
-\int \sec^n{x} \tan^m{x} \ dx = \begin{cases}
-\int \sec^{n-1}{x} \cdot (\sec^2{x} - 1)^{\dfrac{m-1}{2}} \sec{x} \tan{x} \ dx & m\text{ ímpar} \\ 
-\int \sec^n{x} \cdot (\sec^2{x} - 1)^\dfrac{m}{2} \ dx & m \text{ par}
-\end{cases}
-$$
-
-No primeiro caso de paridade, ainda é útil a substituição $u=\sec{x}$. 
-
-## Fórmulas de recorrência
-
-Abaixo estão listadas algumas expressões de recorrência para o cálculo das primitivas das potências de diversas funções trigonométricas. 
-
-$$
-\begin{align*}
-\int \sin^n{x} \ dx &= -\dfrac{1}{n} \sin^{n-1} x \cos x + \dfrac{n-1}{n} \int \sin^{n-2}{x} \ dx \\ 
-\\
-\int \cos^n{x} \ dx &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx \\ 
-\\
-\int \tan^n{x} \ dx &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \ dx \\ 
-\\
-\int \sec^n{x} \ dx &= \dfrac{\sec^{n-2}{x}  \tan{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \ dx \\
-\end{align*}
-$$
-
 # Referências 
 
 1. <i>Playlist</i> de cálculo diferencial e integral da USP — Coleção de aulas com o prof. Dr. Alexandre Lymberopoulos (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4tr-aiNyYCXE46L3qEZ2Nzx">Acesse aqui</a>);
+2. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC

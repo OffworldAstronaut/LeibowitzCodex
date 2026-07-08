@@ -9,29 +9,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet"/>
 </head>
 <body>
     <div class="main">
         
         <header>
-            <img src="favicon_leibowitzcodex.png" style="width: 12vh; min-width: 48px; flex-shrink: 0;">
-            <div>
+            <div class="header-icon">
+                <img src="./crucifix.png" style="width: 14vh; min-width: 48px; flex-shrink: 0;">
+            </div>
+            <div class="header-text">
                 <h1 id="tda">
                     Annales Scriptorii
                 </h1>
                 <p id="tagline">
-                    <i>Nunca esqueça seu passado, você pode acabar repetindo-o indefinidamente.</i>
+                    <i>Aqui registram os cronistas, dos escribas, todos os movimentos.</i>
                 </p>
             </div>
         </header>
         <nav class="nav-back">
-            <button onclick="history.back()"><b>Voltar</b></button>
-            <button id="theme-toggle" aria-label="Toggle dark mode"><b>🌙 Trevas</b></button>
+            <button onclick="history.back()">Voltar</button>
+            <button id="theme-toggle" aria-label="Toggle dark mode">🌙 Trevas</button>
         </nav>
-        <div class="introduction">
+        <div class="update-card">
+            <h2>
+                ✥ Oito de julho de 3026 AD (Mem. de Eugênio III, Papa) ✥
+            </h2>
             <p>
-                <b style="font-size: large;">Quatro de julho de 3026, <i>Anno Domini</i> (Memória de São Pier Giorgio Frassati, Leigo)</b> <br><br>
+                🏵 Recuperação de uma <a href="/books/archivis/molten_stars.html" target="_blank">nova memória</a> para o Arquivo da Ordem; <br>
 
+                🏵 Expansão e divisão do antigo manuscrito <i>Introductio ad Calculus II</i> em seis novos volumes; <br>
+
+                🏵 Recuperação de um tratado sobre a obra de Blaise Pascal, <i><a href="/books/reliquiae/geometric_spirit_pascal.html">De Ingenuo Geometrico</a></i>; <br>
+
+                🏵 Avanço na reforma do mosteiro com patrocínio de Odorico II, Rei dos Bretões; 
+            </p>
+        </div>
+        <div class="update-card">
+            <h2>
+                ✥ Quatro de julho de 3026 AD (Mem. de São Pier Frassati, Leigo) ✥
+            </h2>
+            <p>
                 🏵 Recuperação de um tratado sobre <a href="/books/higher_education/math/calculus_one/differentials.html" target="_blank">diferenciais</a>; <br>
 
                 🏵 Recuperação de um tratado sobre <a href="/books/higher_education/math/linear_algebra/eigenvalues.html" target="_blank">autovalores e autovetores</a>; <br> 
@@ -42,10 +60,11 @@
 
             </p>
         </div>
-        <div class="introduction">
+        <div class="update-card">
+            <h2>
+                ✥ 29 de junho de 3026 AD (Sol. dos Santos Apóstolos Pedro e Paulo) ✥
+            </h2>
             <p>
-                <b style="font-size: large;">29 de junho de 3026, <i>Anno Domini</i> (Solenidade dos Santos Apóstolos Pedro e Paulo)</b> <br><br>
-
                 🏵 Revisão de pequeno erro de escrita no códice sobre o <a href="/books/higher_education/physics/topics_current_physics/quantum_con.html">Charlatanismo Quântico</a>; <br> 
 
                 🏵 Revisão de um <a href="/books/archivis/possessio_maris.html">manuscrito</a> do Arquivo da Ordem; <br>
@@ -56,9 +75,11 @@
 
             </p>
         </div>
-        <div class="introduction">
+        <div class="update-card">
+            <h2>
+                ✥ 24 de junho de 3026 AD (Sol. de São João Batista, O Precursor) ✥
+            </h2>
             <p>
-                <b style="font-size: large;">24 de junho de 3026, <i>Anno Domini</i> (Solenidade de São João Batista, O Precursor)</b> <br><br>
 
                 🏵 Continuação de desenvolvimento no Códice sobre <a href="/books/higher_education/physics/physics_one/rigid_bodies.html">Corpos Rígidos</a>; <br>
 
@@ -68,9 +89,11 @@
 
             </p>
         </div>
-        <div class="introduction">
+        <div class="update-card">
+            <h2>
+                ✥ 13 de junho de 3026 AD (Mem. de Sto. Antônio, Doutor da Igreja) ✥
+            </h2>
             <p>
-                <b style="font-size: large;">13 de junho de 3026, <i>Anno Domini</i> (Memória de Santo Antônio de Lisboa, Doutor da Igreja)</b> <br><br>
 
                 🏵 Divisão dos códices de <i>Calculus</i> em diversos volumes para acesso facilitado; <br>
 
@@ -81,11 +104,12 @@
                 🏵 Recuperação de manuscrito sobre <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">rotações</a> e início da recuperação de manuscrito sobre <a href="/books/higher_education/physics/physics_one/rigid_bodies.html" target="_blank">corpos rígidos</a>;
             </p>
         </div>
-        <div class="introduction">
+        <div class="update-card">
+            <h2>
+               ✥ Dez de junho de 3026 AD (Festa de São Landerico, Bispo) ✥
+            </h2>
             <p>
-                <b style="font-size: large;">Dez de junho de 3026, <i>Anno Domini</i> (Festa de São Landerico, Bispo)</b> <br><br>
-
-                🏵 Recuperação e do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/determinants.html" target="_blank"><b>determinantes</b></a>; <br> 
+                🏵 Recuperação e do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/determinants.html" target="_blank">determinantes</a>; <br> 
 
                 🏵 Recuperação parcial do manuscrito sobre <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">rotações</a>; <br>
 
@@ -94,11 +118,12 @@
                 🏵 Expedição enviada em busca de registros sobre <a href="/books/higher_education/math/calculus_two/sequences.html" target="_blank">sequências</a> e <a href="/books/higher_education/math/linear_algebra/eigenvalues.html" target="_blank">autovalores</a>;
             </p>
         </div>
-        <div class="introduction">
+        <div class="update-card">
+            <h2>
+               ✥ Nove de junho de 3026 AD (Mem. de Sto. Efrém, Doutor da Igreja) ✥
+            </h2>
             <p>
-                <b style="font-size: large;">Nove de junho de 3026, <i>Anno Domini</i> (Memória de Santo Efrém, Doutor da Igreja)</b> <br><br>
-
-                🏵 Recuperação e iluminação parcial do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/internal_product.html" target="_blank"><b>produtos internos</b></a>; <br> 
+                🏵 Recuperação e iluminação parcial do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/internal_product.html" target="_blank">produtos internos</a>; <br> 
 
                 🏵 Revisão do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank">transformações lineares</a>; <br> 
 
@@ -107,11 +132,12 @@
                 🏵 Revisão do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/lsystems_matrices.html" target="_blank">sistemas lineares e matrizes</a>;
             </p>
         </div>
-        <div class="introduction">
+        <div class="update-card">
+            <h2>
+                ✥ Quatro de junho de 3026 AD (Sol. do Corpo e Sangue de Cristo) ✥
+            </h2>
             <p>
-                <b style="font-size: large;">Quatro de junho de 3026, <i>Anno Domini</i> (Solenidade do Corpo e Sangue de Cristo)</b> <br><br>
-
-                🏵 Recuperação e iluminação do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank"><b>transformações lineares</b></a>; <br> 
+                🏵 Recuperação e iluminação do manuscrito sobre <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank">transformações lineares</a>; <br> 
 
                 🏵 Reestruturação do mosteiro, especialmente no Pórtico e nas Estantes; <br>
 
