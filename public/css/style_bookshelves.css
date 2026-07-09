@@ -51,15 +51,13 @@ body.dark::before {
 }
 
 body.dark::after {
-    opacity: 0.20;
+    opacity: 0.15;
 }
 
 .main {
-    width: 100%;
     max-width: min(800px, 92vw);
     margin: clamp(32px, 6vh, 96px) auto;
     padding: 0 24px;
-    position: relative;
     z-index: 1;
     opacity: 0.9;
 }
