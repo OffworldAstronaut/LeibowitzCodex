@@ -216,6 +216,10 @@ $$
 
 Note que neste nosso problema temos três equações e quatro incógnitas e, portanto, não poderemos determinar a condição final do sistema sem adicionar mais alguma restrição. Sem considerar o parâmetro de choque, isto pode ser feito ao fixarmos o valor de alguma das variáveis, como algum dos ângulos $\theta_1$ e $\theta_2$, chamados <b>ângulos de deflexão</b>. 
 
+![](https://upload.wikimedia.org/wikipedia/commons/2/2c/Elastischer_sto%C3%9F_2D.gif)
+
+<i>Animação ilustrando uma colisão elástica bidimensional. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Elastischer_sto%C3%9F_2D.gif" target="_blank">Wikimedia Commons</a>.</i>
+
 Continuando a análise desse cenário, podemos pensar no caso particular quando os corpos possuem massas iguais.
 
 $$
@@ -303,6 +307,10 @@ T_4 = \dfrac{p_4^2}{2m_4} = \dfrac{m_1}{m_4}T_1 + \dfrac{m_3}{m_4}T_3 - 2\dfrac{
 $$
 
 Uma conclusão semelhante ao fenômeno unidimensonal ocorre no caso particular de maior dissipação de energia cinética: uma única partícula com a massa das duas emerge, posssuindo a velocidade do centro de massa do sistema.
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/74/Wpdms_physics_proton_proton_chain_1.svg)
+
+<i>A nucleossíntese pode ser enxergada sob o ponto de vista de uma colisão inelástica. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Wpdms_physics_proton_proton_chain_1.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 # Referências 
 

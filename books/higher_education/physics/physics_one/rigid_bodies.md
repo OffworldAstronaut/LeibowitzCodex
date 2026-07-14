@@ -50,9 +50,9 @@ $$
 
 Em questões de nomenclatura, identifica-se também $\vec{L}'$ como o <b>momento angular interno</b> do sistema, enquanto $\vec{R} \times \vec{P}$ é o seu <b>momento angular externo</b>. $\vec{L}$, então, seria o <b>momento angular total</b> do sistema.
 
-# Princípio Fundamental da Dinâmica para rotações
+# Princípio fundamental da dinâmica para rotações
 
-Do <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">Princípio Fundamental da Dinâmica</a> (2ª Lei de Newton) é possível deduzir um princípio análogo para os movimentos de revolução, válido tanto para referenciais inerciais como não-inerciais.
+Do <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> (2ª lei de Newton) é possível deduzir um princípio análogo para os movimentos de revolução, válido tanto para referenciais inerciais como não-inerciais.
 
 $$
 \dfrac{d\vec{L}}{dt} = \vec{\tau}_{\text{ext}}
@@ -116,6 +116,10 @@ $$
 
 com alguns exemplos interessantes dessa conservação, além do conhecido exemplo da patinadora do gelo, o chamado <b>regulador de Watt</b>, comum nas máquinas à vapor da Segunda Revolução Industrial, e o ato de abrir ou fechar os braços enquanto rodar sobre uma cadeira de escritório.
 
+![](https://upload.wikimedia.org/wikipedia/commons/6/62/Steam_engine_in_action_%28two-thirds_speed%29.gif)
+
+<i>Máquina à vapor. Um regulador de Watt pode ser observado (duas esferas rotacionando) próximo à grande roda. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Steam_engine_in_action_(two-thirds_speed).gif" target="_blank">Wikimedia Commons</a>.</i>
+
 # Calculando momentos de inércia
 
 Nem sempre a integral para encontrar o momento de inércia de um corpo é simples de ser solucionada. Entretanto, alguns casos são mais simples, considerando ainda corpos homogêneos. Abaixo estão listados alguns casos destes. 
@@ -167,6 +171,10 @@ Com efeito, senod $I$ o momento de inércia em relação a um eixo paralelo qual
 $$
 I = I_{CM} + Ml^2
 $$
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/d7/Steiner.png)
+
+<i>Ilustração do teorema dos eixos paralelos para um corpo qualquer. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Steiner.png" target="_blank">Wikimedia Commons</a>.</i>
 
 Este teorema fornece alguns resultados interessantes para o caso de barras delgadas rotacionadas com eixos em suas extremidades e para o caso de cilindros retos. 
 
@@ -233,6 +241,10 @@ onde o primeiro termo leva em conta a rotação do corpo em torno de seu centro 
 Como caso particular do movimento plano de corpos rígidos, convém estudar o muito comum movimento de <b>rolamento</b>. 
 
 Ao imaginarmos uma roda (um cilindro circular rígido) rolando sobre uma superfície de forma que todo ponto da circunferência, formada pelo corte transversal da roda, toque a superfície apenas uma vez, dizemos que a roda executa um movimento de <b>rolamento puro</b> ou também dito <b>sem deslizamento</b>.
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/36/Rolling_animation.gif)
+
+<i>Animação ilustrando um rolamento puro como a superposição de uma translação e de uma rotação. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Rolling_animation.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 Além de ser um movimento plano, podemos estudar o rolamento como uma composição de um movimento de translação e de um movimento de rotação. Todo ponto da roda descreve uma trajetória chamada <b>ciclóide</b>. Esta curva é especial por ser a solução para o <a href="" target="">problema da braquistócrona</a>.
 

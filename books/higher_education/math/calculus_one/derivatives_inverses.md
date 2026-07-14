@@ -1,5 +1,7 @@
 # Derivando funções inversas
 
+# Inversibilidade 
+
 Para derivar funções inversas, primeiro precisamos ser introduzidos às noções de inversibilidade. Considere os seguintes teoremas.
 
 <aside>
@@ -52,7 +54,6 @@ $$
 
 Portanto, $g$ é derivável em $p$ e $g'(p) = \dfrac{1}{f'(g(p))}$. 
 
-
 <b>Demonstração alternativa</b> — Derivando implicitamente a equação, podemos, por meio da cadeia, alcançar a expressão desejada.
 
 $$
@@ -65,11 +66,11 @@ $$
 
 </aside>
 
-## Derivando as funções inversas trigonométricas
+# Derivando as funções inversas trigonométricas
 
 Para encontrar as funções inversas trigonométricas, podemos tanto aplicar o método da derivação implicita diretamente como utilizar o teorema exposto previamente. 
 
-### Derivando a função arco seno
+## Derivando a função arco seno
 
 <aside>
 
@@ -90,7 +91,7 @@ $$
 
 </aside>
 
-### Derivando a função arco cosseno 
+## Derivando a função arco cosseno 
 
 <aside>
 
@@ -111,7 +112,7 @@ $$
 
 </aside>
 
-### Derivando a função arco tangente
+## Derivando a função arco tangente
 
 <aside>
 
@@ -132,7 +133,7 @@ $$
 
 </aside>
 
-### Derivando a função arco secante
+## Derivando a função arco secante
 
 <aside>
 
@@ -150,7 +151,7 @@ Este último passo é possível pela simplificação da primeira parcela e da ap
 
 </aside>
 
-### Derivando a função arco cossecante 
+## Derivando a função arco cossecante 
 
 <aside>
 
@@ -167,7 +168,7 @@ Este último passo é realizado após a aplicação da regra da cadeia e da iden
 
 </aside>
 
-### Derivando a função arco cotangente
+## Derivando a função arco cotangente
 
 <aside>
 

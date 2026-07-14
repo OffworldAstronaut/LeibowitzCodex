@@ -2,8 +2,6 @@
 
 # Introdução 
 
- 
-
 A Física como campo científico possui importância fundamental na criação e manutenção do mundo
 moderno, alargando o escopo da compreensão do mundo natural pela humanidade e fornecendo base
 científica para futuras aplicações tecnológicas. Historicamente, diversos inventos tiveram origem

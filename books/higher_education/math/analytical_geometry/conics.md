@@ -4,6 +4,10 @@
 
 Algumas construções geométricas (como a elipse, a parábola e a hipérbole) recebem o nome de "cônicas" ou ainda "seções cônicas" em razão de sua construção tradicional ser realizada a partir do corte de cones de maneiras particulares. Entretanto, outras maneiras de construção e definição existem, que serão exploradas ao longo deste documento. 
 
+![](https://upload.wikimedia.org/wikipedia/commons/1/11/Conic_Sections.svg)
+
+<i>Representação das seções cônicas a partir do corte de um cone por um plano. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Conic_Sections.svg" target="_blank">Wikimedia Commons</a>.</i>
+
 ## Elipses 
 
 Dados dois pontos $F_1$ e $F_2$ e um terceiro ponto $P$ no plano, além de um número $r$ de forma que $r \gt d(F_1, F_2)$,definimos a elipse como o conjunto de todos os pontos $P(x,y)$ tais que 
@@ -49,9 +53,17 @@ $$
 
 são chamadas <b>assíntotas</b> da hipérbole, sendo os casos extremos das retas secantes à hipérbole que passam pela origem, com estas possuindo coeficientes angulares $m \in \left[-\dfrac{b}{a}, \dfrac{b}{a}\right]$.
 
+![](https://upload.wikimedia.org/wikipedia/commons/d/de/Hyperbel-def-ass-e.svg)
+
+<i>Esquema de uma hipérbole. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Hyperbel-def-ass-e.svg" target="_blank">Wikimedia Commons</a>.</i>
+
 ## Parábolas 
 
 Dados um ponto $F$ e uma reta $r$, chamamos de <b>parábola de foco $F$ e diretriz $r$</b> o conjunto de pontos que satisfaz $d(P, F) = d(P, r)$. Perceba que a reta diretriz <i>direciona</i> a orientação da parábola no plano. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f4/Parts_of_Parabola.svg)
+
+<i>Esquema de uma parábola. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Parts_of_Parabola.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Quando consideramos as posições de uma parábola com seu vértice na origem, há quatro casos especiais que podem ser analisados: concavidade para cima, concavidade para baixo, concavidade para a direita e concavidade para a esquerda. Respectivamente, suas equações são: 
 
@@ -77,15 +89,19 @@ Dado um outro sistema de coordenadas com origem em $O'= (a,b)$, as coordenadas d
 
 Esta relação pode ser demonstrada/visualizada por meio de um diagrama contendo ambos os sistemas de coordenadas. 
 
-<aside>
+![](https://upload.wikimedia.org/wikipedia/commons/d/d5/CoordinateTranslation.png)
+
+<i>Mudanças de coordenadas por translação são extremamente comuns na mecânica. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:CoordinateTranslation.png" target="_blank">Wikimedia Commons</a>.</i>
 
 Numa interpretação física, modificar o sistema de coordenadas utilizado (mais usualmente por meio de translação) é a chamada <b><a href="/books/higher_education/physics/physics_one/kinematics.html" target="_blank">mudança de referencial</a></b>, tornando possível a análise de um sistema físico a partir de outro "ponto de vista".
-
-</aside>
 
 ## Rotação 
 
 Ao rotacionar os eixos coordenados em um ângulo $\theta$, mensurado no sentido usual (anti-horário), criamos um outro sistema de coordenadas em que todos os pontos $P(x,y)$ do sistema usual recebem novas coordenadas $(x_1, y_1) = (x\cos{\theta} - y\sin{\theta}, x\sin{\theta} + y\cos{\theta})$.
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/9a/Passive_versus_active_rotation.svg)
+
+<i>Diagrama ilustrando duas diferentes maneiras de rotacionar um ponto: rotacionar o próprio ponto ou rotacionar o sistema de coordenadas. Ambas são equivalentes entre si. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Passive_versus_active_rotation.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 De fato, qualquer ponto (vetor) $(x, y)$ no plano pode ser rotacionado em $\theta$ graus para um ponto (vetor) $(x_1, y_1)$ por meio de sua multiplicação por uma <b>matriz de rotação</b>. 
 

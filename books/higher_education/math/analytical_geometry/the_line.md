@@ -10,7 +10,7 @@ $$
 \mathbb{Q} = \{x: x = \dfrac{p}{q}, p, q \in \mathbb{Z} \text{ e } q \neq 0\}
 $$
 
-## Números irracionais
+# Números irracionais
 
 São membros do conjunto dos números irracionais, denotado pelo símbolo $\mathbb{I}$, todos aqueles que não podem ser representados por uma razão entre dois números inteiros, conforme a definição de $\mathbb{Q}$. Entretanto, estes também podem ser representados na reta real por construções geométricas, por exemplo. 
 
@@ -55,7 +55,7 @@ Portanto, o número irracional $(n+1)s$ está entre $a$ e $b$. Fazendo-se $(n+1)
 
 <aside>
 
-<b>Proposição 2 (Reis e Silva, existência de números racionais e irracionais em qualquer intervalo arbitrário)</b> — Dado um número real $b$, existem próximos dele, arbitrariamente, números racionais e irracionais. 
+<b>Proposição 2 (Reis & Silva, existência de números racionais e irracionais em qualquer intervalo arbitrário)</b> — Dado um número real $b$, existem próximos dele, arbitrariamente, números racionais e irracionais. 
 
 </aside>
 

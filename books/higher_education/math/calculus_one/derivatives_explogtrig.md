@@ -1,5 +1,7 @@
 # Derivando funções transcendentais
 
+# Introdução
+
 Dizemos que funções que não podem ser expressas por meio da soma de polinômios, como <b>senos</b>, <b>exponenciais</b> e <b>logarítmicas</b>, são funções <b>transcendentais</b>, pois elas transcendem a álgebra. De fato, abaixo veremos como podemos derivar essas funções citadas acima, funções trigonométricas, exponenciais e logarítmicas, e suas regras de derivação correspondentes.
 
 # Derivando funções exponenciais
@@ -92,11 +94,7 @@ b^x&=(e^{\log_e{b}})^x\\\\
 \end{align*}
 $$
 
-<aside>
-
-Podemos reescrever $\log_e$ como $\ln$ — o logaritmo natural. 
-
-</aside>
+Em questões de notação, podemos reescrever $\log_e$ como $\ln$ — este é o logaritmo natural. 
 
 Todo esse processo de reescrita foi para possibilitar a aplicação da regra da cadeia em nossa função. Assim, derivando $b^x$ pela regra da cadeia, nós obtemos que: 
 
@@ -119,8 +117,6 @@ $$
 Essa regra será bastante útil em situações de funções exponenciais compostas. 
 
 # Derivando funções logarítmicas
-
-
 
 Podemos denominar **função logaritmo** toda função $f(x)=\log_bx$, com todas as restrições numéricas necessárias para que o logaritmo exista, como por exemplo, que $b>0$ e $b\neq 1$. Em especial, podemos calcular a derivada da função logaritmo natural como base para o caso geral. 
 
@@ -177,8 +173,6 @@ $$
 </aside>
 
 # Derivadas de funções trigonométricas
-
-
 
 Todas as funções trigonométricas podem ser reconstruídas por meio de recombinações das funções seno e cosseno. Tendo isso em vista, abaixo estarão as suas derivadas pela definição e em seguida uma lista das derivadas das outras funções.
 

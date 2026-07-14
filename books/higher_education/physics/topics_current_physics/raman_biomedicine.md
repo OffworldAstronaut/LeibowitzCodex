@@ -1,8 +1,6 @@
-# Espectroscopia Raman em Tecidos Biológicos
+# Espectroscopia Raman em tecidos biológicos
 
 # Introdução 
-
- 
 
 Chamamos biofotônica a área interdisciplinar entre a Fı́sica e a Biologia que se utiliza da
 óptica para manipular e estudar sistemas biológicos. Uma ferramenta crucial para a biofotônica

@@ -84,12 +84,12 @@ header h1 {
 }
 
 header h1::before { 
-    content:"✥";
+    content:"✥ ";
     color: var(--text)
 }
 
 header h1::after { 
-    content:"✥";
+    content:" ✥";
     color: var(--text)
 }
 

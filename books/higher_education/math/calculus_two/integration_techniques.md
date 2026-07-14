@@ -1,8 +1,10 @@
 # Técnicas de integração
 
-# Técnicas de integração
+<aside>
 
 Neste manuscrito estão listadas e discorridas sobre diversas técnicas que podem auxiliar no cálculo de integrais de diversos tipos de funções.
+
+</aside>
 
 # Mudança de variável
 

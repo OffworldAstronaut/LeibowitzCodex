@@ -1,8 +1,12 @@
 # Práticas, regras e técnicas úteis 
 
+<aside>
+
 Este documento servirá como um compêndio de algumas regras, técnicas e práticas que podem ser úteis em algumas situações, acelerando o processo de derivação e economizando tempo e esforço. 
 
-## Derivação implícita
+</aside>
+
+# Derivação implícita
 
 A <b>derivação implícita</b> é uma técnica muito útil para derivar funções oriundas de equações que relacionam $x$ e $y$, pois nem sempre é fácil escrever $y$ diretamente em função de $x$. Quando isso acontece, precisamos usar a derivação implícita: derivamos os dois membros da equação em relação a $x$ enquanto tratamos $y$ como uma função de $x$ ainda desconhecida.
 
@@ -35,7 +39,7 @@ Essa estratégia de derivação se mostra muito útil em problemas das mais vari
 
 Se quisermos encontrar a expressão original de $y$, poderemos nos utilizar das técnicas de integração e equações diferenciais, que veremos no decorrer dos próximos cursos — livretos — de Cálculo.
 
-## Derivação logarítmica
+# Derivação logarítmica
 
 A <b>derivação logarítmica</b> é uma prática muito eficiente quando se mostra necessário derivar funções formadas por uma grande quantidade de expressões, mais comumente produtos, quocientes e potências. 
 
@@ -102,7 +106,7 @@ $$
 
 Veja como essa técnica poupou tempo ao evitar que aplicássemos repetidas vezes as regras do produto, quociente e da cadeia! 
 
-## Regra de L’Hôpital
+# Regra de L’Hôpital
 
 Enquanto o simples rearranjo algébrico pode levantar indeterminações em alguns limites, a <b>regra de L’Hôpital</b> nos ajuda a tratar de forma simples dois tipos de indeterminações, a saber, as de tipos $\dfrac{0}{0}$ ou $\dfrac{\infty}{\infty}$. 
 

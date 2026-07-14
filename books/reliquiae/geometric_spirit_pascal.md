@@ -90,9 +90,13 @@ A "arte de persuadir", ou seja, a retórica, é necessariamente ligada com o que
 
 Nesta segunda parte, Pascal irá tratar da boa organização de argumentos (i.e da sua organização convincente) inicialmente e finalizará com uma compilação de regras práticas para o estabelecimento de definições e axiomas e a condução de demonstrações. 
 
+<aside>
+
 <i>
 A arte de persuadir tem uma relação necessária com a maneira pela qual os homens consentem naquilo que se lhes propõe e com as condições das coisas que se quer fazer crer.<br><br>(PASCAL, Do Espírito Geométrico)
 </i>
+
+</aside>
 
 É natural se questionar como alguém pode aceitar uma opinião vinda de fora sobre alguma previamente existente, já que iremos tratar sobre persuação. O autor discorre sobre duas possíveis maneiras que essa aceitação pode acontecer: pelo entendimento e pela vontade. 
 

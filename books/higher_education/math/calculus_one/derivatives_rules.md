@@ -1,8 +1,12 @@
 # Regras de derivação
 
+<aside>
+
 É perceptível que se utilizar da definição de derivação sempre que se fazer necessário calcular uma derivada é algo trabalhoso e demorado. Por isso, podemos nos utilizar das <b>regras de derivação</b>, propriedades do cálculo de derivadas — muitas delas derivadas das propriedades de limites — que facilitam nosso trabalho e diminuem nosso esforço.
 
-## Derivada de uma função constante
+</aside>
+
+# Derivada de uma função constante
 
 A primeira dessas propriedades, e provavelmente a mais direta, é que a derivada de uma função constante é nula.
 
@@ -24,7 +28,7 @@ Note que a divisão do segundo passo é possível pois $h \neq 0$.
 
 </aside>
 
-## Função potência
+# Função potência
 
 Dada uma função $f(x)=x^n$, sua derivada será $f'(x)=nx^{n-1}$ para todo $n \in \mathbb{R}$. 
 
@@ -32,7 +36,7 @@ Por exemplo, dada uma função $f(x)=x^4$, sua derivada será $f'(x)=4x^3$.
 
 É possível demonstrar a validade dessa afirmação para $n \in \mathbb{N}$ pelo binômio de Newton e jogos de álgebra, tanto para $n \in \mathbb{R}$ por meio da **diferenciação implícita** e da **diferenciação logarítmica**, mostradas mais adiante. 
 
-### Prova 1 — Binômio de Newton
+## Prova 1 — Binômio de Newton
 
 <aside>
 
@@ -73,7 +77,7 @@ Como queríamos demonstrar.
 
 </aside>
 
-### Prova 2 — Diferenciação implícita e logarítmica
+## Prova 2 — Diferenciação implícita e logarítmica
 
 <aside>
 
@@ -93,7 +97,7 @@ Como queríamos demonstrar. Os conceitos de derivação implícita e derivação
 
 </aside>
 
-## Multiplicação por uma constante
+# Multiplicação por uma constante
 
 Dadas duas funções $g(x)$ e $f(x)$ e uma constante $c \in \mathbb{R}$, de forma que $g(x)=cf(x)$, a derivada de $g(x)$ é dada pelo produto entre $c$  e $f'$. 
 
@@ -112,8 +116,7 @@ $$
 
 O último passo é justificado por meio das propriedades de limites (limite do produto entre uma função e uma constante).
 
-
-## Regra da soma ou da diferença
+# Regra da soma ou da diferença
 
 Ao derivarmos uma função formada pela soma de duas outras funções, sua derivada será a soma das derivadas das funções que a formam, isto é
 
@@ -145,7 +148,7 @@ Como queríamos demonstrar.
 
 </aside>
 
-## Regra do produto
+# Regra do produto
 
 Quando derivamos uma certa função $F(x)$ composta pelo produto de outras duas funções, a saber, $f(x)$ e $g(x)$, podemos dizer: 
 
@@ -176,7 +179,7 @@ $$
 
 </aside>
 
-## Regra do quociente
+# Regra do quociente
 
 Para encontrar a derivada de uma certa função $F(x)=\dfrac{f(x)}{g(x)}, g(x) \neq 0$, temos que 
 
@@ -208,7 +211,7 @@ $$
 
 </aside>
 
-## Regra da cadeia
+# Regra da cadeia
 
 A regra da cadeia possui uma demonstração matemática mais complexa, mas uma utilidade imensa, servindo de base para a resolução de problemas como por exemplo a derivação de funções exponenciais, explorada mais adiante — essa propriedade nos permite encontrar a derivada de funções compostas.
 
@@ -248,7 +251,7 @@ $$
 
 </aside>
 
-### Demonstrações
+## Demonstrações
 
 <aside>
 

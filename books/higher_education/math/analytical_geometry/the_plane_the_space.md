@@ -1,9 +1,13 @@
-# O Plano e o Espaço
+# O plano e o espaço
 
 # Sistema de coordenadas 
 
 Ao escolher um plano formado por retas perpendiculares entre si, comumente chamadas de $x$ e $y$, 
 e muni-lo com uma métrica, definindo uma certa distância da origem sobre as retas — intersecção das retas, denominadas eixos — como a unidade, formamos um <b>sistema de coordenadas</b> para este plano escolhido, formando um <b>plano cartesiano</b>. A construção recebe este nome em homenagem a René Descartes, filósofo e matemático francês, um dos fundadores da Geometria Analítica. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0e/Cartesian-coordinate-system.svg)
+
+<i>Ilustração de um plano cartesiano com alguns pontos — com suas respectivas coordenadas — marcados. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Cartesian-coordinate-system.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 A partir dos números $x$ e $y$, chamados de <b>coordenadas</b>, é possível construir duas retas cuja intersecção é um ponto $P$ no plano construído. Representando $P = (x,y)$, formamos uma 
 correspondência entre os padres ordenados dos números reais — cujo conjunto é o $\mathbb{R}^2$ — e os pontos do plano. 
@@ -14,6 +18,10 @@ mostrar que, por meio do Teorema de Pitágoras, a distância entre esses dois po
 $$ 
 d(P, Q) = \sqrt{(x_1 - x_2)^2 + (y_1 - y_2)^2}
 $$
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/55/Euclidean_distance_2d.svg)
+
+<i>Demonstração da distância euclidiana entre dois pontos no caso bidimensional. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Euclidean_distance_2d.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 O ponto médio, que situa-se equidistante de dois pontos $A$ e $B$ é, por sua vez, encontrado a partir da média aritmética das coordenadas dos dois pontos considerados, isto é: 
 
@@ -188,6 +196,10 @@ $$
 
 Multiplicar ambos os membros por $||\vec{a}|| \cdot ||\vec{b}||$ produz a expressão que queríamos encontrar. Aplicar $\cos^{-1}$ em ambos os membros também produz uma maneira de encontrar o ângulo entre dois vetores a partir de seu produto interno e de suas normas. 
 
+![](https://upload.wikimedia.org/wikipedia/commons/2/25/Scalar-product-dot-product.svg)
+
+<i>Ilustração do produto escalar entre dois vetores, incluindo a projeção de um vetor no outro. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Scalar-product-dot-product.svg" target="_blank">Wikimedia Commons</a>.</i>
+
 Esta operação, o produto escalar, possui algumas propriedades: 
 
 $$
@@ -279,6 +291,10 @@ $$
 $$
 
 por meio do desenvolvimento dos termos de ambos os membros da igualdade e a verificação de sua simplificação. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/bc/Cross_product_parallelogram.gif)
+
+<i>Animação ilustrando a discussão acima: o módulo do produto vetorial entre os vetores vermelhos é a área do paralelogramo ilustrado. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Cross_product_parallelogram.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Produto misto
 
@@ -587,6 +603,10 @@ Com $D, E, F \in \mathbb{R}$.
 
 Em notação de conjunto, podemos definir a circunferência como o conjunto de todos os pontos que estão à uma mesma distância $r$ de um centro $C$. 
 
+![](https://upload.wikimedia.org/wikipedia/commons/0/03/Circle-withsegments.svg)
+
+<i>Uma circunferência $C$ de centro $O$, diâmetro $D$ e raio $R$. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Circle-withsegments.svg" target="_blank">Wikimedia Commons</a>.</i>
+
 Estas mesmas definições estendem-se para a definição de esferas no espaço tridimensional. Para uma esfera centrada em $C(x_0, y_0, z_0)$ de raio $r$, sua <b>equação cartesiana</b> é dada por 
 
 $$
@@ -603,16 +623,19 @@ Por fim, também podemos escrever as <b>equações paramétricas da esfera</b> p
 
 $$
 \begin{cases}
-    x = x_0 + r \cos{\theta} \\\\
-    y = y_0 + r \sin{\theta} \\\\
+    x = x_0 + r \cos{\theta} \\
+    y = y_0 + r \sin{\theta} \\
     z = z_0 + r \sin{\phi}
 \end{cases}
 $$
 
-
 # Planos
 
 Elevar o nosso ponto de vista para o espaço tridimensional permite analisar os <b>planos</b> como subconjuntos desse espaço. De fato, dado um ponto $P(x_0, y_0, z_0)$ e um vetor $\vec{v} = (v_1, v_2, v_3)$, é possível ver que só existe um único plano $\alpha$ perpendicular ao vetor $\vec{v}$ que contém o ponto $P$. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f9/Plane_equation_qtl3.svg)
+
+<i>Um plano determinado por um vetor $\vec{OP}$ e um vetor normal $\vec{n}$. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Plane_equation_qtl3.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 De forma alternativa, podemos dizer que um dado ponto $Q(x, y, z)$ somente pertence ao plano mencionado se, e somente se, 
 

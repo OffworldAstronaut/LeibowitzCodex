@@ -1,8 +1,6 @@
 # Introdução à Teoria dos Erros 
 
-# A Teoria dos Erros e Medidas e sua importância para a ciência
-
-
+# Introdução
 
 O experimento é a base das ciências naturais e, em especial, a atividade central de toda a Física. Toda teoria física, por mais bem elaborada que seja, somente pode ser considerada válida se os experimentos concordam com ela.
 
@@ -13,8 +11,6 @@ Entretanto, há algo inerente nos experimentos que precisa ser considerado para 
 A <b>teoria dos erros e medidas</b> surge com esta proposta. 
 
 # Medindo grandezas físicas 
-
- 
 
 Denominamos <b>grandeza</b> como toda propriedade mensurável de algo na realidade, seja o objeto considerado material ou matemático. Neste documento iremos tratar especialmente das <b>grandezas físicas</b> da realidade material. 
 
@@ -129,8 +125,6 @@ Dessa forma, enquanto os erros sistemáticos devem ser combatidos a todo custo (
 
 # Propagação de incertezas 
 
- 
-
 Algumas grandezas, como o perímetro ou a área de um quadrado, não podem ser mensuradas por instrumentos próprios para elas, sendo necessária a sua derivação a partir de grandezas mais simples. Tomando como exemplo o caso do perímetro, esta grandeza possui origem nos comprimentos dos lados da figura, enquanto a área pode ser obtida pela multiplicação do comprimento de seus lados. 
 
 Uma pergunta surge: como quantificar a incerteza dessas novas grandezas? Afinal, é razoável pensar que essas grandezas originais possuem incertezas em suas medições e, a medida que novas operações são feitas com estas grandezas, essas imprecisões vão se alastrando por nossos cálculos. 
@@ -171,6 +165,4 @@ Ou seja, os expoentes tornam-se coeficientes das incertezas relativas, parcelas 
 
 # Referências 
 
-
-
-1. IFAN HUGHES; HASE, T. P. A. Measurements and their uncertainties : a practical guide to modern error analysis. Oxford: New York, 2010.
+1. HUGHES; Hase Ifan, T. P. A. Measurements and their uncertainties: a practical guide to modern error analysis. Oxford: New York, 2010.

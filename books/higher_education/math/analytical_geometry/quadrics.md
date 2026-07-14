@@ -1,8 +1,6 @@
 # Quádricas 
 
-# Quádricas 
-
- 
+# Introdução 
 
 De forma simples, podemos entender as <b>quádricas</b> como o análogo tridimensional das <b><a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank">cônicas</a></b>. Com efeito, dizemos que todas as figuras geométricas formadas pelas soluções das equações da forma 
 
@@ -16,7 +14,7 @@ As equações de boa parte destas superfícies podem ser obtidas a partir da rot
 
 Uma informação importante para se ter em mente é a noção da intersecção destas superfícies com planos no espaço e, em especial, com os planos formados pelos versores da base canônica. Estas intersecções fornecerão cônicas ou outros objetos no plano que facilitarão a identificação da superfície a partir da equação.
 
-## Elipsoide de revolução 
+# Elipsoide de revolução 
 
 Um elipsoide de revolução (ou esferoide) é uma quádrica obtida a partir da rotação de uma elipse em torno de algum de seus eixos principais. Por questões de simplicidade, iremos considerar que a elipse (e todas as cônicas originárias daqui em diante) está centrada na origem.
 
@@ -38,9 +36,7 @@ $$
 \dfrac{x^2 + y^2}{a^2} + \dfrac{z^2}{c^2} = 1
 $$
 
-## Hiperboloide de revolução 
-
-
+# Hiperboloide de revolução 
 
 Um hiperboloide de revolução é obtido pela rotação de uma hipérbole em torno de algum de seus eixos principais.
 
@@ -74,7 +70,7 @@ Por fim, é interessante mencionar que os hiperboloides (de uma folha) pertencem
 
 <i>Visualização da construção de um hiperboloide de uma única folha por meio da movimentação de uma reta (ou da junção de infinitas retas) no espaço. GIF sob Domínio Público, via <a href="https://commons.wikimedia.org/wiki/File:Hyperboloid_ruled_surface_animation_v2.gif" target="_blank">Wikimedia Commons</a>.</i>
 
-## Paraboloides
+# Paraboloides
 
 Os paraboloides são quádricas que merecem uma classificação um pouco mais criteriosa. Inicialmente, podemos descrever estas superfícieis por equações (reduzidas) da forma 
 
@@ -100,7 +96,7 @@ com $a, b \neq 0$. Ao cortarmos esta superfície por diversos planos, teremos co
 
 <i>Acima: um paraboloide hiperbólico, também conhecido por "sela". Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Hyperbolic_Paraboloid_Quadric.png" target="_blank">Wikimedia Commons</a></i>.
 
-## Superfícies cilíndricas
+# Superfícies cilíndricas
 
 Dizemos que uma quádrica é <b>cilíndrica</b> ou uma <b>superfície cilíndrica</b> se ela pode ser representada uma equação de uma das seguintes formas: 
 
@@ -120,7 +116,7 @@ Alternativamente, como mencionado acima, podemos compreender como <b>cilindros</
 
 <i>Acima: um cilindro elíptico. Perceba que este pode ser formado por infinitas retas paralelas ao eixo $z$ que intersectam com uma elipse no plano $Oxy$. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Elliptic_Cylinder_Quadric.png" target="_blank">Wikimedia Commons</a>.</i>
  
-## Superfícies cônicas
+# Superfícies cônicas
 
 As <b>superfícies</b> ou <b>quádricas cônicas</b> são quádricas descritas por equações da forma 
 
@@ -136,8 +132,6 @@ formando cones centrados na origem. Ainda temos que, se $a = b$, os cones são c
 
 # Construindo superfícies de revolução
 
-
-
 Podemos construir superfícies de revolução ao rotacionar qualquer curva em torno de um dado eixo coordenado. Por exemplo, qual a superfície resultante da rotação da curva $z = y^2$ em torno do eixo $z$? 
 
 ![](/books/higher_education/math/analytical_geometry/images/paraboloide_y=0.png)
@@ -147,8 +141,6 @@ Perceba que rotacionar esta curva implica que cada ponto irá descrever uma circ
 ![](/books/higher_education/math/analytical_geometry/images/paraboloide.png)
 
 # Referências 
-
- 
 
 1. LIMA, G.; SILVA. Geometria analitica 2ª ed. Rio de Janeiro. 2015.
 2. WINTERLE, Paulo. Vetores e geometria analítica. 2ª ed. São Paulo: Pearson, 2014.

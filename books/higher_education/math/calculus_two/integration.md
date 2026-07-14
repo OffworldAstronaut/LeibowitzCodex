@@ -163,13 +163,13 @@ Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
 
 </aside>
 
-# Teorema do Valor Médio para Integrais
+# Teorema do valor médio para integrais
 
-Podemos adaptar o <b>teorema do valor médio (TVM)</b>, originalmente definido para a operação de derivação, para a integração.
+Podemos adaptar o <b>teorema do valor médio</b>, originalmente definido para a operação de derivação, para a integração.
 
 <aside>
 
-<b>Teorema (do Valor Médio para Integrais)</b> — Sejam $\phi, f: [a,b] \rightarrow \mathbb{R}$ contínuas com $\phi \ge 0, \forall x \in [a, b]$. Então existe $c \in [a,b]$ tal que $\int_{a}^{b} f(x) \phi(x) \ dx = f(c) \cdot \int_{a}^{b} \phi(x) \ dx$.
+<b>Teorema (do valor médio para integrais)</b> — Sejam $\phi, f: [a,b] \rightarrow \mathbb{R}$ contínuas com $\phi \ge 0, \forall x \in [a, b]$. Então existe $c \in [a,b]$ tal que $\int_{a}^{b} f(x) \phi(x) \ dx = f(c) \cdot \int_{a}^{b} \phi(x) \ dx$.
 
 </aside>
 

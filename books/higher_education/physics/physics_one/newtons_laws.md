@@ -2,8 +2,6 @@
 
 # Mecânica newtoniana
 
-
-
 Antes do estudo de movimentos sistematizado por Isaac Newton, inglês do século XVII, vigorava na academia um amplo consentimento aos desenvolvimentos de Aristóteles, escritos na Antiguidade Clássica. Segundo a física aristotélica, o Universo é permeado por dois tipos de movimento: o movimento <b>natural</b> e o movimento <b>violento</b>. 
 
 Os movimentos <b>naturais</b> eram executados pelos corpos de acordo com um agente interno, de acordo com sua composição. Por exemplo, uma pedra naturalmente iria se mover para o fundo de um lago em razão de ser composta majoritariamente do elemento Terra, enquanto as chamadas de uma fogueira levitariam para o mais alto dos céus, o empíreo, pelo elemento Fogo ser mais leve que o elemento Ar. 
@@ -28,7 +26,7 @@ Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estud
 
 <aside>
 
-**2ª Lei (Princípio Fundamental da Dinâmica)** — A variação do <b>momento</b> é proporcional à força impressa e tem a direção da força aplicada. A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
+**2ª Lei (Princípio fundamental da dinâmica)** — A variação do <b>momento</b> é proporcional à força impressa e tem a direção da força aplicada. A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
 
 $$
 \begin{align*}
@@ -285,8 +283,6 @@ Por fim, comparando com a Lei de Hooke, temos que a constante $K$ da mola equiva
 
 # Mudança de referencial
 
-
-
 Dado que sempre descrevemos os movimentos com base em algum **referencial**, em algum **sistema de coordenadas**, <a target="_blank" href="kinematics.html">como exposto anteriormente</a>, é interessante analisar a possibilidade da chamada **mudança de referencial**, isto é, analisar os corpos sob o olhar de outros observadores.
 
 Podemos considerar, como um caso ilustrativo, dois referenciais bidimensionais, $O$ e $O'$, e um corpo $P$. 
@@ -304,8 +300,6 @@ $$
 Ou seja, conhecendo informações entre os referenciais, é possível facilmente escrever um movimento em relação a outro referencial. A partir daqui, vale explorar com mais detalhes os conceitos de **referencias inerciais e não-inerciais**. 
 
 ## Referenciais inerciais e não-inerciais
-
-
 
 Chamamos <b>referencial inercial</b> o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, a Lei da Inércia é válida sem a introdução de forças fictícias que compensam esta aceleração do referencial.
 
@@ -340,8 +334,6 @@ $$
 O termo destacado, que provoca a diferença entre a força experienciada pelo mesmo corpo em diferentes referenciais, é a consequência da aceleração $\vec{A_R}$. No mundo real, podemos citar como consequências o efeito Coriolis experimentado pelas massas de ar da nossa atmosfera e o “recuo” no interior de um foguete em propulsão. Nesta última situação, Einstein associou esse “recuo” provocado pelo referencial não-inercial à gravidade, levando ao nascimento da Relatividade Geral. 
 
 # Referências 
-
-
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>);
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>);

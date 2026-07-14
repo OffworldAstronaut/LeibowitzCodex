@@ -20,6 +20,10 @@ $$
 
 que é a nossa expressão para área.
 
+![](https://upload.wikimedia.org/wikipedia/commons/4/4c/Polar_coordinates_integration_region.svg)
+
+<i>Uma área que pode ser integrada em coordenadas polares. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Polar_coordinates_integration_region.svg" target="_blank">Wikimedia Commons</a>.</i>
+
 # Comprimentos 
 
 O processo para obter o comprimento de uma área em coordenadas polares também é muito similar ao caso usual. Um processo bem interessante é nos valer de ambos os sistemas coordenados para tal. 
@@ -50,6 +54,10 @@ obtemos finalmente
 $$
 L(\rho) = \int_{\alpha}^{\beta} \sqrt{\rho^2 + \left(\dfrac{d\rho}{d\theta}\right)^2} \ d\theta
 $$
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/86/Logarithmic_spiral_arc_length.gif)
+
+<i>Exemplo do cálculo de uma espiral logarítmica em coordenadas polares. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Logarithmic_spiral_arc_length.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 # Referências 
 

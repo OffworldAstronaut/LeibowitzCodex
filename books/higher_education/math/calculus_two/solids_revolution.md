@@ -1,4 +1,4 @@
-# Sólidos de revolução: volumes, áreas e comprimentos
+# Sólidos de revolução
 
 # Sólidos de revolução
 

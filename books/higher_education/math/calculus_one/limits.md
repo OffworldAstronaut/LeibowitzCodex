@@ -2,9 +2,7 @@
 
 # Definição
 
-Todo o nosso entendimento do Cálculo se apoia no conceito de <b>limites</b>.
-
-Definimos o limite de uma função $f(x)$ como o número em que podemos tornar o valor da função o quão próximo quanto quisermos dele, sem necessariamente ela o assumir. 
+Todo o nosso entendimento do Cálculo se apoia no conceito de <b>limites</b>. Definimos o limite de uma função $f(x)$ como o número em que podemos tornar o valor da função o quão próximo quanto quisermos dele, sem necessariamente ela o assumir. 
 
 Podemos representar essa quantidade por meio da notação 
 

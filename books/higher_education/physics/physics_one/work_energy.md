@@ -2,8 +2,6 @@
 
 # Definição
 
-
-
 O que é **trabalho**? Este conceito está intimamente ligado a conceitos como <b>energia</b> ou <b>força</b>. De fato, sempre que nos referimos a um trabalho, consideramos ele como algo atrelado a uma força que o realiza (trabalho "de" uma força). 
 Para ilustrar esta grandeza, podemos recorrer a situação de um corpo num plano inclinado. 
 
@@ -17,13 +15,11 @@ que, ao considerarmos $\vec{F}$ constante ao longo do movimento, torna-se simple
 
 Se nos atermos simplesmente ao caso unidimensional, temos ainda que $W = F \cdot x$. O sinal da grandeza nos fornece a informação se a força está atuando em prol, contra ou indiferentemente ao deslocamento. 
 
-# Teorema Trabalho-Energia Cinética
-
- 
+# Teorema trabalho-energia cinética
 
 O <b>teorema trabalho-energia cinética</b> relaciona o trabalho realizado sobre um corpo, por uma força, com uma nova grandeza denominada <b>energia cinética</b>. Para compreendermos melhor, vamos imaginar que no sopé deste plano inclinado (retratado abaixo) temos um bloquinho que é lançado no trilho por uma mola. Desconsiderando o atrito e todas as outras forças que não sejam a força peso, o bloquinho avança com uma velocidade inicial $\vec{v_0}$ que diminui ao longo do tempo. 
 
-![Plano inclinado](images/work_energy/work_energy_planoinclinado.jpeg)
+![Plano inclinado](https://upload.wikimedia.org/wikipedia/commons/7/76/Piano_inclinato_inv_1041_IF_21341.jpg)
 
 <i>Acima podemos ver um plano inclinado utilizado em universidades do século XVIII (Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Piano_inclinato_inv_1041_IF_21341.jpg">Wikimedia Commons</a>).</i>
 
@@ -154,8 +150,6 @@ $$
 
 ## Gráficos de estabilidade
 
-
-
 É possível representar um sistema físico a partir de um gráfico de sua energia potencial em função de sua posição, com tal representação sendo extremamente útil na análise de algumas situações, permitindo a extração de diversas informações. 
 
 Um exemplo inicial simples é o de um objeto em queda livre (ou lançamento vertical). 
@@ -189,9 +183,9 @@ $$
 
 Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-'mola'** simples, sem atrito nem qualquer tipo de força dissipativa. 
 
-![Sistema massa mola](images/work_energy/work_energy_spring_mass_system.gif)
+![Sistema massa mola](https://upload.wikimedia.org/wikipedia/commons/d/d5/Animated-mass-spring-faster.gif)
 
-<i>Um sistema massa mola. Por Chetvorno, via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif" target="_blank">Wikimedia Commons</a>.</i>
+<i>Um sistema massa mola. GIF sob CC-BY-SA via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **poço de potencial**. Observando seu gráfico de energia potencial em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
 

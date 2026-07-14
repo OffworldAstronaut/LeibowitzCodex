@@ -1,4 +1,4 @@
-# Do Charlatanismo Quântico
+# Do charlatanismo quântico
 
 # Introdução
 

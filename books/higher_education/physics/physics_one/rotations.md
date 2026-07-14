@@ -1,4 +1,4 @@
-# Rotações e momento angular
+# Rotações
 
 # Cinemática do corpo rígido 
 
@@ -74,6 +74,10 @@ $$
 
 A componente perpendicular, ao vetor força, de $\vec{r}$ é chamada <b>braço de alavanca da $\vec{F}$</b>. Quanto maior for esse braço de alavanca, maior será a eficácia de $\vec{F}$ em produzir rotação, em razão da natureza do torque como um produto vetorial.
 
+![](https://upload.wikimedia.org/wikipedia/commons/0/09/Torque_animation.gif)
+
+<i>Animação ilustrando o torque $\tau$ e o momento angular $L$ no movimento de uma esfera. GIF sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Torque_animation.gif" target="_blank">Wikimedia Commons</a>.</i>
+
 Considerando o análogo da força, temos também um análogo para o momento linear para movimentos de revolução, chamado <b>momento angular</b>. Sua definição matemática pode ser motivada através da segunda lei de Newton e da definição do torque, vista acima. 
 
 Como $\vec{F} = \dfrac{d\vec{P}}{dt}$ e $\vec{\tau} = \vec{r} \times \vec{F}$, temos que 
@@ -106,6 +110,10 @@ Destes conceitos iniciais podemos verificar alguns resultados interessantes ao c
 Tomando como referencia o centro de forças $O$, podemos perceber que $\vec{\tau} = \vec{r} \times \vec{F} = 0$ sempre, pois a força sempre será paralela ao vetor distância $\vec{r}$. Portanto, podemos dizer: forças centrais não produzem rotação em relação ao centro de forças.
 
 Voltando nossos olhos agora ao momento angular, note que, como uma partícula sob ação de forças centrais possui toque nulo, seu momento angular é constante durante todo o tempo de duração da atuação dessa força. Uma implicação dessa conservação é a de que partículas sob a ação de forças centrais possuem trajetórias <b>planas</b>, com este plano que contém a trajetória chamado <b>plano de órbita</b>. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/20/Angular_momentum_conservation.svg)
+
+<i>Diagrama ilustrando a conservação do momento angular num sistema planetário. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Angular_momentum_conservation.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Como o vetor $\vec{l}$ se conserva ao longo de todo o movimento, e este é dado pelo produto vetorial $\vec{l} = \vec{r} \times \vec{p}$ — isto é, sempre perpendicular ao plano gerado por $\vec{r}$ e $\vec{p}$ — temos que se $\vec{l}$ não se conservasse, um dos vetores teria que apontar para uma direção fora do plano gerado por este par. Como isso não acontece, temos que a trajetória do corpo é plana.
 
@@ -182,6 +190,10 @@ T = \dfrac{1}{2}I\omega^2
 $$
 
 também análoga à expressão ordinária para a movimentos translacionais.
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/2e/Rolling_Racers_-_Moment_of_inertia.gif)
+
+<i>Nesta corrida, vence o corpo com menor momento de inércia. Animação sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Rolling_Racers_-_Moment_of_inertia.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 # Referências
 

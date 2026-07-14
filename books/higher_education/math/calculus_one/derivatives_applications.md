@@ -113,13 +113,13 @@ Como a sequência $x_n$ converge para $c$ e $f$ é contínua em $c$, resulta que
 
 </aside>
 
-## Teorema do Valor Médio
+## Teorema do valor médio
 
 O <b>teorema do valor médio</b> (<b>de Lagrange</b>) é tido como um dos mais importantes teoremas da análise real. 
 
 <aside>
 
-<b>Teorema (Guidorizzi, Teorema do Valor Médio)</b> — Seja $f$ uma função real definida no intervalo fechado $[a,b]$ e diferenciável no intervalo aberto $(a,b)$. Logo, existirá pelo menos um $c \in (a,b)$ tal que 
+<b>Teorema (Guidorizzi, Teorema do valor médio)</b> — Seja $f$ uma função real definida no intervalo fechado $[a,b]$ e diferenciável no intervalo aberto $(a,b)$. Logo, existirá pelo menos um $c \in (a,b)$ tal que 
 
 $$
 f'(c) = \dfrac{f(b)-f(a)}{b-a}
@@ -166,7 +166,7 @@ $$
 
 Esse teorema pode ser compreendido como uma generalização do teorema de Rolle, além de suas interpretações geométricas e físicas. 
 
-Geometricamente, o Teorema do Valor Médio nos fornece as retas tangentes paralelas à secante entre os dois pontos $f(a)$ e $f(b)$; fisicamente, ele afirma que existe pelo menos um ponto em que a taxa de variação instantânea de uma quantidade foi igual a sua variação média.
+Geometricamente, o teorema do valor médio nos fornece as retas tangentes paralelas à secante entre os dois pontos $f(a)$ e $f(b)$; fisicamente, ele afirma que existe pelo menos um ponto em que a taxa de variação instantânea de uma quantidade foi igual a sua variação média.
 
 Desse último caso, um exemplo de fácil visualização é o velocímetro de um carro. Se, numa viagem, um automóvel obter uma velocidade média de 60 km/h, o TVM estabelece que houve pelo menos um instante em que o velocímetro marcou <b>exatamente</b> 60 km/h.
 
