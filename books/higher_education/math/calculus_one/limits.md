@@ -17,8 +17,10 @@ e lemos assim: “O limite da função $f$ é igual a $L$, quando $x$ tende para
 Vale lembrar que estamos assumindo algumas coisas aqui, como o fato de $f$ ser uma função com domínio e contradomínio na reta dos números reais.
 
 <aside>
+
 Num primeiro momento, nossa única ferramenta no cálculo desses limites é a aproximação numérica e, por consequência, a interpretação de gráficos.
 Isso mudará quando virmos algumas propriedades de limites, e poderemos calculá-los sem (muito) esforço.
+
 </aside>
 
 ## Épsilon-Delta
@@ -584,8 +586,6 @@ Denominamos o limite $\lim_{x \rightarrow 0}\dfrac{\sin{x}}{x} = 1$ como o <b>li
 
 Para sua demonstração abaixo, nós iremos utilizar apenas o ciclo trigonométrico, formando uma desigualdade de funções com origem geométrica e, por fim, aplicar o teorema do confronto devido a sua continuidade.
 
-![](https://upload.wikimedia.org/wikipedia/commons/e/ec/TrigFunctionDiagram.svg)
-
 <aside>
 
 <b>Demonstração (Limite fundamental trigonométrico)</b> — No plano, construa o círculo trigonométrico, juntamente com a reta tangente $r: x = 1$. 
@@ -622,6 +622,14 @@ $$
 $$
 
 como queríamos demonstrar.
+
+</aside>
+
+<aside>
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/ec/TrigFunctionDiagram.svg)
+
+<i>Parte do ciclo trigonométrico no plano. A partir desta construção geométrica é possível demonstrar o limite fundamental trigonométrico.</i>
 
 </aside>
 
