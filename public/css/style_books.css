@@ -83,6 +83,16 @@ header h1 {
     text-align: center;
 }
 
+header h1::before { 
+    content:"✥";
+    color: var(--text)
+}
+
+header h1::after { 
+    content:"✥";
+    color: var(--text)
+}
+
 /* ---------- Navigation ---------- */
 .nav-back {
     margin: 16px 0 32px 0;
