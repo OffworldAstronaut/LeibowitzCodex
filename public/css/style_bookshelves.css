@@ -1,19 +1,16 @@
 :root {
     color-scheme: light dark;
 
-    /* ── Palette ── */
-    --bg:              light-dark(#f5f0e8, #0c0c0c);
-    --surface:         light-dark(#ede7d9, #1a1919);
-    --surface-alt:     light-dark(#e6dece, #151515);
-    --surface-hover:   light-dark(#e0d8c8, #2a2828);
-    --border:          light-dark(#d0c8b8, #2a2828);
-    --text:            light-dark(#1c1812, #faf9f6);
-    --text-muted:      light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
-    --link:        light-dark(#7a4f1e, wheat);
+    --bg:               light-dark(#f5f0e8, #0c0c0c);
+    --surface:          light-dark(#ede7d9, #1a1919);
+    --surface-alt:      light-dark(#e6dece, #151515);
+    --surface-hover:    light-dark(#e0d8c8, #2a2828);
+    --border:           light-dark(#d0c8b8, #2a2828);
+    --text:             light-dark(#1c1812, #faf9f6);
+    --text-muted:       light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
+    --link:             light-dark(#7a4f1e, wheat);
     
-    --gold:       #9B7A2F;
-    --gold-faint: rgba(155, 122, 47, 0.45);
-    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
+    --selection-hl:     light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
 }
 
 body {
@@ -62,7 +59,6 @@ body.dark::after {
     opacity: 0.9;
 }
 
-/* ---------- Header ---------- */
 .header {
     text-align: center;
     display: flex;
@@ -88,7 +84,6 @@ body.dark::after {
     margin-top: 10px;
 }
 
-/* ---------- Navigation ---------- */
 .nav-back {
     margin: 16px 0 32px 0;
 }
@@ -107,11 +102,6 @@ button {
 button:hover {
     color: var(--text);
     background-color: var(--surface-hover);
-}
-
-/* ---------- Sections ---------- */
-.shelves {
-    text-align: left;
 }
 
 .section-title {
@@ -136,7 +126,6 @@ button:hover {
     margin-bottom: auto;
 }
 
-/* ---------- Shelf ---------- */
 .shelf {
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +137,6 @@ button:hover {
     margin-bottom: 20px;
 }
 
-/* ---------- Books ---------- */
 .book {
     width: clamp(52px, 16vw, 70px);
     height: clamp(170px, 40vw, 210px);
@@ -207,15 +195,11 @@ button:hover {
     color: var(--text)
 }
 
-/* ---------- Custom Cursor ---------- */
-
-/* Default cursor */
 html,
 body {
     cursor: url('/cursors/featherpenpointer.cur'), auto;
 }
 
-/* Links and clickable elements */
 a,
 button,
 [role="button"],
@@ -224,7 +208,6 @@ input[type="button"] {
     cursor: url('/cursors/featherpenlinkselect.cur'), pointer;
 }
 
-/* Text editing and selection */
 input,
 textarea,
 [contenteditable="true"] {

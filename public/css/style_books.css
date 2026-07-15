@@ -1,7 +1,6 @@
 :root {
     color-scheme: light dark;
 
-    /* ── Palette ── */
     --bg:            light-dark(#f5f0e8, #0c0c0c);
     --surface:       light-dark(#ede7d9, #1a1919);
     --surface-alt:   light-dark(#e6dece, #151515);
@@ -11,7 +10,7 @@
     --text-muted:    light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
     --link:          light-dark(#7a4f1e, wheat);
     --shadow:        light-dark(rgba(180,160,120,0.2), rgba(0,0,0,0.25));
-    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
+    --selection-hl:  light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
 }
 
 body {
@@ -50,16 +49,14 @@ body.dark::before {
 }
 
 body.dark::after {
-    opacity: 0.20;
+    opacity: 0.35;
 }
 
-/* ensure main content sits above the pseudo-layer */
 .main {
     position: relative;
     z-index: 1;
 }
 
-/* ---------- Layout ---------- */
 .main {
     width: 100%;
     max-width: min(900px, 92vw);
@@ -67,7 +64,6 @@ body.dark::after {
     padding: 0 20px;
 }
 
-/* ---------- Header ---------- */
 header {
     border-radius: 15px;
     border: 2px solid var(--border);
@@ -93,7 +89,6 @@ header h1::after {
     color: var(--text)
 }
 
-/* ---------- Navigation ---------- */
 .nav-back {
     margin: 16px 0 32px 0;
 }
@@ -114,7 +109,6 @@ button:hover {
     background-color: var(--surface-hover);
 }
 
-/* ---------- Book Content ---------- */
 .book-content {
     padding-top: 12px;
     text-align: justify;    
@@ -135,19 +129,12 @@ button:hover {
     margin-bottom: 0.6em;
 }
 
-/* ---------- Images ---------- */
 .book-content img {
     width: min(100%, 520px);
     margin: 24px auto;
     display: block;
 }
 
-/* ---------- MathJax ---------- */
-mjx-container[display="true"] {
-    font-size: clamp(1.1rem, 3vw, 1.4rem) !important;
-}
-
-/* ---------- Callouts ---------- */
 aside,
 .callout-box-table,
 table {
@@ -161,6 +148,10 @@ table {
     overflow-x: scroll;
 }
 
+th, td { 
+    padding: 12px;
+}
+
 blockquote {
     padding: 20px;
     margin: 24px auto;
@@ -170,14 +161,15 @@ blockquote {
     max-width: 100%;
 }
 
-/* ---------- Small screens ---------- */
 @media (max-width: 480px) {
     .book-content {
         text-align: left;
     }
 }
 
-/* latex formatting */
+mjx-container[display="true"] {
+    font-size: clamp(1.1rem, 3vw, 1.4rem) !important;
+}
 
 .math-display {
   text-align: center;
@@ -190,13 +182,19 @@ blockquote {
   overflow-y: hidden;
 }
 
-/* links */
+.smiles {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
 a {
     color: var(--link);
     text-decoration: none;
 }
 
-/* table of contents */
 .toc {
   background: var(--bg-paper, #f5f0e8);
   border: 1px solid var(--border, #c8b99a);
@@ -244,23 +242,12 @@ body.dark .toc {
   border-color: var(--border);
 }
 
-.smiles {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 1em auto;
-}
-
-/* ---------- Custom Cursor ---------- */
-
-/* Default cursor */
 html,
 body {
     cursor: url('/cursors/featherpenpointer.cur'), auto;
 }
 
-/* Links and clickable elements */
+
 a,
 button,
 [role="button"],
@@ -269,14 +256,15 @@ input[type="button"] {
     cursor: url('/cursors/featherpenlinkselect.cur'), pointer;
 }
 
-/* Text editing and selection */
 input,
 textarea,
 [contenteditable="true"] {
     cursor: url('/cursors/featherpentextselect.cur'), text;
 }
 
-/* ---------- Letra Capitular ---------- */
+::selection { 
+    background: var(--selection-hl)
+}
 
 .book-content p:first-of-type::first-letter {
     font-family: "Libertinus Math", "Georgia", serif;
@@ -301,8 +289,6 @@ textarea,
     }
 }
 
-/* ---- Estilização dos títulos ---- */ 
-
 .book-content h1, h2, h3 {
     color: var(--link); 
 }
@@ -313,8 +299,4 @@ textarea,
     height: 3px;
     margin-top: 0.3em;
     background: linear-gradient(to right, var(--border), transparent);
-}
-
-::selection { 
-    background: var(--selection-hl)
 }
