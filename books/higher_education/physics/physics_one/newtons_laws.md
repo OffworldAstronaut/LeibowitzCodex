@@ -1,4 +1,4 @@
-# Forças e Leis de Newton
+# Forças e leis de Newton
 
 # Mecânica newtoniana
 

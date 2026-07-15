@@ -2,15 +2,17 @@
 
 <aside>
 
-<b>+</b> Senhor, tende piedade de nós. 
+✥ Ladainha revisada pelo escriba Jehonatan de Negrafloresta. <br>
 
-<b>+</b> <b>Senhor, tende piedade de nós.</b> 
+<b>✥</b> Senhor, tende piedade de nós. 
 
-<b>+</b> Cristo, tende piedade de nós.
+<b>✥</b> <b>Senhor, tende piedade de nós.</b> 
 
-<b>+</b> <b>Cristo, tende piedade de nós.</b>
+<b>✥</b> Cristo, tende piedade de nós.
 
-<b>+</b> Senhor, tende piedade de nós. 
+<b>✥</b> <b>Cristo, tende piedade de nós.</b>
+
+<b>✥</b> Senhor, tende piedade de nós. 
 
 Santa Maria, Mãe de Deus, <b>rogai por nós!</b>
 
@@ -132,11 +134,11 @@ Para que vos digneis conceder a todos os povos a paz e verdadeira concórdia, <b
 
 Para que vos digneis conservar-nos em vosso santo serviço, <b>ouvi-nos Senhor!</b>
 
-<b>+</b> Cristo ouvi-nos, <b>ouvi-nos Senhor!</b>
+<b>✥</b> Cristo ouvi-nos, <b>ouvi-nos Senhor!</b>
 
-<b>+</b> Cristo atendei-nos, <b>atendei-nos Senhor!</b>
+<b>✥</b> Cristo atendei-nos, <b>atendei-nos Senhor!</b>
 
-<b>+</b> Cristo ouvi-nos, <b>ouvi-nos Senhor!</b>
+<b>✥</b> Cristo ouvi-nos, <b>ouvi-nos Senhor!</b>
 
 </aside>
 

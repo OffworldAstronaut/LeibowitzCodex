@@ -1,4 +1,4 @@
-# Trabalho e Energia
+# Trabalho e energia
 
 # Definição
 

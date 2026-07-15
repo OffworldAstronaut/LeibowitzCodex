@@ -1,4 +1,4 @@
-# Quântica em Seis Passos <br> Volume I: Luz e Polarização
+# Quântica em Seis Passos: Luz e Polarização
 
 # Prefácio
 

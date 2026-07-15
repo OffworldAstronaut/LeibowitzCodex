@@ -2,6 +2,8 @@
 
 <aside>
 
+✥ Poema pelo escriba Bartolomeu de Finisterra, pecador. <br>
+
 Maldito seja o dia 
 
 Em que a serpente introduziu a Morte 
