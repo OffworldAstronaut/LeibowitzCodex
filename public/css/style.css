@@ -232,7 +232,7 @@ textarea,
 
 h2 {
     font-family: "Libertinus Math", "Georgia", sans-serif;
-    font-size: clamp(1rem, 1.3vw, 2rem);
+    font-size: clamp(1rem, 1.2vw, 2rem);
     margin: 0;
 }
 
