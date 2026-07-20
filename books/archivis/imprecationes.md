@@ -4,61 +4,30 @@
 
 ✥ Poema pelo escriba Bartolomeu de Finisterra, pecador. <br>
 
-Maldito seja o dia 
+Àquele dia de tempos imemoriais <br>
+Em que a serpente maculou o mundo <br>
+Estendo minha caneta e escrevo <br>
+Todas as minhas imprecações imortais <br>
 
-Em que a serpente introduziu a Morte 
+Maldito seja àquele dia no qual <br>
+A serpente introduziu a morte no mundo <br>
+Maldita seja aquela que cuspindo na face de Deus <br>
+Eternamente corrompeu sua criação magistral <br>
 
-No mundo. 
+Agora ao invés de O glorificar <br> 
+Esta criação blasfema, dia e noite <br>
+Contra Aquele que a criou e que <br>
+Ainda insiste em a curar... <br> 
 
-Maldito seja ela 
+Amaldiçoo a Escuridão e seus pérfidos argumentos <br> 
+Amaldiçoo a Noite e todos os seus filhos <br> 
+Amaldiçoo todos os seus grandes empecilhos <br> 
+Amaldiçoo os blasfemadores, de sangue sedentos <br> 
 
-Que cuspindo na face de Deus
-
-Corrompeu a sua maior criação 
-
-Para que esta ao invés de O glorificar 
-
-Blasfemasse, incessantemente 
-
-Contra Aquele que a criou.
-
-Maldita seja a Escuridão 
-
-Que com seus perfídos argumentos 
-
-Levou um terço do Céu para o Abismo
-
-E em seu orgulho 
-
-Preza por nossa destruição.
-
-Malditos sejam todos aqueles 
-
-Que a seguiram, e que continuam a seguindo
-
-Trazendo a Morte para o mundo. 
-
-Malditos sejam todos aqueles 
-
-Que levantam o sangue de inocentes para o Céu
-
-Que em oferta de blasfêmia 
-
-Servem aquele que nem seu nome 
-
-Merece ser pronunciado. 
-
-Lembre-se, meu querido 
-
-Sempre haverá menos tempo 
-
-Do que você pensa ter
-
-Logo, apresse-se 
-
-Arme-se 
-
-E faça a vontade de Deus. 
+Deixo, filho de Adão, meu terno adeus <br>
+E um pequeno lembrete nestes escritos <br>
+E um pequeno pedido nestes versos roídos <br>
+Corra, apresse-se, arme-se, e faça a vontade de Deus.
 
 </aside>
 

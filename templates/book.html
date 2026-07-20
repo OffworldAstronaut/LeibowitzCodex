@@ -46,6 +46,7 @@
     <script>
       window.MathJax = {
         tex: {
+          packages: {'[+]': ['mhchem', 'physics']},
           inlineMath: [
             ["$", "$"],
             ["\\(", "\\)"],
@@ -59,6 +60,9 @@
         options: {
           skipHtmlTags: ["script", "noscript", "textarea", "pre", "code"],
         },
+        loader: { 
+          load: ['[tex]/mhchem', '[tex]/physics'] 
+        }
       };
     </script>
 

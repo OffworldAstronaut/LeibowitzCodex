@@ -126,6 +126,14 @@ button:hover {
     margin-bottom: auto;
 }
 
+.section-title h4 { 
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: var(--text-muted);
+    opacity: var(--text-muted);
+    font-size: medium;
+}
+
 .shelf {
     display: flex;
     flex-wrap: wrap;
