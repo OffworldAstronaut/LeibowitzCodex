@@ -2,9 +2,7 @@
 
 # Histórico
 
-A tentativa de organizar os elementos confunde-se com a própria história da descoberta destes. 
-
-A descoberta mais antiga de um novo elemento que possui um registro que sobreviveu até os nossos dias é a descoberta do fósforo pelo comerciante alemão Hennig Brand. Falido, tentou sintetizar a pedra filosofal a partir de urina humana destilada, entretanto, acabou por produzir uma substância branca reluzente. Batizando sua criação de "fogo frio" (<i>Kaltes Feuer</i>), manteve esta em segredo por cerca de uma década, até a redescoberta do elemento pelo químico Robert Boyle em 1680.
+A tentativa de organizar os elementos confunde-se com a própria história da descoberta destes. A descoberta mais antiga de um novo elemento que possui um registro que sobreviveu até os nossos dias é a descoberta do fósforo pelo comerciante alemão Hennig Brand. Falido, tentou sintetizar a pedra filosofal a partir de urina humana destilada, entretanto, acabou por produzir uma substância branca reluzente. Batizando sua criação de "fogo frio" (<i>Kaltes Feuer</i>), manteve esta em segredo por cerca de uma década, até a redescoberta do elemento pelo químico Robert Boyle em 1680.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Joseph_Wright_of_Derby_The_Alchemist.jpg)
 

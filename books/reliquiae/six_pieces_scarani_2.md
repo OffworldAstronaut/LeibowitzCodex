@@ -1,4 +1,4 @@
-# Quântica em Seis Passos <br> Volume II: Criptografia Quântica
+# Quântica em Seis Passos: Criptografia Quântica
 
 # Criptografia quântica 
 

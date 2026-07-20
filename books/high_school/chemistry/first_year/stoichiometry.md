@@ -4,7 +4,7 @@
 
 Denominamos <b>estequiometria</b> (do grego <i>stoichion</i>, "elemento" e <i>metron</i>, "medida") como a seção da química que lida com os aspectos quantitativos das reações químicas. Em questões de quantidade, é interessante começar das unidades mais básicas, os átomos. 
 
-Para mensurar a massa de cada átomo, nos utilizamos de uma unidade arbitrária, a <b>unidade padrão de massa atômica</b> ($\text{u}$) ou <b>dalton</i> ($\text{Da}$), que vale $\dfrac{1}{12}$ da massa do carbono-12, o isótopo mais comum do carbono. Dessa forma, a massa de um átomo de carbono-12 é precisamente 12 daltons, com todos os outros átomos sendo mensurados segundo essa referência.
+Para mensurar a massa de cada átomo, nos utilizamos de uma unidade arbitrária, a <b>unidade padrão de massa atômica</b> ($\text{u}$) ou <b>dalton</b> ($\text{Da}$), que vale $\dfrac{1}{12}$ da massa do carbono-12, o isótopo mais comum do carbono. Dessa forma, a massa de um átomo de carbono-12 é precisamente 12 daltons, com todos os outros átomos sendo mensurados segundo essa referência.
 
 Uma grandeza relacionada mas distinta é o <b>peso atômico padrão</b> ou então somente <b>peso atômico</b>. Definimos o peso atômico de um elemento como a média aritmética das massas atômicas de todos os isótopos deste elemento poderada pela abundância de cada isótopo na Terra.
 
@@ -54,4 +54,4 @@ Assim, podemos reinterpretar as equações químicas como a anterior não mais c
 
 # Referências
 
-1. BRADY, J. E; HUMISTON,. G. E. Química Geral. Volumes 1., Rio de Janeiro : LTC, 1996;
+1. BRADY, J. E; HUMISTON,. G. E. Química Geral. Volume 1., Rio de Janeiro : LTC, 1996;

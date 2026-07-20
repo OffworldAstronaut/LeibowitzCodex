@@ -2,9 +2,7 @@
 
 <aside>
 
-✥ Poema pelo escriba Bartolomeu de Finisterra, pecador. <br>
-
-Àquele dia de tempos imemoriais <br>
+✥ Àquele dia de tempos imemoriais <br>
 Em que a serpente maculou o mundo <br>
 Estendo minha caneta e escrevo <br>
 Todas as minhas imprecações imortais <br>
