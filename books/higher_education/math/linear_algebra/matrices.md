@@ -596,13 +596,95 @@ $$
 
 Logo, temos que $A^{-1}=E_k \cdots E_1.$ Assim, $A$ é inversível.
 
-Reciprocamente, se $A$ é inversível, podemos aplicar eliminação de Gauss-Jordan para reduzir $A$ à identidade por operações elementares. Portanto, $A \sim I_n$. 
+Reciprocamente, se $A$ é inversível, podemos aplicar <b>eliminação de Gauss-Jordan</b> para reduzir $A$ à identidade por operações elementares. Portanto, $A \sim I_n$. 
 
 Além disso, aplicando as mesmas operações à matriz identidade obtemos precisamente $A^{-1}$. 
 
 </aside>
 
-## Sistemas de Cramer
+# Eliminação de Gauss-Jordan
+
+## Matrizes escalonadas 
+
+Uma matriz escalonada é uma matriz cujo primeiro elemento não-nulo de cada linha, lidas da esquerda para a direita, está mais a direita que o elemento correspondente da linha acima. Estes elementos são chamados <b>pivôs</b>. Consequentemente, teremos ou linhas nulas (inteiramente formadas por zeros) ou linhas com apenas zeros à esquerda do pivô. 
+
+$$
+A = 
+\begin{pmatrix}
+    3 & 2 & 1 \\ 
+    0 & 4 & 1 \\ 
+    0 & 0 & 2
+\end{pmatrix}
+$$
+
+Pela relação entre matrizes e sistemas lineares, um sistema é dito escalonado se sua matriz de coeficientes é escalonada. Uma consequência disso é a fácil resolução por substituições sucessivas. 
+
+Toda matriz escalonada é semelhante a uma matriz inversível (cf. demonstração do teorema anterior), com o processo da aplicação de operações elementares nessa matriz para torná-la escalonada sendo denominado <b>eliminação de Gauss-Jordan</b> ou simplesmente <b>eliminação gaussiana</b>. 
+
+A eliminação gaussiana pode ser utilizada também para a dedução da <b>inversa</b> de uma determinada matriz, para a determinação do posto de uma matriz e também do determinante de uma matriz quadrada. 
+
+Uma prática comum para o cálculo da inversa $A^{-1}$ de uma matriz $A$ é a escrita de $A$ ao lado da matriz identidade de mesma ordem. Após isso, executa-se a eliminação gaussiana em $A$ para transformá-la na identidade, enquanto as mesmas operações são realizadas na identidade ao lado. Ao final do processo, a matriz $A^{-1}$ estará ao lado da matriz $I_n$.
+
+<aside>
+
+<b>Exemplo</b> — Calcule a inversa da matriz $A$ abaixo pelo método da eliminação gaussiana.
+
+$$
+A = 
+\begin{pmatrix}
+    1 & 4 & 2 \\ 
+    0 & 1 & 2 \\ 
+    0 & 0 & 1 
+\end{pmatrix}
+$$
+
+Partindo da configuração inicial, podemos efetuar as operações elementares $L_2 - 2L_3 \to L_2$ (subtrair da segunda linha o dobro da terceira e substituir na segunda linha), $L_1 - 2L_3 \to L_1$ (subtrair da primeira linha o dobro da terceira e substituir na primeira linha) e $L_1 - 4L_2 \to L_1$ (subtrair da primeira linha o quádruplo da segunda e substituir na primeira linha), obtendo a sequência abaixo.
+
+$$
+\left(
+\begin{array}{ccc|ccc}
+    1 & 4 & 2 & 1 & 0 & 0 \\ 
+    0 & 1 & 2 & 0 & 1 & 0 \\ 
+    0 & 0 & 1 & 0 & 0 & 1 
+\end{array}
+\right) 
+$$
+
+$$
+\left(
+\begin{array}{ccc|ccc}
+    1 & 4 & 2 & 1 & 0 & 0 \\ 
+    0 & 1 & 0 & 0 & 1 & -2 \\ 
+    0 & 0 & 1 & 0 & 0 & 1 
+\end{array}
+\right) 
+$$
+
+$$
+\left(
+\begin{array}{ccc|ccc}
+    1 & 4 & 0 & 1 & 0 & -2 \\ 
+    0 & 1 & 0 & 0 & 1 & -2 \\ 
+    0 & 0 & 1 & 0 & 0 & 1 
+\end{array}
+\right) 
+$$
+
+$$
+\left(
+\begin{array}{ccc|ccc}
+    1 & 0 & 0 & 1 & -4 & 6 \\ 
+    0 & 1 & 0 & 0 & 1 & -2 \\ 
+    0 & 0 & 1 & 0 & 0 & 1 
+\end{array}
+\right) 
+$$
+
+Perceba que à esquerda temos a matriz identidade, enquanto à direita temos uma nova matriz, a matriz inversa de $A$.
+
+</aside>
+
+# Sistemas de Cramer
 
 Considere um sistema linear $S$ de $m$ equações e $n$ incógnitas, da forma
 
@@ -689,6 +771,237 @@ A unicidade segue da unicidade da matriz inversa.
 
 </aside>
 
+# Cadeias de Markov 
+
+Um <b>processo de Markov</b> é um modelo probabilístico para sistemas que podem assumir um estado dentro vários e que a transição de um estado para outro é probabilística, regida por uma <b>matriz de transição</b>. 
+
+Um componente chave de um processo markoviano é o chamado <b>vetor de probabilidades</b>, uma matriz coluna em que cada entrada armazena a probabilidade do sistema assumir um estado num dado tempo. Além disso, a sequência anterior de estados não influencia na sequência de estados futuros: sistemas que contém essa influência são não-markovianos, possuindo uma característica chamada <b>memória</b>.
+
+Convém delimitar de forma clara a diferença entre um processo de Markov (o modelo matemático) e as <b>cadeias de Markov</b>, as sequências de estados produzidas por processos markovianos.
+
+<aside>
+
+<b>Definição (Processo de Markov, Boldrini)</b> — Um processo aleatório de Markov é um processo que pode assumir estados $a_1, ..., a_r$ de tal modo que a probabilidade de transição de um estado $a_j$ para um estado $a_i$ seja $p_{ij}$, um número que só depende de $a_j$ e $a_i$.
+
+</aside>
+
+<aside>
+
+<b>Definição (Matriz estocástica, Boldrini)</b> — A matriz de probabilidades de transição, também conhecida por matriz estocástica, é dada por 
+
+$$
+T = 
+\begin{pmatrix}
+    p_{11} & p_{12} & \dots & p_{1r} \\ 
+    p_{21} & p_{22} & \dots & p_{2r} \\ 
+    \vdots & \vdots &  & \vdots \\ 
+    p_{r1} & p_{r2} & \dots & p_{rr}
+\end{pmatrix}
+$$
+
+com $p_{ij} \ge 0$. Além disso, toda coluna deve somar 1.
+
+</aside>
+
+<aside>
+
+<b>Definição (Vetor de probabilidades, Boldrini)</b> — O vetor de probabilidades é aquele cuja i-ésima linha dá a probabilidade de ocorrência do estado $a_i$ após $n$ transições:
+
+$$
+\begin{pmatrix}
+    p_1^{(n)} \\ 
+    \vdots \\ 
+    p_r^{(n)}
+\end{pmatrix}
+$$
+
+Consequentemente, temos que após $n$ passos, 
+
+$$
+T^n \cdot 
+\begin{pmatrix}
+    p_1^{(1)} \\ 
+    \vdots \\ 
+    p_r^{(1)}
+\end{pmatrix}
+= 
+\begin{pmatrix}
+    p_1^{(n)} \\ 
+    \vdots \\ 
+    p_r^{(n)}
+\end{pmatrix}
+$$
+
+</aside>
+
+É possível prever uma espécie de "último estado" do processo markoviano, isto é, um vetor de probabilidades que serve como ponto de chegada para todos os outros dados iterações suficientes, caso a matriz de transição $T$ atenda algumas conduções.
+
+<aside>
+
+<b>Definição (Matriz regular, Boldrini)</b> — Uma matriz de probabilidades de transição é <b>regular</b> se alguma de suas potências possuem todos os seus elementos não-nulos.
+
+</aside>
+
+<aside>
+
+<b>Teorema</b> — Se a matriz $T_{r \times r}$ das probabilidades de transição é regular, então: as potências $T^n$ aproximam-se de uma matriz $P$, isto é, cada elemento de $T^n$ aproxima-se do elemento correspondente em $P$; todas as colunas de $P$ são iguais, dadas por um vetor coluna 
+
+$$
+V = 
+\begin{pmatrix}
+    p_1 \\ 
+    \vdots \\ 
+    p_r
+\end{pmatrix}
+$$
+
+com $p_i \gt 0 \forall i$; para qualquer vetor de probabilidades inicial 
+
+$$
+V_1 = 
+\begin{pmatrix}
+    p_1^{(1)} \\ 
+    \vdots \\ 
+    p_r^{(1)}
+\end{pmatrix}
+$$
+
+o vetor de probabilidades $T^nV_1$ aproxima-se de $V$; o vetor $V$ é o único que satisfaz a equação $TV = V$, isto é, $V$ é um <a href="/books/higher_education/math/linear_algebra/eigenvalues.html" target="_blank">autovetor</a> de $T$.
+
+</aside>
+
+Após esta base matemática, é interessante a discussão de algum exemplo para exercitarmos estes conceitos.
+
+Imagine que numa determinada região do Brasil, observa-se que, caso o ano seja chuvoso, a probabilidade que o ano seguinte também seja chuvoso é de $\dfrac{1}{4}$ e a probabilidade que o ano seguinte seja seco é de $\dfrac{3}{4}$. Por outro lado, caso o ano em curso seja seco, a probabilidade que o ano seguinte também seja seco é de $\dfrac{1}{2}$, com a probabilidade de um ano chuvoso sendo $\dfrac{1}{2}$.
+
+Dessa forma, temos a seguinte matriz de transição:
+
+$$
+T = 
+\begin{pmatrix}
+    \frac{1}{4} & \frac{1}{2} \\ 
+    \frac{3}{4} & \frac{1}{2}
+\end{pmatrix}
+$$
+
+Além disso, o vetor de probabilidades correspondente é da forma
+
+$$
+\begin{pmatrix}
+    p_c^{(n)} \\ 
+    p_s^{(n)}
+\end{pmatrix}
+$$
+
+com o primeiro termo sendo a probabilidade de chuva no n-ésimo ano e o segundo termo sendo a probabilidade de seca no n-ésimo ano.
+
+Podemos ver que $T$ é regular e, portanto, as probabilidades a longo prazo são dadas por 
+
+$$
+\begin{pmatrix}
+    \frac{1}{4} & \frac{1}{2} \\ 
+    \frac{3}{4} & \frac{1}{2}
+\end{pmatrix}
+\begin{pmatrix}
+    p_c \\ p_s
+\end{pmatrix}
+= 
+\begin{pmatrix}
+    p_c \\ p_s
+\end{pmatrix}
+$$
+
+isto é, pelo sistema
+
+$$
+\begin{cases}
+    p_c = \frac{1}{4}p_c + \frac{1}{2}p_s \\ 
+    p_s = \frac{3}{4}p_c + \frac{1}{2}p_s 
+\end{cases}
+\iff 
+\begin{cases}
+    p_s = \frac{3}{2}p_c \\
+    p_s + p_c = 1
+\end{cases}
+$$
+
+que possui como soluções $p_c = \dfrac{2}{5}$ e $p_s = \dfrac{3}{5}$. Consequentemente, temos que a longo prazo, dois em cada cinco anos serão chuvosos, enquanto três em cada cinco anos serão secos.
+
+## Genética mendeliana
+
+Uma aplicação interessante dos processos de Markov é o estudo de problemas que envolvam a genética. Com efeito, podemos modelar a evolução genética de uma população através de uma adaptação probabilística do quadro de Punnett.
+
+Como exemplo, vamos representar por $G$ o gene dominante e por $g$ o gene recessivo. Pelos nossos conhecimentos de genética mendeliana, definimos invidíduos $GG$ como dominantes neste alelo, híbridos se foram $Gg$ e recessivos caso $gg$.
+
+Ao escrever o quadro de Punnett de cada um dos possíveis cruzamentos ($GG \times GG$, $gg \times gg$, ...) e calcular as probabilidades dos alelos genéticos resultantes (da prole), podemos construir a tabela abaixo (denotando indivíduos dominantes por $d$, recessivos por $r$ e híbridos por $h$).
+
+$$
+\begin{array}{c|c}
+    & d \times d & r \times r & d \times r & d \times h & r \times h & h \times h \\ 
+    \hline
+    d & 1 & 0 & 0 & 0.5 & 0 & 0.25 \\ 
+    h & 0 & 0 & 1 & 0.5 & 0.5 & 0.5 \\ 
+    r & 0 & 1 & 0 & 0 & 0.5 & 0.25
+\end{array}{}
+$$
+
+(Isto é, um cruzamento $d \times d$ produz sempre $d$, um cruzamento $d \times h$ produz metade $d$ e metade $h$ e assim por diante)
+
+Essa tabela pode ser reescrita como a matriz de transição de nosso processo de Markov.
+
+$$
+T = 
+\begin{pmatrix}
+    1 & 0 & 0 & 0.5 & 0 & 0.25 \\ 
+    0 & 0 & 1 & 0.5 & 0.5 & 0.5 \\ 
+    0 & 1 & 0 & 0 & 0.5 & 0.25
+\end{pmatrix}
+$$
+
+Nosso vetor de estado, então, será da forma
+
+$$
+\begin{pmatrix}
+    p_d^{(1)} \cdot p_d^{(1)} \\ 
+    p_r^{(1)} \cdot p_d^{(1)} \\ 
+    2p_d^{(1)} \cdot p_r^{(1)} \\ 
+    2p_d^{(1)} \cdot p_h^{(1)} \\ 
+    2p_r^{(1)} \cdot p_h^{(1)} \\ 
+    p_h^{(1)} \cdot p_h^{(1)}
+\end{pmatrix}
+$$
+
+com os produtos por dois sendo necessários para levar em conta a equivalência de dois casos, por exemplo, que o cruzamento entre um indivíduo dominante e um recessivo é equivalente ao cruzamento entre um recessivo e um dominante: há uma simetria.
+
+Levando tudo isso em conta, temos que o produto matricial de nosso processo markoviano é 
+
+$$
+\begin{pmatrix}
+    1 & 0 & 0 & 0.5 & 0 & 0.25 \\ 
+    0 & 0 & 1 & 0.5 & 0.5 & 0.5 \\ 
+    0 & 1 & 0 & 0 & 0.5 & 0.25
+\end{pmatrix}
+\cdot 
+\begin{pmatrix}
+    p_d^{(1)} \cdot p_d^{(1)} \\ 
+    p_r^{(1)} \cdot p_d^{(1)} \\ 
+    2p_d^{(1)} \cdot p_r^{(1)} \\ 
+    2p_d^{(1)} \cdot p_h^{(1)} \\ 
+    2p_r^{(1)} \cdot p_h^{(1)} \\ 
+    p_h^{(1)} \cdot p_h^{(1)}
+\end{pmatrix}
+= 
+\begin{pmatrix}
+    p_d^{(2)} \\ 
+    p_h^{(2)} \\ 
+    p_r^{(2)}
+\end{pmatrix}
+$$
+
+para levar a distribuição genética atual "1" à geração seguinte "2". Convém mencionar que estamos supondo um modelo não darwiniano, sem mutações, nem predação, nem muitas outras coisas. Estamos apenas imaginando uma distribuição genética no caso mais simples, conforme estudada por Mendel em suas ervilhas.
+
+
 # Referências
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.
+2. BOLDRINI, José Luiz; COSTA, Sueli I. Rodrigues; FIGUEIREDO, Vera Lúcia; WETZLER, Henry G. <i>Álgebra Linear</i>. 3ª edição ampliada e revista. São Paulo: Harper & Row do Brasil, 1980.

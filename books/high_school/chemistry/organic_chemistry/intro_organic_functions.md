@@ -2,8 +2,6 @@
 
 # O que é uma função?
 
-
-
 Antes de começarmos a descrever essa breve introdução sobre as <b>funções orgânicas</b>, vamos primeiro relembrar o que é uma <b>função</b>, na química. 
 
 Uma função é <b>um grupo de compostos</b> que possui <b>características</b> químicas <b>semelhantes</b>, como por exemplo, se comportar de maneiras parecidas numa reação. 
@@ -12,13 +10,9 @@ As funções podem ser <b>inorgânicas</b> (ácidos e bases) e <b>orgânicas</b>
 
 # Hidrocarbonetos
 
-
-
 Os <b>hidrocarbonetos</b> são conhecidos por esse nome pela sua característica determinante: em sua composição, esses compostos possuem apenas <b>carbono</b> e <b>oxigênio</b>. Podemos já citar aqui dois hidrocarbonetos bem conhecidos: o <b>metano</b> $(\text{CH}_4)$ e o <b>benzeno $(\text{C}_6\text{H}_6)$</b>. 
 
 # Funções oxigenadas
-
-
 
 As <b>funções oxigenadas</b> são denominadas assim pois possuem oxigênio em sua composição. 
 
@@ -70,7 +64,7 @@ Os <b>enóis</b>, por sua vez, são funções orgânicas que possuem <b>hidroxil
 
 <span class="smiles">C=C-O</span>
 
-<span class="smiles">C1(-OH)=CC=CC=C1</span>
+<span class="smiles">C1=CC=C(C=C1)O</span>
 
 </aside>
 
@@ -106,8 +100,6 @@ No primeiro diagrama está retratado um <b>dimetiléter</b>, também conhecido p
 Por fim, um <b>anidrido</b> é formado ao ligarmos o último carbono a um outro átomo de oxigênio por meio de uma <b>ligação dupla</b>. 
 
 # Funções nitrogenadas
-
-
 
 Enquanto as funções <b>oxigenadas</b> possuem oxigênio em sua composição, as funções <b>nitrogenadas</b> possuem nitrogênio, são elas as <b>aminas</b>, <b>amidas, nitrocompostos e nitrilas</b>. 
 
@@ -151,8 +143,6 @@ Perceba que o nitrogênio central está ligado a outros três átomos de carbono
 
 ## Amidas
 
-
-
 <aside>
 
 <span class="smiles">N-C=O</span>
@@ -165,11 +155,9 @@ Um exemplo de amida é o composto acima, uma <b>formamida</b> $(\text {CH}_3 \te
 
 ## Nitrocompostos
 
-
-
 <aside>
 
-<span class="smiles">C-[N+](=O)-[O-]</span>
+<span class="smiles">C[N+](=O)[O-]</span>
 
 </aside>
 
@@ -178,8 +166,6 @@ Também conhecidos pela denominação <b>nitroderivados</b>, os nitrocompostos s
 Acima, temos uma molécula de nitrometano $(\text {CH}_3 \text {NO}_2)$, o nitrocomposto mais simples de todos, utilizado de várias formas, variando de aditivos para combustíveis até como solvente para reações químicas.
 
 ## Nitrilas
-
-
 
 <aside>
 
@@ -192,8 +178,6 @@ As <b>nitrilas</b> são funções orgânicas caracterizadas por possuírem um gr
 A molécula acima, a acetonitrila $(\text C_2 \text H _3 \text N)$, é a nitrila mais simples, utilizada em fabricações industriais e na fabricação de baterias. 
 
 # Compostos halogenados
-
-
 
 Por fim, temos os <b>compostos halogenados</b>, ou seja, compostos orgânicos que contam com a presença de <b>halogênios</b>, geralmente flúor ou cloro.
 
@@ -223,46 +207,22 @@ Um exemplo dessa categoria é o cloreto de acetila $(\text C \text H_3 \text {CO
 
 # Série orgânica
 
-
-
 Como forma de ajudar na comparação entre moléculas orgânicas, podemos utilizar o conceito de <b>séries orgânicas</b>. Conjuntos de compostos orgânicos são denominados séries orgânicas, com esses conjuntos sendo divididos em algumas categorias a depender de seus componentes. Há três tipos de séries orgânicas: homólogas, isólogas e heterólogas. 
-
-<aside>
 
 As séries <b>homólogas</b> são conjuntos onde a diferença entre os compostos é um elo $-\text {CH}_2$. Um exemplo de série homóloga seria o conjunto $\{\text{C}\text{H}_4,\text{C}_2\text{H}_6, \text{C}_3\text{H}_8, ...\}$.
 
-</aside>
-
-<aside>
-
 As <b>séries isólogas</b> são conjuntos onde a diferença entre dois compostos consecutivos é um $\text H_2$, como por exemplo, a série $\{\text C_2 \text H_2, \text C_2 \text H_4, \text C_2 \text H_6...\}$
-
-</aside>
-
-<aside>
-
 Por fim, as <b>séries heterólogas</b> são conjuntos de compostos orgânicos de funções distintas, porém com a mesma quantidade de átomos de carbono, como por exemplo, o conjunto abaixo.
 
 $$
 \{\text {CH}_3 \text{CH}_2 \text{CH}_2\text {OH}, \text {CH}_3 \text{CH}_2 \text{CH}_2\text {O}, \text {CH}_3 \text{COCH}_3\}
 $$
 
-</aside>
-
 # Regras de nomenclatura
-
-
 
 Pela imensa quantidade de possíveis compostos orgânicos, observou-se a necessidade de criar uma padronização na questão da nomenclatura. Essa padronização veio em 1892 e continua até os dias de hoje pelas regras da União Internacional da Química Pura e Aplicada (<i>International Union of Pure and Applied Chemistry</i> — IUPAC). 
 
-As regras da IUPAC foram construídas a partir de dois princípios básicos: 
-
-<aside>
-
-1. Cada composto orgânico deve ter um nome próprio, diferente dos outros; 
-2. A partir do nome de um dado composto, deve ser possível esquematizar sua fórmula estrutural e vice-versa. 
-
-</aside>
+As regras da IUPAC foram construídas a partir de dois princípios básicos: Cada composto orgânico deve ter um nome próprio, diferente dos outros; A partir do nome de um dado composto, deve ser possível esquematizar sua fórmula estrutural e vice-versa. 
 
 Oficialmente, a nomenclatura IUPAC obedece à estrutura <b>Prefixo + Intermediário + Sufixo</b>, com o <b>prefixo</b> indicando o <b>número</b> de átomos de carbono na cadeia principal, o <b>intermediário</b> indicando o <b>tipo de ligação</b> entre os carbonos e o <b>sufixo</b> indicando a <b>função</b> do composto orgânico. 
 
@@ -369,11 +329,7 @@ Elas são indicadas antes da cadeia principal na ordem da nomenclatura, porém c
 
 Para ajudar na nomenclatura das ramificações, indicamos <b>radicais</b> que podem formar essas ramificações, na tabela abaixo.
 
-<aside>
-
 Radicais são compostos orgânicos que perderam um hidrogênio, se tornando instáveis. Normalmente, se ligam as cadeias carbônicas que possuem uma valência livre, formando ramificações. 
-
-</aside>
 
 <table>
    <thead>
@@ -461,19 +417,9 @@ Por exemplo, o composto <b>3-metilpentano</b> é chamado assim por possuir um <b
 
 # Regras específicas
 
-
-
 Em alguns casos, algumas regras específicas são utilizadas para algumas funções orgânicas. Elas serão descorridas abaixo. 
 
 ## Hidrocarbonetos aromáticos
-
-<aside>
-
-<span class="smiles">C1=CC=C(C=C1)[N+](=O)[O-] </span>
-
-</aside>
-
-Um exemplo da primeira regra ao lado, um nitrobenzeno. Perceba que o -NO2 é o mesmo composto dos nitrocompostos. 
 
 No caso dos hidrocarbonetos aromáticos, para nomearmos um composto formado por <b>um anel de benzeno com um de seus hidrogênios substituídos por algum elemento ou cadeia</b> (benzenos <i>monossubstituídos</i>), nos utilizamos da forma 
 
@@ -491,15 +437,7 @@ Segundamente, é interessante a definição dos grupos <b>fenil e benzil</b>. Os
 
 Um exemplo de benzeno dissubstituído, o 1,2-dimetilbenzeno.
 
-Já quando estamos interessados em benzenos <i>disssubstituídos</i>, ou seja, com dois de seus hidrogênios substituídos por algum outro composto, temos alguns prefixos que são adicionados, sendo eles: 
-
-<aside>
-
-1. <b>Orto-</b> — Os dois compostos estão um do lado do outro no anel;
-2. <b>Meta-</b> — Os compostos estão separados por um carbono;
-3. <b>Para-</b> — Os compostos estão diametralmente opostos no anel.
-
-</aside>
+Já quando estamos interessados em benzenos <i>disssubstituídos</i>, ou seja, com dois de seus hidrogênios substituídos por algum outro composto, temos alguns prefixos que são adicionados, sendo eles: <b>orto-</b> (os dois compostos estão um do lado do outro no anel); <b>meta-</b> (os compostos estão separados por um carbono); <b>para-</b> (os compostos estão diametralmente opostos no anel).
 
 Com três ou mais substituições, eles passam a ser nomeados como os compostos cíclicos.
 

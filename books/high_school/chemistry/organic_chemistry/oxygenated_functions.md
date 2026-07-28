@@ -2,8 +2,6 @@
 
 # Álcool
 
-
-
 Definimos <b>álcool</b> como sendo todo composto orgânico que possui uma hidroxila ligada diretamente a um carbono saturado em hibridação $\text{sp}^3$ (todas as ligações simples). 
 
 Podemos classificá-los em <b>primários</b>, <b>secundários</b> ou <b>terciários</b>, a depender do tipo de carbono que a hidroxila está ligada: se ela estiver ligada a carbonos primários, o álcool será primário, e assim por diante. 
@@ -20,8 +18,6 @@ Esse composto é importante industrialmente, sendo uma molécula precursora do n
 
 # Enóis
 
-
-
 Os <b>enóis</b> são compostos que apresentam uma ou mais hidroxilas ligadas a átomos de carbonos <b>insaturados</b>. Esses compostos são instáveis, facilmente se convertendo em <b>aldeídos</b> ou <b>cetonas</b>.
 
 Eles também podem ser entendidos como <b>alcenos</b> que possuem uma hidroxila ligada a um dos átomos de carbono insaturados. 
@@ -36,8 +32,6 @@ O fenol é um enol, formado por uma hidroxila substituindo um hidrogênio do ane
 
 # Fenóis
 
-
-
 Os <b>fenóis</b> são compostos que apresentam uma ou mais hidroxilas ligadas diretamente um carbono do <b>anel benzênico</b>. Uma característica importante dos fenóis é que eles possuem um caráter ácido, ionizando-se em meio aquoso, por exemplo… 
 
 ![](images/oxygenated_functions/phenol_ion.png)
@@ -47,8 +41,6 @@ Os <b>fenóis</b> são compostos que apresentam uma ou mais hidroxilas ligadas d
 Na reação acima, podemos ver a ionização do fenol, nome comum do <b>hidroxibenzeno</b>, além do fato de que sua reação é reversível. 
 
 # Cetonas
-
-
 
 Os cetonas são compostos que apresentam a função <b>carbonila</b> (um carbono ligado duplamente a um oxigênio) entre carbonos. 
 
@@ -62,8 +54,6 @@ O acetona é o cetona mais simples, utilizado tanto como solvente industrial com
 
 # Aldeídos
 
-
-
 Os <b>aldeídos</b> são compostos que têm uma <b>carbonila</b> na ponta da cadeia com uma das outras ligações sendo a um hidrogênio. 
 
 <aside>
@@ -73,8 +63,6 @@ Os <b>aldeídos</b> são compostos que têm uma <b>carbonila</b> na ponta da cad
 Como exemplo de aldeído podemos citar o <b>butiraldeído</b>, também conhecido pela denominação <b>butanal</b>. Esse composto é um líquido inflamável e de odor desagradável, sendo utilizado na produção de resinas e como solvente industrial.
 
 # Ácido carboxilíco
-
-
 
 Os ácidos carboxilícos são chamados assim por possuírem uma <b>carboxila</b> (um carbono ligado duplamente a um hidrogênio e simplesmente a uma hidroxila) ligada a uma cadeia carbônica. 
 
@@ -89,19 +77,15 @@ Ele é bem corrosivo e também inflamável — a presença de oxigênio contribu
 
 ## Ácidos graxos
 
-
-
 Os <b>ácidos graxos</b> são muito importantes na Biologia, sendo um subconjunto dos ácidos carboxilícos, mais especificamente, esses ácidos são ácidos carboxilícos de <b>cadeia alifática</b>, podendo ser saturada ou não. Característicamente, suas cadeias são geralmente muito longas.
 
 <aside>
     <span class="smiles">CCCCCCCCCCCCCCCC(=O)O</span>
 </aside>
 
-Acima há um exemplo de ácido graxo, o <b>ácido </b>.
+Acima há um exemplo de ácido graxo, o <b>ácido hexadecanoico (ou palmítico)</b>.
 
 ## Anidrido
-
-
 
 <b>Anidridos de ácidos carboxilícos</b> são compostos orgânicos oxigenados originados de uma relação de <b>eliminação</b> ou <b>desidratação</b> entre dois ácidos carboxilícos. 
 
@@ -121,8 +105,6 @@ A nomenclatura é bem sugestiva: “anidrido” tem suas raízes no grego, signi
 
 # Éster
 
-
-
 Os <b>ésteres</b> são compostos orgânicos derivados dos ácidos carboxilícos, formados pela substituição do hidrogênio da hidroxila por algum grupo orgânico. 
 
 Ou seja, os ésteres são ácidos carboxilícos com o $\text H$ da hidroxila trocado por algum grupo orgânico.
@@ -138,8 +120,6 @@ Ao lado temos o <b>propanoato de etila</b>, um éster inflamável e que está na
 Esse composto possui cheiro que lembra abacaxi, sendo utilizado na produção de remédios anti-malária.
 
 # Éter
-
-
 
 Os <b>éteres</b> são compostos orgânicos formados por um átomo de oxigênio ligado a dos outros radicais orgânicos.
 

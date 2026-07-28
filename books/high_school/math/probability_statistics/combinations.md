@@ -20,21 +20,17 @@ Primeiro, podemos supor que a ordem seja importante, o que nos dará a resposta 
 
 Para visualizar melhor, vamos imaginar que temos três pessoas (Alice, Bárbara e Carlos), e vamos montar duplas com eles. Temos as seguintes ordens, supondo que a ordem seja importante: 
 
-<aside>
-
 $$
 \begin{array}{cc}
-    \\{A, B\} & \\{B, A\} \\\\
-    \\{B, C\} & \\{C, B\} \\\\
-    \\{A, C\} & \\{C, A\} \\\\
+    \{A, B\} & \{B, A\} \\
+    \{B, C\} & \{C, B\} \\
+    \{A, C\} & \{C, A\} \\
 \end{array}
 $$
 
-</aside>
-
 Porém, podemos perceber que cada dupla foi contada $2!$ vezes! 
 
-Ou seja, na verdade, só temos realmente 3 possibilidades de duplas partindo de um trio: $\\{A, B\\}, \\{B, C\\}$ e $\\{A, C\\}$. Seus “espelhos” são as mesmas duplas, porém com as ordens trocadas, mas como a ordenação não importa, apenas os elementos, podemos concluir que são, de fato, as mesmas duplas. 
+Ou seja, na verdade, só temos realmente 3 possibilidades de duplas partindo de um trio: $\{A, B\}, \{B, C\}$ e $\{A, C\}$. Seus “espelhos” são as mesmas duplas, porém com as ordens trocadas, mas como a ordenação não importa, apenas os elementos, podemos concluir que são, de fato, as mesmas duplas. 
 
 # Relação de Stifel
 

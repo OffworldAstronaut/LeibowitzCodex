@@ -2,8 +2,6 @@
 
 # Uma breve origem da Química Orgânica
 
-
-
 No século XVIII, em 1777, <a href="https://en.wikipedia.org/wiki/Torbern_Bergman" target="_blank">Bergman</a>, químico sueco, dividiu a crescente ciência da Química em duas áreas, a química inorgânica, química dos “minerais”, e a química orgânica, a “química dos seres vivos”. 
 
 Nesse mesmo período, havia a <a href="https://en.wikipedia.org/wiki/Vitalism" target="_blank">teoria da força vital</a>, notavelmente defendida pelo químico sueco <a href="https://en.wikipedia.org/wiki/J%C3%B6ns_Jacob_Berzelius" target="_blank">Berzelius</a> em 1807, que dizia que somente os seres vivos podiam produzir, sintetizar, produtos orgânicos, produtos esses que <a href="https://en.wikipedia.org/wiki/Antoine_Lavoisier" target="_blank">Lavoisier</a> verificou a presença de carbono em todos eles. 
@@ -13,8 +11,6 @@ Porém, em 1828, essa teoria, muito influente, foi derrubada pelo químico alem�
 Trinta anos depois, <a href="https://en.wikipedia.org/wiki/August_Kekul%C3%A9" target="_blank">Friedrich August Kekulé</a>, químico alemão, em meio a toda enfervescência científica do período, propôs à Academia uma nova maneira de definir a química orgânica, maneira essa que acabou sendo utilizada até hoje — a Química orgânica é a seção da química preocupada de forma especial com o Carbono e suas interações.
 
 # Postulados de Kekulé
-
-
 
 Além disso, Kekulé propôs alguns postulados, bases, para todo o estudo da química orgânica, referentes ao seu elemento central, o Carbono.
 
@@ -37,8 +33,6 @@ Além disso, Kekulé propôs alguns postulados, bases, para todo o estudo da qu�
 </aside>
 
 # Hibridação
-
-
 
 O motivo do carbono conseguir sempre formar quatro ligações é o fenômeno da <b>hibridação</b>. 
 
@@ -132,7 +126,7 @@ Entretanto, como o carbono é <b>tetravalente sempre</b>, podemos restringir a t
 
 <aside>
 
-<span class="smiles">[H][C]([H])([H])[H]</span>
+<span class="smiles">C</span>
 
 </aside>
 

@@ -2,39 +2,33 @@
 
 # Indução
 
-
-
-A indução eletromagnética é o fenômeno físico que provoca a **geração** de **força eletromotriz** (diferença de potencial) num dado **material condutor** quando este é submetido à **influência de um campo magnético variável**. 
+A indução eletromagnética é o fenômeno físico que provoca a <b>geração</b> de <b>força eletromotriz</b> (diferença de potencial) num dado <b>material condutor</b> quando este é submetido à <b>influência de um campo magnético variável</b>. 
 
 Um exemplo da aplicação do conceito de indução é o forno elétrico, que combina a indução eletromagnética com o efeito Joule para produzir calor sem utilizar combustíveis fósseis. 
 
-![Imagem retirada da Wikipédia](https://upload.wikimedia.org/wikipedia/commons/b/b8/Induktionsh%C3%A4ll.JPG)
+![](https://upload.wikimedia.org/wikipedia/commons/b/b8/Induktionsh%C3%A4ll.JPG)
 
 <i>Você sabia que só é possível utilizar panelas especiais nos fogões de indução? O motivo vem do efeito Joule provocado pela movimentação de cargas: o alumínio possui baixa resistividade, diminuindo o calor emitido e reduzindo a eficácia da panela. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Induktionsh%C3%A4ll.JPG" target="_blank">Wikimedia Commons</a>.</i>
 
 Legal, né? 
 
-As próximas seções deste página servirão para a melhor compreensão desse conceito, passando por fluxo magnético e pelas leis de **Faraday** e **Lenz**.
+As próximas seções deste página servirão para a melhor compreensão desse conceito, passando por fluxo magnético e pelas leis de <b>Faraday</b> e <b>Lenz</b>.
 
 # Fluxo magnético
 
-
-
-Chamamos de **fluxo magnético** $(\Phi)$ de uma superfície a intensidade de um campo magnético por unidade de área $A$, ou seja 
+Chamamos de <b>fluxo magnético</b> ($\Phi$) de uma superfície a intensidade de um campo magnético por unidade de área $A$, ou seja 
 
 $$
 \Phi = B \cdot A \cos \theta
 $$
 
-Com $\theta$ sendo o **ângulo** entre o **campo magnético $(B)$ e a reta normal daquele ponto específico da superfície do corpo induzido.**
+Com $\theta$ sendo o <b>ângulo</b> entre o campo magnético $(B)$ e a reta normal daquele ponto específico da superfície do corpo induzido.
 
-O fluxo magnético é medido pela unidade **Weber** $(\text {Wb})$. 
+O fluxo magnético é medido pela unidade <b>Weber</b> $(\text {Wb})$. 
 
 # Lei de Faraday-Lenz
 
-
-
-Duas leis, comumente interpretadas em conjunto, que formam a base dos **transformadores** da atualidade são a Lei de Indução de Faraday e a Lei de Lenz; a segunda pode ser vista como um aprimoramento da primeira.
+Duas leis, comumente interpretadas em conjunto, que formam a base dos <b>transformadores</b> da atualidade são a lei de indução de Faraday e a lei de Lenz; a segunda pode ser vista como um aprimoramento da primeira.
 
 Faraday primeiro declara que: 
 
@@ -54,18 +48,17 @@ E Lenz completa que:
 
 Levando essas duas afirmações em conjunto, chegamos na expressão matemática $\varepsilon = -\dfrac{\Delta \phi}{\Delta t}$. O sinal negativo vem justamente dessa oposição do campo induzido em relação ao campo indutor. 
 
-![Originalmente na Wikimedia Commons](https://upload.wikimedia.org/wikipedia/commons/7/72/Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/7/72/Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif)
 
 <i>Animação ilustrando a Lei de Faraday-Lenz. Um campo magnético oscilatório produzido pelo solenoide causa a geração de uma corrente alternada na espira. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Electromagnetic_induction_-_solenoid_to_loop_-_animation.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Condutor elétrico imerso num campo magnético
 
-
 Um caso interessante é quando imergimos um condutor elétrico num campo magnético, e fazemos ele se mover numa dada velocidade $v$ perpendicular a esse campo. 
 
-Ao fazermos isso, poderemos ver que o **campo magnético induz uma diferença de potencial** no condutor, fazendo com que cargas negativas se acumulem em um dos seus terminais. 
+Ao fazermos isso, poderemos ver que o <b>campo magnético induz uma diferença de potencial</b> no condutor, fazendo com que cargas negativas se acumulem em um dos seus terminais. 
 
-Essa **diferença de potencial** pode ser medida por meio da equação
+Essa <b>diferença de potencial</b> pode ser medida por meio da equação
 
 $$
 U = BvL
@@ -73,13 +66,11 @@ $$
 
 # Transformadores
 
-
-
-Os **transformadores** são componentes elétricos que alteram a tensão elétrica enquanto mantém a potência constante. 
+Os <b>transformadores</b> são componentes elétricos que alteram a tensão elétrica enquanto mantém a potência constante. 
 
 Esses componentes são formados pela indução de um dado núcleo ferromagnético por dois solenoides, o primeiro ligado numa fonte de corrente alternada, que causa da mudança constante de campo magnético nas proximidades do núcleo ferromagnético. 
 
-![Transformador](https://upload.wikimedia.org/wikipedia/commons/6/64/Transformer3d_col3.svg)
+![](https://upload.wikimedia.org/wikipedia/commons/6/64/Transformer3d_col3.svg)
 
 <i>Esquema de um transformador ideal. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Transformer3d_col3.svg" target="_blank">Wikimedia Commons</a>.</i>
 

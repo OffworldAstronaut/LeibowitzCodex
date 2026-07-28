@@ -2,8 +2,6 @@
 
 # Aminas
 
-
-
 As <b>aminas</b> são compostos orgânicos nitrogenados derivados da amônia $(\text {NH}_3)$ pela subsittuição de um ou mais nitrogênios por radicais orgânicos. 
 
 Esses compostos possuem caráter básico segundo a classificação de Lewis. 
@@ -20,8 +18,6 @@ Exemplo de amina, a <b>etilenodiamina</b> ou, na nomenclatura IUPAC, 1,2-diamino
 
 # Amidas
 
-
-
 As <b>amidas</b> são derivadas dos ácidos carboxilícos, apresentando uma <b>carbonila</b> ligada a um nitrogênio. 
 
 Podem ser classificadas em prinmárias, secundárias e terciárias, com uma amida cíclica chamada de lactoma. 
@@ -36,8 +32,6 @@ Exemplo de amida, a <b>etanamida</b>. Esse composto é amplamente utilizado como
 
 # Nitrocomposto
 
-
-
 São compostos orgânicos que possuem o grupo <b>nitro $(\text {NO}_2)$</b> ligado a alguma cadeia carbônica. 
 
 <aside>
@@ -50,8 +44,6 @@ Acima nós temos um dos nitrocompostos mais famosos, o trinitrotolueno, ou em se
 
 # Nitrila
 
-
-
 São substâncias que possuem o grupo funcional $\text {—CN}$. Originam-se da substituição do hidrogênio do ácido cianídrico por um radical orgânico. 
 
 <aside>
@@ -63,8 +55,6 @@ São substâncias que possuem o grupo funcional $\text {—CN}$. Originam-se da 
 Como exemplo de nitrila temos a <b>etanonitrila</b> ou <b>cianeto de metila</b>, a nitrila mais simples. Esse composto é utilizado como solvente em reações químicas e na purificação do butadieno. Possui capacidade explosiva.
 
 # Sal quaternário de amônio
-
-
 
 Origina-se da substituição dos hidrogênios presentes no amônio $(\text{NH}_4^+)$ por radicais orgânicos. 
 

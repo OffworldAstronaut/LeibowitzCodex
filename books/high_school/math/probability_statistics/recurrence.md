@@ -2,25 +2,21 @@
 
 # Sequências
 
+Para entendermos o que são recorrências, primeiro temos que saber o que são <b>sequências</b>. 
 
-
-Para entendermos o que são recorrências, primeiro temos que saber o que são **sequências**. 
-
-Uma **sequência** é definida como uma função $f:\mathbb{N} \to \mathbb{R}$. Assim, se chamarmos cada termo $f(n)$por $a_n$, podemos dizer que uma sequência é uma lista organizada no formato $(a_1, a_2, ..., a_n, ...)$. É importante deixar claro que as sequências podem ser finitas ou infinitas. 
+Uma <b>sequência</b> é definida como uma função $f:\mathbb{N} \to \mathbb{R}$. Assim, se chamarmos cada termo $f(n)$por $a_n$, podemos dizer que uma sequência é uma lista organizada no formato $(a_1, a_2, ..., a_n, ...)$. É importante deixar claro que as sequências podem ser finitas ou infinitas. 
 
 Várias sequências são bem conhecidas, temos, por exemplo, os números naturais, os números pares e também os números ímpares.
 
 $$
 \begin{array}{c}
-    N=(1, 2, 3, 4, ...) \\\\
-    P=(0, 2, 4, 6, 8, ...) \\\\
-    I=(1, 3, 5, 7, 9, ...) \\\\
+    N=(1, 2, 3, 4, ...) \\
+    P=(0, 2, 4, 6, 8, ...) \\
+    I=(1, 3, 5, 7, 9, ...) \\
 \end{array}
 $$
 
 # Recorrências
-
-
 
 Uma <b>recorrência</b> é definida como uma expressão matemática que relaciona o próximo termo de uma sequência com os termos anteriores. 
 
@@ -42,11 +38,11 @@ Primeiro, é necessário escrever todos os termos da sequência, partindo de $a_
 
 $$
 \begin{align*}
-    a_2 &= a_1+r \\\\
-    a_3 &= a_2+r \\\\
-    a_4 &= a_3+r \\\\
-    &(...) \\\\
-    a_{n-1} &= a_{n-2}+r \\\\
+    a_2 &= a_1+r \\
+    a_3 &= a_2+r \\
+    a_4 &= a_3+r \\
+    &(...) \\
+    a_{n-1} &= a_{n-2}+r \\
     a_n &= a_{n-1}+r
 \end{align*}
 $$

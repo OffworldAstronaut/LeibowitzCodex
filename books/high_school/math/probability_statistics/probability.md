@@ -2,19 +2,11 @@
 
 # Introdução
 
-
-
 A noção de probabilidade é bem intuitiva. Todo mundo tem uma ideia do que é ter “20% de chance” ou entender o que é a frase “1 em cada 3”, por exemplo. Assim, podemos dizer que o estudo da probabilidade vai se tratar de experimentos aleatórios. 
-
-<aside>
 
 Um <b>experimento aleatório</b> é uma ação cujo resultado não se pode prever, por exemplo, jogar uma moeda e cair cara ou jogar um dado e cair o número 6.
 
-</aside>
-
 # Conceitos básicos
-
-
 
 Vamos agora começar a entrar mais a fundo! 
 
@@ -62,11 +54,9 @@ $$
 
 # Propriedades
 
-
-
 <aside>
 
-1. A <b>probabilidade</b> do <b>espaço amostral</b> é sempre 1. Isso é até intuitivo de pensar. Se eu jogo um dado, qual a probabilidade de sair <b>qualquer coisa</b>? 100%! <b>Sempre</b> vai sair alguma coisa. Numericamente, podemos escrever que $P(\Omega)=1$, já que $\dfrac{|\Omega|}{|\Omega|}=1$. 
+<b>1ª propriedade (Probabilidade do espaço amostral)</b> — A probabilidade do espaço amostral é sempre 1. Isso é até intuitivo de pensar. Se eu jogo um dado, qual a probabilidade de sair <b>qualquer coisa</b>? 100%! <b>Sempre</b> vai sair alguma coisa. Numericamente, podemos escrever que $P(\Omega)=1$, já que $\dfrac{|\Omega|}{|\Omega|}=1$. 
 
 </aside>
     
@@ -74,13 +64,13 @@ Dessa propriedade temos um outro fato que é, também, bem importante: a soma da
 
 <aside>
 
-2. A <b>probabilidade</b> de <b>qualquer evento</b> é sempre maior ou igual a 0 e menor ou igual a 1. Já que o subconjunto pode ter nenhum elemento ($\phi$, vazio) ou ter todos os elementos ($\Omega$). Numericamente, podemos escrever $0 \le P(A) \le 1$, com $A$ sendo um evento qualquer. 
+<b>2ª propriedade (Limitação)</b> — A <b>probabilidade</b> de <b>qualquer evento</b> é sempre maior ou igual a 0 e menor ou igual a 1. Já que o subconjunto pode ter nenhum elemento ($\phi$, vazio) ou ter todos os elementos ($\Omega$). Numericamente, podemos escrever $0 \le P(A) \le 1$, com $A$ sendo um evento qualquer. 
     
 </aside>
 
 <aside>
 
-3. A soma da probabilidade de dois <b>eventos independentes</b> ($A\cap B=\phi$) acontecerem é a soma da probabilidade dos dois eventos. 
+<b>3ª propriedade (Independência)</b> — A soma da probabilidade de dois <b>eventos independentes</b> ($A\cap B=\phi$) acontecerem é a soma da probabilidade dos dois eventos. 
 
 $$
 P(A\cup B)=\dfrac{|A|}{|\Omega|}+\dfrac{|B|}{|\Omega|}
@@ -90,17 +80,17 @@ $$
 
 # Probabilidade como uma função
 
-
-
 Podemos definir a probabilidade como uma função $P$ que satisfaz as propriedades vistas acima, o que nos dá mais alguns fatos: 
 
-1. $P(\Omega - A)=1-P(A)$
-2. $A\sub B \rightarrow P(A) \le P(B)$
-3. $P(A \cup B) \rightarrow P(A) +P(B)-P(A\cap B)$
+$$
+\begin{align*}
+    P(\Omega - A)&=1-P(A) \\
+    A\subset B &\implies P(A) \le P(B) \\
+    P(A \cup B) &\implies P(A) +P(B)-P(A\cap B)
+\end{align*}
+$$
 
 # Probabilidade condicional
-
-
 
 Definimos a <b>probabilidade condicional</b> de um evento $A$, dado que aconteceu um evento $B$, por 
 
@@ -111,8 +101,6 @@ $$
 Com $P(B) > 0$, obrigatoriamente. 
 
 # Variáveis aleatórias
-
-
 
 Formalmente, uma variável aleatória $X$ é definida como sendo uma função $X:\Omega \rightarrow \mathbb{R}$, mas podemos pensar nela como sendo uma maneira de “contar” algo que quisermos num espaço aleatório, ou seja, não temos o valor da variável de antemão: o valor depende do resultado do experimento. 
 
@@ -144,8 +132,6 @@ Temos $\dfrac{3}{8}$ de chance de que nosso lançamento tenha exatamente duas ca
 
 # Esperança
 
-
-
 A <b>esperança</b> de uma variável aleatória $X$ pode ser entendida como seu <b>valor médio esperado</b>, ou seja, depois de muitos lançamentos, essa variável irá tender para esse valor. 
 
 Esse valor médio é calculado pela seguinte expressão: 
@@ -175,8 +161,6 @@ Ou seja, a cada três lançamentos, é esperado que saiam, em média, 1.5 caras 
 </aside>
 
 # Distribuições de probabilidade em variáveis aleatórias
-
-
 
 Os eventos do conjunto universo, e por consequência o $X$ que podemos escolher, podem assumir diferentes “maneiras” de terem seus valores de probabilidade distribuídos, por exemplo, no caso de uma moeda honesta, só temos duas possibilidades com 50% de chance para cada, mas numa distribuição de notas numa classe média é esperado que tenhamos algo mais ou menos assim: 
 

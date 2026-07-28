@@ -20,17 +20,17 @@ Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estud
 
 <aside>
 
-**1ª Lei (Inércia)** — Todo corpo persiste em seu estado de repouso, ou de movimento retilíneo uniforme, a menos que seja compelido a modificar este estado pela ação de forças impressas sobre ele.
+<b>1ª lei (Inércia)</b> — Todo corpo persiste em seu estado de repouso, ou de movimento retilíneo uniforme, a menos que seja compelido a modificar este estado pela ação de forças impressas sobre ele.
 
 </aside>
 
 <aside>
 
-**2ª Lei (Princípio fundamental da dinâmica)** — A variação do <b>momento</b> é proporcional à força impressa e tem a direção da força aplicada. A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
+<b>2ª lei (Princípio fundamental da dinâmica)</b> — A variação do <b>momento</b> é proporcional à força impressa e tem a direção da força aplicada. A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
 
 $$
 \begin{align*}
-\vec{F} &= \dfrac{d}{dt} \vec{p} \\\\ 
+\vec{F} &= \dfrac{d}{dt} \vec{p} \\ 
 \vec{p} &= m \cdot \vec{v} 
 \end{align*}
 $$
@@ -39,8 +39,8 @@ Considerando $m$, a massa inercial, que quantifica a resistência do corpo à va
 
 $$
 \begin{align*}
-\vec{F} &= \dfrac{d}{dt}(m \cdot \vec{v}) \\\\ 
-&= m \cdot \dfrac{d}{dt}\vec{v} \\\\ 
+\vec{F} &= \dfrac{d}{dt}(m \cdot \vec{v}) \\ 
+&= m \cdot \dfrac{d}{dt}\vec{v} \\ 
 &= m\vec{a}
 \end{align*}
 $$
@@ -53,14 +53,14 @@ Portanto, é possível ainda enunciar a primeira lei como a permanência do esta
 
 <aside>
 
-**3ª Lei (Lei da Conservação de Momento, “Ação e Reação”)** — Se dois corpos exercem forças um no outro, essas forças possuem a mesma magnitude mas direções opostas. 
+<b>3ª lei (Lei da Conservação de Momento, “Ação e Reação”)</b> — Se dois corpos exercem forças um no outro, essas forças possuem a mesma magnitude mas direções opostas. 
 
 Considerando $\vec{F_{12}}$ como a força exercida pelo corpo 1 no corpo 2, e $\vec{F_{21}}$ como a força exercida pelo corpo 2 no corpo 1, além de considerarmos os dois corpos como isolados, só interagindo entre si, mostramos que: 
 
 $$
 \begin{align*}
-    \vec{F_{12}} &= - \vec{F_{21}} \\\\ 
-    \dfrac{d}{dt} \vec{p_1} &= - \dfrac{d}{dt} \vec{p_2} \\\\ 
+    \vec{F_{12}} &= - \vec{F_{21}} \\
+    \dfrac{d}{dt} \vec{p_1} &= - \dfrac{d}{dt} \vec{p_2} \\
     \dfrac{d}{dt} \vec{p_1} + \dfrac{d}{dt} \vec{p_2} &= 
     \dfrac{d}{dt} (\vec{p_1} + \vec{p_2}) = 0 
 \end{align*}
@@ -76,9 +76,9 @@ O que é uma força? Feynman em sua <a target="_blank" href="https://www.feynman
 
 Então, como poderíamos ver a massa de um corpo, perante o ponto de vista da mecânica? Talvez uma grandeza física que afere a inércia de um corpo, a sua dificuldade de mudar o seu estado de movimento? De fato, esta é uma visão válida sobre a massa (inercial) — uma maneira de quantificar a inércia de um corpo. 
 
-## A Gravitação Universal
+## A gravitação universal
 
-A Lei da Gravitação Universal foi, sem dúvida, uma das grandes conquistas da vida acadêmica de Isaac Newton, unindo cientificamente a mecânica terrestre e a mecânica celeste, desde muito tempo separadas pela cosmologia aristotélica. 
+A lei da gravitação universal foi, sem dúvida, uma das grandes conquistas da vida acadêmica de Isaac Newton, unindo cientificamente a mecânica terrestre e a mecânica celeste, desde muito tempo separadas pela cosmologia aristotélica. 
 
 Esse importante resultado pode ser derivado novamente por meio de álgebra, suas leis e algumas observações astronômicas. 
 
@@ -97,23 +97,23 @@ $$
 O próximo passo é associar essa aceleração a sua respectiva força explicitamente. Supondo $F_{TM}$ e $F_{TL}$ como a força exercida pela Terra no objeto de massa $M$ e na Lua, respectivamente, podemos montar as seguintes equações: 
 
 $$
-\begin{align}
-F_{TM} &= K_M \cdot \dfrac{M}{R_T^2} \\\\ 
-F_{TL} &= K_L \cdot \dfrac{M_L}{R_L^2}
-\end{align}
+\begin{align*}
+    F_{TM} &= K_M \cdot \dfrac{M}{R_T^2} \\ 
+    F_{TL} &= K_L \cdot \dfrac{M_L}{R_L^2}
+\end{align*}
 $$
 
 Com $K_M$ e $K_L$ sendo constantes de proporcionalidade. 
 
 Dessa forma, fica estabelecido que podemos utilizar dessa abordagem para encontrar uma lei para a força gravitacional entre dois corpos. Para o próximo passo, então, iremos analisar a Terra e a Lua, através da Terceira Lei de Newton. 
 
-Como a Terra e a Lua são corpos isolados interagindo entre si, a força que os corpos exercem um sobre o outro, $F_{TL}$ e $F_{LT}$, são iguais em módulo e opostas em direção. $F_{LT}$ é a força que a **Lua exerce sobre a Terra**, enquanto $F_{TL}$ é a força que a **Terra exerce sobre a Lua**.
+Como a Terra e a Lua são corpos isolados interagindo entre si, a força que os corpos exercem um sobre o outro, $F_{TL}$ e $F_{LT}$, são iguais em módulo e opostas em direção. $F_{LT}$ é a força que a <b>Lua exerce sobre a Terra</b>, enquanto $F_{TL}$ é a força que a <b>Terra exerce sobre a Lua</b>.
 
 Escrevendo $F_{LT} = K_T \cdot \dfrac{M_T}{R_L^2}$ e levando em conta a relação entre as duas forças, podemos ver que $K_T \cdot M_T = K_L \cdot M_L$. Desta equação, podemos identificar uma relação de proporcionalidade direta entre as constantes e as massas dos corpos pacientes. De fato, por manipulação matemática, podemos trabalhar de trás para frente e explicitar uma constante $G$ que explicita essa relação. 
 
 $$
 \begin{align*}
-K_T \cdot M_T &= K_L \cdot M_L \\\\ 
+K_T \cdot M_T &= K_L \cdot M_L \\ 
 \dfrac{K_T}{M_L} &= \dfrac{K_L}{M_T} = G
 \end{align*}
 $$
@@ -234,7 +234,7 @@ e, portanto, podemos descrever o alongamento total $x_T$ da mola equivalente por
 
 $$
 \begin{align*}
-    x_T = x_1 + ... + x_N &= -\dfrac{F_1}{k_1}-\dfrac{F_2}{k_2}-...-\dfrac{F_N}{k_N} \\\\
+    x_T = x_1 + ... + x_N &= -\dfrac{F_1}{k_1}-\dfrac{F_2}{k_2}-...-\dfrac{F_N}{k_N} \\
     \therefore x_T &= -\left(\dfrac{F_1}{k_1}+\dfrac{F_2}{k_2}+...+\dfrac{F_N}{k_N}\right)
 \end{align*}
 $$
@@ -243,10 +243,10 @@ Dessa forma, podemos montar a equação para a mola equivalente e reorganizar os
 
 $$
 \begin{align*}
-    F = -Kx_T &= -K \left[-\left(\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}\right)\right] \\\\
-    \therefore F &= K\left(\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}\right) \\\\
-    \therefore K &= \dfrac{F}{\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}} \\\\
-    \therefore \dfrac{1}{K} &= \dfrac{\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}}{F} \\\\
+    F = -Kx_T &= -K \left[-\left(\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}\right)\right] \\
+    \therefore F &= K\left(\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}\right) \\
+    \therefore K &= \dfrac{F}{\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}} \\
+    \therefore \dfrac{1}{K} &= \dfrac{\dfrac{F_1}{k_1} + \dfrac{F_2}{k_2} + ... + \dfrac{F_N}{k_N}}{F} \\
     \therefore \dfrac{1}{K} &= \dfrac{1}{k_1} + \dfrac{1}{k_2} + ... + \dfrac{1}{k_N}
 \end{align*}
 $$
@@ -271,8 +271,8 @@ Dessa forma, a Lei de Hooke para a mola equivalente é dada por:
 
 $$
 \begin{align*}
-    F = -Kx &= -k_1x_1 - k_2x_1 - ... - k_3x_1 \\\\
-    \therefore F &= -(k_1 + k_2 + ... + k_N)x_1 \\\\
+    F = -Kx &= -k_1x_1 - k_2x_1 - ... - k_3x_1 \\
+    \therefore F &= -(k_1 + k_2 + ... + k_N)x_1 \\
     \therefore \dfrac{F}{x_1} &= -(k_1 + k_2 + ... + k_N)
 \end{align*}
 $$
@@ -291,8 +291,8 @@ Pela imagem acima, podemos deduzir as seguintes relações:
 
 $$
 \begin{align*} 
-\vec{r}(t) &= \vec{R}(t) + \vec{r'}(t) \\\\ 
-\vec{v}(t) &= \vec{V_R}(t) + \vec{V}'(t) \\\\ 
+\vec{r}(t) &= \vec{R}(t) + \vec{r'}(t) \\ 
+\vec{v}(t) &= \vec{V_R}(t) + \vec{V}'(t) \\ 
 \vec{a}(t) &= \vec{a_R}(t) + \vec{a}'(t)
 \end{align*}
 $$
@@ -325,8 +325,8 @@ Pelas Leis de Newton:
 
 $$
 \begin{align*}
-\vec{a} &= \vec{a'}+ \vec{A_R} \\\\ 
-\vec{F} &= \vec{F'} + m \cdot \vec{A_R} \\\\ 
+\vec{a} &= \vec{a'}+ \vec{A_R} \\ 
+\vec{F} &= \vec{F'} + m \cdot \vec{A_R} \\ 
 \vec{F'} &= \vec{F} -\boxed{m \cdot \vec{A_R}}
 \end{align*}
 $$

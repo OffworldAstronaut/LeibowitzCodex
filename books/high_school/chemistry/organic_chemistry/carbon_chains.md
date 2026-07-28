@@ -2,8 +2,6 @@
 
 # O que é uma cadeia carbônica?
 
-
-
 Como visto nos <b>postulados de Kekulé</b>, o <b>átomo de Carbono se liga com outros</b> formando <b>cadeias carbônicas</b>, aumentando a possibilidade de compostos orgânicos a níveis muito grandes. 
 
 Entender as cadeias carbônicas, como representá-las e como estudá-las a partir das representações é essecial para a química orgânica, já que nos permitirá estudar reações entre compostos orgânicos e fenômenos como a isomeria.
@@ -41,8 +39,6 @@ Dependendo <b>das ligações</b> de um dado átomo de carbono <b>numa cadeia</b>
 
 # Representações de uma cadeia
 
-
-
 Podemos representar uma cadeia carbônica de algumas maneiras, com a mais usual sendo a <b>estrutura de Kekulé</b> (ou <b>fórmula estrutural</b>), uma adaptação da <b>fórmula de Lewis</b>. Ao utilizarmos a estrutura de Kekulé, representamos as ligações dos átomos por meio de traços que, por meio de suas variações, também indicam o número de elétrons compartilhados (ligações simples, duplas ou triplas). 
 
 Para representarmos estruturalmente uma cadeia a partir de sua fórmula molecular, basta lê-la da esquerda para a direita e gradualmente representar os átomos denotados e suas ligações. 
@@ -60,8 +56,6 @@ Se omitirmos os átomos de carbono (presevando apenas as ligações), produzimos
 Ainda temos dois outros símbolos para representação das moléculas, além dos traços, utilizados mais no contexto da <b>estereoquímica</b> (o estudo das moléculas químicas no espaço tridimensional). Ao representarmos uma ligação por meio de uma triângulo tracejado, estamos indicando a posição do átomo ligado como por trás do plano da molécula. Caso o triângulo seja preenchido, o átomo ligado está adiante do plano molecular. 
 
 # Tipos de ligação
-
-
 
 Desta seção em diante, iremos analisar algumas propriedades e categorias que cadeias carbônicas possuem ou podem fazer parte, começando com uma análise um poucos mais aprofundada dos <b>tipos de ligação</b>. 
 
@@ -98,8 +92,6 @@ Um NOX negativo significa que, se dada ligação fosse quebrada, <b>o elemento g
 </aside>
 
 # Classificação das cadeias carbônicas
-
-
 
 Podemos classificar as <b>cadeias carbônicas</b> em várias categorias para facilitar nossos estudos. 
 
@@ -146,8 +138,6 @@ Os compostos <b>mononucleares</b> possuem apenas um <b>anel aromático</b>, enqu
 </aside>
 
 # Regra de Hückel
-
-
 
 A <b>regra de Hückel</b> nos fornece uma maneira simples de identificar se um composto é <b>aromático</b> ou não, mesmo em <b>casos mais gerais</b> (sim, há mais definições de “composto aromático” do que apenas possuir <b>benzeno</b>)! 
 

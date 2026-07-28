@@ -171,11 +171,7 @@ Os coeficientes do Binômio são números no formato $\binom{n}{k}$, mas, por qu
 
 Primeiro, temos que saber que, obviamente, $(a+b)^n$ é a mesma coisa que o produto de $(a+b)$ com ele mesmo $n$ vezes. Assim, para obtermos $a^nb⁰$, precisamos escolher $a$ em cada produto $n$ vezes, o que nos dá $\binom{n}{0}$. Esse raciocínio é repetido para cada monômio da expressão: precisamos escolher um dos dois números $k$ vezes para formar aquele monômio em específico, o que nos acaba por gerar coeficientes no formato binomial. 
 
-<aside>
-
 Note que os coeficientes do Binômio são números que estão no Triângulo de Pascal!
-
-</aside>
 
 ## Encontrando um coeficiente específico
 

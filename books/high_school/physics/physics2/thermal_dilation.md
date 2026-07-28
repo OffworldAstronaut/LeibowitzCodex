@@ -2,9 +2,7 @@
 
 # Dilatação
 
-
-
-A **dilatação térmica** é um fenômeno causado pelo aumento das distâncias entre as partículas de um corpo. Esse aumento é provocado pelo enfraquecimento das forças eletrostáticas entre as partículas a medida que a temperatura aumenta. 
+A <b>dilatação térmica</b> é um fenômeno causado pelo aumento das distâncias entre as partículas de um corpo. Esse aumento é provocado pelo enfraquecimento das forças eletrostáticas entre as partículas a medida que a temperatura aumenta. 
 
 Essa origem evidencia uma das características que influenciam a dilatação nos corpos: seu material, responsável por um coeficiente de dilatação único, que será visto mais a frente. Outros fatores determinantes são as dimensões iniciais do material e a variação de temperatura. 
 
@@ -12,14 +10,12 @@ Em sólidos, comumente estudamos a dilatação linear (uma dimensão), superfici
 
 # Sólidos
 
-
-
 Em sólidos, podemos calcular as dilatações lineares $(\Delta L)$, superficiais $(\Delta S)$ e volumétricas $(\Delta V)$ da seguinte maneira: 
 
 $$
 \begin{align*}
-\Delta L &= L_o \cdot \alpha \cdot \Delta \theta \\\\
-\Delta S &= S_0 \cdot \beta \cdot \Delta \theta \\\\ 
+\Delta L &= L_o \cdot \alpha \cdot \Delta \theta \\
+\Delta S &= S_0 \cdot \beta \cdot \Delta \theta \\
 \Delta V &= V_0 \cdot \gamma \cdot \Delta \theta
 \end{align*}
 $$
@@ -31,8 +27,6 @@ Alfa, beta e gama nas equações acima são, respectivamente, os coeficientes de
 A dimensão (”unidades”) desses coeficientes é $°\text{C} ^{-1}$. 
 
 # Líquidos
-
-
 
 Um ponto especial de atenção ao mensurar a dilatação em líquidos, como mencionado acima, é a distinção entre a dilatação do recipiente, a dilatação aparente e a dilatação real do líquido. 
 

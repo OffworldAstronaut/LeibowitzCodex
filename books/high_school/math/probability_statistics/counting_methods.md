@@ -1,10 +1,8 @@
 # Outros Métodos de Contagem
 
-# Princípio da Inclusão-Exclusão
+# Princípio da inclusão-exclusão
 
-
-
-O <b>Princípio da Inclusão-Exclusão (PIE)</b> nos dá uma relação matemática para encontrar o número de elementos de dois ou mais conjuntos que não são necessariamente disjuntos (ou seja, possuem uma <b>intersecção</b>). 
+O <b>princípio da inclusão-exclusão (PIE)</b> nos dá uma relação matemática para encontrar o número de elementos de dois ou mais conjuntos que não são necessariamente disjuntos (ou seja, possuem uma <b>intersecção</b>). 
 
 Na sua forma mais simples, temos dois conjuntos, $A$ e $B$: 
 
@@ -35,19 +33,11 @@ Uma curiosidade sobre o $(-1)^{n+1}$ no final é que, se $n$ for par, o final se
 
 # Lemas de Kaplansky
 
+Os <b>lemas de Kaplansky</b> nos dão uma maneira de responder as seguintes perguntas: de quantas maneiras podemos formar um subconjunto com k elementos do conjunto $\{1, 2, 3, ..., n\}$ de forma que não haja números consecutivos? E se $1$ e $n$ forem consecutivos, também?
 
+Um detalhe interessante para se ter em mente é a definição de um <b>lema matemático</b>: também conhecido como <b>teorema auxiliar</b>, um lema é um teorema menor que é provado com o objetivo de servir de fundamento para a justificativa de algo mais extenso.
 
-Os **Lemas de Kaplansky** nos dão uma maneira de responder as seguintes perguntas: 
-
-- De quantas maneiras podemos formar um subconjunto com k elementos do conjunto $\{1, 2, 3, ..., n\}$ de forma que não haja números consecutivos?
-
-- E se $1$ e $n$ forem consecutivos, também?
-
-<aside>
-
-Um <b>lema matemático</b>, também conhecido como <b>teorema auxiliar</b>, é uma teorema menor que é provado com o objetivo de servir de fundamento para a justificativa de algo maior. No caso de Kaplansky, isso era o <a target="_blank" href="https://clubes.obmep.org.br/blog/wp-content/uploads/2024/02/F_A-solu%C3%A7%C3%A3o-de-Kaplansky-para-o-problema-de-Lucas.pdf">Problema de Lucas</a>.
-
-</aside>
+No caso de Kaplansky, isso era o <a target="_blank" href="https://clubes.obmep.org.br/blog/wp-content/uploads/2024/02/F_A-solu%C3%A7%C3%A3o-de-Kaplansky-para-o-problema-de-Lucas.pdf">Problema de Lucas</a>.
 
 ## O primeiro lema
 
