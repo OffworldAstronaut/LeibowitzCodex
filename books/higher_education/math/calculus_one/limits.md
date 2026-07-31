@@ -23,7 +23,7 @@ Isso mudará quando virmos algumas propriedades de limites, e poderemos calculá
 
 ## Épsilon-Delta
 
-Conceitos como "tender", "aproximar", "proximidade" são abstratos o suficiente de forma que a definição intuitiva não possa ser classificada como uma definição matemática de fato. Dessa forma, a definição épsilon-delta de limites, também conhecida por <b>definição formal de limites</b> cumpre o requisito de ser rigorosa. 
+Conceitos como "tender", "aproximar", "proximidade" são abstratos o suficiente de forma que a definição intuitiva não possa ser classificada como uma definição matemática de fato. Dessa forma, a definição épsilon-delta de limites, também conhecida por <b>definição formal de limites</b>, cumpre o requisito de ser rigorosa. 
 
 <aside>
 
@@ -66,7 +66,7 @@ $$
 \end{align*}
 $$
 
-Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \epsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim. Um passo importante para efetuar este primeiro passo é buscar outro termo que seja independente de $x$ e que satisfaça a desigualdade, permitindo limitar sua expressão com $|x-a|$ e consequentemente atribuir um valor para $\delta$ em função de $\varepsilon$. 
+Todas as provas irão seguir o mesmo padrão, buscando simplificar a função para um formato $|x-a| \lt C \cdot \varepsilon$, com $C \in \mathbb{R}$ e trabalhando novamente do começo ao fim. Um passo importante para efetuar este primeiro passo é buscar outro termo que seja independente de $x$ e que satisfaça a desigualdade, permitindo limitar sua expressão com $|x-a|$ e consequentemente atribuir um valor para $\delta$ em função de $\varepsilon$. 
 
 </aside>
 

@@ -141,14 +141,14 @@ Como estamos falando da velocidade de $\langle x \rangle$, que não é a velocid
 Legal! Conseguimos encontrar uma expressão para $\langle v \rangle$ a partir de $\psi$. Entretanto, costuma-se trabalhar com momento ao invés de velocidade, em razão do momento definir um estado mecânico. Assim, podemos escrever o momento esperado $\langle p \rangle$ da forma: 
 
 $$
-\langle p \rangle = m \dfrac{d \langle x \rangle}{dt} = -i\hbar \int_{-\infty}^{+\infty} \left(\psi^* \dfrac{\partial \psi}{\partial x}) \ dx 
+\langle p \rangle = m \dfrac{d \langle x \rangle}{dt} = -i\hbar \int_{-\infty}^{+\infty} \left(\psi^* \dfrac{\partial \psi}{\partial x}\right) \ dx 
 $$
 
 De forma bem sugestiva, é possível escrever as expressões para $\langle x \rangle$ e $\langle p \rangle$ das formas 
 
 $$
 \begin{align*}
-    \langle x \rangle &= \int_{-\infty}^{+\infty} \psi^* \cdot x \cdot \psi \ dx \\ 
+    \langle x \rangle &= \int_{-\infty}^{+\infty} \psi^* \cdot (x) \cdot \psi \ dx \\ 
     \langle p \rangle &= \int_{-\infty}^{+\infty} \psi^* \left(\dfrac{\hbar}{i}\dfrac{\partial}{\partial x}\right) \psi \ dx 
 \end{align*}
 $$
