@@ -23,7 +23,7 @@ Isso mudará quando virmos algumas propriedades de limites, e poderemos calculá
 
 ## Épsilon-Delta
 
-Conceitos como "tender", "aproximar", "proximidade" são abstratos o suficiente de forma que a definição intuitiva não possa ser classificada como uma definição matemática de fato. Dessa forma, a definição épsilon-delta de limites, também conhecida por <b>definição formal de limites</b>, cumpre o requisito de ser rigorosa. 
+Conceitos como "tender", "aproximar" e "proximidade" são abstratos o suficiente de forma que a definição intuitiva não possa ser classificada como uma definição matemática de fato. Dessa forma, a definição épsilon-delta de limites, também conhecida por <b>definição formal de limites</b>, cumpre o requisito de ser rigorosa. 
 
 <aside>
 
