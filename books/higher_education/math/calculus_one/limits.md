@@ -132,7 +132,7 @@ Como estamos tratando de uma reta real, podemos aproximar os dois números com $
 
 O primeiro caso é chamado de **limite a direita**, enquanto o segundo é chamado de **limite a esquerda**. Seus nomes vêm das seções da reta real que $x$ percorre quando se aproxima de $a$.
 
-Em questão de notação, representamos, respectivamente:
+Em questão de notação, denotamos, respectivamente:
 
 $$
 \lim_{x \rightarrow a^+} f(x)=L
