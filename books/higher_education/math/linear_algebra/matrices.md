@@ -576,7 +576,34 @@ De fato, essas operações são idênticas às operações elementares definidas
 
 São operações elementares, de uma matriz $A$ qualquer, permutar duas de suas linhas; multiplicar uma linha por um $\lambda \in \mathbb{R}$, com $\lambda \neq 0$ e somar uma linha em outra.
 
-De forma semelhante, se uma matriz $B$ pode ser obtida a partir de um número finito de operações elementares em $A$, dizemos que $A$ é <b>semelhante</b> a $B$ e denotamos esta relação por $A \sim B$. Valem as mesmas propriedades para a semelhança entre sistemas lineares.
+De forma semelhante, se uma matriz $B$ pode ser obtida a partir de um número finito de operações elementares em $A$, dizemos que $A$ é <b>equivalente</b> a $B$ e denotamos esta relação por $A \sim B$. Valem as mesmas propriedades para a semelhança entre sistemas lineares.
+
+<aside>
+
+<b>Teorema</b> — Sistemas associados a matrizes equivalentes são equivalentes.
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Sejam $A$ e $A'$ matrizes equivalentes. Logo, sabemos que $A' = MA$, com $M$ sendo um produto de matrizes elementares e, consequentemente, inversível. 
+
+Os sistemas $(I)$ e $(II)$ que tem $A$ e $A'$ como matrizes ampliadas podem ser escritos respectivamente como $NX = B$ e $N'X = B'$, com $N$ e $N'$ as matrizes de coeficientes e $B$ e $B'$ as matrizes formadas pela última coluna das matrizes ampliadas.
+
+Como $N' = MN$ e $B' = MB$, $NX = B \iff MNX = MB \iff N'X = B'$.
+
+Isto significa que os sistemas $(I)$ e $(II)$ são equivalentes, pois toda matriz 
+
+$$
+X =
+\begin{pmatrix}
+x_1 \\ \vdots \\ x_n    
+\end{pmatrix}
+$$
+
+que seja solução de $(I)$ será solução de $(II)$ e vice-versa.
+
+</aside>
 
 <aside>
 
@@ -596,11 +623,44 @@ $$
 
 Logo, temos que $A^{-1}=E_k \cdots E_1.$ Assim, $A$ é inversível.
 
-Reciprocamente, se $A$ é inversível, podemos aplicar <b>eliminação de Gauss-Jordan</b> para reduzir $A$ à identidade por operações elementares. Portanto, $A \sim I_n$. 
+Se $A$ é inversível, podemos aplicar <b>eliminação de Gauss-Jordan</b> para reduzir $A$ à identidade por operações elementares. Portanto, $A \sim I_n$. 
 
 Além disso, aplicando as mesmas operações à matriz identidade obtemos precisamente $A^{-1}$. 
 
 </aside>
+
+Uma <b>matriz elementar</b> $E$ é uma matriz que, quando multiplicada por uma certa matriz $A$ qualquer, executa uma operação elementar nas linhas de $A$. A matriz correspondente a operação que será executada é produzida ao realizar esta operação elementar na matriz identidade de mesma ordem que $A$.
+
+Por exemplo, considere a operação "permutar a linha 1 pela linha 2". Considerando uma matriz quadrada de ordem dois, temos que a matriz elementar correspondente é da forma: 
+
+$$
+E = 
+\begin{pmatrix}
+    0 & 1 \\ 
+    1 & 0 
+\end{pmatrix}
+$$
+
+De fato, considerando uma matriz $A$ de ordem dois qualquer, vemos que: 
+
+$$
+EA =
+\begin{pmatrix}
+    a & b \\ 
+    c & d 
+\end{pmatrix}
+\begin{pmatrix}
+    0 & 1 \\ 
+    1 & 0
+\end{pmatrix}
+= 
+\begin{pmatrix}
+    c & d \\ 
+    a & b 
+\end{pmatrix}
+$$
+
+Uma consequência interessante é que dada uma matriz elementar qualquer $E_1$, esta é inversível e possui inversa $E_2$. Esta matriz inversa produz a operação inversa realizada por $E_1$.
 
 # Eliminação de Gauss-Jordan
 

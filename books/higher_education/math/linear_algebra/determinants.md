@@ -77,7 +77,7 @@ A função determinante possui algumas propriedades notáveis. São elas:
 <table><tbody>
   <tr>
     <td>1</td>
-    <td>O determinante de uma matriz é igual ao determinante de sua transposta, isto é, $\det{A} = \det{A^t}$;</td>
+    <td>O determinante de uma matriz é igual ao determinante de sua transposta, isto é, $\det{A} = \det{A^T}$;</td>
   </tr>
   <tr>
     <td>2</td>
@@ -125,6 +125,42 @@ A função determinante possui algumas propriedades notáveis. São elas:
   </tr>
 </tbody></table>
 
+<aside>
+
+<b>Teorema</b> — Se $A$ é inversível, sua matriz reduzida a sua forma escada, $R$, é a matriz identidade. Além disso, $A$ é dada por um produto de matrizes elementares.
+
+</aside>
+
+<aside>
+
+<b>Teorema</b> — Se $E$ for uma matriz elementar e $A$ uma matriz qualquer da mesma ordem que $E$, então $\det{EA} = \det{E} \cdot \det{A}$.
+
+</aside>
+
+<aside>
+
+<b>Teorema</b> — O determinante do produto de duas matrizes quaisquer é o produto entre seus determinantes.
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Caso $A$ ou $B$ não sejam inversíveis, temos que $AB$ não será inversível e, portanto, $\det{AB} = 0$. Como $\det{A} = 0$ ou $\det{B} = 0$, por hipótese, a igualdade é válida.
+
+Caso $A$ e $B$ sejam ambas inversíveis, temos 
+
+$$
+\begin{align*}
+  \det{AB} &= \det{E_1 \dots E_k B} \\ 
+  \det{AB} &= \det{E_1} \cdot \det{E_2 \dots E_k B} \\ 
+  \det{AB} &= \det{E_1} \cdot \dots \cdot \det{E_k} \cdot \det{B} \\
+  \det{AB} &= \det{E_1 \cdot \dots E_k} \cdot \det{B} \\ 
+  \det{AB} &= \det{A} \cdot \det{B}
+\end{align*}
+$$
+
+</aside>
+
 Vale mencionar que a <b>transposta</b> de uma matriz, conforme mencionada na primeira propriedade, é a matriz produzida ao escrever as linhas de uma matriz como as colunas de outra (ou as colunas de uma matriz como as linhas de outra). Por exemplo, a transposta da matriz
 
 $$
@@ -142,6 +178,123 @@ $$
     3 & 2 \\
 \end{pmatrix}
 $$
+
+<aside>
+
+<b>Teorema</b> — Seja $A$ uma matriz de ordem $n$ e $A^T$ sua transposta. Logo, $\det{A} = \det{A^T}$.
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Vamos provar esta relação por um processo de indução matemática.
+
+Primeiro, considere o caso base para $n=2$, de forma que 
+
+$$
+A_2 = 
+\begin{pmatrix}
+  a_{11} & a_{12} \\ 
+  a_{21} & a_{22}
+\end{pmatrix}
+$$
+
+e 
+
+$$
+A_2^T = 
+\begin{pmatrix}
+  a_{11} & a_{21} \\ 
+  a_{12} & a_{22}
+\end{pmatrix}
+$$
+
+É perceptível que $\det{A_2} = \det{A_2^T} = a_{11}a_{22} - a_{21}a_{12}$.
+
+Dessa forma, vamos supor que vale $\det{A_k} = \det{A_k^T}$ para algum $k \in \mathbb{N}$.
+
+Considere então uma matriz $A_{k+1}$ e sua transposta $A_{k+1}^T$. Pelo desenvolvimento de Laplace, temos: 
+
+$$
+\begin{align*}
+\det{A_{k+1}} &=
+a_{11} \cdot
+\det{
+  \left(
+    \begin{matrix}
+      a_{22} & \dots & a_{2, k+1} \\ 
+      \vdots & & \vdots \\ 
+      a_{k+1, 2} & \dots & a_{k+1, k+1}
+    \end{matrix}
+  \right)
+}
+-
+a_{12} \cdot
+\det{
+  \left(
+    \begin{matrix}
+      a_{21} & \dots & a_{2, k+1} \\ 
+      \vdots & & \vdots \\ 
+      a_{k+1, 1} & \dots & a_{k+1, k+1}
+    \end{matrix}
+  \right)
+}
++
+\dots
++
+a_{1, k+1}(-1)^{2k+2} \cdot 
+\det{
+  \left(
+    \begin{matrix}
+      a_{21} & \dots & a_{2, k} \\ 
+      \vdots & & \vdots \\ 
+      a_{k+1, 1} & \dots & a_{k, k}
+    \end{matrix}
+  \right)
+} \\ 
+\det{A_{k+1}^T} &=
+a_{11} \cdot
+\det{
+  \left(
+    \begin{matrix}
+      a_{22} & \dots & a_{k+1, 2} \\ 
+      \vdots & & \vdots \\ 
+      a_{2, k+1} & \dots & a_{k+1, k+1}
+    \end{matrix}
+  \right)
+}
+-
+a_{21} \cdot
+\det{
+  \left(
+    \begin{matrix}
+      a_{12} & \dots & a_{k+1, 2} \\ 
+      \vdots & & \vdots \\ 
+      a_{1, k+1} & \dots & a_{k+1, k+1}
+    \end{matrix}
+  \right)
+}
++
+\dots
++
+a_{k+1, 1}(-1)^{2k+2} \cdot 
+\det{
+  \left(
+    \begin{matrix}
+      a_{12} & \dots & a_{k, 1} \\ 
+      \vdots & & \vdots \\ 
+      a_{1, k+1} & \dots & a_{k, k}
+    \end{matrix}
+  \right)
+}
+\end{align*}
+$$
+
+Por nossa hipótese, podemos concluir que os determinantes menores de ordem $k$ na expansão de Laplace de $\det{A_{k+1}}$ são iguais aos seus correspondentes na expansão de Laplace de $\det{A_{k+1}^T}$. Além disso, perceba que os termos $a_{ij}$ possuem o mesmo sinal em cada expansão em razão da comutatividade dos números reais. 
+
+Portanto, vemos que a validade da equação para uma matriz de ordem $k$ implica na validade da equação para uma matriz de ordem $k+1$. Como o caso base está provado, temos que esta relação vale para todas as matrizes quadradas de ordem $n \ge 2$.
+
+</aside>
 
 Além disso, a oitava propriedade é possívelmente uma das mais importantes da Álgebra Linear, interligando a resolução de sistemas lineares (e se estes possuem solução única) com o estudo de suas matrizes correspondentes.
 

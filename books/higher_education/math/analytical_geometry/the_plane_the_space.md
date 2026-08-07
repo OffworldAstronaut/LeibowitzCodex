@@ -59,8 +59,8 @@ Note que a projeção do vetor $\vec{w}$ no plano $xy$ forma uma circunferência
 
 $$
 \begin{cases}
-    x = r\sin{\phi}\cos{\theta} \\\\
-    y = r\sin{\phi}\sin{\theta} \\\\
+    x = r\sin{\phi}\cos{\theta} \\
+    y = r\sin{\phi}\sin{\theta} \\
     z = 0
 \end{cases} 
 \therefore 
@@ -119,7 +119,7 @@ Duas operações com vetores podem ser inicialmente definidas, a <b>soma</b> e a
 
 $$
 \begin{align*}
-    \vec{a} + \vec{b} &= (a_x, a_y) + (b_x, b_y) = (a_x + b_x, a_y + b_y) \\\\
+    \vec{a} + \vec{b} &= (a_x, a_y) + (b_x, b_y) = (a_x + b_x, a_y + b_y) \\
     k\vec{a} &= k(a_x, a_y) = (ka_x, ka_y)
 \end{align*}
 $$
@@ -128,8 +128,8 @@ A operação da soma de vetores possui algumas propriedades. São elas:
 
 $$ 
 \begin{align*}
-    \vec{a} + \vec{b} &= \vec{b} + \vec{a} \\\\
-    \vec{a} + (\vec{b} + \vec{c}) &= (\vec{a} + \vec{b}) + \vec{c} \\\\
+    \vec{a} + \vec{b} &= \vec{b} + \vec{a} \\
+    \vec{a} + (\vec{b} + \vec{c}) &= (\vec{a} + \vec{b}) + \vec{c} \\
     \vec{a} + \vec{0} &= \vec{a} ; \vec{0} = (0,0)
 \end{align*}
 $$
@@ -138,10 +138,10 @@ A operação de multiplicação por escalar também possui algumas propriedades.
 
 $$ 
 \begin{align*}
-    k_1(\vec{a} + \vec{b}) &= k_1\vec{a} + k_1\vec{b} \\\\
-    (k_1 + k_2) \vec{a} &= k_1\vec{a} + k_2\vec{a} \\\\
-    k_1(k_2\vec{a}) &= (k_1k_2)\vec{a} \\\\
-    1 \cdot \vec{a} &= \vec{a} \\\\
+    k_1(\vec{a} + \vec{b}) &= k_1\vec{a} + k_1\vec{b} \\
+    (k_1 + k_2) \vec{a} &= k_1\vec{a} + k_2\vec{a} \\
+    k_1(k_2\vec{a}) &= (k_1k_2)\vec{a} \\
+    1 \cdot \vec{a} &= \vec{a} \\
     0 \cdot \vec{a} &= \vec{0}
 \end{align*}
 $$
@@ -204,9 +204,9 @@ Esta operação, o produto escalar, possui algumas propriedades:
 
 $$
 \begin{align*}
-    \vec{a} \cdot \vec{a} &= ||\vec{a}||^2 \\\\
-    \vec{a} \cdot \vec{b} &= \vec{b} \cdot \vec{a} \\\\
-    \vec{a} \cdot (\vec{b} + \vec{c}) &= \vec{a} \cdot \vec{b} + \vec{a} + \vec{c} \\\\
+    \vec{a} \cdot \vec{a} &= ||\vec{a}||^2 \\
+    \vec{a} \cdot \vec{b} &= \vec{b} \cdot \vec{a} \\
+    \vec{a} \cdot (\vec{b} + \vec{c}) &= \vec{a} \cdot \vec{b} + \vec{a} + \vec{c} \\
     (k\vec{a})\vec{b} &= \vec{a} \cdot (k\vec{b}) = k(\vec{a} \cdot \vec{b})
 \end{align*}
 $$
@@ -239,7 +239,7 @@ Essa propriedade é intrínseca à operação, sendo utilizada para definí-la. 
 
 $$
 \begin{cases}
-    u_1w_1 + u_2w_2 + u_3w_3 = 0 \\\\
+    u_1w_1 + u_2w_2 + u_3w_3 = 0 \\
     v_1w_1 + v_2w_2 + v_3w_3 = 0 
 \end{cases}
 $$
@@ -250,8 +250,8 @@ Tomando uma única solução destas infinitas,
 
 $$
 \begin{align*}
-    w_1 &= u_1v_3 - v_2u_3 \\\\
-    w_2 &= v_1u_3 - u_1z_3 \\\\
+    w_1 &= u_1v_3 - v_2u_3 \\
+    w_2 &= v_1u_3 - u_1z_3 \\
     w_3 &= u_1v_2 - v_1u_2 
 \end{align*}
 $$
@@ -263,8 +263,8 @@ Embora seja possível encontrar o vetor resultante da operação por meio desta 
 $$
 \det
 \begin{bmatrix}
-    \hat{i} & \hat{j} & \hat{k} \\\\
-    u_1 & u_2 & u_3 \\\\ 
+    \hat{i} & \hat{j} & \hat{k} \\
+    u_1 & u_2 & u_3 \\
     v_1 & v_2 & v_3
 \end{bmatrix}
 = 
@@ -277,9 +277,9 @@ Considerando três vetores quaisquer do espaço, valem ainda as propriedades:
 
 $$
 \begin{align*}
-    (\vec{u} + \vec{v}) \times \vec{w} &= \vec{u} \times \vec{w} + \vec{v} \times \vec{w} \\\\
-    \vec{w} \times (\vec{u} + \vec{v}) &= \vec{w} \times \vec{u} + \vec{w} \times \vec{v} \\\\
-    \vec{u} \times (\vec{v} \times \vec{w}) &= (\vec{w} \cdot \vec{u})\vec{v} - (\vec{u} \cdot \vec{v})\vec{w} \\\\
+    (\vec{u} + \vec{v}) \times \vec{w} &= \vec{u} \times \vec{w} + \vec{v} \times \vec{w} \\
+    \vec{w} \times (\vec{u} + \vec{v}) &= \vec{w} \times \vec{u} + \vec{w} \times \vec{v} \\
+    \vec{u} \times (\vec{v} \times \vec{w}) &= (\vec{w} \cdot \vec{u})\vec{v} - (\vec{u} \cdot \vec{v})\vec{w} \\
     (\vec{u} \times \vec{v}) \times \vec{w} &= (\vec{w} \cdot \vec{u})\vec{v} - (\vec{w} \cdot \vec{v})\vec{u}
 \end{align*}
 $$
@@ -296,6 +296,18 @@ por meio do desenvolvimento dos termos de ambos os membros da igualdade e a veri
 
 <i>Animação ilustrando a discussão acima: o módulo do produto vetorial entre os vetores vermelhos é a área do paralelogramo ilustrado. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Cross_product_parallelogram.gif" target="_blank">Wikimedia Commons</a>.</i>
 
+Uma consequência direta dessa relação é a conhecida forma de calcular a área de um triângulo qualquer num plano por meio de um determinante. De fato, dados três pontos $(x_1, y_1), (x_2, y_2), (x_3, y_3)$, temos que a área $A$ do triângulo formado por eles é: 
+
+$$
+A = \dfrac{1}{2} \det{
+    \begin{pmatrix}
+        x_1 & y_1 & 1 \\ 
+        x_2 & y_2 & 1 \\ 
+        x_3 & y_3 & 1 
+    \end{pmatrix}
+}
+$$
+
 ## Produto misto
 
 Dados três vetores do espaço, denominamos $(\vec{u} \times \vec{v}) \cdot \vec{w}$ como o <b>produto misto</b> destes vetores. Pode-se ainda verificar a seguinte igualdade: 
@@ -303,9 +315,9 @@ Dados três vetores do espaço, denominamos $(\vec{u} \times \vec{v}) \cdot \vec
 $$
 (\vec{u} \times \vec{v}) \cdot \vec{w} = \det 
 \begin{bmatrix}
-    a_1 & b_1 & c_1 \\\\
-    a_2 & b_2 & c_2 \\\\ 
-    a_3 & b_3 & c_3 \\\\
+    a_1 & b_1 & c_1 \\
+    a_2 & b_2 & c_2 \\ 
+    a_3 & b_3 & c_3 \\
 \end{bmatrix}
 $$
 
@@ -321,8 +333,8 @@ Note que
 
 $$
 \begin{align*}
-    h &= ||\vec{w}|| \cdot |\cos(\alpha) \\\\
-    \therefore h &= ||\vec{w}|| \cdot \left|\dfrac{(\vec{u} \times \vec{v})\cdot \vec{w}}{||\vec{u} \times \vec{v}|| ||\vec{w}||}\right| \\\\
+    h &= ||\vec{w}|| \cdot |\cos(\alpha) \\
+    \therefore h &= ||\vec{w}|| \cdot \left|\dfrac{(\vec{u} \times \vec{v})\cdot \vec{w}}{||\vec{u} \times \vec{v}|| ||\vec{w}||}\right| \\
     \therefore h&= \dfrac{|(\vec{u} \times \vec{v}) \cdot \vec{w}|}{||\vec{u} \times \vec{v}||}
 \end{align*}
 $$
@@ -331,7 +343,7 @@ e, pela definição do volume de um paralelepípedo (produto entre a área da ba
 
 $$
 \begin{align*}
-    V &= ||\vec{u} \times \vec{v}|| \cdot \dfrac{|(\vec{u} \times \vec{v}) \cdot \vec{w}|}{||\vec{u} \times \vec{v}||} \\\\
+    V &= ||\vec{u} \times \vec{v}|| \cdot \dfrac{|(\vec{u} \times \vec{v}) \cdot \vec{w}|}{||\vec{u} \times \vec{v}||} \\
     \therefore V &= ||\vec{u} \times \vec{v}|| \cdot \vec{w}
 \end{align*}
 $$
@@ -356,7 +368,7 @@ com esta igualdade correspondendo a um sistema de equações, cujas equações s
 
 $$
 \begin{cases}
-    x = x_0 + at \\\\ 
+    x = x_0 + at \\ 
     y = y_0 + bt
 \end{cases}
 $$
@@ -365,7 +377,7 @@ Por exemplo, as equações
 
 $$
 \begin{cases}
-    x = 1 + 2t \\\\ 
+    x = 1 + 2t \\ 
     y = 2 - 3t
 \end{cases}
 $$
@@ -467,9 +479,9 @@ Podemos construir um plano a partir do vetor diretor da reta e do ponto $P$ dado
 
 $$
 \begin{cases}
-    v_1(x - x_0) + v_2(y - y_0) + v_3(z - z_0) = 0 \\\\
-    x = x_a + tv_1 \\\\
-    y = y_a + tv_2 \\\\
+    v_1(x - x_0) + v_2(y - y_0) + v_3(z - z_0) = 0 \\
+    x = x_a + tv_1 \\
+    y = y_a + tv_2 \\
     z = z_a + tv_3 
 \end{cases}
 $$
@@ -478,10 +490,10 @@ Substituindo as três últimas equações na primeira e rearranjando os termos, 
 
 $$
 \begin{align*}
-    &v_1(x_a + tv_1 - x_0) + v_2(y_a + tv_2 - y_0) + v_3(z_a + tv_3 - z_0) = 0 \\\\
-    &\implies v_1x_a + v_1^2t^2 - v_1x_0 + v_2y_a + v_2^2t - v_2y_0 + v_3z_a + tv_3^2 - v_3z_0 = 0 \\\\
-    &\implies v_1^2t + v_2^2t + v_3^2t = -v_1x_a + v_1x_0 - v_2y_a + v_2y_0 + v_3z_a + v_3z_0 \\\\
-    &\implies t(v_1^2 + v_2^2 + v_3^2) = v_1(x_0 - x_a) + v_2(y_0 - y_a) + v_3(z_0-z_a) \\\\
+    &v_1(x_a + tv_1 - x_0) + v_2(y_a + tv_2 - y_0) + v_3(z_a + tv_3 - z_0) = 0 \\
+    &\implies v_1x_a + v_1^2t^2 - v_1x_0 + v_2y_a + v_2^2t - v_2y_0 + v_3z_a + tv_3^2 - v_3z_0 = 0 \\
+    &\implies v_1^2t + v_2^2t + v_3^2t = -v_1x_a + v_1x_0 - v_2y_a + v_2y_0 + v_3z_a + v_3z_0 \\
+    &\implies t(v_1^2 + v_2^2 + v_3^2) = v_1(x_0 - x_a) + v_2(y_0 - y_a) + v_3(z_0-z_a) \\
     &\therefore t = \dfrac{v_1(x_0 - x_a) + v_2(y_0 - y_a) + v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2}
 \end{align*}
 $$
@@ -490,8 +502,8 @@ Substituindo este valor nas equações paramétricas da reta, obtemos:
 
 $$
 \begin{align*}
-    x &= \dfrac{x_a(v_1^2 + v_2^2 + v_3^2) + v_1^2(x_0 - x_a) + v_1v_2(y_0 - y_a) + v_1v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2} \\\\
-    y &= \dfrac{y_a(v_1^2 + v_2^2 + v_3^2) + v_1v_2(x_0 - x_a) + v_2^2 (y_0 - y_a) + v_2v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2} \\\\
+    x &= \dfrac{x_a(v_1^2 + v_2^2 + v_3^2) + v_1^2(x_0 - x_a) + v_1v_2(y_0 - y_a) + v_1v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2} \\
+    y &= \dfrac{y_a(v_1^2 + v_2^2 + v_3^2) + v_1v_2(x_0 - x_a) + v_2^2 (y_0 - y_a) + v_2v_3(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2} \\
     z &= \dfrac{z_a(v_1^2 + v_2^2 + v_3^2) + v_1v_3(x_0 - x_a) + v_2v_3 (y_0 - y_a) + v_3^2(z_0 - z_a)}{v_1^2 + v_2^2 + v_3^2}
 \end{align*}
 $$
@@ -500,8 +512,8 @@ Podemos reescrever essas expressões numa forma mais compacta, obtendo:
 
 $$
 \begin{align*}
-    x &= \dfrac{x_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_1(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle} \\\\
-    y &= \dfrac{y_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_2(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle} \\\\
+    x &= \dfrac{x_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_1(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle} \\
+    y &= \dfrac{y_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_2(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle} \\
     z &= \dfrac{z_a \langle \vec{v}, \vec{v} \rangle + \langle \vec{v}, v_3(x_0 - x_a, y_0 - y_a, z_0 - z_a) \rangle}{\langle \vec{v}, \vec{v} \rangle}
 \end{align*}
 $$
@@ -510,7 +522,7 @@ Assim, pela expressão da distância entre dois pontos, temos que a distância e
 
 $$
 \begin{align*}
-d(P, I) &= \sqrt{\langle \vec{X}, \vec{X} \rangle + \dfrac{2\langle \vec{v}, \vec{X} \rangle^2}{\langle \vec{v}, \vec{v} \rangle}} \\\\
+d(P, I) &= \sqrt{\langle \vec{X}, \vec{X} \rangle + \dfrac{2\langle \vec{v}, \vec{X} \rangle^2}{\langle \vec{v}, \vec{v} \rangle}} \\
 \vec{X} &= (x_0 - x_a, y_0 - y_a, z_0 - z_a)
 \end{align*}
 $$
@@ -539,7 +551,7 @@ Num plano, podemos encontrar a distância entre duas retas $r: y = m_1x + b_2$ e
 
 $$
 \begin{cases}
-    0 & \text{se } m_1 \neq m_2 \\\\
+    0 & \text{se } m_1 \neq m_2 \\
     \dfrac{|b_1 - b_2|}{\sqrt{m^2 + 1}} & \text{se } m_1 = m_2 = m
 \end{cases}
 $$
@@ -554,7 +566,7 @@ Para encontrar as coordenadas do ponto $P(x_p, y_p)$, basta resolver o sistema
 
 $$
 \begin{cases}
-    y = mx + b_1 \\\\ 
+    y = mx + b_1 \\ 
     y = -\dfrac{1}{m}x
 \end{cases}
 $$
@@ -567,9 +579,9 @@ Assim, pela expressão para a distância entre dois pontos num plano, temos:
 
 $$
 \begin{align*}
-    d(P,Q) &= \sqrt{\left(\dfrac{-b_2m + b_1m}{m^2 + 1}\right)^2 + \left(\dfrac{b_2 - b_1}{m^2 + 1}\right)^2} \\\\
-    \therefore d(P,Q) &= \sqrt{\dfrac{m^2(b_1 - b_2)^2}{(m^2 + 1)^2} + \dfrac{(b_2 - b_1)^2}{(m_2 + 1)^2}} \\\\
-    \therefore d(P,Q) &= \sqrt{\dfrac{(b_1-b_2)^2(m^2+1)}{(m^2+1)^2}} \\\\
+    d(P,Q) &= \sqrt{\left(\dfrac{-b_2m + b_1m}{m^2 + 1}\right)^2 + \left(\dfrac{b_2 - b_1}{m^2 + 1}\right)^2} \\
+    \therefore d(P,Q) &= \sqrt{\dfrac{m^2(b_1 - b_2)^2}{(m^2 + 1)^2} + \dfrac{(b_2 - b_1)^2}{(m_2 + 1)^2}} \\
+    \therefore d(P,Q) &= \sqrt{\dfrac{(b_1-b_2)^2(m^2+1)}{(m^2+1)^2}} \\
     \therefore d(P,Q) &= \dfrac{|b_1 - b_2|}{\sqrt{m^2 + 1}}
 \end{align*}
 $$
@@ -582,7 +594,7 @@ Assim como retas, também podemos representar circunferências por equações. D
 
 $$
 \begin{cases}
-    x = x_0 + r \cos{t} \\\\
+    x = x_0 + r \cos{t} \\
     y = y_0 + r \sin{t}
 \end{cases}
 $$
@@ -675,9 +687,9 @@ $$
 
 $$
 \begin{align*}
-    \vec{CP} \cdot \vec{AP} &= 0 \\\\
-    \therefore (x_1-x_0)(x_1-a_1) + (y_1-y_0)(y_1-a_2) + (z_1-z_0)(z_1-a_3) &= 0 \\\\
-    \therefore x_1^2 - a_1x_1 - x_0x_1 + a_1x_0 + y_1^2 - y_1a_2 - y_0y_1 + y_0a_2 + z_1^2 - z_1a_3 - z_0z_1 + z_0a_3 &= 0 \\\\
+    \vec{CP} \cdot \vec{AP} &= 0 \\
+    \therefore (x_1-x_0)(x_1-a_1) + (y_1-y_0)(y_1-a_2) + (z_1-z_0)(z_1-a_3) &= 0 \\
+    \therefore x_1^2 - a_1x_1 - x_0x_1 + a_1x_0 + y_1^2 - y_1a_2 - y_0y_1 + y_0a_2 + z_1^2 - z_1a_3 - z_0z_1 + z_0a_3 &= 0 \\
     (x_0 - x_1)a_1 + (y_0 - y_1)a_2 + (z_0 - z_1)a_3 + ||P||^2 - \langle C, P\rangle &= 0 
 \end{align*}
 $$
@@ -702,9 +714,9 @@ Para encontrar o ponto procurado, precisamos solucionar o sistema de equações 
 
 $$
 \begin{cases}
-    Ax + By + Cz + D = 0 \\\\ 
-    x = x_0 + tA \\\\
-    y = y_0 + tB \\\\ 
+    Ax + By + Cz + D = 0 \\ 
+    x = x_0 + tA \\
+    y = y_0 + tB \\ 
     z = z_0 + tC 
 \end{cases}
 $$
@@ -713,10 +725,10 @@ Substituindo as três últimas equações na primeira equação e resolvendo par
 
 $$
 \begin{align*}
-    A(x_0 + tA) + B(y_0 + tB) + C(z_0 + tC) + D &= 0 \\\\
-    \therefore Ax_0 + tA^2 + By_0 + tB^2 + Cz_0 + tC^2 + D &= 0 \\\\
-    \therefore t(A^2 + B^2 + C^2) &= -Ax_0 - By_0 - Cz_0 - D \\\\
-    \therefore t \langle \vec{v}, \vec{v} \rangle &= -(Ax_0 + By_0 + Cz_0 + D) \\\\
+    A(x_0 + tA) + B(y_0 + tB) + C(z_0 + tC) + D &= 0 \\
+    \therefore Ax_0 + tA^2 + By_0 + tB^2 + Cz_0 + tC^2 + D &= 0 \\
+    \therefore t(A^2 + B^2 + C^2) &= -Ax_0 - By_0 - Cz_0 - D \\
+    \therefore t \langle \vec{v}, \vec{v} \rangle &= -(Ax_0 + By_0 + Cz_0 + D) \\
     \therefore t &= \dfrac{-(\langle \vec{v}, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle}
 \end{align*}
 $$
@@ -725,9 +737,9 @@ Substituindo $t$ nas equações paramétricas da perpendicular, obtemos o ponto 
 
 $$
 \begin{align*}
-    x_I &= \dfrac{x_0 \langle \vec{v}, \vec{v} \rangle - A(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\\\
-    y_I &= \dfrac{y_0 \langle \vec{v}, \vec{v} \rangle - B(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\\\
-    z_I &= \dfrac{z_0 \langle \vec{v}, \vec{v} \rangle - C(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\\\
+    x_I &= \dfrac{x_0 \langle \vec{v}, \vec{v} \rangle - A(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\
+    y_I &= \dfrac{y_0 \langle \vec{v}, \vec{v} \rangle - B(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\
+    z_I &= \dfrac{z_0 \langle \vec{v}, \vec{v} \rangle - C(\langle v, P \rangle + D)}{\langle \vec{v}, \vec{v} \rangle} \\
 \end{align*}
 $$
 
@@ -735,9 +747,9 @@ Assim, pela expressão da distância entre dois pontos:
 
 $$
 \begin{align*}
-    d(P, I) &= \sqrt{\dfrac{A^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2} + \dfrac{B^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2} + \dfrac{C^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2}} \\\\
-    d(P, I) &= \sqrt{\dfrac{(A^2 + B^2 + C^2)(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2}} \\\\
-    d(P, I) &= \sqrt{\dfrac{(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle}} \\\\
+    d(P, I) &= \sqrt{\dfrac{A^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2} + \dfrac{B^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2} + \dfrac{C^2(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2}} \\
+    d(P, I) &= \sqrt{\dfrac{(A^2 + B^2 + C^2)(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle^2}} \\
+    d(P, I) &= \sqrt{\dfrac{(\langle \vec{v}, P \rangle + D)^2}{\langle \vec{v}, \vec{v} \rangle}} \\
     d(P, I) &= \dfrac{|\langle \vec{v}, P \rangle + D|}{||\vec{v}||}
 \end{align*}
 $$
