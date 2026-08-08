@@ -39,7 +39,7 @@ $$
 
 ## Operações com matrizes
 
-Dentro do conjunto $M_{m \times n} (\mathbb{R})$ estão definidas algumas operações, sendo elas <b>adição</b>, <b>multiplicação por um número real (escalar)</b> e a <b>multiplicação entre duas matrizes</b>. Antes de descrevermos essas operações, pode ser interessante destacar que duas matrizes $A$ e $B$ são iguais se, e somente se, seus elementos são iguais.
+Dentro do conjunto $M_{m \times n} (\mathbb{R})$ estão definidas algumas operações, sendo elas <b>adição</b>, <b>multiplicação por um número real (escalar)</b> e a <b>multiplicação entre duas matrizes</b>. Antes de descrevermos como essas operações são usualmente definidas, pode ser interessante destacar que duas matrizes $A$ e $B$ são iguais se, e somente se, seus elementos são iguais.
 
 ### Adição
 
@@ -773,9 +773,9 @@ A unicidade segue da unicidade da matriz inversa.
 
 # Cadeias de Markov 
 
-Um <b>processo de Markov</b> é um modelo probabilístico para sistemas que podem assumir um estado dentro vários e que a transição de um estado para outro é probabilística, regida por uma <b>matriz de transição</b>. 
+Um <b>processo de Markov</b> é um modelo probabilístico para sistemas que podem assumir um dentre vários estados e que a transição de um estado para outro é probabilística, regida por uma <b>matriz de transição</b>. 
 
-Um componente chave de um processo markoviano é o chamado <b>vetor de probabilidades</b>, uma matriz coluna em que cada entrada armazena a probabilidade do sistema assumir um estado num dado tempo. Além disso, a sequência anterior de estados não influencia na sequência de estados futuros: sistemas que contém essa influência são não-markovianos, possuindo uma característica chamada <b>memória</b>.
+Um componente chave de um processo markoviano é o chamado <b>vetor de probabilidades</b>, uma matriz coluna em que cada entrada armazena a probabilidade do sistema assumir um estado num dado tempo. Além disso, a sequência anterior de estados não influencia na sequência de estados futuros: sistemas que contêm essa influência são não-markovianos, possuindo uma característica chamada <b>memória</b>.
 
 Convém delimitar de forma clara a diferença entre um processo de Markov (o modelo matemático) e as <b>cadeias de Markov</b>, as sequências de estados produzidas por processos markovianos.
 
@@ -931,7 +931,7 @@ que possui como soluções $p_c = \dfrac{2}{5}$ e $p_s = \dfrac{3}{5}$. Conseque
 
 Uma aplicação interessante dos processos de Markov é o estudo de problemas que envolvam a genética. Com efeito, podemos modelar a evolução genética de uma população através de uma adaptação probabilística do quadro de Punnett.
 
-Como exemplo, vamos representar por $G$ o gene dominante e por $g$ o gene recessivo. Pelos nossos conhecimentos de genética mendeliana, definimos invidíduos $GG$ como dominantes neste alelo, híbridos se foram $Gg$ e recessivos caso $gg$.
+Como exemplo, vamos representar por $G$ o gene dominante e por $g$ o gene recessivo. Pelos nossos conhecimentos de genética mendeliana, definimos indivíduos $GG$ como dominantes neste alelo, híbridos se forem $Gg$ e recessivos caso $gg$.
 
 Ao escrever o quadro de Punnett de cada um dos possíveis cruzamentos ($GG \times GG$, $gg \times gg$, ...) e calcular as probabilidades dos alelos genéticos resultantes (da prole), podemos construir a tabela abaixo (denotando indivíduos dominantes por $d$, recessivos por $r$ e híbridos por $h$).
 
