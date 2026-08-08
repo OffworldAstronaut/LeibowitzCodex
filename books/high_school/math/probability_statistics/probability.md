@@ -36,7 +36,7 @@ $$
 P(\{a_i\})=\dfrac{1}{n}, \forall i
 $$
 
-Com $n$ sendo o número de elementos do espaço amostral $(|\Omega|)$. 
+com $n$ sendo o número de elementos do espaço amostral $(|\Omega|)$. 
 
 Por conta disso, podemos calcular a possibilidade de um dado evento acontecer pela fração
 
