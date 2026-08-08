@@ -64,7 +64,7 @@ Dessa propriedade temos um outro fato que é, também, bem importante: a soma da
 
 <aside>
 
-<b>2ª propriedade (Limitação)</b> — A <b>probabilidade</b> de <b>qualquer evento</b> é sempre maior ou igual a 0 e menor ou igual a 1. Já que o subconjunto pode ter nenhum elemento ($$, vazio) ou ter todos os elementos ($\Omega$). Numericamente, podemos escrever $0 \le P(A) \le 1$, com $A$ sendo um evento qualquer. 
+<b>2ª propriedade (Limitação)</b> — A <b>probabilidade</b> de <b>qualquer evento</b> é sempre maior ou igual a 0 e menor ou igual a 1. Já que o subconjunto pode ter nenhum elemento ($\phi$, vazio) ou ter todos os elementos ($\Omega$). Numericamente, podemos escrever $0 \le P(A) \le 1$, com $A$ sendo um evento qualquer. 
     
 </aside>
 
