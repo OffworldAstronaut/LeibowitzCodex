@@ -49,6 +49,7 @@ S(f, P, \{c_i\}^n_{i=1}) = \sum_{i=1}^nf(c_i) \cdot \Delta t_i
 $$
 
 onde $\Delta t_i = t_i - t_{i-1}$
+
 </aside>
 
 ![](https://upload.wikimedia.org/wikipedia/commons/1/19/Riemann_sum_%28leftbox%29.gif)
@@ -83,10 +84,10 @@ Assim, dadas funções $f,g:[a,b] \rightarrow \mathbb{R}$  integráveis, temos q
 
 $$
 \begin{align*}
-    \int_a^bf(x)+g(x) \ dx &= \int_a^b f(x) \ dx + \int_a^b g(x) \ dx \\\\
-    \int_a^b kf(x) \ dx &= k \int_a^b f(x) \ dx, k \in \mathbb{R} \\\\ 
-    f(x) \ge 0, \forall x \in [a,b] &\Rightarrow \int_a^b f(x) \ dx \ge 0 \\\\ 
-    c \in [a,b] &\Rightarrow \int_a^c f(x) \ dx + \int_c^b f(x) \ dx
+    \int_a^bf(x)+g(x) \ dx &= \int_a^b f(x) \ dx + \int_a^b g(x) \ dx \\
+    \int_a^b kf(x) \ dx &= k \int_a^b f(x) \ dx, k \in \mathbb{R} \\ 
+    f(x) \ge 0, \forall x \in [a,b] &\implies \int_a^b f(x) \ dx \ge 0 \\ 
+    c \in [a,b] &\implies \int_a^c f(x) \ dx + \int_c^b f(x) \ dx
 \end{align*}
 $$
 
@@ -94,9 +95,45 @@ Além disso, temos que toda função <b>contínua</b> é <b>integrável</b>, emb
 
 # Calculando integrais
 
-Até aqui, conseguimos definir integrais, operações que nos fornecem a área sob o gráfico de uma determinada função, mas não temos ainda um método eficiente de calculá-las: seguir a definição de Riemann seria um trabalho descomunalmente intensivo. 
+Até aqui, conseguimos definir integrais, operações que nos fornecem a área sob o gráfico de uma determinada função. Nesta seção, iremos nos concentrar em aprender como podemos <b>calcular</b> de fato estas integrais.
 
-Dessa forma, vamos introduzir alguns conceitos, a saber os conceitos de <b>primitivas</b> e por fim o <b>Teorema Fundamental do Cálculo</b>, que irão nos ajudar a calcular integrais de maneiras um pouco mais rápidas. 
+Dessa forma, iremos primeiro apresentar como podemos calcular a integral de uma função por uma soma de Riemann e, em seguida, introduzir o conceito de <b>função primitiva</b> e, finalmente, o <b>teorema fundamental do Cálculo</b>.
+
+## Soma de Riemann
+
+Podemos calcular a integral de uma função a partir da definição pelo processo da <b>soma de Riemann</b>. Embora seja excessivamente laborioso, é útil reproduzirmos este processo aqui por questões de aprendizado e solidifificação conceitual. Qual seria o valor da integral a seguir? 
+
+$$
+\int_{0}^{1} x^2 \ dx 
+$$
+
+Seguindo o processo da soma de Riemann, podemos fazer uma aproximação inicial dividindo o intervalo de integração em dez partes. Dessa forma, cada retângulo terá como base uma dimensão de $\dfrac{1 - 0}{10} = \dfrac{1}{10}$. Tomando os $c_i$ como os valores mais a direita das partições, teremos a seguinte aproximação para a integral: 
+
+$$
+S = 0.1(0.1^2 + 0.2^2 + 0.3^2 + \dots + 1^2) = 0.385
+$$
+
+E num caso mais geral? E se quisessemos encontrar uma expressão para $n$ partições? Conforme  discorrido anteriormente, esta decisão é útil para encontrar de fato o valor da integral, e não apenas uma aproximação.
+
+Perceba que ao subdividirmos o intervalo de integração em $n$ subintervalos, cada partição terá como norma $\dfrac{1}{n}$. Tomando assim nossos $c_i$ como os valores mais a direita das partições, como anteriormente, teremos que $c_i = \dfrac{i}{n}$ e, consequentemente, $f(c_i) = \left(\dfrac{i}{n}\right)^2$. 
+
+Portanto, a soma de Riemann para esta integral torna-se: 
+
+$$
+\begin{align*}
+  \sum_{i=1}^n \dfrac{1}{n} \dfrac{i^2}{n^2} &= \dfrac{1}{n^3} \sum_{i=1}^n i^2 \\ 
+  \therefore \sum_{i=1}^n \dfrac{1}{n} \dfrac{i^2}{n^2} &= \dfrac{1}{n^3} \dfrac{2n^3+3n^2 + n}{6} \\ 
+  \therefore \sum_{i=1}^n \dfrac{1}{n} \dfrac{i^2}{n^2} &= \dfrac{2 + \dfrac{3}{n} + \dfrac{1}{n^2}}{6}
+\end{align*}
+$$
+
+Tomando o limite dessa soma quando $n \to \infty$, obtemos: 
+
+$$
+\lim_{n \to \infty} \left(\dfrac{2 + \dfrac{3}{n} + \dfrac{1}{n^2}}{6}\right) = \dfrac{1}{3}
+$$
+
+Que é de fato o valor da integral $\int_{0}^1 x^2 \ dx$. 
 
 ## Primitivas
 
@@ -104,7 +141,7 @@ Definimos <b>primitivas</b>, também conhecidas como <b>antiderivadas</b>, da se
 
 <aside>
 
-<b>Definição (primitiva de fuma função)</b> — Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ uma função. Uma <b>primitiva</b> de $f$ é uma função $F: \mathbb{R} \rightarrow \mathbb{R}$ derivável tal que $F'(X) = f(x)$.
+<b>Definição (primitiva de uma função)</b> — Seja $f: \mathbb{R} \rightarrow \mathbb{R}$ uma função. Uma <b>primitiva</b> de $f$ é uma função $F: \mathbb{R} \rightarrow \mathbb{R}$ derivável tal que $F'(X) = f(x)$.
 
 </aside>
 
@@ -116,8 +153,8 @@ Uma consequência imediata dessa definição é a constatação de que <b>se uma
 
 $$
 \begin{align*}
-    F'(x) &= G'(x) \\
-    F'(x)-G'(x) &= 0 \\
+    \therefore F'(x) &= G'(x) \\
+    \therefore F'(x)-G'(x) &= 0 \\
     (F-G)'(x) &= 0
 \end{align*}
 $$
@@ -144,9 +181,9 @@ Por fim, é importante ter em mente outro teorema importante: <b>toda função c
 
 $$
 \begin{align}
-  F'(x)&=\lim_{h \rightarrow 0} \dfrac{F(x+h)-F(x)}{h} \\ 
-  &= \lim_{h \rightarrow 0}\dfrac{\int  _a^{x+h} f(t) \ dt - \int_{a}^x f(t) \ dt}{h} \\ 
-  &= \lim_{h \rightarrow 0} \dfrac{\int_x^{x+h} f(t) \ dt}{h}
+  F'(x) &=\lim_{h \rightarrow 0} \dfrac{F(x+h)-F(x)}{h} \\ 
+  \therefore F'(x) &= \lim_{h \rightarrow 0}\dfrac{\int  _a^{x+h} f(t) \ dt - \int_{a}^x f(t) \ dt}{h} \\ 
+  \therefore F'(x) &= \lim_{h \rightarrow 0} \dfrac{\int_x^{x+h} f(t) \ dt}{h}
 \end{align}
 $$
 
@@ -160,6 +197,90 @@ Podemos afirmar essa última igualdade em razão da afirmação que $f$ é uma f
 
 Quando $h \rightarrow 0$, o intervalo se estreita e colocamos $c$ arbitrariamente próximo de $x$. Como $f$ é contínua, $\lim_{c \rightarrow x} f(c)=f(x)$.
 Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
+
+</aside>
+
+## O teorema fundamental do Cálculo
+
+O <b>teorema fundamental do Cálculo</b>, geralmente dividido em duas partes, é de fato um dos resultados mais importantes da análise real. Esta conclusão matemática unifica o chamado "cálculo diferencial" com o "cálculo integral", estabelecendo que a derivação e a integração são como operações inversas.
+
+<aside>
+
+<b>Lema</b> — Seja $f: [a, b] \to \mathbb{R}$ e $F: [a, b] \to \mathbb{R}$ uma primitiva de $f$. Além disso, seja $P: a = t_0 \lt t_1 \lt t_2 \lt \dots \lt t_n = b$ uma partição de $[a,b]$. 
+
+Logo, existe uma escolha conveniente para os $c_i$, denotados por $\bar{c_i}$, em $[t_{i-1}, t_{i}]$, de forma que 
+
+$$
+F(b) - F(a) = \sum_{i = 1}^n f(\bar{c_i}) \cdot \Delta t_i
+$$
+
+com $\Delta t_i = t_i - t_{i-1}$. 
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Inicialmente, sabemos que: 
+
+$$
+F(b) - F(a) = \sum_{i = 1}^{n} \left[F(t_i) - F(t_{i-1})\right]
+$$
+
+Assim, pelo TVM, sabemos que existem $\bar{c_i}$ em $[t_{i-1}, t_i]$ de forma que: 
+
+$$
+F(x_i) - F(x_{i-1}) = F'(\bar{c_i})(t_i - t_{i-1})
+$$
+
+como $F$ é primitiva de $f$ e $\Delta t_i = t_i - t_{i-1}$, temos 
+
+$$
+F(b) - F(a) = \sum_{i=1}^{n} f(\bar{c_i}) \Delta t_i 
+$$
+
+</aside>
+
+<aside>
+
+<b>Teorema (fundamental do Cálculo, parte I)</b> — Seja $f: [a, b] \to \mathbb{R}$ integrável e $F(x)$ sua primitiva. Logo, 
+
+$$
+\int_{a}^{b} f(x) \ dx = F(b) - F(a)
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Pelo lema anterior, sabemos que para uma partição $P$ qualquer de $[a,b]$, há uma escolha conveniente de $\bar{c_i}$ em cada subintervalo de forma que 
+
+$$
+F(b) - F(a) = \sum_{i = 1}^{n} f(\bar{c_i}) \Delta t_i
+$$
+
+Assim, ao escolhermos $\bar{c_i}$ conforme essa escolha conveniente para <b>todas</b> as partições de $P$, é válido que 
+
+$$
+\lim_{|P| \to 0} \sum_{i = 1} f(\bar{c_i}) \cdot \Delta t_i = F(b) - F(a)
+$$
+
+e, portanto, 
+
+$$
+\int_{a}^{b} f(x) \ dx = F(b) - F(a)
+$$
+
+Como uma nota final, é importante mencionar que toda função contínua é integrável, além de possuir primitiva.
+
+</aside>
+
+<aside>
+
+<b>Teorema (fundamental do Cálculo, parte II)</b> — Seja $g: I \to \mathbb{R}$, com $I \subset \mathbb{R}$, contínua e $a \in I$ fixo. Assim, para cada $x \in I$, $\int_{a}^{x} g(x) \ dx$ existe. Além disso, $\int_{a}^{x} g(x) \ dx$ é uma primitiva de $g(x)$, isto é, vale 
+
+$$
+\dfrac{d}{dx} \int_{a}^{x} g(x) \ dx = g(x)
+$$
 
 </aside>
 
@@ -179,9 +300,9 @@ Podemos adaptar o <b>teorema do valor médio</b>, originalmente definido para a 
 
 $$
 \begin{align*}
-  &\Rightarrow m \cdot \phi(x) \le f(x) \cdot \phi(x) \le M \cdot \phi(x) \\
-  &\Rightarrow \int_a^b m \cdot \phi(x) \ dx \le \int_a^b f(x) \cdot \phi (x) \ dx \le \int_a^b M \cdot \phi(x) \ dx \\ 
-  &\Rightarrow m \int_a^b \phi(x) \ dx \le \int_a^b f(x) \cdot \phi(x) \ dx \le M \cdot \int_a^b \phi (x) \ dx
+  m \cdot \phi(x) \le f(x) \cdot \phi(x) \le M \cdot \phi(x) \\
+  &\implies \int_a^b m \cdot \phi(x) \ dx \le \int_a^b f(x) \cdot \phi (x) \ dx \le \int_a^b M \cdot \phi(x) \ dx \\ 
+  &\implies m \int_a^b \phi(x) \ dx \le \int_a^b f(x) \cdot \phi(x) \ dx \le M \cdot \int_a^b \phi (x) \ dx
 \end{align*}
 $$
 
@@ -189,8 +310,8 @@ Substituindo $\int_{a}^{b} \phi(x) \ dx = I$ por brevidade, encontramos:
 
 $$ 
 \begin{align*}
-m \cdot I \le \int_a^b f(x) \cdot \phi(x) \ dx \le M \cdot I \\
-m \le \dfrac{\int_a^b f(x) \cdot \phi(x) \ dx}{I} \le M
+  m \cdot I \le \int_a^b f(x) \cdot \phi(x) \ dx \le M \cdot I \\
+  m \le \dfrac{\int_a^b f(x) \cdot \phi(x) \ dx}{I} \le M
 \end{align*}
 $$
 
@@ -201,7 +322,7 @@ Por fim, pelo teorema do valor intermediário regular, concluímos que $\exists 
 Uma interessante interpretação geométrica é possível quando $\phi(x) = 1$. 
 
 $$ 
-\phi(x) = 1 \Rightarrow \int_{a}^{b} f(x) \ dx = f(c)(b-a)
+\phi(x) = 1 \implies \int_{a}^{b} f(x) \ dx = f(c)(b-a)
 $$
 
 Calcular essa última expressão é o equivalente de encontrar a área do retângulo com base no tamanho dos limites de integração e da altura $f(c)$, além de demonstrarmos que a área desse retângulo possui a mesma área que a integral da função. 
