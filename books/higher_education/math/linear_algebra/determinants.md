@@ -343,39 +343,6 @@ $$
 
 como $\det{A'}$ é facilmente calculado e os determinantes das matrizes elementares são conhecidos, basta efetuar a razão para encontrar $\det{A}$. 
 
-# Matrizes adjuntas
-
-Dada uma matriz $A \in M_{n \times n} (\mathbb{R})$ de entradas $(a_{ij})$, com o cofator do elemento $(a_{ij})$ denotado por $(A_{ij})$, temos que a matriz 
-
-$$
-\text{Adj}(A) = 
-\begin{pmatrix}
-    A_{11} & A_{21} & ... & A_{n1} \\ 
-    A_{12} & A_{22} & ... & A_{n2} \\ 
-    ... & ... & ... & ... \\ 
-    A_{1n} & A_{2n} & ... & A_{nn}
-\end{pmatrix}
-$$
-
-isto é, a transposta da matriz dos cofatores de $A$, é chamada <b>adjunta de $A$</b>. 
-Curiosamente, temos que vale sempre a igualdade 
-
-$$
-A(\text{Adj}(A)) = (\text{Adj}(A))A = (\det{A}) \cdot I_n
-$$
-
-que, consequentemente, motiva o teorema a seguir. 
-
-<aside>
-
-<b>Teorema</b> — Uma matriz quadrada $A$ de determinante não-nulo é inversível e sua inversa é dada por 
-
-$$
-A^{-1} = \dfrac{1}{\det{A}}\text{Adj}(A)
-$$
-
-</aside>
-
 ## Regra de Sarrus
 
 Para matrizes quadradas de ordem 3, uma forma rápida para o cálculo de seus determinantes existem, a <b>regra de Sarrus</b>, nomeada em homenagem ao matemático francês Pierre Fréderic Sarrus. 
@@ -405,19 +372,143 @@ Agora, para encontrar o determinante, é preciso somar os produtos das diagonais
 Assim, o determinante da matriz é 
 
 $$
-\left|
-\begin{matrix}
+\begin{vmatrix}
     a & b & c \\ 
     d & e & f \\ 
     g & h & i
-\end{matrix}
-\right|
+\end{vmatrix}
 = aei + bfg + cdh - gec - hfa - idb
 $$
 
 esse determinismo permite uma rápida implementação em algoritmo, evitando todos os trabalhos com cofatores, por exemplo. 
 
-# Regra de Cramer
+## Método de Chió 
+
+O <b>método de Chió</b>, também conhecido por <b>regra de Chió</b>, nomeado em homenagem ao matemático e político italiano Felice Chió (1813-1871), é um método para calcular determinantes de matrizes de ordem $n$. 
+
+Dada uma matriz $A$ qualquer de ordem $n$, devemos construir uma outra matriz $B = [b_{ij}]$ de ordem $n-1$ de forma que 
+
+$$
+b_{ij} = a_{11}a_{i+1, j+1} - a_{1, j+1} a_{i+1, 1}
+$$
+
+ou, alternativamente, 
+
+$$
+b_{ij} = 
+\begin{vmatrix}
+  a_{11} & a_{1, j+1} \\ 
+  a_{i+1, 1} & a_{i+1, j+1}
+\end{vmatrix}
+$$
+
+Consequentemente, pode ser demonstrado que:
+
+$$
+\det{A} = \dfrac{\det{B}}{a_{11}^{n-2}}
+$$
+
+Ou então, explicitando a matriz $B$, podemos escrever: 
+
+$$
+\det{A} = \dfrac{1}{a_{11}^{n-2}} 
+\begin{vmatrix}
+  \begin{vmatrix}
+    a_{11} & a_{12} \\ 
+    a_{21} & a_{22}
+  \end{vmatrix}
+  & 
+  \begin{vmatrix}
+    a_{11} & a_{13} \\ 
+    a_{21} & a_{23} \\ 
+  \end{vmatrix}
+  & 
+  \dots 
+  & 
+  \begin{vmatrix}
+    a_{11} & a_{1n} \\ 
+    a_{21} & a_{2n}
+  \end{vmatrix} \\ 
+
+  \begin{vmatrix}
+    a_{11} & a_{12} \\ 
+    a_{31} & a_{32}
+  \end{vmatrix}
+  & 
+  \begin{vmatrix}
+    a_{11} & a_{13} \\ 
+    a_{31} & a_{33} \\ 
+  \end{vmatrix}
+  & 
+  \dots 
+  & 
+  \begin{vmatrix}
+    a_{11} & a_{12} \\ 
+    a_{n1} & a_{n2}
+  \end{vmatrix} \\ 
+  \vdots & \vdots & \ddots & \vdots \\ 
+  \begin{vmatrix}
+    a_{11} & a_{13} \\ 
+    a_{n1} & a_{n3}
+  \end{vmatrix}
+  &
+  \begin{vmatrix}
+    a_{11} & a_{1n} \\ 
+    a_{21} & a_{2n}
+  \end{vmatrix}
+  & 
+  \dots 
+  & 
+  \begin{vmatrix}
+    a_{11} & a_{1n} \\ 
+    a_{n1} & a_{nn}
+  \end{vmatrix}
+\end{vmatrix}
+$$
+
+Este método é útil para a simplificação de matrizes volumosas em diversos determinantes de matriz de ordem 2, cujo cálculo é consideravelmente mais direto.
+
+# Matrizes adjuntas
+
+Dada uma matriz $A \in M_{n \times n} (\mathbb{R})$ de entradas $(a_{ij})$, com o cofator do elemento $(a_{ij})$ denotado por $(c_{ij})$, temos que a matriz 
+
+$$
+\text{Adj}(A) = 
+\begin{pmatrix}
+    c_{11} & c_{12} & \dots & c_{1n} \\ 
+    c_{21} & c_{22} & \dots & c_{2n} \\ 
+    \vdots & \vdots & \ddots & \vdots \\ 
+    c_{n1} & c_{n2} & \dots & c_{nn}
+\end{pmatrix}^T
+= 
+\begin{pmatrix}
+    c_{11} & c_{21} & \dots & c_{n1} \\ 
+    c_{12} & c_{22} & \dots & c_{n2} \\ 
+    \vdots & \vdots & \ddots & \vdots \\ 
+    c_{1n} & c_{2n} & \dots & c_{nn}
+\end{pmatrix}
+$$
+
+isto é, a transposta da matriz dos cofatores de $A$, é chamada <b>adjunta de $A$</b>. 
+Curiosamente, temos que vale sempre a igualdade 
+
+$$
+A(\text{Adj}(A)) = (\text{Adj}(A))A = (\det{A}) \cdot I_n
+$$
+
+que, consequentemente, motiva o teorema a seguir. 
+
+<aside>
+
+<b>Teorema</b> — Uma matriz quadrada $A$ de determinante não-nulo é inversível e sua inversa é dada por 
+
+$$
+A^{-1} = \dfrac{1}{\det{A}}\text{Adj}(A)
+$$
+
+</aside>
+
+## Regra de Cramer
 
 Agorta, munidos com esses novos conceitos, podemos nos debruçar sobre a Regra de Cramer. Foi visto anteriormente que um sistema de Cramer, em sua forma matricial $AX = B$ possui como solução a matriz $X = A^{-1}B$. Levando em conta o resultado do teorema anterior, podemos concluir que 
 
@@ -429,3 +520,4 @@ $$
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.
 2. Website da iniciação científica de Alfredo Vitorino, IMECC-UNICAMP, <i>Álgebra Linear e Aplicações</i>. (<a href="https://www.ime.unicamp.br/~marcia/AlgebraLinear/index.html" target="_blank">Acesse aqui</a>)
+3. Artigo <i>Chió Pivotal Condensation</i> do portal <i>Wolfram MathWorld</i> (<a href="https://mathworld.wolfram.com/ChioPivotalCondensation.html">Acesse aqui</a>).
