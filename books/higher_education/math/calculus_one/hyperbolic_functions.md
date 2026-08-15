@@ -26,7 +26,7 @@ $$
     \text{cotgh }x &= \dfrac{1}{\tanh{x}}
 \end{align*} 
 $$
-<!-- Aqui você tinha feito "ctgh", sendo que no resto do texto fez "cotgh". Tente manter somente uma. -->
+
 Além disso, valem as propriedades a seguir. 
 
 $$

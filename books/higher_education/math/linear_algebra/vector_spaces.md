@@ -113,7 +113,7 @@ $$
 $$
 \dim{(U + V)} = \dim{U} + \dim{V} - \dim{(U \cap V)}
 $$
-<!-- Olha só, é exatamente como é a probabilidade da união de dois eventos não mutuamente excludentes! -->
+<!-- Olha só, é exatamente como é a probabilidade da união de dois eventos não mutuamente excludentes! Isso está relacionado ao conceito de medida -->
 
 ## Bases ordenadas e mudança de base
 

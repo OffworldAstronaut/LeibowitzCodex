@@ -447,7 +447,7 @@ $$
 
 Chamamos “assíntotas oblíquas” as assíntotas cuja equação reduzida possui ambos os coeficientes (linear e angular) não nulos. 
 
-Uma função possui assíntota oblíqua se for racional — ou seja, no formato $f(x)= \dfrac{g(x)}{h(x)}$, com $g(x)$ e $h(x)\neq0$ polinomial <!-- POLINÔMIOSA????--> —, e se $\text{Grau(g(x))} = \text{Grau(h(x))} +1$ . 
+Uma função possui assíntota oblíqua se for racional — ou seja, no formato $f(x)= \dfrac{g(x)}{h(x)}$, com $g(x)$ e $h(x)\neq0$ polinomial —, e se $\text{Grau(g(x))} = \text{Grau(h(x))} +1$ . 
 
 A equação da assíntota é o quociente da divisão entre os dois polinômios da função racional. 
 

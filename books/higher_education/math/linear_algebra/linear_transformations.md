@@ -46,16 +46,16 @@ Isto é — da primeira afirmação para a última —, vale que uma transforma�
 Dados dois espaços vetoriais $U$ e $V$ e uma transformação linear entre eles, definimos o <b>núcleo</b> dessa transformação como o conjunto de todos os elementos $u \in U$ tais que $F(u) = 0$. Em notação de conjuntos, escrevemos 
 
 $$
-\ker{F} = \\{u \in U | F(u) = 0\\}
+\ker{F} = \{{u \in U | F(u) = 0\}}
 $$
 
-Desta definição inicial decorre que o núcleo de uma transformação linear é um subespaço vetorial de $U$ e que $F$ é injetora se, e somente se, seu núcleo conter apenas o vetor nulo. 
+Desta definição inicial decorre que o núcleo de uma transformação linear é um subespaço vetorial de $U$ e que $F$ é injetora se, e somente se, seu núcleo conter apenas o vetor nulo. Vale mencionar que, além de $\ker{F}$, também é comum denotar o núcleo por $\text{Null}(F)$ ou $\text{N}(F)$.
 
 Um resultado interessante que pode ser extraído é o seguinte:
 
 <aside>
 
-<b>Teorema</b> — Dada uma transformação linear $T: U \to V$, é válido que $\dim{\ker{T}} \le \dim{U}$ e, ao mesmo tempo, é válido que $\dim{\text{Im}(T)} \le \min{\\{\dim{U}, \dim{V}\\}}$. 
+<b>Teorema</b> — Dada uma transformação linear $T: U \to V$, é válido que $\dim{\ker{T}} \le \dim{U}$ e, ao mesmo tempo, é válido que $\dim{\text{Im}(T)} \le \min{\{\dim{U}, \dim{V}\}}$. 
 
 </aside>
 
@@ -115,7 +115,7 @@ $$
 
 Esta soma é comutativa, associativa e possui elemento neutro. Além disso, podemos afirmar a existência da <b>transformação oposta</b> $(-F)$ tal que $F + (-F) = 0$. 
 
-Podemos ainda definir uma <b>multiplicação por escalar</b> entre $F \in L(U,V)$ e um $\alpha in \mathbb{R}$. O produto $\alpha F: U \to V$  é definido por 
+Podemos ainda definir uma <b>multiplicação por escalar</b> entre $F \in L(U,V)$ e um $\alpha \in \mathbb{R}$. O produto $\alpha F: U \to V$  é definido por 
 
 $$
 (\alpha F)(u) = \alpha F(u), \forall u \in U
@@ -133,7 +133,7 @@ $$
 
 Note que para esta transformação estar definida, é necessária a existência de três espaços vetoriais sobre $\mathbb{R}$ — $U$, $V$ e $W$ — tanto como a existência das transformações lineares $F: U \to V$ e $G: V \to W$. 
 
-No caso especial em que $U = V = W$, essa transformação composta se torna uma operação do conjunto $L(U)$, o conjunto de todos os operadores lineares do espaço $U$. Essa operação é associativa, distributiva e admite elemento neutro (chamado <b>operador idêntico</b>), valendo as relações para todo $H, G, F \in L(U)$:
+No caso especial em que $U = V = W$, essa transformação composta se torna uma operação do conjunto $L(U)$, o conjunto de todos os operadores lineares do espaço $U$. Essa operação é associativa, distributiva e admite elemento neutro (chamado <b>operador idêntico</b> ou <b> operador identidade</b>), valendo as relações para todo $H, G, F \in L(U)$:
 
 $$
 \begin{align*}
@@ -145,7 +145,7 @@ $$
 
 # Matriz de uma transformação
 
-Sejam $U$ e $V$ dois espaços vetoriais sobre $\mathbb{R}$ de dimensão finita. Além disso, sejam $B = \\{u_1, u_2, ..., u_n\\}$ e $C = \\{v_1, v_2, ..., v_m\\}$ bases de $U$ e $V$, respectivamente. 
+Sejam $U$ e $V$ dois espaços vetoriais sobre $\mathbb{R}$ de dimensão finita. Além disso, sejam $B = \{u_1, u_2, ..., u_n\}$ e $C = \{v_1, v_2, ..., v_m\}$ bases de $U$ e $V$, respectivamente. 
 
 Note que o vetor genérico $F(u) \in V$ pode ser escrito como $F$ aplicada a uma combinação linear dos vetores de $B$. 
 
@@ -246,7 +246,7 @@ bijetora e, portanto, um isomorfismo entre $L(U,V)$ e $M_{m \times n} (\mathbb{R
 
 ## Matriz de uma transformação composta 
 
-Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$ e bases $B = \\{u_1, u_2, ..., u_n\\}$, $C = \\{v_1, v_2, ..., v_m\\}$ e $D = \\{w_1, w_2, ..., w_p\\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à 
+Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$, respectivamente, e bases $B = \{u_1, u_2, ..., u_n\}$, $C = \{v_1, v_2, ..., v_m\}$ e $D = \{w_1, w_2, ..., w_p\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à 
 
 $$
 (G \circ F)_{B, D}
@@ -287,7 +287,7 @@ $$
 
 e, portanto, $I_n$ é a matriz do operador idêntico tanto de $U$ como de $V$.
 
-Destas conclusões podemos explorar um problema interessante. Considere um espaço vetorial $U$ sobre $\mathbb{R}$ de dimensão $n$ e duas bases deste espaço, $B = \\{u_1, u_2, ..., u_n\\}$ e $C = \\{v_1, v_2, ..., v_n\\}$. Considere ainda um operador linear de $U$, $T$. Dado duas matrizes $(T)_B$ e $(T)_C$, como relacioná-las por meio de uma expressão? Em outras palavras, como a matriz de um operador linear modifica-se ao considerarmos uma outra base, e como podemos obtê-la? 
+Destas conclusões podemos explorar um problema interessante. Considere um espaço vetorial $U$ sobre $\mathbb{R}$ de dimensão $n$ e duas bases deste espaço, $B = \{u_1, u_2, ..., u_n\}$ e $C = \{v_1, v_2, ..., v_n\}$. Considere ainda um operador linear de $U$, $T$. Dado duas matrizes $(T)_B$ e $(T)_C$, como relacioná-las por meio de uma expressão? Em outras palavras, como a matriz de um operador linear modifica-se ao considerarmos uma outra base, e como podemos obtê-la? 
 
 De início, sabemos que a matriz de mudança de base de $B$ para $C$ é da forma 
 
@@ -407,13 +407,15 @@ $$
 \neq 0
 $$
 
-Um outro conceito que pode ser transportado para a linguagem de matriz é o conceito de <b>núcleo</b>. Com efeito, definimos núcleo como o conjunto de vetores $x \in U$ tais que $Ax = 0$. Isto é, $\ker{A} = \\{x \in U | Ax = 0\\}$. 
+Um outro conceito que pode ser transportado para a linguagem de matriz é o conceito de <b>núcleo</b>. Com efeito, definimos núcleo como o conjunto de vetores $x \in U$ tais que $Ax = 0$. Isto é, $\ker{A} = \{x \in U | Ax = 0\}$. 
 
 Além disso, chamamos a dimensão do núcleo de $A$ de <b>nulidade</b> de $A$ e denotamos-a por $\text{nul }{A}$. Dessa forma, podemos novamente enunciar o <b>teorema do núcleo e da imagem</b>, visto acima, numa linguagem matricial. Assim, para uma matriz $A_{m \times n}$, 
 
 $$
 \text{nul }{A} + \text{posto }{A} = n
 $$
+
+sendo comum também encontrar na forma  $$\text{null}{(A)} + \text{rank}{(A)} = n$$ 
 
 De forma análoga, podemos expressar o outro teorema, que estabelece as condições mínimas para que subespaços sejam núcleos ou imagens de transformações lineares, numa linguagem matricial. 
 
@@ -441,7 +443,7 @@ Dado um espaço vetorial $U$ sobre $\mathbb{R}$, denominamos por <b>espaço dual
 
 Um exemplo interessante que nos estimula a pensar em técnicas que nos irão ajudar a validar um importante resultado é a forma geral de um funcional linear sobre $\mathbb{R}^n$. 
 
-Imagine uma forma linear $F$ sobre o $\mathbb{R}^n$. Seja então $\\{e_1, e_2, ..., e_n\\}$ a <b>base canônica</b> do $\mathbb{R}^n$, isto é, 
+Imagine uma forma linear $F$ sobre o $\mathbb{R}^n$. Seja então $\{e_1, e_2, ..., e_n\}$ a <b>base canônica</b> do $\mathbb{R}^n$, isto é, 
 
 $$
 \begin{align*}
@@ -498,7 +500,41 @@ $$
 \end{align*}
 $$
 
-e, portanto, o conjunto $\\{F_1, ..., F_n\\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
+e, portanto, o conjunto $\{F_1, ..., F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
+
+<!-- (acho interessantíssimo você colocar um texto semelhante a este, devido a relação direta com o assunto): -->
+
+<!-- Além disso, quando o espaço $U$ é munido de um produto interno, o Teorema da Representação de Riesz diz que todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
+
+$$
+F(u) = \langle v, u \rangle
+$$
+
+De fato, se $u = (x_1, ..., x_n)$ e $v = (k_1, ..., k_n)$, como mostrado acima, $$F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n$$
+
+Ou seja, em um espaço com produto interno, cada funcional linear é identificado por um vetor do próprio espaço.
+
+Assim, dada a base canônica mencionada acima, os funcionais que extraem as coordenadas de um vetor $u$ são
+
+$$
+F_i(u) = \langle e_i, u \rangle
+$$
+
+Em notação de <b>bras</b> e <b>kets</b>, introduzida por Paul Dirac, escrevemos $\lvert u \rangle$ (ket) para o vetor e $\langle v \rvert$ (bra) para o funcional linear. Dessa forma, a ação do funcional $\langle v \rvert$ sobre o vetor $\lvert u \rangle$ é denotada por
+
+$$
+F(u)= \langle v| \,(\rvert u \rangle)= \langle v, u \rangle
+$$
+
+que pode ser comprimida para 
+$$
+\langle v\rvert u \rangle = \langle v, u \rangle
+$$
+relação esta que é extensivamente utilizada na <b>mecânica quântica</b>. É digno de nota, também, mencionar que o bra $\langle v \rvert$ é dito dual do ket $\lvert v \rangle$, de modo que 
+$$
+\langle v\rvert=\lvert v \rangle^\dagger
+$$ 
+em que $^\dagger$ (lê-se "adaga") é a operação de transpôr e conjugar o vetor, que no caso de vetores $\in \mathbb{R}^n$ é equivalente a somente aplicar a transposta na representação matricial.-->
 
 # Referências
 
