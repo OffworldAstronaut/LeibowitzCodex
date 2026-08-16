@@ -757,7 +757,7 @@ $$
 Suponha então uma solução qualquer desta mesma equação, $x = x(t)$. Como consequência, temos que $x(t) - x_P(t)$ é solução da homogênea associada, pois é válido que 
 
 $$
-\dfrac{d^2}{dt^2}[x(t) - x_P(t)] + b\dfrac{d}{dt}[x(t) - x_P(t)] + c[x(t) - x_P(t)] = [\dfrac{d^2 x}{dt^2} + b\dfrac{dx}{dt} + cx(t)] - [\dfrac{d^2x_P}{dt^2} + b\dfrac{dx_P}{dt} + cx_P] = f(t) - f(t) = 0
+\dfrac{d^2}{dt^2}[x(t) - x_P(t)] + b\dfrac{d}{dt}[x(t) - x_P(t)] + c[x(t) - x_P(t)] = \left[\dfrac{d^2 x}{dt^2} + b\dfrac{dx}{dt} + cx(t)\right] - \left[\dfrac{d^2x_P}{dt^2} + b\dfrac{dx_P}{dt} + cx_P\right] = f(t) - f(t) = 0
 $$
 
 Por outro lado, se $x = x(t), t \in I$ for tal que $x(t) - x_P(t)$ é solução da homogênea correspondente, $x = x(t)$ será solução da equação de segunda ordem. Isto pode ser demonstrado da seguinte maneira: 

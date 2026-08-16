@@ -145,26 +145,26 @@ $$
 
 # Matriz de uma transformação
 
-Sejam $U$ e $V$ dois espaços vetoriais sobre $\mathbb{R}$ de dimensão finita. Além disso, sejam $B = \{u_1, u_2, ..., u_n\}$ e $C = \{v_1, v_2, ..., v_m\}$ bases de $U$ e $V$, respectivamente. 
+Sejam $U$ e $V$ dois espaços vetoriais sobre $\mathbb{R}$ de dimensão finita. Além disso, sejam $B = \{u_1, u_2, \dots, u_n\}$ e $C = \{v_1, v_2, \dots, v_m\}$ bases de $U$ e $V$, respectivamente. 
 
 Note que o vetor genérico $F(u) \in V$ pode ser escrito como $F$ aplicada a uma combinação linear dos vetores de $B$. 
 
 $$
 \begin{align*}
-    F(u) &= F(\beta_1u_1 + \beta_2u_2 + ... + \beta_nu_n) \\ 
-    \therefore F(u) &= F(\beta_1u_1) + F(\beta_2u_2) + ... + F(\beta_nu_n) \\ 
-    \therefore F(u) &= \beta_1 F(u_1) + \beta_2 F(u_2) + ... + \beta_n F(u_n)
+    F(u) &= F(\beta_1u_1 + \beta_2u_2 + \dots + \beta_nu_n) \\ 
+    \therefore F(u) &= F(\beta_1u_1) + F(\beta_2u_2) + \dots + F(\beta_nu_n) \\ 
+    \therefore F(u) &= \beta_1 F(u_1) + \beta_2 F(u_2) + \dots + \beta_n F(u_n)
 \end{align*}
 $$
 
-Como os vetores $F(u_1), F(u_2), ..., F(u_n)$ pertencem ao espaço $V$, estes podem ser escritos como combinações lineares dos vetores de $C$. 
+Como os vetores $F(u_1), F(u_2), \dots, F(u_n)$ pertencem ao espaço $V$, estes podem ser escritos como combinações lineares dos vetores de $C$. 
 
 $$
 \begin{align*}
-    F(u_1) &= \alpha_{11} v_1 + \alpha_{12} v_2 + ... + \alpha_{1m}v_m \\ 
-    F(u_2) &= \alpha_{21} v_1 + \alpha_{22} v_2 + ... + \alpha_{2m}v_m \\ 
-    ... \\ 
-    F(u_n) &= \alpha_{n1} v_1 + \alpha_{n2} v_2 + ... + \alpha_{nm}v_m
+    F(u_1) &= \alpha_{11} v_1 + \alpha_{12} v_2 + \dots + \alpha_{1m}v_m \\ 
+    F(u_2) &= \alpha_{21} v_1 + \alpha_{22} v_2 + \dots + \alpha_{2m}v_m \\ 
+    \dots \\ 
+    F(u_n) &= \alpha_{n1} v_1 + \alpha_{n2} v_2 + \dots + \alpha_{nm}v_m
 \end{align*}
 $$
 
@@ -173,7 +173,7 @@ Perceba então que, ao considerarmos o vetor formado pelas coordenadas do vetor 
 $$
 X =
 \begin{pmatrix}
-    \beta_1 \\ \beta_2 \\ ... \\ \beta_n 
+    \beta_1 \\ \beta_2 \\ \dots \\ \beta_n 
 \end{pmatrix}_{n \times 1}
 $$
 
@@ -181,10 +181,10 @@ podemos construir uma matriz
 
 $$
 \begin{pmatrix}
-    \alpha_{11} & \alpha_{21} & ... & \alpha_{n1} \\ 
-    \alpha_{12} & \alpha_{22} & ... & \alpha_{n2} \\ 
-    ... & ... & ... & ... \\ 
-    \alpha_{1m} & \alpha_{2m} & ... & \alpha_{nm}
+    \alpha_{11} & \alpha_{21} & \dots & \alpha_{n1} \\ 
+    \alpha_{12} & \alpha_{22} & \dots & \alpha_{n2} \\ 
+    \dots & \dots & \dots & \dots \\ 
+    \alpha_{1m} & \alpha_{2m} & \dots & \alpha_{nm}
 \end{pmatrix}_{m \times n}
 $$
 
@@ -192,43 +192,43 @@ de forma que
 
 $$
 \begin{pmatrix}
-    \alpha_{11} & \alpha_{21} & ... & \alpha_{n1} \\ 
-    \alpha_{12} & \alpha_{22} & ... & \alpha_{n2} \\ 
-    ... & ... & ... & ... \\ 
-    \alpha_{1m} & \alpha_{2m} & ... & \alpha_{nm}
+    \alpha_{11} & \alpha_{21} & \dots & \alpha_{n1} \\ 
+    \alpha_{12} & \alpha_{22} & \dots & \alpha_{n2} \\ 
+    \dots & \dots & \dots & \dots \\ 
+    \alpha_{1m} & \alpha_{2m} & \dots & \alpha_{nm}
 \end{pmatrix}_{m \times n}
 \begin{pmatrix}
-    \beta_1 \\ \beta_2 \\ ... \\ \beta_n 
+    \beta_1 \\ \beta_2 \\ \dots \\ \beta_n 
 \end{pmatrix}_{n \times 1}
 =
 \begin{pmatrix}
-    \alpha_{11} \beta_1 + \alpha_{21} \beta_2 + ... + \alpha_{n1} \beta_n \\ 
-    \alpha_{12} \beta_1 + \alpha_{22} \beta_2 + ... + \alpha_{n2} \beta_n \\ 
-    ... \\ 
-    \alpha_{1m} \beta_1 + \alpha_{2m} \beta_2 + ... + \alpha_{nm} \beta_n
+    \alpha_{11} \beta_1 + \alpha_{21} \beta_2 + \dots + \alpha_{n1} \beta_n \\ 
+    \alpha_{12} \beta_1 + \alpha_{22} \beta_2 + \dots + \alpha_{n2} \beta_n \\ 
+    \dots \\ 
+    \alpha_{1m} \beta_1 + \alpha_{2m} \beta_2 + \dots + \alpha_{nm} \beta_n
 \end{pmatrix}
 $$
 
-Perceba que a i-ésima linha da matriz no membro direito da equação corresponde à coordenada associada ao i-ésimo vetor de $C$. Isto pode ser verificado fazendo a substituição de $F(u_1), F(u_2), ..., F(u_n)$ na expressão para $F(u)$, obtendo
+Perceba que a i-ésima linha da matriz no membro direito da equação corresponde à coordenada associada ao i-ésimo vetor de $C$. Isto pode ser verificado fazendo a substituição de $F(u_1), F(u_2), \dots, F(u_n)$ na expressão para $F(u)$, obtendo
 
 $$
 \begin{align*}
-    F(u) &= \beta_1 F(u_1) + \beta_2 F(u_2) + ... + \beta_n F(u_n) \\ 
-    \therefore F(u) &= \beta_1 (\alpha_{11} v_1 + \alpha_{12} v_2 + ... + \alpha_{1m} v_m) + \beta_2 (\alpha_{21} v_1 + \alpha_{22} v_2 + ... + \alpha_{2m} v_m) + ... + \beta_n(\alpha_{n1} v_1 + \alpha_{n2} v_2 + ... + \alpha_{nm} v_m) \\ 
-    \therefore F(u) &= v_1(\beta_1 \alpha_{11} + \beta_2 \alpha_{21} + ... + \beta_n \alpha_{n1}) + v_2(\beta_1 \alpha_{12} + \beta_2 \alpha_{22} + ... + \beta_n \alpha_{n2}) + ... + v_m(\beta_1 \alpha_{1n} + \beta_2 \alpha_{2m} + ... + \beta_n \alpha_{nm})
+    F(u) &= \beta_1 F(u_1) + \beta_2 F(u_2) + \dots + \beta_n F(u_n) \\ 
+    \therefore F(u) &= \beta_1 (\alpha_{11} v_1 + \alpha_{12} v_2 + \dots + \alpha_{1m} v_m) + \beta_2 (\alpha_{21} v_1 + \alpha_{22} v_2 + \dots + \alpha_{2m} v_m) + \dots + \beta_n(\alpha_{n1} v_1 + \alpha_{n2} v_2 + \dots + \alpha_{nm} v_m) \\ 
+    \therefore F(u) &= v_1(\beta_1 \alpha_{11} + \beta_2 \alpha_{21} + \dots + \beta_n \alpha_{n1}) + v_2(\beta_1 \alpha_{12} + \beta_2 \alpha_{22} + \dots + \beta_n \alpha_{n2}) + \dots + v_m(\beta_1 \alpha_{1n} + \beta_2 \alpha_{2m} + \dots + \beta_n \alpha_{nm})
 \end{align*}
 $$
 
-Perceba que os escalares associados aos vetores $v_1, v_2, ..., v_m$ são precisamente as linhas da matriz que produzimos. 
+Perceba que os escalares associados aos vetores $v_1, v_2, \dots, v_m$ são precisamente as linhas da matriz que produzimos. 
 
 Dessa forma, a matriz 
 
 $$
 \begin{pmatrix}
-    \alpha_{11} & \alpha_{21} & ... & \alpha_{n1} \\ 
-    \alpha_{12} & \alpha_{22} & ... & \alpha_{n2} \\ 
-    ... & ... & ... & ... \\ 
-    \alpha_{1m} & \alpha_{2m} & ... & \alpha_{nm}
+    \alpha_{11} & \alpha_{21} & \dots & \alpha_{n1} \\ 
+    \alpha_{12} & \alpha_{22} & \dots & \alpha_{n2} \\ 
+    \vdots & \vdots & \ddots & \vdots \\ 
+    \alpha_{1m} & \alpha_{2m} & \dots & \alpha_{nm}
 \end{pmatrix}_{m \times n}
 $$
 
@@ -246,7 +246,7 @@ bijetora e, portanto, um isomorfismo entre $L(U,V)$ e $M_{m \times n} (\mathbb{R
 
 ## Matriz de uma transformação composta 
 
-Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$, respectivamente, e bases $B = \{u_1, u_2, ..., u_n\}$, $C = \{v_1, v_2, ..., v_m\}$ e $D = \{w_1, w_2, ..., w_p\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à 
+Dados três espaços vetoriais, $U$, $V$ e $W$ sobre $\mathbb{R}$ de dimensões $m$, $n$ e $p$, respectivamente, e bases $B = \{u_1, u_2, \dots, u_n\}$, $C = \{v_1, v_2, \dots, v_m\}$ e $D = \{w_1, w_2, \dots, w_p\}$, além de duas transformações lineares $F: U \to V$ e $G: V \to W$, a matriz correspondente à 
 
 $$
 (G \circ F)_{B, D}
@@ -287,7 +287,7 @@ $$
 
 e, portanto, $I_n$ é a matriz do operador idêntico tanto de $U$ como de $V$.
 
-Destas conclusões podemos explorar um problema interessante. Considere um espaço vetorial $U$ sobre $\mathbb{R}$ de dimensão $n$ e duas bases deste espaço, $B = \{u_1, u_2, ..., u_n\}$ e $C = \{v_1, v_2, ..., v_n\}$. Considere ainda um operador linear de $U$, $T$. Dado duas matrizes $(T)_B$ e $(T)_C$, como relacioná-las por meio de uma expressão? Em outras palavras, como a matriz de um operador linear modifica-se ao considerarmos uma outra base, e como podemos obtê-la? 
+Destas conclusões podemos explorar um problema interessante. Considere um espaço vetorial $U$ sobre $\mathbb{R}$ de dimensão $n$ e duas bases deste espaço, $B = \{u_1, u_2, \dots, u_n\}$ e $C = \{v_1, v_2, \dots, v_n\}$. Considere ainda um operador linear de $U$, $T$. Dado duas matrizes $(T)_B$ e $(T)_C$, como relacioná-las por meio de uma expressão? Em outras palavras, como a matriz de um operador linear modifica-se ao considerarmos uma outra base, e como podemos obtê-la? 
 
 De início, sabemos que a matriz de mudança de base de $B$ para $C$ é da forma 
 
@@ -443,77 +443,77 @@ Dado um espaço vetorial $U$ sobre $\mathbb{R}$, denominamos por <b>espaço dual
 
 Um exemplo interessante que nos estimula a pensar em técnicas que nos irão ajudar a validar um importante resultado é a forma geral de um funcional linear sobre $\mathbb{R}^n$. 
 
-Imagine uma forma linear $F$ sobre o $\mathbb{R}^n$. Seja então $\{e_1, e_2, ..., e_n\}$ a <b>base canônica</b> do $\mathbb{R}^n$, isto é, 
+Imagine uma forma linear $F$ sobre o $\mathbb{R}^n$. Seja então $\{e_1, e_2, \dots, e_n\}$ a <b>base canônica</b> do $\mathbb{R}^n$, isto é, 
 
 $$
 \begin{align*}
-    e_1 &= (1, 0, ..., 0) \\ 
-    e_2 &= (0, 1, ..., 0) \\ 
-    ... \\ 
-    e_n &= (0, 0, ..., 1)
+    e_1 &= (1, 0, \dots, 0) \\ 
+    e_2 &= (0, 1, \dots, 0) \\ 
+    &\vdots \\ 
+    e_n &= (0, 0, \dots, 1)
 \end{align*}
 $$
 
-Dado então $u = (x_1, ..., x_n) \in \mathbb{R}^n$, temos que $u = x_1e_1 + ... + x_ne_n$. Assim, aplicando $F$, obtemos $F(u) = x_1F(e_1) + ... + x_nF(e_n) = x_1k_1 + ... + x_nk_n$. Note que indicamos os escalares $F(e_1), ..., F(e_n)$ por $k_1, ..., k_n$. 
+Dado então $u = (x_1, \dots, x_n) \in \mathbb{R}^n$, temos que $u = x_1e_1 + \dots + x_ne_n$. Assim, aplicando $F$, obtemos $F(u) = x_1F(e_1) + \dots + x_nF(e_n) = x_1k_1 + \dots + x_nk_n$. Note que indicamos os escalares $F(e_1), \dots, F(e_n)$ por $k_1, \dots, k_n$. 
 
-Como a aplicação $F: \mathbb{R}^n \to \mathbb{R}$, com $F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n$ é uma forma linear sobre $\mathbb{R}^n$, podemos afirmar então que 
+Como a aplicação $F: \mathbb{R}^n \to \mathbb{R}$, com $F(x_1, \dots, x_n) = k_1x_1 + \dots + k_nx_n$ é uma forma linear sobre $\mathbb{R}^n$, podemos afirmar então que 
 
 $$
-F \in (\mathbb{R}^n)^* \iff \exists k_1, ..., k_n \in \mathbb{R} | F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n \forall (x_1, ..., x_n) \in \mathbb{R}^n
+F \in (\mathbb{R}^n)^* \iff \exists k_1, \dots, k_n \in \mathbb{R} | F(x_1, \dots, x_n) = k_1x_1 + \dots + k_nx_n \forall (x_1, \dots, x_n) \in \mathbb{R}^n
 $$
 
-Isto é, que uma aplicação $F$ é um funcional linear de $\mathbb{R}^n$ se, e somente se, existem escalares $k_1, ..., k_n$ reais tais que, para todo vetor pertencente ao $\mathbb{R}^n$, a aplicação desse vetor resulte na combinação linear de suas coordenadas e dos escalares $k_1, ..., k_n$. 
+Isto é, que uma aplicação $F$ é um funcional linear de $\mathbb{R}^n$ se, e somente se, existem escalares $k_1, \dots, k_n$ reais tais que, para todo vetor pertencente ao $\mathbb{R}^n$, a aplicação desse vetor resulte na combinação linear de suas coordenadas e dos escalares $k_1, \dots, k_n$. 
 
-Agora, o importante resultado previamente mencionado. Se $B = (u_1, ..., u_n)$ é uma base do espaço vetorial $U$, então as aplicações $F_1, ..., F_n$ que associam a cada $u = x_1u_1 + ... + x_nu_n \in U$ os elementos $x_1, ..., x_n$, respectivamente (isto é, cada $F_i$ retorna a i-ésima coordenada do vetor), constituem uma base desse espaço. Logo, se $\dim{U} = n$, então $\dim{U} = \dim{U^*} = n$.
+Agora, o importante resultado previamente mencionado. Se $B = (u_1, \dots, u_n)$ é uma base do espaço vetorial $U$, então as aplicações $F_1, \dots, F_n$ que associam a cada $u = x_1u_1 + \dots + x_nu_n \in U$ os elementos $x_1, \dots, x_n$, respectivamente (isto é, cada $F_i$ retorna a i-ésima coordenada do vetor), constituem uma base desse espaço. Logo, se $\dim{U} = n$, então $\dim{U} = \dim{U^*} = n$.
 
-Para demonstrá-lo, vamos supor um espaço vetorial $U$ sobre $\mathbb{R}$ com um conjunto base $B = {u_1, ..., u_n}$. Dessa forma, todo vetor $u$ é da forma $u = x_1u_1 + ... + x_nu_n, x_i \in \mathbb{R}$. 
+Para demonstrá-lo, vamos supor um espaço vetorial $U$ sobre $\mathbb{R}$ com um conjunto base $B = {u_1, \dots, u_n}$. Dessa forma, todo vetor $u$ é da forma $u = x_1u_1 + \dots + x_nu_n, x_i \in \mathbb{R}$. 
 
-Ao definirmos aplicações $F_1, ..., F_n$ de forma que 
+Ao definirmos aplicações $F_1, \dots, F_n$ de forma que 
 
 $$
 F_i: U \to \mathbb{R} \\ 
-F_i(u) = x_i (i = 1, 2, ..., n)
+F_i(u) = x_i (i = 1, 2, \dots, n)
 $$
 
 é possível verificar que estas pertencem a $U^*$.
 
-Dado um funcional linear $F$ sobre $U$, vamos supor que $F(u_1) = k_1, ..., F(u_n) = k_n$. Consequentemente, temos que 
+Dado um funcional linear $F$ sobre $U$, vamos supor que $F(u_1) = k_1, \dots, F(u_n) = k_n$. Consequentemente, temos que 
 
 $$
 \begin{align*}
-F(u) &= x_1F(u_1) + ... + x_nF(u_n) \\
-\therefore F(u) &= k_1x_1 + ... + k_nx_n \\ 
-\therefore F(u) &= k_1F_1(u)+...+k_nF_n(u) \\ 
-\therefore F(u) &=(k_1F_1 + ... + k_nF_n)(u) 
+F(u) &= x_1F(u_1) + \dots + x_nF(u_n) \\
+\therefore F(u) &= k_1x_1 + \dots + k_nx_n \\ 
+\therefore F(u) &= k_1F_1(u)+\dots+k_nF_n(u) \\ 
+\therefore F(u) &=(k_1F_1 + \dots + k_nF_n)(u) 
 \end{align*}
 $$
 
-Como $u$ é um vetor qualquer, mostramos que $F = k_1F_1 + ... + k_nF_n$ e que, portanto, $[F_1, ..., F_n] = U^*$ (o conjunto formado pelas $F_i$ gera o espaço dual).
+Como $u$ é um vetor qualquer, mostramos que $F = k_1F_1 + \dots + k_nF_n$ e que, portanto, $[F_1, \dots, F_n] = U^*$ (o conjunto formado pelas $F_i$ gera o espaço dual).
 
-Por outro lado, se supormos $\alpha_1 F_1 + ... + \alpha_n F_n = 0$, teremos 
+Por outro lado, se supormos $\alpha_1 F_1 + \dots + \alpha_n F_n = 0$, teremos 
 
 $$
 \begin{align*}
-    \alpha_1 F_1(u_1) + ... + \alpha_n F_n (u_1) &= \alpha_1 = 0 \\ 
-    ... \\ 
-    \alpha_1 F_1(u_n) + ... + \alpha_n F_n (u_n) &= \alpha_n = 0
+    \alpha_1 F_1(u_1) + \dots + \alpha_n F_n (u_1) &= \alpha_1 = 0 \\ 
+    &\vdots \\ 
+    \alpha_1 F_1(u_n) + \dots + \alpha_n F_n (u_n) &= \alpha_n = 0
 \end{align*}
 $$
 
-e, portanto, o conjunto $\{F_1, ..., F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
+e, portanto, o conjunto $\{F_1, \dots, F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
 
 ## O teorema da representação de Riesz e a notação de Dirac
 
 Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
 
 $$
-F(u) = \braket{v, u}
+F(u) = \braket{v | u}
 $$
 
-De fato, se $u = (x_1, ..., x_n)$ e $v = (k_1, ..., k_n)$, como mostrado acima,
+De fato, se $u = (x_1, \dots, x_n)$ e $v = (k_1, \dots, k_n)$, como mostrado acima,
 
 $$
-F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n
+F(x_1, \dots, x_n) = k_1x_1 + \dots + k_nx_n
 $$
 
 Ou seja, em um espaço com produto interno, cada funcional linear é identificado por um vetor do próprio espaço.
@@ -521,19 +521,19 @@ Ou seja, em um espaço com produto interno, cada funcional linear é identificad
 Assim, dada a base canônica mencionada acima, os funcionais que extraem as coordenadas de um vetor $u$ são
 
 $$
-F_i(u) = \braket{e_i, u}
+F_i(u) = \braket{e_i | u}
 $$
 
 Em notação de <b>bras</b> e <b>kets</b> (ou então simplesmente conhecida como <b>notação bra-ket</b>), introduzida por Paul Dirac (1902-1984), escrevemos $\ket{u}$ (ket) para o vetor e $\bra{v}$ (bra) para o funcional linear. Dessa forma, a ação do funcional $\bra{v}$ sobre o vetor $\ket{u}$ é denotada por
 
 $$
-F(u)= \bra{v} \,(\ket{u})= \braket{v, u}
+F(u)= \bra{v} \,(\ket{u})= \bra{v} \ket{u}
 $$
 
 que pode ser comprimida para 
 
 $$
-\braket{v | u} = \braket{v, u}
+\braket{v | u} = \bra{v}\ket{u}
 $$
 
 relação esta que é extensivamente utilizada na <b>mecânica quântica</b>. É digno de nota, também, mencionar que o bra $\bra{v}$ é dito dual do ket $\ket{v}$, de modo que 

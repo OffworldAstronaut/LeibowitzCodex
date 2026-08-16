@@ -11,7 +11,7 @@ $$
 onde $a$ e $b$ são números reais. Consequentemente, representamos o conjunto de todos os números complexos por 
 
 $$
-\mathbb{C} = \left{a + bi | a,b \in \mathbb{R} \right}
+\mathbb{C} = \{a + bi | a,b \in \mathbb{R} \}
 $$
 
 Neste conjunto, definimos a soma e o produto entre dois números complexos quaisquer $z_1 = a_1 + b_1i$ e $z_2 = a_2 + b_2i$, respectivamente, como: 
