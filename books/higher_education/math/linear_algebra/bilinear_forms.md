@@ -2,7 +2,7 @@
 
 # Formas bilineares 
 
-Dizemos que as <b>formas bilineares</b>, também chamadas de <b>funcionais bilineares</b> são uma generalização dos <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank">funcionais lineares</a> para dois vetores. POdemos defini-las da seguinte maneira. 
+Dizemos que as <b>formas bilineares</b>, também chamadas de <b>funcionais bilineares</b> são uma generalização dos <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank">funcionais lineares</a> para dois vetores. Podemos defini-las da seguinte maneira. 
 
 <aside>
 
@@ -33,7 +33,7 @@ $$
 \begin{pmatrix}
     f(u_1, v_1) & f(u_1, v_2) & \dots & f(u_1, v_n) \\ 
     \vdots & \vdots & & \vdots \\ 
-    f(u_m, v_1) & f(u_m, v_2) & \dots f(u_m, v_n)
+    f(u_m, v_1) & f(u_m, v_2) & \dots & f(u_m, v_n)
 \end{pmatrix}
 $$
 

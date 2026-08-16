@@ -6,7 +6,7 @@ Inicialmente, temos que a função <b>determinante</b> associa um número real �
 
 Podemos definir uma <b>permutação</b> de um conjunto (finito) como um rearranjo de seus elementos. A estas permutações podemos associar noções de <b>paridade</b> e <b>sinal</b>: uma permutação é <b>par</b> quando o número de trocas necessárias para se retornar à configuração inicial for par, com uma configuração dita <b>ímpar</b> caso contrário. 
 
-Uma permutação possui um dado <b>sinal</b> a depender da sua paridade, com um valor numérico sendo atribuído a ela através da <b>função sinal</b>, denotada por $\text{sgn}$ ou $\sigma$. Dessa forma, uma permutação possui sinal $+1$ caso seja par, e $-1$ caso contrário. Sendo $p = \{j_1, j_2, ..., j_n\}$ uma permutação, denotamos seu sinal como a aplicação desta função sinal: 
+Uma permutação possui um dado <b>sinal</b> a depender da sua paridade, com um valor numérico sendo atribuído a ela através da <b>função sinal</b>, denotada por $\text{sgn}$ ou $\sigma$. Dessa forma, uma permutação possui sinal $+1$ caso seja par, e $-1$ caso contrário. Sendo $p = (j_1, j_2, ..., j_n)$ uma permutação, denotamos seu sinal como a aplicação desta função sinal: 
 
 $$
 \sigma(p) = \text{sgn}(p) = \pm 1
@@ -53,7 +53,7 @@ $$
 a_{1j_1}a_{2j_2}
 $$
 
-Como cada elemento vemd e uma linha diferente, temos $2! = 2$ permutações distintas nas colunas. Logo, temos os produtos elementares 
+Como cada elemento vem de uma linha diferente, temos $2! = 2$ permutações distintas nas colunas. Logo, temos os produtos elementares 
 
 $$
 \begin{array}{c}
@@ -67,7 +67,7 @@ Note que no primeiro produto a permutação das colunas associada a ele é $(1, 
 Portanto, pela definição de determinante, temos que 
 
 $$
-\det{A} = a_{11}a_{22} - a_{12} - a_{21}
+\det{A} = a_{11}a_{22} - a_{12}a_{21}
 $$
 
 # Propriedades
@@ -322,7 +322,7 @@ $$
 
 com $M_{ij}$ sendo a <b>matriz menor</b> obtida de $A$ ao eliminar a linha $i$ e a coluna $j$. 
 
-Como podemos utilizar esta forma de cálculo de determinante para qualquer $n ge 1$, a <b>expansão por cofatores</b>, é um excelente caminho para o cálculo de determinantes de forma algorítmica. 
+Como podemos utilizar esta forma de cálculo de determinante para qualquer $n \ge 1$, a <b>expansão por cofatores</b>, é um excelente caminho para o cálculo de determinantes de forma algorítmica. 
 
 ## Redução a uma matriz triangular
 
@@ -510,7 +510,7 @@ $$
 
 ## Regra de Cramer
 
-Agorta, munidos com esses novos conceitos, podemos nos debruçar sobre a Regra de Cramer. Foi visto anteriormente que um sistema de Cramer, em sua forma matricial $AX = B$ possui como solução a matriz $X = A^{-1}B$. Levando em conta o resultado do teorema anterior, podemos concluir que 
+Agora, munidos com esses novos conceitos, podemos nos debruçar sobre a Regra de Cramer. Foi visto anteriormente que um sistema de Cramer, em sua forma matricial $AX = B$ possui como solução a matriz $X = A^{-1}B$. Levando em conta o resultado do teorema anterior, podemos concluir que 
 
 $$
 X = \left(\dfrac{1}{\det{A}} \text{Adj}(A)\right)B

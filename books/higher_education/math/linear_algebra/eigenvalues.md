@@ -1,4 +1,3 @@
-# Autovalores e autovetores
 
 # Autovalores e autovetores
 
@@ -44,7 +43,7 @@ As raízes desse polinômio são os autovalores de $A$, e isso pode ser demonstr
 
 <aside>
 
-<b>Demonstração</b> — Temos por definição que $\lambda$ é autovalor de de $A$ se, e somente se, $\ker{(A - \lambda I_n)} = \neq \{o\}$. Isto equivale a dizer que a matriz $A - \lambda I_n$ não é inversível, isto é, que $\det{(A - \lambda I_n)} = 0$. Como o polinômio característico de $A$ é precisamente o determinante de $A - \lambda I_n$, o teorema está provado.
+<b>Demonstração</b> — Temos por definição que $\lambda$ é autovalor de de $A$ se, e somente se, $\ker{(A - \lambda I_n)} \neq \{o\}$. Isto equivale a dizer que a matriz $A - \lambda I_n$ não é inversível, isto é, que $\det{(A - \lambda I_n)} = 0$. Como o polinômio característico de $A$ é precisamente o determinante de $A - \lambda I_n$, o teorema está provado.
 
 </aside>
 
@@ -52,7 +51,7 @@ Como os autovalores de $A$ são as raízes de um polinômio de grau $n$, temos q
 
 <aside>
 
-<b>Teorema</b> — Seja $A$ uma matriz de ordem $n$ com entradas reais ou complexas. Então, $A$ tem no máximo $n$ autovalores distintos $\lambda_1, ..., \lambda_k$. Além disso, os autovetores $u_1, ... u_n$ associados aos autovalores formam um conjunto linearmente independente.
+<b>Teorema</b> — Seja $A$ uma matriz de ordem $n$ com entradas reais ou complexas. Então, $A$ tem no máximo $n$ autovalores distintos $\lambda_1, ..., \lambda_k$. Além disso, os autovetores $u_1, ... u_n$ associados a esses autovalores formam um conjunto linearmente independente.
 
 </aside>
 
@@ -316,7 +315,7 @@ Além do exposto anteriormente, alguns teoremas úteis podem ser enunciados.
 
 <aside>
 
-<b>Teorema</b> — Um operador linear $A$ de um espaço euclidiano $V$, de dimensão finita $n \ge 1$, é auto-adjunto se, e somente se, existe uma base ortonormal de $V$ formada por vetores próprios de $A$.
+<b>Teorema (Espectral)</b> — Um operador linear $A$ de um espaço euclidiano $V$, de dimensão finita $n \ge 1$, é auto-adjunto se, e somente se, existe uma base ortonormal de $V$ formada por vetores próprios de $A$.
 
 </aside>
 

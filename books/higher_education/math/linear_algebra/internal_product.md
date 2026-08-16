@@ -2,14 +2,15 @@
 
 # Produto interno
 
-Durante o aprendizado de Geometria Analítica, em especial quando estudamos sobre o <a href="/books/higher_education/math/analytical_geometry/the_plane_the_space.html" target="_blank">plano e espaço</a> trabalhamos constantemente com as noções de <b>produto escalar</b>, <b>norma</b> de um vetor e a noção de <b>distância</b> entre dois pontos. Daqui em diante, esses conceitos serão generalizados para espaços além do $\mathbb{R}^2$ e do $\mathbb{R}^3$ e das operações que estamos acostumados. 
+Durante o aprendizado de Geometria Analítica, em especial quando estudamos sobre o <a href="/books/higher_education/math/analytical_geometry/the_plane_the_space.html" target="_blank">plano e espaço</a>, trabalhamos constantemente com as noções de <b>produto escalar</b>, <b>norma</b> de um vetor e a noção de <b>distância</b> entre dois pontos. Daqui em diante, esses conceitos serão generalizados para espaços além do $\mathbb{R}^2$ e do $\mathbb{R}^3$ e das operações que estamos acostumados. 
 
-DE forma geral, podemos definir o <b>produto interno</b> como uma função, denotada por $\langle u, v \rangle$ ("u interno v"), que transforma cada par ordenado $(u, v) \in U \times U$ em um número real. Essa função deve obedecer às seguintes propriedades básicas: 
+De forma geral, podemos definir o <b>produto interno</b> como uma função, denotada por $\langle u, v \rangle$ ("u interno v"), que transforma cada par ordenado $(u, v) \in U \times U$ em um número real, sendo $U$ um espaço vetorial sobre $\mathbb{R}$. Essa função deve obedecer às seguintes propriedades básicas: 
 
 $$
 \begin{align*}
-    \langle u + v, w \rangle &= \langle u, w \rangle + \langle v, w \rangle, \forall u, v, w \in U \\ 
-    \langle \alpha u, v \rangle &= \alpha \langle u, v \rangle, \forall \alpha \in \mathbb{R} \text{ e } \forall u, v \in U \\ 
+
+    \langle u, v + w \rangle &= \langle u, v \rangle + \langle u, w \rangle, \forall u, v, w \in U \\ 
+    \langle u, \alpha v \rangle &= \alpha \langle u, v \rangle, \forall \alpha \in \mathbb{R} \text{ e } \forall u, v \in U \\ 
     \langle u, v \rangle &= \langle v, u \rangle, \forall u, v \in U \\ 
     \langle u, u \rangle &\gt 0, \forall u \neq o
 \end{align*}
@@ -32,13 +33,15 @@ Continuando, da definição de produto interno podemos inclusive extrair algumas
 $$
 \begin{align*}
     \langle o, u \rangle &= \langle u, o \rangle = 0, \forall u \in U \\ 
-    \langle u, \alpha v \rangle &= \alpha \langle u, v \rangle, \forall \alpha \in \mathbb{R} \text{ e } u, v \in U \\ 
-    \langle u, v + w \rangle &= \langle u, v \rangle + \langle u, w \rangle, \forall u, v, w \in U \\ 
+    \langle \alpha u, v \rangle &= \alpha \langle u, v \rangle, \forall \alpha \in \mathbb{R} \text{ e } u, v \in U \\ 
+    \langle u + v, w \rangle &= \langle u, w \rangle + \langle v, w \rangle, \forall u, v, w \in U \\ 
     \left\langle \sum_{i = 1}^m \alpha_i u_i, v \right\rangle &= \sum_{i}^m \alpha_i \langle u_i, v \rangle, m \in \mathbb{Z}^*_+ \\
     \left\langle u, \sum_{j=1}^n \alpha_j v_j \right\rangle &= \sum_{j = 1}^n \alpha_j \langle u, v_j \rangle, n \in \mathbb{Z}^*_+ \\
     \left\langle \sum_{i = 1}^m \alpha_i u_i, \sum_{j = 1}^n \beta_j v_j \right\rangle &= \sum_{i=1}^m \sum_{j=1}^n \alpha_i \beta_j \langle u_i, v_j \rangle
 \end{align*}
 $$
+
+Vale mencionar ainda um caso especial dos espaços com produto interno: os <b>espaços de Hilbert</b>.  São muito comuns na Física em função de sua essencialidade na descrição da mecânica quântica, embora sua definição precisa fuja do escopo atual. <!-- movi, conforme explicado abaixo, pois a definição mais precisa de espaço de Hilbert é "Espaço vetorial completo, isto é, em que toda sequência de Cauchy nele é convergente, com norma induzida pelo produto interno", que não envolve Necessariamente a noção de numerios compledxos. Tem mais ver com a métrica de distância, na verdade! --> 
 
 ## Espaços hermitianos
 
@@ -49,15 +52,25 @@ De fato, dado um espaço vetorial $V$ definido sobre o corpo $\mathbb{C}$, um pr
 $$
 \begin{align*}
     \langle u_1 + u_2, v \rangle &= \langle u_1, v \rangle + \langle u_2, v \rangle, \forall u_1, u_2, v \in V \\ 
-    \langle \alpha u, v \rangle &= \alpha \langle u, v \rangle, \forall \alpha \in \mathbb{C} \text{ e } \forall u, v \in V \\ 
-    \langle u, v \rangle &= \bar{\langle v, u \rangle}, \forall u, v \in V \\ 
+    \langle \alpha u, v \rangle &= \overline{\alpha} \langle u, v \rangle, \forall \alpha \in \mathbb{C} \text{ e } \forall u, v \in V \\ 
+    \langle u, v \rangle &= \overline{\langle v, u \rangle}, \forall u, v \in V \\ 
     \forall u \in V, u &\neq o, \langle u, u \rangle \in \mathbb{R} \text{ e } \langle u, u \rangle \gt 0
 \end{align*}
 $$
 
-Nos espaços hermitianos valem tanto os conceitos fundamentais dos epaços euclidianos (norma, distância, ortogonalidade e bases ortonormais, complmeneto ortonormal e isometria) como os resultados importantes obtidos anteriormente, como a desigualdade de Cauchy-Schwartz, as propriedades da métrica induzida pela norma, a ortonormalização de Gram-Schmidt e a equivalência introduzida na seção sobre isometrias.
+em que a barra em cima indica a operação de complexo conjugado. Ou seja, diferentemente do caso real, o produto interno complexo é linear somente no <b>segundo argumento</b>, pela convenção adotada aqui, e a propriedade simétrica é agora chamada de simetria Hermitiana ou simetria conjugada. Assim, vale que, $\forall u_1, u_2, u, v_1,v_2,v \in V$ e $\forall \alpha,\beta \in \mathbb{C}$,
+$$
+\begin{aligned}
+\langle \alpha u_1 + \beta u_2, v \rangle
+&= \langle \alpha u_1, v \rangle + \langle \beta u_2, v \rangle = \overline{\alpha}\,\langle u_1, v \rangle + \overline{\beta}\,\langle u_2, v \rangle\\
 
-Vale mencionar ainda um caso especial dos espaços hermitianos: os <b>espaços de Hilbert</b>  são muito comuns na Física em função de sua essencialidade na descrição da mecânica quântica.
+\langle u, \alpha v_1 + \beta v_2 \rangle
+&= \langle u, \alpha v_1 \rangle + \langle u, \beta v_2 \rangle = \alpha\,\langle u, v_1 \rangle + \beta\,\langle u, v_2 \rangle
+\end{aligned}
+$$
+Nos espaços hermitianos valem tanto os conceitos fundamentais dos espaços euclidianos (norma, distância, ortogonalidade e bases ortonormais, complemento ortogonal e isometria) como os resultados importantes obtidos anteriormente, como a desigualdade de Cauchy-Schwarz, as propriedades da métrica induzida pela norma, a ortonormalização de Gram-Schmidt e a equivalência introduzida na seção sobre isometrias.
+
+<!-- Na verdade um espaço de Hilbert nem sequer precisa ser complexo, então movi esse trecho para a parte de espaços munidos de produto interno -->
 
 # Norma e distância 
 
@@ -77,7 +90,7 @@ $$
 \end{align*}
 $$
 
-Um importante resultado inicial é a <b>desigualdade de Cauchy-Schwartz</b>. Se $U$ é um espaço vetorial euclidiano, então vale 
+Um importante resultado inicial é a <b>desigualdade de Cauchy-Schwarz</b>. Se $U$ é um espaço vetorial euclidiano, então vale 
 
 $$
 |\langle u, v \rangle| \le ||u|| \cdot ||v||, \forall u, v \in U
@@ -85,7 +98,7 @@ $$
 
 Um corolário notável dessa desigualdade é a chamada <b>desigualdade triangular</b>, uma generalização vetorial da desigualdade entre os lados de um triângulo no plano. 
 
-Para todo vetor $u, v$ em um espaço euclidiano $U$, vale 
+Para quaisquer vetores $u, v$ em um espaço euclidiano $U$, vale 
 
 $$
 ||u + v|| \le ||u|| + ||v||
@@ -95,7 +108,7 @@ Um exemplo interessante dessa desigualdade é a chamada <b>desigualdade de Lagra
 
 $$
 \begin{align*}
-    |\langle u, v \rangle| \le ||u|| \cdot ||v|| &\iff \left(\sum_{i=1}^n x_iy_i\right) \le \left(\sum_{i=1}^n x_i^2\right)^{1/2} \left(\sum_{i=1}^n y_i^2\right)^{1/2} \\ 
+    |\langle u, v \rangle| \le ||u|| \cdot ||v|| &\iff \left|\sum_{i=1}^n x_iy_i\right| \le \left(\sum_{i=1}^n x_i^2\right)^{1/2} \left(\sum_{i=1}^n y_i^2\right)^{1/2} \\ 
     &\iff \left(\sum_{i=1}^n x_iy_i\right)^2 \le \left(\sum_{i=1}^n x_i^2\right) \left(\sum_{i=1}^n y_i^2\right)
 \end{align*}
 $$
@@ -110,7 +123,7 @@ com as propriedades
 
 $$
 \begin{align*}
-    d(u, v) &\le 0, \forall u, v \in U  \\ 
+    d(u, v) &\ge 0, \forall u, v \in U  \\ 
     d(u, v) &= 0 \iff u = v \\ 
     d(u, v) &= d(v, u), \forall u, v \in U \\ 
     d(u, v) &\le d(u, w) + d(w, v), \forall u, v, w \in U
@@ -119,21 +132,23 @@ $$
 
 Essa função é chamada <b>métrica sobre</b> $U$, com o <b>número</b> $d(u,v)$ sendo a <b>distância</b> entre $u$ e $v$.
 
-Um resultado interessante surge dessa noção de norma e distância num espaço euclidiano. É possível generalizar a expressão usual para <b>ângulos</b> entre vetores para qualquer espaço euclidiano, de forma que 
+Um resultado interessante surge dessa noção de norma e distância num espaço euclidiano: o produto interno estabelece uma relação entre as magnitudes dos vetores com a componente de um deles na direção do outro. Em particular, quando $u$ e $v$ não são nulos, é possível generalizar a expressão usual para <b>ângulos</b> entre vetores para qualquer espaço euclidiano, de forma que 
 
 $$
 \cos{\theta} = \dfrac{\langle u, v \rangle}{||u|| \cdot ||v||}
 $$
 
+ou seja, o produto interno pode ser interpretado geometricamente como uma "projeção" de $v$ na direção $u$.
+
 É comum nomear o número $\theta$ como o "ângulo" entre os vetores $u$ e $v$, o que este realmente corresponde ao considerarmos a representação geométrica dos espaços $\mathbb{R}^2$  e $\mathbb{R}^3$ com seus produtos usuais.
 
 # Ortogonalidade 
 
-Vimos na Geometria Analítica que dois vetores são considerados ortogononais (formam um ângulo de 90° quando transladados para a origem) quando seu produto escalar é nulo. De fato, esse resultado é um caso particular de uma definição mais ampla.
+Vimos na Geometria Analítica que dois vetores são considerados ortogonais (formam um ângulo de 90° quando transladados para a origem) quando seu produto escalar é nulo. De fato, esse resultado é um caso particular de uma definição mais ampla.
 
 Considerando um espaço euclidiano $U$, dizemos que dois vetores $u$ e $v$ são ortogonais se, e somente se, $\langle u, v \rangle = 0$. Além disso, um conjunto de vetores é dito ortonormal se todos são unitários (possuem norma 1) e ortogonais entre si. Vale notar que se esse conjunto é uma base de um espaço vetorial, este é chamado <b>base ortonormal</b> deste espaço. 
 
-Uma proposição interessante que pode ser exposta inicialmente é a de que todo conjunto ortonormal $S = \{v_1, v_2, ..., v_n\} contido num espaço euclidiano é necessariamente L.I. 
+Uma proposição interessante que pode ser exposta inicialmente é a de que todo conjunto ortonormal $S = \{v_1, v_2, ..., v_n\}$ contido num espaço euclidiano é necessariamente L.I. 
 
 ## Processo de ortonormalização de Gram-Schmidt
 
@@ -141,11 +156,11 @@ O processo de ortonormalização de Gram-Schmidt, nomeado em homenagem aos matem
 
 <aside>
 
-<b>Teorema</b> — Seja $S = \{v_1, v_2, ..., v_n\}$ um subconjunto ortonormal de um espaço euclidiano $U$. Então, para todo $u \in U$, o vetor $w = u - \langle u, v_1 \rangle v_1 - ... - \langle u, v_n \rangle v_n$ é ortogonal a todo vetor do subespaço gerado pelos vetores de $S$. 
+<b>Teorema</b> — Seja $S = \{v_1, v_2, ..., v_n\}$ um subconjunto ortonormal de um espaço euclidiano $U$. Então, para todo $u \in U$, o vetor $w = u - \langle v_1, u \rangle v_1 - ... - \langle v_n, u \rangle v_n$ é ortogonal a todo vetor do subespaço gerado pelos vetores de $S$. 
 
 </aside>
 
-Além disso, Gram e Schmidt chegaram à conclusão de que todo espaço vetorial de dimensão finita possui uma base ortonormal. A construção dessa base pode ser realizada pela aplicação sucessiva do teorema enunciado anteriormente.
+Além disso, Gram e Schmidt chegaram à conclusão de que todo espaço euclidiano de dimensão finita possui uma base ortonormal. A construção dessa base pode ser realizada pela aplicação sucessiva do teorema enunciado anteriormente.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/ee/Gram-Schmidt_orthonormalization_process.gif)
 
@@ -164,7 +179,7 @@ $$
 é uma base ortonormal do subespaço de $\mathbb{R}^3$ gerado por $B'$ (uma reta). Pelo teorema que fundamenta este processo, temos que o vetor 
 
 $$
-v_2 = u_2 - \langle u_2, g_1 \rangle g_1 = (0, 1, 1) - 0(1, 0, 0) = (0, 1, 1)
+v_2 = u_2 - \langle g_1, u_2 \rangle g_1 = (0, 1, 1) - 0(1, 0, 0) = (0, 1, 1)
 $$
 
 é ortogonal a todos os vetores gerados por $B'$, que é uma base ortonormal. Assim, podemos normalizá-lo e adicioná-lo a este novo conjunto. 
@@ -178,7 +193,7 @@ Excelente. Agora temos $B' = \{g_1, g_2\}$, com $g_1 = (1, 0, 0)$ e $g_2 = \left
 Aplicando esse processo novamente, podemos ver que o vetor 
 
 $$
-v_3 = u_3 - \langle u_3, g_1 \rangle g_1 - \langle u_3, g_2 \rangle g_2 = \left(0, -\dfrac{1}{2}, \dfrac{1}{2}\right)
+v_3 = u_3 - \langle g_1, u_3 \rangle g_1 - \langle g_2, u_3 \rangle g_2 = \left(0, -\dfrac{1}{2}, \dfrac{1}{2}\right)
 $$
 
 é ortogonal a todos os vetores gerados por $B'$. Assim, podemos normalizá-lo e adicioná-lo ao conjunto. 
@@ -206,22 +221,24 @@ Por fim, vale notar que há outras maneiras de representar esse processo — est
 Um outro tópico interessante que pode ser abordado é o de <b>complementos ortogonais</b>. Considere um espaço $U$ euclidiano. Dado um subespaço $V$ deste espaço, dizemos que o conjunto 
 
 $$
-U^{\perp} = \{v \in V | \langle v, u \rangle = 0, \forall u \in U\}
+V^{\perp} = \{u \in U | \langle u, v \rangle = 0, \forall v \in V\}
 $$ 
 
-é o complemento ortogonal de $U$. É possível mostrar que este conjunto é também um subespaço de $U$. 
+é o complemento ortogonal de $V$. É possível mostrar que este conjunto é também um subespaço de $U$. 
 
-Um resultado notável sobre esse espaço vetorial é o fato de que, sendo $U$ um espaço euclidiano e $V$ um subespaço deste, temos que $U = V \oplus V^{\perp}$, isto é, $U = V + V^{\perp}$ e $V \cap V^{\perp} = \{o\}$.
+Um resultado notável sobre esse espaço vetorial é o fato de que, sendo $U$ um espaço euclidiano de dimensão finita e $V$ um subespaço deste, temos que $U = V \oplus V^{\perp}$, isto é, $U = V + V^{\perp}$ e $V \cap V^{\perp} = \{o\}$.
 
 # Isometrias
 
-Um certo tipo de operador muito interessante existe na Álgebra Linear cuja definição es´ta intimamente ligada ao conceito de distância. Definimos um operador $T \in L(U)$ como uma <b>isometria</b> — também chamado <b>operador ortogonal</b> — sobre $U$ caso valha, para este operador 
-
+Um certo tipo de operador muito interessante existe na Álgebra Linear cuja definição está intimamente ligada ao conceito de distância. Definimos um operador $T \in L(U)$ como uma <b>isometria</b> — também chamado <b>operador ortogonal</b>, ou <b>operador unitário</b> se o espaço for hermitiano — sobre $U$ caso valha, para este operador 
 $$
-||T(u)|| = ||u||, \forall u \in U
+\begin{align*}
+d(T(u),T(v)) &= d(u,v), \forall u,v \in U\\
+\iff||T(u)|| = d(T&(u),o)=d(u,o)= ||u||
+\end{align*}
 $$
-
-De forma concisa, uma isometria é um operador num espaço euclidiano que conserva a norma dos vetores. Notavelmente, temos que o operador rotação conforme definido no $\mathbb{R}^2$, 
+De forma concisa, uma isometria é um operador num espaço euclidiano que preserva a distância entre os vetores, e portanto suas normas. Notavelmente, temos que o operador rotação conforme definido no $\mathbb{R}^2$,
+<!-- É que a propriedade fundamental do operador isometria é conservar a distância, que tem como consequência a conservação da norma -->
 
 $$
 T(x, y) = (x \cos{\theta} - y\sin{\theta}, x\sin{\theta} + y\cos{\theta})
@@ -235,7 +252,7 @@ $$
 
 são ambos isometrias. 
 
-Como últimos dois resultados importantes desta seção, é importante apresentar que toda isometria $T: U \to U$ é um isomorfismo e, além disso, que são equivalentes as afirmações: $T$ é isometria; $T$ transforme bases ortonormais de $U$ em bases ortonomais de $U$; $\langle T(u), T(v) \rangle = \langle u, v \rangle, \forall u, v \in U$.
+Como últimos dois resultados importantes desta seção, é importante apresentar que toda isometria $T: U \to U$ é um isomorfismo e, além disso, que são equivalentes as afirmações: $T$ é isometria; $T$ transforma bases ortonormais de $U$ em bases ortonomais de $U$; $\langle T(u), T(v) \rangle = \langle u, v \rangle, \forall u, v \in U$.
 
 <aside>
 
@@ -245,19 +262,28 @@ Como últimos dois resultados importantes desta seção, é importante apresenta
 
 <aside>
 
-<b>Demonstração</b> — Podemos demonstrar essa relação ao mostrar que a isometria $T$ é injetora. De fato, temos que, dado um certo $u \in U$:
+<b>Demonstração</b> — Podemos demonstrar essa relação ao mostrar que a isometria $T$ é bijetora. De fato, temos que, dado um certo $u \in U$:
 
 $$
-T(u) = o \implies ||T(u)|| = 0 \implies ||u|| = 0 \implies u = o \implies \ker{T} = \{o\}
+T(u) = o \implies ||T(u)|| = 0 \implies ||u|| = 0 \implies u = o \implies \ker{T} = \{o\} 
 $$
 
-Portanto, a isometria $T$ é um isomorfismo.
+O que implica que $T$ é injetora. Como $U$ possui dimensão finita e $T: U \to U$, pelo teorema do núcleo e da imagem, segue que T é também sobrejetora. Portanto, a isometria $T$ é um isomorfismo. <!-- Você provou somente que é injetora. Faltou provar que é sobrejetora para portanto ser bijetora, para a prova ficar concisa.-->
 
 </aside>
+<!-- Acrescento isto para ter uma melhor relação com a noção matricial, e é fundamentalmente a forma que você mais usa no futuro -->
+Em dimensão finita, quando $T$ é representado em uma base ortonormal a condição de isometria é equivalente a simples relação: 
+
+$$
+T^{-1}=T^T \iff T^TT=I
+$$
+em que $^T$ é a operação de transposta e $I$ é o operador identidade.
+No caso complexo, chamamos de operador unitário se a inversa do operador for igual a sua <b>adjunta</b>, representada por $^*$ (transposta conjugada). Assim,
+$$T^{-1}=T^*=\overline{T}^T \iff T^*T=I$$
 
 # Operadores autoadjuntos
 
-Definimos como <b>autoadjuntos</b> os operadores que, dado um espaço vetorial $V$ e um operador $F \in L(V)$, vale 
+Definimos como <b>autoadjuntos</b> os operadores que, dado um espaço vetorial $V$ sobre $\mathbb{R}$ e um operador $F \in L(V)$, vale 
 
 $$
 \langle F(u), v \rangle = \langle u, F(v) \rangle
@@ -265,7 +291,18 @@ $$
 
 para todo $u, v \in V$. 
 
-Caso $V$ tenha dimensão finita, um operador autoadjunto pode ser representado como uma matriz simétrica, caso esta matriz esteja representando-o em relação a uma base ortonormal. De fato, nessas condições, um oeprador $F$ é autoadjunto se, e somente se, este pode ser representado como uma matriz simétrica em relação a uma base ortonormal.
+Caso $V$ esteja sobre $\mathbb{R}$ e tenha dimensão finita, um operador autoadjunto pode ser representado como uma matriz simétrica, caso esta matriz esteja representando-o em relação a uma base ortonormal. De fato, nessas condições, um operador real $F$ é autoadjunto se, e somente se, este pode ser representado como uma matriz simétrica em relação a uma base ortonormal. Equivalentemente
+$$
+F=F^T
+$$
+Ainda, caso $V$ esteja sobre $\mathbb{C}$, esse operador é também chamado de <b>operador Hermitiano</b>, cuja igualdade é com sua própria adjunta (e por isso o nome "autoadjunto"). Ou seja, é um operador hermitiano se satisfaz
+$$
+F=F^*
+$$
+de modo que
+$$
+\langle u, F(v) \rangle= \langle F^*(u), v \rangle  
+$$
 
 # Referências
 
