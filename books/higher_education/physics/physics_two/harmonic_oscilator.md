@@ -30,7 +30,7 @@ Este sistema é denominado como <b>oscilador harmônico</b>, com todo sistema os
 
 # Oscilações harmônicas
 
-Podemos verificar que a equação de movimento do oscilador harmônico (chamado <b>movimento harmônico simples</b> - MHS) é uma equação diferencial ordinária de segunda ordem, cuja incógnita é $x(t)$.
+Podemos verificar que a equação de movimento do oscilador harmônico (chamado <b>movimento harmônico simples</b> - MHS) é uma <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial ordinária de segunda ordem</a>, cuja incógnita é $x(t)$. 
 
 Embora possamos aproximar essa solução numericamente com o auxílio de algoritmos como o de Euler ou de Runge-Kutta, é possível encontrar $x(t)$ analiticamente, como será demonstrado a seguir
 
@@ -44,7 +44,7 @@ $$
 x(t) = \alpha e^{i\omega t} + \beta e^{-i \omega t}
 $$
 
-com $\alpha, \beta \in mathbb{C}$. Alternativamente, pela fórmula de Euler, podemos escrever 
+com $\alpha, \beta \in \mathbb{C}$. Alternativamente, pela fórmula de Euler, podemos escrever 
 
 $$
 x(t) = (\alpha + \beta)\cos(\omega t) + i(\alpha - \beta)\sin{\omega t}
@@ -148,7 +148,7 @@ Este resultado é uma forma do <b>princípio de superposição</b>, que rege a i
 Conhecendo a função horária do movimento harmônico simples, temos que sua velocidade é da forma
 
 $$
-v(t) = \dfrac{dx}{dt} = -\omega A (\sin{(\omega t + \phi)})
+v(t) = \dfrac{dx}{dt} = -\omega A \sin{(\omega t + \phi)}
 $$
 
 logo, a energia cinética do oscilador no instante $t$ é 

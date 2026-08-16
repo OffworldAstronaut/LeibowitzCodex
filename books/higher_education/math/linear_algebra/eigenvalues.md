@@ -1,7 +1,8 @@
+# Autovalores e autovetores
 
 # Autovalores e autovetores
 
-Os conceitos de autovalores (ou valores próprios) e autovetores (ou vetores próprios) são muito importantes no estudo da Álgebra Linear e em suas aplicações. Podemos defini-los da seguinte maneira:
+Os conceitos de <b>autovalores</b> (ou valores próprios) e <b>autovetores</b> (ou vetores próprios) são muito importantes no estudo da Álgebra Linear e em suas aplicações. Podemos defini-los da seguinte maneira:
 
 <aside>
 
