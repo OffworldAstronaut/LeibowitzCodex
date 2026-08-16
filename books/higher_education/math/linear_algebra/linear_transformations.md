@@ -527,13 +527,13 @@ $$
 Em notação de <b>bras</b> e <b>kets</b> (ou então simplesmente conhecida como <b>notação bra-ket</b>), introduzida por Paul Dirac (1902-1984), escrevemos $\ket{u}$ (ket) para o vetor e $\bra{v}$ (bra) para o funcional linear. Dessa forma, a ação do funcional $\bra{v}$ sobre o vetor $\ket{u}$ é denotada por
 
 $$
-F(u)= \bra{v} \,(\ket{u})= \bra{v} \ket{u}
+F(u)= \bra{v} \,(\ket{u})= \bra{v} \, \ket{u}
 $$
 
 que pode ser comprimida para 
 
 $$
-\braket{v}{u} = \bra{v}\ket{u}
+\braket{v}{u} = \bra{v} \, \ket{u}
 $$
 
 relação esta que é extensivamente utilizada na <b>mecânica quântica</b>. É digno de nota, também, mencionar que o bra $\bra{v}$ é dito dual do ket $\ket{v}$, de modo que 
