@@ -46,7 +46,7 @@ Isto é — da primeira afirmação para a última —, vale que uma transforma�
 Dados dois espaços vetoriais $U$ e $V$ e uma transformação linear entre eles, definimos o <b>núcleo</b> dessa transformação como o conjunto de todos os elementos $u \in U$ tais que $F(u) = 0$. Em notação de conjuntos, escrevemos 
 
 $$
-\ker{F} = \{{u \in U | F(u) = 0\}}
+\ker{F} = \{u \in U | F(u) = 0\}
 $$
 
 Desta definição inicial decorre que o núcleo de uma transformação linear é um subespaço vetorial de $U$ e que $F$ é injetora se, e somente se, seu núcleo conter apenas o vetor nulo. Vale mencionar que, além de $\ker{F}$, também é comum denotar o núcleo por $\text{Null}(F)$ ou $\text{N}(F)$.
@@ -502,39 +502,47 @@ $$
 
 e, portanto, o conjunto $\{F_1, ..., F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
 
-<!-- (acho interessantíssimo você colocar um texto semelhante a este, devido a relação direta com o assunto): -->
+## O teorema da representação de Riesz e a notação de Dirac
 
-<!-- Além disso, quando o espaço $U$ é munido de um produto interno, o Teorema da Representação de Riesz diz que todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
+Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
 
 $$
-F(u) = \langle v, u \rangle
+F(u) = \braket{v, u}
 $$
 
-De fato, se $u = (x_1, ..., x_n)$ e $v = (k_1, ..., k_n)$, como mostrado acima, $$F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n$$
+De fato, se $u = (x_1, ..., x_n)$ e $v = (k_1, ..., k_n)$, como mostrado acima,
+
+$$
+F(x_1, ..., x_n) = k_1x_1 + ... + k_nx_n
+$$
 
 Ou seja, em um espaço com produto interno, cada funcional linear é identificado por um vetor do próprio espaço.
 
 Assim, dada a base canônica mencionada acima, os funcionais que extraem as coordenadas de um vetor $u$ são
 
 $$
-F_i(u) = \langle e_i, u \rangle
+F_i(u) = \braket{e_i, u}
 $$
 
-Em notação de <b>bras</b> e <b>kets</b>, introduzida por Paul Dirac, escrevemos $\lvert u \rangle$ (ket) para o vetor e $\langle v \rvert$ (bra) para o funcional linear. Dessa forma, a ação do funcional $\langle v \rvert$ sobre o vetor $\lvert u \rangle$ é denotada por
+Em notação de <b>bras</b> e <b>kets</b> (ou então simplesmente conhecida como <b>notação bra-ket</b>), introduzida por Paul Dirac (1902-1984), escrevemos $\ket{u}$ (ket) para o vetor e $\bra{v}$ (bra) para o funcional linear. Dessa forma, a ação do funcional $\bra{v}$ sobre o vetor $\ket{u}$ é denotada por
 
 $$
-F(u)= \langle v| \,(\rvert u \rangle)= \langle v, u \rangle
+F(u)= \bra{v} \,(\ket{u})= \braket{v, u}
 $$
 
 que pode ser comprimida para 
+
 $$
-\langle v\rvert u \rangle = \langle v, u \rangle
+\braket{v | u} = \braket{v, u}
 $$
-relação esta que é extensivamente utilizada na <b>mecânica quântica</b>. É digno de nota, também, mencionar que o bra $\langle v \rvert$ é dito dual do ket $\lvert v \rangle$, de modo que 
+
+relação esta que é extensivamente utilizada na <b>mecânica quântica</b>. É digno de nota, também, mencionar que o bra $\bra{v}$ é dito dual do ket $\ket{v}$, de modo que 
+
 $$
-\langle v\rvert=\lvert v \rangle^\dagger
+\bra{v}=\ket{v}^\dagger
 $$ 
-em que $^\dagger$ (lê-se "adaga") é a operação de transpôr e conjugar o vetor, que no caso de vetores $\in \mathbb{R}^n$ é equivalente a somente aplicar a transposta na representação matricial.-->
+
+em que $^\dagger$ (lê-se "adaga") é a operação de transpôr e conjugar o vetor, que no caso de vetores $\in \mathbb{R}^n$ é equivalente a somente tomar a transposta de sua representação matricial.
 
 # Referências
 

@@ -1,4 +1,4 @@
-# Equações diferenciais
+# Equações Diferenciais
 
 # Introdução 
 
