@@ -18,6 +18,12 @@ $$
 
 é uma equação de segunda ordem. Equações diferenciais ainda podem ser de <b>variáveis separáveis</b> (ou não), <b>lineares</b> (ou não), <b>homogêneas</b> (ou não) e <b>parcais</b> (ou não). Para nossos propósitos, estamos tratando apenas de equações diferenciais <b>ordinárias</b>, isto é, com a derivada regular — a função buscada é de uma única variável. 
 
+Equações deste gênero são praticamente onipresentes em diversas ciências, principalmente a Física ou a Química: o princípio fundamental da dinâmica, a equação de Schrödinger, a lei de Faraday e muitas outras descrições matemáticas de nosso mundo são realizadas por meio de equações diferenciais. Dessa forma, justifica-se o estudo profundo deste gênero de equações matemáticas.
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/cd/James_Clerk_Maxwell_Statue_Equations.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Equações de Maxwell gravadas em uma estátua em sua homenagem, em Edimburgo, Escócia. Estas quatro fundamentais equações diferenciais descrevem toda a teoria eletromagnética clássica. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:James_Clerk_Maxwell_Statue_Equations.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
 # EDOs de 1ª ordem de variáveis separáveis 
 
 Equações diferenciais de 1ª ordem de variáveis separáveis são da forma 
@@ -56,7 +62,7 @@ $$
 \dfrac{dx}{dt} = g(t)h(x)
 $$
 
-com $g: I_1 \to \mathbb{R}$ e $\h: I_2 \to \mathbb{R}$. Além disso, $g$ e $h'$ são contínuas em seus respectivos domínios. Logo, se $x = x(t), t \in I$ for solução não-constante da equação diferencial dada, então $h(x(t)) \neq 0, \forall t \in I$.
+com $g: I_1 \to \mathbb{R}$ e $h: I_2 \to \mathbb{R}$. Além disso, $g$ e $h'$ são contínuas em seus respectivos domínios. Logo, se $x = x(t), t \in I$ for solução não-constante da equação diferencial dada, então $h(x(t)) \neq 0, \forall t \in I$.
 
 </aside>
 
@@ -68,7 +74,7 @@ $$
 x'(t) = g(t)h(x(t)) \iff \dfrac{x'(t)}{h(x(t))} = g(t)
 $$
 
-Assim, imagine um intervalo $J = \left{x(t), t \in I \right}$. Como $h(x) \neq 0$, temos que para todo $x$ em $J$ a função $\dfrac{1}{h(x)}$ é contínua neste intervalo e, consequentemente, admite primitiva. Logo, podemos definir uma função $H(x)$ de forma que 
+Assim, imagine um intervalo $J = \left\{x(t), t \in I \right\}$. Como $h(x) \neq 0$, temos que para todo $x$ em $J$ a função $\dfrac{1}{h(x)}$ é contínua neste intervalo e, consequentemente, admite primitiva. Logo, podemos definir uma função $H(x)$ de forma que 
 
 $$
 H'(x) = \dfrac{1}{h(x)}, x \in J
@@ -307,7 +313,7 @@ $$
 Logo, 
 
 $$
-\dfrac{d^2 x}{dt^2} + b \dfrac{dx}{dt} + cx = 0 \iff \dfrac{d^2 x}{dt^2} - (\lambda_1 + \lambda_2)\dfrac{dx}{dt} + \lamda_1 \lambda_2 = 0 
+\dfrac{d^2 x}{dt^2} + b \dfrac{dx}{dt} + cx = 0 \iff \dfrac{d^2 x}{dt^2} - (\lambda_1 + \lambda_2)\dfrac{dx}{dt} + \lambda_1 \lambda_2 = 0 
 $$
 
 que, por sua vez, é equivalente a 
@@ -408,7 +414,7 @@ $$
 \begin{align*}
     \dfrac{d^2}{dt^2}\left(A\cos{\omega t} + B \sin{\omega t}\right) + \omega^2 \left(A \cos{\omega t} + B \sin{\omega t}\right) = 0 &\iff A\dfrac{d^2}{dt^2}\left(\cos{\omega t}\right) + B\dfrac{d^2}{dt^2}\left(\sin{\omega t}\right) + \omega^2(A\cos{\omega t} + B \sin{\omega t}) = 0 \\ 
     &\iff A\dfrac{d}{dt}\left(-\omega\sin{\omega t}\right) + B \dfrac{d}{dt}\left(\omega \cos{\omega t}\right) + \omega^2 \left(A \cos{\omega t} + B \sin{\omega t}\right) = 0 \\ 
-    &\iff -A\omega^2 \cos{\omega t} - B\omega^2 \sin{\omega t} + A\omega^2 \cos{\omega t} + B\omega^2 \sin{\omega t} = 0 
+    &\iff -A\omega^2 \cos{\omega t} - B\omega^2 \sin{\omega t} + A\omega^2 \cos{\omega t} + B\omega^2 \sin{\omega t} = 0 \\ 
     &\iff 0 = 0
 \end{align*}
 $$
@@ -417,6 +423,400 @@ Logo, toda função $x(t)$ formada pela combinação linear entre as funções $
 
 </aside>
 
+Para começar, temos primeiro que mostrar que, se $x = x(t), t \in \mathbb{R}$ é uma solução, então $\exists k \in mathbb{R}$ constante tal que $\forall t$, 
+
+$$
+[x'(t)]^2 + \omega^2 [x(t)]^2 = k
+$$
+
+Fisicamente, essa equação é a consequência direta do princípio da conservação de energia, com um múltiplo do primeiro termo identificado com a energia cinética e outro múltiplo do segundo termo identificado com a energia potencial. 
+
+Com efeito, se $x = x(t)$ é solução da equação diferencial em análise, é válido que 
+
+$$
+x''(t) + \omega^2 x(t) = 0 
+$$
+
+e, consequentemente, vale para todo $t$ que 
+
+$$
+\begin{align*}
+    \dfrac{d}{dt}\left\{[x'(t)]^2 + \omega^2[x(t)]^2 \right\} &= 2x'(t)x''(t) + 2\omega^2x(t)x'(t) \\ 
+    &= 2x'(t)[x''(t) + \omega^2x(t)] \\ 
+    &= 0. 
+\end{align*}
+$$
+
+Assim, $k \in \mathbb{R}$ com $k = [x'(t)]^2 + \omega^2 [x(t)]^2$ é constante. Suponha agora uma solução qualquer da equação diferencial original, $x(t), t \in \mathbb{R}$.
+
+Fazendo $a_0 = x(0)$ e $b_0 = x'(0)$, temos que a função
+
+$$
+f(t) = a_0 \cos{\omega t} + \dfrac{b_0}{\omega}\sin{\omega t} 
+$$
+
+é solução, conforme demonstrado anteriormente. Além disso, $f(0) = a_0$ e $f'(0) = b_0$. 
+
+Note que se $f(t)$ e $x(t)$ são soluções, então $f(t) - x(t)$ também será. Como visto acima, $\exists k \in \mathbb{R}$ tal que $\forall t \in \mathbb{R}$ vale 
+
+$$
+[f'(t) - x'(t)]^2 + \omega^2[f(t) - x(t)] = k
+$$
+
+Como $f(0) = x(0)$ e $f'(0) = x'(0)$, podemos ver que $k = 0$. Logo, 
+
+$$
+[f'(t) - x'(t)]^2 + \omega^2[f(t) - x(t)]^2 = 0 
+$$
+
+e, consequentemente, $x(t) = f(t)$. Isto é, 
+
+$$
+x(t) = A\cos{\omega t} + B\sin{\omega t}
+$$
+
+com $A = a_0$ e $B = \dfrac{b_0}{\omega}$. Aqui está provada a relação contrária: se $x(t)$ é solução, esta será combinação linear de $\cos{\omega t}$ e $\sin{\omega t}$. 
+
+<aside>
+
+<b>Exemplo (Movimento harmônico simples)</b> — Considere o movimento de uma partícula sobre o eixo das abscissas regido pela equação 
+
+$$
+m\dfrac{d^2x}{dt^2} + kx = 0
+$$
+
+com $m, k \in \mathbb{R}$ constantes positivas. Como podemos descrever o movimento, isto é, caracterizar sua função horária? 
+
+Perceba que esta equação é equivalente a escrever 
+
+$$
+\dfrac{d^2x}{dt^2} + \omega^2 x = 0 
+$$
+
+ao tomar $\omega^2 = \dfrac{k}{m}$. Logo, a solução geral é da forma 
+
+$$
+x = A\cos{\omega t} + B\sin{\omega t}
+$$
+
+Tomando $\phi \in \mathbb{R}$ de forma que $A = \cos{\phi}\sqrt{A^2 + B^2}$ e $B = \sin{\phi}\sqrt{A^2 + B^2}$, podemos reescrever a solução geral numa forma alternativa: 
+
+$$
+x = [\cos{\phi}\cos{\omega t} + \sin{\phi} \sin{\omega t}]\sqrt{A^2 + B^2} = \cos{(\omega t - \phi)}\sqrt{A^2 + B^2}
+$$
+
+que é a função horária de um <b>movimento harmônico simples</b> de amplitude $\sqrt{A^2 + B^2}$. 
+
+Assim, neste ponto de vista, podemos definir que uma partícula realiza um <b>movimento harmônico simples</b> sobre o eixo x se sua trajetória for descrita por uma função da forma $x = a\cos{(\omega t - \phi_0)}$. Nesta expressão, $a$, $\omega$ e $\phi$ denominam-se, respectivamente, a <b>amplitude</b>, a <b>pulsação</b> e a <b>fase inicial</b> do movimento.
+
+</aside>
+
+Finalmente, após todo este raciocínio preliminar, podemos nos debruçar sobre a determinação da solução geral da equação diferencial ordinária
+
+$$
+\dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = 0
+$$
+
+quando as raízes de sua característica não são mais números reais, mas sim, complexos.
+
+Sabemos que se as raízes $\lambda$ da equação característica forem reais e distintas, isto é, da forma 
+
+$$
+\lambda = \dfrac{-b \pm \sqrt{\Delta t}}{2}
+$$
+
+a solução geral será da forma 
+
+$$
+x = Ae^{\dfrac{-b + \sqrt{\Delta}}{2}} + Be^{\dfrac{-b - \sqrt{\Delta}}{2}}
+$$
+
+ou, equivalentemente, 
+
+$$
+x = e^{-\dfrac{b}{2}t}\left[Ae^{\dfrac{\sqrt{\Delta}}{2}t} + Be^{-\dfrac{\sqrt{\Delta}}{2}t}\right]
+$$
+
+Podemos verificar que, se $\Delta \gt 0$, 
+
+$$
+Ae^{\dfrac{\sqrt{\Delta}}{2}t} + Be^{-\dfrac{\sqrt{\Delta}}{2}}
+$$
+
+é a solução geral da equação diferencial 
+
+$$
+\dfrac{d^2 x}{dt^2} - \dfrac{\Delta}{4}x = 0
+$$
+
+<aside>
+
+<b>Teorema</b> — Seja a equação diferencial
+
+$$ 
+\dfrac{d^2 x}{dt^2} + b\dfrac{dx}{dt} + cx = 0 
+$$ 
+
+Suponha então que as raízes da equação característica $\lambda^2 + b\lambda + c = 0$ sejam complexas, de forma que 
+
+$$
+\lambda = \alpha \pm \beta i
+$$
+
+com 
+
+$$
+\alpha = -\dfrac{b}{2}
+$$
+
+e 
+
+$$
+\beta = \dfrac{\sqrt{|\Delta|}}{2}
+$$
+
+Logo, a solução geral da equação diferencial é da forma 
+
+$$
+x = e^{\alpha t}[A\cos{\beta t} + B\sin{\beta t}]
+$$
+
+com $A, B \in \mathbb{R}$.
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Considere $f$ e $g$ funções $\mathbb{R} \to \mathbb{R}$ de forma que 
+
+$$
+f(t) = e^{-\dfrac{b}{2}t} g(t), \forall t \in \mathbb{R}
+$$
+
+Nosso objetivo inicial é mostrar que $f$ será solução se, e somente se, $g$ for solução de
+
+$$
+\dfrac{d^2x}{dt^2} + \left(\dfrac{-\Delta}{4}\right)x = 0 
+$$
+
+Por um lado, se $f$ for solução, deve valer 
+
+$$
+\dfrac{d^2f}{dt^2} + b\dfrac{df}{dt} + cf(t) = 0 
+$$
+
+isto é, 
+
+$$
+\left[e^{-\dfrac{b}{2}t} g(t)\right]'' + b\left[e^{-\dfrac{b}{2}t} g(t)\right]' + c\left[e^{-\dfrac{b}{2}t} g(t)\right] = 0
+$$
+
+Calculando estas derivadas e reorganizando os termos, obtemos: 
+
+$$
+e^{-\dfrac{b}{2}t}\left[g''(t)+\left(c-\dfrac{b^2}{4}\right)g(t)\right] = 0
+$$
+
+Como $\Delta = b^2 - 4ac$, segue que: 
+
+$$
+g''(t) + \left(\dfrac{-\Delta}{4}\right)g(t) = 0
+$$
+
+Consequentemente, mostramos que $g(t)$ é solução de $\dfrac{d^2x}{dt^2} + \left(-\dfrac{\Delta}{4}\right)x = 0$. A primeira via da equivalência está provada. Para demonstrar a via contrária, vamos ter como hipótese que $g(t)$ é solução desta equação diferencial.
+
+Calculando $f'(t)$ e $f''(t)$ e substituindo os termos necessários na equação diferencial de segunda ordem, obtemos: 
+
+$$
+\left(\dfrac{b^2}{4}e^{-\dfrac{b}{2}t} g(t) - be^{-\dfrac{b}{2}t} g'(t) + e^{-\dfrac{b}{2}t} g'(t)\right) + b\left(e^{-\dfrac{b}{2}t}\left(-\dfrac{b}{2}g(t) + g'(t)\right)\right) + c\left(e^{-\dfrac{b}{2}t} g(t)\right) = 0
+$$
+
+que, após simplificações, se reduz à forma 
+
+$$
+e^{-\dfrac{b}{2}t}\left[\left(\dfrac{-\Delta}{4}\right)g(t) + g''(t)\right] = 0
+$$
+
+Como, por hipótese, 
+
+$$
+g''(t) + \left(\dfrac{-\Delta}{4}\right)g(t) = 0
+$$
+
+segue que a igualdade é verdadeira e, portanto, $f(t)$ é solução da equação diferencial de segunda ordem. A equivalência está provada. 
+
+Finalmente, sendo $g(t)$ solução, esta é da forma 
+
+$$
+g(t) = A\cos{\beta t} + B \sin{\beta t}
+$$
+
+com $\beta = \sqrt{\dfrac{-\Delta}{4}}$. Consequentemente, 
+
+$$
+f(t) = e^{\alpha t}\left[A\cos{\beta t} + B \sin{\beta t}\right]
+$$
+
+com $\alpha = -\dfrac{b}{2}$. 
+
+</aside>
+
+<aside>
+
+<b>Exemplo (Movimentos oscilatórios amortecidos)</b> — Considere uma partícula de massa $m$ deslocando-se ao longo do eixo $x$ sob a ação de uma força elástica $\vec{F_K} = -kx\hat{i}$, com $k \gt 0$ e de uma força de <b>amortecimento</b> proporcional à velocidade dada por $\vec{F_A} = -c\dfrac{dx}{dt}\hat{i}$, com $c \gt 0$. 
+
+Pelo princípio fundamental da dinâmica, temos que 
+
+$$
+\begin{align*}
+    m\dfrac{d^2x}{dt^2} = -kx - c\dfrac{dx}{dt} &\iff m\dfrac{d^x}{dt^2} + c\dfrac{dx}{dt} + kx = 0 \\ 
+    &\iff \dfrac{d^2x}{dt^2} + 2\gamma\dfrac{dx}{dt} + \omega^2x = 0 
+\end{align*}
+$$
+
+com $\gamma = \dfrac{c}{2m}$ e $\omega^2 = \dfrac{k}{m}$. Assim, as raízes da equação característica são da forma 
+
+$$
+\lambda = -\gamma \pm \sqrt{\gamma^2 - \omega^2}
+$$
+
+À partir da comparação entre $\gamma^2$ e $\omega^2$, podemos categorizar o movimento resultante em três variedades. 
+
+Caso $\gamma^2 \lt \omega^2$, o movimento é dito <b>oscilatório amortecido</b> (ou <b>oscilatório subcrítico</b>). Como as raízes da equação característica são complexas nesse caso, possuindo a forma 
+
+$$
+\lambda = -\gamma \pm \bar{\omega}i
+$$
+
+com $\bar{\omega} = \sqrt{\omega^2 - \gamma^2}$, temos que a solução geral da equação do movimento será 
+
+$$
+x = e^{-\gamma t}\left[A\cos{\bar{\omega}t} + B\sin{\bar{\omega}t}\right]
+$$
+
+ou, então, 
+
+$$
+x = Ke^{-\gamma t} \cos{\bar{\omega}t - \phi}
+$$
+
+com $K = \sqrt{A^2 + B^2}$ e $\phi$ tal que $A = K\cos{\phi}$ e $B = K\sin{\phi}$. 
+
+Caso $\gamma^2 = \omega^2$, o movimento recebe a denominação de <b>oscilatório de amortecimento crítico</b>, com a equação característica admitindo uma única raiz real, $\lambda = -\gamma$. Assim, a solução geral nesse caso será da forma 
+
+$$
+x = Ae^{-\gamma t} + Bte^{-\gamma t} = (A + Bt)e^{-\gamma t}
+$$
+
+Por fim, se $\gamma^2 \gt \omega^2$, o movimento é chamado de <b>amortecimento forte</b> ou <b>supercrítico</b>, com as raízes da equação característica sendo reais e distintas: 
+
+$$
+\lambda = -\gamma \pm \Omega
+$$
+
+com $\Omega = \sqrt{\gamma^2 - \omega^2}$. Dessa forma, a solução geral configura-se por: 
+
+$$
+x = e^{-\gamma t}(Ae^{\Omega t} + Be^{-\Omega t})
+$$
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f5/Oscillatory_motion_%28damped%29.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Acima temos uma animação dos gráficos característicos de movimentos oscilatórios amortecidos (azul), críticos (verde) e supercríticos (vermelho). Note que os amortecidos oscilam em torno da posição de equilíbrio até atingi-la, os críticos rapidamente a atingem e os supercríticos nem oscilam em torno da posição de equilíbrio, atingindo-a após de um tempo longo. GIF autoral, feito pelo Geogebra, disponibilizado <a href="https://commons.wikimedia.org/wiki/File:Oscillatory_motion_(damped).gif" target="_blank">aqui</a>.</i>
+
+</aside>
+
+## Equações diferenciais lineares, não-homogêneas, de 2ª ordem
+
+Considere a seguinte equação diferencial, classificada como linear, de 2ª ordem e de coeficientes constantes. 
+
+$$
+\dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = f(t) 
+$$
+
+com $f(t): I \to \mathbb{R}$ contínua. Caso $f(t)$ não seja nula no seu domínio, esta equação é classificada como <b>não-homogênea</b>. Consequentemente, dizemos que a equação 
+
+$$
+\dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = 0
+$$
+
+é a <b>equação homogênea</b> associada a anterior. 
+
+Nosso objetivo agora é mostrar que, caso $x_P = x_P(t), t \in I$ for uma solução particular desta equação não-homogênea, sua solução geral $x = x(t)$ será da forma 
+
+$$
+x = x_H + x_P
+$$
+
+com $x_h$ sendo a solução geral da equação homogênea associada. Para começarmos, considere $x_P$ conforme escrito anteriormente. Logo, deve valer que 
+
+$$
+\dfrac{d^2 x_P}{dt^2} + b\dfrac{dx_P}{dt} + cx_P = f(t)
+$$
+
+Suponha então uma solução qualquer desta mesma equação, $x = x(t)$. Como consequência, temos que $x(t) - x_P(t)$ é solução da homogênea associada, pois é válido que 
+
+$$
+\dfrac{d^2}{dt^2}[x(t) - x_P(t)] + b\dfrac{d}{dt}[x(t) - x_P(t)] + c[x(t) - x_P(t)] = [\dfrac{d^2 x}{dt^2} + b\dfrac{dx}{dt} + cx(t)] - [\dfrac{d^2x_P}{dt^2} + b\dfrac{dx_P}{dt} + cx_P] = f(t) - f(t) = 0
+$$
+
+Por outro lado, se $x = x(t), t \in I$ for tal que $x(t) - x_P(t)$ é solução da homogênea correspondente, $x = x(t)$ será solução da equação de segunda ordem. Isto pode ser demonstrado da seguinte maneira: 
+
+$$
+\begin{align*}
+    \dfrac{d^2}{dt^2}[x(t) - x_P(t)] + b\dfrac{d}{dt}[x(t) - x_P(t)] + c[x(t) - x_P(t)] = 0 &\iff \dfrac{d^2x}{dt^2} - \dfrac{d^2x_P}{dt^2} + b\dfrac{dx}{dt} - b\dfrac{dx_P}{dt} + cx - cx_P = 0 \\ 
+    &\iff \dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = \dfrac{d^2x_P}{dt^2} + b\dfrac{dx_P}{dt} + cx_P \\ 
+    &\iff \dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = f(t)
+\end{align*}
+$$
+
+Logo, $x(t)$ é solução da equação não-homogênea.
+
+Por fim, a solução geral desta equação de segunda ordem, não-homogênea, é realmente da forma 
+
+$$
+x = x_H + x_P 
+$$
+
+com $x_H$ sendo a solução geral da homogênea correspondente e $x_P$ uma solução partícular da equação não-homogênea.
+
+O problema principal agora está em como encontrar uma solução partícular $x_P$. Felizmente, algumas destas já foram tabeladas para alguns formatos de equações. Abaixo está reproduzida a tabela de GUIDORIZZI (2011).
+
+| $f(t)$               | Solução partícular                                                                                                                                                                                                                                           |
+|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| $a_0 e^{\alpha t}$   | Se $\alpha$ não é raíz da equação característica, $x_P = me^{\alpha t}$<br>Se $\alpha$ é raíz simples, $x_P = mte^{\alpha t}$<br>Se $\alpha$ é raíz dupla, $x_P = mt^2 e^{\alpha t}$                                                                         |
+| $P(t)$               | Se $c \neq 0$, $x_P = P_1(t)$ onde $P_1(t)$ é um polinômio de mesmo grau que $P$<br>Se $c = 0$ e $b \neq 0$, $x_P = tP_1(t)$                                                                                                                                 |
+| $a_0 \cos{\alpha t}$ | Se $b \neq 0$, $x_P = m\cos{\alpha t} + n\sin{\alpha t}$<br>Se $b = 0$ e se $\cos{\alpha t}$ não for solução da homogênea, $x_P = m\cos{\alpha t}$.<br>Se $b = 0$ e se $\cos{\alpha t}$ for solução da homogênea, $x_P = mt\cos{\alpha t} + nt\sin{\alpha t}$ |
+
+Uma nota importante é que caso $f(t) = a_0 \sin{\alpha t}$, deve-se prosseguir pelo mesmo método da última linha da tabela.
+
+<aside>
+
+<b>Exemplo (princípio da superposição)</b> — Considere a equação diferencial a seguir. 
+
+$$
+\dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = f_1(t) + f_2(t)
+$$
+
+onde $f_1(t)$ e $f_2(t)$ são funções conhecidas, definidas e contínuas num mesmo intervalo $I \in \mathbb{R}$.
+
+Temos, então, que se $x_1 = x_1(t), t \in I$ for uma solução particular de 
+
+$$
+\dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = f_1(t)
+$$
+
+e se $x_2 = x_2(t), t \in I$ for uma solução particular de 
+
+$$
+\dfrac{d^2x}{dt^2} + b\dfrac{dx}{dt} + cx = f_2(t)
+$$
+
+então $x_P = x_P(t) = x_1(t) + x_2(t)$ será uma solução particular da equação original. Para demonstrar isso, basta substituir as funções soluções e suas respectivas equações e somar estas. 
+
+</aside>
+
 # Referências
 
-1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
+1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed. vol. 1, reimpr. Rio de Janeiro: LTC, 2011. 530 p. LTC
+2. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. 5.ed. vol. 2, reimpr. Rio de Janeiro: LTC, 2011. 476 p. LTC
