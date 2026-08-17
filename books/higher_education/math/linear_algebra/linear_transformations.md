@@ -507,7 +507,7 @@ e, portanto, o conjunto $\{F_1, \dots, F_n\}$ é linearmente independente em $U^
 Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
 
 $$
-F(u) = \braket{v}{u}
+F(u) = \langle v, u \rangle 
 $$
 
 De fato, se $u = (x_1, \dots, x_n)$ e $v = (k_1, \dots, k_n)$, como mostrado acima,
@@ -521,7 +521,7 @@ Ou seja, em um espaço com produto interno, cada funcional linear é identificad
 Assim, dada a base canônica mencionada acima, os funcionais que extraem as coordenadas de um vetor $u$ são
 
 $$
-F_i(u) = \braket{e_i}{u}
+F_i(u) = \langle e_i, u \rangle
 $$
 
 Em notação de <b>bras</b> e <b>kets</b> (ou então simplesmente conhecida como <b>notação bra-ket</b>), introduzida por Paul Dirac (1902-1984), escrevemos $\ket{u}$ (ket) para o vetor e $\bra{v}$ (bra) para o funcional linear. Dessa forma, a ação do funcional $\bra{v}$ sobre o vetor $\ket{u}$ é denotada por

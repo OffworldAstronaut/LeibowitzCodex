@@ -12,7 +12,7 @@ Na modelagem de Euler, as chamadas <b>linhas de corrente</b> são análogas às 
 
 De forma similar podemos definir os chamados <b>tubos de corrente</b>, superfícies formadas num dado instante por todos as linhas decorrente num fluido que intersectam uma curva fechada qualquer $C$.
 
-A abstração matemática do campo de velocidades permite a classificação de <b>tipos de escoamento<qb> que um líquido pode sofrer. Temos assim duas grandes categorias: o escoamento <b>estacionário</b> e o escoamento <b>não-estacionário</b>. 
+A abstração matemática do campo de velocidades permite a classificação de <b>tipos de escoamento</b> que um líquido pode sofrer. Temos assim duas grandes categorias: o escoamento <b>estacionário</b> e o escoamento <b>não-estacionário</b>. 
 
 Fluidos em escoamento <b>estacionário</b> possuem um capo de velocidade constante ao longo do tempo, enquanto isto não acontece em escoamentos não-estacionários. O caso extremo destes últimos são os escoamentos <b>turbulentos</b>, em que cada vetor do campo de velocidades varia bruscamente e de forma irregular ao longo do tempo.
 
