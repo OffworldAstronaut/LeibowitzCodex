@@ -52,6 +52,46 @@ com a quantidade $Av$ sendo denominada <b>vazão do tubo</b> e mensurada, no Sis
 
 Dado que não podemos analisar o princípio de conservação da massa por este mesmo método em fluidos escoando de forma não-estacionária, em razão da constante mudança das linhas de corrente, teremos que recorrer a outra abordagem.
 
+Considere um volume $V$ do fluido, fixo, quie é limitado por uma superfície fechada $S$, com $\hat{n}$ sendo o versor da normal externa para cada ponto considerado de $S$. 
+
+Podemos perceber que a massa $\Delta m$ do fluido que perpassa $\Delta S$ num intervalo de tempo $\Delta t$ está no interior de um cilindro de base $\Delta S$ e geratriz $\vec{v}\Delta t$, com $\vec{v}$ sendo a velocidade do fluido no entorno da superfície no instante considerado. 
+
+Assim, é possível escrever: 
+
+$$
+\Delta m = \rho \vec{v} \cdot \hat{n}\Delta t \Delta S
+$$
+
+com $\rho \vec{v} \cdot \hat{n}\Delta S$ representando o fluxo de massa por unidade de tempo que sai do volume $V$. Caso o sinal fosse oposto (isto é, caso $\vec{v} \cdot \hat{n} \lt 0$), não haveria prejuízo quanto à analise física do problema: estaríamos apenas indicando que o fluido se dirige para "fora" do elemento de superfície $\Delta S$.
+
+Consequentemente, temos que a massa total de fluido no interior de todo o volume $V$ num dado instante $t$ é 
+
+$$
+m = \int_{V} \rho \, dV 
+$$
+
+com $dV$ sendo o elemento de volume e $\rho$ a densidade pontual do fluido. A integral é estendida ao volume $V$, isto é, estamos integrando sobre todos seus elementos de volume. 
+
+Nota-se que essa massa varia ao longo do tempo, geralmente. Em razão do princípio da conservação da massa (ela não pode criada nem destruída), temos que essa variação possui origem no fluxo resultante através de $S$: $m$ aumenta se a variação líquida de fluido para o interior de $S$ é positiva e diminui caso contrário. 
+
+Dessa forma, temos que 
+
+$$
+\oint_S \rho \vec{v} \cdot \hat{n} \ dS
+$$
+
+expressa o fluxo resultante por unidade de tempo, isto é, o decréscimo por unidade de tempo da massa de fluido contida em $V$. Consequentemente, 
+
+$$
+\oint_S \rho \vec{v} \cdot \hat{n} \ dS = -\dfrac{dm}{dt} = -\dfrac{d}{dt}\int_V \rho \ dV 
+$$
+
+com esta expressão sendo chamada <b>equação de continuidade</b>. Eis a maneira que enunciamos o princípio da conservação da massa num caso mais geral! A forma anterior é obitda ao considerar o volume de um tubo fixo de corrente e, num escoamento estacionário, $\rho$ independe do tempo e $-\dfrac{dm}{dt} = 0$, consequentemente. 
+
+## Forças num fluido em movimento
+
+
+
 # Referências
 
 1. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 2: Fluidos; oscilações e ondas; calor. 4. ed. rev. São Paulo: Blucher, 2002

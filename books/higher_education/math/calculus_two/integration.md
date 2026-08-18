@@ -200,6 +200,32 @@ Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
 
 </aside>
 
+Consequentemente, convém registrar aqui algumas primitivas recorrentes e, por isso, úteis de se ter em mente. Em todos os casos abaixo, $C \in \mathbb{R}$ é a constante de integração.
+
+$$
+\begin{align*}
+  \int k \ dx &= kx + C \\ 
+  \int x^n \ dx &= \dfrac{x^{n+1}}{n+1} + C, \forall n \neq 1 \\ 
+  \int \dfrac{1}{x} \ dx &= \ln{|x|} + C \\ 
+  \int e^x \ dx &= e^x + C \\ 
+  \int a^x \ dx &= \dfrac{a^x}{\ln{|a|}} + C \\ 
+  \int \sin{x} \ dx &= -\cos{x} + C \\ 
+  \int \cos{x} \ dx &= \sin{x} + C \\ 
+  \int \tan{x} \ dx &= \ln{|\sec{x}|} + C = -\ln{|\cos{x}|} + C \\ 
+  \int \cot{x} \ dx &= -\ln{|\csc{x}|} + C = \ln{|\sin{x}|} + C \\
+  \int \sec{x} \ dx &= \ln{|\sec{x} + \tan{x}|} + C = \ln{|\tan{\left(\dfrac{x}{2} + \dfrac{\pi}{4}\right)}} + C \\ 
+  \int \csc{x} \ dx &= -\ln{|\csc{x} + \cotg{x}|} + C = \ln{|\csc{x} - \cot{x}|} + C = \ln{|\tan{\left(\dfrac{x}{2}\right)}|} + C \\ 
+  \int \sec^2{x} \ dx &= \tan{x} + C \\ 
+  \int \csc^2{x} \ dx &= -\cot{x} + C \\ 
+  \int \sec{x} \tan{x} \ dx &= \sec{x} + C \\ 
+  \int \csc{x} \cot{x} \ dx &= -\csc{x} + C \\ 
+  \int \sinh{x} \ dx &= \cosh{x} + C \\ 
+  \int \cosh{x} \ dx &= \sinh{x} + C 
+\end{align*}
+$$
+
+Além disso, nota-se que para extrair a primitiva de uma função composta por um módulo, isto é, $f(x) = |g(x)|$, é útil realizar um estudo de sinal de $g(x)$ e, após isso, definir $f(x)$ por partes de acordo com este estudo de sinal e, consequentemente, encontrar a antiderivada em cada uma dessas partes.
+
 ## O teorema fundamental do Cálculo
 
 O <b>teorema fundamental do Cálculo</b>, geralmente dividido em duas partes, é de fato um dos resultados mais importantes da análise real. Esta conclusão matemática unifica o chamado "cálculo diferencial" com o "cálculo integral", estabelecendo que a derivação e a integração são como operações inversas.
