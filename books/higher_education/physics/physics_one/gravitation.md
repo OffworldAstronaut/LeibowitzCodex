@@ -215,6 +215,66 @@ Tudo isto ocorreu em 1846, sendo uma sensação no mundo científoc da época. C
 
 Essas observações atestavam que, de fato, a força gravitacional atua em distâncias na escala de nosso sistema solar. E na escala interestelar? Entre galáxias? Qual o limite da interação gravitacional entre corpos? Observações como sistemas de estrelas binárias, aglomerados globulares, galáxias e aglomerados de galáxias mostraram que, de fato, não há limite conhecido para a atuação da força gravitacional, embora esta interação se torne desprezível para corpos distantes o suficiente. 
 
+## Hooke e a gravidade-mola
+
+Note que nas demonstrações anteriores das leis de Kepler a única característica realmente necessária para essas serem válidas é a característica radial da força. Logo, isso nos permite conduzir um experimento mental interessante: e se a força de atração gravitacional, ao invés de ser como a de Newton, fosse hookeriana? 
+
+$$
+\vec{F_H} = -GM_1M_2r\hat{r}
+$$
+
+onde $r = ||\vec{r}||$ e $\vec{r}$ é o vetor raio entre as massas $M_1$ e $M_2$. Além disso, $\hat{r} = \dfrac{\vec{r}}{r}$. 
+
+Como primeiro exercício de nossa imaginação, vamos comparar os períodos orbitais de um corpo em torno de outro, seguindo uma trajetória circular. Considere um corpo central de massa $M$, um satélite de massa $m$ e uma órbita de raio $r$. 
+
+Sabemos que o período orbital é simplesmente o período de revolução de um movimento circular uniforme e, consequentemente, possui a forma 
+
+$$
+T = \dfrac{2\pi r}{v}
+$$
+
+com $v$ sendo a velocidade tangencial do movimento. Pela expressão da aceleração centrípeta no MCU e pelo princípio fundamental da dinâmica, podemos encontrar uma expressão para $v$. 
+
+$$
+v = \sqrt{r \cdot \left(\dfrac{F}{m}\right)}
+$$
+
+No caso newtoniano, temos que 
+
+$$
+v_N = \sqrt{r \cdot \left(\dfrac{GMm}{mr^2}\right)} = \sqrt{\dfrac{GM}{r}}
+$$
+
+Por outro lado, temos que no caso hookeriano a velocidade é: 
+
+$$
+v_H = \sqrt{r \cdot \left(\dfrac{GMmr}{m}\right)} = r\sqrt{GM}
+$$
+
+Logo, temos que no caso hookeriano, a velocidade orbital é maior em relação ao caso newtoniano por um fator de $r\sqrt{r}$. E nos períodos? 
+
+Pela relação do período exposta acima, podemos ver que, no caso newtoniano vale: 
+
+$$
+T_N = \dfrac{2\pi r}{v} = \dfrac{2 \pi r}{\sqrt{\dfrac{GM}{r}}} = \dfrac{2\pi r^2 \sqrt{\dfrac{GM}{r}}}{GM}
+$$
+
+Por outro lado, o período no caso hookeriano é: 
+
+$$
+T_H = \dfrac{2\pi r}{r\sqrt{GM}} = \dfrac{2\pi \sqrt{GM}}{GM}
+$$
+
+Já perceba que o periodo orbital no caso hookeriano não depende do raio da órbita: todos os planetas moveriam-se ao redor do Sol com a mesma velocidade angular, completando voltas ao mesmo tempo! 
+
+Qual a razão dos períodos, portanto? 
+
+$$
+\dfrac{T_N}{T_H} = r^2 \sqrt{\dfrac{GM}{r}} \iff T_N = r^2 \sqrt{\dfrac{GM}{r}} \cdot T_H
+$$
+
+Até as órbitas no caso hookeriano seriam mais velozes! Interessante, não?
+
 # Cavendish
 
 Olhando para os céus conseguimos concluir e verificar muita coisa, entretanto, por ser uma lei <b>universal</b>, poderíamos também verificar sua validade em laboratório? Deste questionamento, surgiu o experimento de Cavendish, ainda no século XVIII.

@@ -171,8 +171,8 @@ Como o coeficiente $\cos{\alpha}$ é o produto escalar entre os vetores $\ket{\a
 
 $$
 \begin{align*}
-    \braket{\alpha | H} = \cos{\alpha}
-    \braket{\alpha | \ket{V}}
+    \braket{\alpha}{H} = \cos{\alpha}
+    \braket{\alpha}{\ket{V}}
 \end{align*}
 $$
 
@@ -180,9 +180,9 @@ Uma consequência imediata disso é que é valido escrever
 
 $$
 \begin{align*}
-    \braket{H | H} &= 1 
-    \braket{V | V} &= 1 
-    \braket{H | V} &= 0
+    \braket{H}{H} &= 1 
+    \braket{V}{V} &= 1 
+    \braket{H}{V} &= 0
 \end{align*}
 $$
 
@@ -218,7 +218,7 @@ k_1
 \end{pmatrix}
 $$
 
-Podemos verificar que $\braket{\alpha \ket{\alpha^\perp}} = 0$ (os vetores são ortogonais) e, portanto, linearmente independentes. Como estes vetores são linearmente independentes, formam uma base para o $\mathbb{R}^2$.
+Podemos verificar que $\braket{\alpha}{\ket{\alpha^\perp}} = 0$ (os vetores são ortogonais) e, portanto, linearmente independentes. Como estes vetores são linearmente independentes, formam uma base para o $\mathbb{R}^2$.
 
 Basta então determinar o conjunto de vetores do plano que formam o círculo unitário. Isto é, precisamos determinar $k_1$ e $k_2$ de forma que 
 
@@ -254,14 +254,14 @@ Um outro ponto para continuar nossa discussão sobre é o análogo da fração t
 Uma solução para isto é a interpretação desta grandeza como a <b>probabilidade</b> de um fóton ser transmitido. Dessa forma, ao analisarmos um feixe, estaríamos na verdade observando o comportamento médio de muitos fótons. Portanto, as probabilidades de um fóton passar por polarizadores horizontais e verticais, dado um ângulo de polarização inicial arbitrário $\alpha$ é de, respectivamente, 
 
 $$
-\text{P(H dado $\alpha$)} = P(H|\alpha) = \cos^2{\alpha} = |\braket{H | \alpha}|^2 \\ 
-\text{P(V dado $\alpha$)} = P(V|\alpha) = \sin^2{\alpha} = |\braket{V | \alpha}|^2 \\ 
+\text{P(H dado $\alpha$)} = P(H|\alpha) = \cos^2{\alpha} = |\braket{H}{\alpha}|^2 \\ 
+\text{P(V dado $\alpha$)} = P(V|\alpha) = \sin^2{\alpha} = |\braket{V}{\alpha}|^2 \\ 
 $$
 
 De forma mais geral, temos que, dados dois estados de polarização quaisquer $\ket{\psi_1}$ e $\ket{\psi_2}$, vale 
 
 $$
-\text{P($\psi_1$ dado $\psi_2$)} = |\braket{\psi_1 | \psi_2}|^2
+\text{P($\psi_1$ dado $\psi_2$)} = |\braket{\psi_1}{\psi_2}|^2
 $$
 
 com essa relação denominada <b>regra de Born</b> em homenagem ao físico alemão Max Born.
@@ -419,7 +419,7 @@ $$
 Uma transformação $T: U \to V$ é dita unitária se esta preserva o produto interno entre os dois vetores considerados. Isto é, se vale
 
 $$
-\braket{\psi_1, \psi_2} = \braket{T(\psi_1), T(\psi_2)}
+\braket{\psi_1}{\psi_2} = \braket{T(\psi_1)}{T(\psi_2)}
 $$
 
 A razão para a propriedade da unitariedade pode ser intuída por uma consequência da regra de Born. Dois estados são perfeitamente distinguíveis se estes são ortogonais entre si (produto interno nulo) e são o mesmo estado se são colineares (produto interno igual a 1). 

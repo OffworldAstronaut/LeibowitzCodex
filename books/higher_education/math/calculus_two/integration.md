@@ -93,6 +93,80 @@ $$
 
 Além disso, temos que toda função <b>contínua</b> é <b>integrável</b>, embora algumas funções descontínuas preservem a propriedade de integração. Encontrar todas as condições que tornam uma função integrável está fora do escopo deste documento.
 
+<aside>
+
+<b>Teorema</b> — Seja $f: [-a, a] \to \mathbb{R}$ contínua e par. Logo, 
+
+$$
+\int_{-a}^{a} f(x) \ dx = 2 \int_{0}^{a} f(x) \ dx 
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Se $f$ é par, $f(x) = f(-x), \forall x \in [-a, a]$. Dessa forma: 
+
+$$
+\begin{align*}
+  \int_{-a}^{a} f(x) \ dx &= \int_{-a}^{0} + \int_{0}^{a} f(x) \ dx \\ 
+                          &= \int_{0}^{-a} -f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+                          &= - \int_{0}^{-a} f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+                          &= - \int_{0}^{-a} f(-x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+\end{align*}
+$$
+
+Fazendo então $u = -x \iff dx = -du$: 
+
+$$
+\begin{align*}
+  \int_{-a}^{a} f(x) \ dx &= - \int_{0}^{a} -f(-u) du \int_{0}^{a} f(x) \ dx \\ 
+                          &= \int_{0}^{a} f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+                          &= 2 \int_{0}^{a} f(x) \ dx 
+\end{align*}
+$$
+
+Provado.
+
+</aside>
+
+<aside>
+
+<b>Teorema</b> — Seja $f: [-a, a] \to \mathbb{R}$ uma função ímpar. Logo, 
+
+$$
+\int_{-a}^{a} f(x) \ dx = 0 
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Se $f$ é ímpar, $f(-x) = -f(x), \forall x \in [-a, a]$. Assim, 
+
+$$
+\begin{align*}
+  \int_{-a}^{a} f(x) \ dx &= \int_{-a}^{0} f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+                          &= \int_{0}^{-a} -f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+                          &= - \int_{0}^{-a} f(x) \ dx + \int_{0}^{a} f(x) \ dx 
+\end{align*}
+$$
+
+Fazendo $u = -x \iff dx = -du$: 
+
+$$
+\begin{align*}
+  \int_{-a}^{a} f(x) \ dx &= -\int_{0}^{a} -f(-u) \ du + \int_{0}^{a} f(x) \ dx \\ 
+                          &= \int_{0}^{a} f(-u) \ du + \int_{0}^{a} f(x) \ dx \\ 
+                          &= - \int_{0}^{a} f(u) \ du + \int_{0}^{a} f(x) \ dx \\ 
+                          &= 0
+\end{align*}
+$$
+
+Provado.
+
+</aside>
+
 # Calculando integrais
 
 Até aqui, conseguimos definir integrais, operações que nos fornecem a área sob o gráfico de uma determinada função. Nesta seção, iremos nos concentrar em aprender como podemos <b>calcular</b> de fato estas integrais.
@@ -352,6 +426,94 @@ $$
 $$
 
 Calcular essa última expressão é o equivalente de encontrar a área do retângulo com base no tamanho dos limites de integração e da altura $f(c)$, além de demonstrarmos que a área desse retângulo possui a mesma área que a integral da função. 
+
+# Exercícios 
+
+## Problemas 
+
+<aside>
+
+<b>Problema 1.</b> Encontre as primitivas: 
+
+$$
+\begin{align*}
+    a. &\int \dfrac{\sin{(2x)}}{\sin{x}} \ dx 
+    b. &\int \sin{x} + \sinh{x} \ dx \\ 
+    c. &\int 1 + \tan^2{x} \ dx \\ 
+    d. &\int x - \csc{x}\cotg{x} \ dx \\ 
+    e. &\int (x+4)(2x+1) \ dx \\
+\end{align*}
+$$
+
+</aside>
+
+## Resoluções
+
+<aside>
+
+<b>Problema 1 (primeiro item).</b>
+
+$$
+\begin{align*}
+    \int \dfrac{\sin{(2x)}}{\sin{x}} \ dx &= \int \dfrac{2\sin{x}\cos{x}}{\sin{x}} \ dx \\ 
+                                            &= \int 2\cos{x} \ dx \\ 
+                                            &= 2\sin{x} + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (segundo item).</b>
+
+$$
+\begin{align*}
+    \int \sin{x} + \sinh{x} \ dx &= \int \sin{x} \ dx + \int \sinh{x} \ dx \\ 
+                                 &= -\cos{x} + \cosh{x} + C \\ 
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (terceiro item).</b>
+
+$$
+\begin{align*}
+    \int 1 + \tan^2{x} \ dx &= \int \sec^2{x} \ dx = \tan{x} + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (quarto item).</b>
+
+$$
+\begin{align*}
+    \int x - \csc{x}\cotg{x} \ dx &= \int x \ dx - \int \csc{x}\coth{x} \ dx \\ 
+                             &= \dfrac{x^2}{2} + \csc{x} + C 
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (quinto item).</b>
+
+$$
+\begin{align*}
+    \int (x+4)(2x+1) \ dx &= \int 2x^2 + 9x + 4 \ dx \\ 
+                          &= 2 \int x^2 \ dx + 9 \int x \ dx + \int 4 \ dx \\ 
+                          &= \dfrac{2}{3}x^3 + \dfrac{9}{2}x^2 + 4x + C 
+\end{align*}
+$$
+
+</aside>
 
 # Referências 
 

@@ -293,15 +293,115 @@ Abaixo estão listadas algumas expressões de recorrência para o cálculo das p
 
 $$
 \begin{align*}
-\int \sin^n{x} \ dx &= -\dfrac{1}{n} \sin^{n-1} x \cos x + \dfrac{n-1}{n} \int \sin^{n-2}{x} \ dx \\ 
-\\
-\int \cos^n{x} \ dx &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx \\ 
-\\
-\int \tan^n{x} \ dx &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \ dx \\ 
-\\
-\int \sec^n{x} \ dx &= \dfrac{\sec^{n-2}{x}  \tan{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \ dx \\
+    \int \sin^n{x} \ dx &= -\dfrac{1}{n} \sin^{n-1} x \cos x + \dfrac{n-1}{n} \int \sin^{n-2}{x} \ dx \\ 
+    \\
+    \int \cos^n{x} \ dx &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx \\ 
+    \\
+    \int \tan^n{x} \ dx &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \ dx \\ 
+    \\
+    \int \sec^n{x} \ dx &= \dfrac{\sec^{n-2}{x}  \tan{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \ dx \\
 \end{align*}
 $$
+
+# Exercícios 
+
+## Problemas 
+
+<aside>
+
+<b>Problema 1.</b> Encontre as primitivas: 
+
+$$
+\begin{align*}
+    a. &\int 2x \sqrt{1 + x^2} \ dx \\ 
+    b. &\int x^3 \cos{(x^4 + 2)} \ dx \\ 
+    c. &\int \dfrac{x}{\sqrt{1-4x^2}} \ dx \\ 
+    d. &\int e^{5x} \ dx \\ 
+    e. &\int \sqrt{1 + x^2} x^5 \ dx 
+\end{align*}
+$$
+
+</aside>
+
+## Resoluções
+
+<aside>
+
+<b>Problema 1 (primeiro item).</b>
+
+Tomando $x^2 + 1 = u$, temos que $du = 2xdx \iff dx = \dfrac{du}{2x}$.
+
+$$
+\begin{align*}
+    \int 2x \sqrt{1+x^2} \ dx &= \int \sqrt{u} \ du \\ 
+                              &= \dfrac{u^{3/2}}{\frac{3}{2}} = \dfrac{2}{3}u^{3/2} \\ 
+                              &= \dfrac{2}{3}(x^2 + 1)^{3/2} + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (segundo item).</b>
+
+Tomando $u = x^4 + 2$, temos que $du = x^3 dx \iff dx = \dfrac{du}{x^3}$. 
+
+$$
+\begin{align*}
+    \int x^3 \cos{(x^4 + 2)} \ dx &= \int \cos{u} \ du \\ 
+                                  &= \sin{u} = \sin{x^4 + 2} + C 
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (terceiro item).</b>
+
+Tomando $u = 1-4x^2$, temos que $du = -8xdx \iff dx = \dfrac{du}{-8x}$.
+
+$$
+\begin{align*}
+    \int \dfrac{x}{\sqrt{1 - 4x^2}} \ dx &= -\dfrac{1}{8}\int \dfrac{1}{\sqrt{u}} \ du \\ 
+                                         &= -\dfrac{1}{4} \sqrt{u} + C \\ 
+                                         &= -\dfrac{1}{4} \sqrt{1 - 4x^2} + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (quarto item).</b>
+
+Tomando $u = 5x$, temos que $du = 5dx \iff dx = \dfrac{du}{5}$. 
+
+$$
+\begin{align*}
+    \int e^{5x} \ dx &= \dfrac{1}{5} \int e^u \ du = \dfrac{1}{5}e^{5x} + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 1 (quinto item).</b>
+
+Tomando $u = 1+x^2$, temos que $du = 2xdx \iff xdx = \dfrac{1}{2} du$. Além disso, $u = 1+x^2 \implies (u-1)^2 = x^4$.
+
+$$
+\begin{align*}
+    \int \sqrt{1+x^2} x^5 \ dx &= \int x \sqrt{1 + x^2} x^4 \ dx \\ 
+                               &= \dfrac{1}{2}\int \sqrt{u}(u-1)^2 \ du \\ 
+                               &= \dfrac{1}{2}\left(\int u^{5/2} \ du - 2 \int u^{3/2} \ du + \int u^{1/2} \ du\right) \\ 
+                               &= \dfrac{1}{7}u^{7/2} - \dfrac{2}{5}u^{5/2} + \dfrac{1}{3}u^{3/2} + C
+\end{align*}
+$$
+
+</aside>
 
 # Referências 
 

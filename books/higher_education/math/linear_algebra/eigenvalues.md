@@ -379,6 +379,37 @@ Esta matriz geral é obtida por simplificação da expressão original.
 
 </aside>
 
+## Formas de Jordan
+
+Embora nem todo operador seja diagonalizável, poderemos sempre reescrevê-lo numa forma quasi-diagonal dadas algumas condições especiais. 
+
+De fato, se $T: V \to V$ for um operador linear e $V$ um espaço vetorial sobre os complexos, sempre haverá uma base $B$ de $V$ tal que ao escrevermos $T$ nesta base, sua matriz assumirá a <b>forma canônica de Jordan</b>. 
+
+Matrizes na forma canônica de Jordan são formadas pelo chamados <b>blocos</b>, submatrizes das formas
+
+$$
+\begin{array}{ccc}
+    \begin{pmatrix}
+        \lambda_i
+    \end{pmatrix}
+    &
+    \begin{pmatrix}
+        \lambda_i & 1 \\ 
+        0 & \lambda_i
+    \end{pmatrix}
+    &
+    \begin{pmatrix}
+        \lambda_i & 1 & 0 \\ 
+        0 & \lambda_i & 1 \\ 
+        0 & 0 & \lambda_i
+    \end{pmatrix}
+    & 
+    \dots 
+\end{array}
+$$
+
+ao longo da diagonal principal. Fora dessas regiões, todos os elementos são nulos.
+
 # Referências
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.

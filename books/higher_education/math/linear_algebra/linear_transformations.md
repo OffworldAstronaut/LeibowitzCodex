@@ -6,11 +6,11 @@ Antes de definirmos o que são transformações lineares, talvez seja interessan
 
 Dados dois conjuntos $U$ e $V$, dizemos que $F: U \to V$ é uma função (ou aplicação) se existe um único elemento de $V$ correspondente para cada elemento de $U$, com essa relação sendo $F$. Aos elementos $v \in V$ associados a um certo $u \in U$, estes podem ser escritos pela notação $F(u)$. 
 
-Nessas condições, chamamos os conjuntos $U$ e $V$ de <b>domínio</b> e <b>contradomínio</b> de $F$, respectivamente. Ao subconjunto de $V$ formado por todos os $F(u)$ dá-se o nome <b>imagem</b> de $F$, geralmente denotada por $\text{Im}(F)$. 
+Nessas condições, chamamos os conjuntos $U$ e $V$ de <b>domínio</b> e <b>contradomínio</b> de $F$, respectivamente. Ao subconjunto de $V$ formado por todos os $F(u)$ dá-se o nome <b>imagem</b> de $F$, geralmente denotada por $\Im(F)$. 
 
 As funções podem ser classificadas entre <b>injetoras</b>, <b>sobrejetoras</b> e <b>bijetoras</b>. Dizemos que uma função é injetora se $\forall u_1, u_2 \in U, F(u_1) = F(u_2) \implies u_1 = u_2$. Isto é, uma função $F$ é injetora se, para qualquer elemento escolhido no domínio, há um elemento único correspondente no conjunto imagem. 
 
-Uma função é classificada como sobrejetora se, e somente se, $\text{Im}(F) = V$. Ou seja, se todo elemento do conjunto imagem de $F$ está contido em $V$ e vice-versa. 
+Uma função é classificada como sobrejetora se, e somente se, $\Im(F) = V$. Ou seja, se todo elemento do conjunto imagem de $F$ está contido em $V$ e vice-versa. 
 
 Por fim, uma função é classificada como bijetora se esta é simultaneamente injetora e sobrejetora. 
 
@@ -34,12 +34,70 @@ $$
     F(0) &= 0 \\ 
     F(-u) &= -F(u), \forall u \in U \\ 
     F(u_1 - u_2) &= F(u_1) - F(u_2), \forall u_1, u_2 \in U \\ 
-    W \text{ é subespaço de } U &\implies \text{Im}(F) \subset W \text{ é um subespaço de } V \\
+    W \text{ é subespaço de } U &\implies \Im(F) \, (F: W \to V)  \text{ é um subespaço de } V \\
     F\left(\sum_{i = 1}^n a_i u_i\right) &= \sum_{i = 1}^n a_i F(u_1)
 \end{align*}
 $$
 
 Isto é — da primeira afirmação para a última —, vale que uma transformação linear leva o vetor nulo de um espaço ao vetor nulo de outro espaço; que uma transformação linear de um oposto leva ao oposto da transformação linear do vetor; que a transformação linear da diferença entre dois vetores é a diferença das transformações lineares de cada vetor; que uma transformação linear leva de subespaço em subespaço e que, finalmente, a imagem da combinação linear de $n$ vetores é a combinação linear das imagens de $n$ vetores.
+
+<aside>
+
+<b>Demonstração (primeira propriedade)</b> — Seja $F: U \to V$ uma transformação linear. Logo, vale que: 
+
+$$
+F(0) = F(0 + 0) = F(0)+ F(0) \iff F(0) - F(0) = T(0) \iff T(0) = 0. 
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (segunda propriedade)</b> — Seja $F: U \to V$ uma transformação linear. Logo, temos: 
+
+$$
+\begin{align*}
+    F(u + (-u)) &= F(u) + F(-u) = F(\vec{o}_U) \\ 
+                &= F(u) + F(-u) = \vec{o}_V \\ 
+                &= F(u) = -F(-u) \\ 
+                &= F(-u) = -F(u)
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (terceira propriedade)</b> — Seja $F: U \to V$ uma transformação linear e $u_1, u_2 \in U$. Logo, vale que: 
+
+$$
+F(u_1 - u_2) = F(u + (-u_2)) = F(u_1) + F(-u_2) = F(u_1) - F(u_2)
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (quarta propriedade)</b> — Mostrar que o conjunto imagem de $F$ é um subespaço de $V$ implica em mostrar que a este conjunto pertence o elemento nulo de $V$, que este é fechado na adição e que este também é fechado no produto por escalar. 
+
+A primeira condição é evidentemente satisfeita pela primeira propriedade. A segunda e a terceira, por outro lado, são consequências diretas das propriedades básicas de transformações lineares. 
+
+</aside>
+
+<aside>
+
+<b>Demonstração (quinta propriedade)</b> — Esta propriedade é consequência direta das condições básicas para uma aplicação ser uma transformação linear. 
+
+$$
+\begin{align*}
+    F\left(\sum_{i=1}^n \alpha_i u_i\right) &= F(\alpha_1 u_1 + \dots + \alpha_n u_n) \\ 
+    &= F(\alpha_1 u_1) + \dots + F(\alpha_n u_n) \\ 
+    &= \alpha_1 F(u_1) + \dots + \alpha_n F(u_n) \\ 
+    &= \sum_{i=1}^n \alpha_i F(u_i)
+\end{align*}
+$$
+
+</aside>
 
 # Núcleo e imagem
 
@@ -55,7 +113,7 @@ Um resultado interessante que pode ser extraído é o seguinte:
 
 <aside>
 
-<b>Teorema</b> — Dada uma transformação linear $T: U \to V$, é válido que $\dim{\ker{T}} \le \dim{U}$ e, ao mesmo tempo, é válido que $\dim{\text{Im}(T)} \le \min{\{\dim{U}, \dim{V}\}}$. 
+<b>Teorema</b> — Dada uma transformação linear $T: U \to V$, é válido que $\dim{\ker{T}} \le \dim{U}$ e, ao mesmo tempo, é válido que $\dim{\Im(T)} \le \min{\{\dim{U}, \dim{V}\}}$. 
 
 </aside>
 
@@ -66,21 +124,106 @@ Além disso, um outro teorema relaciona o núcleo e a imagem de uma transformaç
 <b>Teorema (do Núcleo e da Imagem)</b> — Dados dois espaços vetoriais $U$ e $V$ sobre $\mathbb{R}$, ambos com dimensão finita, então, para uma transformação linear qualquer $F: U \to V$, vale 
 
 $$
-\dim{U} = \dim{\ker{F}} + \dim{\text{Im}(F)}
+\dim{U} = \dim{\ker{F}} + \dim{\Im(F)}
 $$
 
 </aside>
 
 <aside>
 
-<b>Corolário</b> — São equivalentes as afirmações: $F$ é sobrejetora; $F$ é bijetora; $F$ é injetora; $F$ transforma uma base de $U$ em uma base de $V$. 
+<b>Demonstração (Alfredo Vitorino, IMECC)</b> — Considere $B_1 = \{u_1, \dots, u_r\}$ uma base para o núcleo de $F$. Logo, $\dim{\ker{F}} = r. 
+
+Sabemos que o núcleo de $F$ é um subespaço de $U$. Pelo teorema do completamento, a base $B_1$ pode ser completamente até obtermos uma bse para $U$, $B_2 = \{u_1, \dots, u_r, v_1, \dots, v_s\}$. 
+
+Nosso objetivo agora será mostrar que $B = \{T(v_1), \dots, T(v_s)\}$ é uma base para a imagem de $F$. 
+
+Dado $v \in \Im(F)$, $\exists u \in U | T(u) = v$. O elemento $u$ pode ser escrito como combinação linear dos elementos da base $B_2$ de U: 
+
+$$
+u = \alpha _1 u_1 + \dots + \alpha_r u_r + \beta_1 v_1 + \dots + \beta_s v_s 
+$$
+
+Como $u_1, \dots, u_r$ pertencem ao núcleo de $F$, temos que $F(u_1) = \dots = F(u_r) = \vec{O}_V$. 
+
+Assim, dado $v \in \Im(F)$, vimos qeu este pode ser escrito como combinação linear dos vetores de $B$, logo, $\Im(F) = [F(v_1), \dots, F(v_s)]$.
+
+Agora, vamos mostrar que $B$ é linearmente independente. Considere a combinação linear nula e sua implicação. 
+
+$$
+\beta_1 F(v_1) + \dots + \beta_s F(v_s) = \vec{O}_V \implies F(\beta_1 v_1 + \dots \beta_s v_s) = \vec{O}_V
+$$
+
+Logo, vale que $\beta_1v_1 + \dots + \beta_sv_s \in \ker{F}$. Assim, tal emento pode escrito como combinação linear da base do núcleo, $B_1$: 
+
+$$
+\beta_1 v_1 + \dots + \beta_s v_s = \alpha_1 u_1 + \dots + \alpha_r v_r \implies \alpha_1 u_1 + \dots + \alpha_r u_r + (-\beta_1)v_1 + \dots + (-\beta_s)v_s = \vec{O}_U
+$$
+
+Como $B_2 = \{u_1, \dots, u_r, v_1, \dots, v_s\}$ é linearmente independente, pois é base de $U$, todos os escalares da igualdade anterior são nulos. Logo, $\beta_1 = \dots = \beta_s = 0$ e, portanto, $B$ é linearmente independente. 
+
+Como $B$ é linearmente independente e gera $\Im(F)$, $B$ é uma base de $\Im(F)$. Além disso, como $\dim{\Im(F)} = s$, $\dim{\ker{F}} = r$ e $\dim{U} = r+s$, nossa igualdade está formada. 
+
+$$
+\dim{U} = \dim{\ker{F}} + \dim{\Im(F)} = r + s
+$$
+
+</aside>
+
+<aside>
+
+<b>Corolário</b> — Sejam $U$ e $V$ espaços vetoriais de mesma dimensão e uma transformação linear $F: U \to V$. São equivalentes as afirmações: $F$ é sobrejetora; $F$ é bijetora; $F$ é injetora; $F$ transforma uma base de $U$ em uma base de $V$. 
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Queremos primeiro mostrar que se $F$ é sobrejetora, isso implica que $F$ é injetora. 
+
+Se $F$ é sobrejetora, significa que $\dim{\Im}(F) = \dim{V} \iff \dim{\ker{F}} = 0 \iff \ker{F} = \{\vec{O}_U\}$. Além disso, temos que, como o núcleo de $F$ contém apenas o vetor nulo, dados dois vetores quaisquer $u_1, u_2 \in U$: 
+
+$$
+\begin{align*}
+    F(u_1) = F(u_2) &\implies F(u_1) - F(u_2) = \vec{O}_V \\ 
+                    &\implies F(u_1 - u_2) = \vec{O}_V \\ 
+                    &\implies u_1 = u_2 \, (\ker{F} = \vec{O}_U)
+\end{align*}
+$$
+
+Logo, $F$ é injetora. 
+
+O segundo passo é mostrar que se $F$ é injetora, $F$ é bijetora. Logo, demonstrar que $F$ é bijetora, supondo que esta é injetora, significa demonstrar que $F$ é sobrejetora.
+
+Se $F$ é injetora, cada vetor de $\Im{(F)}$ tem uma correspondência única no espaço vetorial $U$. Como o vetor nulo de $U$ deve estar em $\ker{F}$ (pelas propriedades de transformações lineares), temos que apenas o vetor nulo de $U$ está no $\ker{F}$, caso contrário esta não seria injetora. Logo, $\dim{\ker{F}} = 0$ e, pelo teorema do núcleo e da imagem, $\dim{\Im{F}} = \dim{V}$ e $F$ é sobrejetora. Se $F$ é injetora e sobrejetora, $F$ é bijetora. 
+
+O terceiro passo é mostrar que se $F$ é bijetora, $F$ leva uma base de $U$ em uma base de $V$. 
+
+Considere o vetor nulo de $U$ e uma base $B = \{u_1, \dots, u_n\}$ para $U$. É válido que: 
+
+$$
+\begin{align*}
+    F(\vec{O}_U) &= \vec{O}_V \\ 
+    F(\alpha_1 u_1 + \dots + \alpha_n u_n) &= \alpha_1 F(u_1) + \dots + \alpha_n F(u_n) = \vec{O}_V
+\end{align*}
+$$
+
+Como $B$ é base, temos que $\alpha_1 = \dots = \alpha_n = 0$ e, portanto, o conjunto $B' = \{F(u_1), \dots, F(u_n)\}$ é linearmente independente. Possuindo $n$ vetores, concluimos que $B'$ é base, pois $\dim{V} = n$. 
+
+Por fim, o último passo é mostrar que, se $F$ leva base de $U$ em base de $V$, $F$ deve ser sobrejetora.
+
+Para isso, seja $B = \{u_1, \dots, u_n\}$ base de $U$ e $B' = \{v_1, \dots, v_n\}$ base de $V$. Por hipótese, $F(u_i) = v_i, \forall u_i \in B$. Logo, dado um vetor qualquer $u \in U$, 
+
+$$
+F(u) = F(\alpha_1 u_1 + \dots + \alpha_n u_n) = \alpha_1 v_1 + \dots + \alpha_n v_n
+$$
+
+Ou seja, a imagem de $F$ possui dimensão $n$. Pelo teorema do completamento, um subespaço de $V$ com a mesma dimensão de $V$ é o próprio $V$. Logo, $\Im{(F)} = V$, $F$ é sobrejetora. 
 
 </aside>
 
 Estes teoremas em conjunto ainda fornecem condições para que determinados subespaços sejam imagens ou núcleos de transformações lineares. Com efeito, se $Z$ for o núcleo de uma transformação linear $T$, temos que 
 
 $$
-\dim{U} = \dim{Z} + \dim{\text{Im}(T)} \le \dim{Z} + \dim{V}
+\dim{U} = \dim{Z} + \dim{\Im(T)} \le \dim{Z} + \dim{V}
 $$
 
 assim, a desigualdade 
@@ -369,7 +512,7 @@ $$
 
 Essa percepção de que a imagem de $A$ é construída à partir da combinação linear de suas colunas nos introduz ao conceito de <b>posto</b>. O posto da matriz $A$ é a dimensão da imagem de $A$, isto é, o número de vetores-coluna de $A$ que são linearmente dependentes.
 
-No exemplo acima, podemos verificar que o posto de $A$ é 2, i.e $\dim{\text{Im}(A)}=2$, pois embora as duas últimas colunas sejam múltiplas uma da outra, estas não podem ser formadas por uma combinação linear com a primeira coluna.
+No exemplo acima, podemos verificar que o posto de $A$ é 2, i.e $\dim{\Im(A)}=2$, pois embora as duas últimas colunas sejam múltiplas uma da outra, estas não podem ser formadas por uma combinação linear com a primeira coluna.
 
 Embora a análise inicial seja feita pelas colunas de $A$, é possível demonstrar que a dimensão da imagem desta matriz é o número máximo de vetores linha linearmente independentes (é equivalente verificar a independência linear entre as linhas ou entre as colunas). Além disso, o posto pode ser encontrado com a ajuda de <b><a href="/books/higher_education/math/linear_algebra/determinants.html" target="_blank">determinantes</a></b>.
 
