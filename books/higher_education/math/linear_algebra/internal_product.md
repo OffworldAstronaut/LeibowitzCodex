@@ -318,9 +318,13 @@ Em dimensão finita, quando $T$ é representado em uma base ortonormal, e portan
 $$
 T^{-1}=T^T \iff T^TT=I
 $$
+
 em que $^T$ é a operação de transposta e $I$ é o operador identidade.
 No caso complexo, chamamos de operador unitário (normalmente representado por $U$, mas aqui confundiria com o espaço vetorial) se a inversa do operador for igual a sua <b>adjunta</b>, representada por $^*$ (definida mais adiante). Ou seja,
-$$T^{-1}=T^* \iff T^*T=I$$
+
+$$
+T^{-1}=T^* \iff T^*T=I
+$$
 
 # Operadores autoadjuntos
 
@@ -333,35 +337,49 @@ $$
 para todo $u, v \in V$. 
 
 Caso $V$ esteja sobre $\mathbb{R}$ e tenha dimensão finita, um operador autoadjunto pode ser representado como uma matriz simétrica, caso esta matriz esteja representando-o em relação a uma base ortonormal. De fato, nessas condições, um operador real $F$ é autoadjunto se, e somente se, este pode ser representado como uma matriz simétrica em relação a uma base ortonormal. Equivalentemente
+
 $$
 T=T^T
 $$
+
 Ainda, caso $V$ esteja sobre $\mathbb{C}$, esse operador é também chamado de <b>operador hermitiano</b>, cuja igualdade é com sua própria adjunta (e por isso o nome "autoadjunto"). Ou seja, é um operador hermitiano se satisfaz
+
 $$
 T=T^*
 $$
+
 de modo que
+
 $$
 \langle u, T(v) \rangle= \langle T^*(u), v \rangle  
 $$
+
 é equivalente ao caso real. 
 
 No entanto, essa expressão é mais geral, sendo o que define a operação de adjunta, sendo importante mencionar a adjunta de um operador limitado sempre existe, independente da dimensão do espaço ser finita ou infinita. Para determinar o que significa essa operação matricialmente, suponhamos que o conjunto $\{v_j\}_{j=1}$ forma uma base ortonormal em $V$, então
+
 $$
 T_{ij} = \langle v_i, T(v_j) \rangle = \langle T^*(v_i), v_j \rangle = \overline{\langle v_j, T^*(v_i) \rangle} = \overline{(T^*)_{ji}}
 $$
+
 (consultar as propriedades de espaços hermitianos, no caso de dúvida) mas como, sendo $F=T^*$, vale que
+
 $$
 \langle u, F(v) \rangle= \langle F^*(u), v \rangle \iff \langle u, T^*(v) \rangle= \langle T^{**}(u), v \rangle 
 $$
+
 porém a definição de adjunta diz que $\langle u, T^*(v) \rangle =\langle T(u), v \rangle$, então
+
 $$
 \langle T^{**}(u), v \rangle = \langle T(u), v \rangle \iff T^{**}=T
 $$
+
 portanto,
+
 $$
 T_{ij}=\overline{(T^*)_{ji}} \iff (T^*)_{ij}=\overline{(T^{**})_{ji}} \iff (T^*)_{ij}=\overline{T_{ji}}
 $$
+
 Assim, de posse da representação matricial $T_{ij}$ de um operador linear $T$, podemos obter diretamente a representação matricial da sua adjunta $T^*$ através da operação de transposta-conjugada, isto é, toma-se a transposta da matriz $[T]$ (construir $T$ invertendo as linhas pelas colunas) junto com a conjugação de todos os números complexos presentes nela. Vale mencionar que físicos utilizam com muita frequência a notação $T^\dagger$ para a adjunta de $T$. 
 
 Se o operador é autoadjunto, $T = T^*$, e $\lambda$ é um <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">autovalor</a> de $T$ com <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">autovetores</a> $v$, (a lembrar, a relação entre autovalor e autovetor é dada por $T(v)=\lambda v$) então $\lambda$ é necessariamente real. Isto é verdade porque, como $\langle v, T(u) \rangle = \langle T(v), u \rangle$ é satisfeito por qualquer par de vetores $v$ e $u$, tome $u = v$: $\langle v, Tv \rangle = \langle Tv, v \rangle$ ou $\langle v, \lambda v \rangle = \langle \lambda v, v \rangle$, e portanto, pela propriedade de simetria conjugada, $\bar\lambda = \lambda$.
@@ -371,43 +389,57 @@ Com isso exposto, podemos melhor esclarecer algumas propriedades importantes de 
 # Operadores unitários e mudança de base
 
 Se $U$ é um operador unitário e $u, w \in V$, então a aplicação desse operador nesses vetores satisfaz
+
 $$
 \langle U(u), U(w) \rangle = \langle u, U^*U(w) \rangle = \langle u, w \rangle.
 $$
+
 Ou seja, $U$ preserva produtos internos, e portanto a norma, exatamente como no caso do operador isometria. Isso significa que, se $u$ e $w$ forem ortogonais, então $U(u)$ e $U(w)$ continuam sendo ortogonais. Mas essa propriedade implica diretamente que a representação matricial de $U$ pode ser dada pelo produto interno entre os elementos das duas bases de $V$. De fato, seja $\{a_j\}_{j=1}^d$ e $\{b_j\}_{j=1}^d$ duas bases ortonormais do espaço vetorial $V$ de dimensão $d$, e $U$ um operador "arbitrário" que satisfaz
+
 $$
 U(a_j) = b_j \iff a_j=U^{-1}(b_j), \quad j = 1, \cdots, d
 $$
+
 isto é, transforma os elementos de uma base na outra base. Mas sendo um operador, $U$ pode ser representado matricialmente na base $\{a_j\}$. Desse modo, 
+
 $$
 U_{ij} = \langle a_i, U(a_j) \rangle = \langle a_i, b_j \rangle=\overline{\langle b_j, a_i \rangle}= \overline{\langle b_j, U^{-1}(b_i) \rangle} = \overline{(U^{-1})_{ji}}
 $$
+
 onde $(U^{-1})_{ji}$ é a representação matricial de $U^{-1}$ na base $\{b_j\}$. Mas como, 
+
 $$
 U_{ij}=\overline{(U^{-1})_{ji}} \iff (U^{-1})_{ij}=\overline{U_{ji}}
 $$
+
 temos que
+
 $$
 (U^{-1})_{ij}=(U^*)_{ij}
 $$
+
 Ou seja, $U$ é uma matriz de mudança de base entre $\{a_j\}$ e $\{b_j\}$ cujos elementos são obtidos diretamente pelo produto interno entre os vetores das duas bases:
+
 $$
-[U] = \begin{pmatrix}
-\langle a_1, b_1 \rangle & \langle a_1, b_2 \rangle & \dots & \langle a_1, b_d \rangle \\
-\langle a_2, b_1 \rangle & \langle a_2, b_2 \rangle & \dots & \langle a_2, b_d \rangle \\
-\vdots & \vdots & \ddots & \vdots \\
-\langle a_d, b_1 \rangle & \langle a_d, b_2 \rangle & \dots & \langle a_d, b_d \rangle
+[U] =
+\begin{pmatrix}
+    \langle a_1, b_1 \rangle & \langle a_1, b_2 \rangle & \dots & \langle a_1, b_d \rangle \\
+    \langle a_2, b_1 \rangle & \langle a_2, b_2 \rangle & \dots & \langle a_2, b_d \rangle \\
+    \vdots & \vdots & \ddots & \vdots \\
+    \langle a_d, b_1 \rangle & \langle a_d, b_2 \rangle & \dots & \langle a_d, b_d \rangle
 \end{pmatrix}
 $$
 
 Essa propriedade é muito utilizada para fundamentar mudanças de bases em operadores. Se $T \in {L}(V)$, então sua representação matricial, dada uma base ortonormal mudada por $U$, é dada por
+
 $$
 \langle U(v_i), TU(v_j) \rangle = \langle v_i, U^*TU(v_j) \rangle = \langle v_i, \tilde{T}(v_j) \rangle = \tilde{T}_{ij}
 $$
-com $\tilde{T} := U^*TU$. Em palavras, a representação de $T$ na "nova" base $\{U(v_j)\}$ é idêntica a representação de $U^*TU$ na base "antiga" $\{v_j\}$. Um caso particular desse resultado é quando $T$ é um operador autoadjunto (hermitiano) e o operador unitário é construido de modo que as colunas sejam os autovetores de $T$. Nesse caso, a matriz $\tilde{T}$ resultante terá os elementos da diagonal correspondendo aos autovalores de $T$, com o restante dos elementos sendo nulos, processo este que é conhecido como diagonalização unitária, como consequência do <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">Teorema Espectral</a>.
+
+com $\tilde{T} := U^*TU$. Em palavras, a representação de $T$ na "nova" base $\{U(v_j)\}$ é idêntica a representação de $U^*TU$ na base "antiga" $\{v_j\}$. Um caso particular desse resultado é quando $T$ é um operador autoadjunto (hermitiano) e o operador unitário é construido de modo que as colunas sejam os autovetores de $T$. Nesse caso, a matriz $\tilde{T}$ resultante terá os elementos da diagonal correspondendo aos autovalores de $T$, com o restante dos elementos sendo nulos, processo este que é conhecido como diagonalização unitária, como consequência do <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">teorema espectral</a>.
 
 # Referências
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.
 2. Website da iniciação científica de Alfredo Vitorino, IMECC-UNICAMP, <i>Álgebra Linear e Aplicações</i>. (<a href="https://www.ime.unicamp.br/~marcia/AlgebraLinear/index.html" target="_blank">Acesse aqui</a>)
-3. Aulas do Professor Dr. Paulo Brandão, IF-UFAL, <i>Óptica Quântica</i>.
+3. Anotações de aula do professor Dr. Paulo Brandão (IF-UFAL) — <i>Óptica Quântica</i>.
