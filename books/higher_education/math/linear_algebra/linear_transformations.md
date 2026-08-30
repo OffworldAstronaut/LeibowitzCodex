@@ -647,13 +647,13 @@ e, portanto, o conjunto $\{F_1, \dots, F_n\}$ é linearmente independente em $U^
 
 ## O teorema da representação de Riesz e a notação de Dirac
 
-Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
+Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que, se $U$ e portanto $U^*$ forem munidos de <a href="/books/higher_education/math/linear_algebra/internal_product.md" target="_blank">produto interno</a>, todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
 
 $$
 F(u) = \langle v, u \rangle 
 $$
 
-De fato, se $u = (x_1, \dots, x_n)$ e $v = (k_1, \dots, k_n)$, como mostrado acima,
+De fato, se $u = (x_1, \dots, x_n)$ e $v = (k_1, \dots, k_n)$, um caso particular de produto interno foi mostrado acima,
 
 $$
 F(x_1, \dots, x_n) = k_1x_1 + \dots + k_nx_n
@@ -676,7 +676,7 @@ $$
 que pode ser comprimida para 
 
 $$
-\braket{v}{u} = \bra{v} \, \ket{u}
+\bra{v} \, \ket{u} = \langle v, u \rangle = \braket{v}{u}
 $$
 
 relação esta que é extensivamente utilizada na <b>mecânica quântica</b>. É digno de nota, também, mencionar que o bra $\bra{v}$ é dito dual do ket $\ket{v}$, de modo que 
@@ -685,7 +685,7 @@ $$
 \bra{v}=\ket{v}^\dagger
 $$ 
 
-em que $^\dagger$ (lê-se "adaga") é a operação de transpôr e conjugar o vetor, que no caso de vetores $\in \mathbb{R}^n$ é equivalente a somente tomar a transposta de sua representação matricial.
+em que $^\dagger$ (lê-se "adaga") é a adjunta do vetor, que no caso de vetores $\in \mathbb{R}^n$ é equivalente a somente tomar a transposta de sua representação matricial.
 
 # Referências
 

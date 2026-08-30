@@ -35,7 +35,7 @@ $$
     \langle o, u \rangle &= \langle u, o \rangle = 0, \forall u \in U \\ 
     \langle \alpha u, v \rangle &= \alpha \langle u, v \rangle, \forall \alpha \in \mathbb{R} \text{ e } u, v \in U \\ 
     \langle u + v, w \rangle &= \langle u, w \rangle + \langle v, w \rangle, \forall u, v, w \in U \\ 
-    \left\langle \sum_{i = 1}^m \alpha_i u_i, v \right\rangle &= \sum_{i}^m \alpha_i \langle u_i, v \rangle, m \in \mathbb{Z}^*_+ \\
+    \left\langle \sum_{i = 1}^m \alpha_i u_i, v \right\rangle &= \sum_{i=1}^m \alpha_i \langle u_i, v \rangle, m \in \mathbb{Z}^*_+ \\
     \left\langle u, \sum_{j=1}^n \alpha_j v_j \right\rangle &= \sum_{j = 1}^n \alpha_j \langle u, v_j \rangle, n \in \mathbb{Z}^*_+ \\
     \left\langle \sum_{i = 1}^m \alpha_i u_i, \sum_{j = 1}^n \beta_j v_j \right\rangle &= \sum_{i=1}^m \sum_{j=1}^n \alpha_i \beta_j \langle u_i, v_j \rangle
 \end{align*}
@@ -146,9 +146,50 @@ ou seja, o produto interno pode ser interpretado geometricamente como uma "proje
 
 Vimos na Geometria Analítica que dois vetores são considerados ortogonais (formam um ângulo de 90° quando transladados para a origem) quando seu produto escalar é nulo. De fato, esse resultado é um caso particular de uma definição mais ampla.
 
-Considerando um espaço euclidiano $U$, dizemos que dois vetores $u$ e $v$ são ortogonais se, e somente se, $\langle u, v \rangle = 0$. Além disso, um conjunto de vetores é dito ortonormal se todos são unitários (possuem norma 1) e ortogonais entre si. Vale notar que se esse conjunto é uma base de um espaço vetorial, este é chamado <b>base ortonormal</b> deste espaço. 
+Considerando um espaço euclidiano $U$, dizemos que dois vetores $u$ e $v$ são ortogonais se, e somente se, $\langle u, v \rangle = 0$. Além disso, um conjunto de vetores é dito ortonormal se todos são unitários (possuem norma 1) e ortogonais entre si, valendo, portanto, $$\langle v_i, v_j \rangle = \delta_{ij}$$ onde $\delta_{ij}$ é a função delta de Kronecker, sendo $0$ se $i\neq j$ e $1$ se $i=j$. Se esse conjunto é uma base de um espaço vetorial, este é chamado <b>base ortonormal</b> deste espaço. 
 
 Uma proposição interessante que pode ser exposta inicialmente é a de que todo conjunto ortonormal $S = \{v_1, v_2, ..., v_n\}$ contido num espaço euclidiano é necessariamente L.I. 
+
+Com isso, podemos melhor formalizar o que foi discutido na seção "Matriz de uma transformação", em <a href="/books/higher_education/math/linear_algebra/linear_transformations.md" target="_blank">Transformações Lineares</a>, onde um operador linear $T$ aplicado a um vetor no espaço vetorial $V$, de dimensão $d$, pode ser representado como uma matriz com dimensão $d \times d$. 
+
+Explicitamente, fixemos uma base ortonormal $\{v_j\}_{j=1}^d$ no espaço vetorial $V$, agora dotado de produto interno, e definamos os escalares
+$$
+T_{ij} := \langle v_i, T(v_j) \rangle \quad (i,j = 1, \cdots, d)
+$$
+O que nos permite organizar os números $T_{ij}$ em uma matriz
+$$
+[T] = \begin{pmatrix} T_{11} & \dots & T_{1d} \\ \vdots & \ddots & \vdots \\ T_{d1} & \dots & T_{dd} \end{pmatrix}
+$$
+onde o primeiro índice ($i$) indica a linha do elemento e o segundo índice ($j$) indica a coluna. Para melhor elucidar, suponha que $T$ é o operador identidade $I$. A relação acima, juntamente com a definição de base ortonormal, evidencia que a matriz $I$ formada tem $0$ sempre que $i\neq j$ (elementos fora da diagonal) e $1$ sempre que $i=j$ (elementos da diagonal).
+
+ Do mesmo modo, qualquer vetor $u \in V$ também pode ser representado por uma matriz, bastando definir os números
+$$
+u_j := \langle v_j, u \rangle \quad (j = 1, \cdots, d)
+$$
+e os organizar numa matriz $d \times 1$:
+$$
+[u] = \begin{pmatrix} u_1 \\ \vdots \\ u_d \end{pmatrix}
+$$
+
+Por meio disso, a relação abstrata $T(u) = w$ envolvendo o operador $T$ e os vetores $u$ e $w$ em $V$ pode ser transformada numa equação matricial (após fixar uma base ortonormal) da forma
+$$
+[T]_v [u]_v = [w]_v
+$$
+onde $[\bullet]_v$ é a representação matricial do objeto $\bullet$ na base $\{v_j\}$. De fato, tomando o produto interno dos vetores $T(u)$ e $w$ com os elementos da base $v_j$, temos
+$$
+\langle v_j, T(u) \rangle = \langle v_j, w \rangle
+$$
+Mas como $u$ é uma combinação linear dos elementos da base de $V$, isto é, $u = \sum_{k=1}^{d} u_k v_k$, constata-se que
+$$
+\langle v_j, T (\sum_{k=1}^{d} u_k v_k )\rangle = \langle v_j, w \rangle
+$$
+$$
+\sum_{k=1}^{d} \langle v_j, T (v_k) \rangle u_k = w_j
+$$
+$$
+\sum_{k=1}^{d} T_{jk} u_k = w_j
+$$
+que é exatamente a relação onde $w_j = \langle v_j, w \rangle$. Além disso, como $T$ possui d colunas com d elementos cada, concluímos que $\dim L(V) = d^2$ (lembrando que $L(V)$ é o conjunto de todos os operadores lineares de $V$ em $V$).
 
 ## Processo de ortonormalização de Gram-Schmidt
 
@@ -252,7 +293,7 @@ $$
 
 são ambos isometrias. 
 
-Como últimos dois resultados importantes desta seção, é importante apresentar que toda isometria $T: U \to U$ é um isomorfismo e, além disso, que são equivalentes as afirmações: $T$ é isometria; $T$ transforma bases ortonormais de $U$ em bases ortonomais de $U$; $\langle T(u), T(v) \rangle = \langle u, v \rangle, \forall u, v \in U$.
+Como últimos dois resultados importantes desta seção, é importante apresentar que toda isometria $T: U \to U$ é um isomorfismo e, além disso, que são equivalentes as afirmações: $T$ é isometria; $T$ transforma bases ortonormais de $U$ em bases ortonormais de $U$; $\langle T(u), T(v) \rangle = \langle u, v \rangle, \forall u, v \in U$.
 
 <aside>
 
@@ -268,43 +309,105 @@ $$
 T(u) = o \implies ||T(u)|| = 0 \implies ||u|| = 0 \implies u = o \implies \ker{T} = \{o\} 
 $$
 
-O que implica que $T$ é injetora. Como $U$ possui dimensão finita e $T: U \to U$, pelo teorema do núcleo e da imagem, segue que T é também sobrejetora. Portanto, a isometria $T$ é um isomorfismo. <!-- Você provou somente que é injetora. Faltou provar que é sobrejetora para portanto ser bijetora, para a prova ficar concisa.-->
+O que implica que $T$ é injetora. Como $U$ possui dimensão finita e $T: U \to U$, pelo teorema do núcleo e da imagem, segue que T é também sobrejetora. Portanto, a isometria $T$ é um isomorfismo. 
 
 </aside>
-<!-- Acrescento isto para ter uma melhor relação com a noção matricial, e é fundamentalmente a forma que você mais usa no futuro -->
-Em dimensão finita, quando $T$ é representado em uma base ortonormal a condição de isometria é equivalente a simples relação: 
+
+Em dimensão finita, quando $T$ é representado em uma base ortonormal, e portanto tem uma representação matricial como a construída anteriormente, a condição de isometria é equivalente a simples relação: 
 
 $$
 T^{-1}=T^T \iff T^TT=I
 $$
 em que $^T$ é a operação de transposta e $I$ é o operador identidade.
-No caso complexo, chamamos de operador unitário se a inversa do operador for igual a sua <b>adjunta</b>, representada por $^*$ (transposta conjugada). Assim,
-$$T^{-1}=T^*=\overline{T}^T \iff T^*T=I$$
+No caso complexo, chamamos de operador unitário (normalmente representado por $U$, mas aqui confundiria com o espaço vetorial) se a inversa do operador for igual a sua <b>adjunta</b>, representada por $^*$ (definida mais adiante). Ou seja,
+$$T^{-1}=T^* \iff T^*T=I$$
 
 # Operadores autoadjuntos
 
-Definimos como <b>autoadjuntos</b> os operadores que, dado um espaço vetorial $V$ sobre $\mathbb{R}$ e um operador $F \in L(V)$, vale 
+Definimos como <b>autoadjuntos</b> os operadores, dado um espaço vetorial com $V$ produto interno e um operador $T \in L(V)$, cuja seguinte operação é satisfeita  
 
 $$
-\langle F(u), v \rangle = \langle u, F(v) \rangle
+\langle T(u), v \rangle = \langle u, T(v) \rangle
 $$
 
 para todo $u, v \in V$. 
 
 Caso $V$ esteja sobre $\mathbb{R}$ e tenha dimensão finita, um operador autoadjunto pode ser representado como uma matriz simétrica, caso esta matriz esteja representando-o em relação a uma base ortonormal. De fato, nessas condições, um operador real $F$ é autoadjunto se, e somente se, este pode ser representado como uma matriz simétrica em relação a uma base ortonormal. Equivalentemente
 $$
-F=F^T
+T=T^T
 $$
-Ainda, caso $V$ esteja sobre $\mathbb{C}$, esse operador é também chamado de <b>operador Hermitiano</b>, cuja igualdade é com sua própria adjunta (e por isso o nome "autoadjunto"). Ou seja, é um operador hermitiano se satisfaz
+Ainda, caso $V$ esteja sobre $\mathbb{C}$, esse operador é também chamado de <b>operador hermitiano</b>, cuja igualdade é com sua própria adjunta (e por isso o nome "autoadjunto"). Ou seja, é um operador hermitiano se satisfaz
 $$
-F=F^*
+T=T^*
 $$
 de modo que
 $$
-\langle u, F(v) \rangle= \langle F^*(u), v \rangle  
+\langle u, T(v) \rangle= \langle T^*(u), v \rangle  
 $$
+é equivalente ao caso real. 
+
+No entanto, essa expressão é mais geral, sendo o que define a operação de adjunta, sendo importante mencionar a adjunta de um operador limitado sempre existe, independente da dimensão do espaço ser finita ou infinita. Para determinar o que significa essa operação matricialmente, suponhamos que o conjunto $\{v_j\}_{j=1}$ forma uma base ortonormal em $V$, então
+$$
+T_{ij} = \langle v_i, T(v_j) \rangle = \langle T^*(v_i), v_j \rangle = \overline{\langle v_j, T^*(v_i) \rangle} = \overline{(T^*)_{ji}}
+$$
+(consultar as propriedades de espaços hermitianos, no caso de dúvida) mas como, sendo $F=T^*$, vale que
+$$
+\langle u, F(v) \rangle= \langle F^*(u), v \rangle \iff \langle u, T^*(v) \rangle= \langle T^{**}(u), v \rangle 
+$$
+porém a definição de adjunta diz que $\langle u, T^*(v) \rangle =\langle T(u), v \rangle$, então
+$$
+\langle T^{**}(u), v \rangle = \langle T(u), v \rangle \iff T^{**}=T
+$$
+portanto,
+$$
+T_{ij}=\overline{(T^*)_{ji}} \iff (T^*)_{ij}=\overline{(T^{**})_{ji}} \iff (T^*)_{ij}=\overline{T_{ji}}
+$$
+Assim, de posse da representação matricial $T_{ij}$ de um operador linear $T$, podemos obter diretamente a representação matricial da sua adjunta $T^*$ através da operação de transposta-conjugada, isto é, toma-se a transposta da matriz $[T]$ (construir $T$ invertendo as linhas pelas colunas) junto com a conjugação de todos os números complexos presentes nela. Vale mencionar que físicos utilizam com muita frequência a notação $T^\dagger$ para a adjunta de $T$. 
+
+Se o operador é autoadjunto, $T = T^*$, e $\lambda$ é um <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">autovalor</a> de $T$ com <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">autovetores</a> $v$, (a lembrar, a relação entre autovalor e autovetor é dada por $T(v)=\lambda v$) então $\lambda$ é necessariamente real. Isto é verdade porque, como $\langle v, T(u) \rangle = \langle T(v), u \rangle$ é satisfeito por qualquer par de vetores $v$ e $u$, tome $u = v$: $\langle v, Tv \rangle = \langle Tv, v \rangle$ ou $\langle v, \lambda v \rangle = \langle \lambda v, v \rangle$, e portanto, pela propriedade de simetria conjugada, $\bar\lambda = \lambda$.
+
+Com isso exposto, podemos melhor esclarecer algumas propriedades importantes de operadores unitários.
+
+# Operadores unitários e mudança de base
+
+Se $U$ é um operador unitário e $u, w \in V$, então a aplicação desse operador nesses vetores satisfaz
+$$
+\langle U(u), U(w) \rangle = \langle u, U^*U(w) \rangle = \langle u, w \rangle.
+$$
+Ou seja, $U$ preserva produtos internos, e portanto a norma, exatamente como no caso do operador isometria. Isso significa que, se $u$ e $w$ forem ortogonais, então $U(u)$ e $U(w)$ continuam sendo ortogonais. Mas essa propriedade implica diretamente que a representação matricial de $U$ pode ser dada pelo produto interno entre os elementos das duas bases de $V$. De fato, seja $\{a_j\}_{j=1}^d$ e $\{b_j\}_{j=1}^d$ duas bases ortonormais do espaço vetorial $V$ de dimensão $d$, e $U$ um operador "arbitrário" que satisfaz
+$$
+U(a_j) = b_j \iff a_j=U^{-1}(b_j), \quad j = 1, \cdots, d
+$$
+isto é, transforma os elementos de uma base na outra base. Mas sendo um operador, $U$ pode ser representado matricialmente na base $\{a_j\}$. Desse modo, 
+$$
+U_{ij} = \langle a_i, U(a_j) \rangle = \langle a_i, b_j \rangle=\overline{\langle b_j, a_i \rangle}= \overline{\langle b_j, U^{-1}(b_i) \rangle} = \overline{(U^{-1})_{ji}}
+$$
+onde $(U^{-1})_{ji}$ é a representação matricial de $U^{-1}$ na base $\{b_j\}$. Mas como, 
+$$
+U_{ij}=\overline{(U^{-1})_{ji}} \iff (U^{-1})_{ij}=\overline{U_{ji}}
+$$
+temos que
+$$
+(U^{-1})_{ij}=(U^*)_{ij}
+$$
+Ou seja, $U$ é uma matriz de mudança de base entre $\{a_j\}$ e $\{b_j\}$ cujos elementos são obtidos diretamente pelo produto interno entre os vetores das duas bases:
+$$
+[U] = \begin{pmatrix}
+\langle a_1, b_1 \rangle & \langle a_1, b_2 \rangle & \dots & \langle a_1, b_d \rangle \\
+\langle a_2, b_1 \rangle & \langle a_2, b_2 \rangle & \dots & \langle a_2, b_d \rangle \\
+\vdots & \vdots & \ddots & \vdots \\
+\langle a_d, b_1 \rangle & \langle a_d, b_2 \rangle & \dots & \langle a_d, b_d \rangle
+\end{pmatrix}
+$$
+
+Essa propriedade é muito utilizada para fundamentar mudanças de bases em operadores. Se $T \in {L}(V)$, então sua representação matricial, dada uma base ortonormal mudada por $U$, é dada por
+$$
+\langle U(v_i), TU(v_j) \rangle = \langle v_i, U^*TU(v_j) \rangle = \langle v_i, \tilde{T}(v_j) \rangle = \tilde{T}_{ij}
+$$
+com $\tilde{T} := U^*TU$. Em palavras, a representação de $T$ na "nova" base $\{U(v_j)\}$ é idêntica a representação de $U^*TU$ na base "antiga" $\{v_j\}$. Um caso particular desse resultado é quando $T$ é um operador autoadjunto (hermitiano) e o operador unitário é construido de modo que as colunas sejam os autovetores de $T$. Nesse caso, a matriz $\tilde{T}$ resultante terá os elementos da diagonal correspondendo aos autovalores de $T$, com o restante dos elementos sendo nulos, processo este que é conhecido como diagonalização unitária, como consequência do <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">Teorema Espectral</a>.
 
 # Referências
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.
 2. Website da iniciação científica de Alfredo Vitorino, IMECC-UNICAMP, <i>Álgebra Linear e Aplicações</i>. (<a href="https://www.ime.unicamp.br/~marcia/AlgebraLinear/index.html" target="_blank">Acesse aqui</a>)
+3. Aulas do Professor Dr. Paulo Brandão, IF-UFAL, <i>Óptica Quântica</i>.

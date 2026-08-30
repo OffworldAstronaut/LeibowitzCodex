@@ -316,7 +316,7 @@ Além do exposto anteriormente, alguns teoremas úteis podem ser enunciados.
 
 <aside>
 
-<b>Teorema (Espectral)</b> — Um operador linear $A$ de um espaço euclidiano $V$, de dimensão finita $n \ge 1$, é auto-adjunto se, e somente se, existe uma base ortonormal de $V$ formada por vetores próprios de $A$.
+<b>Teorema (Espectral)</b> — Um operador linear $A$ de um espaço euclidiano $V$, de dimensão finita $n \ge 1$, é auto-adjunto se, e somente se, existe uma base ortonormal de $V$ formada por autovetores de $A$.
 
 </aside>
 
