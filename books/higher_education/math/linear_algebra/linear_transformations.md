@@ -379,6 +379,72 @@ $$
 
 Ao considerarmos um espaço vetorial $U$ de bases $B$ e $C$, verificamos que a matriz do operador idêntico $I \in L(U)$ escreve as coordenadas de um vetor $u$ qualquer, inicialmente em relação a uma base $B$, em relação a uma outra base $C$. Este é um caso particular da definição considerada anteriormente, e pode ser verificada ao substituir $F$ geral acima pelo operador idêntico $I$.
 
+<aside>
+
+<b>Exemplo (transformação linear em relação a duas bases)</b> — Seja $T: \mathbb{R}^2 \to \mathbb{R}^2$ uma transformação linear dada por $T(x, y) = (x + 3y, x + 2y)$. Como poderemos escrever a matriz de $T$ em relação à base canônica e em relação à base $\beta = \{(2, 3), (-3, 2)\}$?
+
+Em relação à base canônica, temos: 
+
+$$
+\begin{align*}
+    T(1, 0) &= (1, 1) = 1(1,0) + 1(0,1) \\ 
+    T(0, 1) &= (3, 2) = 3(1,0) + 2(0,1)
+\end{align*}
+$$
+
+Consequentemente, 
+
+$$
+(T) =
+\begin{pmatrix}
+    1 & 3 \\ 
+    1 & 2     
+\end{pmatrix}
+$$
+
+Em relação à base $\beta$, temos: 
+
+$$
+\begin{align*}
+    T(2, 3) &= (13, 8) = a(2, 3) + b(-3,2) \\ 
+    T(-3, 2) &= (3, 1) = c(2, 3) + d(-3, 2)
+\end{align*}
+$$
+
+Consequentemente, temos o sistema
+
+$$
+\begin{cases}
+  2a - 3b = 13 \\ 
+  3a + 2b = 8 \\ 
+  2c - 3d = 3 \\ 
+  3c + 2d = 1   
+\end{cases}
+$$
+
+cujas soluções são
+
+$$
+\begin{cases}
+    a = 50/13 \\ 
+    b = -23/13 \\ 
+    c = 9/13 \\ 
+    d = -7/13
+\end{cases}
+$$
+
+e, portanto, a matriz $(T)_{\beta}$ é: 
+
+$$
+(T)_{\beta} =
+\begin{pmatrix}
+    50/13 & 9/13 \\ 
+    -23/13 & -7/13    
+\end{pmatrix}
+$$
+
+</aside>
+
 Por fim, vemos que, caso fixarmos as bases para $U$ e $V$, podemos associar a cada $F \in L(U, V)$ uma matriz $M \in M_{m \times n} (\mathbb{R})$. Ou seja, definimos uma função 
 
 $$
@@ -644,8 +710,6 @@ $$
 $$
 
 e, portanto, o conjunto $\{F_1, \dots, F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
-
-## O teorema da representação de Riesz e a notação de Dirac
 
 Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que, se $U$ e portanto $U^*$ forem munidos de <a href="/books/higher_education/math/linear_algebra/internal_product.md" target="_blank">produto interno</a>, todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
 

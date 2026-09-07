@@ -12,7 +12,7 @@ A propriedade da mudança de variável nos permite mudar a variável da função
 
 <aside>
 
-<b>Teorema (Guidorizzi, mudança de variável de integração)</b> — Seja $f$ contínua num intervalo $I$ e sejam $a$ e $b$ dois números reais quaisquer em $I$. Seja $g: [c,d] \rightarrow I$, com $g'$ contínua em $[c,d]$, tal que $g(c) = a$ e $g(d) = b$. Nestas condições:
+<b>Teorema (Guidorizzi, mudança de variável de integração)</b> — Seja $f$ contínua num intervalo $I$ e sejam $a$ e $b$ dois números reais quaisquer em $I$. Seja $g: [c,d] \to I$, com $g'$ contínua em $[c,d]$, tal que $g(c) = a$ e $g(d) = b$. Nestas condições:
 
 $$
 \int_{a}^{b} f(x) \ dx = \int_{c}^{d} f(g(u)) \cdot g'(u) \ du
@@ -20,7 +20,7 @@ $$
 
 </aside>
 
-Por exemplo, na integração $\int_{2}^{3} (x-2)^8 \ dx$, podemos substituir $u = x-2$ e, consequentemente, $du = dx$. Os limites de integração mudarão de acordo com a nova variável, com $x = 2 \rightarrow u = 0, x = 3 \rightarrow u = 1$. 
+Por exemplo, na integração $\int_{2}^{3} (x-2)^8 \ dx$, podemos substituir $u = x-2$ e, consequentemente, $du = dx$. Os limites de integração mudarão de acordo com a nova variável, com $x = 2 \to u = 0, x = 3 \to u = 1$. 
 
 Por fim, a integral se torna $\int_{0}^{1} u^8 \ du$, tremendamente simplificando sua avaliação: 
 
@@ -36,7 +36,15 @@ Perceba que a derivada entre os colchetes com os limites de integração é uma 
 
 Por fim, qual o motivo da origem de $du = dx$, e como essa substituição funciona? 
 
-Nesse exemplo, definimos $u = g(x) = x-2$. Pela diferenciação, temos que $\dfrac{du}{dx} = \dfrac{d}{dx}(x-2) = 1 \rightarrow du = dx$. Curiosamente, isso <b>não funcionaria</b>, já que notações de derivadas são apenas notações, não "frações" de fato. Entretanto, isso pode ser provado de forma rigorosa, também. 
+Nesse exemplo, definimos $u = g(x) = x-2$. Pela diferenciação, temos que $\dfrac{du}{dx} = \dfrac{d}{dx}(x-2) = 1 \to du = dx$. Curiosamente, isso <b>não funcionaria</b>, já que notações de derivadas são apenas notações, não "frações" de fato. Entretanto, isso pode ser provado de forma rigorosa, também. 
+
+Sem a utilização de limites de integração, podemos simplesmente escrever 
+
+$$
+\int f(g(x))g'(x) = \int f(u) \ du
+$$
+
+com $u = g(x)$. 
 
 # Integração por partes
 
@@ -57,6 +65,14 @@ $$
 $$
 
 Com $k$ sendo a constante de integração, qualquer número real. 
+
+Por meio da inclusão dos limites de integração, isto é, levando em conta integrais definidas, a integração por partes pode ser escrita da seguinte maneira: 
+
+$$
+\int_{a}^{b} f(x) g'(x) = [f(x)g(x)]^{b}_{a} - \int_{a}^{b} f'(x)g(x) \ dx 
+$$
+
+O que pode ser útil para cálculos mais concisos.
 
 # Integração por frações parciais
 
@@ -271,7 +287,7 @@ Caso $n$ seja ímpar, um atalho rápido é substituir $u = \cos{x}$. Caso $m$ se
 
 $$
 \begin{align*} 
-\sin^2{x} &= \dfrac{1 - \cos{2x}}{2} \\\\ 
+\sin^2{x} &= \dfrac{1 - \cos{2x}}{2} \\ 
 \cos^2{x} &= \dfrac{1 - \cos{2x}}{2}
 \end{align*}
 $$
@@ -293,15 +309,105 @@ Abaixo estão listadas algumas expressões de recorrência para o cálculo das p
 
 $$
 \begin{align*}
-    \int \sin^n{x} \ dx &= -\dfrac{1}{n} \sin^{n-1} x \cos x + \dfrac{n-1}{n} \int \sin^{n-2}{x} \ dx \\ 
+    \int \sin^n{x} \ dx &= -\dfrac{1}{n} \sin^{n-1} x \cos x + \dfrac{n-1}{n} \int \sin^{n-2}{x} \ dx \ (n \ge 1) \\ 
     \\
-    \int \cos^n{x} \ dx &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx \\ 
+    \int \cos^n{x} \ dx &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx \ (n \ge 1) \\ 
     \\
-    \int \tan^n{x} \ dx &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \ dx \\ 
+    \int \tan^n{x} \ dx &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \ dx \ (n \ge 2)\\ 
     \\
-    \int \sec^n{x} \ dx &= \dfrac{\sec^{n-2}{x}  \tan{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \ dx \\
+    \int \sec^n{x} \ dx &= \dfrac{\sec^{n-2}{x}  \tan{x}}{n-1} + \dfrac{n-2}{n-1} \int \sec^{n-2}{x} \ dx \ (n \ge 2) \\
 \end{align*}
 $$
+
+<aside>
+
+<b>Demonstração (fórmula de recorrência para o seno)</b> — Iremos nos utilizar de integração por partes. 
+
+$$
+\begin{align*}
+    \int \sin^n{x} \ dx &= \int \sin{x} \sin^{n-1}{x} \ dx \\ 
+                        &= -\cos{x} \sin^{n-1}{x} + \int (n-1)\cos^2{x} \sin^{n-2}{x} \ dx \\ 
+                        &= -\sin^{n-1}{x}\cos{x} + (n-1)\int \sin^{n-2}{x} \ dx + (1-n) \int \sin^n {x} \ dx
+\end{align*}
+$$
+
+Logo, 
+
+$$
+\begin{align*}
+    \int \sin^{n}{x} \ dx &= -\dfrac{1}{n}\sin^{n-1}{x} \cos{x} + \dfrac{n-1}{n}\int \sin^{n-2} \ dx
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (fórmula de recorrência para o cosseno)</b> — Iremos nos utilizar de integração por partes. 
+
+$$
+\begin{align*}
+    \int \cos^{n}{x} \ dx &= \int \cos{x} \cos^{n-1}{x} \ dx \\ 
+                          &= \sin{x} \cos^{n-1}{x} + \int (n-1)\sin^2{x} \cos^{n-2}{x} \ dx \\ 
+                          &= \sin{x} \cos^{n-1}{x} + (n-1)\int \cos^{n-2}{x} \ dx + (1-n) \int \cos^{n}{x} \ dx
+\end{align*}
+$$
+
+Portanto, 
+
+$$
+\begin{align*}
+    \int \cos^{n}{x} \ dx &= \dfrac{1}{n}\sin{x} \cos^{n-1}{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (fórmula de recorrência para a tangente)</b> — Iremos nos utilizar de integração por partes. 
+
+$$
+\begin{align*}
+    \int \tan^n{x} \ dx &= \int \tan^{n-2}{x}\tan^2{x}  \ dx \\ 
+                        &= \int (\tan^{n-2}{x})(\sec^2{x} - 1) \ dx \\ 
+                        &= \int \tan^{n-2}{x} \sec^2{x} \ dx - \int \tan^{n-2}{x} \ dx
+\end{align*}
+$$
+
+Tomando $u = \tan{x}$: 
+
+$$
+\begin{align*}
+    \int \tan^n{x} \ dx &= \int u^{n-2} \ du - \int \tan^{n-2}{x} \ dx \\ 
+    &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \ dx 
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Demonstração (fórmula de recorrência para a secante)</b> — Iremos nos utilizar de integração por partes. 
+
+$$
+\begin{align*}
+    \int \sec^n{x} \ dx &= \int \sec^{n-2}{x} \sec^{2}{x} \ dx \\ 
+                        &= \tan{x} \sec^{n-2}{x} - \int (n-2)\tan^2{x} \sec^{n-2}{x} \ dx \\ 
+                        &= \tan{x} \sec^{n-2}{x} - (n-2)\int \sec^n{x} \ dx + (n-2) \int \sec^{n-2}{x} \ dx 
+\end{align*}
+$$
+
+Assim, 
+
+$$
+\begin{align*}
+    \int \sec^{n}{x} \ dx &= \tan{x} \sec^{n-2}{x} - (n-2) \int sec^{n}{x} \ dx + (n-2) \int \sec^{n-2} \ dx \\ 
+                          &= \dfrac{\tan{x}\sec^{n-2}{x}}{n-1} + \dfrac{n-2}{n-1}\int \sec^{n-2}{x} \ dx 
+\end{align*}
+$$
+
+</aside>
 
 # Exercícios 
 
