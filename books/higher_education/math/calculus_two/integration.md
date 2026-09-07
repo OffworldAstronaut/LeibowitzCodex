@@ -2,17 +2,17 @@
 
 # Introdução
 
-Quando estudamos o estudo das <b>integrais</b> em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada <b>Integral de Riemann</b>, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
+Quando estudamos as <b>integrais</b> em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada <b>Integral de Riemann</b>, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
 
-Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibnitz, o matemático ao lado foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como <b>limites</b> e <b>partições</b> de conjuntos.
+Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibniz <!-- É Leibniz, não Leibnitz! -->, o matemático abaixo foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como <b>limites</b> e <b>partições</b> de conjuntos.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/76/Bernhard_Riemann_3.jpg)
 
 <i>Riemann mostrando que ser matemático não implica em postura ruim. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Bernhard_Riemann_3.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
-Riemann também é famoso por outras contribuções igualmente monumentais nos campos da análise real, análise complexa. geometria não-euclideana e muitos outros, pavimentando inclusive a matemática necessária para descrever a Relatividade Geral de Einstein. Ele também era bastante tímido e ficava doente com facilidade.
+Riemann também é famoso por outras contribuições igualmente monumentais nos campos da análise real, análise complexa, geometria não-euclideana (criador da geometria <i>riemanniana</i>) e muitos outros, pavimentando inclusive a matemática necessária para descrever a Relatividade Geral de Einstein. Ele também era bastante tímido e ficava doente com facilidade.
 
-Dessa forma, para compreendermos a definição exposta por Riemann para esse importante objeto matemático, precisamos ter em mente alguns conceitos fundamentais, a saber, a <b>partição de um intervalo</b> e a <b>soma de Riemann</b>.
+Agora, para compreendermos a definição exposta por Riemann para esse importante objeto matemático, precisamos ter em mente alguns conceitos fundamentais: a <b>partição de um intervalo</b> e a <b>soma de Riemann</b>.
 
 ## Partição de um intervalo
 
@@ -20,7 +20,7 @@ Definimos a partição de um intervalo da seguinte maneira:
 
 <aside>
 
-<b>Definição (partição de um intervalo)</b> — Dado um intervalo fechado $I=[a,b]$, chamamos <b>partição de $I$</b> o conjunto de $n+1$ pontos no intervalo $I$ de forma que o valor de cada um seja estritamente maior que o outro. Os valores extremos dessse conjunto $P$ são os extremos do intervalo. 
+<b>Definição (partição de um intervalo)</b> — Dado um intervalo fechado $I=[a,b]$, chamamos <b>partição de $I$</b> o conjunto de $n+1$ pontos no intervalo $I$ de forma que o valor de cada um seja estritamente maior que o outro. Os valores extremos desse conjunto $P$ são os extremos do intervalo. 
 
 </aside>
 
@@ -31,24 +31,26 @@ Definimos a partição de um intervalo da seguinte maneira:
 A partição de um intervalo o subdivide em $n$ subintervalos, com o tamanho do maior intervalo sendo chamado <b>norma da partição</b> $P$. Em termos mais restritos, podemos definir essa norma pela expressão
 
 $$
-|P| = \max{(t_i - t_{i-1})}
+|P| = \max_{1\le i \le n}{(t_i - t_{i-1})}
 $$
 
 Com $i$ referindo-se a cada ponto na partição. No exemplo acima, a norma da partição seria a distância entre os pontos $\text{C}$ e $\text{D}$, ou seja, o tamanho do intervalo formado por esses pontos. 
 
 ## Soma de Riemann
 
-A soma de Riemann é uma das maneiras de construir a <b>integral de Riemann</b>, talvez a mais conhecida. Definimos-a da seguinte maneira: 
+A soma de Riemann é uma das maneiras de construir a <b>integral de Riemann</b>, talvez a mais conhecida. Definimo-la da seguinte maneira: 
 
 <aside>
 
-<b>Definição (soma de Riemann)</b> — Dados $f: [a,b] \rightarrow \mathbb{R}$ limitada e contínua; $P$ uma partição de $[a,b]$ e números $c_i \in [a,b]$ de forma que $t_{i - 1} < c_i < t_i$ — isto é, cada número $c_i$ pertencendo ao respectivo subintervalo de mesmo índice — definimos a <b>soma de Riemann referente à partição $P$ e à escolha dos $c_i$</b> por
+<b>Definição (soma de Riemann)</b> — Dados $f: [a,b] \rightarrow \mathbb{R}$ limitada; $P$ uma partição de $[a,b]$ e números $c_i \in [a,b]$ de forma que $t_{i - 1} \le c_i \le t_i$ — isto é, cada número $c_i$ pertencendo ao respectivo subintervalo de mesmo índice — definimos a <b>soma de Riemann referente à partição $P$ e à escolha dos $c_i$</b> por
 
 $$
 S(f, P, \{c_i\}^n_{i=1}) = \sum_{i=1}^nf(c_i) \cdot \Delta t_i
 $$
 
 onde $\Delta t_i = t_i - t_{i-1}$
+
+Em outras palavras, se $c_i$ é um ponto escolhido no subintervalo $[t_{i-1}, t_i]$, então $f(c_i)$ representa a altura do gráfico nesse ponto, enquanto $\Delta t_i = t_i - t_{i-1}$ representa a largura do subintervalo. Assim, a área do retângulo correspondente ao i-ésimo termo é o produto da altura pela largura, isto é, $f(c_i)\cdot\Delta t_i$. Somando esses retângulos para $n$ partições, teremos que a área resultante será a soma acima, que serve como uma aproximação da área sob o gráfico da função, conforme ilustrado abaixo.
 
 </aside>
 
@@ -58,15 +60,20 @@ onde $\Delta t_i = t_i - t_{i-1}$
 
 # Definindo integrais (de Riemann)
 
-Por fim, chegamos à definição de integral chegada por Bernhard Riemann, que se utiliza dos conceitos expostos anteriormente, a <b>soma de Riemann</b> e a <b>partição de um intervalo</b>. Ela é definida da seguinte forma:
+Por fim, chegamos à definição de integral definida por Bernhard Riemann, que se utiliza dos conceitos expostos anteriormente, a <b>soma de Riemann</b> e a <b>partição de um intervalo</b>. Ela é definida da seguinte forma:
 
 <aside>
 
-<b>Definição (integral de Riemann)</b> — Seja $f: [a,b] \rightarrow \mathbb{R}$. Dizemos que $f$ é integrável se existe $L \in \mathbb{R}$ tal que $L = \lim_{|P| \rightarrow 0} S(f, P, \{c_i\})$ para toda escolha possível dos $c_i$ numa partição $P$.
+<b>Definição (integral de Riemann)</b> — Seja $f: [a,b] \rightarrow \mathbb{R}$ limitada. Dizemos que $f$ é integrável se existe $L \in \mathbb{R}$ tal que $L = \lim_{|P| \rightarrow 0} S(f, P, \{c_i\})$ para toda escolha possível dos $c_i$ numa partição $P$. 
+Explicitamente, 
+
+$$
+L=\lim_{|P|\rightarrow 0} \sum_{i=1}^nf(c_i) \Delta t_i
+$$
 
 </aside>
 
-Ou seja, de forma mais palatável, uma função é <b>integrável</b> se, ao analisarmos todas as partições possíveis de seu domínio com normas cada vez menores (mais subintervalos), as somas de Riemann consideradas se aproximam do mesmo número, a mesma área sob o gráfico.
+Ou seja, de forma mais palatável, uma função é <b>integrável</b> se, ao dividirmos o domínio no máximo com partições possíveis de normas cada vez menores (menor $|P|$, e portanto maior $n$), a soma de Riemann tende a um mesmo valor, que corresponde exatamente à área sob o gráfico dessa função.
 
 Por fim, escrevemos esse limite por uma notação resumida,
 
@@ -74,24 +81,46 @@ $$
 L = \int_{a}^{b} f(x) \ dx
 $$
 
-para nos referir à área $L$ sob o gráfico da função $f(x)$ entre os valores $a$ e $b$ do domínio. 
+Lê-se <b>integral</b> de $a$ até $b$ de $f(x) \ dx$, cujo símbolo dessa soma é um $S$ esticado,$\int$, fazendo referência a uma "soma infinita" (limite de uma soma para intervalos cada vez menores) entre os valores $a$ e $b$ do domínio. O utilizamos para nos referir à área $L$ sob o gráfico da função $f(x)$. Vale mencionar que o símbolo $dx$ aqui faz referência à variável da função que está sendo integrada, e não o produto da função pelo diferencial de $x$.
 
 ## Propriedades da integral
 
-Dada essa definição inicial da integral, podemos encontrar algumas de suas propriedades, decorrentes do fato de que elas são, na verdade, limites. 
+Dada essa definição inicial da integral, podemos encontrar algumas de suas propriedades, decorrentes do fato de que elas são, na verdade, limites de somas. 
 
-Assim, dadas funções $f,g:[a,b] \rightarrow \mathbb{R}$  integráveis, temos que:
+Assim, dadas funções $f,g:[a,b] \rightarrow \mathbb{R}$  integráveis, temos as seguintes propriedades:
 
 $$
 \begin{align*}
-    \int_a^bf(x)+g(x) \ dx &= \int_a^b f(x) \ dx + \int_a^b g(x) \ dx \\
-    \int_a^b kf(x) \ dx &= k \int_a^b f(x) \ dx, k \in \mathbb{R} \\ 
-    f(x) \ge 0, \forall x \in [a,b] &\implies \int_a^b f(x) \ dx \ge 0 \\ 
-    c \in [a,b] &\implies \int_a^c f(x) \ dx + \int_c^b f(x) \ dx
+    \int_a^b[f(x)+g(x)] \ dx &= \int_a^b f(x) \ dx + \int_a^b g(x) \ dx \\
+    \int_a^b kf(x) \ dx &= k \int_a^b f(x) \ dx, \forall k \in \mathbb{R} \\
+     \int_a^b f(x) \ dx &= \int_a^c f(x) \ dx + \int_c^b f(x) \ dx, \quad c \in [a,b]\\
+    f(x) \ge 0, \forall x \in [a,b] &\implies \int_a^b f(x) \ dx \ge 0 \\
+    s(x)\ge t(x) \, \, \,\forall x \in[a,b] &\implies \int_a^b s(x) \ dx \ge \int_a^b t(x) \ dx
 \end{align*}
 $$
 
+<!-- decidi introduzir essas propriedades pois nos "teoremas" abaixo você utiliza técnicas não desenvolvidas aqui (substituição), que são dispensáveis para as demonstrações -->
+Além da, mais geral, <b>propriedade de linearidade</b>:
+$$
+\int_a^b[c_1f(x)+c_2g(x)] \ dx = c_1\int_a^b f(x) \ dx + c_2\int_a^b g(x) \ dx \quad \forall c_1,c_2\in \mathbb{R}
+$$
+outras propriedades que merecem ser nomeadas são a <b>invariância sob translação</b>: para todo $c\in \mathbb{R}$, vale que
+$$
+\int_a^b f(x) \ dx=\int_{a+c}^{b+c} f(x-c) \ dx
+$$
+e a <b>dilatação ou contração do intervalo</b>: para $k\ne 0$, vale que
+$$
+k\int_a^b f(x) \ dx = \int_{ka}^{kb}f\left(\frac{x}{k}\right)\ dx
+$$
+ambas decorrentes de propriedades básicas de translação horizontal e vertical de funções.
+Com isso, define-se que 
+$$
+\int_a^b f(x) \ dx =-\int_b^a f(x) \ dx \implies \int_a^a f(x)=0
+$$
 Além disso, temos que toda função <b>contínua</b> é <b>integrável</b>, embora algumas funções descontínuas preservem a propriedade de integração. Encontrar todas as condições que tornam uma função integrável está fora do escopo deste documento.
+
+Como consequência dessas propriedades, segue algumas relações úteis:
+
 
 <aside>
 
@@ -109,18 +138,18 @@ $$
 
 $$
 \begin{align*}
-  \int_{-a}^{a} f(x) \ dx &= \int_{-a}^{0} + \int_{0}^{a} f(x) \ dx \\ 
-                          &= \int_{0}^{-a} -f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+  \int_{-a}^{a} f(x) \ dx &= \int_{-a}^{0} f(x)\ dx+ \int_{0}^{a} f(x) \ dx \\ 
+ 
                           &= - \int_{0}^{-a} f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
                           &= - \int_{0}^{-a} f(-x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
 \end{align*}
 $$
 
-Fazendo então $u = -x \iff dx = -du$: 
+cuja última igualdade decorre de f ser par. Assim, pela propriedade de dilatação e contração do intervalo, com $k=-1$, temos 
 
 $$
 \begin{align*}
-  \int_{-a}^{a} f(x) \ dx &= - \int_{0}^{a} -f(-u) du \int_{0}^{a} f(x) \ dx \\ 
+  \int_{-a}^{a} f(x) \ dx &=  \int_{0}^{(-1)(-a)} f\left(\frac{-x}{-1}\right) \ dx + \int_{0}^{a} f(x) \ dx \\ 
                           &= \int_{0}^{a} f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
                           &= 2 \int_{0}^{a} f(x) \ dx 
 \end{align*}
@@ -147,18 +176,18 @@ $$
 $$
 \begin{align*}
   \int_{-a}^{a} f(x) \ dx &= \int_{-a}^{0} f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
-                          &= \int_{0}^{-a} -f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+
                           &= - \int_{0}^{-a} f(x) \ dx + \int_{0}^{a} f(x) \ dx 
 \end{align*}
 $$
 
-Fazendo $u = -x \iff dx = -du$: 
+Que, pela propriedade de dilatação e contração de intervalos, com $k=-1$, equivale a
 
 $$
 \begin{align*}
-  \int_{-a}^{a} f(x) \ dx &= -\int_{0}^{a} -f(-u) \ du + \int_{0}^{a} f(x) \ dx \\ 
-                          &= \int_{0}^{a} f(-u) \ du + \int_{0}^{a} f(x) \ dx \\ 
-                          &= - \int_{0}^{a} f(u) \ du + \int_{0}^{a} f(x) \ dx \\ 
+  \int_{-a}^{a} f(x) \ dx &= \int_{0}^{(-1)(-a)} f\left(\frac{x}{-1}\right) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+                          &= \int_{0}^{a} f(-x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
+                          &= - \int_{0}^{a} f(x) \ dx + \int_{0}^{a} f(x) \ dx \\ 
                           &= 0
 \end{align*}
 $$
@@ -169,13 +198,13 @@ Provado.
 
 # Calculando integrais
 
-Até aqui, conseguimos definir integrais, operações que nos fornecem a área sob o gráfico de uma determinada função. Nesta seção, iremos nos concentrar em aprender como podemos <b>calcular</b> de fato estas integrais.
+Até aqui, conseguimos definir integrais, operações que nos fornecem a área (com sinal) sob o gráfico de uma determinada função. Nesta seção, iremos nos concentrar em aprender como podemos <b>calcular</b> de fato estas integrais.
 
 Dessa forma, iremos primeiro apresentar como podemos calcular a integral de uma função por uma soma de Riemann e, em seguida, introduzir o conceito de <b>função primitiva</b> e, finalmente, o <b>teorema fundamental do Cálculo</b>.
 
 ## Soma de Riemann
 
-Podemos calcular a integral de uma função a partir da definição pelo processo da <b>soma de Riemann</b>. Embora seja excessivamente laborioso, é útil reproduzirmos este processo aqui por questões de aprendizado e solidifificação conceitual. Qual seria o valor da integral a seguir? 
+Podemos calcular a integral de uma função a partir da definição pelo processo da <b>soma de Riemann</b>. Embora seja excessivamente laborioso, é útil reproduzirmos este processo aqui por questões de aprendizado e solidificação conceitual. Qual seria o valor da integral a seguir? 
 
 $$
 \int_{0}^{1} x^2 \ dx 
@@ -187,7 +216,7 @@ $$
 S = 0.1(0.1^2 + 0.2^2 + 0.3^2 + \dots + 1^2) = 0.385
 $$
 
-E num caso mais geral? E se quisessemos encontrar uma expressão para $n$ partições? Conforme  discorrido anteriormente, esta decisão é útil para encontrar de fato o valor da integral, e não apenas uma aproximação.
+Esse processo, sem a fórmula definida que apresentamos, era conhecido, por motivos óbvios, como <b>Método da Exaustão</b>, extensivamente aplicado pelo filósofo grego Arquimedes em diversos cálculos. Mas aqui podemos nos perguntar: E num caso mais geral? E se quiséssemos encontrar uma expressão para $n$ partições? Conforme  discorrido anteriormente, esta decisão é útil para encontrar de fato o valor da integral, e não apenas uma aproximação.
 
 Perceba que ao subdividirmos o intervalo de integração em $n$ subintervalos, cada partição terá como norma $\dfrac{1}{n}$. Tomando assim nossos $c_i$ como os valores mais a direita das partições, como anteriormente, teremos que $c_i = \dfrac{i}{n}$ e, consequentemente, $f(c_i) = \left(\dfrac{i}{n}\right)^2$. 
 
@@ -219,7 +248,7 @@ Definimos <b>primitivas</b>, também conhecidas como <b>antiderivadas</b>, da se
 
 </aside>
 
-Uma consequência imediata dessa definição é a constatação de que <b>se uma função $f$ possui uma primitiva</b>, ela possui <b>infinitas</b>. Demonstrando essa afirmação:
+Uma consequência imediata dessa definição é a constatação de que <b>se uma função $f$ possui uma primitiva</b>, ela possui <b>infinitas</b> primitivas. Demonstrando essa afirmação:
 
 <aside>
 
@@ -227,7 +256,7 @@ Uma consequência imediata dessa definição é a constatação de que <b>se uma
 
 $$
 \begin{align*}
-    \therefore F'(x) &= G'(x) \\
+    F'(x) &= G'(x) \\
     \therefore F'(x)-G'(x) &= 0 \\
     (F-G)'(x) &= 0
 \end{align*}
@@ -247,7 +276,7 @@ $$
 \int f(x) \ dx
 $$
 
-Por fim, é importante ter em mente outro teorema importante: <b>toda função contínua possuí primitiva</b>.
+Por fim, é importante ter em mente outro teorema importante: <b>toda função contínua possui primitiva</b>.
 
 <aside>
 
@@ -279,7 +308,7 @@ Consequentemente, convém registrar aqui algumas primitivas recorrentes e, por i
 $$
 \begin{align*}
   \int k \ dx &= kx + C \\ 
-  \int x^n \ dx &= \dfrac{x^{n+1}}{n+1} + C, \forall n \neq 1 \\ 
+  \int x^n \ dx &= \dfrac{x^{n+1}}{n+1} + C, \forall n \neq -1 \\ 
   \int \dfrac{1}{x} \ dx &= \ln{|x|} + C \\ 
   \int e^x \ dx &= e^x + C \\ 
   \int a^x \ dx &= \dfrac{a^x}{\ln{|a|}} + C \\ 
@@ -329,7 +358,7 @@ $$
 Assim, pelo TVM, sabemos que existem $\bar{c_i}$ em $[t_{i-1}, t_i]$ de forma que: 
 
 $$
-F(x_i) - F(x_{i-1}) = F'(\bar{c_i})(t_i - t_{i-1})
+F(t_i) - F(t_{i-1}) = F'(\bar{c_i})(t_i - t_{i-1})
 $$
 
 como $F$ é primitiva de $f$ e $\Delta t_i = t_i - t_{i-1}$, temos 
@@ -361,7 +390,7 @@ $$
 Assim, ao escolhermos $\bar{c_i}$ conforme essa escolha conveniente para <b>todas</b> as partições de $P$, é válido que 
 
 $$
-\lim_{|P| \to 0} \sum_{i = 1} f(\bar{c_i}) \cdot \Delta t_i = F(b) - F(a)
+\lim_{|P| \to 0} \sum_{i = 1}^n f(\bar{c_i}) \cdot \Delta t_i = F(b) - F(a)
 $$
 
 e, portanto, 
@@ -370,16 +399,16 @@ $$
 \int_{a}^{b} f(x) \ dx = F(b) - F(a)
 $$
 
-Como uma nota final, é importante mencionar que toda função contínua é integrável, além de possuir primitiva.
+Como uma nota final, é importante lembrar que toda função contínua é integrável, além de possuir primitiva.
 
 </aside>
 
 <aside>
 
-<b>Teorema (fundamental do Cálculo, parte II)</b> — Seja $g: I \to \mathbb{R}$, com $I \subset \mathbb{R}$, contínua e $a \in I$ fixo. Assim, para cada $x \in I$, $\int_{a}^{x} g(x) \ dx$ existe. Além disso, $\int_{a}^{x} g(x) \ dx$ é uma primitiva de $g(x)$, isto é, vale 
+<b>Teorema (fundamental do Cálculo, parte II)</b> — Seja $g: I \to \mathbb{R}$, com $I \subset \mathbb{R}$, contínua e $a \in I$ fixo. Assim, para cada $x \in I$, $\int_{a}^{x} g(t) \ dt$ existe. Além disso, $\int_{a}^{x} g(t) \ dt$ é uma primitiva de $g(x)$, isto é, vale 
 
 $$
-\dfrac{d}{dx} \int_{a}^{x} g(x) \ dx = g(x)
+\dfrac{d}{dx} \int_{a}^{x} g(t) \ dt = g(x)
 $$
 
 </aside>
@@ -437,7 +466,7 @@ Calcular essa última expressão é o equivalente de encontrar a área do retân
 
 $$
 \begin{align*}
-    a. &\int \dfrac{\sin{(2x)}}{\sin{x}} \ dx 
+    a. &\int \dfrac{\sin{(2x)}}{\sin{x}} \ dx \\
     b. &\int \sin{x} + \sinh{x} \ dx \\ 
     c. &\int 1 + \tan^2{x} \ dx \\ 
     d. &\int x - \csc{x}\cotg{x} \ dx \\ 
@@ -451,7 +480,7 @@ $$
 
 <aside>
 
-<b>Problema 1 (primeiro item).</b>
+<b>Problema 1 (item a).</b>
 
 $$
 \begin{align*}
@@ -465,7 +494,7 @@ $$
 
 <aside>
 
-<b>Problema 1 (segundo item).</b>
+<b>Problema 1 (item b).</b>
 
 $$
 \begin{align*}
@@ -478,7 +507,7 @@ $$
 
 <aside>
 
-<b>Problema 1 (terceiro item).</b>
+<b>Problema 1 (item c).</b>
 
 $$
 \begin{align*}
@@ -490,11 +519,11 @@ $$
 
 <aside>
 
-<b>Problema 1 (quarto item).</b>
+<b>Problema 1 (item d).</b>
 
 $$
 \begin{align*}
-    \int x - \csc{x}\cotg{x} \ dx &= \int x \ dx - \int \csc{x}\coth{x} \ dx \\ 
+    \int x - \csc{x}\cotg{x} \ dx &= \int x \ dx - \int \csc{x}\cotg{x} \ dx \\ 
                              &= \dfrac{x^2}{2} + \csc{x} + C 
 \end{align*}
 $$
@@ -503,7 +532,7 @@ $$
 
 <aside>
 
-<b>Problema 1 (quinto item).</b>
+<b>Problema 1 (item e).</b>
 
 $$
 \begin{align*}
