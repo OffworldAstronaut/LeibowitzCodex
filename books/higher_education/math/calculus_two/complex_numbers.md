@@ -11,7 +11,7 @@ $$
 onde $a$ e $b$ são números reais. Consequentemente, representamos o conjunto de todos os números complexos por 
 
 $$
-\mathbb{C} = \{a + bi | a,b \in \mathbb{R} \}
+\mathbb{C} = \{a + bi \mid a,b \in \mathbb{R} \}
 $$
 
 Neste conjunto, definimos a soma e o produto entre dois números complexos quaisquer $z_1 = a_1 + b_1i$ e $z_2 = a_2 + b_2i$, respectivamente, como: 
@@ -81,7 +81,7 @@ $$
 e, consequentemente, 
 
 $$
-\bar{z_1z_2} = a_1a_2 - b_1b_2 - (a_1b_2 + a_2b_1)i = \bar{z_1} \cdot \bar{z_2}
+\overline{z_1z_2} = a_1a_2 - b_1b_2 - (a_1b_2 + a_2b_1)i = \bar{z_1} \cdot \bar{z_2}
 $$
 
 como queríamos demonstrar.
@@ -128,7 +128,7 @@ $$
 
 Assim como os reais, podemos representar os números complexos como pontos num plano, chamado <b>plano complexo</b>. Podemos nomear estes pontos como <b>imagens</b> ou <b>afixos</b>. Dessa forma, um número complexo $z = a + bi$ é associado ao ponto $(a, b)$, sua imagem. O eixo horizontal coordenado do plano é chamado <b>eixo real</b>, enquanto o eixo vertical é chamado <b>eixo imaginário</b>. 
 
-Com efeito, em questões de notação, utilizamos $\Re{(z)}$ ou simplesmente $\text{Re}(z)$ para denotar a <b>parte real</b> de um número complezo $z$. Similarmente, $\Im{(z)}$ ou $\text{Im}(z)$ denota sua parte imaginária. Assim, para um número complexo qualquer $z = a + bi$, vale $\text{Re}(z) = a$ e $\text{Im}(z) = b$.
+Com efeito, em questões de notação, utilizamos $\Re{(z)}$ ou simplesmente $\text{Re}(z)$ para denotar a <b>parte real</b> de um número complexo $z$. Similarmente, $\Im{(z)}$ ou $\text{Im}(z)$ denota sua parte imaginária. Assim, para um número complexo qualquer $z = a + bi$, vale $\text{Re}(z) = a$ e $\text{Im}(z) = b$.
 
 Geometricamente, o produto pelo símbolo $i$ pode ser lido como uma rotação de $\dfrac{\pi}{2}$ radianos no sentido anti-horário, aplicada no vetor-ponto relacionado ao número complexo dado. Daqui, a noção de que $i^2 = -1$, previamente tida como axioma, sai naturalmente das consequências geométricas. 
 
@@ -142,48 +142,84 @@ Para ilustrar isso, considere um vetor representando o número $z = 1 + 0i$. Rot
 
 Desta mesma visão geométrica dos números complexos parte a justificativa do <b>módulo</b> de um número real, que é apenas um caso particular da norma dos números complexos.
 
+<!-- Adicionando aqui uma justificativa para ser introduzido abaixo o cosx+isenx -->
+Além disso, podemos representar esse plano complexo em <a href="/books/higher_education/math/calculus_two/polar_coordinates.md" target="_blank">coordenadas polares</a>. Nessa representação, as projeções ortoginais do vetor sobre os eixos real e imaginário são dadas por
+
+$$
+a = r\cos{\theta} \qquad\text{e}\qquad b = r\sin{\theta}
+$$
+
+em que
+
+$$
+r = |z| = \sqrt{a^2+b^2}
+$$
+
+é o módulo de $z$, e $\theta$ é o ângulo formado pelo vetor associado a $z$ com o eixo real positivo.
+
+Dessa forma, um vetor qualquer nesse plano será
+
+$$
+z = a + bi = r(\cos{\theta} + i\sin{\theta})
+$$
+
+Assim, as coordenadas cartesianas $(a,b)$ de um número complexo podem ser relacionadas às suas coordenadas polares $(r,\theta)$ por meio das expressões
+
+$$
+r = \sqrt{a^2+b^2} \qquad\text{e}\qquad \theta = \arg(z)
+$$
+
+Vale mencionar que o argumento de um número complexo não é único, pois os ângulos $\theta$ e $\theta+2k\pi$, com $k\in\mathbb{Z}$, representam a mesma direção.
+
 # Fórmula de Euler e a representação polar
 
-Considere a seguinte <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial</a> linear de primeira ordem:
+Agora considere um número complexo em coordenadas polares com $|z|=r=1$. Perceba então que, pelas regras de derivação do seno e do cosseno, podemos escrever a derivada de um número complexo por
+
+$$
+\dfrac{dz}{d\theta}=\dfrac{d}{d\theta}(\cos{\theta} + i\sin{\theta}) = i\cos{\theta} - \sin{\theta} = i(\cos{\theta} + i\sin{\theta})
+$$
+
+Quando $\theta = 0$, $\cos{x} + i\sin{x} = 1$. Além disso, considere também a seguinte <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial</a> linear de primeira ordem:
 
 $$
 \dfrac{df}{dx} = \lambda f(x) 
 $$
 
-Temos que a função $f(x) = e^{\lambda x}$ satisfaz esta equação na condição de que $f(0) = 1$. Perceba então que, pelas regras de derivação do seno e do cosseno, podemos escrever 
-
-$$
-\dfrac{d}{dx}(\cos{x} + i\sin{x}) = i\cos{x} - \sin{x} = i(\cos{x} + i\sin{x})
-$$
-
-Quando $x = 0$, $\cos{x} + i\sin{x} = 1$. Assim, somos levados a escrever
+Temos que a função $f(x) = e^{\lambda x}$ satisfaz esta equação na condição de que $f(0) = 1$. Assim, somos levados a escrever
 
 $$
 e^{ix} = \cos{x} + i\sin{x}
 $$
 
-pois a função criada também é uma solução para a equação diferencial nessa mesma condição. A esta relação damos o nome <b>fórmula de Euler</b> em razão de ser formulada pelo próprio Leonhard Euler em 1748. 
+pois a função criada também é uma solução para a equação diferencial nessa mesma condição, e $\theta$ é uma variável muda e portanto pode ser substituída por $x$. A esta relação damos o nome <b>fórmula de Euler</b> em razão de ser formulada pelo próprio Leonhard Euler em 1748. 
 
 Tomando as partes real e imaginária desta equação obtemos mais duas importantes relações: 
 
 $$
 \begin{align*}
-    \cos{x} &= \Re{(e^{ix})} = \dfrac{1}{2}(e^{ix} + e^{-ix}) \\ 
-    \sin{x} &= \Im{(e^{ix})} = \dfrac{1}{2i}(e^{ix} - e^{-ix})
+    \cos{x} &= \Re{(e^{ix})} \\ 
+    \sin{x} &= \Im{(e^{ix})} 
 \end{align*}
 $$
 
-Assim, isso possibilita a representação de um número complexo em coordenadas polares, de forma que 
+E, em vista de que $e^{-ix}$ é o conjugado de $e^{ix}$, podemos somar e subtrair essas duas expressões, obtendo que 
+
+$$
+\begin{align*}
+    e^{ix}+e^{-ix}&=(\cos x+i\sin x)+(\cos x-i\sin x) =2\cos x\\
+    &\implies \cos x = \frac{1}{2}(e^{ix}+e^{-ix})\\ 
+    e^{ix}-e^{-ix}&=(\cos x+i\sin x)-(\cos x-i\sin x) =2i\sin{x}\\
+    &\implies \sin x = \frac{1}{2i}(e^{ix}-e^{-ix})
+\end{align*}
+$$
+
+Assim, na representação de um número complexo em coordenadas polares, temos que 
 
 $$
 z = a + bi = |z| (\cos{\theta} + i\sin{\theta}) = |z| e^{i\theta}
 $$
 
-é chamada a <b>forma trigonométrica</b> (ou <b>polar</b>) de $z$. Nesta expressão, $|z|$ é o módulo de $z$ enquanto $\theta$ é chamado seu <b>argumento</b>. 
-
-$$
-\theta = \arg{z} = \tan^{-1}\left(\dfrac{b}{a}\right)
-$$
+é chamada a <b>forma trigonométrica</b> (ou <b>polar</b>) de $z$.
 
 Perceba que $|e^{i\theta}| = 1, \forall \theta \in \mathbb{R}$. Um número complexo desta forma, isto é, $z = e^{i\theta}$, é chamado <b>fator de fase</b>, com sua imagem sendo um ponto no círculo unitário do plano complexo.
 

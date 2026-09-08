@@ -2,7 +2,7 @@
 
 # Integrais impróprias
 
-Consideramos uma integral como <b>imprópria</b> quando a função integral está definida num intervalo infinito ou quando o integrando possui alguma descontinuidade infinita. Estas integrais, portanto, não encaixam na definição usual como integrais de Riemann. 
+Consideramos uma integral como <b>imprópria</b> quando a função integranda está definida num intervalo infinito ou quando o integrando possui alguma descontinuidade infinita. Estas integrais, portanto, não encaixam na definição usual como integrais de Riemann. 
 
 Como calculá-las, então? Pode ser útil destrinchar essa pergunta ao longo dessa seção, por meio do estudo de casos e da apresentação de exemplos. Como poderíamos, então, tratar uma integral como a seguinte? 
 
@@ -34,13 +34,13 @@ $$
 \lim_{c \to \infty} \int_{a}^{c} \dfrac{1}{x^p} \ dx = \lim_{c \to \infty} \left[\dfrac{-1}{(p-1)x^{p-1}}\right]_{a}^{c}
 $$
 
-com $p \neq 1$. Vemos que o limite existe para $p \gt 1$: 
+com $p \neq 1$. Vemos que a integral é convergente para $p \gt 1$: 
 
 $$
 \lim_{c \to \infty} \left[\dfrac{-1}{(p-1)x^{p-1}}\right]_{a}^{c} = \lim_{c \to \infty} \dfrac{1}{p-1} \left(\dfrac{1}{a^{p-1}} - \dfrac{1}{c^{p-1}}\right) = \dfrac{1}{(p-1)a^{p-1}}
 $$
 
-Além disso, o limite não existe para $p \le 1$. Assim, essa integral é convergente para $p \gt 1$.
+No entanto, é divergente para $p \le 1$.
 
 </aside>
 
@@ -63,7 +63,7 @@ $$
 Temos: 
 
 $$
-\int_{-\infty}^{0} e^x \ dx = \lim_{c \to -\infty} \int_{c}^{0} e^x \ dx = \left[\lim_{c \to -\infty} e^x\right]_{c}^{0} = \lim_{c \to -\infty}(1-e^c) = 1
+\int_{-\infty}^{0} e^x \ dx = \lim_{c \to -\infty} \int_{c}^{0} e^x \ dx = \lim_{c \to -\infty}\left[ e^x\right]_{c}^{0} = \lim_{c \to -\infty}(1-e^c) = 1
 $$
 
 </aside>
@@ -114,9 +114,9 @@ mostrando que, de fato, a relação deduzida anteriormente é válida independen
 
 $$
 \begin{align*}
-    \int_{-\infty}^{\infty} \dfrac{1}{x^2 + 1} \ dx &= \int_{- \infty}^{0} \dfrac{1}{x^2 + 1} + \int_{0}^{\infty} \dfrac{1}{x^2 + 1} \ dx \\ 
+    \int_{-\infty}^{\infty} \dfrac{1}{x^2 + 1} \ dx &= \int_{- \infty}^{0} \dfrac{1}{x^2 + 1} \ dx + \int_{0}^{\infty} \dfrac{1}{x^2 + 1} \ dx \\ 
     &= \lim_{k \to -\infty} \int_{k}^{0} \dfrac{1}{x^2 + 1} \ dx + \lim_{c \to \infty} \int_{0}^{c} \dfrac{1}{x^2 + 1} \ dx \\ 
-    &= \lim_{k \ to -\infty} \left[\arctan{x}\right]_{k}^{0} + \lim_{c \to \infty} \left[\arctan{x}\right]_{0}^{c} \\ 
+    &= \lim_{k \to -\infty} \left[\arctan{x}\right]_{k}^{0} + \lim_{c \to \infty} \left[\arctan{x}\right]_{0}^{c} \\ 
     &= \lim_{k \to -\infty} -\arctan{k} + \lim_{c \to \infty} \arctan{c} \\ 
     &= \dfrac{\pi}{2} + \dfrac{\pi}{2} = \pi
 \end{align*}

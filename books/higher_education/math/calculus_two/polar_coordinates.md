@@ -8,11 +8,11 @@ Nesse sistema, cada ponto do plano possui como coordenadas a distância $r$ até
 
 # Áreas 
 
-O cálculo de áreas em coordenadas polares pode ser definida de forma semelhanbte ao processo regular da soma de Riemann em coordenadas cartesianas. 
+O cálculo de áreas em coordenadas polares pode ser definida de forma semelhante ao processo regular da soma de Riemann em coordenadas cartesianas. 
 
 Para isso, vamos imaginar uma função $\rho = \rho(\theta)$ contínua e não-negativa, definida no intervalo $[\theta_{i-1}, \theta_{i}]$. O análogo da "área sob a curva" do caso cartesiano para a nossa situação é a área $A_i$ formada por todos os pontos $(\theta, \rho)$ com $\theta \in [\theta_{i-1}, \theta_{i}]$ e $\rho \in [0, \rho(\theta)]$. 
 
-Perceba então que a magnitude da área $A_i$ está entre as áreas dos setores circulares de abertura $\Delta \theta_{i} = \theta_{i-1} - \theta_{i}$ e de raios máximo e mínimo de $\rho(\theta)$. Ao fazemos $\Delta \theta_{i} \to 0$, as áreas dos setores converge para a integral 
+Perceba então que a magnitude da área $A_i$ está entre as áreas dos setores circulares de abertura $\Delta \theta_{i} = \theta_{i} - \theta_{i-1}$ e de raios máximo e mínimo de $\rho(\theta)$. Ao fazemos $\Delta \theta_{i} \to 0$, as áreas dos setores convergem para a integral 
 
 $$
 \dfrac{1}{2} \int_{\alpha}^{\beta} \rho^2 \ d\theta
@@ -26,9 +26,9 @@ que é a nossa expressão para área.
 
 # Comprimentos 
 
-O processo para obter o comprimento de uma área em coordenadas polares também é muito similar ao caso usual. Um processo bem interessante é nos valer de ambos os sistemas coordenados para tal. 
+O processo para obter o comprimento de uma curva em coordenadas polares também é muito similar ao caso usual. Um processo bem interessante é nos valer de ambos os sistemas coordenados para tal. 
 
-Assim, considere uma curva $\rho(\theta)$ em coordenadas polares com $\theta \in [\alpha, \beta]$. Além disso, $\rho(\theta)$ é diferenciável com sua primeira derivada sendo contínua no intervalo $[\alpha, \beta]$ (isto é, $\rho(\theta)$ é de classe $C_1$). Essa curva paramétrica é dada pelo sistema 
+Assim, considere uma curva $\rho(\theta)$ em coordenadas polares com $\theta \in [\alpha, \beta]$. Além disso, $\rho(\theta)$ é diferenciável com sua primeira derivada sendo contínua no intervalo $[\alpha, \beta]$ (isto é, $\rho(\theta)$ é de classe $C^1[a,b]$ <!-- É de classe C^1 em [a.b], sem garantia do restante. Também, é mais comum deixar ^1 ao inves de _1 pois em cima é onde fica o índice de derivada, normalmente -->). Essa curva paramétrica é dada pelo sistema 
 
 $$
 \begin{cases}

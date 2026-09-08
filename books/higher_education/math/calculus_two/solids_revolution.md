@@ -59,13 +59,13 @@ $$
 Assim, efetuando a rotação e a soma de Riemann, chegamos na expressão final 
 
 $$
-A_x = 2\pi \int_{a}^{b} f(x) \sqrt{1 + [f'(x)]^2} \ dx 
+A_x = 2\pi \int_{a}^{b} |f(x)| \sqrt{1 + [f'(x)]^2} \ dx 
 $$
 
 para a área da superfície de revolução em torno do eixo $x$. Para uma revolução em torno do eixo $y$, obtemos (tomando $y = f(x)$): 
 
 $$
-A_y = 2 \pi \int_{a}^{b} x \sqrt{1 + \left(\dfrac{dy}{dx}\right)^2} \ dx 
+A_y = 2 \pi \int_{a}^{b} |x| \sqrt{1 + \left(\dfrac{dy}{dx}\right)^2} \ dx 
 $$
 
 O mesmo raciocínio pode ser utilizado para a obtenção do comprimento do gráfico de uma função. Dessa forma, imagine $y = f(x)$ diferenciável com derivada contínua num intervalo $[a,b]$ e, além disso, considere uma partição $P: a = x_0 \lt x_1 \lt x_2 \lt ... \lt x_n = b$ desse intervalo.
@@ -76,7 +76,7 @@ $$
 L(P) = \sum_{i = 1}^n \sqrt{(x_i - x_{i-1})^2 + (f(x_i) - f(x_{i-1}))^2}
 $$
 
-Pelo TVM, sabrmos que para todo intervalo $[x_{i-1}, x_{i}]$ existe um $c_i$ tal que 
+Pelo TVM, sabemos que para todo intervalo $[x_{i-1}, x_{i}]$ existe um $c_i$ tal que 
 
 $$
 f(x_i) - f(x_{i-1}) = f'(c_i) \cdot \Delta x_i
@@ -90,10 +90,10 @@ $$
 L(P) = \sum_{i=1}^{n} \sqrt{\Delta x_i^2 + (f'(c_i) \cdot \Delta x_i)^2} = \sum_{i=1}^{n} \sqrt{1 + (f'(c_i))^2}\Delta x_i
 $$
 
-Fazendo então $\Delta x_i \to 0$, temos que $L(P)$ é precisamente o comprimento do gráfico de $f$. 
+Fazendo então $\Delta x_i \to 0$, temos que $L$ é precisamente o comprimento do gráfico de $f$. 
 
 $$
-L(P) = \int_{a}^{b} \sqrt{1 + \left(\dfrac{dy}{dx}\right)^2} \ dx 
+L= \lim_{|P|\rightarrow 0}L(P) = \int_{a}^{b} \sqrt{1 + \left(\dfrac{dy}{dx}\right)^2} \ dx 
 $$
 
 Ao considerarmos ainda uma curva em $\mathbb{R}^2$ dada em função de um parâmetro $t$, isto é, de forma que cada um de seus pontos são da forma $(x(t), y(t))$ com $t \in I$, um intervalo, vemos que seu comprimento $L$ pode ser dado por 

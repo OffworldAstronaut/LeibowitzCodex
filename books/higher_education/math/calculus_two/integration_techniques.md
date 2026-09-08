@@ -30,7 +30,7 @@ $$
 
 <aside>
 
-Perceba que a derivada entre os colchetes com os limites de integração é uma notação condensada para a subtração entre as antiderivadas. Lemos <b>avaliada entre</b> $a$ e $b$, com estes dois números sendo os limites de integração.
+Perceba que a primitiva entre os colchetes com os limites de integração é uma notação condensada para a subtração entre as antiderivadas. Lemos <b>avaliada entre</b> $a$ e $b$, com estes dois números sendo os limites de integração.
 
 </aside>
 
@@ -41,7 +41,7 @@ Nesse exemplo, definimos $u = g(x) = x-2$. Pela diferenciação, temos que $\dfr
 Sem a utilização de limites de integração, podemos simplesmente escrever 
 
 $$
-\int f(g(x))g'(x) = \int f(u) \ du
+\int f(g(x))g'(x) \ dx= \int f(u) \ du
 $$
 
 com $u = g(x)$. 
@@ -69,14 +69,14 @@ Com $k$ sendo a constante de integração, qualquer número real.
 Por meio da inclusão dos limites de integração, isto é, levando em conta integrais definidas, a integração por partes pode ser escrita da seguinte maneira: 
 
 $$
-\int_{a}^{b} f(x) g'(x) = [f(x)g(x)]^{b}_{a} - \int_{a}^{b} f'(x)g(x) \ dx 
+\int_{a}^{b} f(x) g'(x) \ dx= [f(x)g(x)]^{b}_{a} - \int_{a}^{b} f'(x)g(x) \ dx 
 $$
 
 O que pode ser útil para cálculos mais concisos.
 
 # Integração por frações parciais
 
-A <b>integração por funções parciais</b> é uma excelente técnica para o auxílio do cálculo de primitivas de funções racionais, isto é, funções da forma 
+A <b>integração por frações parciais</b> é uma excelente técnica para o auxílio do cálculo de primitivas de funções racionais, isto é, funções da forma 
 
 $$
 \dfrac{P(x)}{Q(x)}
@@ -201,7 +201,8 @@ De forma semelhante, há um teorema que nos pode ser útil.
 
 <aside>
 
-<b>Teorema (Guidorizzi, Um caso de decomposição de funções racionais)</b> — Sejam $\alpha, \beta, \gamma, m, n, p \in \mathbb{R}$ com $\alpha \neq \beta \neq \gamma$. Logo, $\exists A, B, C \in \mathbb{R}$ tais que 
+<b>Teorema (Guidorizzi, Um caso de decomposição de funções racionais)</b> — Sejam $\alpha, \beta, \gamma, m, n, p \in \mathbb{R}$ com $\alpha,\beta$ e $\gamma$ três números distintos. Logo, $\exists A, B, C \in \mathbb{R}$ tais que
+<!-- $\alpha \ne \beta \ne \gamma$ não é condição para gamma ser diferente de alpha, pois, por exemplo alpha pode ser 1, beta 2 e gamma 1, continuando válida a relação. --> 
 
 $$
 \begin{align*}
@@ -283,12 +284,12 @@ $$
 
 O primeiro caso notável é o da integral $\int \sin^n{x} \cdot \cos^m{x} \ dx$.
 
-Caso $n$ seja ímpar, um atalho rápido é substituir $u = \cos{x}$. Caso $m$ seja ímpar, um outro atalho é substituir $u=\sin{x}$. Se ambos forem pares, a decisão mais prática é rescrever 
+Caso $n$ seja ímpar, um atalho rápido é substituir $u = \cos{x}$. Caso $m$ seja ímpar, um outro atalho é substituir $u=\sin{x}$. Se ambos forem pares, a decisão mais prática é reescrever 
 
 $$
 \begin{align*} 
 \sin^2{x} &= \dfrac{1 - \cos{2x}}{2} \\ 
-\cos^2{x} &= \dfrac{1 - \cos{2x}}{2}
+\cos^2{x} &= \dfrac{1 + \cos{2x}}{2}
 \end{align*}
 $$
 
@@ -309,9 +310,9 @@ Abaixo estão listadas algumas expressões de recorrência para o cálculo das p
 
 $$
 \begin{align*}
-    \int \sin^n{x} \ dx &= -\dfrac{1}{n} \sin^{n-1} x \cos x + \dfrac{n-1}{n} \int \sin^{n-2}{x} \ dx \ (n \ge 1) \\ 
+    \int \sin^n{x} \ dx &= -\dfrac{1}{n} \sin^{n-1} x \cos x + \dfrac{n-1}{n} \int \sin^{n-2}{x} \ dx \ (n \ge 2) \\ 
     \\
-    \int \cos^n{x} \ dx &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx \ (n \ge 1) \\ 
+    \int \cos^n{x} \ dx &= \dfrac{1}{n} \cos^{n-1}{x} \sin{x} + \dfrac{n-1}{n} \int \cos^{n-2}{x} \ dx \ (n \ge 2) \\ 
     \\
     \int \tan^n{x} \ dx &= \dfrac{\tan^{n-1}{x}}{n-1} - \int \tan^{n-2}{x} \ dx \ (n \ge 2)\\ 
     \\
@@ -451,12 +452,12 @@ $$
 
 <b>Problema 1 (segundo item).</b>
 
-Tomando $u = x^4 + 2$, temos que $du = x^3 dx \iff dx = \dfrac{du}{x^3}$. 
+Tomando $u = x^4 + 2$, temos que $du = 4x^3 dx \iff dx = \dfrac{du}{4x^3}$. 
 
 $$
 \begin{align*}
-    \int x^3 \cos{(x^4 + 2)} \ dx &= \int \cos{u} \ du \\ 
-                                  &= \sin{u} = \sin{x^4 + 2} + C 
+    \int x^3 \cos{(x^4 + 2)} \ dx &= \frac{1}{4}\int \cos{u} \ du \\ 
+                                  &= \frac{1}{4}\sin{u} = \frac{1}{4}\sin{x^4 + 2} + C 
 \end{align*}
 $$
 

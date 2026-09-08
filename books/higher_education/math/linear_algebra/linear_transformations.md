@@ -131,7 +131,7 @@ $$
 
 <aside>
 
-<b>Demonstração (Alfredo Vitorino, IMECC)</b> — Considere $B_1 = \{u_1, \dots, u_r\}$ uma base para o núcleo de $F$. Logo, $\dim{\ker{F}} = r. 
+<b>Demonstração (Alfredo Vitorino, IMECC)</b> — Considere $B_1 = \{u_1, \dots, u_r\}$ uma base para o núcleo de $F$. Logo, $\dim{\ker{F}}$= r. 
 
 Sabemos que o núcleo de $F$ é um subespaço de $U$. Pelo teorema do completamento, a base $B_1$ pode ser completamente até obtermos uma bse para $U$, $B_2 = \{u_1, \dots, u_r, v_1, \dots, v_s\}$. 
 

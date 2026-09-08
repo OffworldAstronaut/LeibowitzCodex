@@ -369,11 +369,11 @@ $$
 
 <aside>
 
-<b>Demonstração</b> — Imagine uma base $\alpha$, ortonormal, qualquer de $V$, Logo, teremos que $Q(v) = B(v, v) = (v)_{\alpha}^T (B)_{\alpha}^{\alpha} (v)_{\alpha}$.
+<b>Demonstração</b> — Se $\alpha$ é uma base ortonormal qualquer de $V$, teremos que $Q(v) = B(v, v) = (v)_{\alpha}^T (B)_{\alpha}^{\alpha} (v)_{\alpha}$.
 
 Como a matriz $(B)_{\alpha}^{\alpha}$ é simétrica, esta corresponde a um operador auto-adjunto $T: V \to V$ de forma que sua matriz é a mesma da forma bilinear $B$, isto é, vale $(T)_{\alpha}^{\alpha} = B_{\alpha}^{\alpha}$.
 
-Sabemos que um operador autoadjunto pode ser diagonalizado mediante uma base $\beta$ de vetores ortonormais. Logo, 
+Sabemos que um operador autoadjunto pode sempre ser diagonalizado mediante uma base $\beta$ de vetores ortonormais (seus autovetores). Logo, 
 
 $$
 \begin{align*}
