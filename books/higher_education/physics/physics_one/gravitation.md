@@ -607,8 +607,6 @@ $$
 
 <b>Problema 1.</b> Considere uma massa teste $m$ posicionada a uma distância $a$ sobre a mediatriz de uma barra uniforme de massa $M$ e comprimento $2L$. Quais as componentes horizontais e verticais da força gravitacional atuando sobre a massa teste? O que acontece quando $a \gg 2L$? 
 
-![](/books/higher_education/physics/physics_one/questao_bolinha_barra.svg)
-
 </aside>
 
 <aside>
