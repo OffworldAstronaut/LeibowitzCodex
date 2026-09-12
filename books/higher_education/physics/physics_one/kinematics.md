@@ -53,15 +53,15 @@ Por exemplo, $5\vec{v}$ produz um vetor $\vec{u}$ com o quíntuplo da magnitude 
 $$
     5 \cdot 
     \begin{bmatrix}
-        u_1 \\\\ u_2 
+        u_1 \\ u_2 
     \end{bmatrix}
     =
     \begin{bmatrix}
-        5u_1 \\\\ 5u_2
+        5u_1 \\ 5u_2
     \end{bmatrix}
     =
     \begin{bmatrix}
-        v_1 \\\\ v_2
+        v_1 \\ v_2
     \end{bmatrix}
 $$
 
@@ -81,12 +81,12 @@ $$
 \begin{align*}
     \vec{a} &=
     \begin{bmatrix}
-    2 \\\\ 5     
+    2 \\ 5     
     \end{bmatrix}
-    \\\\
+    \\
     \vec{b} &= 
     \begin{bmatrix}
-        4 \\\\ 5
+        4 \\ 5
     \end{bmatrix}
 \end{align*}
 $$ 
@@ -97,12 +97,12 @@ $$
 \begin{align*}
     \vec{a} + \vec{b} &=
     \begin{bmatrix}
-        2 + 4 \\\\ 5 + 5 
+        2 + 4 \\ 5 + 5 
     \end{bmatrix}
-    \\\\
+    \\
     &= 
     \begin{bmatrix}
-        6 \\\\ 10
+        6 \\ 10
     \end{bmatrix}
 \end{align*}
 $$
@@ -111,8 +111,8 @@ Considerando os versores do espaço tridimensional, poderíamos escrever a soma 
 
 $$
 \begin{align*}
-    \vec{a} + \vec{b} &= 2\hat{i} + 5\hat{j} + 4 \hat{i} + 5 \hat{j} \\\\
-    &= (2 + 4)\hat{i} + (5 + 5)\hat{j} \\\\
+    \vec{a} + \vec{b} &= 2\hat{i} + 5\hat{j} + 4 \hat{i} + 5 \hat{j} \\
+    &= (2 + 4)\hat{i} + (5 + 5)\hat{j} \\
     &= 6\hat{i} + 10\hat{j}
 \end{align*}
 $$
@@ -175,8 +175,8 @@ Ao considerarmos um intervalo de tempo extremamente pequeno, definimos a chamada
 
 $$
 \begin{align*}
-    \vec{v} &= \dfrac{d\vec{r}}{dt} \\\\
-    \vec{v} &= \dfrac{dx}{dt}\hat{i} + \dfrac{dy}{dt}\hat{j} + \dfrac{dz}{dt}\hat{k} \\\\
+    \vec{v} &= \dfrac{d\vec{r}}{dt} \\
+    \vec{v} &= \dfrac{dx}{dt}\hat{i} + \dfrac{dy}{dt}\hat{j} + \dfrac{dz}{dt}\hat{k} \\
     \vec{v} &= v_x \hat{i} + v_y \hat{j} + v_z \hat{k}
 \end{align*}
 $$
@@ -185,7 +185,7 @@ Além disso, é importante mencionar que este vetor é tangente à trajetória d
 
 $$
 \begin{align*}
-    \vec{a} &= \dfrac{d \vec{v}}{dt} \\\\
+    \vec{a} &= \dfrac{d \vec{v}}{dt} \\
     \vec{a} &= \dfrac{d v_x}{dt}\hat{i} + \dfrac{d v_y}{dt} \hat{j} + \dfrac{d v_z}{dt}\hat{k}
 \end{align*}
 $$
@@ -212,7 +212,7 @@ e suas velocidades componentes da seguinte maneira:
 
 $$
 \begin{align*}
-    \vec{v_{0x}} &= v_0 \cdot \cos\theta_0 \\\\
+    \vec{v_{0x}} &= v_0 \cdot \cos\theta_0 \\
     \vec{v_{0y}} &= v_0 \cdot \sin\theta_0
 \end{align*}
 $$
@@ -256,7 +256,7 @@ A limitação desta equação está no cenário em que a altura final do corpo d
 
 ## Movimento circular uniforme 
 
-Quando um corpo se encontra em um movimento circular uniforme (MCU), sua velocidade escalar ("tangencial") é constante, embora seu vetor velocidade esteja constantemente mudando de direção por consequência da aceleração centrípeta. Este movimento possui uma trajetória em formato de circunferência ou de arco de circunferência.
+Quando um corpo se encontra em um movimento circular uniforme (MCU), sua velocidade escalar ("tangencial") é constante, embora seu vetor velocidade esteja constantemente mudando de direção por consequência da <b>aceleração centrípeta</b>. Este movimento possui uma trajetória em formato de circunferência ou de arco de circunferência.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/91/Uniform-cirular-translation.gif)
 
@@ -266,6 +266,35 @@ Esta aceleração pode ser calculada pela expressão $a = \dfrac{v^2}{r}$, com o
 
 $$
 T = \dfrac{2\pi r}{v}
+$$
+
+Assim como podemos analisar a velocidade tangencial do corpo, às vezes é conveniente analisar sua velocidade angular. Tomando $\omega$ como sua velocidade angular, podemos traçar as relações: 
+
+$$
+\begin{align*}
+    \omega &= \dfrac{d\theta}{dt} = \dfrac{2\pi }{T} \\ 
+    \omega R &= v
+\end{align*}
+$$
+
+O movimento circular uniforme é uma boa aproximação para o movimento de planetas cuja excentricidade orbital é suficientemente próxima de zero, como por exemplo, a Terra. 
+
+Nessas órbitas, podemos nos utilizar da <a href="/books/higher_education/physics/physics_one/gravitation.html" target="_blank">lei da gravitação universal</a> e da segunda lei de Newton para encontrar uma expressão para $v$ em função da massa do corpo central $M$ e do raio da órbita, $R$.
+
+$$
+F = \dfrac{GMm}{R^2} = m\dfrac{v^2}{R} \implies v = \sqrt{\dfrac{GM}{R}}
+$$
+
+Além disso, introduzindo a relação $v = \dfrac{2\pi R}{T}$, podemos combinar esta com o resultado anterior para obter uma relação entre o raio da órbita, e seu período. 
+
+$$
+v^2 = \dfrac{4\pi^2 R^2}{T^2} = \dfrac{GM}{R} \iff \boxed{ \dfrac{T^2}{R^3} = \dfrac{4\pi^2}{GM}}
+$$
+
+Esta é a <b>terceira lei de Kepler</b> para o movimento planetário, deduzida em seu caso mais simples. Se quisermos uma aproximação ainda melhor, basta considerar a massa do corpo orbitante $m$: 
+
+$$
+\dfrac{T^2}{R^3}=\dfrac{4\pi^2}{G(M+m)}
 $$
 
 # Referências 

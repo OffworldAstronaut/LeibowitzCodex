@@ -14,7 +14,7 @@ O modelo ptolemaico analisava os céus como algo completamente diferente da Terr
 
 A partir dos estudos de Galileu, que produziu conceitos como a relatividade galileana e o princípio da inércia (defendido pelo famosíssimo experimento do barco), Newton unificou o estudo dos movimentos celestes e terrestres num único sistema em sua obra-prima <i>Princípios Matemáticos da Filosofia Natural</i>. Dos estudos do inglês, são amplamente conhecidas as suas Leis da Mecânica. 
 
-## Leis de Newton
+# Leis de Newton
 
 Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estudo da mecânica, constituindo as bases da chamada **Mecânica Clássica**, ou Mecânica Newtoniana. Newton foi a autoridade basilar em descrever a mecânica universal até o alvorecer do século XX, com a chegada da Mecânica Quântica. 
 
@@ -70,65 +70,13 @@ Ou seja, nessas condições, o momento total do sistema é conservado.
 
 </aside>
 
-## Forças e massas
+# Forças e massas
 
 O que é uma força? Feynman em sua <a target="_blank" href="https://www.feynmanlectures.caltech.edu/I_12.html">coleção de aulas</a> discorre um pouco sobre essa questão e a resposta dela é ligeiramente engraçada. Não temos uma definição perfeita nem de força, nem das leis de Newton, nem da mecânica. A ciência, por mais exata que ela pareça ser, é composta de diversas aproximações do mundo real. Entretanto, podemos designar uma definição para força, sim, que pode servir para uma ampla variedade de situações: uma força é um ente físico que provoca a mudança do estado de movimento de um corpo. 
 
 Então, como poderíamos ver a massa de um corpo, perante o ponto de vista da mecânica? Talvez uma grandeza física que afere a inércia de um corpo, a sua dificuldade de mudar o seu estado de movimento? De fato, esta é uma visão válida sobre a massa (inercial) — uma maneira de quantificar a inércia de um corpo. 
 
-## A gravitação universal
-
-A lei da gravitação universal foi, sem dúvida, uma das grandes conquistas da vida acadêmica de Isaac Newton, unindo cientificamente a mecânica terrestre e a mecânica celeste, desde muito tempo separadas pela cosmologia aristotélica. 
-
-Esse importante resultado pode ser derivado novamente por meio de álgebra, suas leis e algumas observações astronômicas. 
-
-Para iniciar, imagine um corpo de massa $M$ na superfície terrestre, sujeito a uma aceleração $\vec{g}$. 
-
-A Lua nos fornece a possibilidade de demonstrar a dimensão universal da força gravitacional, que é experienciada tanto na Terra como no céu. Sabendo-se o raio da Terra e a duração dos eclipses lunares, além da dimensão da lua (a partir dos eclipses solares), é possível deduzir o raio da orbita deste satélite, que assume o valor de $R_L = 3.8 \cdot 10^8 \text{ m}$. 
-
-A partir desses dados, pode-se concluir que a aceleração centrípeta experienciada pela Lua em seu movimento circular uniforme ao redor da Terra é de $a_{cp} = 2.710^{-3} \text{m/s}^2$. 
-
-Newton, em seus estudos, percebeu que $\dfrac{a_{cp}}{g} \approx \dfrac{1}{60^2} \approx \left(\dfrac{R_T}{R_L}\right)^2$ — com $R_T$ sendo o raio terrestre —, indicando uma aceleração gravitacional inversamente proporcional ao quadrado da distância, ou, de forma mais sucinta, que
-
-$$
-a_g \propto \dfrac{1}{d^2}
-$$
-
-O próximo passo é associar essa aceleração a sua respectiva força explicitamente. Supondo $F_{TM}$ e $F_{TL}$ como a força exercida pela Terra no objeto de massa $M$ e na Lua, respectivamente, podemos montar as seguintes equações: 
-
-$$
-\begin{align*}
-    F_{TM} &= K_M \cdot \dfrac{M}{R_T^2} \\ 
-    F_{TL} &= K_L \cdot \dfrac{M_L}{R_L^2}
-\end{align*}
-$$
-
-Com $K_M$ e $K_L$ sendo constantes de proporcionalidade. 
-
-Dessa forma, fica estabelecido que podemos utilizar dessa abordagem para encontrar uma lei para a força gravitacional entre dois corpos. Para o próximo passo, então, iremos analisar a Terra e a Lua, através da Terceira Lei de Newton. 
-
-Como a Terra e a Lua são corpos isolados interagindo entre si, a força que os corpos exercem um sobre o outro, $F_{TL}$ e $F_{LT}$, são iguais em módulo e opostas em direção. $F_{LT}$ é a força que a <b>Lua exerce sobre a Terra</b>, enquanto $F_{TL}$ é a força que a <b>Terra exerce sobre a Lua</b>.
-
-Escrevendo $F_{LT} = K_T \cdot \dfrac{M_T}{R_L^2}$ e levando em conta a relação entre as duas forças, podemos ver que $K_T \cdot M_T = K_L \cdot M_L$. Desta equação, podemos identificar uma relação de proporcionalidade direta entre as constantes e as massas dos corpos pacientes. De fato, por manipulação matemática, podemos trabalhar de trás para frente e explicitar uma constante $G$ que explicita essa relação. 
-
-$$
-\begin{align*}
-K_T \cdot M_T &= K_L \cdot M_L \\ 
-\dfrac{K_T}{M_L} &= \dfrac{K_L}{M_T} = G
-\end{align*}
-$$
-
-Podemos justificar esta constante pela simetria das duas forças, que são iguais em módulo e dependentes do corpo paciente. Dessa forma, a força exercida pelo corpo não depende apenas do próprio corpo, mas também do corpo que está interagindo. 
-
-Dessa última equação concluímos que $K_T = G \cdot M_L$  e $K_L = G \cdot M_T$. 
-
-Ao substituir qualquer uma dessas expressões seja em $F_{LT}$ ou em $F_{TL}$, obtemos a conhecida expressão para a Lei da Gravitação Universal, com seu sinal negativo explicitando seu caráter atrativo e o vetor $r_{12}$ indicando a direção da força, que aponta para o centro dos corpos.
-
-$$
-\vec{F} = -G \cdot \dfrac{M_1M_2}{|\vec{r_{12}}|} \cdot \hat{r_{12}}
-$$
-
-## Atrito
+# Atrito
 
 Chamamos <b>força de atrito</b> a força que se opõe ao movimento e é oriunda do contato entre duas superfícies. Esse atrito, de fato, é a soma vetorial entre as forças provenientes da interação entre os átomos dos corpos atritados, chamado
 <b>solda fria</b>.
@@ -163,9 +111,9 @@ Com $\mu_C$ sendo seu coeficiente de atrito cinético. Além disso, diferentemen
 
 <i>Gráfico da força de atrito a medida que uma força atuante é intensificada ao longo do tempo. Perceba que a força de atrito estático aumenta de forma aproximadamente linear, enquanto a de atrito cinético é aproximadamente constante. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Static_kinetic_friction_vs_time.png">Wikimedia Commons</a></i>
 
-## Arrasto 
+# Arrasto 
 
-Chamamos <b>fluido</b>, de forma bem simples, toda substância capaz de escoar, como gases e líquidos. Ao considerarmos um corpo no interior de um fluido com uma certa velocidade relativa, uma força é exercida no móvel que, como a força de atrito, resiste ao movimento. Essa força é denominada <b>força de arrasto</b> ou apenas <b>arrasto</b>. 
+Chamamos <b>fluido</b>, de forma bem simples, toda substância capaz de escoar, como gases e líquidos (para uma definição mais rigorosa, consultar <a href="/books/higher_education/physics/physics_two/hydrostatics.html" target="_blank"><i>De Hydrostatica</i></a>). Ao considerarmos um corpo no interior de um fluido com uma certa velocidade relativa, uma força é exercida no móvel que, como a força de atrito, resiste ao movimento. Essa força é denominada <b>força de arrasto</b> ou apenas <b>arrasto</b>. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Flow_sphere.svg)
 
@@ -197,7 +145,7 @@ $$
 
 <i>A velocidade terminal é muito comum em situações como o skydiving, em que diferentes posições corporais podem aumentá-la ou diminui-la. Imagem sob domínio público, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Bad_Lieutenants_VFS_skydiving_team.jpg">Wikimedia Commons</a></i>
 
-## Tração 
+# Tração 
 
 Chamamos <b>tração</b> ou <b>tensão</b> a força exercida sobre um cabo, corda ou fio quando este é esticado por alguma outra força. Neste sentido, a força de tensão age como uma força "de resistência", que dificulta a quebra do cabo. Se a tração não existisse, fios iriam se partir sem nenhum problema se esticados. 
 

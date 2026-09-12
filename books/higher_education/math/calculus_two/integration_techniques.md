@@ -403,7 +403,7 @@ Assim,
 
 $$
 \begin{align*}
-    \int \sec^{n}{x} \ dx &= \tan{x} \sec^{n-2}{x} - (n-2) \int sec^{n}{x} \ dx + (n-2) \int \sec^{n-2} \ dx \\ 
+    \int \sec^{n}{x} \ dx &= \tan{x} \sec^{n-2}{x} - (n-2) \int \sec^{n}{x} \ dx + (n-2) \int \sec^{n-2} \ dx \\ 
                           &= \dfrac{\tan{x}\sec^{n-2}{x}}{n-1} + \dfrac{n-2}{n-1}\int \sec^{n-2}{x} \ dx 
 \end{align*}
 $$
@@ -416,27 +416,129 @@ $$
 
 <aside>
 
-<b>Problema 1.</b> Encontre as primitivas: 
+<b>Problema 1.</b> Calcule as primitivas: 
 
 $$
-\begin{align*}
-    a. &\int 2x \sqrt{1 + x^2} \ dx \\ 
-    b. &\int x^3 \cos{(x^4 + 2)} \ dx \\ 
-    c. &\int \dfrac{x}{\sqrt{1-4x^2}} \ dx \\ 
-    d. &\int e^{5x} \ dx \\ 
-    e. &\int \sqrt{1 + x^2} x^5 \ dx 
-\end{align*}
+\int 2x \sqrt{1 + x^2} \, dx
 $$
 
 </aside>
 
-## Resoluções
+<aside>
+
+<b>Problema 2.</b> Calcule as primitivas: 
+
+$$
+\int x^3 \cos{(x^4 + 2)} \, dx
+$$
+
+</aside>
 
 <aside>
 
-<b>Problema 1 (primeiro item).</b>
+<b>Problema 3.</b> Calcule as primitivas: 
 
-Tomando $x^2 + 1 = u$, temos que $du = 2xdx \iff dx = \dfrac{du}{2x}$.
+$$
+\int \dfrac{x}{\sqrt{1-4x^2}} \, dx
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 4.</b> Calcule as primitivas: 
+
+$$
+\int e^{5x} \, dx
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 5.</b> Calcule as primitivas: 
+
+$$
+\int  x^5\sqrt{1 + x^2} \, dx 
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 6.</b> Calcule as primitivas: 
+
+$$
+\int e^x \sin{e^x} \, dx 
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 7.</b> Calcule as primitivas: 
+
+$$
+\int \dfrac{1+x}{1+x^2} \, dx 
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 8.</b> Calcule as primitivas: 
+
+$$
+\int t\sin{(2t)} \, dt 
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 9.</b> Calcule as primitivas: 
+
+$$
+\int \cos{x}\ln{(\sin{x})} \, dx 
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 10.</b> Calcule as primitivas: 
+
+$$
+\int x \sin^3{x} \, dx 
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 11.</b> Calcule as primitivas: 
+
+$$
+\int \dfrac{1-\tan^2{x}}{\sec^2{x}} \, dx
+$$
+
+</aside>
+
+<aside>
+
+<b>Problema 12.</b> Calcule as primitivas: 
+
+$$
+\int \dfrac{dx}{\cos{(x)}-1}
+$$
+
+</aside>
+
+## Soluções
+
+<aside>
+
+<b>Solução 1.</b> Tomando $x^2 + 1 = u$, temos que $du = 2xdx \iff dx = \dfrac{du}{2x}$.
 
 $$
 \begin{align*}
@@ -450,9 +552,7 @@ $$
 
 <aside>
 
-<b>Problema 1 (segundo item).</b>
-
-Tomando $u = x^4 + 2$, temos que $du = 4x^3 dx \iff dx = \dfrac{du}{4x^3}$. 
+<b>Solução 2.</b> Tomando $u = x^4 + 2$, temos que $du = 4x^3 dx \iff dx = \dfrac{du}{4x^3}$. 
 
 $$
 \begin{align*}
@@ -465,9 +565,7 @@ $$
 
 <aside>
 
-<b>Problema 1 (terceiro item).</b>
-
-Tomando $u = 1-4x^2$, temos que $du = -8xdx \iff dx = \dfrac{du}{-8x}$.
+<b>Solução 3.</b> Tomando $u = 1-4x^2$, temos que $du = -8xdx \iff dx = \dfrac{du}{-8x}$.
 
 $$
 \begin{align*}
@@ -481,9 +579,7 @@ $$
 
 <aside>
 
-<b>Problema 1 (quarto item).</b>
-
-Tomando $u = 5x$, temos que $du = 5dx \iff dx = \dfrac{du}{5}$. 
+<b>Solução 4.</b> Tomando $u = 5x$, temos que $du = 5dx \iff dx = \dfrac{du}{5}$. 
 
 $$
 \begin{align*}
@@ -495,16 +591,88 @@ $$
 
 <aside>
 
-<b>Problema 1 (quinto item).</b>
-
-Tomando $u = 1+x^2$, temos que $du = 2xdx \iff xdx = \dfrac{1}{2} du$. Além disso, $u = 1+x^2 \implies (u-1)^2 = x^4$.
+<b>Solução 5.</b> Tomando $u = 1+x^2$, temos que $du = 2xdx \iff xdx = \dfrac{1}{2} du$. Além disso, $u = 1+x^2 \implies (u-1)^2 = x^4$.
 
 $$
 \begin{align*}
-    \int \sqrt{1+x^2} x^5 \ dx &= \int x \sqrt{1 + x^2} x^4 \ dx \\ 
-                               &= \dfrac{1}{2}\int \sqrt{u}(u-1)^2 \ du \\ 
+    \int x^5\sqrt{1+x^2} \ dx &= \int x \cdot  x^4\sqrt{1 + x^2} \ dx \\ 
+                               &= \dfrac{1}{2}\int (u-1)^2 \sqrt{u} \ du \\ 
                                &= \dfrac{1}{2}\left(\int u^{5/2} \ du - 2 \int u^{3/2} \ du + \int u^{1/2} \ du\right) \\ 
                                &= \dfrac{1}{7}u^{7/2} - \dfrac{2}{5}u^{5/2} + \dfrac{1}{3}u^{3/2} + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Solução 6.</b> Tomando $e^x = u$, $du = e^x dx$.
+
+$$
+\int e^x \sin{e^x} \ dx = \int \sin{u} \ du = -\cos{u} = -\cos{e^x} + C
+$$
+
+</aside>
+
+<aside>
+
+<b>Solução 7.</b> Rearranjando a integral: 
+
+$$
+\int \dfrac{1+x}{1+x^2} \ dx = \int \dfrac{1}{1+x^2} \ dx + \int \dfrac{x}{1+x^2} \ dx = \arctan{x} + \int \dfrac{x}{1+x^2} \ dx 
+$$
+
+Se $1+x^2 = u$, $du = 2xdx$. Logo, 
+
+$$
+\int \dfrac{x}{1+x²} \ dx = \dfrac{1}{2}\int \dfrac{1}{u} \ du = \dfrac{1}{2}\ln|1+x^2| + C
+$$
+
+Portanto, 
+
+$$
+\int \dfrac{1+x}{1+x^2} \ dx = \arctan{x} + \dfrac{1}{2}\ln|1+x^2| + C 
+$$
+
+</aside>
+
+<aside>
+
+<b>Solução 8.</b> Por integração por partes: 
+
+$$
+\begin{align*}
+    \int t \sin{2t} \ dt &= -\dfrac{1}{2}t\cos{2t} + \dfrac{1}{2}\int \cos{2t} \ dt 
+                         &= \dfrac{\sin{2t}-2t\cos{2t}}{4} + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Solução 9.</b> Por integração por partes: 
+
+$$
+\begin{align*}
+    \int \cos{x} \ln{\sin{x}} \ dx &= \sin{x}\ln{(\sin{x})} - \int \cos{x} \ dx \\ 
+                                   &= \sin{x}(\ln{\sin{x}}-1) + C
+\end{align*}
+$$
+
+</aside>
+
+<aside>
+
+<b>Solução 11.</b> Utilizando a identidade $\tan^2{x} + 1 = \sec^2{x}$ e simplificando a integral: 
+
+$$
+\begin{align*}
+    \int \dfrac{1-\tan^2{x}}{\sec^2{x}} \ dx &= \int \dfrac{1}{\sec^2{x}} \ dx - \int \dfrac{\tan^2{x}}{\sec^2{x}} \ dx \\
+    
+    &= \int \cos^2{x} - \sin^2{x} \ dx \\
+    &= \int \cos{2x} \ dx = \dfrac{1}{2}\sin{2x} + C
+    
 \end{align*}
 $$
 
