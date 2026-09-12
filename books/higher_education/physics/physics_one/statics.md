@@ -58,7 +58,7 @@ onde $p$ é a pressão exercida pelo fluido, $\mu_V$ é o chamado <b>módulo de 
 
 <b>Problema 1.</b> Uma força de módulo $F$ é aplicada no eixo de uma roda (de massa $M$) que está na iminência de subir um degrau de altura $h$, de modo que esta permanece em equilíbrio estático. A partir do diagrama da situação, exposto abaixo, deduza uma expressão para $F$ com base em $M$, $g$, $r$ e $h$. 
 
-![](/books/higher_education/physics/physics_one/drawing.svg)
+![](/books/higher_education/physics/physics_one/questao_roda_subindo_ladeira.svg)
 
 </aside>
 
