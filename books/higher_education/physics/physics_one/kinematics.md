@@ -279,7 +279,7 @@ $$
 
 O movimento circular uniforme é uma boa aproximação para o movimento de planetas cuja excentricidade orbital é suficientemente próxima de zero, como por exemplo, a Terra. 
 
-Nessas órbitas, podemos nos utilizar da <a href="/books/higher_education/physics/physics_one/gravitation.html" target="_blank">lei da gravitação universal</a> e da segunda lei de Newton para encontrar uma expressão para $v$ em função da massa do corpo central $M$ e do raio da órbita, $R$.
+Nessas órbitas, podemos nos utilizar da <a href="/books/higher_education/physics/physics_one/gravitation.html" target="_blank">lei da gravitação universal</a> e da <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">segunda lei de Newton</a> para encontrar uma expressão para $v$ em função da massa do corpo central $M$ e do raio da órbita, $R$.
 
 $$
 F = \dfrac{GMm}{R^2} = m\dfrac{v^2}{R} \implies v = \sqrt{\dfrac{GM}{R}}

@@ -4,29 +4,32 @@
 
 Antes do estudo de movimentos sistematizado por Isaac Newton, inglês do século XVII, vigorava na academia um amplo consentimento aos desenvolvimentos de Aristóteles, escritos na Antiguidade Clássica. Segundo a física aristotélica, o Universo é permeado por dois tipos de movimento: o movimento <b>natural</b> e o movimento <b>violento</b>. 
 
-Os movimentos <b>naturais</b> eram executados pelos corpos de acordo com um agente interno, de acordo com sua composição. Por exemplo, uma pedra naturalmente iria se mover para o fundo de um lago em razão de ser composta majoritariamente do elemento Terra, enquanto as chamadas de uma fogueira levitariam para o mais alto dos céus, o empíreo, pelo elemento Fogo ser mais leve que o elemento Ar. 
+Os movimentos <b>naturais</b> eram executados pelos corpos de acordo com um agente interno, de acordo com sua composição. Por exemplo, uma pedra naturalmente iria se mover para o fundo de um lago em razão de ser composta majoritariamente do elemento Terra, enquanto as chamas de uma fogueira levitariam para o mais alto dos céus, o empíreo, pelo elemento Fogo ser mais leve que o elemento Ar. 
 
 Dessa forma, movimentos contra essa tendência só seriam executados por meio de um agente externo que causasse esse movimento. Estes movimentos foram assim denominados <b>violentos</b>. Uma consideração importante era que o movimento violento duraria enquanto o agente externo atuasse, cessando assim que este agente fosse removido. 
 
 Uma consequência interessante da física aristotélica é o geocentrismo: se a Terra não estivesse no centro do Universo, ela iria se mover até ocupar o seu lugar natural. Essa ideia, combinada com a noção grega de esfera celeste, nos forneceu o modelo geocêntrico do Universo, que perdurou por muitos séculos. 
 
-O modelo ptolemaico analisava os céus como algo completamente diferente da Terra, feitos de quintessência, um elemento diferente de todos os outros, com os corpos descrevendo órbitas circulares e quaisquer imperfeições descritas por mecanismos como epiciclos. A presença considerável de circunferênicas deve-se a consideração grega do círculo como a figura geométrica perfeita. 
+O modelo ptolemaico analisava os céus como algo completamente diferente da Terra, feitos de quintessência, um elemento diferente de todos os outros, com os corpos descrevendo órbitas circulares e quaisquer imperfeições descritas por mecanismos como epiciclos. A presença considerável de circunferências deve-se a consideração grega do círculo como a figura geométrica perfeita. 
 
 A partir dos estudos de Galileu, que produziu conceitos como a relatividade galileana e o princípio da inércia (defendido pelo famosíssimo experimento do barco), Newton unificou o estudo dos movimentos celestes e terrestres num único sistema em sua obra-prima <i>Princípios Matemáticos da Filosofia Natural</i>. Dos estudos do inglês, são amplamente conhecidas as suas Leis da Mecânica. 
 
 # Leis de Newton
 
-Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estudo da mecânica, constituindo as bases da chamada **Mecânica Clássica**, ou Mecânica Newtoniana. Newton foi a autoridade basilar em descrever a mecânica universal até o alvorecer do século XX, com a chegada da Mecânica Quântica. 
+Formuladas por Isaac Newton, as Leis de Newton inauguraram uma nova era no estudo da mecânica, constituindo as bases da chamada **Mecânica Clássica**, ou Mecânica Newtoniana. Newton foi a autoridade basilar em descrever a mecânica universal até o alvorecer do século XX, com a chegada da Relatividade e da Mecânica Quântica. 
 
 <aside>
 
 <b>1ª lei (Inércia)</b> — Todo corpo persiste em seu estado de repouso, ou de movimento retilíneo uniforme, a menos que seja compelido a modificar este estado pela ação de forças impressas sobre ele.
 
+Embora não imediatamente evidente, a Primeira Lei de Newton estabelece o conceito de <b>referencial inercial</b>, isto é, um referencial no qual
+um corpo livre permanece em repouso ou em movimento retilíneo uniforme. É nesse referencial que a mecânica newtoniana usualmente é formulada.
+
 </aside>
 
 <aside>
 
-<b>2ª lei (Princípio fundamental da dinâmica)</b> — A variação do <b>momento</b> é proporcional à força impressa e tem a direção da força aplicada. A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>.
+<b>2ª lei (Princípio fundamental da dinâmica)</b> — A variação do <b>momento</b> de um corpo é igual à resultante das forças impressas sobre ele.<!-- Se um vetor é igual a outro, já significa que eles têm a mesma direção. Como estava enunciado parecia que qualquer variação de momento era igual a uma força específica. --> A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>. <!-- A rigor, a segunda Lei de Newton serve para definir a massa, por assim dizer, mas a primeiro contato é suficiente definir assim-->
 
 $$
 \begin{align*}
@@ -47,15 +50,15 @@ $$
 
 É importante salientar que $\vec{F}$ é a chamada <b>força resultante</b> impressa sobre um corpo. O conceito de força resultante é melhor elucidado a partir do <b>princípio de superposição de forças</b>: ao considerarmos várias forças atuando sobre um corpo, sua atuação é equivalente, produzindo o mesmo efeito, a atuação de uma única força, chamada <b>força resultante</b>, cujo vetor é obtido pela soma de todos os outros vetores força. 
 
-Portanto, é possível ainda enunciar a primeira lei como a permanência do estado atual do corpo (movimento retilíneo uniforme ou repouso) desde que a força resultante seja nula. Por fim, é importante mencionar ainda que a denominação <b>princípio fundamental da dinâmica</b> é baseada no fato de que a segunda Lei é a ferramenta básica para descrever a evolução de qualquer sistema newtoniano ao longo do tempo.
+Portanto, é possível ainda enunciar a primeira lei como a permanência do estado atual do corpo (movimento retilíneo uniforme ou repouso) desde que a força resultante seja nula <!-- Na verdade a principal consequência da Lei é a não validade da definição de forças para o caso do referencial não ser inercial -->. Por fim, é importante mencionar ainda que a denominação <b>princípio fundamental da dinâmica</b> é baseada no fato de que a segunda Lei é a ferramenta básica para descrever a evolução de qualquer sistema clássico ao longo do tempo.
 
 </aside>
 
 <aside>
 
-<b>3ª lei (Lei da Conservação de Momento, “Ação e Reação”)</b> — Se dois corpos exercem forças um no outro, essas forças possuem a mesma magnitude mas direções opostas. 
+<b>3ª lei (Lei da Ação e Reação)</b> <!-- Conservação do momento é demonstrado de outras formas --> — Se dois corpos exercem forças um no outro, essas forças possuem a mesma magnitude mas direções opostas, atuando na mesma linha de ação. 
 
-Considerando $\vec{F_{12}}$ como a força exercida pelo corpo 1 no corpo 2, e $\vec{F_{21}}$ como a força exercida pelo corpo 2 no corpo 1, além de considerarmos os dois corpos como isolados, só interagindo entre si, mostramos que: 
+Considerando $\vec{F_{12}}$ como a força exercida pelo corpo 1 no corpo 2, e $\vec{F_{21}}$ como a força exercida pelo corpo 2 no corpo 1, além de considerarmos os dois corpos como isolados, só interagindo entre si, mostramos que, num sistema isolado: 
 
 $$
 \begin{align*}
@@ -66,7 +69,7 @@ $$
 \end{align*}
 $$
 
-Ou seja, nessas condições, o momento total do sistema é conservado. 
+Ou seja, nessas condições, o momento total do sistema é conservado. Vale salientar que as forças do par ação e reação atuam em corpos diferentes.
 
 </aside>
 
@@ -78,8 +81,7 @@ Então, como poderíamos ver a massa de um corpo, perante o ponto de vista da me
 
 # Atrito
 
-Chamamos <b>força de atrito</b> a força que se opõe ao movimento e é oriunda do contato entre duas superfícies. Esse atrito, de fato, é a soma vetorial entre as forças provenientes da interação entre os átomos dos corpos atritados, chamado
-<b>solda fria</b>.
+Chamamos <b>força de atrito</b> a força que se opõe ao movimento e é oriunda de interações microscópicas entre corpos. Aqui iremos nos ater somente ao atrito entre superfícies, que é a soma vetorial entre as forças provenientes da interação entre os átomos dos corpos atritados, chamado <b>solda fria</b>.
 
 O fenômeno da solda fria ocorre quando dois materiais entram em contato, formando pontos microscópicos de solda entre eles. 
 
@@ -147,12 +149,12 @@ $$
 
 # Tração 
 
-Chamamos <b>tração</b> ou <b>tensão</b> a força exercida sobre um cabo, corda ou fio quando este é esticado por alguma outra força. Neste sentido, a força de tensão age como uma força "de resistência", que dificulta a quebra do cabo. Se a tração não existisse, fios iriam se partir sem nenhum problema se esticados. 
+Chamamos <b>tração</b> ou <b>tensão</b> a força exercida sobre um cabo, corda ou fio quando este é esticado por alguma outra força. Neste sentido, a força de tensão age como uma força "de resistência" transmitida por todo comprimento da corda, agindo em par a cada ponto, sendo igual em todos eles somente se a corda não tiver massa e for inextensível.
 
 ## Força elástica
 
 Chamamos <b>força elástica</b> a força de resistência duma mola a uma deformação: caso a fonte de deformação seja removida, a força elástica irá fazer com que a mola retorne ao seu estado original. 
-Verifica-se experimentalmente que a força elástica é diretamente proporcional a distância $\vec{r}$ de deformação da mola (Lei de Hooke).
+Verifica-se experimentalmente que a força elástica é diretamente proporcional a distância $\vec{r}$ de deformação da mola em relação ao equilíbrio (Lei de Hooke).
 
 $$
 \vec{F_k} = -K\vec{r}
@@ -166,7 +168,7 @@ Ao associarmos molas, como podemos expressar a <b>mola equivalente</b> que, se s
 
 <aside>
 
-<b>Demonstração (Constante da mola equivalente para N molas em série)</b> — Sejam $N$ molas em série. Uma um dos extremos da estrutura é puxado por uma força $F$ enquanto o outro está preso a uma superfície. Dessa forma, como consideramos molas ideais, temos que 
+<b>Demonstração (Constante da mola equivalente para N molas em série)</b> — Sejam $N$ molas ideais em série. Um dos extremos da estrutura é puxado por uma força $F$ enquanto o outro está preso a uma superfície. Dessa forma, como consideramos molas ideais, temos que 
 
 $$
 F = F_1 = F_2 = F_3 = ... = F_N
@@ -219,9 +221,9 @@ Dessa forma, a Lei de Hooke para a mola equivalente é dada por:
 
 $$
 \begin{align*}
-    F = -Kx &= -k_1x_1 - k_2x_1 - ... - k_3x_1 \\
-    \therefore F &= -(k_1 + k_2 + ... + k_N)x_1 \\
-    \therefore \dfrac{F}{x_1} &= -(k_1 + k_2 + ... + k_N)
+    F = -Kx &= -k_1x - k_2x - ... - k_Nx \\
+    \therefore F &= -(k_1 + k_2 + ... + k_N)x \\
+    \therefore \dfrac{F}{x} &= -(k_1 + k_2 + ... + k_N)
 \end{align*}
 $$
 
@@ -245,11 +247,11 @@ $$
 \end{align*}
 $$
 
-Ou seja, conhecendo informações entre os referenciais, é possível facilmente escrever um movimento em relação a outro referencial. A partir daqui, vale explorar com mais detalhes os conceitos de **referencias inerciais e não-inerciais**. 
+Ou seja, conhecendo informações entre os referenciais, é possível facilmente escrever um movimento em relação a outro referencial. A partir daqui, vale explorar com mais detalhes os conceitos de **referenciais inerciais e não-inerciais**. 
 
 ## Referenciais inerciais e não-inerciais
 
-Chamamos <b>referencial inercial</b> o referencial que, em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula. Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, a Lei da Inércia é válida sem a introdução de forças fictícias que compensam esta aceleração do referencial.
+Chamamos <b>referencial inercial</b> o referencial que, "em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula". Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, a Lei da Inércia é válida sem a introdução de forças fictícias que compensam esta aceleração do referencial.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Inertial_frames.svg)
 
@@ -279,7 +281,7 @@ $$
 \end{align*}
 $$
 
-O termo destacado, que provoca a diferença entre a força experienciada pelo mesmo corpo em diferentes referenciais, é a consequência da aceleração $\vec{A_R}$. No mundo real, podemos citar como consequências o efeito Coriolis experimentado pelas massas de ar da nossa atmosfera e o “recuo” no interior de um foguete em propulsão. Nesta última situação, Einstein associou esse “recuo” provocado pelo referencial não-inercial à gravidade, levando ao nascimento da Relatividade Geral. 
+O termo destacado, que provoca a diferença entre a força experienciada pelo mesmo corpo em diferentes referenciais, é a consequência da aceleração $\vec{A_R}$. No mundo real, podemos citar como consequências o efeito Coriolis experimentado pelas massas de ar da nossa atmosfera e o “recuo” no interior de um foguete em propulsão. Nesta última situação, Einstein associou esse “recuo” provocado pelo referencial não-inercial à gravidade, contribuindo para o que posteriormente se tornaria a teoria da Relatividade Geral. 
 
 # Referências 
 

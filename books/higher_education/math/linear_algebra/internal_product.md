@@ -150,7 +150,7 @@ Considerando um espaço euclidiano $U$, dizemos que dois vetores $u$ e $v$ são 
 
 Uma proposição interessante que pode ser exposta inicialmente é a de que todo conjunto ortonormal $S = \{v_1, v_2, ..., v_n\}$ contido num espaço euclidiano é necessariamente L.I. 
 
-Com isso, podemos melhor formalizar o que foi discutido na seção "Matriz de uma transformação", em <a href="/books/higher_education/math/linear_algebra/linear_transformations.md" target="_blank">Transformações Lineares</a>, onde um operador linear $T$ aplicado a um vetor no espaço vetorial $V$, de dimensão $d$, pode ser representado como uma matriz com dimensão $d \times d$. 
+Com isso, podemos melhor formalizar o que foi discutido na seção "Matriz de uma transformação", em <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank">Transformações Lineares</a>, onde um operador linear $T$ aplicado a um vetor no espaço vetorial $V$, de dimensão $d$, pode ser representado como uma matriz com dimensão $d \times d$. 
 
 Explicitamente, fixemos uma base ortonormal $\{v_j\}_{j=1}^d$ no espaço vetorial $V$, agora dotado de produto interno, e definamos os escalares
 $$
@@ -382,7 +382,7 @@ $$
 
 Assim, de posse da representação matricial $T_{ij}$ de um operador linear $T$, podemos obter diretamente a representação matricial da sua adjunta $T^*$ através da operação de transposta-conjugada, isto é, toma-se a transposta da matriz $[T]$ (construir $T$ invertendo as linhas pelas colunas) junto com a conjugação de todos os números complexos presentes nela. Vale mencionar que físicos utilizam com muita frequência a notação $T^\dagger$ para a adjunta de $T$. 
 
-Se o operador é autoadjunto, $T = T^*$, e $\lambda$ é um <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">autovalor</a> de $T$ com <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">autovetores</a> $v$, (a lembrar, a relação entre autovalor e autovetor é dada por $T(v)=\lambda v$) então $\lambda$ é necessariamente real. Isto é verdade porque, como $\langle v, T(u) \rangle = \langle T(v), u \rangle$ é satisfeito por qualquer par de vetores $v$ e $u$, tome $u = v$: $\langle v, Tv \rangle = \langle Tv, v \rangle$ ou $\langle v, \lambda v \rangle = \langle \lambda v, v \rangle$, e portanto, pela propriedade de simetria conjugada, $\bar\lambda = \lambda$.
+Se o operador é autoadjunto, $T = T^*$, e $\lambda$ é um <a href="/books/higher_education/math/linear_algebra/eigenvalues.html" target="_blank">autovalor</a> de $T$ com <a href="/books/higher_education/math/linear_algebra/eigenvalues.html" target="_blank">autovetores</a> $v$, (a lembrar, a relação entre autovalor e autovetor é dada por $T(v)=\lambda v$) então $\lambda$ é necessariamente real. Isto é verdade porque, como $\langle v, T(u) \rangle = \langle T(v), u \rangle$ é satisfeito por qualquer par de vetores $v$ e $u$, tome $u = v$: $\langle v, Tv \rangle = \langle Tv, v \rangle$ ou $\langle v, \lambda v \rangle = \langle \lambda v, v \rangle$, e portanto, pela propriedade de simetria conjugada, $\bar\lambda = \lambda$.
 
 Com isso exposto, podemos melhor esclarecer algumas propriedades importantes de operadores unitários.
 
@@ -436,7 +436,7 @@ $$
 \langle U(v_i), TU(v_j) \rangle = \langle v_i, U^*TU(v_j) \rangle = \langle v_i, \tilde{T}(v_j) \rangle = \tilde{T}_{ij}
 $$
 
-com $\tilde{T} := U^*TU$. Em palavras, a representação de $T$ na "nova" base $\{U(v_j)\}$ é idêntica a representação de $U^*TU$ na base "antiga" $\{v_j\}$. Um caso particular desse resultado é quando $T$ é um operador autoadjunto (hermitiano) e o operador unitário é construido de modo que as colunas sejam os autovetores de $T$. Nesse caso, a matriz $\tilde{T}$ resultante terá os elementos da diagonal correspondendo aos autovalores de $T$, com o restante dos elementos sendo nulos, processo este que é conhecido como diagonalização unitária, como consequência do <a href="/books/higher_education/math/linear_algebra/eigenvalues.md" target="_blank">teorema espectral</a>.
+com $\tilde{T} := U^*TU$. Em palavras, a representação de $T$ na "nova" base $\{U(v_j)\}$ é idêntica a representação de $U^*TU$ na base "antiga" $\{v_j\}$. Um caso particular desse resultado é quando $T$ é um operador autoadjunto (hermitiano) e o operador unitário é construido de modo que as colunas sejam os autovetores de $T$. Nesse caso, a matriz $\tilde{T}$ resultante terá os elementos da diagonal correspondendo aos autovalores de $T$, com o restante dos elementos sendo nulos, processo este que é conhecido como diagonalização unitária, como consequência do <a href="/books/higher_education/math/linear_algebra/eigenvalues.html" target="_blank">teorema espectral</a>.
 
 # Referências
 

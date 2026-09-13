@@ -50,9 +50,9 @@ $$
 
 onde $\Delta t_i = t_i - t_{i-1}$
 
-Em outras palavras, se $c_i$ é um ponto escolhido no subintervalo $[t_{i-1}, t_i]$, então $f(c_i)$ representa a altura do gráfico nesse ponto, enquanto $\Delta t_i = t_i - t_{i-1}$ representa a largura do subintervalo. Assim, a área do retângulo correspondente ao i-ésimo termo é o produto da altura pela largura, isto é, $f(c_i)\cdot\Delta t_i$. Somando esses retângulos para $n$ partições, teremos que a área resultante será a soma acima, que serve como uma aproximação da área sob o gráfico da função, conforme ilustrado abaixo.
-
 </aside>
+
+Em outras palavras, se $c_i$ é um ponto escolhido no subintervalo $[t_{i-1}, t_i]$, então $f(c_i)$ representa a altura do gráfico nesse ponto, enquanto $\Delta t_i = t_i - t_{i-1}$ representa a largura do subintervalo. Assim, a área do retângulo correspondente ao i-ésimo termo é o produto da altura pela largura, isto é, $f(c_i)\cdot\Delta t_i$. Somando esses retângulos para $n$ partições, teremos que a área resultante será a soma acima, que serve como uma aproximação da área sob o gráfico da função, conforme ilustrado abaixo.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/1/19/Riemann_sum_%28leftbox%29.gif)
 

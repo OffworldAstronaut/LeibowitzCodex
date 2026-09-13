@@ -4,15 +4,15 @@
 
 Como definição inicial, temos que <b>mecânica celeste</b> utiliza princípios físicos e propriedades matemáticas para explicar e prever os movimentos de todo corpo sujeito à ação da gravidade. Vamos começar pelo início.
 
-Nossa história moderna começa entre a Idade Média e a Idade Moderna, no chamado Renascimento. Neste período, compreendido entre os séculos XV e XVI, também figurou a chamada <b>Revolução Científica</b>, um período de rápida ruptura no modo de investigação do mundo natural, que se tornou mais matemática e empirista e menos filosófica, distanciando-se de suas origens greco-romanas.
+Nossa história moderna começa entre a Idade Média e a Idade Moderna, no chamado Renascimento. Nesse período, compreendido entre os séculos XV e XVI, também figurou a chamada <b>Revolução Científica</b>, um período de rápida ruptura no modo de investigação do mundo natural, que se tornou mais matemática e empirista e menos filosófica, distanciando-se de suas origens greco-romanas.
 
-O marco para o início da Revolução Científica são os estudos de Nicolau Copérnico, publicados em sua obra prima <i>De Revolutionibus Orbium Cœlestium</i> (Sobre a Revolução das Esferas Celestes). Copérnico argumentou que o modelo heliocêntrico, que colocava o Sol no centro do Universo, seria uma alternativa melhor ao modelo geocêntrico, que prevalecia desde a Antiguidade. 
+O marco para o início da Revolução Científica são os estudos do sacerdote, médico, jurista e matemático polonês <!-- Mais abaixo é mencionado "O sacerdote polonês", sendo o Copérnico não havia sido apresentado com esses detalhes. Então adicionei. Para que não ficasse muito semelhante ao que foi citado abaixo, adicionei os outros cargos dele. --> Nicolau Copérnico, publicados em sua obra prima <i>De Revolutionibus Orbium Cœlestium</i> (Sobre a Revolução das Esferas Celestes). Copérnico argumentou que o modelo heliocêntrico, que colocava o Sol no centro do Universo, seria uma alternativa melhor ao modelo geocêntrico, que prevalecia desde a Antiguidade. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/28/Copernican_heliocentrism_diagram-2.jpg)
 
-<i>Diagrama do modelo helicêntrico por Nicolau Copérnico. Das órbitas mais internas para as mais externas, temos: Mercúrio, Vênus, Terra (com a Lua), Marte, Júpiter, Saturno e as Estrelas Fixas.</i>
+<i>Diagrama do modelo heliocêntrico por Nicolau Copérnico. Das órbitas mais internas para as mais externas, temos: Mercúrio, Vênus, Terra (com a Lua), Marte, Júpiter, Saturno e as Estrelas Fixas.</i>
 
-O modelo geocêntrico de Ptolomeu vigorava desde o século II AD, baseando-se na noção de que os céus eram perfeitos e imutáveis e, portanto, os movimentos dos planetas seguiriam trajetórias circulares — o círculo era a forma geométrica perfeita para os gregos. Para explicar movimentos como os <b>retrógrados</b>, o modelo recorria aos chamados <b>epiciclos</b>, esferas cristalinas invisíveis. 
+O modelo geocêntrico de Ptolomeu vigorava desde o século II AD, baseando-se na noção de que os céus eram perfeitos e imutáveis e, portanto, os movimentos dos planetas seguiriam trajetórias circulares — o círculo era a forma geométrica perfeita para os gregos. Para explicar movimentos como os <b>retrógrados</b>, o modelo recorria aos chamados <b>epiciclos</b>, círculos matemáticos imaginários. <!--esferas cristalinas invisiveis entra na explicação fisica lá do aristóteles-->
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c6/Epicycles.gif)
 
@@ -22,7 +22,7 @@ Embora tenha sido satisfatório por muito tempo, o modelo geocêntrico tornou-se
 
 # Tycho e Kepler
 
-Um outro passo importante foi dado pelo astrônomo dinamarques Tycho Brahe e seu assistente, o matemático oficial da Corte Dinamarquesa, Johannes Kepler. Brahe havia observado o céu por cerca de duas décadas, meticulosamente registrando posições de planetas e estrelas ao longo de todo esse tempo. Kepler, então, um proponente fervoroso do heliocentrismo copernicano, se utilizou destes dados na composição de suas leis para o movimento planetário, hoje conhecidas como <b>Leis de Kepler</b>.
+Um outro passo importante foi dado pelo astrônomo dinamarquês Tycho Brahe e seu assistente, o matemático oficial da Corte do Sacro Império Romano-Germânico, Johannes Kepler. <!-- Pesquisando aqui, Kepler não foi matemático da corte dinamarquesa, e sim do imperador Rodolfo II. Quem teve esse cargo foi o Tycho. --> Brahe havia observado o céu por cerca de duas décadas, meticulosamente registrando posições de planetas e estrelas ao longo de todo esse tempo. Kepler, então, um proponente fervoroso do heliocentrismo copernicano, se utilizou destes dados na composição de suas leis para o movimento planetário, hoje conhecidas como <b>Leis de Kepler</b>.
 
 As leis de Kepler são três, dispostas abaixo. 
 
@@ -38,7 +38,7 @@ As leis de Kepler são três, dispostas abaixo.
 
 <aside>
 
-<b>2ª Lei de Kepler (Lei das Áreas)</b> — Imagine um segmento de reta conectando um planeta ao Sol. A área varrida por este segmento será igual em intervalos de tempos iguais. Uma consequência desta lei é a constatação de que os planetas não se movem uniformemente, como pensado previamente, mas sim mais rapidamente ou mais lentamente a medida que estão mais próximos ou mais distantes do Sol.
+<b>2ª Lei de Kepler (Lei das Áreas)</b> — Imagine um segmento de reta conectando um planeta ao Sol. A área varrida por este segmento será igual em intervalos de tempos iguais. Uma consequência desta lei é a constatação de que os planetas não se movem uniformemente, como pensado previamente, mas sim mais rapidamente ou mais lentamente à medida que estão mais próximos ou mais distantes do Sol.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/6/69/Kepler-second-law.gif)
 
@@ -49,22 +49,26 @@ As leis de Kepler são três, dispostas abaixo.
 <aside>
 
 <b>3ª Lei de Kepler (Lei dos Períodos)</b> — Os quadrados dos períodos de dois planetas quaisquer são proporcionais aos cubos dos semieixos maiores de suas respectivas órbitas. Por exemplo, dado um planeta A com período $T_A$ e semieixo maior $S_A$ e um planeta B com período $T_B$ e semieixo maior $S_B$, temos a relação
-
+<!--Alguns conceitos foram misturados-->
+$$ 
+\dfrac{T_A^2}{T_B^2} = \dfrac{S_A^3}{S_B^3}
 $$
-\dfrac{T_A^2}{T_B^2} = k\dfrac{S_A^3}{S_B^3}
+Ou também, para um planeta qualquer
+$$
+\dfrac{T^2}{S^3}=k
 $$
 
 com $k$ sendo uma constante de proporcionalidade própria para cada sistema planetário.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
 
-<i>Diagrama ilustrando a tarceira lei de Kepler para dois planetas. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Kepler_laws_diagram.svg" target="_blank">Wikimedia Commons</a>.</i>
+<i>Diagrama ilustrando a terceira lei de Kepler para dois planetas. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Kepler_laws_diagram.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 </aside>
 
 ## Um pouco mais sobre elipses 
 
-Embora as seções cônicas foram suficientemente discutidas em <a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank"><i>De Sectiones Conicae</i></a>, cabe mencionar daqui em diante algumas informações e resultados interessantes e de verdadeira importância para a mecânica celeste. 
+Embora as seções cônicas tenham sido suficientemente discutidas em <a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank"><i>De Sectiones Conicae</i></a>, cabe mencionar daqui em diante algumas informações e resultados interessantes e de verdadeira importância para a mecânica celeste. 
 
 Dado um ponto $P$ qualquer de uma elipse, o ângulo formado pelo seu eixo principal e uma reta que conecta $P$ a um dos focos é chamado <b>anomalia verdadeira</b> e é geralmente denotado por $\theta$. 
 
@@ -84,7 +88,7 @@ Puramente observacionais, os desenvolvimentos de Kepler não se preocupavam com 
 
 # Galileu e Newton
 
-Galileu Galilei, físico, engenheiro, astronônomo e matemático florentino, nasceu em 8 de janeiro de 1642 e foi declarado como o Pai da Física Moderna. Catedrático da Academia de Pisa, desenvolveu as primeiras linhas que viriam a se tornar a mecânica clássica, fundamentando-a com talvez um de seus mais importantes conceitos, a <b>inércia</b>.
+Galileu Galilei, físico, engenheiro, astronômo e matemático florentino, nasceu em 15 de fevereiro de 1564 <!-- pobre galileu, aqui estava que ele nasceu no dia da morte dele... --> e foi declarado como o Pai da Física Moderna. Catedrático da Academia de Pisa, desenvolveu as primeiras linhas que viriam a se tornar a mecânica clássica, fundamentando-a com talvez um de seus mais importantes conceitos, a <b>inércia</b>.
 
 Isaac Newton, baseando-se em Galileu, argumentou que os planetas não necessitavam de uma força tangencial para continuarem seu movimento ao redor do Sol, mas sim de uma força <b>em direção a ele</b> para que estes não escapassem pela tangente. Denominamos sua lei de <b>Gravitação Universal</b> pois Newton unificou a mecânica celeste com a terrestre, sujeitas às mesmas leis de movimento. 
 
@@ -115,7 +119,7 @@ Introduzindo o vetor $\vec{v} = \dfrac{d\vec{r}}{dt}$, temos
 $$
 \begin{align*}
     \vec{r} \times \vec{a} &= \vec{r} \times \dfrac{d\vec{v}}{dt} + \vec{v} \times \vec{v} \\ 
-    \therefore \vec{r} \times \vec{a} &= \vec{r} \times \dfrac{d\vec{v}}{dt} + \dfrac{d\vec{r}}{dt} + \vec{v} \\ 
+    \therefore \vec{r} \times \vec{a} &= \vec{r} \times \dfrac{d\vec{v}}{dt} + \dfrac{d\vec{r}}{dt} \times \vec{v} \\ 
     \therefore \vec{r} \times \vec{a} &= \dfrac{d}{dt}(\vec{r} \times \vec{v})
 \end{align*}
 $$
@@ -154,9 +158,9 @@ $$
 
 com $GM\vec{e} = \vec{b}$.
 
-Dessa forma, pela equação anterior, além de que $\vec{c} = \vec{r} \times \vec{v} = r^2 \dfrac{d\theta}{dt}\hat{r} \times \dfrac{d\hat{r}}{d\theta}$, podemos fazer o produto escalar de ambos os membrosa da primeira equação por $\vec{c}$ e da segunda equação por $\vec{r}$. 
+Dessa forma, pela equação anterior, além de que $\vec{c} = \vec{r} \times \vec{v} = r^2 \dfrac{d\theta}{dt}\hat{r} \times \dfrac{d\hat{r}}{d\theta}$, podemos fazer o produto escalar de ambos os membros da primeira equação por $\vec{c}$ e da segunda equação por $\vec{r}$. 
 
-Reorganizando e igualando ambas as epxressões resultantes para eliminar o termo $\vec{r} \cdot \vec{v} \times {c}$, chegamos na equação 
+Reorganizando e igualando ambas expressões resultantes para eliminar o termo $\vec{r} \cdot \vec{v} \times {c}$, chegamos na equação 
 
 $$
 GMr(1 + e \cos{\phi}) = c^2
@@ -170,7 +174,7 @@ $$
 r = \dfrac{ed}{e\cos{\phi}+1} \iff r = e(d - r\cos{\phi})
 $$
 
-Uma equação de uma seção cônica de excentricidade $e$ e foco no sol! Está demonstrada a primeira lei de Kepler.
+Uma equação de uma seção cônica de excentricidade $e$ e foco no sol. Note que $\phi$ é justamente a anomalia verdadeira discutida anteriormente, comparando as duas fórmulas, em que $ed$ corresponde ao $a(1-e^2)$. Assim, está demonstrada a primeira lei de Kepler.
 
 </aside>
 
@@ -215,7 +219,7 @@ Está demonstrada a terceira lei de Kepler.
 
 Por fim, a segunda lei de Kepler é uma consequência direta da conservação de momento angular em sistemas de atuação de forças centrais. Sua demonstração foi realizada anteriormente (cf. mencionado) no manuscrito sobre <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">rotações</a>.
 
-Por outro lado, dois casos interesssantes colocaram a Gravitação Universal à prova. Vamos começar pelo mais antigo, que ocorreu em 1676, em observações de Júpiter. 
+Por outro lado, dois casos interessantes colocaram a Gravitação Universal à prova. Vamos começar pelo mais antigo, que ocorreu em 1676, em observações de Júpiter. 
 
 Foi percebido por astrônomos que, em algumas observações, as luas de Júpiter completavam suas órbitas um pouco antes do previsto enquanto em outras atrasavam, demorando um pouco mais do tempo esperado para completarem seu percurso.
 
@@ -247,7 +251,7 @@ Para iniciar, imagine um corpo de massa $M$ na superfície terrestre, sujeito a 
 
 A Lua nos fornece a possibilidade de demonstrar a dimensão universal da força gravitacional, que é experienciada tanto na Terra como no céu. Sabendo-se o raio da Terra e a duração dos eclipses lunares, além da dimensão da lua (a partir dos eclipses solares), é possível deduzir o raio da orbita deste satélite, que assume o valor de $R_L = 3.8 \cdot 10^8 \text{ m}$. 
 
-A partir desses dados, pode-se concluir que a aceleração centrípeta experienciada pela Lua em seu movimento circular uniforme ao redor da Terra é de $a_{cp} = 2.710^{-3} \text{m/s}^2$. 
+A partir desses dados, pode-se concluir que a aceleração centrípeta experienciada pela Lua em seu movimento circular uniforme ao redor da Terra é de $a_{cp} = 2.7\cdot10^{-3} \text{m/s}^2$. 
 
 Newton, em seus estudos, percebeu que $\dfrac{a_{cp}}{g} \approx \dfrac{1}{60^2} \approx \left(\dfrac{R_T}{R_L}\right)^2$ — com $R_T$ sendo o raio terrestre —, indicando uma aceleração gravitacional inversamente proporcional ao quadrado da distância, ou, de forma mais sucinta, que
 
@@ -367,7 +371,7 @@ $$
 U = -\dfrac{GMm}{2}\int_{0}^{\pi} \dfrac{\sin{\theta}}{s}d\theta
 $$
 
-Como finalizar nosso cálculo, sabendo que $s$ varia com $\theta$? Podemos explicitar essa relação por meio da leis dos cossenos aplicada no triângulo cujos vértices são o ponto $P$, o centro da casa e um ponto qualquer de um anel. 
+Como finalizar nosso cálculo, sabendo que $s$ varia com $\theta$? Podemos explicitar essa relação por meio da leis dos cossenos aplicada no triângulo cujos vértices são o ponto $P$, o centro da casca e um ponto qualquer de um anel. 
 
 $$
 s^2 = a^2 + r^2 - 2ar\cos{\theta} \implies 2s\dfrac{ds}{d\theta} = 2ar\sin{\theta} \therefore ar\dfrac{\sin{\theta}}{s}d\theta = ds
@@ -379,8 +383,8 @@ Assim, encontrando os novos limites de integração:
 
 $$
 \begin{align*}
-    \theta &= 0 \implies s^2 = s^2_\text{max} = (r-a)^2 \\ 
-    \theta &= \pi \implies s^2 = s^2_\text{min} = (r+a)^2 
+    \theta &= 0 \implies s^2 = s^2_\text{min} = (r-a)^2 \\ 
+    \theta &= \pi \implies s^2 = s^2_\text{max} = (r+a)^2 
 \end{align*}
 $$
 
@@ -431,10 +435,10 @@ Como é possível repetir este processo para qualquer par de pontos na casca, co
 Note que nas demonstrações anteriores das leis de Kepler a única característica realmente necessária para essas serem válidas é a característica radial da força. Logo, isso nos permite conduzir um experimento mental interessante: e se a força de atração gravitacional, ao invés de ser como a de Newton, fosse hookeriana? 
 
 $$
-\vec{F_H} = -GM_1M_2r\hat{r}
+\vec{F_H} = -G' M_1M_2r\hat{r}
 $$
-
-onde $r = ||\vec{r}||$ e $\vec{r}$ é o vetor raio entre as massas $M_1$ e $M_2$. Além disso, $\hat{r} = \dfrac{\vec{r}}{r}$. 
+<!-- G tem dimensões para a gravitação usual, sendo que a força dá sempre em Newton, e portanto uma análise dimensional em ambos os lados deve ser feita. [G']= [G]/m³-->
+onde $r = ||\vec{r}||$ e $\vec{r}$ é o vetor raio entre as massas $M_1$ e $M_2$ e $G'$ é uma constante análoga a $G$ para manter a dimensionalidade. Além disso, $\hat{r} = \dfrac{\vec{r}}{r}$. 
 
 Como primeiro exercício de nossa imaginação, vamos comparar os períodos orbitais de um corpo em torno de outro, seguindo uma trajetória circular. Considere um corpo central de massa $M$, um satélite de massa $m$ e uma órbita de raio $r$. 
 
@@ -459,10 +463,10 @@ $$
 Por outro lado, temos que no caso hookeriano a velocidade é: 
 
 $$
-v_H = \sqrt{r \cdot \left(\dfrac{GMmr}{m}\right)} = r\sqrt{GM}
+v_H = \sqrt{r \cdot \left(\dfrac{G'Mmr}{m}\right)} = r\sqrt{G'M}
 $$
 
-Logo, temos que no caso hookeriano, a velocidade orbital é maior em relação ao caso newtoniano por um fator de $r\sqrt{r}$. E nos períodos? 
+Logo, temos que no caso hookeriano, a velocidade orbital é maior em relação ao caso newtoniano por um fator proporcional $r\sqrt{r}$. E nos períodos? 
 
 Pela relação do período exposta acima, podemos ver que, no caso newtoniano vale: 
 
@@ -473,7 +477,7 @@ $$
 Por outro lado, o período no caso hookeriano é: 
 
 $$
-T_H = \dfrac{2\pi r}{r\sqrt{GM}} = \dfrac{2\pi \sqrt{GM}}{GM}
+T_H = \dfrac{2\pi r}{r\sqrt{G'M}} = \dfrac{2\pi \sqrt{G'M}}{G'M}
 $$
 
 Já perceba que o periodo orbital no caso hookeriano não depende do raio da órbita: todos os planetas moveriam-se ao redor do Sol com a mesma velocidade angular, completando voltas ao mesmo tempo! 
@@ -481,9 +485,9 @@ Já perceba que o periodo orbital no caso hookeriano não depende do raio da ór
 Qual a razão dos períodos, portanto? 
 
 $$
-\dfrac{T_N}{T_H} = r^2 \sqrt{\dfrac{GM}{r}} \iff T_N = r^2 \sqrt{\dfrac{GM}{r}} \cdot T_H
-$$
-
+\dfrac{T_N}{T_H} =\dfrac{\dfrac{2\pi r^2 \sqrt{\dfrac{GM}{r}}}{GM}}{\dfrac{2\pi \sqrt{G'M}}{G'M}} =r^{3/2}\sqrt{\dfrac{G'}{G}} \iff T_N \propto r^{3/2} \cdot T_H
+$$ 
+<!-- Esqueceu da análise dimensional! -->
 Até as órbitas no caso hookeriano seriam mais velozes! Interessante, não?
 
 # Cavendish
@@ -538,7 +542,7 @@ $$
 G = \dfrac{2\pi^2Lr^2\theta}{MT^2}
 $$
 
-A partir de $G$, pode-se utilizar de umcorpo qualquer de massa $m$ na superfície terrestre para obter a densidade e a massa da Terra. Dessa forma, denotando por $M_{\oplus}$ a massa terrestre e por $\rho_{\oplus}$ a sua densidade, temos 
+A partir de $G$, pode-se utilizar de um corpo qualquer de massa $m$ na superfície terrestre para obter a densidade e a massa da Terra. Dessa forma, denotando por $M_{\oplus}$ a massa terrestre e por $\rho_{\oplus}$ a sua densidade, temos 
 
 $$
 mg = \dfrac{GmM_{\oplus}}{R_{\oplus}^2} \iff M_{\oplus} = \dfrac{gR_{\oplus}^2}{G} \iff \rho_{\oplus} = \dfrac{3g}{4\pi GR_{\oplus}}
@@ -548,7 +552,7 @@ $$
 
 A importância do estudo da energia no contexto da gravitação e da mecânica celeste é, conforme visto ao longo deste documento, de grande porte em razão da simplificação da análise de diversos problemas em comparação com uma abordagem puramente newtoniana, de forças. 
 
-A conservação de energia mecânica no movimento dos astros no modelo newtoniano produz um genêro de equações que relacionam a velocidade dos corpos orbitantes com sua distância do corpo central — as equações <i>vis-viva</i>. 
+A conservação de energia mecânica no movimento dos astros no modelo newtoniano produz um gênero de equações que relacionam a velocidade dos corpos orbitantes com sua distância do corpo central — as equações <i>vis-viva</i>. <!-- Talvez valha reformular esta seção, está muito "simplesmente apresentada", sem demonstrações ou discussões com filosóficas crítica. Por exemplo, poderia ser discutido até "mas de onde vem essa energia? Um corpo realiza trabalho com a força gravitacional sobre outro, mas infinitamente? Nada é gasto (no sentido de transformação) ao realizar esse trabalho? Essa 'energia potencial gravitacional' fica em algum lugar, ou é puramente um artifício para a matemática? 'Porque é uma força de campo, assim como no eletromagnetismo', não é uma resposta convicente, tampouco que responde algo, pois somente define algo que também precisaríamos discutir melhor. Então como se dá essa força, verdadeiramente? O que a massa tem a ver com isso? Talvez a definição de massa tenha que ser debatida (tal da diferença ou igualdade entre a massa inercial e a massa gravitaional)? Por que cai com o quadrado da distancia, falando nisso?". Há muitas questões que poderiam ter sido discutidas aqui, que combinam com o estilo/singularidade autoral. -->
 
 Para a elipse, a equação correspondente é da forma: 
 
@@ -579,7 +583,7 @@ $$
 a = \dfrac{GM}{v_0^2}
 $$
 
-## Velocidade de escape e raio de Schwarzchild
+## Velocidade de escape e raio de Schwarzschild
 
 Definimos a <b>velocidade de escape</b> $v_\text{esc}$ como a velocidade mínima necessária para que a órbita de um corpo se torne aberta, isto é, parabólica — o corpo orbitante irá se afastar indefinidamente do corpo central. 
 
@@ -591,9 +595,9 @@ $$
 v_\text{esc} = \sqrt{\dfrac{2GM}{r}}
 $$
 
-Pela relatividade geral de Albert Einstein, sabemos que a velocidade da luz é a mais alta que pode ser alcançada. Substituindo esta velocidade na equação anterior e resolvendo para $r$, encontramos uma expressão para o chamado <b>raio de Schwarzchild</b>. 
+Pela relatividade geral de Albert Einstein, sabemos que a velocidade da luz é a mais alta que pode ser alcançada. Substituindo esta velocidade na equação anterior e resolvendo para $r$, encontramos uma expressão para o chamado <b>raio de Schwarzschild</b>. 
 
-O raio de Schwarzchild é o raio do horizonte de eventos de um buraco negro de massa $M$. Consequentemente, esta expressão fornece o raio mínimo necessário para que um determinado corpo de massa $M$ seja transformado num buraco negro. 
+O raio de Schwarzschild é o raio do horizonte de eventos de um buraco negro de massa $M$. Consequentemente, esta expressão fornece o raio mínimo necessário para que um determinado corpo de massa $M$ seja transformado num buraco negro. 
 
 $$
 R_\text{sch} = \dfrac{2GM}{c^2}
@@ -769,7 +773,7 @@ $$
 \end{align*}
 $$
 
-Consequente, nas condições do problema, um disco uniforme de raio $R$ exerce uma atração gravitacional $\vec{F}$ vertical de módulo:
+Consequentemente, nas condições do problema, um disco uniforme de raio $R$ exerce uma atração gravitacional $\vec{F}$ vertical de módulo:
 
 $$
 F = -2\pi Gm \rho \left(1 - \dfrac{a}{\sqrt{a^2 + R^2}}\right) 

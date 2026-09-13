@@ -143,7 +143,7 @@ Para ilustrar isso, considere um vetor representando o número $z = 1 + 0i$. Rot
 Desta mesma visão geométrica dos números complexos parte a justificativa do <b>módulo</b> de um número real, que é apenas um caso particular da norma dos números complexos.
 
 <!-- Adicionando aqui uma justificativa para ser introduzido abaixo o cosx+isenx -->
-Além disso, podemos representar esse plano complexo em <a href="/books/higher_education/math/calculus_two/polar_coordinates.md" target="_blank">coordenadas polares</a>. Nessa representação, as projeções ortoginais do vetor sobre os eixos real e imaginário são dadas por
+Além disso, podemos representar esse plano complexo em <a href="/books/higher_education/math/calculus_two/polar_coordinates.html" target="_blank">coordenadas polares</a>. Nessa representação, as projeções ortoginais do vetor sobre os eixos real e imaginário são dadas por
 
 $$
 a = r\cos{\theta} \qquad\text{e}\qquad b = r\sin{\theta}

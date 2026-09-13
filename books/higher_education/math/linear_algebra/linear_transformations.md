@@ -711,7 +711,7 @@ $$
 
 e, portanto, o conjunto $\{F_1, \dots, F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
 
-Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que, se $U$ e portanto $U^*$ forem munidos de <a href="/books/higher_education/math/linear_algebra/internal_product.md" target="_blank">produto interno</a>, todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
+Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que, se $U$ e portanto $U^*$ forem munidos de <a href="/books/higher_education/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>, todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
 
 $$
 F(u) = \langle v, u \rangle 
