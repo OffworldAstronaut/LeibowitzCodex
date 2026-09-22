@@ -327,6 +327,8 @@ Como nota final desta primeira parte, vale mencionar que no princípio de Arquim
 
 ## Equilíbrio dos corpos flutuantes
 
+<!--TODO: Desenhar o diagrama para esta situação com base em NUSSENZVEIG VOL. 2-->
+
 Quando corpos flutuantes estão em sua posição de equilíbrio, não apenas a resultante de $\vec{E}$ e $\vec{P}$ é nula, como também o torque resultante. Consequentemente, o centro de empuxo $C$ (o centro de gravidade da porção submersa do sólido) e o centro de gravidade de todo o corpo devem ambos pertencer a uma mesma vertical. Uma nota importante sobre o centro de empuxo é que neste ponto está aplicada a força de empuxo $\vec{E}$.
 
 Como diferenciar se este equilíbrio é <b>estável</b> ou <b>instável</b>? Para tal, é necessária a definição do <b>metacentro</b> do corpo flutuante. 
@@ -334,6 +336,8 @@ Como diferenciar se este equilíbrio é <b>estável</b> ou <b>instável</b>? Par
 Definimos o metacentro $M$ como o ponto resultante da intersecção entre a reta formada por $G$ e $C$ e a reta que passa pelo ponto $C'$ com direção do vetor $\vec{E'}$. O ponto $C'$ é o centro de empuxo deslocado para uma nova posição em decorrência da rotação do corpo, enquanto $\vec{E'}$ é o novo vetor de empuxo decorrente da mesma rotação, que produz uma alteração no volume de fluido deslocado.
 
 Quando $M$ está acima de $G$, o torque resultante reestabelece a posição de equilíbrio. Se $G$ sobre acima de $M$, o equilíbrio se torna instável em razão do torque aumentar ainda mais o desvio rotacional do corpo. Tomando como exemplo um pequeno barco, ele pode virar de ponta-cabeça caso seja rotacionado em graus o suficiente, por exemplo, no momento de embarque.
+
+<!--PERGUNTA: Qual design de navio é mais estável? Largura ou grande calado?-->
 
 ## Paradoxo hidrostático
 

@@ -751,6 +751,100 @@ $$
 
 em que $^\dagger$ (lê-se "adaga") é a adjunta do vetor, que no caso de vetores $\in \mathbb{R}^n$ é equivalente a somente tomar a transposta de sua representação matricial.
 
+# Exercícios 
+
+# Problemas 
+
+<aside>
+
+<b>Problema 1.</b> Seja $T: \mathbb{R}^3 \to \mathbb{R}$ uma transformação linear, dada por 
+
+$$
+T(x, y, z) = (x - 2y, z, x + y)
+$$
+
+Mostre que $T$ é um isomofirsmo e determine a transformação inversa, $T^{-1}$. 
+
+</aside>
+
+# Soluções
+
+<aside>
+
+<b>Solução 1.</b> Como a dimensão do domínio e do contradomínio são iguais, sabemos que, pelo corolário ao teorema do núcleo e da imagem, são equivalentes as afirmações: $T$ é injetora; $T$ é sobrejetora; $T$ é bijetora (isomorfismo); $T$ leva uma base do domínio a uma base do contradomínio. 
+
+Assim, vamos mostrar que $T$ é injetora. Temos que $\ker{T} = \{v \in \mathbb{R}^3 | (x-2y, z, x+ y) = (0,0,0)\}$. Logo, todos os vetores que $\ker{T}$ satisfazem o sistema
+
+$$
+\begin{cases}
+    x - 2y = 0 \\ 
+    z = 0 \\ 
+    x + y = 0
+\end{cases}
+$$
+
+cuja solução única é a trivial. Portanto, $\ker{T} = \{(0,0,0)\}$ e, consequentemente, $T$ é injetora. Logo, $T$ é um isomorfismo. 
+
+Podemos determinar a transformação inversa de $T$ de duas maneiras diferentes. As duas serão detalhadas aqui por questão de aprendizado. 
+
+Um primeiro caminho a ser seguido é o mais tradicional. Tomando $(a, b, c) = (x-2y, z, x+y) = T(x, y, z)$, queremos $T^{-1}$ tal que $T^{-1}(a, b, c) = (x, y, z)$. 
+
+Isto é, precisamos resolver o sistema a seguir em termos de $a$, $b$ e $c$. 
+
+$$
+\begin{cases}
+    x - 2y = a \\ 
+    z = b \\ 
+    x + y = c
+\end{cases}
+$$
+
+De fato, a solução para este sistema é: 
+
+$$
+\begin{cases}
+    x = \dfrac{2c + a}{3} \\ 
+    y = \dfrac{a-c}{3} \\ 
+    z = b
+\end{cases}
+$$
+
+O que implica que $T^{-1}(a, b, c) = \left(\dfrac{2c+a}{3}, \dfrac{c-a}{3}, b\right)$. 
+
+Uma outra abordagem é obtida ao perceber que, dada uma transformação $T$ bijetora, $(T)^{-1} = (T^{-1})$, isto é, a inversa de sua matriz é a matriz de sua inversa. Aplicando $T$ nos vetores da base canônica e os decompondo também na base canônica, podemos encontrar uma matriz para $T$. 
+
+$$
+(T) =
+\begin{pmatrix}
+    1 & -2 & 0 \\ 
+    0 & 0 & 1 \\ 
+    1 & 1 & 0     
+\end{pmatrix}
+$$
+
+Assim, por eliminação gaussiana, podemos executar as seguintes operações elementares para obter a inversa: permutar a segunda e a terceira linha; subtrair a segunda linha da primeira e atualizar a segunda linha; multiplicar a segunda linha por $\frac{-2}{3}$, somar com a primeira linha e atualizar esta e multiplicar a segunda linha por $\frac{-1}{3}$. 
+
+Dessa forma, ao executar essas operações, obtemos a matriz da transformação inversa. 
+
+$$
+(T)^{-1} = (T^{-1}) = 
+\begin{pmatrix}
+    \frac{1}{3} & 0 & \frac{2}{3} \\ 
+    -\frac{1}{3} & 0 & \frac{1}{3} \\ 
+    0 & 1 & 0 
+\end{pmatrix}
+$$
+
+Consequentemente, temos que 
+
+$$
+T^{-1}(x, y, z) = x\left(\dfrac{1}{3}, -\dfrac{1}{3}, 0\right) + y\left(0, 0, 1\right) + z\left(\dfrac{2}{3}, \dfrac{1}{3}\right) = \left(\dfrac{x+2z}{3}, \dfrac{z-x}{3}, y\right)
+$$
+
+Finalizado. 
+
+</aside>
+
 # Referências
 
 1. CALLIOLI, Carlos Alberto; DOMINGUES, Hygino H.; COSTA, Roberto da. <i>Álgebra Linear e Aplicações</i>. 4ª edição revisada. São Paulo: Atual, 1983.

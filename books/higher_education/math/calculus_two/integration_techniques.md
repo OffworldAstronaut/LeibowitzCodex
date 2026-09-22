@@ -217,6 +217,96 @@ Assim como o caso anterior, a aplicação do teorema é condicionada ao grau do 
 
 Para o fim dessa discussão sobre frações parciais, uma nota: quando uma função racional possui em seu denominador um polinômio que não pode ser decomposto como nos casos anteriores, uma estratégia interessante a se seguir pode ser escrever esse denominador como uma soma de quadrados e, posteriormente, efetuar uma mudança de variável.
 
+# Substituição trigonométrica 
+
+Ao integramos funções que possuem raízes, pode ser útil realizar uma mudança de variável comumente denominada <b>substituição trigonométrica</b>. Na substituição trigonométrica, radicandos nos formatos $x^2 - a^2$, $x^2 + a^2$ ou $a^2 - x^2$ são simplificados por meio de substituições da forma $x = af(\theta)$, com $f(\theta)$ sendo alguma função trigonométrica — seno, tangente ou secante.
+
+A relação entre as expressões e suas respectivas substituições e identidades úteis é dada pela tabela abaixo: 
+
+|      Expressão     |   Substituição    |             Identidade              |
+|--------------------|-------------------|-------------------------------------|
+| $\sqrt{a^2 - x^2}$ | $x=a\sin{\theta}$ | $1-\sin^2{\theta} = \cos^2{\theta}$ |
+| $\sqrt{a^2 + x^2}$ | $x=a\tan{\theta}$ | $1+\tan^2{\theta} = \sec^2{\theta}$ |
+| $\sqrt{x^2-a^2}$   | $x=a\sec{\theta}$ | $\sec^2{\theta}-1 = \tan^2{\theta}$ |
+
+<aside>
+
+<b>Exemplo 1.</b> Encontre a primitiva a seguir. 
+
+$$
+\int \dfrac{\sqrt{9-x^2}}{x^2} \ dx
+$$
+
+Fazendo $x = 3\sin{\theta}$, obtemos: 
+
+$$
+\begin{align*}
+    \int \dfrac{\sqrt{9-x^2}}{x^2} \ dx &= \int \dfrac{\cos^2{\theta}}{\sin^2{\theta}} \ d\theta \\ 
+    &= \int \cot^2{\theta} \ d\theta \\ 
+    &= \int \csc^2{\theta} \ d\theta - \int 1 \ d\theta \\ 
+    &= -\cotg{\theta} - \theta + C
+\end{align*}
+$$
+
+Como $\theta = \arcsin{\left(\dfrac{x}{3}\right)}$, podemos construir um triângulo retângulo e concluir que: 
+
+$$
+\int \dfrac{\sqrt{9-x^2}}{x^2} \ dx = -\dfrac{\sqrt{9-x^2}}{x}-\arcsin{\left(\dfrac{x}{3}\right)} + C
+$$
+
+</aside>
+
+<aside>
+
+<b>Exemplo 2.</b> Encontre a primitiva a seguir. 
+
+$$
+\int \dfrac{1}{x^2\sqrt{x^2 + 4}} \ dx
+$$
+
+Fazendo $x = 2\tan{\theta}$, obtemos: 
+
+$$
+\begin{align*}
+    \int \dfrac{1}{x^2\sqrt{x^2+4}} \ dx &= \dfrac{2}{8}\int \dfrac{\sec{\theta}}{\tan^2{\theta}} \ d \theta \\ 
+    &= \dfrac{2}{8} \int \cot{\theta}\csc{\theta} \ d\theta \\ 
+    &= -\dfrac{2}{8}\csc{\theta} + C 
+\end{align*}
+$$
+
+Como $\theta = \arctan{\left(\dfrac{x}{2}\right)}$, podemos construir um retângulo retângulo e concluir que: 
+
+$$
+\int \dfrac{1}{x^2\sqrt{x^2 + 4}} \ dx = -\dfrac{2}{8}\dfrac{\sqrt{x^2 + 4}}{x} = -\dfrac{\sqrt{x^2 + 4}}{4x} + C
+$$
+
+</aside>
+
+<aside>
+
+<b>Exemplo 3.</b> Encontre a primitiva a seguir. 
+
+$$
+\int \dfrac{x^2 - 4}{x} \ dx 
+$$
+
+Fazendo $x = 2\sec{\theta}$, obtemos: 
+
+$$
+\begin{align*}
+    \int \dfrac{\sqrt{x^2 - 4}}{x} \ dx &= 2 \int \tan^2{\theta} \ d\theta \\ 
+    &= 2 \tan{\theta} - 2\theta + C 
+\end{align*}
+$$
+
+Como $\theta = \sec^{-1}{\left(\dfrac{x}{2}\right)}$, podemos construir um triângulo retângulo e concluir que: 
+
+$$
+\int \dfrac{\sqrt{x^2 - 4}}{x} \ dx = \sqrt{x^2 - 4} - 2 \sec^{-1}{\left(\dfrac{x}{2}\right)} + C
+$$
+
+</aside>
+
 # Substituição pela tangente da metade de um arco
 
 A mudança de variável
