@@ -1,18 +1,52 @@
 # O Átomo
 
-# Da Grécia Antiga à atualidade
+# Da Antiguidade à Contemporaneidade
 
-A pergunta sobre a constituição da matéria fundamenta discussões filosóficas há muitos séculos antes de Cristo. Dentre os pensadores que se preocuparam com a origem e a composição do mundo no período pré-socrático, podemos citar Anaximandro, Pitágoras, Heráclito, Parmênides, Anaxímenes, Tales e <b>Demócrito</b>.
+A pergunta sobre a constituição da matéria fundamenta discussões filosóficas há muitos séculos antes de Cristo. Embora a filosofia grega seja comumente estudada neste ponto, por meio dos desenvolvimentos de Lêucipo e seu discípulo Demócrito, é importante ressaltar que outros desenvolvimentos atomísticos surgiram no oriente.
+
+## Filosofia oriental 
+
+Das filosofias orientais que observaram o surgimento de escolas atomistas de pensamento, destaca-se a filosofia indiana clássica. De fato, diversas escolas de pensamento, como os Nyaya, os Vaisesika e outras de viés budista e jainista cultivaram visões atomistas da realidade, embora diversas outras também criticaram este posicionamento pelos mais diversos motivos. 
+
+Um aspecto interessante destas escolas é a consideração de que nem todo "átomo" seria algo material: o filósofo Vasubandha contraria-se a um chamado atomismo "absoluto" em seu tratado Vinte Versos, que postulava unidades básicas de tempo e de espaço. A denominação acadêmica de "absoluto" vem da defesa de unidades básicas da própria realidade, ao invés da matéria como no atomismo usual.
+
+Ressalta-se que o atomismo indiano surgiu independentemente do atomismo grego, permitindo diferenças interesssantes como a prescrição de qualidades sensíveis aos átomos. Por outro lado, é sabido que visões atomísticas da Índia chegaram à China, porém não foram acolhidas por sua filosofia natural pré-existente. 
+
+### Nyaya-Vansesika
+
+Embora as escolas Nayaya e Vansesika sejam escolas atomísticas distintas na filosofia indiana, estas são academicamente tratadas em conjunto em razão de sua enorme sobreposição e história compartilhada. Estas escolas surgiram por volta de 800 a.C como grupos de comentário às Upanishads, textos filosóficos do final do período védico.
+
+Nestas tradições, os átomos eram criados — respeitando os Vedas — e permaneciam imutáveis ao longo de toda a existência. Diferentes átomos existiam para diferentes elementos (água, terra, fogo e ar) e possuiam propriedades sensíveis distintas (frio para átomos de água, calor para átomos de fogo, ...). Vários debates cercavam a maneira que estes átomos se combinavam para dar as propriedades materiais do mundo sensível. 
+
+A tradição atomística de Nyaya-Vaisesika fundamentava-se apenas em inferências lógicas, sem nenhuma constatação empírica. Além disso, defendia que o mundo (isto é, a realidade material) foi criado a partir da ordenação de matéria pré-existente por alguma força divina. O estudo do movimento dos átomos nesta tradição foi comparado aos desenvolvimentos galileo-newtonianos sobre a dinâmica, embora a explicação para os fenômenos magnéticos se ancorasse na condição moral do indivíduo portador do ímã, como na Europa medieval. 
+
+No contexto do florescimento destas escolas, constante foi seu contato e embate com as correntes budistas: enquanto estes pregavam o desprendimento de todas as ilusões da matéria, os atomistas defendiam a realidade da matéria e buscavam explicações para fenômenos físicos e psicológicos a partir dos átomos. 
+
+Dentre os grandes pensadores destas escolas, podemos citar Kanada, Prasastapada, Gautama e Vatsyayama. Udayama e Gañgesa, nos séculos XI e XIV d.C, respectivamente, destacaram-se por produzir um corpo de texto que unificou ambas as tradições numa nova escola, a Nuya-Nyuya. 
+
+## Filosofia ocidental 
+
+Dentre os pensadores gregos que se preocuparam com a origem e a composição do mundo no período pré-socrático, podemos citar Anaximandro, Pitágoras, Heráclito, Parmênides, Anaxímenes, Tales e <b>Demócrito</b>.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a9/Vincent%2C_Fran%C3%A7ois-Andr%C3%A9_-_Democritus_among_the_Abderites.jpg)
 
 <i>Pintura por François-André Vincent (1746-1816) representando Demócrito entre os abderitas, seus concidadãos de sua pólis natal, Abdera. </i>
 
-Demócrito e Leucipo representavam a escola atomista, defendendo que toda matéria era composta por partículas indivísiveis chamadas <b>átomos</b>, do grego <i>átomos</i>, indivisível.
+Demócrito e Leucipo são os principais representantes escola atomista grega, defendendo que toda matéria era composta por partículas indivísiveis chamadas <b>átomos</b>, do grego <i>átomos</i>, indivisível.
 
 Por muito tempo esquecida, a visão atomista da realidade retornou, assumindo um importante papel na ciência dos séculos XIX e XX. Durante estes anos, diversos modelos científicos para o átomo foram propostos para justificar os fenômenos observados.
 
+## Dalton
+
 O primeiro modelo atômico moderno foi elaborado pelo físico, químico e meteorologista britânico John Dalton (1766-1844). Apelidado de "modelo da bola de bilhar", o átomo de Dalton era uma esfera maciça e indivisível, com átomos de diferentes elementos diferenciando-se em massa e diâmetro. 
+
+Este modelo fundamentava-se em algumas hipóteses: todos os elementos seriam feitos de átomos; todos os átomos de um mesmo elemento são idênticos e diferentes dos átomos de todos os outros elementos; Compostos químicos são formados por mais de um tipo de átomo, com a proporção entre cada tipo sendo um número inteiro ou uma fração irredutível; Nenhum átomo pode ser criado ou destruído. 
+
+Nota-se que a terceira hipótese é uma consequência da lei das proporções definidas de Joseph Proust: "Diferentes amostras de um mesmo composto sempre possuirão as mesmas proporções (em massa) de seus elementos constituintes". Além disso, esta também valida a lei das proporções múltiplas: "Se dois elementos podem combinar-se para formar mais que um composto, suas proporções em cada um dos compostos são frações irredutíveis". 
+
+Estas difentes conexões justificam-se apenas em razão de que, no modelo de Dalton os compostos diferem-se apenas pelo número de átomos em cada um: como a massa de um elemento é diretamente proporcional a quantidade de átomos deste elemento, a constatação torna-se uma consequência natural. 
+
+Como pequena nota, é interessante notar que a quarta hipótese é apenas uma outra maneira de enunciar o princípio da conservação da massa cuja iteração mais famosa foi escrita por Lavoisier: "Na natureza nada se cria, nada se perde: tudo se transforma".  
 
 <aside>
 
@@ -20,17 +54,54 @@ O primeiro modelo atômico moderno foi elaborado pelo físico, químico e meteor
 
 </aside>
 
-A descoberta do elétron em 1897 pelas experiências com tubos de raios catódicos executadas pelo físico inglês J. J. Thomson motivou a criaçãod e um novo modelo atômico. O modelo atômico de Thomson era formado por uma massa uniforme de carga elétrica positiva que continha em seu interior partículas de carga negativa — elétrons. Em razão desta estrutura, o modelo foi apelidado de <i>plum pudding</i>, "pudim de passas".
+## Thomson
+
+O primeiro modelo atômico moderno dominou a Academia até a década de 1890, quando foi substituido por uma proposta mais sofisticada por J. J. Thomson. Entretanto, para destrincharmos esta nova etapa, precisamos realizar uma pequena digressão sobre radiação. 
+
+Definimos <b>radiação</b> como a transmissão e a emissão de energia através do espaço na forma de ondas. Nesta época, físicos e químicos interessaram-se no estudo deste fenômeno pela percepção da extração de informação da estrutura atômica a partir da radiação emitida por materiais. 
+
+Um importante experimento desta era foi o <b>tudo de raios catódicos</b>, essencialmente um grande tubo vítreo com um vácuo em seu interior. Em uma de suas extremidades, duas placas metálicas eletrizadas com cargas opostas são posicionadas. A diferença de potencial provoca a emissão de raios invisíveis da placa negativamente carregada (chamada <b>ânodo</b>) em direção a placa positivamente carregada (o <b>cátodo</b>). Um pequeno orifício no centro do cátodo permite a passagem do feixe de raios invisíveis em direção a um anteparo fluorescente na outra extremidade do tubo.
+
+Os experimentadores perceberam que este feixe poderia ser desviado tanto pelo posicionamento de placas eletrizadas nas proximidades do tubo como também por um campo magnético próximo. Ora, pelo eletromagnetismo clássico, cargas em movimento devem interagir com campos elétricos e magnéticos. Além disso, foi percebido que o feixe se afasta de placas negativamente carregadas. A partir dessas duas constatações, foi deduzido que o feixe deve ser formado por partículas negativamente carregadas, os elétrons. 
+
+A descoberta do elétron em 1897 por J. J. Thomson foi realizada a partir destas constatações prévias, estimando a razão entre a carga e a massa da partícula em cerca de $-1.76 \cdot 10^8 \text{ C/g}$. 
+
+<!--TODO: ADICIONAR COMO THOMSON DEDUZIU ESTE VALOR-->
+
+
+O modelo atômico de Thomson era formado por uma massa uniforme de carga elétrica positiva que continha em seu interior partículas de carga negativa — elétrons. Em razão desta estrutura, o modelo foi apelidado de <i>plum pudding</i>, "pudim de passas".
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d4/Thomson_atom_electron_arrangements.jpg)
 
 <i>Diagramas do próprio J. J. Thomson ilustrando as possíveis organizações dos elétrons no interior dos átomos. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Thomson_atom_electron_arrangements.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
-A próxima grande ruptura veio entre os anos de 1908 e 1911. Os físicos Ernest Rutherford, Hans Geiger e Ernest Marsden bombardearam diferentes materiais com partículas $\alpha$, emitidas por materiais radioativos. Essas partículas foram descobertas em 1899 e identificadas como cátions de hélio ($\text{He}^{+2}$) em 1907 pelo próprio Rutherford.
-
 ![](https://upload.wikimedia.org/wikipedia/commons/7/72/-2019-12-19_Cooked_Christmas_pudding%2C_Trimingham_%282%29.JPG)
 
 <i>A razão do apelido "pudim de passas" vem da comparação com o tradicional bolo natalino britânico — Thomson era inglês. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:-2019-12-19_Cooked_Christmas_pudding,_Trimingham_(2).JPG" target="_blank">Wikimedia Commons</a>.</i>
+
+Entre os anos de 1908 e 1917, o físico R. A. Millikan determinou a carga do elétron através de seu famoso experimento das gotas de óleo (hoje denominado <b>experimento de Millikan</b>) com um valor que hoje conhecemos como a <b>carga elementar do elétron</b> ($e = -1.6022 \cdot 10^{-19} \text{ C}$). Combinando os achados de Millikan e Thomson, podemos deduzir a incrivelmente pequena massa do elétron — cerca de $9.1 \cdot 10^{-28} \text{ g}$. 
+
+<!--TODO: INSERIR COMO FUNCIONOU O EXPERIMENTO DE MILLIKAN -->
+
+## Radioaditividade e Rutherford
+
+A história do estudo da radioatividade também possui seu início na década de 1890 com a descoberta dos raios-X pelo físico alemão Wilhelm Röntgen. Röntgen descobriu que certos vidros e metais emitiam raios peculiares após serem bombardeados por raios catódicos — estes raios não poderiam ser desviados por campos magnéticos nem cargas elétricas e, portanto, não poderiam ser compostos por partículas carregadas. Por sua estranha natureza para a época, eles foram nomeados como <i>X-radiation</i>, "raios-X". 
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/fb/X-ray_by_Wilhelm_R%C3%B6ntgen_of_Albert_von_K%C3%B6lliker%27s_hand_-_18960123-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Impressão em raios-X da mão de Albert von Kölliker, colega de Wilhelm Röntgen. A opacidade dos ossos humanos a essa radiação motivou sua aplicação médica. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:X-ray_by_Wilhelm_R%C3%B6ntgen_of_Albert_von_K%C3%B6lliker%27s_hand_-_18960123-02.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+Pouco após este acontecimento, o físico francês Antoine Becquerel acidentalmente descobriu que filmes fotográficos expostos a óxido de urânio queimavam, mesmo que estes fossem protegidos com materiais comuns do laboratório.
+
+O óxido emitia esta radiação — que também não podia ser composta por partículas carregadas — sem estimulação prévia por raios catódicos, o que era algo novo para a época. Marie Curie, aluna de Becquerel na época, sugeriu nomear este fenômeno de emissão espotânea de partículas ou radiação de <b>radioatividade</b>. Pela nomenclatura de Curie, assim, o óxido de urânio é um material <b>radioativo</b>.
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Irene_and_Marie_Curie_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Marie Curie e sua filha, Iréne Joliot-Curie, em 1925. Ao todo, a família Curie possui cinco prêmios Nobel. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Irene_and_Marie_Curie_1925.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+Ao longo do tempo, emissões radioativas foram subdivididas em <b>partículas — ou raios — $\alpha$ (alfa)</b>, de carga positiva, <b>raios $\beta$ (beta)</b>, isto é, elétrons, e os <b>raios $\gamma$ (gama)</b>, altamente energéticos e impassíveis aos campos elétricos e magnéticos. 
+
+A próxima grande ruptura na linha do tempo dos modelos atômicos veio entre os anos de 1908 e 1911. Os físicos Ernest Rutherford, Hans Geiger e Ernest Marsden bombardearam diferentes materiais com partículas $\alpha$. Essas partículas foram descobertas em 1899 e identificadas como cátions de hélio ($\text{He}^{+2}$) em 1907 pelo próprio Rutherford. 
 
 O americano percebeu que, ao bombardear uma folha finíssima de ouro com estas partículas, muitas seguiam sua trajetória retilínea através da folha, enquanto uma porção sofira uma leve deflexão e, além disso, outra era refletida para trás, sofrendo deflexões de ângulo muito elevado. 
 

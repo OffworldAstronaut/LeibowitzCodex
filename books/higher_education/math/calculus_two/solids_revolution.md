@@ -156,41 +156,41 @@ $$
 
 Nesta última seção iremos nos preocupar com o cálculo de volume dos sólidos gerados pela revolução de curvas em torno de algum eixo, de forma análoga às superfícies de revolução, comentadas anteriormente. 
 
-Dada uma certa curva $y=f(x)$ definida num intervalo $[a,b]$, temos que o volume do sólido de revolução obtido pela rotação desta curva em torno de uma reta horizontal $y=k$ é: 
+Ao executarmos a revolução de uma curva em torno de algum eixo, seja ele vertical ou horizontal, temos a nossa disposição duas abordagens para executar nosso cálculo de volume: a <b>integração por discos</b> ou a <b>integração por cilindros</b>, também chamada <b>integração por cascas</b>. 
+
+Escolher <b>integrar por discos</b> significa integrar o volume do sólido através da soma de infinitos discos (isto é, cilindros retos de altura infinitesimal). Esta abordagem é especialmente útil em cenários em que precisamos encontrar o volume do sólido formado pela rotação de uma região entre uma curva e um eixo. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/a8/Disc_integration.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Exemplo de uma integração em discos de uma função $f(y)$ rotacionada em torno do eixo $y$. Neste caso, cada disco possui volume $dV = \pi x^2dy$. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Disc_integration.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+A expressão geral para a integração por discos de sólidos de revolução produzidos pela rotação de uma curva $y=f(x): [a, b] \to \mathbb{R}$ em torno de um eixo horizontal $y=k$ é da forma 
 
 $$
-V = \pi \int_{a}^{b} r(x)^2\ dx 
+V = \pi \int_{a}^{b} r(x)^2 \ dx 
 $$
 
-Onde $r(x) = f(x) - k$ se $f(x) \ge k$ e $r(x) = k - f(x)$, caso contrário. Esta integral origina-se da soma de infinitos cilindros infinitesimais, produzidos pela rotação da curva em torno do eixo determinado. 
+com $r(x) = f(x) - k$ se $f(x) \ge k$ e $r(x) = k - f(x)$, caso contrário. 
 
-Ao analisarmos a rotação em torno de algum eixo $x = k$ vertical, teremos duas opções de integração: a <b>integração em discos</b> e a <b>integração em conchas</b>, também chamada <b>integração em cilindros</b>. 
-
-![](https://upload.wikimedia.org/wikipedia/commons/c/c9/DiskIntegration1.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-<i>Animação ilustrando a integração em discos. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:DiskIntegration1.gif" target="_blank">Wikimedia Commons</a>.</i>
-
-Ao integramos em discos, estamos considerando o volume <b>interior</b>, isto é, da região entre a curva $f(x)$ e o eixo vertical. Neste caso, a expressão para tal é a integral: 
+Ao considerarmos uma rotação em torno de um eixo vertical $x = k$, a integração por discos deste sólido de revolução retornará uma expressão da forma 
 
 $$
-V = \pi \int_{a}^{b} r(x)^2 \cdot |f'(x)| \ dx 
+V = \pi \int_{a}^{b} (x-k)^2 \cdot f'(x) \ dx 
 $$
 
-Esta expressão pode ser deduzida ao considerar que estamos integrando elementos de volume $dV = \pi(x-k)^2 \ dy$ e que $dy = dx f'(x)$.
+A <b>integração por cascas</b>, por outro lado, consiste em somar infinitos cilindros ocos de largura infinitesimal. Esta técnica é útil para encontrar o volume da região entre um dado gráfico e um eixo na orientação oposta à integração de discos. 
 
-Ao considerarmos o volume <b>exterior</b>, entre a função $f(x)$ e o eixo das abscissas, iremos integrar <b>em conchas</b>. Neste caso, a expressão utilizada é a integral: 
+![](https://upload.wikimedia.org/wikipedia/commons/8/89/Shell_integration.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Exemplo de uma integração por cascas de uma função $y=f(x)$ rotacionada em torno do eixo $y$. Neste caso, cada cilindro terá volume $dV= 2\pi x f(x) \ dx$. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Shell_integration.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+Dessa forma, a expressão geral para a integração por cascas de sólidos de revolução obtidos pela rotação de uma curva $y=f(x)$ em torno de um eixo horizontal $y=k$ é da forma 
 
 $$
 V = 2\pi \int_{a}^{b} (x-k)f(x) \ dx 
 $$
 
-Esta expressão pode ser encontrada por meio de somas de Riemann, conforme demonstrado abaixo. 
-
-<!--Adicionar demonstração aqui-->
-
-![](https://upload.wikimedia.org/wikipedia/commons/3/31/Shell_integral_undergraph_-_around_y-axis.png)
-
-<i>Ilustração da integração em concha. Note a revolução do gráfico em torno do eixo vertical, enquanto a integral calculada tem sua variável de integração no eixo perpendicular. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Shell_integral_undergraph_-_around_y-axis.png" target="_blank">Wikimedia Commons</a>.</i>
+Por fim, nota-se que embora estas expressões sejam úteis para consulta nestes casos em específico, na maior parte dos casos o ato de intuir a integral necessária com base nestas duas abordagens (ao invés de simplesmente memorizar as diferentes possibilidades) prova-se mais eficaz.
 
 # Referências 
 
