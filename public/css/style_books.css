@@ -335,24 +335,18 @@ html {
     scroll-behavior: smooth;
 }
 
-.book-content .footnotes {
-    margin-top: 4rem;
-    padding-top: 1.5rem;
-
-    color: var(--text-muted);
-    line-height: 1.6;
-    text-align: left;
+sup a {
+    font-size: large;
 }
 
 .book-content .footnotes>h2.sr-only {
-    color: var(--text);
+    color: var(--link);
     position: static;
     margin: 0 0 1rem;
     overflow: visible;
     clip: auto;
     white-space: normal;
     border: 0;
-
 }
 
 .book-content .footnotes ol {

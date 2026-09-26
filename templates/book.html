@@ -125,7 +125,11 @@
         if (!content) return;
 
         // Collect headings
-        const headings = Array.from(content.querySelectorAll("h1, h2, h3"));
+        const headings = Array.from(
+            content.querySelectorAll("h1, h2, h3")
+        ).filter(
+            (h) => !h.closest(".footnotes")
+        );
         if (headings.length < 2) return;
 
         // Assign anchor IDs to each heading

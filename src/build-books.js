@@ -177,6 +177,13 @@ function copyAssets(mdFilePath, outHtmlPath) {
   }
 }
 
+function promoteFootnotesHeading(html) {
+  return html.replace(
+    '<h2 id="footnote-label" class="sr-only">Footnotes</h2>',
+    '<h1 id="footnote-label" class="sr-only">Footnotes</h1>'
+  );
+}
+
 function build() {
   // Clear previous output so renamed/deleted source files don't leave
   // stale .html/asset copies behind.
@@ -193,8 +200,11 @@ function build() {
     const title = data.title ?? mdTitle ?? "Livro";
 
     const { markdown: protectedMarkdown, stash } = protectMath(body);
+    
     const rawHtml = marked.parse(protectedMarkdown);
-    const html = restoreMath(rawHtml, stash);
+    const html = promoteFootnotesHeading(
+      restoreMath(rawHtml, stash)
+    );
 
     const page = fillTemplate(TEMPLATE, {
       CONTENT: html,
