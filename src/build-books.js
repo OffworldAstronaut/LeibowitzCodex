@@ -4,7 +4,7 @@ import crypto from "crypto";
 import matter from "gray-matter";
 import { marked } from "marked";
 import { fileURLToPath } from "url";
-import { footnote } from "marked-footnote";
+import { markedFootnote } from "marked-footnote";
 
 
 const __filename = fileURLToPath(import.meta.url);
@@ -18,7 +18,7 @@ const TEMPLATE = fs.readFileSync(
   "utf8"
 );
 
-marked.use(footnote());
+marked.use(markedFootnote());
 marked.setOptions({});
 
 /**
