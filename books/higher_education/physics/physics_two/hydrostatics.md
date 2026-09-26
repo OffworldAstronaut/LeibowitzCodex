@@ -377,6 +377,50 @@ $$
 
 uma aproximação da queda exponencial da pressão com a altitude.
 
+# Exercícios 
+
+## Problemas 
+
+<aside>
+
+<b>Problema 1.</b> No manômetro de reservatório (figura abaixo) calcule a diferença de pressão $p_1 - p_2$ entre dois ramos em função da densidade $\rho$ do fluido, dos diâmetros $d$ e $D$ e da altura $h$ de elevação do fluido no tubo, relativamente ao nível de equilíbrio $N_0$ que o fluido ocupa quando $p_1 = p_2$.
+
+</aside>
+
+<aside>
+
+<b>Problema 2.</b> Na figura abaixo, uma mola de constante elástica $k = 3 \cdot 10^{4}$ N/m liga uma viga rígida ao êmbolo de saída de um macaco hidráulico. Um recpiente vazio de massa desprezível está sobre o êmbolo de entrada. O êmbolo de entrada tem uma área $A_e$ e o êmbolo de saída tem uma área $18A_e$. Inicialmente a mola está relaxada. Quantos quilogramas de areia devem ser despejados para que a mola sofra uma compressão de 5 cm? 
+
+</aside>
+
+<aside>
+
+<b>Problema 3.</b> Um bloco de madeira flutua em água doce com dois terços de seu volume $V$ submersos e em óleo com 90%. Determine a densidade da madeira e do óleo. 
+
+</aside>
+
+## Soluções 
+
+<!--TODO: ADICIONAR SOLUÇÕES DESTES PROBLEMAS-->
+
+<aside>
+
+<b>Solução 1.</b>
+
+</aside>
+
+<aside>
+
+<b>Solução 2.</b> 
+
+</aside>
+
+<aside>
+
+<b>Solução 3.</b>
+
+</aside>
+
 # Referências 
 
 1. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 2: Fluidos; oscilações e ondas; calor. 4. ed. rev. São Paulo: Blucher, 2002

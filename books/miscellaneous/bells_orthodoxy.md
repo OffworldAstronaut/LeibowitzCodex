@@ -2,8 +2,6 @@
 
 # História
 
-
-
 Após a cristianização da Rússia de Kiev por volta do século X, o uso de sinos foi gradativamente consolidado, juntamente com a utilização de um outro instrumento de percussão, o chamado <i>semantron</i>, de origem grega. Hoje em dia, embora muitas igrejas tenham dado preferência aos sinos em detrimento do <i>semantron</i>, a prática de utilizar ambos sobrevive, principalmente em mosteiros.
 
 A arte de fundição de sinos atingiu seu apogeu no século XVIII. Desse período, podemos citar dois sinos, o Sino Tsar (<i>Tsarsky Kolokol</i>) e o Sino da Dormição, ambos criados para o Campanário de Ivan, o Grande, em Moscou. O campanário originalmente seria recipiente do <i>Tsarsky</i>, mas o gigantesco sino, até hoje o maior já criado, foi danificado num incêndio e permanece ao lado da torre até os dias atuais. O Sino da Dormição, também de tamanho notável, foi utilizado em seu lugar. 
@@ -11,8 +9,6 @@ A arte de fundição de sinos atingiu seu apogeu no século XVIII. Desse períod
 Com a perseguição ao Cristianismo ocorrida na União Soviética, múltiplos sinos foram destruídos e sua produção se tornou intermitente. Depois da queda do mundo socialista, a produção de sinos experienciou um grande pico, em razão da reconstrução de múltiplas igrejas. 
 
 # Teologia
-
-
 
 Além das funções usuais dos sinos, que também são comuns ao ocidente, como expressar alegria e chamar os fiéis para os serviços litúrgicos, os sinos na Ortodoxia Russa possuem razões de existência teológicas, com seu uso excedendo o prático e alcançando o espiritual. 
 
@@ -22,7 +18,10 @@ Na tradição ortodoxa, os sineiros são chamados <i>zvonar</i> (de <i>zvon</i>,
 
 Ainda, por essa importância litúrgica, a utilização de qualquer mecanismo automático para a execução da atividade é proibido.
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/qbn_Fzcxw3o" title="Russian Orthodox Bell Ringing in New Jersey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-iframe">
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/qbn_Fzcxw3o" title="Russian Orthodox Bell Ringing in New Jersey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 
 <i>Conhecido vídeo do toque dos sinos na Catedral de Alexander Nevsky, NJ, EUA.</i>
 
@@ -30,13 +29,14 @@ De forma semelhante aos ocidentais, os ortodoxos possuem certos serviços litúr
 
 Um aspecto teológico interessante é o seu simbolismo com a proclamação do Evangelho, completo com a utilização do <i>sematron</i>. Tradicionalmente, o <i>sematron</i>, de som baixo e simples, simboliza os profetas do Antigo Testamento. Após o <i>sematron</i>, os sinos, de som alto e passíveis de escuta a longas distâncias, são soados, simbolizando a proclamação do Evangelho pelo mundo.
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/uVTyuP1O6lQ" title="Semantron and Bells at St. Catherine&#39;s Monastery, Sinai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-iframe">
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/uVTyuP1O6lQ" title="Semantron and Bells at St. Catherine&#39;s Monastery, Sinai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 
 <i>Acima: Monge toca o <b>semantron</b> e, logo após, os sinos no mosteiro de Santa Catarina, no Sinai.</i>
 
 # Técnica
-
-
 
 Com respeito à técnica de toque desses sinos, a tradicional prática é seu soamento apenas pela movimentação do badalo, conservando a estrutura do sino estacionária. Para permitir o soamento de diversos sinos, um customizado sistema de cordas é desenhado, com todas convergindo aproximadamente no meio da coleção de sinos, para utilização do <i>zvonar</i>. 
 
@@ -45,7 +45,9 @@ Embora várias dessas cordas sejam utilizadas com as mãos, é comum para sinos 
 Uma curiosidade da técnica é sua total ausência de melodia planejada, diferenciando-se do carrilhão, que cede lugar a uma prática polirrítmica. 
 
 <blockquote>
-<i>“A fundação do soar de sinos na Ortodoxia não está na melodia, mas sim no ritmo, com sua dinâmica intrínseca, e na interação dos timbres de [vários] sinos."</i>
+
+<i>A fundação do soar de sinos na Ortodoxia não está na melodia, mas sim no ritmo, com sua dinâmica intrínseca, e na interação dos timbres de [vários] sinos.</i>
+
 </blockquote>
 
 ## Tipos de toque
@@ -60,7 +62,9 @@ A diversidade de toques anteriormente mencionada é categorizada em quatro conju
 
 O toque denominado <i>blagovest</i> (”anunciação”, “boas notícias”) tem como forma o badalo de um único sino de baixa altura, com o objetivo de alertar aos fiéis o início de um serviço litúrgico. Esse toque inicia com três badalos separados por pausas levemente longas, seguidos de badalos mais rápidos e, por fim, mais três badalos separados por pausas longas. 
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/C7vvPXz-Qes" title="Агни Парфене - Хор братии Валаамского монастыря" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="responsive-iframe">
+    <iframe class="video-iframe" src="https://www.youtube.com/embed/C7vvPXz-Qes" title="Агни Парфене - Хор братии Валаамского монастыря" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <i>Faixa de abertura do álbum <b>Severnyi Afon</b>, do Coro dos Irmãos do Mosteiro de Vaalam. O blagovest pode ser ouvido nos dois primeiros minutos.</i>
 
@@ -111,7 +115,9 @@ Cada sino do campanário é tocado uma vez, do menor para o maior, num ritmo len
 
 Cada toque do <i>perebor</i> só deve ser executado quando o som do sino anterior tiver-se extinguido naturalmente. Esse toque funerário possui como simbolismo a vida de uma pessoa terrena, de seu nascimento até sua morte, com o toque simultâneo simbolizando sua morte. 
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/ASWLpwremnM" title="Orthodox Funeral Toll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="responsive-iframe">
+    <iframe class="video-iframe"src="https://www.youtube.com/embed/ASWLpwremnM" title="Orthodox Funeral Toll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <i>Uma execução do <b>Perebor</b> no monastério de Duchovny Dom, Oregon, EUA, 2018.</i>
 
@@ -129,13 +135,13 @@ Geralmente é dividido em três estágios, com o começo contando com a marcante
 
 Uma variação menor, o <i>dvuzvon</i> (”duplo-badalo”), é executada diminuindo a quantidade de versos repetidos de três para duas vezes. 
 
-<iframe width="900" height="600" src="https://www.youtube.com/embed/Kliywj7nHHA" title="Russian Orthodox Bell Ringing on Pascha (Easter)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="responsive-iframe">
+    <iframe class="video-iframe" src="https://www.youtube.com/embed/Kliywj7nHHA" title="Russian Orthodox Bell Ringing on Pascha (Easter)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 <i>Trezvon executado durante a Páscoa na catedral de Alexander Nevsky, NJ, EUA, 2023.</i>
 
 # Ocasiões
-
-
 
 Os tipos de toques acima podem ser combinados e tocados em diferentes momentos do mesmo serviço litúrgico ou particularmente ao longo do ano, como o <i>perezvon</i>. Embora certas regularidades existam, é difícil contabilizar todas as variações e tradições existentes sobre o toque de sinos. 
 

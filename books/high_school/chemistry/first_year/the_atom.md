@@ -12,17 +12,17 @@ Um aspecto interessante destas escolas é a consideração de que nem todo "áto
 
 Ressalta-se que o atomismo indiano surgiu independentemente do atomismo grego, permitindo diferenças interesssantes como a prescrição de qualidades sensíveis aos átomos. Por outro lado, é sabido que visões atomísticas da Índia chegaram à China, porém não foram acolhidas por sua filosofia natural pré-existente. 
 
-### Nyaya-Vansesika
+### Nyāya-Vaiśeṣika
 
-Embora as escolas Nayaya e Vansesika sejam escolas atomísticas distintas na filosofia indiana, estas são academicamente tratadas em conjunto em razão de sua enorme sobreposição e história compartilhada. Estas escolas surgiram por volta de 800 a.C como grupos de comentário às Upanishads, textos filosóficos do final do período védico.
+Embora as escolas Nyāya e Vaiśeṣika sejam escolas atomísticas distintas na filosofia indiana, estas são academicamente tratadas em conjunto em razão de sua enorme sobreposição e história compartilhada. Estas escolas surgiram por volta de 800 a.C como grupos de comentário às Upanishads, textos filosóficos do final do período védico.
 
 Nestas tradições, os átomos eram criados — respeitando os Vedas — e permaneciam imutáveis ao longo de toda a existência. Diferentes átomos existiam para diferentes elementos (água, terra, fogo e ar) e possuiam propriedades sensíveis distintas (frio para átomos de água, calor para átomos de fogo, ...). Vários debates cercavam a maneira que estes átomos se combinavam para dar as propriedades materiais do mundo sensível. 
 
-A tradição atomística de Nyaya-Vaisesika fundamentava-se apenas em inferências lógicas, sem nenhuma constatação empírica. Além disso, defendia que o mundo (isto é, a realidade material) foi criado a partir da ordenação de matéria pré-existente por alguma força divina. O estudo do movimento dos átomos nesta tradição foi comparado aos desenvolvimentos galileo-newtonianos sobre a dinâmica, embora a explicação para os fenômenos magnéticos se ancorasse na condição moral do indivíduo portador do ímã, como na Europa medieval. 
+A tradição atomística de Nyāya-Vaiśeṣika fundamentava-se apenas em inferências lógicas, sem nenhuma constatação empírica. Além disso, defendia que o mundo (isto é, a realidade material) foi criado a partir da ordenação de matéria pré-existente por alguma força divina. O estudo do movimento dos átomos nesta tradição foi comparado aos desenvolvimentos galileo-newtonianos sobre a dinâmica, embora a explicação para os fenômenos magnéticos se ancorasse na condição moral do indivíduo portador do ímã, como na Europa medieval. 
 
 No contexto do florescimento destas escolas, constante foi seu contato e embate com as correntes budistas: enquanto estes pregavam o desprendimento de todas as ilusões da matéria, os atomistas defendiam a realidade da matéria e buscavam explicações para fenômenos físicos e psicológicos a partir dos átomos. 
 
-Dentre os grandes pensadores destas escolas, podemos citar Kanada, Prasastapada, Gautama e Vatsyayama. Udayama e Gañgesa, nos séculos XI e XIV d.C, respectivamente, destacaram-se por produzir um corpo de texto que unificou ambas as tradições numa nova escola, a Nuya-Nyuya. 
+Dentre os grandes pensadores destas escolas, podemos citar Kaṇāda, Prásastapāda, Gautama e Vātsyāyana. Udayana e Gañgeśa, nos séculos XI e XIV d.C, respectivamente, destacaram-se por produzir um corpo de texto que unificou ambas as tradições numa nova escola, a Navya-Nyāya. 
 
 ## Filosofia ocidental 
 
@@ -66,8 +66,23 @@ Os experimentadores perceberam que este feixe poderia ser desviado tanto pelo po
 
 A descoberta do elétron em 1897 por J. J. Thomson foi realizada a partir destas constatações prévias, estimando a razão entre a carga e a massa da partícula em cerca de $-1.76 \cdot 10^8 \text{ C/g}$. 
 
-<!--TODO: ADICIONAR COMO THOMSON DEDUZIU ESTE VALOR-->
+Como Thomson deduziu este valor? Como o feixe interagia com os campos elétricos e magnéticos, estes foram ajustados de forma que os raios não sofressem nenhum desvio. Nessa condição, a magnitude das forças elétrica e magnética seria a mesma e, portanto, valia a relação:
 
+$$
+eE = evB \implies v = \dfrac{E}{B}
+$$
+
+Com $e$ sendo a carga da partícula, $v$ sua velocidade e $E$ e $B$ as intensidades dos campos elétrico e magnético, respectivamente. 
+
+Por cinemática, sabemos que os elétrons sofriam uma aceleração vertical de $eE/m$ enquanto percorriam uma distância $l$ horizontalmente até chegar ao anteparo. 
+
+Consequentemente,  
+
+$$
+d = \frac{1}{2}at^2 = \dfrac{eEl^2}{2mv^2} \iff \dfrac{e}{m} = \dfrac{2dv^2}{El^2}
+$$
+
+Como $d$, $v$, $E$ e $l$ são grandezas conhecidas, a razão entre a carga e a massa do elétron foi determinada. 
 
 O modelo atômico de Thomson era formado por uma massa uniforme de carga elétrica positiva que continha em seu interior partículas de carga negativa — elétrons. Em razão desta estrutura, o modelo foi apelidado de <i>plum pudding</i>, "pudim de passas".
 
@@ -79,11 +94,61 @@ O modelo atômico de Thomson era formado por uma massa uniforme de carga elétri
 
 <i>A razão do apelido "pudim de passas" vem da comparação com o tradicional bolo natalino britânico — Thomson era inglês. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:-2019-12-19_Cooked_Christmas_pudding,_Trimingham_(2).JPG" target="_blank">Wikimedia Commons</a>.</i>
 
-Entre os anos de 1908 e 1917, o físico R. A. Millikan determinou a carga do elétron através de seu famoso experimento das gotas de óleo (hoje denominado <b>experimento de Millikan</b>) com um valor que hoje conhecemos como a <b>carga elementar do elétron</b> ($e = -1.6022 \cdot 10^{-19} \text{ C}$). Combinando os achados de Millikan e Thomson, podemos deduzir a incrivelmente pequena massa do elétron — cerca de $9.1 \cdot 10^{-28} \text{ g}$. 
+Entre os anos de 1908 e 1917, o físico R. A. Millikan e seu colega H. Fletcher determinaram a carga do elétron através do famoso experimento das gotas de óleo (hoje denominado <b>experimento de Millikan</b>) com um valor que hoje conhecemos como a <b>carga elementar do elétron</b> ($e = -1.6022 \cdot 10^{-19} \text{ C}$). Combinando os achados de Millikan e Thomson, podemos deduzir a incrivelmente pequena massa do elétron — cerca de $9.1 \cdot 10^{-28} \text{ g}$. 
 
-<!--TODO: INSERIR COMO FUNCIONOU O EXPERIMENTO DE MILLIKAN -->
+![](https://upload.wikimedia.org/wikipedia/commons/2/24/Millikan%27s_setup_for_the_oil_drop_experiment.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-## Radioaditividade e Rutherford
+<i>Fotografia contemporânea do aparato experimento de Millikan e Fletcher, na Universidade de Chicago. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Millikan%27s_setup_for_the_oil_drop_experiment.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+O experimento de Millikan funcionava da seguinte maneira: inicialmente, gotas de óleo eram pulverizadas na parte superior de uma câmara de ar. Com um microscópio, o experimentador acompanha as gotas até estas alcançarem a velocidade terminal. Nestas condições, a força de arrasto que o ar exerce sobre as gotas de óleo é igual em módulo à força da gravidade. 
+
+Neste primeiro momento, através da <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">lei de Stokes</a>, é possível determinar o módulo $F_u$ da força de arrasto sofrida pela gota de óleo: 
+
+$$
+F_u = 6\pi r \eta v_1 
+$$
+
+onde $r$ é o raio da gota, $\eta$ é a viscosidade do ar e $v_1$ é a velocidade terminal.
+
+Além disso, temos que o peso $\vec{w}$ de uma gota de óleo pode ser determinado através do produto de seu volume pela densidade e a aceleração gravitacional $\vec{g}$. Como na realidade estamos interessados (por agora) no <b>peso aparente</b> (em razão do empuxo realizado pelo ar ser importante para o sistema), podemos escrevê-lo como: 
+
+$$
+\vec{w}_\text{ap} = \vec{w} - \vec{t} 
+$$
+
+onde $\vec{t}$ é o <a href="/books/higher_education/physics/physics_two/hydrostatics.html" target="_blank">empuxo exercido pelo volume de ar deslocado</a>.
+
+Logo, 
+
+$$
+\vec{w}_\text{ap} = \dfrac{4}{3}\pi r^3 (\rho - \rho_\text{ar})\vec{g}
+$$
+
+Como a resultante das forças é nula (a gota está em velocidade terminal), podemos combinar as expressões para o peso aparente e a força de arrasto para encontrar o raio da gota: 
+
+$$
+r^2 = \dfrac{9\eta v_1}{2g(\rho - \rho_\text{ar})}
+$$
+
+O que nos permite encontrar $\vec{w}$, o peso real. 
+
+Na segunda etapa do experimento, uma diferença de potencial é aplicada em placas metálicas na parte inferior da câmara de ar. As gotas de óleo eletrizadas (de alguma forma, naturalmente pelo atrito entre o pulverizador e o óleo ou artificialmente por raios-X) começam a subir com uma certa velocidade.
+
+<div class="responsive-iframe">
+    <iframe class="video-iframe" src="https://commons.wikimedia.org/wiki/File:Millikan_experiment.ogv?embedplayer=yes" frameborder="0" loading="lazy" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<i>Visão do microscópio na segunda parte do experimento de Millikan: ajuste da tensã nas placas para manter as gotas suspensas no ar. Vídeo sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Millikan_experiment.ogv" target="_blank">Wikimedia Commons</a>.</i>
+
+Em razão das placas serem paralelas, o campo elétrico é uniforme e, consequentemente, a carga $q$ da gota pode ser determinada após a tensão entre as placas ser ajustada de modo que a gota entre em equilíbrio, suspensa no ar. 
+
+$$
+F_E = w \implies \dfrac{qV}{d} = \dfrac{4}{3}\pi r^3\rho g \implies q = \dfrac{4\pi r^3 d \rho g}{3V}
+$$
+
+Após realizar este procedimento diversas vezes, a dupla percebeu que todas as cargas calculadas eram múltiplos inteiros de um mesmo número, a <b>carga de um único elétron</b>. Millikan e Fletcher encontraram um valor de $e \approx 1.5924 \cdot 10^{-19} \text{ C}$, menos de 1% de diferença do valor hoje definido no S.I.: $1.602176634 \cdot 10^{-19} \text{ C}$.
+
+## Radioatividade
 
 A história do estudo da radioatividade também possui seu início na década de 1890 com a descoberta dos raios-X pelo físico alemão Wilhelm Röntgen. Röntgen descobriu que certos vidros e metais emitiam raios peculiares após serem bombardeados por raios catódicos — estes raios não poderiam ser desviados por campos magnéticos nem cargas elétricas e, portanto, não poderiam ser compostos por partículas carregadas. Por sua estranha natureza para a época, eles foram nomeados como <i>X-radiation</i>, "raios-X". 
 
@@ -99,9 +164,19 @@ O óxido emitia esta radiação — que também não podia ser composta por part
 
 <i>Marie Curie e sua filha, Iréne Joliot-Curie, em 1925. Ao todo, a família Curie possui cinco prêmios Nobel. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Irene_and_Marie_Curie_1925.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
-Ao longo do tempo, emissões radioativas foram subdivididas em <b>partículas — ou raios — $\alpha$ (alfa)</b>, de carga positiva, <b>raios $\beta$ (beta)</b>, isto é, elétrons, e os <b>raios $\gamma$ (gama)</b>, altamente energéticos e impassíveis aos campos elétricos e magnéticos. 
+## Rutherford
 
-A próxima grande ruptura na linha do tempo dos modelos atômicos veio entre os anos de 1908 e 1911. Os físicos Ernest Rutherford, Hans Geiger e Ernest Marsden bombardearam diferentes materiais com partículas $\alpha$. Essas partículas foram descobertas em 1899 e identificadas como cátions de hélio ($\text{He}^{+2}$) em 1907 pelo próprio Rutherford. 
+A próxima grande ruptura na linha do tempo dos modelos atômicos veio entre os anos de 1908 e 1911. Os físicos Ernest Rutherford, Hans Geiger e Ernest Marsden bombardearam diferentes materiais com partículas $\alpha$.
+
+<aside>
+
+De forma geral, todas as classificações para diferentes emissões radioativas possuem como ponto de origem o físico americano. Em 1898, Rutherford verificou que o poder de penetração da radiação emitida pelo urânio decai rapidamente inicialmente e depois lentamente a medida que mais anteparos são adicionados. Uma consequência desta observação é que a constatação de que a radiação emitida pelo urânio possui duas componentes. Estas componentes, em ordem crescente de penetração, foram chamadas <b>raios $\alpha$</b> e <b>raios $\beta$</b>. 
+
+No ano seguinte, Henri Becquerel verifica que uma componente da radiação emitida pelo rádio se comporta como partículas eletrizadas negativamente. Posteriormente, o francês confirma que estes são os raios $\beta$ de Rutherford — elétrons. 
+
+Em 1900, Paul Villad descobre uma componente ainda mais penetrante. Seguindo o padrão sugerido por Rutherford, este a nomeia como <b>raios $\gamma$</b>. Três anos mais tarde, Rutherford descobre que os raios $\alpha$ podem ser desviados por ímãs suficientemente fortes, possuindo o comportamento de uma partícula eletrizada positivamente. Posteriormente, foi determinado que os raios $\alpha$ são formados por átomos de Hélio duplamente ionizados enquanto os raios gama são ondas eletromagnéticas de alta energia semelhantes aos raios-X.
+
+</aside>
 
 O americano percebeu que, ao bombardear uma folha finíssima de ouro com estas partículas, muitas seguiam sua trajetória retilínea através da folha, enquanto uma porção sofira uma leve deflexão e, além disso, outra era refletida para trás, sofrendo deflexões de ângulo muito elevado. 
 
@@ -240,4 +315,10 @@ $$
 
 # Referências
 
-1. HENRIQUES DA SILVA, Ronaldo. BRAGA DA SILVA, Edson. Princípios básicos de Química, v. 1. 2 . ed. São Paulo: HARBRA Ltda., 1986
+1. HENRIQUES DA SILVA, Ronaldo. BRAGA DA SILVA, Edson. Princípios básicos de Química, v. 1. 2ª ed. São Paulo: HARBRA Ltda., 1986
+2. CHANG, Raymond. General Chemistry: The Essencial Concepts, 6ª ed. Nova Iorque: McGraw-Hill, 2008
+3. <i>Types of Radioactivity- Alpha, Beta, and Gamma Decay</i>, LibreTexts in Chemistry (<a href="https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(LibreTexts)/17%3A_Radioactivity_and_Nuclear_Chemistry/17.03%3A_Types_of_Radioactivity-_Alpha_Beta_and_Gamma_Decay" target="_blank">Acesse aqui</a>)
+4. BERRYMAN, Sylvia. "Ancient Atomism", The Stanford Encyclopedia of Philosophy (Winter 2022 Edition), Edward N. Zalta & Uri Nodelman (eds.) (<a href="https://plato.stanford.edu/archives/win2022/entries/atomism-ancient/" target="_blank">Acesse aqui</a>)
+5. Britannica Editors (2022, October 27). Millikan oil-drop experiment. Encyclopedia Britannica. (<a href="https://www.britannica.com/science/Millikan-oil-drop-experiment" target="_blank">Acesse aqui</a>)
+6. <i>Oil Drop Experiment</i>, LibreTexts in Chemistry (<a href="https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/04%3A_Atomic_Structure/4.12%3A_Oil_Drop_Experiment" target="_blank">Acesse aqui</a>)
+7. <i>The Discovery of the Electron: The J. J. Thomson Experiment</i>. Notas de aula do curso "Laboratório de Física Moderna" do prof. Darrel Smith (Embry-Riddle Aeronautical University, EUA) (<a href="https://physicsx.erau.edu/Courses/CoursesS2026/PS315/Charge-to-Mass/Classic_eoverm.pdf" target="_blank">Acesse aqui</a>)

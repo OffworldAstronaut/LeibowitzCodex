@@ -202,7 +202,7 @@ $$
 \dfrac{1}{2}\rho v^2 + p + \rho gz = C
 $$
 
-que é a equação de Bernoulli. Nesta equação, $C$ é uma constante própria do filete considerado. No caso usual de aplicação desta relação, um escoamento estacionário de um líquido, cuja superfície está em contato com a atmosfera, de um grande reservatório, vale 
+que é a <b>equação de Bernoulli</b>. Nesta equação, $C$ é uma constante própria do filete considerado. No caso usual de aplicação desta relação, um escoamento estacionário de um líquido, cuja superfície está em contato com a atmosfera, de um grande reservatório, vale 
 
 $$
 C = p_0 + \rho gz_0
@@ -316,7 +316,51 @@ $$
 v_1 = A_2 \sqrt{\dfrac{2gh}{A_1^2 - A_2^2}}
 $$
 
-O fenômeno de Venturi tem como uma de suas aplicações a aspiração de fluidos e a produção de vácuo e, por isso, também conhecido como o <b>princípio das bombas aspirantes</b>: a diferença de pressã oprovoca a movimentação de fluido e, consequentemente, das partículas a serem aspiradas.
+O fenômeno de Venturi tem como uma de suas aplicações a aspiração de fluidos e a produção de vácuo e, por isso, também conhecido como o <b>princípio das bombas aspirantes</b>: a diferença de pressão provoca a movimentação de fluido e, consequentemente, das partículas a serem aspiradas.
+
+# Exercícios 
+
+## Problemas 
+
+<aside>
+
+<b>Problema 1.</b> Dois riachos se unem para formar um rio. Um dos riachos tem uma largura de 8,2 m, uma profundidade de 3,4 m e a velocidade da água é 2,3 m/s. O outro riacho tem 6,8 m de largura, 3,2 m de profundidade e a velocidade da água é 2,6 m/s. Se o rio tem uma largura de 10,5 m e a velocidade da água é 2,9 m/s, qual é a profundidade do rio? 
+
+</aside>
+
+<aside>
+
+<b>Problema 2.</b> A entrada da tubulação da figura abaixo tem uma secção reta de 0,74 m² e a velocidade da água é 0,4 m/s. Na saída, a uma distância D = 180 metros abaixo da entrada, a secção reta é menor que a da entrada e a velocidade da água é 9,5 m/s. Qual é a diferença de pressã oentre a entrada e a saída?
+
+</aside>
+
+<aside>
+
+<b>Problema 3.</b> A figura abaixo mostra o jorro de água saindo por um furo a uma distância h = 15 cm da superfície do tanque que contém H = 45 cm de água. (a) Deduza uma expressão para a distância $x$ e calcule seu valor para as condições acima. (b) A que profundidade deve ser feito um segundo furo para que o valor de $x$ seja o mesmo? (c) A que profundidade deve ser feito um furo para maximizar o valor de $x$? 
+
+</aside>
+
+## Soluções 
+
+<!--TODO: ADICIONAR SOLUÇÕES PARA ESTES PROBLEMAS-->
+
+<aside>
+
+<b>Solução 1.</b>
+
+</aside>
+
+<aside>
+
+<b>Solução 2.</b>
+
+</aside>
+
+<aside>
+
+<b>Solução 3.</b>
+
+</aside>
 
 # Referências
 
