@@ -1,16 +1,16 @@
 :root {
     color-scheme: light dark;
 
-    --bg:            light-dark(#f5f0e8, #0c0c0c);
-    --surface:       light-dark(#ede7d9, #1a1919);
-    --surface-alt:   light-dark(#e6dece, #151515);
+    --bg: light-dark(#f5f0e8, #0c0c0c);
+    --surface: light-dark(#ede7d9, #1a1919);
+    --surface-alt: light-dark(#e6dece, #151515);
     --surface-hover: light-dark(#e0d8c8, #2a2828);
-    --border:        light-dark(#d0c8b8, #2a2828);
-    --text:          light-dark(#1c1812, #faf9f6);
-    --text-muted:    light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.8));
-    --link:          light-dark(#7a4f1e, wheat);
-    --shadow:        light-dark(rgba(180,160,120,0.2), rgba(0,0,0,0.25));
-    --selection-hl:  light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
+    --border: light-dark(#d0c8b8, #2a2828);
+    --text: light-dark(#1c1812, #faf9f6);
+    --text-muted: light-dark(rgba(28, 24, 18, 0.75), rgba(250, 249, 246, 0.8));
+    --link: light-dark(#7a4f1e, wheat);
+    --shadow: light-dark(rgba(180, 160, 120, 0.2), rgba(0, 0, 0, 0.25));
+    --selection-hl: light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292));
 }
 
 body {
@@ -79,13 +79,13 @@ header h1 {
     text-align: center;
 }
 
-header h1::before { 
-    content:"✥ ";
+header h1::before {
+    content: "✥ ";
     color: var(--text)
 }
 
-header h1::after { 
-    content:" ✥";
+header h1::after {
+    content: " ✥";
     color: var(--text)
 }
 
@@ -111,7 +111,7 @@ button:hover {
 
 .book-content {
     padding-top: 12px;
-    text-align: justify;    
+    text-align: justify;
 }
 
 .book-content p {
@@ -148,7 +148,8 @@ table {
     overflow-x: scroll;
 }
 
-th, td { 
+th,
+td {
     padding: 12px;
 }
 
@@ -172,22 +173,22 @@ mjx-container[display="true"] {
 }
 
 .math-display {
-  text-align: center;
-  margin: 1.5em 0;
+    text-align: center;
+    margin: 1.5em 0;
 }
 
 .math-display mjx-container {
-  font-size: 1.1em;
-  overflow-x: auto;
-  overflow-y: hidden;
+    font-size: 1.1em;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .smiles {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  display: block;
-  margin: 1em auto;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 1em auto;
 }
 
 a {
@@ -196,50 +197,58 @@ a {
 }
 
 .toc {
-  background: var(--bg-paper, #f5f0e8);
-  border: 1px solid var(--border, #c8b99a);
-  border-radius: 6px;
-  padding: 1rem 1.25rem;
+    background: var(--bg-paper, #f5f0e8);
+    border: 1px solid var(--border, #c8b99a);
+    border-radius: 6px;
+    padding: 1rem 1.25rem;
 }
 
 .toc-title {
-  display: block;
-  font-family: 'Libertinus Math', serif;
-  font-size: 1.4rem;
-  margin-bottom: 0.6rem;
-  color: var(--text, #2a2a2a);
+    display: block;
+    font-family: 'Libertinus Math', serif;
+    font-size: 1.4rem;
+    margin-bottom: 0.6rem;
+    color: var(--text, #2a2a2a);
 }
 
 .toc ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .toc li {
-  line-height: 1.7;
+    line-height: 1.7;
 }
 
-.toc-h1 { padding-left: 0; }
-.toc-h2 { padding-left: 1.2rem; }
-.toc-h3 { padding-left: 2.4rem; }
+.toc-h1 {
+    padding-left: 0;
+}
+
+.toc-h2 {
+    padding-left: 1.2rem;
+}
+
+.toc-h3 {
+    padding-left: 2.4rem;
+}
 
 .toc a {
-  text-decoration: none;
-  color: var(--link, #5a4a2a);
-  font-size: 1.2rem;
-  transition: color 0.2s;
+    text-decoration: none;
+    color: var(--link, #5a4a2a);
+    font-size: 1.2rem;
+    transition: color 0.2s;
 }
 
 .toc a:hover,
 .toc a.toc-active {
-  color: var(--accent, #8a6a2a);
-  text-decoration: underline;
+    color: var(--accent, #8a6a2a);
+    text-decoration: underline;
 }
 
 body.dark .toc {
-  background-color: var(--bg);
-  border-color: var(--border);
+    background-color: var(--bg);
+    border-color: var(--border);
 }
 
 html,
@@ -262,7 +271,7 @@ textarea,
     cursor: url('/cursors/featherpentextselect.cur'), text;
 }
 
-::selection { 
+::selection {
     background: var(--selection-hl)
 }
 
@@ -270,7 +279,7 @@ textarea,
     font-family: "Libertinus Math", "Georgia", serif;
     font-weight: bold;
     float: left;
-    font-size: clamp(3.2rem, 8vw, 4.2rem); 
+    font-size: clamp(3.2rem, 8vw, 4.2rem);
     line-height: 0.82;
     margin-top: 0.12em;
     margin-right: 0.1em;
@@ -289,11 +298,15 @@ textarea,
     }
 }
 
-.book-content h1, h2, h3 {
-    color: var(--link); 
+.book-content h1,
+h2,
+h3 {
+    color: var(--link);
 }
 
-.book-content h1::after, h2::after, h3::after {
+.book-content h1::after,
+h2::after,
+h3::after {
     content: "";
     display: block;
     height: 3px;
@@ -319,85 +332,77 @@ textarea,
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 .book-content .footnotes {
-  margin-top: 4rem;
-  padding-top: 1.5rem;
-  border-top: 2px solid var(--border);
+    margin-top: 4rem;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--border);
 
-  color: var(--text-muted);
-  font-size: 0.82em;
-  line-height: 1.6;
-  text-align: left;
+    color: var(--text-muted);
+    font-size: 0.82em;
+    line-height: 1.6;
+    text-align: left;
 }
 
-.book-content .footnotes > h2.sr-only {
-  position: static;
-  width: auto;
-  height: auto;
-  padding: 0;
-  margin: 0 0 1rem;
-  overflow: visible;
-  clip: auto;
-  white-space: normal;
-  border: 0;
+.book-content .footnotes>h2.sr-only {
+    color: var(--text);
+    position: static;
+    margin: 0 0 1rem;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+    border: 0;
 
-  color: var(--text);
-  font-family: "Libertinus Math", serif;
-  font-size: 1.2em;
-  font-weight: normal;
 }
 
 .book-content .footnotes ol {
-  margin: 0;
-  padding-left: 2rem;
+    margin: 0;
+    padding-left: 2rem;
 }
 
 .book-content .footnotes li {
-  margin-bottom: 0.75rem;
-  padding-left: 0.35rem;
-  scroll-margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-left: 0.35rem;
+    scroll-margin-top: 2rem;
 }
 
 .book-content .footnotes li:last-child {
-  margin-bottom: 0;
+    margin-bottom: 0;
 }
 
 .book-content .footnotes p {
-  margin: 0;
+    margin: 0;
 }
 
 .book-content a[data-footnote-ref] {
-  font-size: 0.7em;
-  text-decoration: none;
-  scroll-margin-top: 2rem;
+    scroll-margin-top: 2rem;
 }
 
 .book-content a[data-footnote-ref]:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .book-content a[data-footnote-backref] {
-  margin-left: 0.4em;
-  font-size: 0.9em;
-  text-decoration: none;
-  scroll-margin-top: 2rem;
+    margin-left: 0.4em;
+    font-size: 0.9em;
+    text-decoration: none;
+    scroll-margin-top: 2rem;
 }
 
 .book-content a[data-footnote-backref]:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 @media (max-width: 480px) {
-  .book-content .footnotes {
-    margin-top: 3rem;
-    padding-top: 1.25rem;
-    font-size: 0.85em;
-  }
+    .book-content .footnotes {
+        margin-top: 3rem;
+        padding-top: 1.25rem;
+        font-size: 0.85em;
+    }
 
-  .book-content .footnotes ol {
-    padding-left: 1.5rem;
-  }
+    .book-content .footnotes ol {
+        padding-left: 1.5rem;
+    }
 }

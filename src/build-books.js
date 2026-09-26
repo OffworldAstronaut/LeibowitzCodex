@@ -18,8 +18,8 @@ const TEMPLATE = fs.readFileSync(
   "utf8"
 );
 
-marked.use(markedFootnote());
-marked.setOptions({"description": "Marginalia"});
+marked.use(markedFootnote({"description": "Marginalia"}));
+marked.setOptions({});
 
 /**
  * Recursively collect all file paths under `dir`.
