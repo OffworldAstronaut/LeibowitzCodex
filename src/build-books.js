@@ -179,8 +179,8 @@ function copyAssets(mdFilePath, outHtmlPath) {
 
 function promoteFootnotesHeading(html) {
   return html.replace(
-    '<h2 id="footnote-label" class="sr-only">Footnotes</h2>',
-    '<h1 id="footnote-label" class="sr-only">Footnotes</h1>'
+    '<h2 id="footnote-label" class="sr-only">Marginalia</h2>',
+    '<h1 id="footnote-label" class="sr-only">Marginalia</h1>'
   );
 }
 
