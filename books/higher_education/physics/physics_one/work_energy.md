@@ -2,7 +2,7 @@
 
 # Definição
 
-O que é **trabalho**? Este conceito está intimamente ligado a conceitos como <b>energia</b> ou <b>força</b>. De fato, sempre que nos referimos a um trabalho, consideramos ele como algo atrelado a uma força que o realiza (trabalho "de" uma força). 
+O que é **trabalho**? Este conceito está intimamente ligado a conceitos como <b>energia</b>[^1] ou <b>força</b>. De fato, sempre que nos referimos a um trabalho, consideramos ele como algo atrelado a uma força que o realiza (trabalho "de" uma força). 
 Para ilustrar esta grandeza, podemos recorrer a situação de um corpo num plano inclinado. 
 
 De maneira formal, definimos o trabalho realizado por uma força $\vec{F}$ sobre um certo corpo em um deslocamento $\vec{x} = \vec{x_2} - \vec{x_1}$ como a integral 
@@ -58,12 +58,6 @@ $$
 $$
 
 que relaciona o trabalho de uma força e a variação de energia cinética sofrida por um corpo. Medimos esta nova grandeza por uma unidade derivada da unidade de força e de deslocamento, o <b>Joule</b> $(\text{J})$. O Joule é definido como o produto entre Newton e metro, com seu nome homenageando o físico inglês James Joule.
-
-<aside>
-
-O conceito de energia é algo extremamente difícil de se definir de forma fechada em razão de seu elevadíssimo nível de abstração, entretanto, a dedução acima nos dá uma brecha de como enxergá-la: uma propriedade quantitativa de um sistema que pode ser transferida, com esta transferência sendo descrita como "sofrer" ou "exercer trabalho" e podendo ser identificada por meio de fenômenos como irradiação de calor ou emissão de luz. 
-
-</aside>
 
 <aside>
 
@@ -193,15 +187,13 @@ Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **p
 
 *Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
 
-O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{\text{max}}$, com todas as posições possíveis oscilando nessa parábola. 
+O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{\text{max}}$, com todas as posições possíveis oscilando nessa parábola.[^2]
 
-<aside>
-Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.
-</aside>
+[^1]: O conceito de energia é algo extremamente difícil de se definir de forma fechada em razão de seu elevadíssimo nível de abstração, entretanto, a dedução acima nos dá uma brecha de como enxergá-la: uma propriedade quantitativa de um sistema que pode ser transferida, com esta transferência sendo descrita como "sofrer" ou "exercer trabalho" e podendo ser identificada por meio de fenômenos como irradiação de calor ou emissão de luz. 
+
+[^2]: Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.
 
 # Referências 
-
-
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>).

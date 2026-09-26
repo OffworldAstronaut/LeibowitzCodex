@@ -338,10 +338,8 @@ html {
 .book-content .footnotes {
     margin-top: 4rem;
     padding-top: 1.5rem;
-    border-top: 2px solid var(--border);
 
     color: var(--text-muted);
-    font-size: 0.82em;
     line-height: 1.6;
     text-align: left;
 }
