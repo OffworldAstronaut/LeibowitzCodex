@@ -19,7 +19,7 @@ const TEMPLATE = fs.readFileSync(
 );
 
 marked.use(markedFootnote());
-marked.setOptions({});
+marked.setOptions({"description": "Marginalia"});
 
 /**
  * Recursively collect all file paths under `dir`.

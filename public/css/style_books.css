@@ -317,3 +317,87 @@ textarea,
     width: 100%;
     height: 100%;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.book-content .footnotes {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid var(--border);
+
+  color: var(--text-muted);
+  font-size: 0.82em;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.book-content .footnotes > h2.sr-only {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 0 0 1rem;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+  border: 0;
+
+  color: var(--text);
+  font-family: "Libertinus Math", serif;
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+.book-content .footnotes ol {
+  margin: 0;
+  padding-left: 2rem;
+}
+
+.book-content .footnotes li {
+  margin-bottom: 0.75rem;
+  padding-left: 0.35rem;
+  scroll-margin-top: 2rem;
+}
+
+.book-content .footnotes li:last-child {
+  margin-bottom: 0;
+}
+
+.book-content .footnotes p {
+  margin: 0;
+}
+
+.book-content a[data-footnote-ref] {
+  font-size: 0.7em;
+  text-decoration: none;
+  scroll-margin-top: 2rem;
+}
+
+.book-content a[data-footnote-ref]:hover {
+  text-decoration: underline;
+}
+
+.book-content a[data-footnote-backref] {
+  margin-left: 0.4em;
+  font-size: 0.9em;
+  text-decoration: none;
+  scroll-margin-top: 2rem;
+}
+
+.book-content a[data-footnote-backref]:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .book-content .footnotes {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    font-size: 0.85em;
+  }
+
+  .book-content .footnotes ol {
+    padding-left: 1.5rem;
+  }
+}
