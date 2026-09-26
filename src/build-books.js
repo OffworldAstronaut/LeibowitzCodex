@@ -4,7 +4,7 @@ import crypto from "crypto";
 import matter from "gray-matter";
 import { marked } from "marked";
 import { fileURLToPath } from "url";
-import { markedFootnote } from "marked-footnote";
+import markedFootnote from "marked-footnote";
 
 
 const __filename = fileURLToPath(import.meta.url);
