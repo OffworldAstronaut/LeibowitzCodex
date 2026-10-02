@@ -405,19 +405,53 @@ uma aproximação da queda exponencial da pressão com a altitude.
 
 <aside>
 
-<b>Solução 1.</b>
+<b>Solução 1.</b> Denotando por $A$ o ponto no fundo do primeiro vaso e $B$ o ponto no fundo do segundo vaso, temos que suas pressões são, respectivamente, $p_A = p_1 + \rho g (N_0 - H)$ e $p_B = p_2 + \rho g (N_0 + h)$. Consequentemente, obtemos: 
+
+$$
+p_A - p_B = p_1 - p_2 - \rho gh \left(\dfrac{d^2}{D^2} + 1\right)
+$$
 
 </aside>
 
 <aside>
 
-<b>Solução 2.</b> 
+<b>Solução 2.</b> Podemos relacionar a força exercida pelo recipiente $F_R$ à força exercida na mola $F_M$ por meio do princípio de Pascal: 
+
+$$
+\dfrac{F_R}{A_R} = \dfrac{F_M}{A_M} \iff F_M = \left(\dfrac{A_M}{A_R}\right)F_R
+$$
+
+Além disso, é conhecido que a força $F_R$ está relacionada com a deformação $\Delta x$ na mola pela Lei de Hooke. Logo, combinando estas duas informações, podemos relacionar a força exercida pelo recipiente com a deformação na mola. 
+
+$$
+F_R \left(\dfrac{A_M}{A_R}\right) = k \Delta x
+$$
+
+Como $F_R$ se refere ao peso da areia, podemos reescrever esta relação como: 
+
+$$
+m_Ag \left(\dfrac{A_M}{A_R}\right) = k \Delta x \iff \Delta x = \dfrac{m_Ag}{k}\left(\dfrac{A_M}{A_R}\right)
+$$
+
+como $A_R = A_e$ e $A_M = 18A_e$, a expressão simplifica-se para: 
+
+$$
+m_A = \dfrac{k\Delta x}{18g}
+$$
+
+Substituindo os valores dados pelo problema, chegamos em $m_A = 817.5 \text{ kg}$.
 
 </aside>
 
 <aside>
 
-<b>Solução 3.</b>
+<b>Solução 3.</b> Por definição, é conhecido que o peso da madeira é dado por $P_M = m_Mg$. Além disso, a massa da madeira é dada por $m_M = \rho_MV$, pela definição de densidade. Quando o bloco de madeira está em equilíbrio sobre a água, pelo princípio de arquimedes, sabemos que 
+
+$$
+g \rho_\text{Água} \cdot \dfrac{2}{3}V = g\rho_M V \implies \rho_M = \dfrac{2}{3}\rho_\text{Água}
+$$
+
+Fazendo a mesma relação para o caso da madeira suspensa no óleo, encontramos $\dfrac{9}{10}\rho_\text{Óleo} = \rho_M$. Solucionando o sistema linear, sabendo que a densidade da água é uma tonelada por metro cúbico, encontramos $\rho_\text{Óleo} = \dfrac{2000}{27} \text{kg/m³}$ e $\rho_M = \dfrac{2000}{243} \text{kg/m³}$. 
 
 </aside>
 

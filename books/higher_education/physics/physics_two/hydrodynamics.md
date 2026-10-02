@@ -346,19 +346,41 @@ O fenômeno de Venturi tem como uma de suas aplicações a aspiração de fluido
 
 <aside>
 
-<b>Solução 1.</b>
+<b>Solução 1.</b> Considerando a água dos rios como um fluido incompressível, podemos aplicar a equação de Bernoulli reduzida. 
+
+$$
+A_1v_1 + A_2v_2 = A_3v_3 \implies L_1P_1v_1 + L_2P_2v_2 = L_3P_3v_3 \therefore P_3 = \dfrac{L_1P_1v_1 + L_2P_2v_2}{L_3v_3} \approx 3.96 \text{ m}
+$$
 
 </aside>
 
 <aside>
 
-<b>Solução 2.</b>
+<b>Solução 2.</b> Pela equação de Bernoulli, temos: 
+
+$$
+\begin{align*}
+    \dfrac{1}{2}\rho v_1^2 + p_1 + \rho gz_1 &= \dfrac{1}{2}\rho v_2^2 + p_2 + \rho gz_2 \\ 
+    \dfrac{1}{2}\rho (v_1^2 - v_2^2) + \rho g(z_1 - z_2) &= p_2 - p_1 \\ 
+    \therefore p_2 - p_1 &= 1.7 \cdot 10^{6} \text{ Pa}
+\end{align*}
+$$
 
 </aside>
 
 <aside>
 
-<b>Solução 3.</b>
+<b>Solução 3.</b> Combinando a equação de Torricelli e o deslocamento horizontal num lançamento horizontal, chegamos em:
+
+$$
+x = \sqrt{2gh}\sqrt{\dfrac{2(H-h)}{g}} = 2 \sqrt{h(H-h)}
+$$
+
+Nas condições acima, teremos $x = 42.5 \text{ cm}$. 
+
+Para solucionar o segundo problema, basta rearranjar os termos e formar uma equação do segundo grau em $h$. Daí, encontramos duas soluções: $h_1 = 29.85 \text{ m}$ e $h_2 = 15.15 \text{ m}$. 
+
+Por fim, derivando esta função em relação a $h$, encontramos que a distância máxima será obtida quando $h = \dfrac{1}{2}H$, isto é, quando o furo estiver à meia-altura do recipiente. 
 
 </aside>
 

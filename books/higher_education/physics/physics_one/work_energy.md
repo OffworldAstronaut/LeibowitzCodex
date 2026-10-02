@@ -189,12 +189,14 @@ Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **p
 
 O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{\text{max}}$, com todas as posições possíveis oscilando nessa parábola.[^2]
 
-[^1]: O conceito de energia é algo extremamente difícil de se definir de forma fechada em razão de seu elevadíssimo nível de abstração, entretanto, a dedução acima nos dá uma brecha de como enxergá-la: uma propriedade quantitativa de um sistema que pode ser transferida, com esta transferência sendo descrita como "sofrer" ou "exercer trabalho" e podendo ser identificada por meio de fenômenos como irradiação de calor ou emissão de luz. 
-
-[^2]: Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.
-
 # Referências 
 
 1. <i>Playlist</i> de Física 1 da USP formada por aulas do prof. Dr. Marcelo Martinelli (<a target="_blank" href="https://www.youtube.com/playlist?list=PLAudUnJeNg4vmlyuv__uBgdOkzw4VSrcJ">Acesse aqui</a>).
 2. LING, S. J. et al. University physics. Houston, Texas: Openstax, Rice University, 2018. v. 1 (<a target="_blank" href="https://openstax.org/details/books/university-physics-volume-1">Acesse aqui</a>).
 3. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013
+
+<!--NOTAS DE RODAPÉ-->
+
+[^1]: O conceito de energia é algo extremamente difícil de se definir de forma fechada em razão de seu elevadíssimo nível de abstração, entretanto, a dedução acima nos dá uma brecha de como enxergá-la: uma propriedade quantitativa de um sistema que pode ser transferida, com esta transferência sendo descrita como "sofrer" ou "exercer trabalho" e podendo ser identificada por meio de fenômenos como irradiação de calor ou emissão de luz. 
+
+[^2]: Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.

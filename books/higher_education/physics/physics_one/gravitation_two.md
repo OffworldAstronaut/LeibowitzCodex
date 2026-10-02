@@ -309,58 +309,326 @@ $$
 
 # Energias
 
-A importância do estudo da energia no contexto da gravitação e da mecânica celeste é, conforme visto ao longo deste documento, de grande porte em razão da simplificação da análise de diversos problemas em comparação com uma abordagem puramente newtoniana, de forças. 
+Em razão da força gravitacional ser conservativa (cf. <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">Trabalho e Energia</a>), uma análise das trajetórias planetárias sob o ponto de vista energético prova-se especialmente útil e interessante. 
 
-A conservação de energia mecânica no movimento dos astros no modelo newtoniano produz um gênero de equações que relacionam a velocidade dos corpos orbitantes com sua distância do corpo central — as equações <i>vis-viva</i>. <!-- Talvez valha reformular esta seção, está muito "simplesmente apresentada", sem demonstrações ou discussões com filosóficas crítica. Por exemplo, poderia ser discutido até "mas de onde vem essa energia? Um corpo realiza trabalho com a força gravitacional sobre outro, mas infinitamente? Nada é gasto (no sentido de transformação) ao realizar esse trabalho? Essa 'energia potencial gravitacional' fica em algum lugar, ou é puramente um artifício para a matemática? 'Porque é uma força de campo, assim como no eletromagnetismo', não é uma resposta convicente, tampouco que responde algo, pois somente define algo que também precisaríamos discutir melhor. Então como se dá essa força, verdadeiramente? O que a massa tem a ver com isso? Talvez a definição de massa tenha que ser debatida (tal da diferença ou igualdade entre a massa inercial e a massa gravitaional)? Por que cai com o quadrado da distancia, falando nisso?". Há muitas questões que poderiam ter sido discutidas aqui, que combinam com o estilo/singularidade autoral. -->
+De fato, um primeiro resultado que pode ser obtido é a classificação de órbitas por meio da energia mecânica associada, isto é, uma relação entre a <b>excentricidade orbital</b> e a energia mecânica do corpo orbitante. 
 
-Para a elipse, a equação correspondente é da forma: 
+Vamos demonstrar isso.
+
+Considere uma massa pontual $m$ sob a ação de uma força central atrativa $\vec{F}(r)$ dada por: 
 
 $$
-v^2 = GM\left(\dfrac{2}{r}-\dfrac{1}{a}\right)
+\vec{F}(r) = -\dfrac{k}{r^2}\hat{r} \ \  (k \gt 0)
 $$
 
-Para orbitas parabólicas e hipérbolicas, as equações correspondentes são, respectivamente: 
+Ao considerarmos a atração gravitacional newtoniana exercida por um corpo central $M$, a constante valerá $k=GMm$. Note, entretanto, que iremos demonstrar para um $k$ qualquer, pois o seguinte resultado vale para toda força central.
+
+Como a energia potencial $V(r)$ correspondente a esta força é da forma
+
+$$
+V(r) = -\dfrac{k}{r}
+$$
+
+temos que a energia mecânica $E$ do sistema é dada por: 
+
+$$
+E = T + V = \dfrac{1}{2}mv^2 - \dfrac{k}{r}
+$$
+
+Em razão da conservação do momento angular (cf. <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">Rotações</a>) — pois $\vec{F}(r)$ é uma força central — torna-se conveniente o emprego de coordenadas polares daqui em diante, pois o movimento de $m$ estará confinado a um plano. 
+
+Logo, podemos escrever o momento angular $\vec{L}$ como 
+
+$$
+\vec{L} = \vec{r} \times m\vec{v} \implies ||\vec{L}|| = L = mr^2 \dot{\theta} \iff \dot{\theta} = \dfrac{L}{mr^2}
+$$
+
+Além disso, teremos
+
+$$
+r^2 \dot{\theta}^2 = \dfrac{L^2}{m^2r^2}
+$$
+
+Como estamos utilizando coordendas polares, nossa expressão para velocidade será 
+
+$$
+\vec{v} = \dot{r}\hat{r} + r\dot{\theta}\hat{\theta}
+$$
+
+Como as componentes são perpendiculares, podemos escrever 
+
+$$
+v^2 = \dot{r}^2 + r^2 \dot{\theta}^2
+$$
+
+Substituindo todas essas relações na equação para energia mecânica, obtemos: 
 
 $$
 \begin{align*}
-    v^2 &= \dfrac{2GM}{r} \\ 
-    v^2 &= GM\left(\dfrac{2}{r}+\dfrac{1}{a}\right)
+    E = \dfrac{1}{2}mv^2 - \dfrac{k}{r} &= \dfrac{1}{2}m(\dot{r}^2 + r^2\dot{\theta}^2) - \dfrac{k}{r} \\ &= \dfrac{1}{2}m\dot{r}^2 + \dfrac{L^2}{2mr^2} - \dfrac{k}{r}
 \end{align*}
 $$
 
-Uma outra consequência interessante do estudo de energia no contexto da mecânica celeste é a possibilidade de classificação de um tipo de órbita pela observação do sinal de sua energia mecânica: órbitas elípticas possuem sinal negativo, parabólicas nulo e hiperbólicas positivo. 
-
-Uma última informação sobre trajetórias hiperbólicas é a que  dado uma massa de teste $m$ a uma velocidade inicial $v_0$ colocada a uma distância muito grande de $M$, o corpo central, a energia mecânica do sistema é da forma 
+Fixada nossa equação para a energia mecânica do sistema, o próximo passo será encontrar uma equação que descreva a órbita do corpo. Por questões de conveniência, iremos introduzir uma variável $u$ de forma que:
 
 $$
-E = \dfrac{mv_0^2}{2}
+u = \dfrac{1}{r} \iff r = \dfrac{1}{u}
 $$
 
-consequentemente, o semieixo maior da órbita pode ser encontrado: 
+Assim, realizando a substituição nas grandezas que determinamos anteriormente, teremos: 
 
 $$
-a = \dfrac{GM}{v_0^2}
+\begin{align*}
+    \dot{\theta} &= \dfrac{L}{mr^2} = \dfrac{L}{m}u^2 \\ 
+    \dot{r} &= -\dfrac{1}{u^2}\dfrac{du}{d\theta}\left(\dfrac{L}{m}u^2\right) = -\dfrac{L}{m}\dfrac{du}{d\theta}\\ 
+    \dot{r}^2 &= \dfrac{L^2}{m^2} \left(\dfrac{du}{d\theta}\right)^2 
+\end{align*}
 $$
 
-## Velocidade de escape e raio de Schwarzschild
-
-Definimos a <b>velocidade de escape</b> $v_\text{esc}$ como a velocidade mínima necessária para que a órbita de um corpo se torne aberta, isto é, parabólica — o corpo orbitante irá se afastar indefinidamente do corpo central. 
-
-Para encontrar uma relação para essa velocidade, podemos considerar a seguinte situação: imagine um corpo $m$ a uma distância $r$ de $M$ possuindo uma velocidade inicial $v_0$. No caso em que $v_0 = v_\text{esc}$, $m$ irá realizar uma órbita aberta até chegar a uma distância infinitamente longe, com velocidade nula.
-
-Pela conservação de energia, temos então: 
+Realizando a troca de variável na equação de energia mecânica, obtemos: 
 
 $$
-v_\text{esc} = \sqrt{\dfrac{2GM}{r}}
+E = \dfrac{1}{2}m\dfrac{L^2}{m^2}\left(\dfrac{du}{d\theta}\right)^2 + \dfrac{L^2}{2m}u^2 - ku
 $$
 
-Pela relatividade geral de Albert Einstein, sabemos que a velocidade da luz é a mais alta que pode ser alcançada. Substituindo esta velocidade na equação anterior e resolvendo para $r$, encontramos uma expressão para o chamado <b>raio de Schwarzschild</b>. 
-
-O raio de Schwarzschild é o raio do horizonte de eventos de um buraco negro de massa $M$. Consequentemente, esta expressão fornece o raio mínimo necessário para que um determinado corpo de massa $M$ seja transformado num buraco negro. 
+Simplificando e multiplicando ambos os membros por $2m/L^2$, chegamos em: 
 
 $$
-R_\text{sch} = \dfrac{2GM}{c^2}
+\left(\dfrac{du}{d\theta}\right)^2 + u^2 - \dfrac{2mk}{L^2}u = \dfrac{2mE}{L^2}
 $$
+
+Esta equação relaciona $u(\theta)$ com a energia mecânica do sistema. Derivando ambos os membros em relação a $\theta$ e dividindo ambos os membros por $2\dfrac{du}{d\theta}$: 
+
+$$
+\dfrac{d^2u}{d\theta^2} + u = \dfrac{mk}{L^2}
+$$
+
+Uma <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial</a> ordinária, linear, de segunda ordem e homogênea. Consequentemente, sabemos que sua solução geral é da forma:
+
+$$
+u(\theta) = \dfrac{mk}{L^2} + A\cos{\theta} + B\sin{\theta}
+$$
+
+Escolhendo nosso eixo de forma que o periastro ocorra em $\theta=0$, obtemos como solução a função 
+
+$$
+u(\theta) = \dfrac{mk}{L^2}(1 + e\cos{\theta})
+$$
+
+com $e \ge 0$ constante. Desfazendo a mudança de variável, obtemos: 
+
+$$
+r(\theta) = \dfrac{L^2/mk}{1+e\cos{\theta}} = \dfrac{p}{1+e\cos{\theta}}
+$$
+
+Note que esta é a equação geral das cônicas (e uma prova alternativa da <a href="/books/higher_education/physics/physics_one/gravitation.md" target="_blank">primeira lei de Kepler</a>!) e que podemos substituí-la na relação de energia para obtermos uma equação que conecta a energia mecânica do sistema com a excentricidade da trajetória, que é o que buscamos. 
+
+Tomando $u = \dfrac{mk}{L^2}(1+e\cos{\theta}) = \alpha(1+e\cos{\theta})$, podemos escrever: 
+
+$$
+\dfrac{du}{d\theta} = -\alpha e \sin{\theta} \implies \left(\dfrac{du}{d\theta}\right)^2 + u^2 = \alpha^2(1 + 2e\cos{\theta} + e^2)
+$$
+
+Substituindo em $E = \dfrac{L^2}{2m}\left[\left(\dfrac{du}{d\theta}\right)^2 + u^2\right] - ku$ e simplificando, obtemos finalmente: 
+
+$$
+E = \dfrac{mk^2}{2L^2}(e^2-1) \iff e^2 = 1 + \dfrac{2EL^2}{mk^2}
+$$
+
+Uma relação para a energia mecânica de uma órbita e sua excentricidade, dada a massa do corpo orbitante, o parâmetro $k$ e o momento angular $L$ do corpo. Perceba que decorre imediatamente que $E \lt 0 \implies e \lt 1$, $E = 0 \implies e = 1$ e $E \gt 0 \implies e \gt 1$.
+
+## Energia mecânica numa órbita elíptica
+
+No caso particular de uma órbita elíptica (isto é, $E \lt 0$), podemos encontrar uma relação entre a energia mecânica $E$ e o eixo maior $2a$? 
+
+Considere a mesma configuração da demonstração anterior, um corpo de massa $m$ sujeito a uma força central $\vec{F}(r)$ de forma que $\vec{F} = -\dfrac{k}{r^2}\hat{r}$. Vamos analisar dois pontos particulares da órbita: o <b>apoastro</b> e o <b>periastro</b>. 
+
+Quando o corpo $m$ está no periastro, sua distância $r_p$ ao corpo central é mínima e vale:
+
+$$
+E_p = \dfrac{1}{2}mv_p^2 - \dfrac{k}{r_p}
+$$
+
+Por outro lado, quando o corpo $m$ está no apoastro, sua distância $r_a$ ao corpo central é máxima e vale: 
+
+$$
+E_a = \dfrac{1}{2}mv_a^2 - \dfrac{k}{r_a}
+$$
+
+Pela conservação do momento angular (cf. <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">Rotações</a>), vale: 
+
+$$
+\dfrac{v_p}{v_a} = \dfrac{r_a}{r_p} \iff v_p = \left(\dfrac{r_a}{r_p}\right)v_a
+$$
+
+Substituindo essa relação na expressão para $E_p$ e fazendo $E_p = E_a$ (em decorrência da conservação de energia mecânica):
+
+$$
+\begin{align*}
+    \dfrac{1}{2}m\left(\dfrac{r_a}{r_p}\right)^2 v_a^2 - \dfrac{k}{r_p} &= \dfrac{1}{2}mv_a^2 - \dfrac{k}{r_a} \\ 
+    \dfrac{1}{2}mv_a^2 \left(\dfrac{r_a^2}{r_p^2} - \dfrac{r_p^2}{r_p^2}\right) &= \dfrac{k(r_a-r_p)}{r_ar_p} \\ 
+    \dfrac{1}{2}mv_a v_p &= \dfrac{k}{r_a+r_p} = E 
+\end{align*}
+$$
+
+Como $r_a + r_p = 2a$ (o eixo maior), chegamos na expressão final: 
+
+$$
+E = \dfrac{k}{2a}
+$$
+
+Uma consequência dessa relação e da conservação de energia é a chamada <b>equação vis-viva</b>. Para obtê-la, basta perceber que para um ponto qualquer da órbita elíptica vale: 
+
+$$
+\begin{align*}
+    \dfrac{1}{2}mv^2 - \dfrac{k}{r} &= \dfrac{k}{2a} \\ 
+    \dfrac{1}{2}mv^2 &= \dfrac{k}{2a} + \dfrac{k}{r} \\ 
+    v^2 &= \dfrac{k}{ma} + \dfrac{2k}{mr} \\ 
+    v &= \sqrt{\dfrac{k}{m}\left(\dfrac{2}{r}+\dfrac{1}{a}\right)}
+\end{align*}
+$$
+
+Substituindo $k = GMm$, a equação assume sua forma usual: 
+
+$$
+v = \sqrt{GM\left(\dfrac{2}{r} - \dfrac{1}{a}\right)}
+$$
+
+Ou seja, dada qualquer trajetória elíptica de eixo maior $a$ em torno de um corpo de massa $M$, é possível determinar sua velocidade em qualquer ponto de sua órbita. 
+
+## Trajetórias parabólicas: velocidade de escape e o raio de Schwarzchild
+
+Quando $E = 0$, percebemos que $e=1$. A esta trajetória chamamos <b>trajetória parabólica</b> ou <b>trajetória de escape</b> em razão de ser a condição mínima para que $m$ vença a atração gravitacional do corpo central e seja ejetado. 
+
+Realizando um procedimento similar ao realizado na órbita elíptica na subseção anterior, podemos escolher como pontos para análise um ponto qualquer da trajetória e um outro no infinito. 
+
+No caso do ponto no infinito, perceba que a condição de órbita parabólica implica que a energia potencial naquele ponto será nula (o que é esperado) mas também que a velocidade naquele ponto (infinitamente distante) também seja nula: uma velocidade menor implicaria menor energia cinética, o que caracterizaria uma trajetória eliptica (ou uma trajetória hiperbólica, que será vista adiante).
+
+Logo, pela conservação de energia mecânica, podemos escrever: 
+
+$$
+\begin{align*}
+    \dfrac{1}{2}mv^2 - \dfrac{k}{r} &= 0 \\ 
+    v^2 &= \dfrac{2k}{mr} \\ 
+    v &= \sqrt{\dfrac{2k}{mr}}
+\end{align*}
+$$
+
+Tomando $k=GMm$, a equação assume a forma usual: 
+
+$$
+v = \sqrt{\dfrac{2GM}{r}}
+$$
+
+Perceba que como estamos tomando um ponto qualquer, uma consequência direta é que um corpo deverá alcançar uma velocidade de módulo $\sqrt{\dfrac{GM}{r}}$ para que sua trajetória seja parabólica e este consiga escapar da influência gravitacional do corpo central. A essa velocidade é chamada <b>velocidade de escape</b>. 
+
+Karl Siegmund Schwarzchild (1873-1916) foi um físico alemão e pioneiro da astrofísica moderna. No começo do século XX, voluntariou-se para lutar pelo seu país na Primeira Guerra Mundial e consequentemente foi morto por complicações relacionadas às infecções obtidas no sórdido ambiente das trincheiras.
+
+Antes de morrer, deixou como importante legado para a astrofísica a equação do chamado <b>raio de Schwarzchild</b>, uma consequência direta da combinação da equação para a velocidade de escape e da Relatividade Geral de Albert Einstein.
+
+Caso tomemos $v = c$, a equação assume a forma
+
+$$
+c = \sqrt{\dfrac{GM}{R_\text{sch}}} \iff c^2 = \dfrac{GM}{R_\text{sch}} \iff R_\text{sch} = \dfrac{GM}{c^2}
+$$
+
+com $R_\text{sch}$ sendo o chamado <b>raio de Schwarzchild</b>, o raio do horizonte de eventos de um buraco negro em função de sua massa.
+
+## Trajetórias hiperbólicas 
+
+Por fim, quando $E \gt 0$, $e \gt 1$ e a trajetória analizada é chamada <b>trajetória hiperbólica</b>. Corpos numa trajetória hiperbólica irão necessariamente escapar da esfera de influência do corpo considerado, alcançando uma velocidade $v_\infty \neq 0$  quando $r \to \infty$, diferenciando-se das trajetórias parabólicas. 
+
+Realizando um procedimento similar ao realizado com as trajetórias parábolicas, podemos aplicar a conservação de energia entre um ponto qualquer da trajetória e um ponto no infinito para obter a equação vis-viva correspondente: 
+
+$$
+v^2 = \dfrac{2k}{mr} + v_\infty^2
+$$
+
+Caso tomemos como outro ponto fixo o de menor aproximação, teremos: 
+
+$$
+v_A^2 = \dfrac{2k}{mx} + v_\infty^2
+$$
+
+Nesta relação, $x$ é chamado <b>parâmetro de impacto</b>, sendo a magnitude da menor distância entre o corpo $m$ e o corpo central. 
+
+Dadas essas informações, podemos nos perguntar: dada uma trajetória hiperbólica, seria possível relacionar a excentricidade com o parâmetro de impacto? Este questionamento pode ser solucionado através da conservação de energia mecânica. 
+
+Considere assim um corpo $m$ em trajetória hiperbólica cujo corpo central possui massa $M$. Além disso, estamos considerando o caso gravitacional de Newton e, portanto, $k = GMm$. 
+
+Pela conservação de energia mecânica, temos: 
+
+$$
+\begin{align*}
+    \dfrac{1}{2}mv^2 - \dfrac{GMm}{r} = \dfrac{1}{2}mv_a^2 - \dfrac{GMm}{x} &\iff \dfrac{G^2M^2m^2}{2L^2}(e^2-1) = \dfrac{1}{2}mv_a^2 - \dfrac{GMm}{x} \\ 
+    &\iff \dfrac{G^2M^2}{L^2}(e^2 - 1) = v_a^2 - \dfrac{2GM}{x}
+\end{align*}
+$$
+
+Tomando $\lambda = GM$:
+
+$$
+\begin{align*}
+    \dfrac{\lambda^2}{L^2}(e^2-1) &= v_a^2 - \dfrac{2\lambda}{x} \\ 
+    e &= \sqrt{\dfrac{L^2(xv_a^2 - 2\lambda)}{x\lambda^2} + 1}
+\end{align*}
+$$
+
+Por outro lado, explicitando $x$: 
+
+$$
+x = \dfrac{2\lambda L ^2}{v_a^2 L^2 - \lambda^2(e^2 - 1)}
+$$
+
+Assim, dado uma trajetória hiperbólica, é sim possível relacionar a sua excentricidade (que por sua vez, cresce quanto mais rápido está o corpo) com o parâmetro de impacto. Preservando o momento angular, uma trajetória mais rápida implica num parâmetro de impacto menor.
+
+Substituindo $v_a = \dfrac{2\lambda}{x} + v_\infty^2$ nas expressões acima, obtemos uma terceira relação: 
+
+$$
+e = \dfrac{Lv_\infty}{\lambda} + 1 
+$$
+
+Que relaciona a velocidade assintótica, o momento angular e o corpo central na excentricidade da órbita. 
+
+Um exemplo astronáutico para essas discussões são as trajetórias obtidas por sondas em regimes de <b>captura</b> ou <b>estilingue</b>. Estas astronaves possuem trajetórias extremamente excêntricas em razão de possuírem uma velocidade acima da velocidade de escape do corpo considerado, sendo rapidamente catapultadas de volta para o espaço exterior. 
+
+Um outro exemplo de corpos com esta trajetória são os cometas extrassolares não-periódicos, ao contrário daqueles que retornam regularmente para o Sistema Solar interior, como o <b>cometa Halley</b>.
+
+## Manobra de Hohmann
+
+A <b>manobra de Hohmann</b>, batizada em homenagem ao engenheiro alemão Walter Hohmann (1880-1945), foi descrita inicialmente por ele em seu livro <i>Die Erreichbarkeit der Himmelskörper</i> ("A alcançabilidade dos corpos celestes"), inspirado na ficção científica de Kurd Lasswitz.
+
+Esta manobra orbital é utilizada para a transferência de uma astronave entre duas órbitas circulares em torno de um corpo central, sendo dividida em duas partes: aceleração para uma órbita elíptica transitória e a circularização da nova órbita alcançada.
+
+Um questionamento natural na astronáutica é a determinação da <b>diferença de velocidade</b> necessária para completar uma determinada manobra. Iremos analisar o problema com este objetivo. 
+
+Considere assim um corpo de massa $m$ numa órbita circular de raio $r$ em torno de um corpo central de massa $M$, sujeito à gravidade newtoniana. Pela equação vis-viva, tomando $a = 0$, temos que a velocidade inicial da astronave é:
+
+$$
+v_0 = \sqrt{\dfrac{GM}{r}}
+$$
+
+Considerando impulsos instantâneos, nosso foguete irá inicialmente acelerar até alcançar uma órbita elíptica transitória de eixo maior $R+r$. Pela equação vis-viva, sabemos que sua velocidade final nesta órbita será: 
+
+$$
+v_1 = \sqrt{GM\left(\dfrac{2}{r} - \dfrac{2}{R+r}\right)} = \sqrt{\dfrac{GM}{r}}\sqrt{\dfrac{2R}{R+r}}
+$$
+
+Consequentemente, temos que $\Delta v_{0 \to 1}$ é: 
+
+$$
+\Delta v_{0 \to 1} = \sqrt{\dfrac{GM}{r}}\left(1+\sqrt{\dfrac{2R}{R+r}}\right)
+$$
+
+Após alcançar o apoastro desta órbita transitória, o foguete irá acelerar novamente para o processo de circularização, alcançando uma órbita circular de raio $R$.
+
+Por um procedimento análogo, chegamos em: 
+
+$$
+\Delta v_{1 \to 2} = \sqrt{\dfrac{GM}{R}} \left(1 - \sqrt{\dfrac{2r}{R+r}}\right)
+$$
+
+Estas grandezas são especialmente úteis na astronáutica — em qualquer manobra — pois é possível estimar se estas são possíveis em função do combustível disponível.
 
 # Exercícios
 

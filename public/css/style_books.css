@@ -339,7 +339,7 @@ sup a {
     font-size: large;
 }
 
-.book-content .footnotes>h2.sr-only {
+.book-content .footnotes>h1.sr-only {
     color: var(--link);
     position: static;
     margin: 0 0 1rem;

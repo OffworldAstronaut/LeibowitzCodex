@@ -143,7 +143,7 @@ Caso um átomo ganhe um elétron (tornando-se um íon negativo, um ânion), seu 
 
 A <b>energia</b> ou <b>potencial de ionização</b> é a energia necessária para a remoção de um elétron de seu átomo, transformando-o num cátion. Esse potencial cresce no sentido inverso do raio atômico, isto é, da esuerda para a direita, de baixo para cima. 
 
-A <b>eletronegatividade</b> é a grandeza que mensura a tendência de um átomo em atrair elétrons para si. Átomos masi eletronegativos atraem seu elétron mais intensamente. Na tabela periódica, a eletronegatividade cesce no mesmo sentido do potencial de ionização. A grandeza inversa chama-se <b>eletropositividade</b>.
+A <b>eletronegatividade</b> é a grandeza que mensura a tendência de um átomo em atrair elétrons para si numa <a href="/books/high_school/chemistry/first_year/chemical_bonds.html" target="_blank">ligação química</a>. Átomos masi eletronegativos atraem seu elétron mais intensamente. Na tabela periódica, a eletronegatividade cesce no mesmo sentido do potencial de ionização. A grandeza inversa chama-se <b>eletropositividade</b>.
 
 A noção de <b>caráter metálico</b> pré-existe até mesmo a tabela períodica, com as classificações <b>metal</b> e <b>ametal</b>. De forma geral, os <b>metais</b> são sólidos caracterizadamente reluzentes, bons condutores de calor e corrente elétrica, maleáveis e dúcteis e geralmente formadores de cátions. Por essas razões, os <b>elementos de transição</b> são também denominados <b>metais de transição</b>.
 
