@@ -255,11 +255,10 @@ A motivação para o conceito de pressão atmosférica surgiu na época de Galil
 
 Evangelista Torricelli, estudante da Academia de Florença e posteriormente sucessor de Galileu como seu catedrático, justificou o acontecimento como uma demonstração do peso que a atmosfera possui, exercendo uma pressão sobretudo na Terra — a <b>pressão atmosférica</b>.
 
-<aside>
-
-<i>Vivemos no fundo de um oceano de ar que, conforme mostra a experiência, sem dúvida tem peso.</i> <br><br> Evangelista Torricelli, conforme descrito por Nussenzveig [1].
-
-</aside>
+<blockquote>
+  <p>Vivemos no fundo de um oceano de ar que, conforme mostra a experiência, sem dúvida tem peso.</p>
+  <cite>Evangelista Torricelli, conforme descrito por Nussenzveig [<a href="#ref-1">1</a>]</cite>
+</blockquote>
 
 Esta constatação foi de certa forma revolucionária para o estudo dos fluidos, pois acreditava-se na época, seguindo a física aristotélica, que a natureza possuía uma espécie de "horror ao vácuo", fazendo de tudo para que este não fosse realizado.
 
