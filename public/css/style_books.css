@@ -161,41 +161,57 @@ blockquote {
     background-color: transparent;
     box-shadow: none;
     max-width: 85%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* Quote text styled with the theme's link accent color and larger font */
+/* Quote container with side quotation marks */
+blockquote .quote-body,
+blockquote p:first-of-type {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+/* Large flanking quotation marks */
+blockquote p:first-of-type::before,
+blockquote p:first-of-type::after {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 3.5rem;
+    line-height: 1;
+    color: var(--link);
+    opacity: 0.8;
+    user-select: none;
+    flex-shrink: 0;
+}
+
+blockquote p:first-of-type::before {
+    content: "“";
+}
+
+blockquote p:first-of-type::after {
+    content: "”";
+}
+
+/* Quote text styled with the theme's link accent color */
 blockquote p {
     color: var(--link);
     font-size: clamp(1.15rem, 3vw, 1.4rem);
     font-style: italic;
     line-height: 1.6;
     margin: 0;
-    display: inline;
+    text-align: center;
 }
 
-/* Big decorative quotes surrounding the paragraph */
-blockquote p::before {
-    content: "“";
-    font-size: 1.3em;
-    line-height: 0;
-    vertical-align: -0.08em;
-    margin-right: 0.12em;
-}
-
-blockquote p::after {
-    content: "”";
-    font-size: 1.3em;
-    line-height: 0;
-    vertical-align: -0.08em;
-    margin-left: 0.12em;
-}
-
-/* Attribution styling (works for direct text after p, cite, or figcaption) */
+/* Attribution styling */
 blockquote cite,
 blockquote figcaption,
 blockquote p + p,
-blockquote > *:not(p) {
+blockquote > *:not(p):not(:first-child) {
     display: block;
     margin-top: 1rem;
     font-size: 0.95rem;
@@ -203,6 +219,7 @@ blockquote > *:not(p) {
     text-transform: uppercase;
     letter-spacing: 0.08em;
     color: var(--text-muted);
+    text-align: center;
 }
 
 /* Delicate centered line separator above attribution */
