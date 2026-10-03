@@ -2,8 +2,7 @@
 
 # Definição
 
-O que é **trabalho**? Este conceito está intimamente ligado a conceitos como <b>energia</b>[^1] ou <b>força</b>. De fato, sempre que nos referimos a um trabalho, consideramos ele como algo atrelado a uma força que o realiza (trabalho "de" uma força). 
-Para ilustrar esta grandeza, podemos recorrer a situação de um corpo num plano inclinado. 
+O que é <b>trabalho</b>? Esta pergunta está intimamente ligada a conceitos como <b>energia</b>[^1] e <b>força</b>. De fato, sempre que nos referimos a um trabalho, consideramos ele como algo atrelado a uma força que o realiza (trabalho "de" uma força). 
 
 De maneira formal, definimos o trabalho realizado por uma força $\vec{F}$ sobre um certo corpo em um deslocamento $\vec{x} = \vec{x_2} - \vec{x_1}$ como a integral 
 
@@ -11,7 +10,11 @@ $$
 W = \int_{x_1}^{x_2} \vec{F} \cdot \vec{x} \ dx
 $$
 
-que, ao considerarmos $\vec{F}$ constante ao longo do movimento, torna-se simplesmente $W = \vec{F} \cdot \vec{x}$. Pela interpretação geométrica do produto escalar no espaço cartesiano, é possível enxergar o trabalho como sendo uma espécie de quantificação da "contribuição" da força $\vec{F}$ ao deslocamento através de sua componente paralela a este. 
+que, ao considerarmos $\vec{F}$ constante ao longo do movimento, torna-se simplesmente $W = \vec{F} \cdot \vec{x}$. Pela interpretação geométrica do produto escalar no espaço cartesiano, é possível enxergar o trabalho como sendo uma espécie de quantificação da contribuição da força $\vec{F}$ ao deslocamento através de sua componente paralela a este. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/95/Men_pushing_a_car_carrying_water_melons.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Uma consequência desse princípio pode ser visualizada no cotidiano: é bem mais fácil empurrar um carro por trás do que pelos lados. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Men_pushing_a_car_carrying_water_melons.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 Se nos atermos simplesmente ao caso unidimensional, temos ainda que $W = F \cdot x$. O sinal da grandeza nos fornece a informação se a força está atuando em prol, contra ou indiferentemente ao deslocamento. 
 
@@ -27,7 +30,7 @@ Como este corpo está num estado de movimento retilíneo uniformemente variado, 
 
 $$
 \begin{align*}
-x(t) &= x_0 + v_0 \cdot t + \dfrac{at^2}{2} \\\\
+x(t) &= x_0 + v_0 \cdot t + \dfrac{at^2}{2} \\
 v_1 &= v_0 + at
 \end{align*}
 $$
@@ -36,7 +39,7 @@ Escrevendo a variável $t$ em função das outras na segunda equação e substit
 
 $$
 \begin{align*}
-    \dfrac{1}{2}v_2^2 - ax_2 &= \dfrac{1}{2}v_1^2 - ax_1 \\\\
+    \dfrac{1}{2}v_2^2 - ax_2 &= \dfrac{1}{2}v_1^2 - ax_1 \\
     \dfrac{1}{2}(\Delta v)^2 &= a \Delta x 
 \end{align*}
 $$
@@ -59,40 +62,35 @@ $$
 
 que relaciona o trabalho de uma força e a variação de energia cinética sofrida por um corpo. Medimos esta nova grandeza por uma unidade derivada da unidade de força e de deslocamento, o <b>Joule</b> $(\text{J})$. O Joule é definido como o produto entre Newton e metro, com seu nome homenageando o físico inglês James Joule.
 
-<aside>
-
-<i>It is important to realize that in physics today, we have no knowledge of what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way. However, there are formulas for calculating some numerical quantity, and when we add it all together it gives [...] always the same number. It is an abstract thing in that it does not tell us the mechanism or the reasons for the various formulas. <br><br>(FEYNMAN, Lectures on Physics Vol. 1, Cap. 4)</i>
-
-</aside>
+<blockquote>
+  <p>É importante perceber que na Física da atualidade não temos conhecimento algum do que é energia. Não temos uma fotografia que nos diga que a energia vêm em pequenas bolinhas de tamanho definido — não é dessa maneira. Entretanto, existem fórmulas que nos permitem calcular alguma quantia numérica [...] que sempre nos fornece o mesmo número. [A energia] é algo abstrato no sentido de que esta não nos fornece nenhuma justificativa ou informação sobre o mecanismo subjacente às fórmulas.[^2]</p>
+  <cite>Richard Feynman</cite>
+</blockquote>
 
 ## Energia potencial e conservação de energia
 
-Uma motivação para o conceito de **energia potencial** vem de um dos passos que tomamos para a definição da energia cinética. Vamos revisitá-lo: a **constante de movimento** com ambos os membros multiplicados por $m$. 
+Uma motivação para o conceito de <b>energia potencial</b> vem de um dos passos que tomamos para a definição da energia cinética. 
+
+Vamos revisitar a <b>constante de movimento</b> com ambos os membros multiplicados por $m$:
 
 $$
-\dfrac{1}{2}mv_2^2 - m \cdot ax_2 = \dfrac{1}{2}mv_1^2 - m \cdot ax_1
+\dfrac{1}{2}mv_2^2 - max_2 = \dfrac{1}{2}mv_1^2 - max_1
 $$
 
-Perceba que os termos que dependem da velocidade são a nossa conhecida **energia cinética**, mas e os outros dois? Essa nova grandeza não depende da velocidade de um corpo, mas sim de sua **posição**.
+Perceba que os termos que dependem da velocidade são a nossa conhecida <b>energia cinética</b>, mas e os outros dois? Essa nova grandeza não depende da velocidade de um corpo, mas sim de sua <b>posição</b>.
 
-Dessa forma, é possível reescrever essa equação em termos de suas funções $T(v)$ e $U(x)$. A essa soma, chamamos **energia mecânica total** do sistema, e à grandeza que depende da posição, **energia potencial**.
+Dessa forma, é possível reescrever essa equação em termos de suas funções $T(v)$ e $U(x)$. A essa soma, chamamos <b>energia mecânica total</b> do sistema, e à grandeza que depende da posição, <b>energia potencial</b>[^4].
 
 $$
 T(v_2) + U(x_2) = T(v_1) + U(x_1)
 $$
 
-<aside>
+Esse princípio, enunciado na equação acima, é chamado de <b>conservação da energia</b>, com os sistemas que o obedecem chamados <b>sistemas conservativos</b>. Vale mencionar que em hipótese alguma a energia é "destruída" se ela não for conservada, ela apenas se dissipa para fora do sistema estudado. 
 
-O termo energia "potencial", de fato, faz uma referência ao conceito de "ato" e "potência" de Aristóteles. Temos uma energia no sistema que "não se concretizou", mas existe como uma "possibilidade de entrar em ação". 
-
-</aside>
-
-Esse princípio, enunciado na equação acima, é chamado de **conservação da energia**, com os sistemas que o obedecem chamados **sistemas conservativos**. Vale mencionar que em hipótese alguma a energia é "destruída" se ela não for conservada, ela apenas se dissipa para fora do sistema estudado. 
-
-Dessa base também é possível definir o que chamamos de **forças conservativas**, isto é, forças cuja atuação depende apenas da **posição de um corpo** e nunca de sua velocidade. Para essas forças, é possível traçar a relação: 
+Dessa base também é possível definir o que chamamos de <b>forças conservativas</b>, isto é, forças cuja atuação depende apenas da <b>posição de um corpo</b> e nunca de sua velocidade. Para essas forças, é possível traçar a relação: 
 
 $$ 
-W = \int F \ dx= - \Delta U
+W = \int F \ dx  = - \Delta U
 $$
 
 Por fim, perceba que desta relação é possível escrever a energia potencial num ponto $P$ por meio da integral 
@@ -101,45 +99,45 @@ $$
 U(P) = - \int_{P_0}^{P} F \ dx
 $$
 
-com $U(P_0) = 0$. De fato, a energia potencial de um corpo num ponto é apenas o trabalho necessário para movê-lo de uma dada posição de referênicia até este ponto.
-
-<aside>
-
-Podemos justificar essa expressão ao escrever $E = T + U$, derivar a equação em relação ao tempo e reorganizar os termos. 
-
-</aside>
+com $U(P_0) = 0$. De fato, a energia potencial de um corpo num ponto é apenas o trabalho necessário para movê-lo de uma dada posição de referência até este ponto. Podemos justificar essa expressão ao escrever $E = T + U$, derivar a equação em relação ao tempo e reorganizar os termos. 
 
 Por exemplo, sabendo que a força peso é escrita da forma $F=mg$, sua energia potencial associada (gravitacional) pode ser encontrada a partir de algumas operações. Vamos dizer que estamos comparando dois pontos, $x_1$ e $x_2$, a uma altura $x$ um do outro.
 
 $$
 \begin{align*}
-    \int_{x_1}^{x_2} F \ dx &= mg(x_2 - x_1) = -\Delta U \\\\
+    \int_{x_1}^{x_2} F \ dx &= mg(x_2 - x_1) = -\Delta U \\
     &= \Delta U = -mg(x_2 - x_1)
 \end{align*}
 $$
 
 Dessa forma, definindo $x_2 - x_1 = h$, nossa altura,  conseguimos demonstrar a tão conhecida $U(h) = mgh$. 
 
-Retornando à distinção entre forças conservativas e não-conservativas (também chamadas de forças **dissipativas**), uma diferença notável entre as duas encerra-se no trabalho: o trabalho de uma força conservativa independe do caminho atravessado pelo móvel, mas apenas das suas posições iniciais e finais. O contrário é dito das dissipativas, em que a "trajetória", a "história" do móvel importa.
+Retornando à distinção entre forças conservativas e não-conservativas (também chamadas de forças <b>dissipativas</b>), uma diferença notável entre as duas encerra-se no trabalho: o trabalho de uma força conservativa <b>independe</b> do caminho atravessado pelo móvel, mas apenas das suas posições iniciais e finais. O contrário é dito das dissipativas: a trajetória do móvel importa. 
+
+Numa maneira mais formal, conforme exposta por Nussenzveig, podemos dizer que uma condição necessaria e suficiente para que uma força $\vec{F}$ seja conservativa é: 
+
+$$
+\oint_C \vec{F} \cdot \vec{dl} = 0 
+$$
+
+para qualquer caminho fechado $C$.
 
 Como exemplos de forças conservativas, podemos citar, além da força peso, a força elástica e a força elétrica.
 
 ## Potência
 
+Definimos a grandeza <b>potência</b> como a <b>taxa temporal de realização de trabalho</b> de uma força. Como foi demonstrado pelo teorema anterior, é possível também descrevê-la como a <b>taxa de transferência energética</b> de uma força.
 
-
-Definimos a grandeza **potência** como a **taxa da realização de trabalho ao longo do tempo** de uma força. Como foi demonstrado pelo Teorema anterior, é possível também descrevê-la como a **taxa de transferência energética** de uma força.
-
-Durante o ensino médio, entramos em contato com a chamada **potência média**, definida por:
+Durante o ensino médio, entramos em contato com a chamada <b>potência média</b>, definida por:
 
 $$
-P_{M} = \dfrac{\Delta W}{\Delta t}
+\bar{P} = \dfrac{\Delta W}{\Delta t}
 $$
 
-Entretanto, a chamada **potência instantânea**, ou simplesmente **potência**, é expressa como a derivada do trabalho em relação ao tempo. Pelas propriedades do Cálculo, podemos também expressar o trabalho como a integral da potência.
+Entretanto, a chamada <b>potência instantânea</b>, ou simplesmente <b>potência</b>, é expressa como a derivada temporal do trabalho. O <a href="/books/higher_education/math/calculus_two/integration.html" target="_blank">teorema fundamental do Cálculo</a> nos garante que o trabalho é a integral da potência.
 
 $$
-P = \dfrac{dW}{dt} \Longleftrightarrow  W = \int P \ dt
+P(t) = \dfrac{dW}{dt} \Longleftrightarrow  W(t) = \int P(t) \ dt
 $$
 
 ## Gráficos de estabilidade
@@ -150,17 +148,17 @@ Um exemplo inicial simples é o de um objeto em queda livre (ou lançamento vert
 
 ![Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA)](images/work_energy/work_energy_potential_energy_freefall.png)
 
-*Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
+<i>Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).</i>
 
-Perceba que o gráfico é uma linha reta de inclinação $mg$, com sua altura sendo sua energia potencial em uma dada posição e a "altura restante" até a reta assinalada sua **energia cinética**, com a soma dos dois comprimentos constante para todo $y \in [y_0, y_{max}]$. 
+Perceba que o gráfico é uma linha reta de inclinação $mg$, com sua altura $U_A$ sendo sua energia potencial em uma dada posição e a "altura restante" $K_A$ até a reta assinalada sua energia cinética, com a soma dos dois comprimentos constante para todo $y \in [y_0, y_{max}]$. 
 
 A partir do gráfico é possível encontrar a altura máxima, por exemplo: 
 
 $$
 \begin{align*}
-    U(y_{\text{max}}) &= E - K(y_{\text{max}}) \\\\
-    mg y_{\text{max}} &= E - \dfrac{1}{2}mv_f^2 \\\\ 
-    E &= mg y_{\text{max}} \\\\
+    U(y_{\text{max}}) &= E - K(y_{\text{max}}) \\
+    mg y_{\text{max}} &= E - \dfrac{1}{2}mv_f^2 \\ 
+    E &= mg y_{\text{max}} \\
     \dfrac{E}{mg} &= y_{\text{max}}
 \end{align*}
 $$
@@ -169,25 +167,25 @@ Essa mesma relação pode ser explorada para encontrar a velocidade inicial, $v_
 
 $$
 \begin{align*}
-    mgy_0 &= E - \dfrac{1}{2}mv_0^2 \\\\
-    E &= \dfrac{1}{2}mv_0^2 \\\\
+    mgy_0 &= E - \dfrac{1}{2}mv_0^2 \\
+    E &= \dfrac{1}{2}mv_0^2 \\
     v_0 &= \sqrt{\dfrac{2E}{m}}
 \end{align*}
 $$
 
-Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado **sistema massa-'mola'** simples, sem atrito nem qualquer tipo de força dissipativa. 
+Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado sistema massa-mola simples, sem atrito nem qualquer tipo de força dissipativa. 
 
-![Sistema massa mola](https://upload.wikimedia.org/wikipedia/commons/d/d5/Animated-mass-spring-faster.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/0/02/Federpendel2.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-<i>Um sistema massa mola. GIF sob CC-BY-SA via <a href="https://commons.wikimedia.org/wiki/File:Animated-mass-spring-faster.gif" target="_blank">Wikimedia Commons</a>.</i>
+<i>Um sistema massa mola unidimensional. Imagem sob domínio público via <a href="https://commons.wikimedia.org/wiki/File:Federpendel2.svg" target="_blank">Wikimedia Commons</a>.</i>
 
-Esse sistema é interessante por nos introduzir pela primeira vez ao chamado **poço de potencial**. Observando seu gráfico de energia potencial em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
+Esse sistema é interessante por nos introduzir pela primeira vez ao chamado <b>poço de potencial</b>. Observando seu gráfico de energia potencial em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
 
 ![](images/work_energy/work_energy_potential_graph_springmass.png)
 
-*Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).*
+<i>Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).</i>
 
-O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{\text{max}}$, com todas as posições possíveis oscilando nessa parábola.[^2]
+O poço de potencial mencionado é a concavidade do gráfico: um sistema massa-mola com uma energia potencial $E$ nunca irá poder ter uma oscilação maior do que $x_{\text{max}}$, com todas as posições possíveis estando sobre uma mesma parábola.[^3]
 
 # Referências 
 
@@ -199,4 +197,8 @@ O "poço de potencial" mencionado é a concavidade do gráfico: um sistema massa
 
 [^1]: O conceito de energia é algo extremamente difícil de se definir de forma fechada em razão de seu elevadíssimo nível de abstração, entretanto, a dedução acima nos dá uma brecha de como enxergá-la: uma propriedade quantitativa de um sistema que pode ser transferida, com esta transferência sendo descrita como "sofrer" ou "exercer trabalho" e podendo ser identificada por meio de fenômenos como irradiação de calor ou emissão de luz. 
 
-[^2]: Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.
+[^2]: Adaptado de <i>Lectures on Physics</i>, vol. 4.
+
+[^3]: Experimente imaginar um gráfico de potencial diferente e explorar as limitações de movimento de um sistema, com base na sua energia inicial.
+
+[^4]: O termo energia "potencial", de fato, faz uma referência ao conceito de "ato" e "potência" de Aristóteles. Temos uma energia no sistema que "não se concretizou", mas existe como uma "possibilidade de entrar em ação". 

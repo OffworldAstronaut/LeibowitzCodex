@@ -8,11 +8,15 @@ Levando em conta que a grandeza de <b>velocidade (média)</b> é a proporção d
 
 De forma semelhante, a aceleração é o valor da segunda derivada da função deslocamento num dado ponto. De fato, a partir das operações de integração e derivação, podemos encontrar as equações de movimento para qualquer móvel. 
 
-Uma aplicação notável desta última informação são os <b><a href="https://en.wikipedia.org/wiki/Inertial Navigation System" target="_blank">Sistemas de Navegação Inercial</a></b> (<i>Inertial Navigation Systems</i>). Os SNIs são capazes de determinar a posição atual do veículo independentemente de informação externa, somente a partir do registro da aceleração sofrida pelo veículo ao longo do tempo e de uma posição inicial registrada na memória. São geralmente utilizados em aeronaves e espaçonaves, além de embarcações, como sistemas redundantes, caso a comunicação falhe.
+Uma aplicação notável desta última informação são os <a href="https://en.wikipedia.org/wiki/Inertial Navigation System" target="_blank">Sistemas de Navegação Inercial</a> (<i>Inertial Navigation Systems</i>). Os SNIs são capazes de determinar a posição atual do veículo independentemente de informação externa, somente a partir do registro da aceleração sofrida pelo veículo ao longo do tempo e de uma posição inicial registrada na memória. São geralmente utilizados em aeronaves e espaçonaves, além de embarcações, como sistemas redundantes, caso a comunicação falhe.
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/5d/Centrale-intertielle_missile_S3_Musee_du_Bourget_P1010652.JPG?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Sistema de navegação inercial presente no míssil nuclear francês de médio alcance SSBS 3, em serviço entre os anos de 1973 e 1998. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Centrale-intertielle_missile_S3_Musee_du_Bourget_P1010652.JPG" target="_blank">Wikimedia Commons</a>.</i>
 
 # Vetores
 
-Chamamos <b>vetores</b> os objetos matemáticos que possuem um módulo (magnitude) e uma orientação. No campo da Física, algumas grandezas são descritas como <i>vetoriais</i>, possuindo direção e magnitude e descritas utilizando estes objetos. Como exemplo, podemos citar entes físicos como força e momento. Estas grandezas contrastam com as chamadas <b>escalares</b>, descritas por números reais ("escalares"). Dentre estas últimas, podemos citar como exemplo a temperatura ou a energia cinética de um corpo. 
+Chamamos <b>vetores</b> os objetos matemáticos que possuem um módulo (magnitude) e uma orientação. No campo da Física, algumas grandezas são descritas como <i>vetoriais</i>, possuindo direção e magnitude e descritas utilizando estes objetos. Como exemplo, podemos citar entes físicos como força e momento. Estas grandezas contrastam com as chamadas <i>escalares</i>, descritas por números reais (escalares, propriamente ditos, elementos do corpo dos Reais). Dentre estas últimas, podemos citar como exemplo a temperatura ou a energia cinética de um corpo. 
 
 São chamados <b>vetores unitários</b> ou <b>versores</b> os vetores que possuem magnitude ("tamanho") exatamente uma unidade, comumente sendo escolhidos para formar um sistema de coordenadas. No espaço usual, chamamos o sistema de coordenadas de <b>dextrogiro</b>, pois, após a mudança de posição de algum dos vetores, a posição relativa aos outros deve permanecer igual. 
 
@@ -32,7 +36,7 @@ Ao representarmos os vetores, fazemos o uso dos chamados <b>componentes</b>, pro
 
 <aside>
 
-Este livro possui o objetivo de ser um resumo adequado para a disciplina de Física 1, dispensando muito da profundidade e rigorosidade matemática em favor de algo mais simples e especializado. Algo mais aprofundado será escrito na parte matemática (nos tópicos sobre <a href="/books/higher_education/math/analytical_geometry/the_plane.html">Geometria Analítica</a> e Álgebra Linear).
+Este manuscrito possui uma abordagem introdutória e contextualizada suficiente para as aplicações necessárias de Física 1. Para uma abordagem mais rigorosa, consulte os tratados de geometria analítica e álgebra linear (e.g. <a href="/books/higher_education/math/analytical_geometry/the_plane_the_space.html" target="_blank">O Plano e o Espaço</a> e <a href="/books/higher_education/math/linear_algebra/vector_spaces.html" target="_blank">Espaços Vetoriais</a>).
 
 </aside>
 
@@ -51,18 +55,18 @@ As coordenadas de um vetor são chamadas também "componentes" ou "componentes e
 Por exemplo, $5\vec{v}$ produz um vetor $\vec{u}$ com o quíntuplo da magnitude de $\vec{v}$. Em coordenadas, teríamos algo como: 
 
 $$
-    5 \cdot 
-    \begin{bmatrix}
-        u_1 \\ u_2 
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-        5u_1 \\ 5u_2
-    \end{bmatrix}
-    =
-    \begin{bmatrix}
-        v_1 \\ v_2
-    \end{bmatrix}
+5 \cdot 
+\begin{bmatrix}
+    u_1 \\ u_2 
+\end{bmatrix}
+=
+\begin{bmatrix}
+    5u_1 \\ 5u_2
+\end{bmatrix}
+=
+\begin{bmatrix}
+    v_1 \\ v_2
+\end{bmatrix}
 $$
 
 ## Soma de vetores 
@@ -71,7 +75,7 @@ Podemos somar dois vetores geometricamente transladando um vetor de forma que se
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/a6/Vector_add_scale.svg)
 
-<i>Ilustração da regra do paralelogramo ao somar dois vetores. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Vector_add_scale.svg" target="_blank">Wikimedia Commons</a></i>
+<i>Ilustração da regra do paralelogramo ao somar dois vetores. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Vector_add_scale.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Para somar dois vetores algebricamente, podemos somar suas coordenadas, produzindo uma nova matriz. 
 
@@ -94,17 +98,14 @@ $$
 Sua soma pode ser escrita como: 
 
 $$ 
-\begin{align*}
-    \vec{a} + \vec{b} &=
-    \begin{bmatrix}
-        2 + 4 \\ 5 + 5 
-    \end{bmatrix}
-    \\
-    &= 
-    \begin{bmatrix}
-        6 \\ 10
-    \end{bmatrix}
-\end{align*}
+\vec{a} + \vec{b} =
+\begin{bmatrix}
+    2 + 4 \\ 5 + 5 
+\end{bmatrix}
+=
+\begin{bmatrix}
+    6 \\ 10
+\end{bmatrix}
 $$
 
 Considerando os versores do espaço tridimensional, poderíamos escrever a soma desta maneira, também: 
@@ -119,7 +120,7 @@ $$
 
 ## Produto escalar 
 
-O <b>produto escalar</b>, também chamado <b>produto ponto</b> ou <b>produto interno</b> é uma operação especial definida como a soma do produto coordenada a coordenada dos vetores. Em notação de somatório, podemos escrever: 
+O <b>produto escalar</b>, também chamado <b>produto ponto</b> ou <b>produto interno</b> (embora, nota-se, que rigorosamente o termo "<a href="/books/higher_education/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>" se refere a uma classe mais geral de operações) é uma operação especial definida como a soma do produto coordenada a coordenada dos vetores. Em notação de somatório, podemos escrever: 
 
 $$
 \vec{a} \cdot \vec{b} = \langle \vec{a}, \vec{b} \rangle = \sum_{i=1}^{N}a_ib_i = a_1b_1 + a_2b_2 + ... + a_nb_n

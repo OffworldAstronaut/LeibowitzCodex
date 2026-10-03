@@ -6,15 +6,31 @@ Duas abordagens mais usuais para a representação matemática do movimento de u
 
 O matemático francês Joseph-Louis Lagrange (1736-1813) teve como ponto de partida a análise das trajetórias dos pontos materiais de um fluido, formada por todos os vetores posição $r_i(t)$. A determinação destes vetores ao longo do tempo é útil para a análise de alguns sistemas, mas excessivamente laboriosa, o que a deixou em segundo plano perante a abordagem de Euler. 
 
-O genial suíço Leonhard Euler (1707-1783) desenhou outra abordagem baseando-se nas <b>velocidades</b> em cada ponto, fixo, do fluido. Dessa forma, analiza-se um campo vetorial, chamado <b>campo de velocidades</b>, que atribui a cada ponto do fluido um vetor velocidade, indicando a velocidade das partículas que passam por aquela região, ao longo do tempo. 
+![](https://upload.wikimedia.org/wikipedia/commons/7/73/Kaberneeme_campfire_site.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Fotografia de longa exposição de uma fogueira. As linhas brilhantes formam os caminhos das faíscas emitidas — no contexto dos fluidos, estudar todos estes caminhos é a abordagem proposta por Lagrande. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Kaberneeme_campfire_site.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+O polímata suíço Leonhard Euler (1707-1783) desenhou outra abordagem baseando-se nas <b>velocidades</b> em cada ponto, fixo, do fluido. Dessa forma, analisa-se um campo vetorial, chamado <b>campo de velocidades</b>, que atribui a cada ponto do fluido um vetor velocidade, indicando a velocidade das partículas que passam por aquela região, ao longo do tempo. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/62/Velocity_relative_to_ground.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Exemplo de um campo de velocidades no estudo computacional da interação entre uma asa de avião e o ar ao seu redor. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Velocity_relative_to_ground.png" target="_blank">Wikimedia Commons</a>.</i>
 
 Na modelagem de Euler, as chamadas <b>linhas de corrente</b> são análogas às <b>linhas de força</b> no <a href="/books/high_school/physics/physics3/electric_field.html" target="_blank">campo elétrico</a>. Estas linhas são uma família de curvas cujos vetores tangentes formam o campo de velocidades supracitado. Uma consequência interessante é que as linhas de corrente são as trajetórias que um ponto material percorreria caso estivesse no interior do fluido.
 
 De forma similar podemos definir os chamados <b>tubos de corrente</b>, superfícies formadas num dado instante por todos as linhas decorrente num fluido que intersectam uma curva fechada qualquer $C$.
 
+![](https://upload.wikimedia.org/wikipedia/commons/7/73/Streamlines_and_streamtube.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>As linhas de corrente (em azul) foram um tubo de corrente limitado pelas curvas $C_1$ e $C_2$. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Streamlines_and_streamtube.svg" target="_blank">Wikimedia Commons</a>.</i>
+
 A abstração matemática do campo de velocidades permite a classificação de <b>tipos de escoamento</b> que um líquido pode sofrer. Temos assim duas grandes categorias: o escoamento <b>estacionário</b> e o escoamento <b>não-estacionário</b>. 
 
 Fluidos em escoamento <b>estacionário</b> possuem um capo de velocidade constante ao longo do tempo, enquanto isto não acontece em escoamentos não-estacionários. O caso extremo destes últimos são os escoamentos <b>turbulentos</b>, em que cada vetor do campo de velocidades varia bruscamente e de forma irregular ao longo do tempo.
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/6f/T%C3%BAnel_de_viento%2C_v%C3%B3rtice_de_Von_Karman.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Animação de um estudo computacional de um túnel de vento. Note que o escoamento do ar no tubo é não-estacionário, com o campo de velocidades mudando continuamente, embora de forma regular. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:T%C3%BAnel_de_viento,_v%C3%B3rtice_de_Von_Karman.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 ## Conservação da massa e a equação de continuidade
 
@@ -100,11 +116,19 @@ onde $\Delta m$ é o elemento de massa, $\Delta V$ é o elemento de volume assoc
 
 Algo a se notar é que, além das forças volumétricas externas que atuam sobre o fluido, como a força gravitacional, a viscosidade, uma <b>força interna</b>, também atua. 
 
-Dizemos que a força de viscosidade corresponde ao atrito das camadas de líquido entre si, uma espécie de cisalhamento, que provoca tensões tangenciais. 
+Dizemos que a força de viscosidade corresponde ao atrito das camadas de líquido entre si, uma espécie de <b>cisalhamento</b>, que provoca tensões tangenciais. 
 
-Fluidos ideais com escoamento perfeito não possuem viscoidade alguma, ou seja, não possuem tensões tangenciais internas. Nestes fluidos continua válida a demonstração de que a pressão no interior do fluido independe da orientação do elemento de superfície considerado. Além disso, considerando um fluido em equilíbrio, esse resultado (que a pressão só depende da posição) é válido tanto para fluidos perfeitos como reais.
+![](https://upload.wikimedia.org/wikipedia/commons/9/93/Laminar_shear.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-Quando consideramos a viscosidade num fluido, dizemos que este fluido é real, contrastando com os fluidos ideais. Esta viscosidade — resistência ao escoamento — pode ser maior ou menor, a depender da composição do fluido: mel escoa mais lentamente que água, por exemplo. Embora seu comportamento seja distinto, a aproximação para fluidos ideais é suficiente para fluidos reais com viscosidade suficientemente baixa.
+<i>Ilustração da origem da viscosidade em razão do atrito de camadas de fluido umas sobre as outras. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Laminar_shear.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+Fluidos ideais com escoamento perfeito não possuem viscosidade alguma, ou seja, não possuem tensões tangenciais internas. Nestes fluidos continua válida a demonstração de que a pressão no interior do fluido independe da orientação do elemento de superfície considerado. Além disso, considerando um fluido em equilíbrio, esse resultado (que a pressão só depende da posição) é válido tanto para fluidos perfeitos como reais.
+
+Quando consideramos a viscosidade num fluido, dizemos que este fluido é <b>real</b>, contrastando com os fluidos <b>ideais</b>. Esta viscosidade — resistência ao escoamento — pode ser maior ou menor, a depender da composição do fluido: mel escoa mais lentamente que água, por exemplo. Embora seu comportamento seja distinto, a aproximação para fluidos ideais é suficiente para fluidos reais com viscosidade suficientemente baixa.
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/44/Viscosities.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Comparação do escoamento de dois líquidos de diferentes viscosidades. O líquido azul está mais próximo de um fluido ideal do que o fluido laranja. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Viscosities.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 Assim, temos que a resultante das forças volumétricas e superficiais (decorrentes da pressão) para um fluido em movimento possui a mesma expressão para um fluido em repouso (cf. <a href="/books/higher_education/physics/physics_two/hydrostatics.html" target="_blank">Hidrostática</a>): 
 
@@ -153,6 +177,10 @@ Para deduzirmos esta importante equação, é importante primeiro frisar que est
 Considere então um tubo de corrente de espessura infinitesimal limitado por duas seções transversais de área $A_1$ e $A_2$, respectivamente. A este tubo especial dada a denominação <b>filete de corrente</b>. 
 
 Imagine então que num tempo infinitesimal o fluido no interior deste filete movimenta-se, com a porção compreendida entre as áreas $A_1$ e $A_2$ indo para uma nova região limitada entre $A_1'$ e $A_2'$. Pelas restrições que colocamos sobre as características do líquido, para a conservação de energia basta analisar o sistema como se a porção de fluido entre $A_1$ e $A_1'$ fosse transportada para a região entre $A_2$ e $A_2'$. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/20/BernoullisLawDerivationDiagram.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Filete de corrente utilizado para a demonstração da equação de Bernoulli. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:BernoullisLawDerivationDiagram.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Como a massa dessas porções são iguais (pelo princípio da conservação da massa), ou seja, 
 
@@ -230,15 +258,7 @@ O termo $\dfrac{v^2}{2g}$ é chamado <b>altura cinética</b>, indicando a altura
 
 Por último, o termo $\dfrac{p}{\rho g}$ é chamado <b>altura piezométrica</b>, representando a altura necessária de uma coluna de fluido de densidade $\rho$ para que o fundo da coluna sofra a ação de uma pressão $p$. 
 
-A partir desta visão, a equação de Bernoulli pode ser realizada da maneira a seguir (NUSSENZVEIG 2002):
-
-<aside>
-
-<i>
-    A soma das alturas geométrica, cinética e piezométrica permanece constante ao longo de cada linha de corrente no escoamento estacionário de um fluido incompressível no campo gravitacional.
-</i>
-
-</aside>
+A partir desta visão, a equação de Bernoulli pode ser enunciada por: <i>A soma das alturas geométrica, cinética e piezométrica permanece constante ao longo de cada linha de corrente no escoamento estacionário de um fluido incompressível no campo gravitacional</i>.
 
 # Aplicações 
 
@@ -258,9 +278,17 @@ $$
 
 Nesta expressão, $z$ é a altura do orifício, $v$ é a velocidade de escoamento, $p_0$ é a pressão atmosférica e $v_0$ é a velocidade inicial das correntes de fluido. Como $z - z_0 = h$, a altura da superfície do recipiente até o orifício, a expressão reduz-se a sua forma familiar: $v = \sqrt{2gh}$. 
 
+![](https://upload.wikimedia.org/wikipedia/commons/0/0c/TorricelliLawDiagram.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Diagrama ilustrando a fórmula de Torricelli. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:TorricelliLawDiagram.svg" target="_blank">Wikimedia Commons</a>.</i>
+
 ## Tubo de Pitot
 
 Um <b>tudo de Pitot</b> é um sistema físico utilizado para aferir a velocidade de aviões. Este sistema consiste numa massa aerodinâmica no interior de um tubo repleto de fluido em escoamento estacionário, de forma que uma das regiões sofra uma colisão frontal com o fluido enquanto em outras a interferência da massa com o escoamento seja desprezível.
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/60/Pitot_tube_manometer.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Diagrama de um tubo de Pitot. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Pitot_tube_manometer.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 Este ponto de colisão frontal é chamado <b>ponto de estagnação</b>, com $v_O \approx 0$ neste ponto. Pela equação de Bernoulli, tomando $p$ como a pressão num ponto $A$ (que não sofre interferência da massa) e $p_O$ como a pressão em $O$: 
 
@@ -282,13 +310,21 @@ $$
 
 que é o cálculo efetuado para determinar a velocidade de aviões.
 
+![](https://upload.wikimedia.org/wikipedia/commons/a/a4/B777-381_JA8752_nose_Pitot_tube_ja.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Tubos de Pitot (em amarelo) num Boeing 777-381. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:B777-381_JA8752_nose_Pitot_tube_ja.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
 ## Fenômeno de Venturi 
 
 Denominamos <b>fenômeno de Venturi</b> o comportamento de que, dado um tubo com um fluido incompressível em escoamento estacionário em seu interior com uma região mais delgada ao logo de seu comprimento, a pressão do fluido diminui nas regiões de menor espessura enquanto a velocidade do fluido aumenta. 
 
-Essa constatação foi feita pelo italiano Giovanni Venturi (1746-1822) e noemada em sua homenagem. 
+Essa constatação foi feita pelo italiano Giovanni Venturi (1746-1822) e nomeada em sua homenagem. 
 
-Podemos analisar este fenômeno imaginando este tubo com vasos nas seções mais ou menos espessoas. No primeiro e no terceiro tubo, o fluido eleva-se a uma altura $h_1$, enquanto no segundo tubo, sobre a região mais estreita, o líquido eleva-se a uma altura $h_2$, de forma que $h_2 \lt h_1$. 
+![](https://upload.wikimedia.org/wikipedia/commons/4/4b/Venturi5.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Diagrama de um medidor de Venturi. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Venturi5.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+Podemos analisar este fenômeno imaginando este tubo com vasos nas seções mais ou menos espessas. No primeiro e no terceiro tubo, o fluido eleva-se a uma altura $h_1$, enquanto no segundo tubo, sobre a região mais estreita, o líquido eleva-se a uma altura $h_2$, de forma que $h_2 \lt h_1$. 
 
 Considerando ainda $A_1$ e $A_2$ as áreas das respectivas seções transversais e $(p_1, v_1), (p_2, v_2)$ as pressões e velocidades, pela equação de Bernoulli temos: 
 

@@ -233,41 +233,45 @@ Por fim, comparando com a Lei de Hooke, temos que a constante $K$ da mola equiva
 
 # Mudança de referencial
 
-Dado que sempre descrevemos os movimentos com base em algum **referencial**, em algum **sistema de coordenadas**, <a target="_blank" href="kinematics.html">como exposto anteriormente</a>, é interessante analisar a possibilidade da chamada **mudança de referencial**, isto é, analisar os corpos sob o olhar de outros observadores.
+Dado que sempre descrevemos os movimentos com base em algum <b>referencial</b> (<a target="_blank" href="kinematics.html">como exposto anteriormente</a>) é interessante analisar a possibilidade da chamada **mudança de referencial**, isto é, analisar os corpos sob o olhar de outros observadores.
 
-Podemos considerar, como um caso ilustrativo, dois referenciais bidimensionais, $O$ e $O'$, e um corpo $P$. 
+Podemos considerar, como um caso ilustrativo, dois referenciais bidimensionais, $O$ e $O'$, e um corpo $P$ com posição $\vec{r}(t)$, velocidade $\vec{v}(t)$ e aceleração $\vec{a}(t)$ em relação ao referencial $O$. Além disso, o referencial $O'$ possui posição $\vec{r_1}(t)$, velocidade $\vec{v_1}(t)$ e aceleração $\vec{a_1}(t)$ em relação ao referencial $O$. 
 
-Pela imagem acima, podemos deduzir as seguintes relações: 
+Pela caso acima, podemos deduzir as seguintes relações com um pouco de imaginação: 
 
 $$
 \begin{align*} 
-\vec{r}(t) &= \vec{R}(t) + \vec{r'}(t) \\ 
-\vec{v}(t) &= \vec{V_R}(t) + \vec{V}'(t) \\ 
-\vec{a}(t) &= \vec{a_R}(t) + \vec{a}'(t)
+    \vec{r}(t) &= \vec{r_1}(t) + \vec{r'}(t)\\ 
+    \vec{v}(t) &= \vec{v_1}(t) + \vec{v'}(t)\\ 
+    \vec{a}(t) &= \vec{a_1}(t) + \vec{a'}(t)
 \end{align*}
 $$
 
-Ou seja, conhecendo informações entre os referenciais, é possível facilmente escrever um movimento em relação a outro referencial. A partir daqui, vale explorar com mais detalhes os conceitos de **referenciais inerciais e não-inerciais**. 
+Com $\vec{r'}(t)$, $\vec{v'}(t)$ e $\vec{a'}(t)$ sendo, respectivamente, a posição, a velocidade e aceleração do corpo $P$ em relação ao referencial $O'$. 
+
+Ou seja, conhecendo informações entre os referenciais, é possível facilmente escrever um movimento em relação a outro referencial. A partir daqui, vale explorar com mais detalhes os conceitos de <b>referenciais inerciais e não-inerciais</b>. 
 
 ## Referenciais inerciais e não-inerciais
 
-Chamamos <b>referencial inercial</b> o referencial que, "em relação a outro referencial, possui aceleração $\vec{a_R}(t)$ nula". Ou seja, ambos os referenciais estão em repouso em relação ao outro. Em referenciais inerciais, a Lei da Inércia é válida sem a introdução de forças fictícias que compensam esta aceleração do referencial.
+Chamamos <b>referencial inercial</b> o referencial que, em relação a outro referencial, possui aceleração nula. Ou seja, ambos os referenciais estão em repouso (ou em movimento retilíneo uniforme) em relação ao outro. Em referenciais inerciais, a Lei da Inércia é válida sem a introdução de forças fictícias que compensam esta aceleração do referencial.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Inertial_frames.svg)
 
 <i>Os referenciais $S'$ e $S$ se movimentam um em relação ao outro com uma velocidade uniforme $\vec{v}$. Um é referencial inercial em relação a outro, com a trajetória de um movimento em relação a um referencial sendo idêntica se olhada do ponto de vista de outro referencial. Imagem sob CC-BY-SA, via <a target="_blank" href="https://commons.wikimedia.org/wiki/File:Inertial_frames.svg">Wikimedia Commons</a>.</i>
 
-Do estudo de referenciais inerciais, pode-se tirar o chamado <b>Princípio da Relatividade Galileana</b>, chamado ainda de <b>Relatividade de Galileu</b>, que afirma a invariância das leis da mecânica para todos os observadores de referenciais inerciais, com uma consequência notável sendo a indistinguibilidade entre movimentos retilíneos uniformes e o repouso de corpos.
+Do estudo de referenciais inerciais, pode-se tirar o chamado <b>princípio da relatividade galileana</b>, chamado ainda de <b>relatividade de Galileu</b>, que afirma a invariância das leis da mecânica para todos os observadores de referenciais inerciais, com uma consequência notável sendo a indistinguibilidade entre movimentos retilíneos uniformes e o repouso de corpos.
 
-Pela Relatividade de Galileu é produzida a <b>transformação de Galileu</b>, que relaciona as grandezas do movimento realizado por um corpo em relação a dois referenciais inerciais. Valem os axiomas da física galileana-newtoniana: há um espaço e um tempo absolutos, únicos e uniformes para todos os observadores. A massa também não varia em relação aos observadores. 
+Pela relatividade de Galileu é produzida a <b>transformação de Galileu</b>, que relaciona as grandezas do movimento realizado por um corpo em relação a dois referenciais inerciais. Valem os axiomas da física galileana-newtoniana: há um espaço e um tempo absolutos, únicos e uniformes para todos os observadores. A massa também não varia em relação aos observadores. 
 
 A transformação de Galileu é a seguinte: 
 
 $$
-\vec{r} = \vec{r'} + \vec{V_R} \cdot t
+\vec{r}(t) = \vec{r'}(t) + \vec{V_R} \cdot t
 $$
 
-Ao se analisar outras forças, como por exemplo, a força elétrica, percebe-se que nem todas obedecem à Relatividade de Galileu, suscitando a necessidade de outro modelo físico para descrevê-las em diferentes referenciais. Notavelmente, no eletromagnetismo, é utilizada a Relatividade de Lorentz.
+Com $\vec{r}$ e $\vec{r'}$ sendo as posições de um mesmo móvel em relação a dois referenciais e $\vec{V_R}$ a velocidade de um referencial em relação ao outro.
+
+Ao se analisar outras forças, como por exemplo, a força elétrica, percebe-se que nem todas obedecem à relatividade de Galileu, suscitando a necessidade de outro modelo físico para descrevê-las em diferentes referenciais. Notavelmente, no eletromagnetismo, é utilizada a <b>relatividade de Lorentz</b>.
 
 Por outro lado, os <b>referenciais não-inerciais</b> estão acelerando um em relação ao outro, levando a invalidade das Leis de Newton em sua forma padrão, a menos que sejam introduzidas forças fictícias.
 
@@ -275,9 +279,8 @@ Pelas Leis de Newton:
 
 $$
 \begin{align*}
-\vec{a} &= \vec{a'}+ \vec{A_R} \\ 
-\vec{F} &= \vec{F'} + m \cdot \vec{A_R} \\ 
-\vec{F'} &= \vec{F} -\boxed{m \cdot \vec{A_R}}
+    \vec{a} &= \vec{a'}+ \vec{A_R} \\ 
+    \vec{F} &= \vec{F'} + m \cdot \vec{A_R} \iff \vec{F'} =\vec{F} -\boxed{m \cdot \vec{A_R}}
 \end{align*}
 $$
 

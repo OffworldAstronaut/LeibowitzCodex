@@ -2,9 +2,7 @@
 
 # Momento
 
-Chamamos <b>momento (linear)</b> $(\vec{p})$ a grandeza associada ao movimento de um corpo, dependente de sua massa e velocidade. Originalmente, ao definí-la, Newton a chamou de "quantidade de movimento". Temos ainda que, ao definir o momento para uma partícula ou um corpo, é natural definir o momento de um sistema como o total da soma do momento de todos os corpos pertencentes ao sistema considerado.
-
-A grandeza do momento pode ser compreendida como a "inércia" da mudança de movimento de um corpo. Essa "dificuldade" é classicamente ilustrada pelo exemplo do automóvel e do carrinho de bebê — é infinitamente mais fácil parar um carrinho de bebê com as mãos do que o automóvel. 
+Chamamos <b>momento (linear)</b> a grandeza (geralmente denotada por $\vec{p}$) associada ao movimento de um corpo, dependente de sua massa e velocidade. Originalmente, ao definí-la, Newton a chamou de "quantidade de movimento" ou <i>momentum</i>, com base num conceito preexistente na mecânica de sua época, com origens na física aristotélica. Temos ainda que, ao definir o momento para uma partícula ou um corpo, é natural definir o momento de um sistema como o total da soma do momento de todos os corpos pertencentes ao sistema considerado.
 
 # Centro de massa
 

@@ -257,7 +257,7 @@ Evangelista Torricelli, estudante da Academia de Florença e posteriormente suce
 
 <blockquote>
   <p>Vivemos no fundo de um oceano de ar que, conforme mostra a experiência, sem dúvida tem peso.</p>
-  <cite>Evangelista Torricelli, conforme descrito por Nussenzveig [<a href="#ref-1">1</a>]</cite>
+  <cite>Evangelista Torricelli</cite>
 </blockquote>
 
 Esta constatação foi de certa forma revolucionária para o estudo dos fluidos, pois acreditava-se na época, seguindo a física aristotélica, que a natureza possuía uma espécie de "horror ao vácuo", fazendo de tudo para que este não fosse realizado.

@@ -50,7 +50,7 @@ $$
 
 Em questões de nomenclatura, identifica-se também $\vec{L}'$ como o <b>momento angular interno</b> do sistema, enquanto $\vec{R} \times \vec{P}$ é o seu <b>momento angular externo</b>. $\vec{L}$, então, seria o <b>momento angular total</b> do sistema.
 
-# Princípio fundamental da dinâmica para rotações
+## Princípio fundamental da dinâmica para rotações
 
 Do <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> (2ª lei de Newton) é possível deduzir um princípio análogo para os movimentos de revolução, válido tanto para referenciais inerciais como não-inerciais.
 
@@ -97,6 +97,8 @@ W_{\phi_0 \to \phi_1} = \dfrac{1}{2}I\omega_1^2 - \dfrac{1}{2}I\omega_0^2 = T_1 
 $$
 
 Como ambos os movimentos mais simples da translação e rotação possuem apenas um grau de liberdade, consequentemente as equações correspondentes a cada movimento possuem um elevado grau de semelhança. É interessante relacioná-las por meio de uma tabela, como exposto abaixo. 
+
+<!--TODO: Montar uma tabela comparando as expressões para rotação e translação-->
 
 # Conservação do momento angular
 

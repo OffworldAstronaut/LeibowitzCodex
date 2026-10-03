@@ -82,11 +82,11 @@ $$
 
 Após essa pequena recapitulação e expansão de conceitos, iremos demonstrar um importante resultado obtido pelo próprio Isaac Newton e publicado pelo físico em seu <i>Principia Mathematica</i>: 
 
-<blockquote>
+<aside>
 
-<i>Um corpo extenso de simetria esférica atrai outro corpo como se toda a sua massa estivesse concentrada em seu centro. Além disso, a força gravitacional resultante no interior de uma casca esférica é nula, em qualquer ponto.</i>
+<b>Teorema (das cascas esféricas)</b> — Um corpo extenso de simetria esférica atrai outro corpo como sse toda a sua massa estivesse concentrada em seu centro. Além disso, a força gravitacional resultante no interior de uma casca esférica é nula, em qualquer ponto.
 
-</blockquote>
+</aside>
 
 Considere uma casca esférica de raio $a$ e espessura $h$, de forma que $h \to 0$. Além disso, em razão da simetria e das dimensões do corpo, este possui densidade uniforme. Por fim, considere uma massa teste $m$ num ponto $P$ no exterior da casca. 
 
@@ -191,12 +191,14 @@ Como é possível repetir este processo para qualquer par de pontos na casca, co
 
 ## Hooke e a gravidade-mola
 
+<!--TODO: Realizar as devidas análises dimensionais nesta seção-->
+
 Note que nas demonstrações anteriores das leis de Kepler a única característica realmente necessária para essas serem válidas é a característica radial da força. Logo, isso nos permite conduzir um experimento mental interessante: e se a força de atração gravitacional, ao invés de ser como a de Newton, fosse hookeriana? 
 
 $$
 \vec{F_H} = -G' M_1M_2r\hat{r}
 $$
-<!-- G tem dimensões para a gravitação usual, sendo que a força dá sempre em Newton, e portanto uma análise dimensional em ambos os lados deve ser feita. [G']= [G]/m³-->
+
 onde $r = ||\vec{r}||$ e $\vec{r}$ é o vetor raio entre as massas $M_1$ e $M_2$ e $G'$ é uma constante análoga a $G$ para manter a dimensionalidade. Além disso, $\hat{r} = \dfrac{\vec{r}}{r}$. 
 
 Como primeiro exercício de nossa imaginação, vamos comparar os períodos orbitais de um corpo em torno de outro, seguindo uma trajetória circular. Considere um corpo central de massa $M$, um satélite de massa $m$ e uma órbita de raio $r$. 
@@ -246,14 +248,14 @@ Qual a razão dos períodos, portanto?
 $$
 \dfrac{T_N}{T_H} =\dfrac{\dfrac{2\pi r^2 \sqrt{\dfrac{GM}{r}}}{GM}}{\dfrac{2\pi \sqrt{G'M}}{G'M}} =r^{3/2}\sqrt{\dfrac{G'}{G}} \iff T_N \propto r^{3/2} \cdot T_H
 $$ 
-<!-- Esqueceu da análise dimensional! -->
+
 Até as órbitas no caso hookeriano seriam mais velozes! Interessante, não?
 
 # Cavendish
 
 Olhando para os céus conseguimos concluir e verificar muita coisa, entretanto, por ser uma lei <b>universal</b>, poderíamos também verificar sua validade em laboratório? Deste questionamento, surgiu o experimento de Cavendish, ainda no século XVIII.
 
-O experimento de Cavendish foi executado entre 1797 e 1798 pelo físico inglês Henry Cavendish, sendo o primeiro a mensurar o valor da constante gravitacional $G$ e verificar a atração entre duas massas num laboratório, de forma precisa. Além disso, Cavendish conseguiu mensurar de forma indireta a massa da Terra.
+O experimento de Cavendish foi executado entre 1797 e 1798 pelo físico inglês Henry Cavendish (1731-1810), sendo o primeiro a mensurar o valor da constante gravitacional $G$ e verificar a atração entre duas massas num laboratório, de forma precisa. Além disso, Cavendish conseguiu mensurar de forma indireta a massa da Terra.
 
 Este experimento consiste numa balança de torção com duas bolas metálicas. Na proximidade destas bolas são colocadas esferas muito maiores de chumbo. Ao longo do tempo, a força gravitacional entre os pares de esferas provoca uma rotação minúscula no suporte da balança, até que a força restauradora do suporte se equilibre com o torque provocado pela atração gravitacional. 
 

@@ -2,17 +2,19 @@
 
 # Mecânica celeste
 
+<!--TODO: Incrementar nessa primeira parte a mecânica celeste pré-Newton (incluindo Antiguidade)-->
+
 Como definição inicial, temos que <b>mecânica celeste</b> utiliza princípios físicos e propriedades matemáticas para explicar e prever os movimentos de todo corpo sujeito à ação da gravidade. Vamos começar pelo início.
 
 Nossa história moderna começa entre a Idade Média e a Idade Moderna, no chamado Renascimento. Nesse período, compreendido entre os séculos XV e XVI, também figurou a chamada <b>Revolução Científica</b>, um período de rápida ruptura no modo de investigação do mundo natural, que se tornou mais matemática e empirista e menos filosófica, distanciando-se de suas origens greco-romanas.
 
-O marco para o início da Revolução Científica são os estudos do sacerdote, médico, jurista e matemático polonês <!-- Mais abaixo é mencionado "O sacerdote polonês", sendo o Copérnico não havia sido apresentado com esses detalhes. Então adicionei. Para que não ficasse muito semelhante ao que foi citado abaixo, adicionei os outros cargos dele. --> Nicolau Copérnico, publicados em sua obra prima <i>De Revolutionibus Orbium Cœlestium</i> (Sobre a Revolução das Esferas Celestes). Copérnico argumentou que o modelo heliocêntrico, que colocava o Sol no centro do Universo, seria uma alternativa melhor ao modelo geocêntrico, que prevalecia desde a Antiguidade. 
+O marco para o início da Revolução Científica são os estudos do sacerdote, médico, jurista e matemático polonês Nicolau Copérnico, publicados em sua obra prima <i>De Revolutionibus Orbium Cœlestium</i> (Sobre a Revolução das Esferas Celestes). Copérnico argumentou que o modelo heliocêntrico, que colocava o Sol no centro do Universo, seria uma alternativa melhor ao modelo geocêntrico, que prevalecia desde a Antiguidade. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/28/Copernican_heliocentrism_diagram-2.jpg)
 
 <i>Diagrama do modelo heliocêntrico por Nicolau Copérnico. Das órbitas mais internas para as mais externas, temos: Mercúrio, Vênus, Terra (com a Lua), Marte, Júpiter, Saturno e as Estrelas Fixas.</i>
 
-O modelo geocêntrico de Ptolomeu vigorava desde o século II AD, baseando-se na noção de que os céus eram perfeitos e imutáveis e, portanto, os movimentos dos planetas seguiriam trajetórias circulares — o círculo era a forma geométrica perfeita para os gregos. Para explicar movimentos como os <b>retrógrados</b>, o modelo recorria aos chamados <b>epiciclos</b>, círculos matemáticos imaginários. <!--esferas cristalinas invisiveis entra na explicação fisica lá do aristóteles-->
+O modelo geocêntrico de Ptolomeu vigorava desde o século II AD, baseando-se na noção de que os céus eram perfeitos e imutáveis e, portanto, os movimentos dos planetas seguiriam trajetórias circulares — o círculo era a forma geométrica perfeita para os gregos. Para explicar movimentos como os <b>retrógrados</b>, o modelo recorria aos chamados <b>epiciclos</b>, círculos matemáticos imaginários.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c6/Epicycles.gif)
 
@@ -22,7 +24,7 @@ Embora tenha sido satisfatório por muito tempo, o modelo geocêntrico tornou-se
 
 # Tycho e Kepler
 
-Um outro passo importante foi dado pelo astrônomo dinamarquês Tycho Brahe e seu assistente, o matemático oficial da Corte do Sacro Império Romano-Germânico, Johannes Kepler. <!-- Pesquisando aqui, Kepler não foi matemático da corte dinamarquesa, e sim do imperador Rodolfo II. Quem teve esse cargo foi o Tycho. --> Brahe havia observado o céu por cerca de duas décadas, meticulosamente registrando posições de planetas e estrelas ao longo de todo esse tempo. Kepler, então, um proponente fervoroso do heliocentrismo copernicano, se utilizou destes dados na composição de suas leis para o movimento planetário, hoje conhecidas como <b>Leis de Kepler</b>.
+Um outro passo importante foi dado pelo astrônomo dinamarquês Tycho Brahe e seu assistente, o matemático oficial da Corte do Sacro Império Romano-Germânico, Johannes Kepler. Brahe havia observado o céu por cerca de duas décadas, meticulosamente registrando posições de planetas e estrelas ao longo de todo esse tempo. Kepler, então, um proponente fervoroso do heliocentrismo copernicano, se utilizou destes dados na composição de suas leis para o movimento planetário, hoje conhecidas como <b>Leis de Kepler</b>.
 
 As leis de Kepler são três, dispostas abaixo. 
 
@@ -88,7 +90,7 @@ Puramente observacionais, os desenvolvimentos de Kepler não se preocupavam com 
 
 # Galileu e Newton
 
-Galileu Galilei, físico, engenheiro, astronômo e matemático florentino, nasceu em 15 de fevereiro de 1564 <!-- pobre galileu, aqui estava que ele nasceu no dia da morte dele... --> e foi declarado como o Pai da Física Moderna. Catedrático da Academia de Pisa, desenvolveu as primeiras linhas que viriam a se tornar a mecânica clássica, fundamentando-a com talvez um de seus mais importantes conceitos, a <b>inércia</b>.
+Galileu Galilei (1564-1642), físico, engenheiro, astronômo e matemático florentino, foi declarado como o Pai da Física Moderna.Catedrático da Academia de Pisa, desenvolveu as primeiras linhas que viriam a se tornar a mecânica clássica, fundamentando-a com talvez um de seus mais importantes conceitos, a <b>inércia</b>.
 
 Isaac Newton, baseando-se em Galileu, argumentou que os planetas não necessitavam de uma força tangencial para continuarem seu movimento ao redor do Sol, mas sim de uma força <b>em direção a ele</b> para que estes não escapassem pela tangente. Denominamos sua lei de <b>Gravitação Universal</b> pois Newton unificou a mecânica celeste com a terrestre, sujeitas às mesmas leis de movimento. 
 
@@ -243,7 +245,7 @@ Essas observações atestavam que, de fato, a força gravitacional atua em dist�
 
 <aside>
 
-Clique <a href="/books/higher_education/physics/physics_one/gravitation_two.html" target="_blank" target="_blank">aqui</b> para ir para o segundo volume.
+Clique <a href="/books/higher_education/physics/physics_one/gravitation_two.html" target="_blank" target="_blank">aqui</a> para ir para o segundo volume.
 
 </aside>
 

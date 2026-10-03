@@ -16,7 +16,7 @@ Na teoria das colisões, o problema mais fundamental é determinar a configuraç
 
 # Impulso 
 
-Podemos motivar a definição de uma nova grandeza, o <b>impulso</b> ($\vec{I}$) associada a uma força $\vec{F}$ a partir do estudo de caso de uma colisão frontal entre duas esferas.
+Podemos motivar a definição de uma nova grandeza, o <b>impulso</b> (denotado geralmente por $\vec{I}$ ou $\vec{J}$) associada a uma força $\vec{F}$ a partir do estudo de caso de uma colisão frontal entre duas esferas.
 Note que, para este sistema, temos as seguintes equações de movimento
 
 $$
@@ -39,7 +39,7 @@ fornece o <b>impulso</b> da força $\vec{F}$ durante o instante $(t_i, t_f)$, co
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e7/Peugeot_306_airbags_deployed.jpg)
 
-<i>A relação direta entre o tempo de atuação da força e a diferença de momentos iniciais e finais de um dado corpo numa colisão motivaram a criação de dispositivos de segurança, como o airbag. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Peugeot_306_airbags_deployed.jpg" target="_blank">Wikimedia Commons</a></i>
+<i>A relação direta entre o tempo de atuação da força e a diferença de momentos iniciais e finais de um dado corpo numa colisão motivaram a criação de dispositivos de segurança, como o airbag. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Peugeot_306_airbags_deployed.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 # Colisões elásticas e inelásticas 
 
