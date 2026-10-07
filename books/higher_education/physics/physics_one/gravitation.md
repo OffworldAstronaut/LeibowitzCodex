@@ -1,32 +1,119 @@
 # Gravitação I
 
-# Mecânica celeste
+# Mecânica celeste na Antiguidade
 
-<!--TODO: Incrementar nessa primeira parte a mecânica celeste pré-Newton (incluindo Antiguidade)-->
+## Esferas celestes, Platão e Aristóteles
 
-Como definição inicial, temos que <b>mecânica celeste</b> utiliza princípios físicos e propriedades matemáticas para explicar e prever os movimentos de todo corpo sujeito à ação da gravidade. Vamos começar pelo início.
+A <b>mecânica celeste</b> utiliza princípios físicos e propriedades matemáticas para explicar e prever os movimentos de todo corpo sujeito à ação da gravidade. Em seus princípios, entretanto, esta mecânica permaneceu ligada à <b>astronomia de posição</b>, o ramo da astronomia preocupado em determinar a posição dos astros no céu. 
 
-Nossa história moderna começa entre a Idade Média e a Idade Moderna, no chamado Renascimento. Nesse período, compreendido entre os séculos XV e XVI, também figurou a chamada <b>Revolução Científica</b>, um período de rápida ruptura no modo de investigação do mundo natural, que se tornou mais matemática e empirista e menos filosófica, distanciando-se de suas origens greco-romanas.
+Para determinar estas posições, fez-se necessária a abstração da <b>esfera celeste</b>. A esfera celeste é uma esfera cristalina imaginária onde estão "incrustadas" todas as estrelas visíveis no céu noturno, no ponto de vista da Terra (que está no centro dessa esfera). Nota-se que esta esfera imaginária possui um raio muito grande, de forma a modelar o fato de que todas as estrelas parecem equidistantes de nós. 
 
-O marco para o início da Revolução Científica são os estudos do sacerdote, médico, jurista e matemático polonês Nicolau Copérnico, publicados em sua obra prima <i>De Revolutionibus Orbium Cœlestium</i> (Sobre a Revolução das Esferas Celestes). Copérnico argumentou que o modelo heliocêntrico, que colocava o Sol no centro do Universo, seria uma alternativa melhor ao modelo geocêntrico, que prevalecia desde a Antiguidade. 
+Em razão dessa observação, não faz sentido avaliarmos a distância das estrelas, mas sim apenas suas posições enquanto pontos na casca da esfera celeste. 
 
-![](https://upload.wikimedia.org/wikipedia/commons/2/28/Copernican_heliocentrism_diagram-2.jpg)
+Nesta esfera podemos fixar alguns pontos e regiões especiais. Em razão de nosso planeta estar no centro desta construção, os polos norte e sul são projetados nos polos celeste norte (PCN) e celeste sul (PCS). Além disso, a projeção da Linha do Equador terrestre na esfera torna-se o Equador Celeste e o plano tangente a qualquer ponto da Terra chama-se <b>plano do horizonte</b> daquele observador. 
 
-<i>Diagrama do modelo heliocêntrico por Nicolau Copérnico. Das órbitas mais internas para as mais externas, temos: Mercúrio, Vênus, Terra (com a Lua), Marte, Júpiter, Saturno e as Estrelas Fixas.</i>
+Em razão do movimento anti-horário da Terra (no sentido PS-PN), o movimento aparente das estrelas segue o sentido horário. 
 
-O modelo geocêntrico de Ptolomeu vigorava desde o século II AD, baseando-se na noção de que os céus eram perfeitos e imutáveis e, portanto, os movimentos dos planetas seguiriam trajetórias circulares — o círculo era a forma geométrica perfeita para os gregos. Para explicar movimentos como os <b>retrógrados</b>, o modelo recorria aos chamados <b>epiciclos</b>, círculos matemáticos imaginários.
+A eclíptica é a trajetória circular do Sol pela esfera celeste ao longo de um ano ao negligenciarmos seu movimento diurno. Em termos práticos, isso equivale a registrar a posição do Sol todos os dias no mesmo horário ao longo de um ano em relação às estrelas fixas. Nota-se que do ponto de vista de um observador na Terra, nossa estrela desloca-se aproximadamente um grau diariamente em relação ao restante da esfera celeste para o leste — no sentido oposto às estrelas. 
+
+![https://upload.wikimedia.org/wikipedia/commons/8/8c/Ecliptic_with_earth_and_sun_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original]
+
+<i>Ao projetar o caminho do Sol em relação às estrelas fixas, obtemos a eclíptica. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Ecliptic_with_earth_and_sun_animation.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+A inclinação dessa trajetória é de 23,5° (a mesma inclinação do eixo de rotação da terra), que intersecta o Equador Celeste em dois pontos: o ponto de Áries (também denominado ponto $\gamma$ ou ponto vernal) e o ponto de Libra.
+
+Os pontos Áries e Libra são essenciais para o chamado <b>sistema de coordenadas equatorial</b>, que possibilita a identificação de qualquer ponto na esfera celeste por duas coordenadas: <b>ascensão reta</b> ($\alpha$, análoga da longitude) e <b>declinação</b> ($\delta$, análoga da latitude).
+
+A ascensão reta é determinada a partir do ponto Áries, crescendo no sentido anti-horário e variando entre 0° e 360°. A declinação, por outro lado, assume valores entre -90° e 0° (entre o PCS e o Equador) e entre 0° e +90° (entre o Equador e o PCN). Por exemplo, o aglomerado das Plêiades está localizado na posição $(3° 47.4', +24° 7')$. 
+
+Platão, no século IV a.C, propôs aos seus discípulos um problema que iria influenciar profundamente o estudo da astronomia pelos próprios séculos: <i>Quais são os movimentos uniformes cuja existência explica o movimento aparente dos planetas?</i> A razão para tal seria um modelo do Universo que o explicasse em termos de construtos perfeitos: círculos (considerados a forma geométrica ideal) e movimentos uniformes. 
+
+Eudoxo, discípulo de Platão, desenvolveu um sistema que explicava o movimento dos corpos celestes através de múltiplas esferas celestes concêntricas na Terra. Algumas dessas esferas estariam acopladas, produzindo os complexos movimentos observados de alguns planetas. Nota-se que embora Eudoxo imaginava estas esferas como entes matemáticos, Aristóteles defendia sua existência real (as chamadas <i>esferas cristalinas</i>), produzindo um complexo sistema de aproximadamente 55 esferas que influenciou consideravalemnte a cosmologia medieval (conforme visto na Divina Comédia).
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/eb/Paradiso_Canto_31_%28148200393%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Dante e Beatriz contemplam o Empíreo (a esfera celeste mais externa) no canto XXXI do Paraíso. Gravura de Gustave Doré, domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Paradiso_Canto_31_(148200393).jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+## Ptolomeu: Deferentes, epiciclos e equantes
+
+O tradicional modelo das esferas celestes cristalinas não pôde sustentar-se por muito tempo em razão de algumas observações: já foi percebido que os planetas variam seu brilho ao longo de sua órbita, o que não parecia sugerir que todos estivesse equidistantes, mas sim que sua distância variava ao longo do tempo. 
+
+Nesse contexto, um novo modelo cosmológico surgiu para a explicação destes fenômenos no céu, inicialmente proposto por Hiparco de Rodes (séc. II a.C) e elaborado por Cláudio Ptolomeu de Alexandria (séc. II A.D). Neste modelo, a Terra continuaria no centro do Universo (e, portanto, é um modelo geocêntrico) com todos os corpos celestes movendo-se ao nosso redor. 
+
+Os movimentos retrógrados seriam explicados pela introdução de <b>epiciclos</b>, esferas cristalinas cujo centro percorreria outra trajetória circular em torno da Terra em velocidade uniforme, os <b>deferentes</b>. Posteriormente, para a explicação de outras anomalias observadas, Ptolomeu introduziu o conceito de <b>equante</b> — a Terra estaria ligeiramente deslocada deste verdadeiro centro do deferente. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c6/Epicycles.gif)
 
 <i>Animação ilustrando um planeta orbitando a Terra no modelo ptolemaico. GIF sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Epicycles.gif" target="_blank">Wikimedia Commons</a>.</i>
 
-Embora tenha sido satisfatório por muito tempo, o modelo geocêntrico tornou-se cada vez mais complexo para abarcar os comportamentos observados no céu. Copérnico percebeu que colocar o Sol no centro do Universo — ao invés da Terra — simplificava consideravelmente o modelo para o movimento planetário enquanto preservava os comportamentos já observados. O sacerdote polonês faleceu logo depois de publicar seu trabalho, com medo de ser ridicularizado por seus pares, em 1543.
+Para o primeiro século de nossa era, Ptolomeu obteve uma precisão notável (com um erro de menos de dois graus) para a precisão dos corpos ao longo do tempo. Prevalecendo como padrão acadêmico ao longo de quinze séculos, sua tamanha importância é transparecida pelo título árabe <i>O Almagesto</i> ("O Maior [dos Livros]"), dado ao tratado que Ptolomeu expôs seu modelo. O título original em grego koiné é <i>Mathēmatikḕ Sýntaxis</i> ("Tratado Matemático"). 
+
+# Copérnico e a Revolução Científica
+
+A seção recente de nossa história tem seu início entre a Idade Média e a Idade Moderna, no chamado Renascimento. Nesse período, compreendido entre os séculos XV e XVI, também figurou a chamada <b>Revolução Científica</b>, um período de rápida ruptura no modo de investigação do mundo natural, que se tornou mais matemática e empirista e menos filosófica, distanciando-se de suas origens greco-romanas.
+
+No contexto desta Revolução, as Grandes Navegações estavam contestando os estabelecimentos da geografia ptolemaica (também tida em alta estima): se os escritos geográficos de Ptolomeu poderiam conter erros, por quê não seus escritos astronômicos?
+
+O marco considerado para o início da Revolução Científica são os estudos do sacerdote, médico, jurista e matemático polonês Nicolau Copérnico (1473-1543), publicados em sua obra prima <i>De Revolutionibus Orbium Cœlestium</i> ("Sobre a Revolução das Esferas Celestes"). Copérnico argumentou que seu modelo heliocêntrico, que colocava o Sol no centro do Universo ao contrário da Terra, seria uma alternativa mais simples em relação ao modelo ptolemaico vigente. A razão para essa defesa possui raízes no conceito filosófico do <b>princípio da parcimônia</b>: o modelo heliocêntrico explica os mesmos fenômenos observados com menos elementos.
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/28/Copernican_heliocentrism_diagram-2.jpg)
+
+<i>Diagrama do modelo heliocêntrico por Nicolau Copérnico. Das órbitas mais internas para as mais externas, temos: Mercúrio, Vênus, Terra (com a Lua), Marte, Júpiter, Saturno e as Estrelas Fixas.</i>
+
+Propostas heliocêntricas para a organização do Universo já haviam sido realizadas na astronomia grega — em especial por Aristarco de Samos no terceiro século antes de Cristo — porém foram rejeitadas por um argumento muito simples: um modelo heliocêntrico previa a percepção de paralaxes, o que não era observado. Com efeito, a medição da paralaxe estelar é algo tão sutil que só foi efetuada pela primeira vez em 1838.
+
+Comparando o modelo heliocêntrico copernicano com o geocêntrico ptolemaico, vemos que os epiciclos de Ptolomeu são equivalentes às órbitas dos planetas (internos) ao redor do Sol, enquanto os deferentes são substituídos pela órbita da Terra ao redor do Sol. Ao considerarmos planetas externos, isto é, mais distantes do Sol que a Terra, os papéis do deferente e do epiciclo invertem-se. 
+
+Uma vantagem considerável do modelo heliocêntrico além de sua simplicidade foi a possibilidade de permitir a dedução das distâncias relativas entre os corpos celestes. Isto contrasta-se com o modelo geocêntrico pois no sistema ptolemaico apenas a razão entre os raios dos deferentes e dos epiciclos é realmente importante para a explicação do comportamento observado: as distâncias são completamente arbitrárias. 
+
+Estas distâncias podem ser deduzidas com um pouco de trigonometria. Foi percebido que os planetas possuem um limite de afastamento do Sol ao longo do ano quando vistos da Terra: há um ângulo máximo que eles distam. Esse comportamento é facilemnte explicado pelo modelo heliocêntrico pelo conceito de <b>quadratura</b>. Um planeta (interno) está em quadratura (leste ou oeste) quando este é vértice de um triângulo retângulo cujo outros vértices são o Sol e a Terra. Denotando por $r_T$ a distância Terra-Sol e $r_P$ a distância Planeta-Sol, temos que: 
+
+$$
+\sin{\theta} = \dfrac{r_P}{r_T} \iff r_P = r_T \cdot \sin{\theta}
+$$
+
+Para planetas externos, o procedimento é análogo, incluindo uma pequena modificação: o planeta estará em quadratura quando o vértice de ângulo reto estiver no Sol, ao invés do planeta. Neste caso, teremos a relação: 
+
+$$
+\tan{\theta} = \dfrac{r_P}{r_T} \iff r_P = r_T \cdot \tan{\theta}
+$$
+
+Por este método, Copérnico obteve as distâncias entre os planetas e o Sol — isto é, o raio médio de sua órbita — em função da distância entre a Terra e o Sol bem próximas dos valores modernos. 
+
+| Planeta | Raio médio da órbita em U.A. ($r_T = 1\text{ UA}$) | |
+| :--- | :---: | :---: |
+| | Copérnico | Atual |
+| Mercúrio | 0,3763 | 0,3871 |
+| Vênus | 0,7193 | 0,7233 |
+| Marte | 1,5198 | 1,5237 |
+| Júpiter | 5,2192 | 5,2028 |
+| Saturno | 9,1743 | 9,5388 |
+
+Depois disso, o próximo passo de Copérnico foi a determinação do chamado <b>período sideral</b> dos planetas: seu tempo de revolução em torno do Sol (em suas órbitas circulares). Nota-se que o período sideral é menor que o período sinódico[^1] para planetas internos. O caso oposto ocorre ao considerarmos planetas externos. 
+
+Copérnico ainda justificou outros dois fenômenos em seu modelo: a eclíptica e o movimento retrógrado dos planetas. Como explanado anteriormente, a eclíptica é a projeção do plano da órbita terrestre em torno do Sol na esfera celeste, que se difere do equador em razão da inclinação do eixo de rotação da Terra. Por sua vez, o movimento retrógrado ocorre em nosso ponto de vista quando a Terra alcança (e ultrapassa) um determinado planeta em sua órbita. 
+
+O sacerdote polonês faleceu logo depois de publicar seu trabalho, com medo de ser ridicularizado por seus pares, em 1543.
 
 # Tycho e Kepler
 
-Um outro passo importante foi dado pelo astrônomo dinamarquês Tycho Brahe e seu assistente, o matemático oficial da Corte do Sacro Império Romano-Germânico, Johannes Kepler. Brahe havia observado o céu por cerca de duas décadas, meticulosamente registrando posições de planetas e estrelas ao longo de todo esse tempo. Kepler, então, um proponente fervoroso do heliocentrismo copernicano, se utilizou destes dados na composição de suas leis para o movimento planetário, hoje conhecidas como <b>Leis de Kepler</b>.
+A publicação do <i>Revolutionibus</i> provocou um novo impulso na astronomia observacional, com as próximas observações de grande importâmncia sendo realizadas por Tycho Brahe (1546-1601), dinamarquês. Tycho, com o apoio do seu rei Frederico II (1534-1588), conseguiu angariar fundos para a construção de um volumoso observatório na região de Uraniborg. Lá, coletou cerca de duas décadas de meticulosas observações do movimento dos planetas com uma precisão admirável para a época e pelo menos duas vezes mais que as melhores observações da Idade Antiga. 
 
-As leis de Kepler são três, dispostas abaixo. 
+É interessante mencionar que Tycho propôs um modelo intermediário entre o ptolemaico e o copernicano. Em seu modelo, todos os planetas giravam em torno do Sol que, por sua vez, realizava uma revolução em torno da Terra fixa. De forma bem engraçada, o modelo de Tycho difere do modelo copernicano apenas por uma mudança de referencial. De fato, a mudança de referencial do Sol para a Terra produz o modelo ptolemaico. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/8/8a/Tychonian_Model.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Diagrama do modelo Tychoniano. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Tychonian_Model.png" target="_blank">Wikimedia Commons</a>.</i>
+
+O próximo grande avanço da mecânica celeste veio da mente do assistente e sucesso de Tycho, Johannes Kepler (1571-1630). Kepler, matemático oficial da Corte do Sacro Império Romano-Germânico e fervoroso defensor do heliocentrismo copernicano, possuía uma convicção de ares neoplatônicos que tod o o Universo era regido por um plano matemático perfeito. A este plano adicionava a ideia que as cinco distâncias entre os planetas até então conhecidos podiam ser relacionadas com os cinco sólidos platônicos: tetraedro, cubo, octeaedro, dodecaedro e icosaedro. 
+
+Kepler publicou seu argumento em relação aos sólidos platônicos em sua obra <i>Mysterium Cosmographicum</i> (1597). Ao perceber que seu modelo não concordava com as constatações de Copérnico mas sem querer abrir mão dos sólidos platônicos, decidiu tornar-se assistente de Brahe. 
+
+Após a morte de Tycho, quatro longos anos de trabalho de seguiram, culminando na identificação que as órbitas dos planetas não poderiam ser circulares, mas sim elipticas com o Sol em um dos focos. Surgia assim a primeira lei de Kepler. 
 
 <aside>
 
@@ -38,6 +125,10 @@ As leis de Kepler são três, dispostas abaixo.
 
 </aside>
 
+Embora a órbita de Mercúrio seja a mais excêntrica dos planetas conhecidos na época de Kepler, sua ideia foi motivada pela órbita de Marte (a segunda mais excêntrica) em razão da escassez relativa de observações de Mercúrio disponíveis em razão da dificuldade de executá-las.
+
+Ao perceber que os planetas moviam-se mais rápido à medida que se aproximavam do Sol, Kepler supôs a existência de uma força para explicar esse comportamento. Segundo ele, a rotação do Sol em torno de seu próprio eixo produzia raios que propeliam lateralmente o planeta. Embora estivesse errada, a formulação de Kepler produziu sua segunda lei.
+
 <aside>
 
 <b>2ª Lei de Kepler (Lei das Áreas)</b> — Imagine um segmento de reta conectando um planeta ao Sol. A área varrida por este segmento será igual em intervalos de tempos iguais. Uma consequência desta lei é a constatação de que os planetas não se movem uniformemente, como pensado previamente, mas sim mais rapidamente ou mais lentamente à medida que estão mais próximos ou mais distantes do Sol.
@@ -48,19 +139,17 @@ As leis de Kepler são três, dispostas abaixo.
 
 </aside>
 
+As primeiras duas leis do movimento planetário de Kepler foram publicadas em seu livro <i>Astronomia Nova</i> (1609). Cerca de nove anos mais tarde, em 1618, perto do fim de sua vida, Kepler encontrou uma relação entre as órbitas dos planetas, que procurava desde sua juventude. Esta relação é conhecida hoje como terceira lei de Kepler ou lei dos períodos.
+
 <aside>
 
-<b>3ª Lei de Kepler (Lei dos Períodos)</b> — Os quadrados dos períodos de dois planetas quaisquer são proporcionais aos cubos dos semieixos maiores de suas respectivas órbitas. Por exemplo, dado um planeta A com período $T_A$ e semieixo maior $S_A$ e um planeta B com período $T_B$ e semieixo maior $S_B$, temos a relação
-<!--Alguns conceitos foram misturados-->
-$$ 
-\dfrac{T_A^2}{T_B^2} = \dfrac{S_A^3}{S_B^3}
+<b>3ª Lei de Kepler (Lei dos Períodos)</b> — A razão entre os quadrados dos períodos de dois planetas quaisquer estão para si assim como a razão entre os cubos de suas distâncias médias ao Sol. Isto é, dados dois planetas de períodos e distâncias médias $(T_1, R_1)$ e $(T_2, R_2)$: 
+
 $$
-Ou também, para um planeta qualquer
-$$
-\dfrac{T^2}{S^3}=k
+\dfrac{T_1^2}{T_2^2} = \dfrac{R_1^3}{R_2^3} = k
 $$
 
-com $k$ sendo uma constante de proporcionalidade própria para cada sistema planetário.
+com $k$ sendo uma constante própria de cada sistema planetário. Uma maneira de determinar esta constante foi construída por Newton.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/98/Kepler_laws_diagram.svg)
 
@@ -68,7 +157,19 @@ com $k$ sendo uma constante de proporcionalidade própria para cada sistema plan
 
 </aside>
 
-## Um pouco mais sobre elipses 
+<blockquote>
+  <p>[A ideia] concordava tão perfeitamente com os dados obtidos em meus dezessete anos de trabalho sobre as observações de Tycho que pensei primeiro estar sonhando...</p>
+  <cite>Johannes Kepler</cite>
+</blockquote>
+
+A terceira lei foi publicada no prefácio do livro <i>Harmonices Mundi</i>, cujo título refere-se a uma interpretação literal da "harmonia das esferas": Kepler defendia que a órbita dos corpos executava uma música, com cada nota de acordo com a velocidade do cpor. Como nota artística, Kepler também já foi o autor de uma das primeiras obras de ficção científica da história, <i>Somnium</i> ("Sonho"), em que descreve uma viagem à Lua.
+
+<blockquote>
+  <p>Os dados estão lançados; estou escrevendo este livro — não importa se para ser lido por meus contemporâneos ou pela posteridade.</p>
+  <cite>Johannes Kepler</cite>
+</blockquote>
+
+## Apêndice: Forma polar e anomalia verdadeira
 
 Embora as seções cônicas tenham sido suficientemente discutidas em <a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank"><i>De Sectiones Conicae</i></a>, cabe mencionar daqui em diante algumas informações e resultados interessantes e de verdadeira importância para a mecânica celeste. 
 
@@ -82,17 +183,26 @@ $$
 
 onde $r$ é a distância do ponto $P$ a um dos focos, $a$ é o semieixo maior, $e$ a excentricidade e $\theta$ a anomalia verdadeira.
 
-<aside>
-
-Puramente observacionais, os desenvolvimentos de Kepler não se preocupavam com a dinâmica dos astros, isto é, por quais causas que estes se moviam. Isto mudou a partir dos estudos de Galileu Galilei e Isaac Newton.
-
-</aside>
-
 # Galileu e Newton
 
-Galileu Galilei (1564-1642), físico, engenheiro, astronômo e matemático florentino, foi declarado como o Pai da Física Moderna.Catedrático da Academia de Pisa, desenvolveu as primeiras linhas que viriam a se tornar a mecânica clássica, fundamentando-a com talvez um de seus mais importantes conceitos, a <b>inércia</b>.
+Galileo di Vincenzo Bonaulti di Galilei ou simplesmente <b>Galileu Galilei</b> (1564-1642), físico, engenheiro, astronômo e matemático florentino, foi declarado como o pai da Física Moderna (mas também da astronomia observacional e do método científico). Catedrático da Academia de Pisa, desenvolveu as primeiras linhas que viriam a se tornar a mecânica clássica, fundamentando-a com talvez um de seus mais importantes conceitos, a <b>inércia</b>.
 
-Isaac Newton, baseando-se em Galileu, argumentou que os planetas não necessitavam de uma força tangencial para continuarem seu movimento ao redor do Sol, mas sim de uma força <b>em direção a ele</b> para que estes não escapassem pela tangente. Denominamos sua lei de <b>Gravitação Universal</b> pois Newton unificou a mecânica celeste com a terrestre, sujeitas às mesmas leis de movimento. 
+Em 1609, Galileu construiu uma versão melhorada dos rudimentares telescópios disponíveis, até então utilizados como brinquedos vendidos pelos mercadores de Florença, e apontou para o céu. Essa decisão desencadeou uma série de descobertas, como as montanhas da Lua — cujas alturas puderam ser estimadas —, as fases de Vênus e as quatro maiores luas de Júpiter (Io, Europa, Ganímedes e Calisto), hoje denominadas <b>luas galileanas</b>. 
+
+A observação de montanhas na Lua contrariava a teoria aristotélica de que nosso satélite era uma perfeita esfera lisa. Por outro lado, a visualização de fases de Vênus foi um golpe contra o modelo ptolemaico, que previa que o planeta sempre possuiria um formato de minguante ou crescente, ao contrário da variedade de fases observada por Galileu. 
+
+Pouco tempo depois, em 1610, o florentino publicou seus feitos no livro <i>Sidereus Nuncius</i> ("O mensageiro das estrelas"), que provocou uma acalorada discussão no mundo acadêmico da época: agora haviam não só argumentos filosóficos para o heliocentrismo, mas também observacionais. Estas observações foram postas em dúvida e, de forma curiosa, alguns professores colegas de Galileu recusaram-se a sequer olhar pelo telescópio. Um deles, Libri, faleceu pouco depois. 
+
+<blockquote>
+  <p>Libri não quis observar minhas novidades celestes enquanto estava na Terra; talvez o faça agora que foi para o céu.</p>
+  <cite>Galileu Galilei</cite>
+</blockquote>
+
+Em 1632, Galileu publica seu "Diálogo sobre os Dois Principais Sistemas do Mundo, O Ptolemaico e o Copérnico" em razão da ascensão do papa Urbano VIII, que havia demonstrado interesse na astronomia e nas descobertas de Galileu. 
+
+Defender o sistema copernicano, dedicar o livro ao pontífice e escrever o posicionamento favorito do Papa na boca de um leigo, o personagem Simplício, não causou uma boa impressão para Galileu no tenso clima da Europa pós-Reforma. Foi julgado pelo Tribunal do Santo Ofício em 1633, condenado à prisão domiciliar perpétua e publicou clandestinamente seu "Diálogo sobre as Duas Novas Ciências". Faleceu nove anos depois.
+
+Isaac Newton, baseando-se em Galileu, argumentou que os planetas não necessitavam de uma força tangencial para continuarem seu movimento ao redor do Sol (como afirmava Copérnico), mas sim de uma força <b>em direção a ele</b> para que estes não escapassem pela tangente. Denominamos sua lei de <b>Gravitação Universal</b> pois Newton unificou a mecânica celeste com a terrestre, sujeitas às mesmas leis de movimento. 
 
 Na subseção à seguir, iremos dar um tratamento um pouco mais detalhado a este importante marco da história da mecânica.
 
@@ -100,7 +210,7 @@ Algo marcante da mecânica newtoniana é a sua justificativa das leis empíricas
 
 <aside>
 
-<b>Demonstração (Apostol, órbitas como seções cônicas)</b> — Suponha um sol fixo de massa $M$ orbita por um planeta de massa $m$, com $m \ll M$. Temos que esta estrela atrai seu planeta por uma força $\vec{F}$ cuja intensidade e direção é dada pela Lei da Gravitação Universal. 
+<b>Demonstração (Apostol, órbitas como seções cônicas)</b> — Suponha um sol fixo de massa $M$ orbita por um planeta de massa $m$, com $m \ll M$. Temos que esta estrela atrai seu planeta por uma força radial $\vec{F}$ cuja intensidade e direção é dada pela Lei da Gravitação Universal. 
 
 Assim, seja $\vec{r}$ o vetor que liga o Sol ao planeta, $r = ||\vec{r}||$ seu módulo e $\hat{r}$ o vetor unitário na direção de $\vec{r}$, isto é, $\hat{r} = \dfrac{\vec{r}}{r}$. Pela Gravitação Universal, temos 
 
@@ -256,3 +366,5 @@ Clique <a href="/books/higher_education/physics/physics_one/gravitation_two.html
 3. APOSTOL, Tom M., 2ª ed (1967). John Wiley & Sons. Chapter 14: Calculus of Vector-valued Functions. Unit 14.20: Applications to Planetary Motion.
 4. CORREIA, Breno de Carvalho et al. <i>Astronomia Olímpica</i>. 1ª ed. (2021). Núcleo Olímpico de Incentivo ao Conhecimento (NOIC). (<a href="https://noic.com.br/wp-content/uploads/2026/02/Astronomia_Olimpica-1.3.2.pdf" target="_blank">Acesse aqui</a>)
 5. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013
+
+[1^]: O período necessário para que, do ponto de vista da Terra, um determinado planeta retorne à mesma posição em relação às estrelas fixas. Para Mercúrio, por exemplo, é da ordem de três meses.

@@ -185,7 +185,6 @@ Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado si
 
 Esse sistema é interessante por nos introduzir pela primeira vez ao chamado <b>poço de potencial</b>. Observando seu gráfico de energia potencial (abaixo) em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
 
-
 ![](images/work_energy/work_energy_potential_graph_springmass.png)
 
 <i>Gráfico retirado do livro OpenStax University Physics (CC-BY-NC-SA).</i>
