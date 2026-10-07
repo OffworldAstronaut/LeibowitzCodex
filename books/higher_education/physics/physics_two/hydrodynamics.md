@@ -8,7 +8,7 @@ O matemático francês Joseph-Louis Lagrange (1736-1813) teve como ponto de part
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/73/Kaberneeme_campfire_site.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-<i>Fotografia de longa exposição de uma fogueira. As linhas brilhantes formam os caminhos das faíscas emitidas — no contexto dos fluidos, estudar todos estes caminhos é a abordagem proposta por Lagrande. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Kaberneeme_campfire_site.jpg" target="_blank">Wikimedia Commons</a>.</i>
+<i>Fotografia de longa exposição de uma fogueira. As linhas brilhantes formam os caminhos das faíscas emitidas — no contexto dos fluidos, estudar todos estes caminhos é a abordagem proposta por Lagrange. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Kaberneeme_campfire_site.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 O polímata suíço Leonhard Euler (1707-1783) desenhou outra abordagem baseando-se nas <b>velocidades</b> em cada ponto, fixo, do fluido. Dessa forma, analisa-se um campo vetorial, chamado <b>campo de velocidades</b>, que atribui a cada ponto do fluido um vetor velocidade, indicando a velocidade das partículas que passam por aquela região, ao longo do tempo. 
 

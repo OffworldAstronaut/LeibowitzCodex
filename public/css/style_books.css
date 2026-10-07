@@ -464,3 +464,21 @@ sup a {
         padding-left: 1.5rem;
     }
 }
+
+.columns-2 {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start; /* Keeps the GIF at top level without stretching */
+}
+
+.col {
+  flex: 1;
+  min-width: 0; /* Prevents overflow issues */
+}
+
+/* Make sure the GIF/image fits its column nicely */
+.col img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

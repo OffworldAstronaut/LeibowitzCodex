@@ -2,11 +2,13 @@
 
 # Autovalores e autovetores
 
-Os conceitos de <b>autovalores</b> (ou valores próprios) e <b>autovetores</b> (ou vetores próprios) são muito importantes no estudo da Álgebra Linear e em suas aplicações. Podemos defini-los da seguinte maneira:
+Os conceitos de <b>autovalores</b> (ou <i>valores próprios</i>) e <b>autovetores</b> (ou <i>vetores próprios</i>) são muito importantes no estudo da Álgebra Linear e em suas aplicações.
+
+Podemos defini-los da seguinte maneira:
 
 <aside>
 
-<b>Definição (Calliolli, Autovalores e autovetores)</b> — Seja $U$ um espaço vetorial sobre um corpo $K$ e seja $T \in L(U)$. Um vetor $u \in U$ não-nulo é um <b>vetor próprio</b> de $T$ se existe um escalar $\lambda$ tal que $T(u) = \lambda u$. Neste caso, $\lambda$ é um <b>valor próprio</b> de $T$ associado a $u$.
+<b>Definição (Calliolli, Autovalores e Autovetores)</b> — Seja $U$ um espaço vetorial sobre um corpo $K$ e seja $T \in L(U)$. Um vetor $u \in U$ não-nulo é um <b>vetor próprio</b> de $T$ se existe um escalar $\lambda$ tal que $T(u) = \lambda u$. Neste caso, $\lambda$ é um <b>valor próprio</b> de $T$ associado a $u$.
 
 </aside>
 
@@ -34,7 +36,7 @@ $$
 \det{(A - \lambda I)} = p_A(\lambda) = (-1)^n \lambda^n + ... + \det{A}
 $$
 
-As raízes desse polinômio são os autovalores de $A$, e isso pode ser demonstrado. Além disso, como matrizes semelhantes representam o mesmo operador sobre bases diferentes, convém mencionar o polinômio característico <b>de uma matriz</b>, sem referir à sua base, como feito acima. Essa propriedade será demonstrada adiante.
+As raízes desse polinômio são os autovalores de $A$ (demonstrado abaixo). Além disso, como matrizes semelhantes representam o mesmo operador sobre bases diferentes, convém mencionar o polinômio característico <b>de uma matriz</b>, sem referir à sua base, como feito acima. Essa propriedade será demonstrada adiante.
 
 <aside>
 
@@ -47,22 +49,6 @@ As raízes desse polinômio são os autovalores de $A$, e isso pode ser demonstr
 <b>Demonstração</b> — Temos por definição que $\lambda$ é autovalor de de $A$ se, e somente se, $\ker{(A - \lambda I_n)} \neq \{o\}$. Isto equivale a dizer que a matriz $A - \lambda I_n$ não é inversível, isto é, que $\det{(A - \lambda I_n)} = 0$. Como o polinômio característico de $A$ é precisamente o determinante de $A - \lambda I_n$, o teorema está provado.
 
 </aside>
-
-Como os autovalores de $A$ são as raízes de um polinômio de grau $n$, temos que uma matriz $A$ de ordem $n$ possui no máximo $n$ autovalores, como enunciado no teorema à seguir.
-
-<aside>
-
-<b>Teorema</b> — Seja $A$ uma matriz de ordem $n$ com entradas reais ou complexas. Então, $A$ tem no máximo $n$ autovalores distintos $\lambda_1, ..., \lambda_k$. Além disso, os autovetores $u_1, ... u_n$ associados a esses autovalores formam um conjunto linearmente independente.
-
-</aside>
-
-<aside>
-
-<b>Corolário</b> — Se $A \in L(U)$ possui $n$ autovetores distintos, estes formam uma base do espaço vetorial $U$.
-
-</aside>
-
-Além disso, temos alguns resultados que podem ser listados, relacionados aos autovalores de uma matriz. 
 
 <aside>
 
@@ -87,6 +73,22 @@ $$
 
 </aside>
 
+Como os autovalores de $A$ são as raízes de um polinômio de grau $n$, temos que uma matriz $A$ de ordem $n$ possui no máximo $n$ autovalores, como enunciado no teorema à seguir.
+
+<aside>
+
+<b>Teorema</b> — Seja $A$ uma matriz de ordem $n$ com entradas reais ou complexas. Então, $A$ tem no máximo $n$ autovalores distintos $\lambda_1, ..., \lambda_k$. Além disso, os autovetores $u_1, ... u_n$ associados a esses autovalores formam um conjunto linearmente independente.
+
+</aside>
+
+<aside>
+
+<b>Corolário</b> — Se $A \in L(U)$ possui $n$ autovetores distintos, estes formam uma base do espaço vetorial $U$.
+
+</aside>
+
+Além disso, temos alguns resultados que podem ser listados, relacionados aos autovalores de uma matriz. 
+
 <aside>
 
 <b>Teorema</b> — Se $A$ é a soma direta das matrizes $B$ e $C$, então o polinômio característico de $A$ é o produto entre os polinômios de $B$ e $C$, e seus autovetores são os elementos do conjunto união dos autovetores de $B$ e $C$. 
@@ -95,7 +97,57 @@ $$
 
 <aside>
 
-<b>Teorema</b> — Se $p(x)$ é um polinômio e $\lambda$ é um autovalor de $A$, então $p(\lambda)$ é um autovalor para $p(A)$. Em particular, se $\lambda$ é um autovalor para $A$, então $\lambda^2$ é um autovalor para $A^2$.
+<b>Teorema</b> — Seja $T: V \to V$ uma transformação linear de forma que $Tv = \lambda v$ com $v$ não-nulo (isto é, $\lambda$ e $v$ formam um autopar de $T$). Logo, $T^k v = \lambda^k v, \forall k \ge 1$ e, para qualquer polinômio $q$, $q(T)v = q(\lambda)v$. 
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Vamos demonstrar a primeira afirmação. Sabemos inicialmente que $Tv = \lambda v$. Suponha, então, que valha $T^n v = \lambda^n v$ para algum $n \in \mathbb{N}$. Logo, vale: 
+
+$$
+\begin{align*}
+    T^{n+1}v = T(T^nv) = T(\lambda^n v) = \lambda^n T(v) = \lambda^{n+1} v 
+\end{align*}
+$$
+
+Como a validade para $n$ implica na validade de $n+1$, temos que a relação vale para todo $n$ natural. 
+
+Considere então um polinômio qualquer $q(x) = a_nx^n + a_{n-1}x^{n-1} + \dots + a_1x + a_0$. Temos que $q(T) = a_nT^n + a_{n-1}T^{n-1} + \dots + a_1T + a_0$ e, consequentemente: 
+
+$$
+\begin{align*}
+    q(T)v &= (a_nT^n + a_{n-1}T^{n-1} + \dots + a_1T + a_0)v \\ 
+    &= a_nT^n v + a_{n-1}T^{n-1}v + \dots + a_1Tv + av \\ 
+    &= a_n \lambda^n v + a_{n-1} \lambda^{n-1} v + \dots + a_1 \lambda v + av \\ 
+    &= q(\lambda)v 
+\end{align*}
+$$
+
+Como queríamos demonstrar. O que este resultado nos diz em termos práticos é que, caso tenhamos uma matriz $B$ que seja um polinômio de $A$, cada autovalor $\lambda$ de $A$ terá um escalar correspondente $\lambda' = q(\lambda)$ autovalor de $B$. 
+
+</aside>
+
+<aside>
+
+<b>Corolário</b> — Se $T$ for invertível nas condições anteriores, vale que $\lambda \neq 0$ e $T^{-1}v = \lambda^{-1} v$.
+
+</aside>
+
+<aside>
+
+<b>Demonstração</b> — Se $T$ for invertível, existe $T^{-1}$ tal que $T^{-1}T = I$. Assim, 
+
+$$
+\begin{align*}
+    Tv &= \lambda v \\ 
+    T^{-1}Tv &= T^{-1}\lambda v \\ 
+    v &= \lambda T^{-1} v \\ 
+    T^{-1}v &= \lambda^{-1} v
+\end{align*}
+$$
+
+Como queríamos demonstrar. Note que $\lambda \neq 0$.
 
 </aside>
 
@@ -409,6 +461,78 @@ $$
 $$
 
 ao longo da diagonal principal. Fora dessas regiões, todos os elementos são nulos.
+
+# Exercícios 
+
+## Problemas 
+
+<aside>
+
+<b>Problema 1.</b> Considere a seguinte matriz: 
+
+$$
+A = \begin{pmatrix}
+    1 & 2 & -1 \\ 
+    0 & 2 & 0 \\ 
+    -2 & 3 & 0 
+\end{pmatrix}
+$$
+
+Determine os autovalores de $A$ e seus autovetores associados, além de todos os subespaços $S_\lambda$ e suas dimensões.
+
+</aside>
+
+<aside>
+
+<b>Problema 2.</b> Seja $T: P_2 \to P_2$ o operador linear dado por $T(p(x)) = xp'(x) + p(1)$. Denotamos por $P_2$ o espaço vetorial dos polinômios reais de grau $\le 2$. 
+
+Escreva a matriz de $T$ na base canônica $\alpha = \{1, x, x^2\}$ e determine seus autovalores e autovetores. Em seguida, escreva a matriz dessa transformação na base $\beta = \{1, 1+x, 1+x^2\}$  e realize o mesmo procedimento.
+
+Os polinômios característicos são os mesmos? Por quê? 
+
+</aside>
+
+<aside>
+
+<b>Problema 3.</b> Seja $A = \begin{pmatrix}1 & 0 \\ 0 & 2\end{pmatrix}$ e defina $T: M_2(\mathbb{R}) \to M_2(\mathbb{R})$ por $T(X) = AX - XA$.
+
+Verifique que $T$ é linear e escreva sua matriz na base $\{E_{11}, E_{12}, E_{21}, E_{22}\}$ de $M_2(\mathbb{R})$, onde $E_{ij}$ possui 1 na posição $(i, j)$ e 0 nas demais.
+
+Em seguida, determine os autovalores e autovetores de $T$, além de suas multiplicidades algébricas e geométricas.
+
+</aside>
+
+<aside>
+
+<b>Problema 4.</b> Para $k \in \mathbb{R}$, seja $B_k = \begin{pmatrix}1 & k \\ 1 & 1\end{pmatrix}$. Calcule o polinômio característico de $B_k$ e determine, em função de $k$, quantos autovalores reais $B_k$ possui. Após isso, determine os autovetores de $B_k$ para $k \gt 0$. 
+
+</aside>
+
+## Soluções 
+
+<aside>
+
+<b>Solução 1.</b>
+
+</aside>
+
+<aside>
+
+<b>Solução 2.</b>
+
+</aside>
+
+<aside>
+
+<b>Solução 3.</b>
+
+</aside>
+
+<aside>
+
+<b>Solução 4.</b>
+
+</aside>
 
 # Referências
 
