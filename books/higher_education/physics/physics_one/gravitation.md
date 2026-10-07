@@ -16,7 +16,7 @@ Em razão do movimento anti-horário da Terra (no sentido PS-PN), o movimento ap
 
 A eclíptica é a trajetória circular do Sol pela esfera celeste ao longo de um ano ao negligenciarmos seu movimento diurno. Em termos práticos, isso equivale a registrar a posição do Sol todos os dias no mesmo horário ao longo de um ano em relação às estrelas fixas. Nota-se que do ponto de vista de um observador na Terra, nossa estrela desloca-se aproximadamente um grau diariamente em relação ao restante da esfera celeste para o leste — no sentido oposto às estrelas. 
 
-![https://upload.wikimedia.org/wikipedia/commons/8/8c/Ecliptic_with_earth_and_sun_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original]
+![](https://upload.wikimedia.org/wikipedia/commons/8/8c/Ecliptic_with_earth_and_sun_animation.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 <i>Ao projetar o caminho do Sol em relação às estrelas fixas, obtemos a eclíptica. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Ecliptic_with_earth_and_sun_animation.gif" target="_blank">Wikimedia Commons</a>.</i>
 
