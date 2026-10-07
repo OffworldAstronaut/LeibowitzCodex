@@ -173,22 +173,18 @@ $$
 \end{align*}
 $$
 
-<div class="columns-2">
-<div class="col">
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9d/Simple_harmonic_oscillator.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 <i>Um sistema massa mola unidimensional. GIF sob domínio público via <a href="https://commons.wikimedia.org/wiki/File:Simple_harmonic_oscillator.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 </div>
-<div class="col">
 
 Um outro exemplo, um pouco mais complexo, que pode ser analisado é o chamado sistema massa-mola simples, sem atrito nem qualquer tipo de força dissipativa.
 
 Esse sistema é interessante por nos introduzir pela primeira vez ao chamado <b>poço de potencial</b>. Observando seu gráfico de energia potencial (abaixo) em função da posição do objeto conectado à mola, é possível deduzir todas as informações do sistema anterior. 
 
-</div>
-</div>
 
 ![](images/work_energy/work_energy_potential_graph_springmass.png)
 
