@@ -109,7 +109,7 @@ A publicação do <i>Revolutionibus</i> provocou um novo impulso na astronomia o
 
 <i>Diagrama do modelo Tychoniano. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Tychonian_Model.png" target="_blank">Wikimedia Commons</a>.</i>
 
-O próximo grande avanço da mecânica celeste veio da mente do assistente e sucesso de Tycho, Johannes Kepler (1571-1630). Kepler, matemático oficial da Corte do Sacro Império Romano-Germânico e fervoroso defensor do heliocentrismo copernicano, possuía uma convicção de ares neoplatônicos que tod o o Universo era regido por um plano matemático perfeito. A este plano adicionava a ideia que as cinco distâncias entre os planetas até então conhecidos podiam ser relacionadas com os cinco sólidos platônicos: tetraedro, cubo, octeaedro, dodecaedro e icosaedro. 
+O próximo grande avanço da mecânica celeste veio da mente do assistente e sucesso de Tycho, Johannes Kepler (1571-1630). Kepler, matemático oficial da Corte do Sacro Império Romano-Germânico e fervoroso defensor do heliocentrismo copernicano, possuía uma convicção de ares neoplatônicos que todo o Universo era regido por um plano matemático perfeito. A este plano adicionava a ideia que as cinco distâncias entre os planetas até então conhecidos podiam ser relacionadas com os cinco sólidos platônicos: tetraedro, cubo, octeaedro, dodecaedro e icosaedro. 
 
 Kepler publicou seu argumento em relação aos sólidos platônicos em sua obra <i>Mysterium Cosmographicum</i> (1597). Ao perceber que seu modelo não concordava com as constatações de Copérnico mas sem querer abrir mão dos sólidos platônicos, decidiu tornar-se assistente de Brahe. 
 
@@ -331,7 +331,7 @@ Está demonstrada a terceira lei de Kepler.
 
 Por fim, a segunda lei de Kepler é uma consequência direta da conservação de momento angular em sistemas de atuação de forças centrais. Sua demonstração foi realizada anteriormente (cf. mencionado) no manuscrito sobre <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">rotações</a>.
 
-Por outro lado, dois casos interessantes colocaram a Gravitação Universal à prova. Vamos começar pelo mais antigo, que ocorreu em 1676, em observações de Júpiter. 
+Dois casos interessantes colocaram a Gravitação Universal à prova. Vamos começar pelo mais antigo, que ocorreu em 1676, em observações de Júpiter. 
 
 Foi percebido por astrônomos que, em algumas observações, as luas de Júpiter completavam suas órbitas um pouco antes do previsto enquanto em outras atrasavam, demorando um pouco mais do tempo esperado para completarem seu percurso.
 
@@ -367,4 +367,4 @@ Clique <a href="/books/higher_education/physics/physics_one/gravitation_two.html
 4. CORREIA, Breno de Carvalho et al. <i>Astronomia Olímpica</i>. 1ª ed. (2021). Núcleo Olímpico de Incentivo ao Conhecimento (NOIC). (<a href="https://noic.com.br/wp-content/uploads/2026/02/Astronomia_Olimpica-1.3.2.pdf" target="_blank">Acesse aqui</a>)
 5. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 1: mecânica. 5. ed. São Paulo: Blucher, 2013
 
-[1^]: O período necessário para que, do ponto de vista da Terra, um determinado planeta retorne à mesma posição em relação às estrelas fixas. Para Mercúrio, por exemplo, é da ordem de três meses.
+[^1]: O período necessário para que, do ponto de vista da Terra, um determinado planeta retorne à mesma posição em relação às estrelas fixas. Para Mercúrio, por exemplo, é da ordem de três meses.
