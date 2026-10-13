@@ -1,12 +1,20 @@
-# O Oscilador Harmônico
+# Oscilações
 
 # Oscilações 
 
-Definimos como <b>oscilação</b> um movimento periódico, sendo estes muito presentes na física, descrevendo sistemas como pêndulos, cordas e corrente alternada em nosso circuitos elétricos. 
+Definimos como <b>oscilação</b> um movimento periódico, geralmente no tempo, em torno de um ponto central, o <b>ponto de equilíbrio</b>. Movimentos oscilatórios são onipresentes na Física, podendo ser observados na mecânica newtoniana, no estudo clássico da luz ou ainda na mecânica quântica.
 
-Podemos classificar as oscilações em simples, caso sejam próprias da natureza do sistema, ocorrendo sem nenhuma atuação de força externa, ou forçadas, caso contrário. Num primero momento iremos nos concentrar nas oscilações simples, pois as oscilaçoes forçadas necessitam de uma descrição físico-matemática um pouco mais rebuscada, que leva em conta tanto o regime natural do sistema quanto as oscilaççoes na própria força (resultante) atuante. 
+<div class="wiki-thumb">
 
-É conveniente inicialmente, no estudo das oscilações simples, a aproximação da força restauradora atuante como algo linear, seguindo a lei de Hooke. Consequentemente, o poço de potencial associado é aproximadamente parabólico. Esse raciocínio foi conduzido anteriormente no tratamento de <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">gráficos de estabilidade</a>. 
+![](https://upload.wikimedia.org/wikipedia/commons/6/6f/Pendulum-no-text.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Pêndulo simples executando um movimento oscilatório. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Pendulum-no-text.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Podemos classificar as oscilações em <b>simples</b>, caso sejam próprias da natureza do sistema, ocorrendo sem nenhuma atuação de força externa, ou <b>forçadas</b>, caso contrário. Num primeiro momento iremos nos concentrar nas oscilações simples, pois as oscilaçoes forçadas necessitam de uma descrição físico-matemática um pouco mais rebuscada, que leva em conta tanto o regime natural do sistema quanto as oscilações na magnitude da força (resultante) atuante. 
+
+É conveniente, no estudo das oscilações simples, a aproximação da força restauradora atuante como algo linear, seguindo a <b>lei de Hooke</b>. Consequentemente, o poço de potencial associado é aproximadamente parabólico. Esse raciocínio foi conduzido anteriormente no tratamento de <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">gráficos de estabilidade</a>. 
 
 Imagine um sistema composto por uma massa $m$ ligada por uma mola de massa desprezível e constante $k$, suspensa verticalmente. Para esse sistema, a equação de movimento newtoniana é 
 
@@ -64,7 +72,7 @@ $$
 x(t) = A\cos{\omega t + \phi}
 $$
 
-com $A$ sendo a <b>amplitude</b> da oscilação, isto é, a distância máxima do móvel de sua posição de equilíbrio. O parâmetro $\phi \in mathbb{R}$, por outro lado, representa fisicamente a <b>fase do movimento</b>, o desvio inicial da ondulação em $t=0$.
+com $A$ sendo a <b>amplitude</b> da oscilação, isto é, a distância máxima do móvel de sua posição de equilíbrio. O parâmetro $\phi \in \mathbb{R}$, por outro lado, representa fisicamente a <b>fase do movimento</b>, o desvio inicial da ondulação em $t=0$.
 
 </aside>
 
@@ -131,7 +139,7 @@ portanto, $ax(t)$ é solução.
 
 <aside>
 
-<b>Corolário</b> — Se $x_1(t)$ e $x_2(t)$ são soluções de uma equação diferencial ordinária linear homogênea de segunda ordem, a função $x(t) = ax_1(t) + bx_2(t)$, com $a, b \in mathbb{R}$, também o é.
+<b>Corolário</b> — Se $x_1(t)$ e $x_2(t)$ são soluções de uma equação diferencial ordinária linear homogênea de segunda ordem, a função $x(t) = ax_1(t) + bx_2(t)$, com $a, b \in \mathbb{R}$, também o é.
 
 </aside>
 
@@ -144,6 +152,14 @@ portanto, $ax(t)$ é solução.
 Este resultado é uma forma do <b>princípio de superposição</b>, que rege a interferência entre ondas.
 
 # Energia no oscilador harmônico
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/30/Harmonic_field.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Gráfico de estabilidade do oscilador harmônico. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Harmonic_field.png" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
 
 Conhecendo a função horária do movimento harmônico simples, temos que sua velocidade é da forma
 
@@ -182,6 +198,151 @@ Podemos ainda encontrar a velocidade instantânea em função de $x$:
 $$
 v(x) = \dfrac{dx}{dt} = \pm \omega \sqrt{A^2 - x^2}
 $$
+
+# Exemplos e aplicações
+
+Em razão de praticamente qualquer sistema conservativo com um grau de liberdade se comportar como um oscilador harmônico, é possível dar uma infinidade de exemplos. Iremos aqui explorar com um pouco mais de detalhe alguns deles e aplicações notáveis. 
+
+## Pêndulo de torção 
+
+<div class="wiki-thumb">
+
+<iframe src="https://commons.wikimedia.org/wiki/File:Torsion-pendulum.ogv?embedplayer=yes" width="240" height="180" frameborder="0" loading="lazy" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+
+<i>Pêndulo de torção. Vídeo sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Torsion-pendulum.ogv" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+O sistema do pêndulo de torção é formado por uma barra horizontal inicialmente em equilíbrio numa posição suspensa por um fio vertical. Ao defletirmos a barra em um pequeno ângulo $\theta$, teremos um torque hookeriano restaurador de módulo $\tau = -k\theta$. A constante $k$ é chamada <b>módulo de torção</b> do fio empregado e seu valor depende de suas condições físicas (espessura, material, ...). Denotando por $I$ o momento de inércia da barra em relação ao eixo vertical, teremos a equação de movimento 
+
+$$
+\tau = I\alpha = I \ddot{\theta} \iff \ddot{\theta} + \omega^2 \theta = 0
+$$
+
+com $\omega^2 = \dfrac{k}{I}$. Uma aplicação histórica muito importante desse sistema foi a balança de torção utilizada por Cavendish para aferir experimentalmente a constante universal gravitacional $G$. 
+
+## Pêndulo simples
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/24/Oscillating_pendulum.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Pêndulo simples com representação de seus vetores de aceleração e velocidade e de seu ângulo de deflexão da sua posição de equilíbrio. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Oscillating_pendulum.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Nomeamos como pêndulo simples o sistema físico formado por uma massa puntiforme $m$ presa a uma posição $O$ por um fio de comprimento $l$ inextensível. Esta massa movimenta-se numa circunferência de raio $l$ sofrendo ação de seu peso $m\vec{g}$ e da tensão $\vec{T}$ exercida pelo fio. Suas equações de movimento são, assim: 
+
+$$
+\begin{align*}
+    ma_r &= -ml\left(\dfrac{d\theta}{dt}\right)^2 = mg \cos{\theta} - T \\ 
+    ma_\theta &= ml \dfrac{d^2\theta}{dt^2} = -mg \sin{\theta}
+\end{align*}
+$$
+
+Onde $a_r$ e $a_\theta$ são, respectivamente, os componentes radial e tangencial da aceleração. O parâmetro $\theta$ é o ângulo do pêndulo em relação a sua posição de equilíbrio.
+
+Da equação para a componente tangencial deduzimos diretamente a equação de movimento do pêndulo simples: 
+
+$$
+\dfrac{d^2\theta}{dt^2} = -\dfrac{g}{l}\sin{\theta}
+$$
+
+Da equação para a componente radial podemos obter a tensão no fio após a resolução da equação de movimento. 
+
+Ao tomarmos $\theta \ll 1$ (em radianos), podemos aproximar $\sin{\theta} \approx \theta$ e, consequentemente, reduzir a equação de movimento para a equação do oscilador harmônico: 
+
+$$
+\ddot{\theta} + \dfrac{g}{l}\theta = 0 \implies \omega^2 = \dfrac{g}{l}
+$$
+
+Como $\tau = \dfrac{2\pi}{\omega}$, o período de oscilação do pêndulo simples é da forma $\tau = 2\pi \sqrt{\dfrac{l}{g}}$. 
+
+A constatação de que $\tau$ é invariante para $\theta \ll 1$ é chamada <b>isocronismo</b> das pequenas oscilações de um pêndulo. Este isocronismo foi descoberto por Galileu e relatado no seu tratado "Duas Novas Ciências".
+
+Uma discussão produtiva nasce ao visualizarmos esse sistema sob o ponto de vista energético. A energia cinética $K$ do sistema é dada por: 
+
+$$
+K = \dfrac{1}{2}mv^2 = \dfrac{1}{2}ml^2 \left(\dfrac{d\theta}{dt}\right)^2
+$$
+
+Tomando como posição referência para a energia potencial (isto é, a posição em que $U = 0$) aquela em que $\theta = 0$, podemos obter uma expressão para $U(\theta)$ através do cálculo do trabalho para mover o pêndulo até uma posição de abertura $\theta$. 
+
+$$
+U = -W_{0 \to \theta} = mg \int_{0}^{\theta} \sin{\theta'} \cdot ld\theta' = \eval{-mgl\cos{\theta}'}_0^{\theta} = mgl(1-\cos{\theta})
+$$
+
+Tomando $\sin{\theta} \approx \theta$, $U = \dfrac{1}{2}mgl\theta^2 = \dfrac{1}{2}m\omega^2l^2\theta^2$. 
+
+### Grandes amplitudes
+
+Levando em conta as expressões anteriores, sabemos que a energia total do pêndulo, para qualquer valor de $\theta$, é: 
+
+$$
+E = \dfrac{1}{2}ml^2 \left(\dfrac{d\theta}{dt}\right)^2 + mgl(1-\cos{\theta})
+$$
+
+Perceba que $U(\theta)$ possui um comportamento periódico de período $\tau = 2\pi$, com a força restauradora valendo $F(\theta) = -\dfrac{dU}{ld\theta} = -mg\sin{\theta}$. Tomando $F=0$, encontramos as posições de equilíbrio: $\theta = 0$ e $\theta = \pi$. 
+
+Por outro lado, tomando $\dfrac{d\theta}{dt} = 0$ na expressão para a energia mecânica, vemos que as energias nas posições de equilíbrio são $E=0$ quando $\theta = 0$ e $E_0 = 2mgl$ para $\theta = \pi$. 
+
+Como esperado, $\theta = 0$ caracteriza uma posição de equilíbrio estável e $\theta = \pi$ uma posição de equilíbrio instável. Tomando uma energia $E \lt 2mgl$, vemos que o pêndulo oscila entre $\theta = \pm \theta_0$, os chamados <b>pontos de inversão</b>, onde $\dfrac{d\theta}{dt} = 0$. Assim, nestes pontos, a energia do pêndulo é $E = mgl(1 - \cos{\theta_0})$. 
+
+Substraindo da expressão geral para energia mecânica, obtemos: 
+
+$$
+\dfrac{1}{2}ml^2 \left(\dfrac{d\theta}{dt}\right)^2 + mgl(\cos{\theta_0} - \cos{\theta}) = 0 \implies \dfrac{d\theta}{dt} = \pm \sqrt{\dfrac{2g}{l}(\cos{\theta}-\cos{\theta_0})}
+$$
+
+Nesta expressão, cada sinal do radical é válido para metade do período considerado. Por exemplo, poderíamos utilizar $+$ no intervalo $[t_0, t_0 + \tau/2]$ com o pêndulo oscilando entre $-\theta_0$ e $\theta_0$ e $-$ para o retorno. 
+
+Integrando durante a ida do pêndulo, obtemos a expressão geral do período em função da amplitude de oscilação $\theta_0$: 
+
+$$
+\int_{t_0}^{t_0 + \tau/2} = \dfrac{\tau}{2} = \sqrt{\dfrac{l}{2g}} \int_{-\theta_0}^{\theta_0} \dfrac{1}{\sqrt{\cos{\theta}-\cos{\theta_0}}} \ d\theta
+$$
+
+Tomando a energia mecânica muito menor que $2mgl$, podemos aproximar $\cos{\theta}-\cos{\theta_0} = \dfrac{1}{2}(\theta_0^2 - \theta^2) \implies \tau = 2\pi \sqrt{\dfrac{l}{g}}$, resultado obtido previamente para pequenas oscilações (MHS). 
+
+Para amplitudes de oscilação maiores, o período deve ser obtido pelo cálculo da integral anterior — o que nem sempre é possível, dado que esta é uma <b>integral elíptica</b>. Integrais elípticas não possuem soluções que podem ser escritas em funções elementares, nos restando aproximações.
+
+Uma primeira aproximação que pode ser feita é: 
+
+$$
+\tau = 2\pi\sqrt{\dfrac{l}{g}}\left(1 + \dfrac{1}{16}\theta_0^2\right)
+$$
+
+Dessa expressão podemos ver que $\tau$ aumenta com $\theta_0$ e, portanto, a isocronia é quebrada. Quando $E \gt 2mgl$, o movimento do pêndulo é dito <b>ilimitado</b>: este possui energia suficiente para manter-se em rotação em torno do ponto de apoio, não mais oscilando em torno do ponto de equilíbrio.
+
+## Pêndulo físico
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/ed/CoO_3_Illustration_an_einer_Stange.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Diagrama de forças de um pêndulo físico. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:CoO_3_Illustration_an_einer_Stange.png" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Considere um corpo rígido qualquer, suspenso em um ponto $O$, de rotação livre e sem atrito, em torno de um eixo que passa horizontalmente por $O$. A este sistema denominamos <b>pêndulo físico</b>, uma generalização do pêndulo simples. 
+
+Uma distância $l_r$ separa $O$ do ponto $C$, o chamado <b>centro de oscilação</b>: se toda a massa do corpo rígido fosse concentrada nesse ponto e suportada por uma haste inextensível e de massa desprezível, teríamos um pêndulo simples equivalente. <!--CLARIFICAR: equivalente em quê?-->
+
+Por outro lado, o ponto $M$ é chamado <b>centro de gravidade</b> do sistema, situado a uma distância $d$ e posicionando sempre abaixo de $O$ (e na mesma vertical) quando o pêndulo está em equilíbrio. Denotando por $\theta$ o ângulo entre $\overline{OG}$ e a vertical que passa por $O$, $m$ a massa do corpo e $\vec{T}$ o torque em relação a $O$, temos: 
+
+$$
+T = -mgd \cdot \sin{\theta}
+$$
+
+Se $I$ é o momento de inércia do pêndulo em relação ao eixo de rotação, a equação de movimento do sistema é:
+
+$$
+I\alpha = I\dfrac{d^2\theta}{dt^2} = T = -mgd \cdot \sin{\theta}
+$$
+
+Perceba que esta é idêntica a equação de movimento de um pêndulo simples de comprimento $l = \dfrac{I}{md}$  Definimos o <b>raio de giração</b> $k$ do pêndulo como $I = mk^2 \iff k = \sqrt{ls}$, ao comparar com a equação para $l$. 
+
+Essa grandeza responde à pergunta: "Se toda a massa do objeto estivesse concentrada num único ponto, qual a distância $k$ necessária para que essa massa tenha o mesmo momento de inércia do objeto inteiro?". 
 
 # Referências 
 
