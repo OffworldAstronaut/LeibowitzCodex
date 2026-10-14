@@ -2,13 +2,17 @@
 
 # Introdução
 
-Quando estudamos as <b>integrais</b> em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada <b>Integral de Riemann</b>, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
-
-Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibniz <!-- É Leibniz, não Leibnitz! -->, o matemático abaixo foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como <b>limites</b> e <b>partições</b> de conjuntos.
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/76/Bernhard_Riemann_3.jpg)
 
 <i>Riemann mostrando que ser matemático não implica em postura ruim. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Bernhard_Riemann_3.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Quando estudamos as <b>integrais</b> em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada <b>Integral de Riemann</b>, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
+
+Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibniz, o matemático abaixo foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como <b>limites</b> e <b>partições</b> de conjuntos.
 
 Riemann também é famoso por outras contribuições igualmente monumentais nos campos da análise real, análise complexa, geometria não-euclideana (criador da geometria <i>riemanniana</i>) e muitos outros, pavimentando inclusive a matemática necessária para descrever a Relatividade Geral de Einstein. Ele também era bastante tímido e ficava doente com facilidade.
 
@@ -305,6 +309,8 @@ Dessa forma, $F'(x)=f(x)$, que era o que queríamos demonstrar.
 
 Consequentemente, convém registrar aqui algumas primitivas recorrentes e, por isso, úteis de se ter em mente. Em todos os casos abaixo, $C \in \mathbb{R}$ é a constante de integração.
 
+<aside>
+
 $$
 \begin{align*}
   \int k \ dx &= kx + C \\ 
@@ -316,8 +322,8 @@ $$
   \int \cos{x} \ dx &= \sin{x} + C \\ 
   \int \tan{x} \ dx &= \ln{|\sec{x}|} + C = -\ln{|\cos{x}|} + C \\ 
   \int \cot{x} \ dx &= -\ln{|\csc{x}|} + C = \ln{|\sin{x}|} + C \\
-  \int \sec{x} \ dx &= \ln{|\sec{x} + \tan{x}|} + C = \ln{|\tan{\left(\dfrac{x}{2} + \dfrac{\pi}{4}\right)}} + C \\ 
-  \int \csc{x} \ dx &= -\ln{|\csc{x} + \cotg{x}|} + C = \ln{|\csc{x} - \cot{x}|} + C = \ln{|\tan{\left(\dfrac{x}{2}\right)}|} + C \\ 
+  \int \sec{x} \ dx &= \ln{|\sec{x} + \tan{x}|} + C = \ln{\left|\tan{\left(\dfrac{x}{2} + \dfrac{\pi}{4}\right)}\right|} + C \\ 
+  \int \csc{x} \ dx &= -\ln{|\csc{x} + \cot{x}|} + C = \ln{|\csc{x} - \cot{x}|} + C = \ln{\left|\tan{\left(\dfrac{x}{2}\right)}\right|} + C \\ 
   \int \sec^2{x} \ dx &= \tan{x} + C \\ 
   \int \csc^2{x} \ dx &= -\cot{x} + C \\ 
   \int \sec{x} \tan{x} \ dx &= \sec{x} + C \\ 
@@ -327,11 +333,13 @@ $$
 \end{align*}
 $$
 
+</aside>
+
 Além disso, nota-se que para extrair a primitiva de uma função composta por um módulo, isto é, $f(x) = |g(x)|$, é útil realizar um estudo de sinal de $g(x)$ e, após isso, definir $f(x)$ por partes de acordo com este estudo de sinal e, consequentemente, encontrar a antiderivada em cada uma dessas partes.
 
 ## O teorema fundamental do Cálculo
 
-O <b>teorema fundamental do Cálculo</b>, geralmente dividido em duas partes, é de fato um dos resultados mais importantes da análise real. Esta conclusão matemática unifica o chamado "cálculo diferencial" com o "cálculo integral", estabelecendo que a derivação e a integração são como operações inversas.
+O <b>teorema fundamental do Cálculo</b>, geralmente dividido em duas partes, é de fato um dos resultados mais importantes da análise real. Esta conclusão matemática unifica o chamado "cálculo diferencial" com o "cálculo integral", estabelecendo a derivação e a integração como operações inversas.
 
 <aside>
 
@@ -413,6 +421,8 @@ $$
 
 </aside>
 
+<!--TODO: ADICIONAR A DEMONSTRAÇÃO DA SEGUNDA PARTE DO TEOREMA FUNDAMENTAL DO CÁLCULO-->
+
 # Teorema do valor médio para integrais
 
 Podemos adaptar o <b>teorema do valor médio</b>, originalmente definido para a operação de derivação, para a integração.
@@ -425,11 +435,13 @@ Podemos adaptar o <b>teorema do valor médio</b>, originalmente definido para a 
 
 <aside>
 
-<b>Demonstração</b> — O teorema de Weierstrass (também conhecido pela alcunha <b>teorema dos valores extremos</b>) expõe que $\exists m, M \in \mathbb{R}$ tais que $m \le f(x) \le M, \forall x \in [a,b]$. Como $\phi \ge 0, \forall x \in [a,b]$, temos que: 
+<b>Demonstração</b> — O teorema de Weierstrass (também conhecido pela alcunha <b>teorema dos valores extremos</b>) expõe que $\exists m, M \in \mathbb{R}$ tais que $m \le f(x) \le M, \forall x \in [a,b]$.
+
+Como $\phi \ge 0, \forall x \in [a,b]$, temos que: 
 
 $$
 \begin{align*}
-  m \cdot \phi(x) \le f(x) \cdot \phi(x) \le M \cdot \phi(x) \\
+  m \cdot \phi(x) \le f(x) \cdot \phi(x) \le M \cdot \phi(x)
   &\implies \int_a^b m \cdot \phi(x) \ dx \le \int_a^b f(x) \cdot \phi (x) \ dx \le \int_a^b M \cdot \phi(x) \ dx \\ 
   &\implies m \int_a^b \phi(x) \ dx \le \int_a^b f(x) \cdot \phi(x) \ dx \le M \cdot \int_a^b \phi (x) \ dx
 \end{align*}
@@ -469,7 +481,7 @@ $$
     a. &\int \dfrac{\sin{(2x)}}{\sin{x}} \ dx \\
     b. &\int \sin{x} + \sinh{x} \ dx \\ 
     c. &\int 1 + \tan^2{x} \ dx \\ 
-    d. &\int x - \csc{x}\cotg{x} \ dx \\ 
+    d. &\int x - \csc{x}\cot{x} \ dx \\ 
     e. &\int (x+4)(2x+1) \ dx \\
 \end{align*}
 $$
@@ -523,7 +535,7 @@ $$
 
 $$
 \begin{align*}
-    \int x - \csc{x}\cotg{x} \ dx &= \int x \ dx - \int \csc{x}\cotg{x} \ dx \\ 
+    \int x - \csc{x}\cot{x} \ dx &= \int x \ dx - \int \csc{x}\cot{x} \ dx \\ 
                              &= \dfrac{x^2}{2} + \csc{x} + C 
 \end{align*}
 $$

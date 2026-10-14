@@ -4,11 +4,19 @@
 
 Como discutido no manuscrito sobre <a href="/books/higher_education/math/analytical_geometry/the_plane_the_space.html" target="_blank">o plano e o espaço</a>, um sistema de coordenadas alternativo ao sistema usual (cartesiano) é o <b>sistema de coordenadas polares</b>. 
 
-Nesse sistema, cada ponto do plano possui como coordenadas a distância $r$ até a origem e o ângulo $\theta$ que o segmento que liga o ponto à origem faz com a horizontal. O sistema polar é útil para a análise de problemas com simetria radial.
+Nesse sistema, cada ponto do plano possui como coordenadas a distância $r$ até a origem (também chamada de <b>polo</b>) e o ângulo $\theta$ que o segmento que liga o ponto à origem faz com a horizontal. O sistema polar é útil para a análise de problemas radialmente simétricos.
 
 # Áreas 
 
 O cálculo de áreas em coordenadas polares pode ser definida de forma semelhante ao processo regular da soma de Riemann em coordenadas cartesianas. 
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/4c/Polar_coordinates_integration_region.svg)
+
+<i>Uma área que pode ser integrada em coordenadas polares. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Polar_coordinates_integration_region.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
 
 Para isso, vamos imaginar uma função $\rho = \rho(\theta)$ contínua e não-negativa, definida no intervalo $[\theta_{i-1}, \theta_{i}]$. O análogo da "área sob a curva" do caso cartesiano para a nossa situação é a área $A_i$ formada por todos os pontos $(\theta, \rho)$ com $\theta \in [\theta_{i-1}, \theta_{i}]$ e $\rho \in [0, \rho(\theta)]$. 
 
@@ -20,15 +28,15 @@ $$
 
 que é a nossa expressão para área.
 
-![](https://upload.wikimedia.org/wikipedia/commons/4/4c/Polar_coordinates_integration_region.svg)
-
-<i>Uma área que pode ser integrada em coordenadas polares. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Polar_coordinates_integration_region.svg" target="_blank">Wikimedia Commons</a>.</i>
-
 # Comprimentos 
 
-O processo para obter o comprimento de uma curva em coordenadas polares também é muito similar ao caso usual. Um processo bem interessante é nos valer de ambos os sistemas coordenados para tal. 
+O processo para obter o comprimento de uma curva em coordenadas polares também é muito similar ao caso usual.
 
-Assim, considere uma curva $\rho(\theta)$ em coordenadas polares com $\theta \in [\alpha, \beta]$. Além disso, $\rho(\theta)$ é diferenciável com sua primeira derivada sendo contínua no intervalo $[\alpha, \beta]$ (isto é, $\rho(\theta)$ é de classe $C^1[a,b]$ <!-- É de classe C^1 em [a.b], sem garantia do restante. Também, é mais comum deixar ^1 ao inves de _1 pois em cima é onde fica o índice de derivada, normalmente -->). Essa curva paramétrica é dada pelo sistema 
+![](https://upload.wikimedia.org/wikipedia/commons/8/86/Logarithmic_spiral_arc_length.gif)
+
+<i>Exemplo do cálculo de uma espiral logarítmica em coordenadas polares. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Logarithmic_spiral_arc_length.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+Considere uma curva $\rho(\theta)$ em coordenadas polares com $\theta \in [\alpha, \beta]$. Além disso, $\rho(\theta)$ é diferenciável com sua primeira derivada sendo contínua no intervalo $[\alpha, \beta]$ (isto é, $\rho(\theta)$ é de classe $C^1[a,b]$). Essa curva paramétrica é dada pelo sistema 
 
 $$
 \begin{cases}
@@ -54,10 +62,6 @@ obtemos finalmente
 $$
 L(\rho) = \int_{\alpha}^{\beta} \sqrt{\rho^2 + \left(\dfrac{d\rho}{d\theta}\right)^2} \ d\theta
 $$
-
-![](https://upload.wikimedia.org/wikipedia/commons/8/86/Logarithmic_spiral_arc_length.gif)
-
-<i>Exemplo do cálculo de uma espiral logarítmica em coordenadas polares. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Logarithmic_spiral_arc_length.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 # Referências 
 

@@ -4,6 +4,14 @@
 
 Dada uma função $f: \mathbb{R} \to \mathbb{R}$ qualquer, diferenciável, como podemos encontrar o comprimento de seu gráfico num dado intervalo? Com efeito, este problema pode ser solucionado de forma relativamente direta ao adotarmos um raciocínio semelhante à soma de Riemann tradicional que nos forneceu a definição de integral. 
 
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/73/Arc_length_0101.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Exemplo de uma aproximação do comprimento de uma curva por meio de diversos segmentos de reta. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Arc_length_0101.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
 Assim, imagine $y = f(x)$ diferenciável com derivada contínua num intervalo $[a,b]$ e, além disso, considere uma partição $P: a = x_0 \lt x_1 \lt x_2 \lt ... \lt x_n = b$ desse intervalo.
 
 Ao indicarmos por $L(P)$ o comprimento da poligonal formada pelos vértices $P_i = (x_0, f(x_i))$ com $i = 1, 2, ..., n$, temos: 
@@ -32,6 +40,14 @@ $$
 L= \lim_{|P|\rightarrow 0}L(P) = \int_{a}^{b} \sqrt{1 + \left(\dfrac{dy}{dx}\right)^2} \ dx 
 $$
 
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/51/Ellipse_arc_length_approximation.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Aproximações sucessivas para o comprimento de uma elipse. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Ellipse_arc_length_approximation.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
 Ao considerarmos ainda uma curva em $\mathbb{R}^2$ dada em função de um parâmetro $t$, isto é, de forma que cada um de seus pontos são da forma $(x(t), y(t))$ com $t \in I$, um intervalo, vemos que seu comprimento $L$ pode ser dado por 
 
 $$
@@ -42,11 +58,21 @@ $$
 
 # Superfícies 
 
+<!--TODO: ILUMINAR ESSA SEÇÃO-->
+
 Estamos acostumados com o tratamento de superfícies e suas respectivas áreas por meio de integrais em razão de sua própria definição (cf. <a href="/books/higher_education/math/calculus_two/integration.html" target="_blank">Integração</a>).
 
 Nesta seção, iremos expor alguns outros problemas relacionados ao tópico de áreas e superfícies que podem ser solucionados por meio da operação de integração. 
 
 ## Áreas entre curvas 
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/cc/Integral_1.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Como delimitar a área destacada? Imagem soc CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Integral_1.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
 
 Como determinar a área da região delimitada por duas curvas $y=f(x)$ e $y=g(x)$? Considerando $f(x)$ e $g(x)$ funções reais contínuas num intervalo $[a,b]$ de forma que $f(x) \ge g(x) \ \forall x \in [a,b]$, temos que a área de um retângulo infinitesimal contido na região delimitada é de $[f(x)-g(x)]dx$. 
 
@@ -82,15 +108,21 @@ $$
 
 <!--Adicionar exemplo de áreas entre curvas quando as curvas se cruzam mais de uma vez-->
 
-## Superfícies de revolução 
+## Áreas de superfícies de revolução
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/fa/Torus_revolution.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Toro como superfície de revolução. GIF sob CC0, via <a href="https://commons.wikimedia.org/wiki/File:Torus_revolution.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
 
 Uma <b>superfície de revolução</b> é obtida pela rotação de uma curva no espaço tridimensional em torno de algum eixo de rotação, uma reta neste mesmo espaço. Como exemplo podemos citar os parabolóides, os hiperbolóides e os elipsóides, conforme vistos nos manuscritos de <a href="/books/higher_education/math/analytical_geometry/quadrics.html" target="_blank">Geometria Analythica</a>. 
 
-## Área de uma superfície de revolução
+Um questionamento imediato que pode surgir é o seguinte: se podemos descrever uma superfície a partir de rotação de uma curva, podemos construir um método para determinar sua área? A resposta, claramente, é afirmativa.
 
-Um questionamento imediato que pode surgir é o seguinte: se podemos descrever uma superfície a partir de rotação de uma curva, podemos construir um método para determinar sua área? A resposta, claramente, é afirmativa. 
-
-Considere uma função $f(x)$ de classe $C_1$ (isto é, diferenciável com derivada contínua) não-negativa num intervalo $[a,b]$. Considere ainda uma partição deste mesmo intervalo $[a,b]$ de forma que $P: a = x_0 \lt x_1 \lt x_2 \lt ... \lt x_n = b$ e, além disso, os números $c_i = \dfrac{1}{2}(x_i + x_{i-1})$ são os pontos médios dos intervalos $[x_{i-1}, x_i]$. 
+Considere uma função $f(x)$ de classe $C^1$ (isto é, diferenciável com derivada contínua) não-negativa num intervalo $[a,b]$. Considere ainda uma partição deste mesmo intervalo $[a,b]$ de forma que $P: a = x_0 \lt x_1 \lt x_2 \lt ... \lt x_n = b$ e, além disso, os números $c_i = \dfrac{1}{2}(x_i + x_{i-1})$ são os pontos médios dos intervalos $[x_{i-1}, x_i]$. 
 
 Temos então que $f'(c_i) = \tan{\alpha_i}$; o segmento $\overline{M_{i-1}M_i}$ é tangente no ponto $(c_i, f(c_i))$. Logo, 
 
@@ -114,6 +146,8 @@ $$
 
 # Volumes
 
+<!--ILUMINAR ESSA SEÇÃO / ADICIONAR O PARADOXO DA TROMBETA DE GABRIEL-->
+
 Nesta última seção iremos nos concentrar no conceito de <b>volume</b>.
 
 ## Volumes por seções transversais 
@@ -123,7 +157,7 @@ Assim como podemos utilizar a integração para encontrar comprimentos e áreas,
 Considere um sólido qualquer $S$ situado na origem do espaço cartesiano. É possível subdividi-lo em infinitos cilindros de base de área $A(x)$ — a área da seção transversal obtida pela intersecção do sólido com o plano perpendicular ao eixo que passa por $x$ — e altura infinitesimal $dx$. Supondo que este sólido está estendido sobre o eixo $x$ no intervalo $[-l, l]$, seu volume será: 
 
 $$
-V = \int_{-l}^{l} A(x) \ dx 
+V = \int_{-l}^{+l} A(x) \ dx 
 $$
 
 Nota-se que aqui estamos fazendo algumas considerações. Por exemplo, $A(x)$ é contínua no intervalo considerado (o sólido não tem "falhas"). 
@@ -142,7 +176,7 @@ Assim, integrando por toda a esfera, temos:
 
 $$
 \begin{align*}
-    V = \int_{-r}^{r} A(x) \ dx &= \int_{-r}^{r} \pi (r^2 - x^2) \ dx \\ 
+    V = \int_{-r}^{+r} A(x) \ dx &= \int_{-r}^{+r} \pi (r^2 - x^2) \ dx \\ 
     &= 2\pi \int_{0}^{r} (r^2-x^2) \ dx \\ 
     &= 2\pi \left[r^2 x - \dfrac{x^3}{3}\right]_{0}^{r} \\ 
     &= 2\pi \left(r^3 - \dfrac{r^3}{3}\right) \\ 
@@ -153,6 +187,14 @@ $$
 </aside>
 
 ## Sólidos de revolução
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/3/35/Revoluci%C3%B3n_cilindro.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Muitos sólidos podem ser modelados como a revolução de uma figura em torno de um eixo. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Revoluci%C3%B3n_cilindro.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
 
 Nesta última seção iremos nos preocupar com o cálculo de volume dos sólidos gerados pela revolução de curvas em torno de algum eixo, de forma análoga às superfícies de revolução, comentadas anteriormente. 
 

@@ -244,7 +244,7 @@ $$
     \int \dfrac{\sqrt{9-x^2}}{x^2} \ dx &= \int \dfrac{\cos^2{\theta}}{\sin^2{\theta}} \ d\theta \\ 
     &= \int \cot^2{\theta} \ d\theta \\ 
     &= \int \csc^2{\theta} \ d\theta - \int 1 \ d\theta \\ 
-    &= -\cotg{\theta} - \theta + C
+    &= -\cot{\theta} - \theta + C
 \end{align*}
 $$
 

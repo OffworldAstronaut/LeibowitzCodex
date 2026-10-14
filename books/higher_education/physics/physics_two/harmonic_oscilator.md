@@ -207,7 +207,9 @@ Em razão de praticamente qualquer sistema conservativo com um grau de liberdade
 
 <div class="wiki-thumb">
 
+<p>
 <iframe src="https://commons.wikimedia.org/wiki/File:Torsion-pendulum.ogv?embedplayer=yes" width="240" height="180" frameborder="0" loading="lazy" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 <i>Pêndulo de torção. Vídeo sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Torsion-pendulum.ogv" target="_blank">Wikimedia Commons</a>.</i>
 
@@ -316,13 +318,9 @@ Dessa expressão podemos ver que $\tau$ aumenta com $\theta_0$ e, portanto, a is
 
 ## Pêndulo físico
 
-<div class="wiki-thumb">
-
 ![](https://upload.wikimedia.org/wikipedia/commons/e/ed/CoO_3_Illustration_an_einer_Stange.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 <i>Diagrama de forças de um pêndulo físico. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:CoO_3_Illustration_an_einer_Stange.png" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
 
 Considere um corpo rígido qualquer, suspenso em um ponto $O$, de rotação livre e sem atrito, em torno de um eixo que passa horizontalmente por $O$. A este sistema denominamos <b>pêndulo físico</b>, uma generalização do pêndulo simples. 
 
