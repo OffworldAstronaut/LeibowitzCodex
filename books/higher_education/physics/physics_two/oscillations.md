@@ -151,7 +151,7 @@ portanto, $ax(t)$ é solução.
 
 Este resultado é uma forma do <b>princípio de superposição</b>, que rege a interferência entre ondas.
 
-# Energia no oscilador harmônico
+## Energia no oscilador harmônico
 
 <div class="wiki-thumb">
 
@@ -199,11 +199,11 @@ $$
 v(x) = \dfrac{dx}{dt} = \pm \omega \sqrt{A^2 - x^2}
 $$
 
-# Exemplos e aplicações
+## Exemplos e aplicações
 
 Em razão de praticamente qualquer sistema conservativo com um grau de liberdade se comportar como um oscilador harmônico, é possível dar uma infinidade de exemplos. Iremos aqui explorar com um pouco mais de detalhe alguns deles e aplicações notáveis. 
 
-## Pêndulo de torção 
+### Pêndulo de torção 
 
 <div class="wiki-thumb">
 
@@ -223,7 +223,7 @@ $$
 
 com $\omega^2 = \dfrac{k}{I}$. Uma aplicação histórica muito importante desse sistema foi a balança de torção utilizada por Cavendish para aferir experimentalmente a constante universal gravitacional $G$. 
 
-## Pêndulo simples
+### Pêndulo simples
 
 <div class="wiki-thumb">
 
@@ -271,12 +271,12 @@ $$
 Tomando como posição referência para a energia potencial (isto é, a posição em que $U = 0$) aquela em que $\theta = 0$, podemos obter uma expressão para $U(\theta)$ através do cálculo do trabalho para mover o pêndulo até uma posição de abertura $\theta$. 
 
 $$
-U = -W_{0 \to \theta} = mg \int_{0}^{\theta} \sin{\theta'} \cdot ld\theta' = \eval{-mgl\cos{\theta}'}_0^{\theta} = mgl(1-\cos{\theta})
+U = -W_{0 \to \theta} = mg \int_{0}^{\theta} \sin{\theta'} \cdot ld\theta' = \eval{-mgl\cos{\theta'}}_0^{\theta} = mgl(1-\cos{\theta})
 $$
 
 Tomando $\sin{\theta} \approx \theta$, $U = \dfrac{1}{2}mgl\theta^2 = \dfrac{1}{2}m\omega^2l^2\theta^2$. 
 
-### Grandes amplitudes
+Daqui em diante, executaremos uma análise do sistema enquanto desprezamos a aproximação para pequenas amplitudes de oscilação.
 
 Levando em conta as expressões anteriores, sabemos que a energia total do pêndulo, para qualquer valor de $\theta$, é: 
 
@@ -316,7 +316,7 @@ $$
 
 Dessa expressão podemos ver que $\tau$ aumenta com $\theta_0$ e, portanto, a isocronia é quebrada. Quando $E \gt 2mgl$, o movimento do pêndulo é dito <b>ilimitado</b>: este possui energia suficiente para manter-se em rotação em torno do ponto de apoio, não mais oscilando em torno do ponto de equilíbrio.
 
-## Pêndulo físico
+### Pêndulo físico
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/ed/CoO_3_Illustration_an_einer_Stange.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
@@ -341,6 +341,97 @@ $$
 Perceba que esta é idêntica a equação de movimento de um pêndulo simples de comprimento $l = \dfrac{I}{md}$  Definimos o <b>raio de giração</b> $k$ do pêndulo como $I = mk^2 \iff k = \sqrt{ls}$, ao comparar com a equação para $l$. 
 
 Essa grandeza responde à pergunta: "Se toda a massa do objeto estivesse concentrada num único ponto, qual a distância $k$ necessária para que essa massa tenha o mesmo momento de inércia do objeto inteiro?". 
+
+### Oscilações de um líquido num tubo em U
+
+Considere um líquido ideal de densidade $\rho$ contido num tubo em $U$, como um manômetro. Inicialmente, o líquido possui o mesmo nível nos dois ramos, pois está em equilíbrio estático.
+
+Seja $A$ a seção transversal do tubo e $l$ o comprimento total da coluna de líquido. Logo, a massa total do líquido é $M = \rho Al$. Tomando a linha do nível do fluido em equilíbrio como $z=0$ de forma que $U=0$, elevar a uma altura $z$ o líquido num ramo equivale energeticamente a transportar uma massa igual de líquido do outro ramo para aquela posição. 
+
+Assim, 
+
+$$
+U(z) = \rho Az \cdot gz = \rho A gz^2 
+$$
+
+Note que o termo $\rho Az$ se refere à massa elevada, com $Az$ sendo o volume de um cilindro de líquido. 
+
+A coluna de líquido entra imediatamente em oscilação com velocidade instantânea $\dfrac{dz}{dt}$ e energia cinética
+
+$$
+K = \dfrac{1}{2}\rho Al \left(\dfrac{dz}{dt}\right)^2
+$$
+
+Consequentemente, a energia mecânica é: 
+
+$$
+E = K + U = \dfrac{1}{2}\rho Al \left(\dfrac{dz}{dt}\right)^2 + \rho Agz^2
+$$
+
+Comparando com as equações das energias cinética e mecânica do oscilador harmônico, vemos que $\rho Ag$ corresponde a $\dfrac{1}{2}k = \dfrac{1}{2}M\omega^2$, com $M = \rho Al$. Logo, temos $\rho Ag = \dfrac{1}{2}\rho Al\omega^2 \implies \omega^2 = \dfrac{2g}{l}$. 
+
+Consequentemente, este sistema possui um comportamento equivalente às oscilações de um pêndulo simples de comprimento $l/2$.
+
+![](/books/higher_education/physics/physics_two/pendulo_tubo_u.gif)
+
+<blockquote>
+    <p>
+    Se a água sobe e desce alternadamente nos ramos de um tubo; e se construirmos um pêndulo cujo comprimento entre o ponto de suspensão e o centro de oscilação é igual a metade do comprimento de água do tubo: digo então que a água subirá e descerá nos mesmos tempos em que o pêndulo oscila.
+    </p>
+    <cite>Isaac Newton</cite>
+</blockquote>
+
+### Oscilações de duas partículas acopladas
+
+Considere um sistema composto por duas partículas de massas $m_1$ e $m_2$ ligadas por uma mola de comprimento $l$ e de massa desprezível. O movimento dessas partículas é unidimensional sobre o eixo $Ox$ e a única força atuante em cada partícula é a força restauradora da mola.
+
+![](/books/higher_education/physics/physics_two/duas_particulas_mola.gif)
+
+<i>No sistema acima, $m_2 = 2m_1$. Perceba que o centro de massa é estacionário enquanto o sistema oscila.</i>
+
+Denotando por $x_1$ e $x_2$ as posições de cada partícula, temos que a deformação da mola será $x = (x_2 - x_1) - l$ e as forças restauradoras serão $F_1 = kx = -F_2$.
+
+Consequentemente, as equações de movimento são: 
+
+$$
+\begin{cases}
+    m_1\ddot{x_1} = kx \\ 
+    m_2\ddot{x_2} = -kx 
+\end{cases}
+$$
+
+É conhecido que $X = \dfrac{1}{M}(m_1x_1 + m_2x_2)$, com $M = m_1 + m_2$, é a coordenada do centro de massa. Em razão da ausência de forças externas, sabemos imediatamente que $\ddot{X} = 0 \implies \dot{X} = V = \text{cte}$. Multiplicando a primeira equação de movimento por $m_1$, a segunda por $m_2$ e subtraindo membro a membro resulta em $\mu \ddot{x} = -kx$. 
+
+Nesta equação, 
+
+$$
+\mu = \dfrac{m_1m_2}{m_1 + m_2}
+$$
+
+é a <b>massa reduzida</b> do sistema. A massa reduzida $\mu$ é um artifício matemático cuja utilidade é a transformação de um problema de dois corpos em um problema de um único corpo. Perceba que na equação obtida que emprega $\mu$ descrevemos o movimento de uma partícula de massa $\mu$ mas que sua posição é a mesma de uma partícula ao tomarmos a outra como referência. Ao descobrirmos o comportamento de uma partícula em relação a outra, teremos com oenxergar facilmente o comportamento do sistema apenas realizando uma mudança de referencial.
+
+Além disso, temos que a energia cinética deste sistema é 
+
+$$
+K = \dfrac{1}{2}\sum_{i=1}^{2} m_iv_i'^2 + \dfrac{1}{2}MV^2
+$$
+
+com $v_1' = -\dfrac{m_2}{M}\dot{x}$ e $v_2' = \dfrac{m_1}{M}\dot{x}$ as velocidades relativas ao centro de massa. Consequentemente, vemos que a energia cinética $T'$ do movimento interno é 
+
+$$
+T' = \dfrac{1}{2}\left(\dfrac{m_1m_2^2 + m_2m_1^2}{M^2}\right)\dot{x}^2 = \dfrac{1}{2}\mu \dot{x}^2
+$$
+
+Como a energia potencial associada à mola é $\dfrac{1}{2}kx^2$, a enegia mecânica total é $E = E_\text{CM} + E'$, com 
+
+$$
+\begin{align*}
+    E_\text{CM} &= K_\text{CM} = \dfrac{1}{2}MV^2 \\ 
+    E' &= \dfrac{1}{2}\mu\dot{x}^2 + \dfrac{1}{2}kx^2 
+\end{align*}
+$$
+
+Perceba que a energia do centro de massa e a energia total interna conservam-se sem interferência: a translação do centro de massa não afeta a oscilação. A energia da oscilação é a de um oscilador harmônico de massa $\mu$ e deslocamento $x$. Este modelo é útil para a representação clássica de cadeias atômicas e o transporte fonônico (isto é, de ondas mecânicas). 
 
 # Referências 
 
