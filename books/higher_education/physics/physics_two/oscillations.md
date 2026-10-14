@@ -372,7 +372,7 @@ Comparando com as equações das energias cinética e mecânica do oscilador har
 
 Consequentemente, este sistema possui um comportamento equivalente às oscilações de um pêndulo simples de comprimento $l/2$.
 
-![](/books/higher_education/physics/physics_two/pendulo_tubo_u.gif)
+![](/books/higher_education/physics/physics_two/images/pendulo_tubo_u.gif)
 
 <blockquote>
     <p>
@@ -385,7 +385,7 @@ Consequentemente, este sistema possui um comportamento equivalente às oscilaç�
 
 Considere um sistema composto por duas partículas de massas $m_1$ e $m_2$ ligadas por uma mola de comprimento $l$ e de massa desprezível. O movimento dessas partículas é unidimensional sobre o eixo $Ox$ e a única força atuante em cada partícula é a força restauradora da mola.
 
-![](/books/higher_education/physics/physics_two/duas_particulas_mola.gif)
+![](/books/higher_education/physics/physics_two/images/duas_particulas_mola.gif)
 
 <i>No sistema acima, $m_2 = 2m_1$. Perceba que o centro de massa é estacionário enquanto o sistema oscila.</i>
 
