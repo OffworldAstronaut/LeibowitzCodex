@@ -106,6 +106,151 @@ Uma expressão para o deslocamento de Wien. Como $b$, $c$ e $k$ já eram constan
 
 # Calor específico dos sólidos
 
+A hipótese de Planck, inicialmente pensada por ele como um artifício matemático consolidou-se ao longo do tempo pelo seu sucesso em explicar outros fenômenos, como demonstrado por Einstein na análise do calor específico dos sólidos. 
+
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/2/23/Thermally_Agitated_Molecule.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Modelo de uma molécula cujos átomos estão vibrando em razão de sua temperatura. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Thermally_Agitated_Molecule.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Em um sólido, os átomos oscilam naturalmente em torno de suas posições de equilíbrio e, portanto, é razoável modelá-los como osciladores harmônicos tridimensionais. Estas oscilações harmônicas terão uma energia média $\varepsilon_m = 3kT$ e, consequentemente, a energia por átomo-grama será $U = 3N_A kT$, com $N_A = 6.02 \cdot 10^{23}$ átomos por mol (número de Avogadro). 
+Por essa abordagem clássica podemos verificar que o calor específico de um sólido (com volume constante) é 
+
+$$
+c_V = \dfrac{\partial U}{\partial T} = 3N_A k = 3R
+$$
+
+com $R = 8.314 \text{ JK}^{-1} \text{mol}^{-1}$ a constante universal dos gases. Este resultado é válido para temperaturas elevadas mas progressivamente impreciso em baixas temperaturas: foi verificado experimentalmente qeu $c_V \to 0$ quando $T \to 0$. Einstein postulou então que as oscilações atômicas só poderiam ocorrer em níveis discretos, isto é, quqe a energia média $\varepsilon_m$ associada a cada grau de liberdade pudesse assumir apenas valores discretos $\varepsilon = nh\nu$. 
+
+Dessas considerações conseguiu-se explicar teoricamente a constatação experimental. 
+
+# Efeito fotoelétrico 
+
+Efeito fotoelétrico é o nome dado ao fenômeno de emissão de elétrons de metais (especialmente os metais alcalinos) ao sofrerem incidência de luz: os elétrons absorvem energia suficiente para serem arrancados do metal. Este fenômeno foi descoberto por Heinrich Hertz (1857-1894) em 1887, com Lenard verificando a produção de corrente elétrica experimentalmente em 1900.
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/72/Nuclear_Medicine_6-2.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Animação ilustrando a ejeção de um elétron de um átomo pela incidência de um raio gama. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Nuclear_Medicine_6-2.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+Impossível de ser explicado pela teoria clássica da física, sua análise teórica também foi realizada por Einstein em 1905 (seu <i>annus mirabilis</i>). Einstein propôs que a absorção da luz de frequência $\nu$ pelos elétrons do metal ocorre em pacotes discretos de energia (isto é, <i>quanta</i>) de magnitude $h \nu$.[^1] 
+
+Caso $h\nu \gt W$, com $W$ sendo a energia necessária para arrancar um elétron do material — e, portanto, própria de cada material —, a energia cinética máxima que um elétron ejetado poderia assumir é
+
+$$
+E_\text{máx} = h\nu - W 
+$$
+
+Esta e outras constatações não possuem explicação na teoria clássica, como a dependência da intensidade da corrente elétrica gerada em relação à frequência da luz, mas não em relação a sua intensidade. De fato, foi verificado que a emissão de elétrons ocorre quase instantaneamente mesmo sob luz muito fraca, enquanto a teoria clássica previa um tempo médio de 100 segundos pós-estímulo. 
+
+Esta proposta corpuscular de Einstein evidenciou ainda mais o embate entre as teorias adversárias sobre a natureza da luz naquele ano.
+
+# Efeito Compton 
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c0/Arthur_Compton_1927.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Arthur Holly Compton em fotografia de 1927, ano que recebeu o Nobel de física. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Arthur_Compton_1927.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Denominamos efeito Compton, em homenagem ao físico americano Arthur Compton (1892-1962), a mudança do comprimento de onda dos raios-X espalhados por um feixe de elétrons. Embora fosse conhecida a natureza ondulatória dos raios-X desde sua descoberta por Wilhelm Röntgen (1845-1923) e as fotografias de Max von Laue (1879-1960) da estrutura de cristais, a explicação deste fenômeno só foi possível pela hipótese (levantada por Compton) que raios-X de comprimento $\lambda$ eram quanta de energia 
+
+$$
+E = \dfrac{hc}{\lambda}
+$$
+
+Isto é, que os raios-X também eram sujeitos à nova versão da teoria corpuscular da luz, proposta por Einstein.
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/4a/Compton_Effect.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Um raio gama sofrendo espalhamento ao interagir com um elétron de valência. Animação sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Compton_Effect.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+No pensamento de Compton, a colisão desses corpúsculos com elétrons livres provocavam um recúo destes elétrons, deixando o raio-X espalhado com uma energia $E' \lt E$ e, consequentemente, com uma frequência $\nu' \lt \nu$ e, portanto, um comprimento de onda $\lambda' \gt \lambda$. 
+
+Dessas considerações, seria possível o cálculo de $\Delta \lambda = \lambda' - \lambda$ pelas leis de conservação de momento e energia.
+
+<aside>
+
+<b>Problema</b> — 
+
+</aside>
+
+<aside>
+
+<b>Solução</b> —
+
+</aside>
+
+Pouco tempo depois, o próprio Compton e seus colaboradores verificaram experimentalmente a validade dessa relação. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/5c/Compton_scattering-de.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Diagrama do efeito Compton. A onda eletromagnética espalhada é espalhada com um ângulo $\phi$ e comprimento de onda maior. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Compton_scattering-de.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+Quando $\theta = \dfrac{\pi}{2}$, isto é, 90°, temos 
+
+$$
+\Delta \lambda = \lambda_C = \dfrac{h}{m_0 c}
+$$
+
+o chamado <i>comprimento de onda de Compton</i>. Esta é uma grandeza característica de cada partícula que provoca o espalhamento: para o elétron, vale $\lambda_C = 2.426 \cdot 10^{-12} \text{ m}$. 
+
+# Postulados de Bohr
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/4b/Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Niels Bohr em fotografia de aproximadamente 1910. O físico dinamarquês receptor do prêmio nobel de 1922 foi orientando de doutorado de Ernest Rutherford, também nobelista. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Enquanto o modelo atômico de Rutherford descarta qualquer possibilidade do eletromagnetismo clássico de explicar a estrutura atômica, os desenvolvimentos de seu orientando Niels Bohr (1885-1962) solidificavam o modelo atômico na nascente teoria quântica, em detrimento do eletromagnetismo conhecido até então. 
+
+São os seguintes os postulados para o átomo publicados por Bohr em 1913:
+
+<aside>
+
+<b>1º Postulado de Bohr (discretização da energia)</b> — Os átomos não podem possuir um nível energético contínuo e arbitrário, conforme estipulado classicamente, mas sim apenas certos níveis de energia são permitidos ao sistema próton(s)-elétron(s). Nesses estados, nenhuma radiação eletromagnética é emitida.
+
+</aside>
+
+<aside>
+
+<b>2º Postulado de Bohr (frequência de emissão)</b> — Radiação eletromagnética é emitida apenas quando o átomo assume um estado de energia $E_n$ ao sair de um estado de energia $E_m$, com $E_n \lt E_m$. A frequência dessa emissão será: 
+
+$$
+\nu = \dfrac{\Delta E}{h} = \dfrac{E_m - E_n}{h}
+$$
+
+</aside>
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/93/Bohr_atom_model.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>O modelo atômico de Bohr foi uma evolução do modelo de Rutherford, adaptando-o com base na hipótese da quantização da energia. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Bohr_atom_model.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Enquanto o primeiro postulado estende os <i>quanta</i> de Planck para o universo atômico, o segundo aproveita a ideia de Einstein da relação entre energia e frequência. 
+
+A consequência desses dois postulados é a explicação das linhas espectrais dos átomos, bastante conhecidas experimentalmente com os trabalhos de Johannes Rydberg (1854-1919) e Walter Ritz (1878-1909). Após a sua publicação, estes postulados foram verificados experimentalmente por James Franck (1882-1964) e Gustav Hertz (1887-1975) — sobrinho de Heinrich Hertz — lhes rendendo o prêmio Nobel de física de 1925.
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/52/Emission_spectrum-Fe.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Espectro de emissão do átomo de ferro. Nota-se que caso um único átomo estivesse presente, apenas uma linha seria observada por vez. A presença de diversos átomos em diversos estados energéticos permite a visualização de diversas linhas de emissão ao mesmo tempo. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Emission_spectrum-Fe.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+# Teoria de Bohr
+
 # Referências 
 
 1. WOLNEY FILHO, Waldemar. <i>Mecânica Quântica</i>. 2. ed. rev. ampl. — Goiânia: Editora UFG, 2014. 
+2. Britannica Editors. <i>Photoeletric Effect</i>. Encyclopedia Britannica, 24 de setembro de 2026. (<a href="https://www.britannica.com/science/photoelectric-effect" target="_blank">Acesse aqui</a>)
+
+[^1]: Consequentemente, temos aqui a criação de uma nova teoria corpuscular da luz. Segundo Einstein, a luz seria formada de pequenas partículas — fótons — que permitiriam a interação luz-matéria.
