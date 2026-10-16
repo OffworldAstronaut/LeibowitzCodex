@@ -1,4 +1,4 @@
-# Oscilações
+# Oscilações I
 
 # Oscilações 
 
@@ -271,7 +271,7 @@ $$
 Tomando como posição referência para a energia potencial (isto é, a posição em que $U = 0$) aquela em que $\theta = 0$, podemos obter uma expressão para $U(\theta)$ através do cálculo do trabalho para mover o pêndulo até uma posição de abertura $\theta$. 
 
 $$
-U = -W_{0 \to \theta} = mg \int_{0}^{\theta} \sin{\theta'} \cdot ld\theta' = \eval{-mgl\cos{\theta'}}_0^{\theta} = mgl(1-\cos{\theta})
+U = -W_{0 \to \theta} = mg \int_{0}^{\theta} \sin{\theta_*} \cdot ld\theta_* = \eval{-mgl\cos{\theta_*}}_0^{\theta} = mgl(1-\cos{\theta})
 $$
 
 Tomando $\sin{\theta} \approx \theta$, $U = \dfrac{1}{2}mgl\theta^2 = \dfrac{1}{2}m\omega^2l^2\theta^2$. 
@@ -376,7 +376,7 @@ Consequentemente, este sistema possui um comportamento equivalente às oscilaç�
 
 <blockquote>
     <p>
-    Se a água sobe e desce alternadamente nos ramos de um tubo; e se construirmos um pêndulo cujo comprimento entre o ponto de suspensão e o centro de oscilação é igual a metade do comprimento de água do tubo: digo então que a água subirá e descerá nos mesmos tempos em que o pêndulo oscila.
+    Se a água sobe e desce alternadamente nos ramos de um tubo; e se construirmos um pêndulo cujo comprimento entre o ponto de suspensão e o centro de oscilação é igual a metade do comprimento de água do tubo; digo então que a água subirá e descerá nos mesmos tempos em que o pêndulo oscila.
     </p>
     <cite>Isaac Newton</cite>
 </blockquote>
@@ -433,6 +433,245 @@ $$
 
 Perceba que a energia do centro de massa e a energia total interna conservam-se sem interferência: a translação do centro de massa não afeta a oscilação. A energia da oscilação é a de um oscilador harmônico de massa $\mu$ e deslocamento $x$. Este modelo é útil para a representação clássica de cadeias atômicas e o transporte fonônico (isto é, de ondas mecânicas). 
 
+## Oscilações harmônicas e o movimento circular uniforme
+
+Considere uma circunferência de raio $A$ centrada na origem e um ponto $P$ nesta circunferência de modo que o vetor $\overrightarrow{OP}$ forma um ângulo $\theta$ com o eixo $Ox$. Se este ponto executa um movimento circular uniforme nesta trajetória, sabemos que sua função horária é $\theta(t) = \omega t + \phi$, com a posição inicial de $P$, isto é, $P_0$, produzindo um ângulo $\theta(0) = \phi$. 
+
+Realizando a projeção de $\overrightarrow{OP}$ sobre o eixo $Ox$ e denotando-a por $x$, vemos que 
+
+$$
+x = \overrightarrow{OX} = A\cos{\theta} = A\cos{(\omega t + \phi)}
+$$
+
+que coincide com o deslocamento instantâneo de uma partícula em movimento harmônico simples. Além disso, a velocidade $\vec{v}$ de $P$ é tangencial e possui magnitude $\omega A$. Projetando-a sobre o eixo $Ox$, obtemos: 
+
+$$
+v_x = -\omega A \cos{\left(\dfrac{\pi}{2} - \theta\right)} = -\omega A \sin{(\omega t + \phi)} = \dot{x}
+$$
+
+Note que esta é a velocidade de uma partícula em movimento harmônico simples. 
+
+Finalmente, perceba que a aceleração do ponto $P$ é radial e possui magnitude $||\vec{a}|| = \omega^2 A$. Projetando-a sobre $Ox$, obtemos 
+
+$$
+a_x = -\omega^2 A \cos{\theta} = -\omega^2 x = \ddot{x}
+$$
+
+que é a aceleração de uma partícula em movimento harmônico simmples. 
+
+Portanto, é razoável afirmar que um MHS é uma projeção de um movimento circular uniforme. Experimentalmente, podemos visualizar isso ao projetar a sombra de um sistema composto por um pêndulo e de um pequeno objeto em MCU sobre um anteparo. Se ambos possuírem o mesmo período e o pêndulo estiver sobre o objeto no instante inicial, suas sombras mover-se-ão juntas ao longo do tempo.[^1]
+
+![](https://upload.wikimedia.org/wikipedia/commons/1/1e/Sine-cosine-xy.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>O ponto preto executa um movimento circular uniforme no círculo unitário. As projeções nos eixos coordenados são movimentos harmônicos simples. GIF sob CC0, via <a href="https://commons.wikimedia.org/wiki/File:Sine-cosine-xy.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+Esta representação do MHS por um movimento circular uniforme é chamada <i>representação em termos do vetor girante</i>, com a circunferência de raio $A$ denominada <b>círculo de referência</b>. Uma representação análoga e conveniente pode ser obtida através do emprego de <a href="/books/higher_education/math/calculus_two/complex_numbers.html" target="_blank">números complexos</a>.
+
+## Superposição
+
+Múltiplas situações interessantes ocorrem pela superposição de movimentos harmônicos simples: trajetórias e comportamentos exóticos e não-triviais surgem em decorrência de sua combinação. Nesta seção, iremos explorar algumas dessas situações.
+
+### Mesma direção e frequência
+
+Considere o movimento $x(t) = x_1(t) + x_2(t)$ de forma que:
+
+$$
+\begin{cases}
+    x_1(t) = A_1 \cos{(\omega t + \phi_1)} \\
+    x_2(t) = A_2 \cos{(\omega t + \phi_2)}
+\end{cases}
+$$
+
+Em nossa análise, a interpretação de vetores girantes torna-se conveniente. Ao tomarmos $x_1$ e $x_2$ como projeção dos vetores $\overrightarrow{OP_1}$ e $\overrightarrow{OP_2}$, $x$ será a projeção da soma destes dois vetores.
+
+Pelas leis dos cossenos e senos, obtemos: 
+
+$$
+\begin{cases}
+    A^2 = A_1^2 + A_2^2 + 2A_1A_2\cos{(\phi_2 - \phi_1)} \\ 
+    \sin{\beta} = \dfrac{A_2}{A}\sin{(\phi_2-\phi_1)}
+\end{cases}
+\implies 
+x(t) = A\cos{(\omega t + \phi_1 + \beta)}
+$$
+
+Nas relações acima, $A$ é a amplitude de $x(t)$ e $\beta$ o ângulo entre $\overrightarrow{OP_1}$ e $\overrightarrow{OP_2}$.
+
+Pela soma de números complexos, podemos chegar ao mesmo resultado tomando a parte real da expressão abaixo:
+
+$$
+z_1 + z_2 = A_1 e^{i(\omega t + \phi_1)} + A_2 e^{i(\omega t + \phi_2)} = e^{i(\omega t + \phi_1)}[A_1 + A_2e^{i(\phi_2-\phi_1)}]
+$$
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/6a/Waves_interferences.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Animação artesanal ilustrando o fenômeno de interferência em oscilações. A mudança de $\phi_1$ implica na mudança da amplitude de $x(t)$. Animação sob CC-BY, via <a href="https://commons.wikimedia.org/wiki/File:Waves_interferences.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+### Mesma direção e frequências distintas 
+
+Considerando dois MHS de equações 
+
+$$
+\begin{cases}
+    x_1(t) = A_1 \cos{\omega_1 t + \phi_1} \\ 
+    x_2(t) = A_2 \cos{\omega_2 t + \phi_2}
+\end{cases}
+$$
+
+em nossa análise podemos tomar $\phi_1 = \phi_2 = 0$ pois a diferença de fase entre os movimentos muda continuamente e, portanto, eliminar a fase inicial não implica numa restrição de generalidade. 
+
+Curiosamente, $x(t) = x_1(t) + x_2(t)$ não será sequer um movimento periódico na maioria dos casos. De fato, ambos os movimentos retornarão simultaneamente ao valor inicial se $\exists n_1, n_2$ tais que
+
+$$
+\begin{cases}
+    \omega_1 \tau = 2n_1\pi \\ 
+    \omega_2 \tau = 2n_2\pi 
+\end{cases}
+\iff \dfrac{\omega_1}{\omega_2} = \dfrac{\tau_2}{\tau_1} = \dfrac{n_2}{n_1} \iff n_1\tau_1 = n_2\tau_2 = \tau 
+$$
+
+com $\tau$ sendo o período para os menores valor de $n_1$ e $n_2$ possível. Ou seja, $\tau_1$ e $\tau_2$ devem ser comensuráveis.
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/d4/Simple_Harmonic_Motion_Superposition_%28Comensurable_periods%29.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Nesta animação, as ondas possuem períodos comensuráveis. A oscilação resultante é periódica.</i>
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/57/Simple_Harmonic_Motion_Superposition_%28Incomensurable_periods%29.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Nesta animação, uma das ondas possui uma frequência angular irracional. A oscilação resultante é aperiódica.</i>
+
+Ao introduzir as grandezas da frequência angular média $\bar{\omega}$ e da diferença de frequências $\Delta \omega$ definidas por
+
+$$
+\begin{align*}
+    \bar{\omega} &= \dfrac{1}{2}(\omega_1 + \omega_2) = \dfrac{2\pi}{\bar{\tau}} = 2\pi \bar{\nu} \\ 
+    \Delta \omega &= \omega_1 - \omega_2 = 2\pi \Delta \nu 
+\end{align*}
+$$
+
+podemos escrever 
+
+$$
+\begin{align*}
+    \omega_1 &= \bar{\omega} + \dfrac{1}{2}\Delta \omega \\ 
+    \omega_2 &= \bar{\omega} - \dfrac{1}{2}\Delta \omega 
+\end{align*}
+$$
+
+e, consequentemente, reescrever a equação do movimento harmônico como 
+
+$$
+x = A \left[\cos{\left(\bar{\omega}t + \dfrac{\Delta \omega}{2}t\right) + \cos{\left(\bar{\omega}t\ - \dfrac{\Delta \omega}{2}t\right)}}\right] = 2A \cos{\left(\dfrac{\Delta \omega}{2}t\right)}\cos{(\bar{\omega}t)}
+$$
+
+Embora este resultado valha para quaisquer $\omega_1$ e $\omega_2$, um comportamento interessante ocorre ao considerarmos frequências angulares muito próximas ou, equivalentemente, que $\Delta \omega \ll \bar{\omega}$. Supondo $A_1 = A_2 = A$ e $\omega_1 \gt \omega_2$, essa consideração provoca a rápida oscilação de $\cos{(\bar{\omega}t)}$ comparada ao termo 
+
+$$
+a(t) = 2A\cos{\left(\dfrac{\Delta \omega}{2}t\right)}
+$$
+
+Perceba que ao analisar o produto obtido, podemos interpretá-lo como uma oscilação de frequência angular $\bar{\omega}$ cuja "amplitude" $|a(t)|$ lentamente varia ao longo do tempo. O fato da amplitude ser modulada (ou seja, a amplitude de uma oscilação está sendo deformada em função da outra) cria os fenômenos dos <b>batimentos</b>: $|a|$ forma uma "casca" para a oscilação de frequência $\bar{\omega}$ com período $1/\Delta \nu \gg 1/\bar{\nu}$. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/4/42/Simple_Harmonic_Motion_Superposition.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Na animação acima, a onda verde está sendo modulada pela onda vermelha.</i>
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/c7/Simple_Harmonic_Motion_Superposition_%28Modulated_Amplitude%29.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Caso $A_1 \neq A_2$, a amplitude resultante será modulada passando por máximos e mínimos não-nulos.</i>
+
+### Mesma frequência e direções perpendiculares 
+
+Para a análise desse caso, considere um oscilador harmônico bidimensional. 
+
+Neste cenário, a partícula de massa $m$ possui seu movimento restrito a um plano e é sujeito a uma força restauradora que é proporcional ao deslocamento $\vec{r}$ à partir da posição de equilíbrio estável. 
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/1/1a/Two_dimensional_harmonic_oscillator_%28approximate%29.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Um exemplo experimental para o oscilador harmônico bidimensional é um sistema massa-mola bidimensional. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Two_dimensional_harmonic_oscillator_(approximate).svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Considerando esta posição como origem e o plano do movimento como o cartesiano $Oxy$, obtemos a equação de movimento 
+
+$$
+m\ddot{\vec{r}} = \vec{F} = -k\vec{r}
+$$
+
+que é equivalente a $\ddot{\vec{r}} + \omega^2\vec{r} = 0$, com $\omega^2 = k/m$. 
+
+Como $\vec{r} = x\hat{i} + y\hat{j}$, esta equação vetorial pode ser decomposta no sistema de equações 
+
+$$
+\begin{cases}
+    x(t) = A\cos{(\omega t + \phi_1)} \\ 
+    y(t) = B\cos{(\omega t + \phi_2)}
+\end{cases}
+$$
+
+de forma que $\ddot{x} + \omega^2 x = 0$ e $\ddot{y} + \omega^2 y = 0$. Experimentalmente, podemos modelar este sistema pelas pequenas oscilações de um pêndulo cujo movimento não está restrito a um plano vertical fixo. Para simplificar, podemos tomar $\phi_1=0$: 
+
+$$
+\begin{cases}
+    x(t) = A\cos{(\omega t)} \\ 
+    y(t) = B\cos{(\omega t + \phi)} 
+\end{cases}
+$$
+
+Perceba que esta modificação não altera a trajetória do móvel, mas apenas o seu ponto inicial. Portanto, podemos realizar essa modificação sem perda de generalidade. A variável $\phi$ agora passa a representar a defasagem de fase entre as componentes do MHS bidimensional.
+
+Como $x \in [-A, A]$ e $y \in [-B, B]$, a trajetória sempre estará circunscrita por um retângulo de lados $2A$ e $2B$. 
+
+Para obter a equação da curva desta trajetória, basta comparar as equações dos osciladores em cada componente e eliminar $t$: 
+
+$$
+\dfrac{y}{B} = \cos{(\omega t)} \cos{\phi} - \sin{(\omega t)}\sin{\omega} = \dfrac{x}{A}\cos{\phi} \pm \sin{\phi}\sqrt{1 - \dfrac{x^2}{A^2}}
+$$
+
+Esta equação é equivalente à equação
+
+$$
+\dfrac{x^2}{A^2} + \dfrac{y^2}{B^2} - 2\dfrac{xy}{AB}\cos{\phi} = \sin^2{\phi}
+$$
+
+que descreve uma curva de segundo grau inscrita num retângulo (e, portanto, na maior parte dos casos, uma elipse). Embora as elipses sejam o caso usual, $\phi = 0$ e $\phi = \pi$ degeneram a curva, que colapsa em um segmento de reta. Este segmento pode ser a diagonal principal ou secundária do retângulo, respectivamente. 
+
+Além destes, caso $\phi = \pi/2$ ou $\phi = 3\pi/2$, a equação se reduzirá à forma canônica de uma elipse (cf. <a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank">Cônicas</a>), 
+
+$$
+\dfrac{x^2}{A^2} + \dfrac{y^2}{B^2} = 1
+$$
+
+com os eixos principais coincidindo com os eixos coordenados. 
+
+Estes fenômenos possuem uma importância considerável na análise da polarização de ondas eletromagnéticas. Caso consideremos uma plano $z=k$, com $k$ constante, e o vetor do campo elétrico $\vec{E}$ descreva uma elipse, a onda será dita <i>elipticamente polarizada</i>. Situações análogas descrevem a polarização linear e a polarização circular (cf. <a href="/books/reliquiae/six_pieces_scarani_1.html" target="_blank">Sex Fragmentata Quantica I</a>).
+
+![](https://upload.wikimedia.org/wikipedia/commons/7/71/Elliptical_RH_polarization.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Onda eletromagnética de polarização elíptica. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Elliptical_RH_polarization.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+### Frequências distintas e direções perpendiculares
+
+Neste caso, as trajetórias produzidas são chamadas <b>curvas de Lissajous</b>, podendo ser confeccionadas ao tomar a projeção de cada oscilador e gravar as coordenadas ao longo do tempo no plano $Oxy$. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/fd/QCO-Lissajous-II.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Curva de Lissajous fechada produzida ao projetar um oscilador harmônico bidimensional num anteparo. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:QCO-Lissajous-II.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0c/Lissajous_animate.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Diversas curvas de Lissajous formadas à medida que a razão entre os períodos modifica-se. Animação sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Lissajous_animate.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Caso os períodos $\tau_1$ e $\tau_2$ sejam comensuráveis, a trajetória será periódica e o oscilador eventualmente retornará ao ponto de partida. Isso não ocorrerá, caso contrário, com a trajetória sendo aberta — a curva nunca se fechará.
+
 # Referências 
 
 1. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 2: Fluidos; oscilações e ondas; calor. 4. ed. rev. São Paulo: Blucher, 2002
+
+[^1]: Ao realizar um procedimento análogo de projeção ao longo do eixo $Oy$, encontramos também um MHS. Entretanto, este movimento está em quadratura com o primeiro.
