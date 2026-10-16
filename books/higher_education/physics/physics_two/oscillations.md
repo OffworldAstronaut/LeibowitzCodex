@@ -271,7 +271,7 @@ $$
 Tomando como posição referência para a energia potencial (isto é, a posição em que $U = 0$) aquela em que $\theta = 0$, podemos obter uma expressão para $U(\theta)$ através do cálculo do trabalho para mover o pêndulo até uma posição de abertura $\theta$. 
 
 $$
-U = -W_{0 \to \theta} = mg \int_{0}^{\theta} \sin{\theta_*} \cdot ld\theta_* = \eval{-mgl\cos{\theta_*}}_0^{\theta} = mgl(1-\cos{\theta})
+U = -W_{0 \to \theta} = mg \int_{0}^{\theta} \sin{\theta_*} \cdot ld\theta_* = \left[-mgl\cos{\theta_*}\right]_0^{\theta} = mgl(1-\cos{\theta})
 $$
 
 Tomando $\sin{\theta} \approx \theta$, $U = \dfrac{1}{2}mgl\theta^2 = \dfrac{1}{2}m\omega^2l^2\theta^2$. 
