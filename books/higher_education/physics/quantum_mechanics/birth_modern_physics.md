@@ -130,7 +130,7 @@ Dessas considerações conseguiu-se explicar teoricamente a constatação experi
 
 # Efeito fotoelétrico 
 
-Efeito fotoelétrico é o nome dado ao fenômeno de emissão de elétrons de metais (especialmente os metais alcalinos) ao sofrerem incidência de luz: os elétrons absorvem energia suficiente para serem arrancados do metal. Este fenômeno foi descoberto por Heinrich Hertz (1857-1894) em 1887, com Lenard verificando a produção de corrente elétrica experimentalmente em 1900.
+Efeito fotoelétrico é o nome dado ao fenômeno de emissão de elétrons de metais (especialmente os metais alcalinos) ao sofrerem incidência de luz: os elétrons absorvem energia suficiente para serem arrancados do metal. Este fenômeno foi descoberto por Heinrich Hertz (1857-1894) em 1887, com Philipp Lenard (1862-1947) verificando a produção de corrente elétrica experimentalmente em 1900.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/7/72/Nuclear_Medicine_6-2.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
@@ -166,23 +166,48 @@ $$
 
 Isto é, que os raios-X também eram sujeitos à nova versão da teoria corpuscular da luz, proposta por Einstein.
 
+No pensamento de Compton, a colisão desses corpúsculos com elétrons livres provocavam um recúo destes elétrons, deixando o raio-X espalhado com uma energia $E' \lt E$ e, consequentemente, com uma frequência $\nu' \lt \nu$ e, portanto, um comprimento de onda $\lambda' \gt \lambda$. 
+
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4a/Compton_Effect.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 <i>Um raio gama sofrendo espalhamento ao interagir com um elétron de valência. Animação sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Compton_Effect.gif" target="_blank">Wikimedia Commons</a>.</i>
-
-No pensamento de Compton, a colisão desses corpúsculos com elétrons livres provocavam um recúo destes elétrons, deixando o raio-X espalhado com uma energia $E' \lt E$ e, consequentemente, com uma frequência $\nu' \lt \nu$ e, portanto, um comprimento de onda $\lambda' \gt \lambda$. 
 
 Dessas considerações, seria possível o cálculo de $\Delta \lambda = \lambda' - \lambda$ pelas leis de conservação de momento e energia.
 
 <aside>
 
-<b>Problema</b> — 
+Considere um fóton de energia inicial $E_0 = p_0 c$ e momento $p_0 = \dfrac{h}{\lambda}$ que colide com uma partícula estacionária de energia de repouso $E = mc^2$. 
 
-</aside>
+Temos que o momento do fóton pós-colisão é $p_1 = \dfrac{h}{\lambda'}$ e, consequentemente, pela conservação do momento: 
 
-<aside>
+$$
+\begin{align*}
+    \vec{p_0} = \vec{p_1} + \vec{p_e} \implies p_e^2 &= p_0^2 + p_1^2 - 2 \vec{p_0} \cdot \vec{p_1} \\ 
+    &= p_0^2 + p_1^2 - 2p_1p_2\cos{\theta}
+\end{align*}
+$$
 
-<b>Solução</b> —
+Nesta expressão, $\vec{p_e}$ é o momento do elétron pós-colisão e $\theta$ o ângulo de espalhamento do fóton.
+
+Após a colisão, a energia do elétron é $\sqrt{E^2 + p_e^2c^2}$. Assim, pelo princípio de conservação de energia: 
+
+$$
+p_0c + E = p_1c + \sqrt{E^2 + p_e^2c^2} \iff p_e^2 = p_0^2 + p_1^2 - 2p_0p_1 + \dfrac{2E(p_0-p_1)}{c}
+$$
+
+Igualando as relações para eliminar $p_e^2$, obtemos: 
+
+$$
+\dfrac{E(p_0 - p_1)}{c} = p_0p_1(1-\cos{\theta})
+$$
+
+Multiplicando ambos os membros por $\dfrac{hc}{p_0p_1E}$ e utilizando a relação $\lambda = \dfrac{h}{p}$: 
+
+$$
+\Delta \lambda = \lambda' - \lambda = \dfrac{hc}{E}(1-\cos{\theta}) = \dfrac{hc}{mc^2}(1-\cos{\theta}) = \dfrac{h}{mc}(1-\cos{\theta})
+$$
+
+Com esta última igualdade sendo a forma tradicional da equação de Compton para o fenômeno que leva seu nome.
 
 </aside>
 
@@ -202,15 +227,11 @@ o chamado <i>comprimento de onda de Compton</i>. Esta é uma grandeza caracterí
 
 # Postulados de Bohr
 
-<div class="wiki-thumb">
-
-![](https://upload.wikimedia.org/wikipedia/commons/4/4b/Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-<i>Niels Bohr em fotografia de aproximadamente 1910. O físico dinamarquês receptor do prêmio nobel de 1922 foi orientando de doutorado de Ernest Rutherford, também nobelista. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Niels_Bohr_-_LOC_-_ggbain_-_35303.jpg" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
-
 Enquanto o modelo atômico de Rutherford descarta qualquer possibilidade do eletromagnetismo clássico de explicar a estrutura atômica, os desenvolvimentos de seu orientando Niels Bohr (1885-1962) solidificavam o modelo atômico na nascente teoria quântica, em detrimento do eletromagnetismo conhecido até então. 
+
+![](https://upload.wikimedia.org/wikipedia/commons/5/52/Emission_spectrum-Fe.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Espectro de emissão do átomo de ferro. Nota-se que caso um único átomo estivesse presente, apenas uma linha seria observada por vez. A presença de diversos átomos em diversos estados energéticos permite a visualização de diversas linhas de emissão ao mesmo tempo. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Emission_spectrum-Fe.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 São os seguintes os postulados para o átomo publicados por Bohr em 1913:
 
@@ -242,15 +263,14 @@ Enquanto o primeiro postulado estende os <i>quanta</i> de Planck para o universo
 
 A consequência desses dois postulados é a explicação das linhas espectrais dos átomos, bastante conhecidas experimentalmente com os trabalhos de Johannes Rydberg (1854-1919) e Walter Ritz (1878-1909). Após a sua publicação, estes postulados foram verificados experimentalmente por James Franck (1882-1964) e Gustav Hertz (1887-1975) — sobrinho de Heinrich Hertz — lhes rendendo o prêmio Nobel de física de 1925.
 
-![](https://upload.wikimedia.org/wikipedia/commons/5/52/Emission_spectrum-Fe.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-<i>Espectro de emissão do átomo de ferro. Nota-se que caso um único átomo estivesse presente, apenas uma linha seria observada por vez. A presença de diversos átomos em diversos estados energéticos permite a visualização de diversas linhas de emissão ao mesmo tempo. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Emission_spectrum-Fe.svg" target="_blank">Wikimedia Commons</a>.</i>
-
 # Teoria de Bohr
+
+
 
 # Referências 
 
 1. WOLNEY FILHO, Waldemar. <i>Mecânica Quântica</i>. 2. ed. rev. ampl. — Goiânia: Editora UFG, 2014. 
 2. Britannica Editors. <i>Photoeletric Effect</i>. Encyclopedia Britannica, 24 de setembro de 2026. (<a href="https://www.britannica.com/science/photoelectric-effect" target="_blank">Acesse aqui</a>)
+3. TIPLER, Paul; LLEWELLYN, Ralph. <i>Modern Physics</i>. 6. ed. — Nova Iorque: W. H. Freeman & Company, 2012.
 
 [^1]: Consequentemente, temos aqui a criação de uma nova teoria corpuscular da luz. Segundo Einstein, a luz seria formada de pequenas partículas — fótons — que permitiriam a interação luz-matéria.

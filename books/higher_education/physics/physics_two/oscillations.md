@@ -572,13 +572,17 @@ $$
 
 Perceba que ao analisar o produto obtido, podemos interpretá-lo como uma oscilação de frequência angular $\bar{\omega}$ cuja "amplitude" $|a(t)|$ lentamente varia ao longo do tempo. O fato da amplitude ser modulada (ou seja, a amplitude de uma oscilação está sendo deformada em função da outra) cria os fenômenos dos <b>batimentos</b>: $|a|$ forma uma "casca" para a oscilação de frequência $\bar{\omega}$ com período $1/\Delta \nu \gg 1/\bar{\nu}$. 
 
+![](https://upload.wikimedia.org/wikipedia/commons/e/ee/Simple_Harmonic_Motion_Superposition_%28Beatings%29.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>A combinação das ondas verde e vermelha resulta numa onda azul "envelopada", configurando o fenômeno dos batimentos.</i>
+
 ![](https://upload.wikimedia.org/wikipedia/commons/4/42/Simple_Harmonic_Motion_Superposition.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-<i>Na animação acima, a onda verde está sendo modulada pela onda vermelha.</i>
+<i>Na animação acima, a onda verde está sendo modulada pela onda vermelha (onda AM).</i>
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c7/Simple_Harmonic_Motion_Superposition_%28Modulated_Amplitude%29.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-<i>Caso $A_1 \neq A_2$, a amplitude resultante será modulada passando por máximos e mínimos não-nulos.</i>
+<i>Diferentes amplitudes da onda de menor frequência resultarão em diferentes amplitudes na onda resultante modulada.</i>
 
 ### Mesma frequência e direções perpendiculares 
 
