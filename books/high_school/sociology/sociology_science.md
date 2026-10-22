@@ -1,2 +1,0 @@
-# Sociologia como Ciência 
-

@@ -1,1 +1,0 @@
-# Estratificação social
