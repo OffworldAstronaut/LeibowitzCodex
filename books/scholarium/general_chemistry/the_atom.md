@@ -136,7 +136,9 @@ Na segunda etapa do experimento, uma diferença de potencial é aplicada em plac
 
 <div class="wiki-thumb">
 
+<p>
 <iframe class="video-iframe" src="https://commons.wikimedia.org/wiki/File:Millikan_experiment.ogv?embedplayer=yes" frameborder="0" loading="lazy" allow="autoplay; picture-in-picture" allowfullscreen></iframe>
+</p>
 
 <i>Visão do microscópio na segunda parte do experimento de Millikan: ajuste da tensão nas placas para manter as gotas suspensas no ar. Vídeo sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Millikan_experiment.ogv" target="_blank">Wikimedia Commons</a>.</i>
 
@@ -160,6 +162,10 @@ Após realizar este procedimento diversas vezes, a dupla percebeu que todas as c
 
 </div>
 
+A história do estudo da radioatividade também possui seu início na década de 1890 com a descoberta dos raios-X pelo físico alemão Wilhelm Röntgen. Röntgen descobriu que certos vidros e metais emitiam raios peculiares após serem bombardeados por raios catódicos — estes raios não poderiam ser desviados por campos magnéticos nem cargas elétricas e, portanto, não poderiam ser compostos por partículas carregadas. Por sua estranha natureza para a época, eles foram nomeados como <i>X-radiation</i>, "raios-X". 
+
+Pouco após este acontecimento, o físico francês Antoine Becquerel acidentalmente descobriu que filmes fotográficos expostos a óxido de urânio queimavam, mesmo que estes fossem protegidos com materiais comuns do laboratório.
+
 <div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Irene_and_Marie_Curie_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
@@ -167,10 +173,6 @@ Após realizar este procedimento diversas vezes, a dupla percebeu que todas as c
 <i>Marie Curie e sua filha, Iréne Joliot-Curie, em 1925. Ao todo, a família Curie possui cinco prêmios Nobel. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Irene_and_Marie_Curie_1925.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 </div>
-
-A história do estudo da radioatividade também possui seu início na década de 1890 com a descoberta dos raios-X pelo físico alemão Wilhelm Röntgen. Röntgen descobriu que certos vidros e metais emitiam raios peculiares após serem bombardeados por raios catódicos — estes raios não poderiam ser desviados por campos magnéticos nem cargas elétricas e, portanto, não poderiam ser compostos por partículas carregadas. Por sua estranha natureza para a época, eles foram nomeados como <i>X-radiation</i>, "raios-X". 
-
-Pouco após este acontecimento, o físico francês Antoine Becquerel acidentalmente descobriu que filmes fotográficos expostos a óxido de urânio queimavam, mesmo que estes fossem protegidos com materiais comuns do laboratório.
 
 O óxido emitia esta radiação — que também não podia ser composta por partículas carregadas — sem estimulação prévia por raios catódicos, o que era algo novo para a época. Marie Curie, aluna de Becquerel na época, sugeriu nomear este fenômeno de emissão espotânea de partículas ou radiação de <b>radioatividade</b>. Pela nomenclatura de Curie, assim, o óxido de urânio é um material <b>radioativo</b>.
 

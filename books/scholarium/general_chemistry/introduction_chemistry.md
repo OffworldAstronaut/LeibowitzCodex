@@ -18,6 +18,12 @@ Conforme discutido em outras ocasiões, massa e peso são conceitos distintos. O
 
 ## Estados físicos
 
+A matéria pode se apresentar em diversos <b>estados físicos</b>. Múltiplos estados físicos existem, entretanto, três são os mais comuns, se sobressaindo sobre os demais: <b>sólido</b>, <b>líquido</b> e <b>gasoso</b>. 
+
+Estes estados diferem entre si pelo grau de agitação das partículas do corpo que estas compõem, com este grau de agitação mensurado pela temperatura. Maiores temperaturas enfraquecem as forças que mantém a matéria coesa, provocando <b>mudanças de estado</b>.
+
+<br>
+
 <div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/ba/Gif_-AtomosSolido_01.gif)
@@ -41,10 +47,6 @@ Conforme discutido em outras ocasiões, massa e peso são conceitos distintos. O
 <i>Representação de um corpo em estado gasoso. As partículas constituintes estão praticamente livres. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Gif_-AtomosGas_02.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 </div>
-
-A matéria pode se apresentar em diversos <b>estados físicos</b>. Múltiplos estados físicos existem, entretanto, três são os mais comuns, se sobressaindo sobre os demais: <b>sólido</b>, <b>líquido</b> e <b>gasoso</b>. 
-
-Estes estados diferem entre si pelo grau de agitação das partículas do corpo que estas compõem, com este grau de agitação mensurado pela temperatura. Maiores temperaturas enfraquecem as forças que mantém a matéria coesa, provocando <b>mudanças de estado</b>.
 
 Denominamos <b>mudanças de estado físico</b>  o processo de uma substância assumir um outro estado diferente de seu atual. Vale notar que não somente a temperatura é responsável pela mudança de estado físico mas também a <b>pressão</b> sobre este corpo. Estas duas grandezas estão relacionadas, como será visível em termoquímica. 
 
@@ -102,23 +104,23 @@ Por fim, antes de passarmos para a próxima seção, vale delimitar de forma mui
 
 # Substâncias simples e compostas 
 
-Dizemos que uma substância é <b>composta</b> quando esta pode ser subdividida em um conjunto de outras substâncias que, por sua vez, não podem ser subdivididas ainda mais. Estas últimas são denominadas <b>substâncias simples</b>.
-
-Um exemplo comum é o da água, formada por hidrogênio e oxigênio. A água é uma substância composta, enquanto o hidrogênio e o oxigênio que a compõem são substâncias simples.
-
 <div class="wiki-thumb"
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/4e/David_-_Portrait_of_Monsieur_Lavoisier_and_His_Wife.jpg)
 
-<i>Antoine Lavoisier e sua esposa, Marie-Anne, num retrato por Jacques Louis-David. Em razão de sua posição social e de seu trabalho como cobrador de impostos, Lavoisier foi sentenciado à guilhotina durante a Revolução Francesa em 1794, no final do Reino do Terror. Antoine e Marie-Anne foram denominados o "pai" e a "mãe" da química moderna, respectivamente.</i>
+<i>Antoine Lavoisier e sua esposa, Marie-Anne, num retrato por Jacques Louis-David.</i>
 
 </div>
+
+Dizemos que uma substância é <b>composta</b> quando esta pode ser subdividida em um conjunto de outras substâncias que, por sua vez, não podem ser subdivididas ainda mais. Estas últimas são denominadas <b>substâncias simples</b>.
+
+Um exemplo comum é o da água, formada por hidrogênio e oxigênio. A água é uma substância composta, enquanto o hidrogênio e o oxigênio que a compõem são substâncias simples.
 
 Destas noções iniciais é possível enunciar duas importantes leis químicas: a <b>lei de Proust</b> e a <b>lei de Lavoisier</b>. 
 
 A primeira, elaborada pelo químico francês Joseph Louis Proust (1754-1826), nasce da constatação que sempre há proporções iguais entre as massas dos componentes de uma substância composta e a massa dessa substância, com estes componentes sendo sempre os mesmos. Esta é a <b>lei das proporções</b>, enunciada em 1799.
 
-A lei de Lavoisier, formulada pelo químico e nobre francês Antoine-Laurent de Lavoisier (1743-1794), é comumente enunciada na forma da seguinte citação: "Na Natureza, nada se cria, nada se perde; tudo se transforma". Origina-se na percepção de que, ao combinarmos e recombinarmos substâncias para a formação de outras, a massa total é sempre conservada.
+A lei de Lavoisier, formulada pelo químico e nobre francês Antoine-Laurent de Lavoisier[^1] (1743-1794), é comumente enunciada na forma da seguinte citação: "Na Natureza, nada se cria, nada se perde; tudo se transforma". Origina-se na percepção de que, ao combinarmos e recombinarmos substâncias para a formação de outras, a massa total é sempre conservada.
 
 # Materiais homogêneos e heterogêneos
 
@@ -183,3 +185,5 @@ Na destilação fracionada, utilizada em misturas com diversos líquidos de pont
 # Referências
 
 1. HENRIQUES DA SILVA, Ronaldo. BRAGA DA SILVA, Edson. Princípios básicos de Química, v. 1. 2 . ed. São Paulo: HARBRA Ltda., 1986
+
+[^1]: Em razão de sua posição social e de seu trabalho como cobrador de impostos, Lavoisier foi sentenciado à guilhotina durante a Revolução Francesa em 1794, no final do Reino do Terror. Antoine e Marie-Anne foram denominados o "pai" e a "mãe" da química moderna, respectivamente.

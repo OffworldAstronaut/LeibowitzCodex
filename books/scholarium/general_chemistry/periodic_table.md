@@ -28,14 +28,6 @@ O Pai da Química definiu um elemento como uma substância cujas menores unidade
 
 </div>
 
-<div class="wiki-thumb">
-
-![](https://upload.wikimedia.org/wikipedia/commons/d/d7/Bezeichnung_der_Himmelsk%C3%B6rper_Encke_1850.png)
-
-<i>Muitos dos símbolos alquímicos são hoje utilizados na Astronomia. Acima vemos uma lista desses símbolos para alguns corpos, como o Sol, a Lua, Mercúrio, Vênus, Terra e Marte. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Bezeichnung_der_Himmelsk%C3%B6rper_Encke_1850.png" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
-
 No começo do século XIX, John Dalton publicou sua teoria atômica e, junto com ela, um método para calcular o peso atômico dos elementos conhecidos até então. Em 1817, Johann Döbereiner formulou uma das mais antigas tentativas de classificação dos elementos de forma compreensiva, organizando-os em tríades (grupos de três) de comportamentos similares.
 
 A verdadeira revolução, entretanto, veio nas décadas de 1860 e 1870 por meio dos trabalhos do alemão Lothar Meyer e do russo Dimitri Mendeleev. Embora Mendeleev tenha seu merecido destaque na próxima seção, é interessante escrever um pouco sobre o trabalho de Meyer. Assim como o russo, percebeu que os elementos possuiam propriedades periódicas caso organizados em ordem crescente de peso atômico. Em 1864, uma versão inicial de sua tabela periódica estava publicada. Embora rudimentar, foi a primeira vez que os elementos conhecidos foram organizados em colunas de acordo com sua capacidade de combinação (sua valência).
