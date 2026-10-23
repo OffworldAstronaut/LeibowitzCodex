@@ -473,9 +473,16 @@ sup a {
   width: 100%;             
   height: auto;            
   display: block;
+  margin-bottom: 8px;
 }
 
+.wiki-thumb img:last-child {
+  margin-bottom: 0;
+}
+
+.wiki-thumb i,
 .wiki-thumb p {
+  display: block;
   margin-top: 8px;
   margin-bottom: 0;
   line-height: 1.3;

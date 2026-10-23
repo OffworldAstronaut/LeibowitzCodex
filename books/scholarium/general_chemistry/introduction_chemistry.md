@@ -18,35 +18,21 @@ Conforme discutido em outras ocasiões, massa e peso são conceitos distintos. O
 
 ## Estados físicos
 
-A matéria pode se apresentar em diversos <b>estados físicos</b>. Múltiplos estados físicos existem, entretanto, três são os mais comuns, se sobressaindo sobre os demais: <b>sólido</b>, <b>líquido</b> e <b>gasoso</b>. 
-
-Estes estados diferem entre si pelo grau de agitação das partículas do corpo que estas compõem, com este grau de agitação mensurado pela temperatura. Maiores temperaturas enfraquecem as forças que mantém a matéria coesa, provocando <b>mudanças de estado</b>.
-
-<br>
-
 <div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/b/ba/Gif_-AtomosSolido_01.gif)
 
-<i>Representação de um corpo em estado sólido. As partículas constituintes estão fortemente unidas. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Gif_-AtomosSolido_01.gif" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
-
-<div class="wiki-thumb">
-
 ![](https://upload.wikimedia.org/wikipedia/commons/5/5b/Gif_-AtomosLiquid_03.gif)
-
-<i>Representação de um corpo em estado líquido. As partículas constituintes estão fracamente unidas. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Gif_-AtomosLiquid_03.gif" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
-
-<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/29/Gif_-AtomosGas_02.gif)
 
-<i>Representação de um corpo em estado gasoso. As partículas constituintes estão praticamente livres. Animação sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Gif_-AtomosGas_02.gif" target="_blank">Wikimedia Commons</a>.</i>
+<i>Representações de um corpo em estado sólido (a), líquido (b) e gasoso (c). Animação (a) sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Gif_-AtomosSolido_01.gif" target="_blank">Wikimedia Commons</a>. Animação (b) sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Gif_-AtomosLiquid_03.gif" target="_blank">Wikimedia Commons</a>. Animação (c) sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Gif_-AtomosGas_02.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 </div>
+
+A matéria pode se apresentar em diversos <b>estados físicos</b>. Múltiplos estados físicos existem, entretanto, três são os mais comuns, se sobressaindo sobre os demais: <b>sólido</b>, <b>líquido</b> e <b>gasoso</b>. 
+
+Estes estados diferem entre si pelo grau de agitação das partículas do corpo que estas compõem, com este grau de agitação mensurado pela temperatura. Maiores temperaturas enfraquecem as forças que mantém a matéria coesa, provocando <b>mudanças de estado</b>.
 
 Denominamos <b>mudanças de estado físico</b>  o processo de uma substância assumir um outro estado diferente de seu atual. Vale notar que não somente a temperatura é responsável pela mudança de estado físico mas também a <b>pressão</b> sobre este corpo. Estas duas grandezas estão relacionadas, como será visível em termoquímica. 
 

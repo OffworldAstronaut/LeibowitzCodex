@@ -164,19 +164,13 @@ com $Q$ a magnitude da carga parcial e $r$ a distância entre as cargas $\delta^
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d1/Cis-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-<i>Cis-dicloroetileno. Átomos de cloro em verde, hidrogênio em branco e carbono em cinza. Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Cis-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a>.</i>
+![](https://upload.wikimedia.org/wikipedia/commons/b/b0/Trans-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Trans-dicloroetileno. Átomos de cloro em verde, hidrogênio em branco e carbono em cinza. Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Trans-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a>. Cis-dicloroetileno, Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Cis-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a></i>
 
 </div>
 
 Nem sempre moléculas formadas por átomos distintos serão polares, pois a polarização referente a cada ligação pode ser anular para um mesmo átomo. Por exemplo, considere duas moléculas distintas formadas pelos mesmos átomos e as mesmas ligações: cis-dicloroetileno e trans-dicloroetileno.
-
-<div class="wiki-thumb">
-
-![](https://upload.wikimedia.org/wikipedia/commons/b/b0/Trans-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-<i>Trans-dicloroetileno. Átomos de cloro em verde, hidrogênio em branco e carbono em cinza. Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Trans-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
 
 Enquanto uma não possui um momento de dipolo resultante (isto é, $\mu = 0$), a outra possui. Isto pode ser verificado ao desenhar os vetores para cada ligação (como feito para o ácido fluorídrico acima) e somá-los. 
 

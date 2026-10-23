@@ -158,21 +158,15 @@ Após realizar este procedimento diversas vezes, a dupla percebeu que todas as c
 
 ![](https://upload.wikimedia.org/wikipedia/commons/f/fb/X-ray_by_Wilhelm_R%C3%B6ntgen_of_Albert_von_K%C3%B6lliker%27s_hand_-_18960123-02.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
-<i>Impressão em raios-X da mão de Albert von Kölliker, colega de Wilhelm Röntgen. A opacidade dos ossos humanos a essa radiação motivou sua aplicação médica. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:X-ray_by_Wilhelm_R%C3%B6ntgen_of_Albert_von_K%C3%B6lliker%27s_hand_-_18960123-02.jpg" target="_blank">Wikimedia Commons</a>.</i>
+![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Irene_and_Marie_Curie_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>(a) Impressão em raios-X da mão de Albert von Kölliker, colega de Wilhelm Röntgen. A opacidade dos ossos humanos a essa radiação motivou sua aplicação médica. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:X-ray_by_Wilhelm_R%C3%B6ntgen_of_Albert_von_K%C3%B6lliker%27s_hand_-_18960123-02.jpg" target="_blank">Wikimedia Commons</a>. (b) Marie Curie e sua filha, Iréne Joliot-Curie, em 1925. Ao todo, a família Curie possui cinco prêmios Nobel. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Irene_and_Marie_Curie_1925.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
 </div>
 
 A história do estudo da radioatividade também possui seu início na década de 1890 com a descoberta dos raios-X pelo físico alemão Wilhelm Röntgen. Röntgen descobriu que certos vidros e metais emitiam raios peculiares após serem bombardeados por raios catódicos — estes raios não poderiam ser desviados por campos magnéticos nem cargas elétricas e, portanto, não poderiam ser compostos por partículas carregadas. Por sua estranha natureza para a época, eles foram nomeados como <i>X-radiation</i>, "raios-X". 
 
 Pouco após este acontecimento, o físico francês Antoine Becquerel acidentalmente descobriu que filmes fotográficos expostos a óxido de urânio queimavam, mesmo que estes fossem protegidos com materiais comuns do laboratório.
-
-<div class="wiki-thumb">
-
-![](https://upload.wikimedia.org/wikipedia/commons/a/aa/Irene_and_Marie_Curie_1925.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-<i>Marie Curie e sua filha, Iréne Joliot-Curie, em 1925. Ao todo, a família Curie possui cinco prêmios Nobel. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Irene_and_Marie_Curie_1925.jpg" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
 
 O óxido emitia esta radiação — que também não podia ser composta por partículas carregadas — sem estimulação prévia por raios catódicos, o que era algo novo para a época. Marie Curie, aluna de Becquerel na época, sugeriu nomear este fenômeno de emissão espotânea de partículas ou radiação de <b>radioatividade</b>. Pela nomenclatura de Curie, assim, o óxido de urânio é um material <b>radioativo</b>.
 
@@ -202,11 +196,15 @@ O átomo de Rutherford era formado por duas seções: o núcleo, composto de pr�
 
 O átomo de Rutherford, no entanto, trazia em si algumas inconsistências. Qual o motivo da semelhança com o sistema Solar? Não seria uma escolha arbitrária de formato para o átomo? Como toda a matéria não entra em colapso em razão da emissão de radiação que deveria ser provocada pela movimentação do elétron? Como explicar as diferentes emissões de cor na combustão de elementos no conhecido teste da chama? 
 
-Estas perguntas foram resolvidas com um novo modelo atômico, proposto pelo orientando de doutorado de Rutherford, o dinamarquês Niels Bohr. Bohr modificou o modelo atômico de seu professor para que as órbitas dos elétrons fossem discretas, correspondentes a um nível de energia que os elétrons pudessem assumir. Esta quantização solucionou diversos problemas encontrados por Rutherford.
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/93/Bohr_atom_model.svg)
 
 <i>Representação do modelo atômico de Bohr, juntamente com um elétron liberando energia extra em forma de luz. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Bohr_atom_model.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Estas perguntas foram resolvidas com um novo modelo atômico, proposto pelo orientando de doutorado de Rutherford, o dinamarquês Niels Bohr. Bohr modificou o modelo atômico de seu professor para que as órbitas dos elétrons fossem discretas, correspondentes a um nível de energia que os elétrons pudessem assumir. Esta quantização solucionou diversos problemas encontrados por Rutherford[^1].
 
 Além disso, a noção de excitação de elétrons e seu retorno ao nível fundamental de energia pela emissão de fótons (com frequências próprias de cada átomo) permitiu a explicação de fenômenos como o teste de chama. 
 
@@ -234,11 +232,15 @@ Em relação a um dado átomo, seus <b>isótopos</b> são os átomos que possuem
 
 # Eletrosfera
 
-No modelo atômico de Bohr, as diferentes órbitas de que um elétron pode assumir, também chamadas de <b>níveis eletrônicos</b> ou <b>camadas eletrônicas</b>, são nomeadas a partir do núcleo pelas letras $K$, $L$, $M$, $N$, $O$, $P$ e $Q$.
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Atome_bohr_couches_electroniques_KLM.svg/500px-Atome_bohr_couches_electroniques_KLM.svg.png)
 
 <i>Representação de um átomo com suas camadas eletrônicas. A notação com letras originou do estudo de raios-X e, por isso, recebe a nomenclatura de 'notação de raio-X'. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Atome_bohr_couches_electroniques_KLM.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+No modelo atômico de Bohr, as diferentes órbitas de que um elétron pode assumir, também chamadas de <b>níveis eletrônicos</b> ou <b>camadas eletrônicas</b>, são nomeadas a partir do núcleo pelas letras $K$, $L$, $M$, $N$, $O$, $P$ e $Q$.
 
 Cada camada eletrônica é também chamada <b>nível energético</b> em razão de que cada elétron possui um nível de energia bem determinado de acordo com a órbita que este ocupa, conforme discutido previamente. Uma curiosidade interessante é que a diferença relativa de energia entre esses níveis diminui à medida nos afastamos do núcleo do átomo. Além disso, quanto mais distante do núcleo, mais energético um nível é.
 
@@ -248,11 +250,15 @@ Além disso, cada nível eletrônico possui uma quantidade máxima de elétrons 
 
 No interior de cada camada, os elétrons são distribuídos em quatro subníveis, denotados por $s$, $p$, $d$ e $f$. Algo importante de ressaltar é que os elétrons não estão naturalmente dispostos na ordem que se provavelmente esperaria, mas sim segundo uma ordem que vai do subnível menos energético ao mais energético.
 
-Podemos representar a ordem de preenchimento dos níveis e subníveis de acordo com o chamado <b>diagrama de Pauling</b>, em homenagem ao físico americano Linus Pauling, embora outros nomes para esta regra existam, como princípio de <i>Aufbau</i> ("construção", em alemão), regra de Klechkowsky (em homenagem ao físico soviético Vsevolod Klechkowsky), regra de Wiswesser (em homenagem ao físico americano William Wiswesser) e muitas outros.
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/2/2e/Aufbau_Principle-en.svg)
 
 <i>Diagrama de Pauling com as setas vermelhas indicando a ordem de preenchimento. Imagem sob domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Aufbau_Principle-en.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Podemos representar a ordem de preenchimento dos níveis e subníveis de acordo com o chamado <b>diagrama de Pauling</b>, em homenagem ao físico americano Linus Pauling, embora outros nomes para esta regra existam, como princípio de <i>Aufbau</i> ("construção", em alemão), regra de Klechkowsky (em homenagem ao físico soviético Vsevolod Klechkowsky), regra de Wiswesser (em homenagem ao físico americano William Wiswesser) e muitas outros.
 
 Cada subnível também possui um número maxímo de elétrons que pode "armazenar". O nível $s$ pode comportar no máximo 2 elétrons; $p$, no máximo 6; $d$, no máximo 10 e $f$, no máximo, 14 elétrons. 
 
@@ -334,3 +340,5 @@ $$
 5. Britannica Editors (2022, October 27). Millikan oil-drop experiment. Encyclopedia Britannica. (<a href="https://www.britannica.com/science/Millikan-oil-drop-experiment" target="_blank">Acesse aqui</a>)
 6. <i>Oil Drop Experiment</i>, LibreTexts in Chemistry (<a href="https://chem.libretexts.org/Bookshelves/Introductory_Chemistry/Introductory_Chemistry_(CK-12)/04%3A_Atomic_Structure/4.12%3A_Oil_Drop_Experiment" target="_blank">Acesse aqui</a>)
 7. <i>The Discovery of the Electron: The J. J. Thomson Experiment</i>. Notas de aula do curso "Laboratório de Física Moderna" do prof. Darrel Smith (Embry-Riddle Aeronautical University, EUA) (<a href="https://physicsx.erau.edu/Courses/CoursesS2026/PS315/Charge-to-Mass/Classic_eoverm.pdf" target="_blank">Acesse aqui</a>)
+
+[^1]: Para mais informações sobre o desenvolvimento da hipótese de quantização e a revolução que esta causou na física e na química, vale consultar o manuscrito <a href="/books/scholarium/physics/quantum_mechanics/origins_modern_physics.html" target="_blank">De Natus Scientia Moderna</a>.
