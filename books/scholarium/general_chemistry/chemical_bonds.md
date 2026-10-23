@@ -2,15 +2,19 @@
 
 # Valência
 
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Carbon_Lewis_Structure_PNG.png/250px-Carbon_Lewis_Structure_PNG.png)
+
+<i>Símbolo eletrônico do carbono na notação de Lewis. O carbono possui quatro elétrons em sua camada de valência. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Carbon_Lewis_Structure_PNG.png" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
 Na natureza, poucos átomos existem sozinhos, sendo usual encontrá-los combinados com outros átomos. Assim, chamamos a força resultante que mantém essa união de <b>ligação química</b>. 
 
 Para começar o estudo das ligações químicas, convém discorrer sobre <b>elétrons de valência</b>. Os elétrons de valência de um átomo são os elétrons de sua camada eletrônica mais externa, sendo responsáveis pelas ligações químicas desse átomo. Essa última camada é apropriadamente nomeada <b>camada de valência</b>.[^1]
 
 Comumente representamos os elétrons de valência de um átomo pela <b>notação de Lewis</b>, nomeada em homenagem ao químico inglês Gilbert Newton Lewis (1875-1946). Nesta notação, cada elétron da camada de valência é representado como um ponto ou uma cruz ao redor do símbolo do elemento, formando assim seu <b>símbolo eletrônico</b>. 
-
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Carbon_Lewis_Structure_PNG.png/250px-Carbon_Lewis_Structure_PNG.png)
-
-<i>Símbolo eletrônico do carbono na notação de Lewis. O carbono possui quatro elétrons em sua camada de valência. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Carbon_Lewis_Structure_PNG.png" target="_blank">Wikimedia Commons</a>.</i>
 
 # Ligações interatômicas
 
@@ -138,19 +142,59 @@ Enquanto nas regulares cada elétron em um par compartilhado provém de um átom
 
 ## Momento do dipolo
 
-Nosso raciocínio sobre classificação de moléculas polares ou apolares é suficiente para ligações diatômicas (entre dois átomos). Entretanto, como analisar moléculas maiores em relação a sua polaridade? 
+Para representar a polarização eletrônica numa molécula, podemos utilizar tanto a notação de carga parcial $\delta^-$ e $\delta^+$ (maior ou menor densidade eletrônica, respectivamente) como também uma seta (de base cruzada, ou não). Por exemplo, no ácido fluorídrico $\ce{HF}$ denotamos: 
 
-Uma solução para esse problema é a introdução de uma grandeza vetorial, o <b>momento do dipolo</b>, que indica a direção do átomo mais eletronegativo numa ligação. Se o vetor momento do dipolo resultante de todas as ligações da molécula for nulo, a molécula será apolar, caso contrário, polar.
+$$
+\overrightarrow{\ce{H - F}}
+$$
+
+Alternativamente, podemos fazer $\ce{H^{\delta^+} - F^{\delta^-}}$. Essa polarização pode ser confirmada experimentalmente pela utilização de um campo elétrico e a observação da orientação das moléculas. 
+
+Essa representação é útil para a análise da polaridade das moléculas em razão da definição de uma nova grandeza, o <b>momento do dipolo</b> $\mu$ de uma ligação. 
+
+Matematicamente, escrevemos:
+
+$$
+\mu = Q \cdot r 
+$$
+
+com $Q$ a magnitude da carga parcial e $r$ a distância entre as cargas $\delta^+$ e $\delta^-$. Normalmente, esta grandeza é aferida em <b>debyes</b> — em homenagem ao físico-químico holandês Peter Debye (1884-1966) — de forma que $1 \text{D} = 3.336 \cdot 10^{-30} \text{ C}\cdot\text{m}$.
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/d1/Cis-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Cis-dicloroetileno. Átomos de cloro em verde, hidrogênio em branco e carbono em cinza. Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Cis-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/b0/Trans-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Trans-dicloroetileno. Átomos de cloro em verde, hidrogênio em branco e carbono em cinza. Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Trans-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
+Nem sempre moléculas formadas por átomos distintos serão polares, pois a polarização referente a cada ligação pode ser anular para um mesmo átomo. Por exemplo, considere duas moléculas distintas formadas pelos mesmos átomos e as mesmas ligações: cis-dicloroetileno e trans-dicloroetileno.
+
+Enquanto uma não possui um momento de dipolo resultante (isto é, $\mu = 0$), a outra possui. Isto pode ser verificado ao desenhar os vetores para cada ligação (como feito para o ácido fluorídrico acima) e somá-los. 
+
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d9/Polarity_boron_trifluoride.png)
 
 <i>O trifluoreto de boro é uma molécula apolar, embora possua três ligações polares. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Polarity_boron_trifluoride.png" target="_blank">Wikimedia Commons</a>.</i>
 
+</div>
+
+Consequentemente, podemos afirmar que uma molécula é polar enquanto a outra não o é. De forma geral, moléculas polares possuem o <i>vetor momento do dipolo</i> $\vec{\mu}$ não-nulo, enquanto este vetor é nulo em moléculas polares. Dessa forma, esta grandeza permite a classificação de moléculas quaisquer quanto a sua polaridade, ao invés da abordagem por eletronegatividade, que era apenas válida para moléculas diatômicas. 
+
 ## Representando moléculas
 
 Podemos <b>representar moléculas</b> de várias maneiras distintas, como as fórmulas moleculares, estruturais e esqueletais.
 
-A <b>fórmula molecular</b> é bastante utilizada em razão de indicar de forma precisa quais e quantos átomos compõem uma determinada molécula. Esta notação e suas variações serão importantes no estudo da <a href="/books/high_school/chemistry/first_year/stoichiometry.html" target="_blank">estequiometria</a> e discutidas com mais detalhes ali.
+A <b>fórmula molecular</b> é bastante utilizada em razão de indicar de forma precisa quais e quantos átomos compõem uma determinada molécula. Esta notação e suas variações serão importantes no estudo da <a href="/books/scholarium/general_chemistry/stoichiometry.html" target="_blank">estequiometria</a> e discutidas com mais detalhes ali.
 
 Antes de discutir um pouco mais sobre as fórmulas estruturais e esqueletais, é necessário responder à seguinte pergunta: como representar uma molécula por meio das ligações de Lewis? A combinação dos átomos que sabemos que fazem parte de um determinado composto não pode ser feita de forma aleatória. É necessário um método. 
 
@@ -158,7 +202,7 @@ Primeiro, teremos que definir o átomo central e, em seguida, calcular a quantid
 
 Após toda a distribuição, teremos que nos perguntar: a estrutura atual respeita a regra do octeto? As <b>cargas formais</b>[^2] (isto é, as eletrovalências) dos átomos estão o mais próximo possível da carga da molécula? Caso alguma dessas perguntas possua uma resposta negativa, a estrutura deverá ser adaptada para alcançar sua forma mais estável.
 
-Convém aqui, antes de partirmos para nossa breve discussão sobre as fórmulas estruturais e esqueletais — muito úteis na <a href="/books/high_school/chemistry/organic_chemistry/intro_organic_chemistry.html" target="_blank">Química Orgânica</a> — expor as expressões para o cálculo das eletrovalências de cada átomo. Para um dado átomo $A$, sua eletrovalência será dada pela expressão 
+Convém aqui, antes de partirmos para nossa breve discussão sobre as fórmulas estruturais e esqueletais — muito úteis na <a href="/books/scholarium/general_chemistry/organic_chemistry/intro_organic_chemistry.html" target="_blank">Química Orgânica</a> — expor as expressões para o cálculo das eletrovalências de cada átomo. Para um dado átomo $A$, sua eletrovalência será dada pela expressão 
 
 $$
 E = e_\text{fun} + e_\text{liv} - \dfrac{1}{2}e_\text{lig}
@@ -193,6 +237,10 @@ Esse comportamento é a causa de diversas propriedades metálicas, como a fácil
 ![](https://upload.wikimedia.org/wikipedia/commons/4/41/Enlace_metalico.gif)
 
 <i>Representação de uma ligação metálica. GIF em domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Enlace_metalico.gif" target="_blank">Wikimedia Commons</a>.</i>
+
+# Teoria da ligação de valência
+
+
 
 # Propriedades gerais das substâncias
 

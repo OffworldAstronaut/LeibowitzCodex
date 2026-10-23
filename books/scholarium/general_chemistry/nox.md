@@ -1,5 +1,6 @@
 # NOX
 
-# NOX
-
-<i>Um manuscrito em branco... talvez você devesse retornar mais tarde?</i>
+<blockquote>
+  <p>Quo usque tandem abutere, Catilina, patientia nostra?</p>
+  <cite>Cícero</cite>
+</blockquote>

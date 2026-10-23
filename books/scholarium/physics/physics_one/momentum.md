@@ -169,6 +169,14 @@ $$
 
 ## Foguetes
 
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg)
+
+<i>Konstantin Tsiolkovsky no começo do século XX. O pai da astronáutica passou grande parte de sua vida morando em modestas cabanas de madeira em pacífica solitude. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg" target="_blank">Wikimedia Commons</a></i>
+
+</div>
+
 O exemplo mais comum de sistema de massa variável conforme o estudado nesta seção são os foguetes. Considerando um foguete se movnedo no vácuo e numa região de aceleração gravitacional desprezível, teremos $F^{\text{ext}} = 0$.
 
 Suponha que nosso foguete comece a queimar combustível quando sua velocidade em relação a um referencial inercial é $\vec{v_i}$ e sua massa é $m_i$ e termine sua queima ao atingir uma massa final $m_f$. Como determinar a sua velocidade final, $\vec{v_f}$? 
@@ -189,14 +197,10 @@ Com $||\vec{v_f}|| = v_f$, $||\vec{v_i}|| = v_i$ e $||\vec{v_e}|| = v_e$.
 
 Esta equação é conhecida por <b>equação do foguete ideal</b> ou <b>equação de Tsiolkovsky</b> em homenagem ao pioneiro russo, pai da Astronáutica, Konstantin Tsiolkovsky. 
 
-![](https://upload.wikimedia.org/wikipedia/commons/a/a8/%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg)
-
-<i>Konstantin Tsiolkovsky no começo do século XX. O pai da astronáutica passou grande parte de sua vida morando em modestas cabanas de madeira em pacífica solitude. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD_%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9.jpg" target="_blank">Wikimedia Commons</a></i>
-
 Perceba que a razão $\dfrac{m_i}{m_f}$ possui uma relação exponencial com a velocidade final. Para alcançar velocidades cada vez maiores, precisamos de foguetes com quantidades exponencialmente maiores de combustível. Esta é a razão, portanto, que foguetes possuem estágios: é mais eficiente largar estágios vazios para trás à medida em que se acelera, pois a razão no interior do logaritmo torna-se maior em comparação com estágios anteriores. 
 
 <blockquote>
-  <p>Todo o nosso conhecimento — presente, passado ou futuro — nunca se comparará ao que nunca conheceremos.</p>
+  <p title="Accept no limits!">Todo o nosso conhecimento — presente, passado ou futuro — nunca se comparará ao que nunca conheceremos.</p>
   <cite>Konstantin Tsiolkovsky</cite>
 </blockquote>
 

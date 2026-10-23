@@ -2,11 +2,15 @@
 
 # Histórico
 
-A tentativa de organizar os elementos confunde-se com a própria história da descoberta destes. A descoberta mais antiga de um novo elemento que possui um registro que sobreviveu até os nossos dias é a descoberta do fósforo pelo comerciante alemão Hennig Brand. Falido, tentou sintetizar a pedra filosofal a partir de urina humana destilada, entretanto, acabou por produzir uma substância branca reluzente. Batizando sua criação de "fogo frio" (<i>Kaltes Feuer</i>), manteve esta em segredo por cerca de uma década, até a redescoberta do elemento pelo químico Robert Boyle em 1680.
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Joseph_Wright_of_Derby_The_Alchemist.jpg)
 
 <i>"O Alquimista descobrindo o fósforo", pintura de Joseph Wright de Derby (1734-1797).</i>
+
+</div>
+
+A tentativa de organizar os elementos confunde-se com a própria história da descoberta destes. A descoberta mais antiga de um novo elemento que possui um registro que sobreviveu até os nossos dias é a descoberta do fósforo pelo comerciante alemão Hennig Brand. Falido, tentou sintetizar a pedra filosofal a partir de urina humana destilada, entretanto, acabou por produzir uma substância branca reluzente. Batizando sua criação de "fogo frio" (<i>Kaltes Feuer</i>), manteve esta em segredo por cerca de uma década, até a redescoberta do elemento pelo químico Robert Boyle em 1680.
 
 Em meio a Revolução Científica nos séculos XVII e XVIII, a questão sobre o que de fato seria um elemento químico era um ponto de debate. Um marco importante ocorreu em 1789 com a publicação do primeiro livro-texto moderno de química por Antoine Lavoisier, o Tratado Elementar de Química (<i>Traité Éleméntaire de Chime</i>, no original em francês). 
 
@@ -16,25 +20,37 @@ O Pai da Química definiu um elemento como uma substância cujas menores unidade
 
 <i>Em 1718, o francês Étienne Geoffroy construiu uma tabela com o objetivo de organizar os elementos conhecidos pelo critério de afinidade química. Cada coluna é formada por todos os elementos que conseguem reagir com o primeiro elemento de cada coluna.</i>
 
-No começo do século XIX, John Dalton publicou sua teoria atômica e, junto com ela, um método para calcular o peso atômico dos elementos conhecidos até então. Em 1817, Johann Döbereiner formulou uma das mais antigas tentativas de classificação dos elementos de forma compreensiva, organizando-os em tríades (grupos de três) de comportamentos similares.
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/4/41/Dalton%27s_symbols_of_the_elements._1806_Wellcome_M0004592.jpg)
 
 <i>Tabela de John Dalton, datada em 1806, organizando os elementos conhecidos, com seus respectivos símbolos, em ordem crescente de número atômico. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Dalton%27s_symbols_of_the_elements._1806_Wellcome_M0004592.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
-A verdadeira revolução, entretanto, veio nas décadas de 1860 e 1870 por meio dos trabalhos do alemão Lothar Meyer e do russo Dimitri Mendeleev. Embora Mendeleev tenha seu merecido destaque na próxima seção, é interessante escrever um pouco sobre o trabalho de Meyer. Assim como o russo, percebeu que os elementos possuiam propriedades periódicas caso organizados em ordem crescente de peso atômico. Em 1864, uma versão inicial de sua tabela periódica estava publicada. Embora rudimentar, foi a primeira vez que os elementos conhecidos foram organizados em colunas de acordo com sua capacidade de combinação (sua valência).
+</div>
+
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/d/d7/Bezeichnung_der_Himmelsk%C3%B6rper_Encke_1850.png)
 
 <i>Muitos dos símbolos alquímicos são hoje utilizados na Astronomia. Acima vemos uma lista desses símbolos para alguns corpos, como o Sol, a Lua, Mercúrio, Vênus, Terra e Marte. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Bezeichnung_der_Himmelsk%C3%B6rper_Encke_1850.png" target="_blank">Wikimedia Commons</a>.</i>
 
+</div>
+
+No começo do século XIX, John Dalton publicou sua teoria atômica e, junto com ela, um método para calcular o peso atômico dos elementos conhecidos até então. Em 1817, Johann Döbereiner formulou uma das mais antigas tentativas de classificação dos elementos de forma compreensiva, organizando-os em tríades (grupos de três) de comportamentos similares.
+
+A verdadeira revolução, entretanto, veio nas décadas de 1860 e 1870 por meio dos trabalhos do alemão Lothar Meyer e do russo Dimitri Mendeleev. Embora Mendeleev tenha seu merecido destaque na próxima seção, é interessante escrever um pouco sobre o trabalho de Meyer. Assim como o russo, percebeu que os elementos possuiam propriedades periódicas caso organizados em ordem crescente de peso atômico. Em 1864, uma versão inicial de sua tabela periódica estava publicada. Embora rudimentar, foi a primeira vez que os elementos conhecidos foram organizados em colunas de acordo com sua capacidade de combinação (sua valência).
+
 ## Mendeleev
 
-Dimitri Ivanovich Mendeleev (1834-1907) foi um importante químico e professor russo, natural de um pequeno vilarejo da Sibéria. Em suas pesquisas, notou que os elementos químicos possuiam uma periodicidade em suas propriedades se organizados em ordem crescente de peso atômico. A esta propriedade foi dado o nome <b>lei períodica</b> dos elementos. 
+<div class="wiki-thumb">
 
 ![](https://upload.wikimedia.org/wikipedia/commons/a/af/Dmitri_Mendeleev.jpg)
 
 <i>Fotografia de Mendeleev, ano e autor desconhecido. O químico russo, além dos seus trabalhos na organização dos elementos existentes, fez muito pela melhora do ensino de química em seu país de origem.</i>
+
+</div>
+
+Dimitri Ivanovich Mendeleev (1834-1907) foi um importante químico e professor russo, natural de um pequeno vilarejo da Sibéria. Em suas pesquisas, notou que os elementos químicos possuiam uma periodicidade em suas propriedades se organizados em ordem crescente de peso atômico. A esta propriedade foi dado o nome <b>lei períodica</b> dos elementos. 
 
 Se valendo essa lei, Mendeleev construiu a primeira <b>tabela periódica</b> dos elementos, inicialmente em forma linear e, posteriormente, num arranjo retangular por economia de espaço. O químico ainda previu corretamente diversas propriedades de elementos que ainda não haviam sido descobertos: o germânio, o gálio e o escândio.
 
@@ -160,4 +176,3 @@ Analisando a disposição dos elementos, vemos que o aumento do caráter metáli
 # Referências 
 
 1. HENRIQUES DA SILVA, Ronaldo. BRAGA DA SILVA, Edson. Princípios básicos de Química, v. 1. 2 . ed. São Paulo: HARBRA Ltda., 1986
-2. Wikipedia contributors. History of the periodic table. Wikipedia, The Free Encyclopedia. July 8, 2026, 07:50 UTC. Available at: https://en.wikipedia.org/w/index.php?title=History_of_the_periodic_table&oldid=1363136990. Accessed July 17, 2026.

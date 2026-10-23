@@ -2,17 +2,36 @@
 
 # Introdução
 
-Embora estejamos acostumados a representar moléculas de uma maneira plana, é claro que estas são estruturas reais e que existem em nosso espaço tridimensional. Dessa forma, como podemos estudar a <b>geometria</b> espacial desses entes químicos? Esta é a justificativa do estudo da <b>geometria molecular</b>.
+Chamamos <b>geometria molecular</b> o arranjo tridimensional dos átomos de uma molécula. Embora estejamos acostumados a representar moléculas de uma maneira plana, é claro que estas são estruturas reais e que existem em nosso espaço tridimensional. A importância do estudo dessa geometria nasce de sua influência nas propriedades das substâncias, como pontos de fusão e ebulição. 
 
-A principal teoria físico-química que explora as diferentes orientações espaciais que os átomos de uma molécula pode assumir é a chamada <b>teoria VESPR</b>, um acrônimo para <i>valence shell electron pair repulsion</i> ("repulsão de pares de elétrons de valência"). 
+A principal teoria físico-química que modela a geometria molecular é a <b>teoria VSEPR</b> (lê-se "vésper"), um acrônimo para <i>Valence Shell Electron Pair Repulsion</i> ("repulsão de pares de elétrons de valência"). 
 
-A teoria VESPR explana que a geometria de uma molécula é determinada pela posição dos átomos que minimiza a repulsão entre os pares de elétrons de valência não-ligantes, livres. Em razão desses elétrons livres possuírem a tendência de se afastar o máximo possível, isso deforma a molécula, que tende a assumir uma forma específica. 
+A teoria VSPER é construída sobre uma única suposição: os elétrons de valência dos átomos repelem-se mutuamente por forças eletrostáticas e, consequentemente, os elétrons dos átomos centrais (não-periféricos) deformam a molécula de forma a ficarem o mais longe possível entre si. 
+
+Para a sua aplicação, podemos tratar as ligações duplas ou triplas como ligações simples (em razão de sua repulsão ser essencialmente a mesma) e, caso a molécula possua estruturas de ressonância, é suficiente aplicar a teoria para uma delas. 
+
+De forma geral, o mesmo método será seguido:
+
+1. Escrever a estrutura de Lewis da molécula em questão e direcionar nossa atenção para os elétrons do átomo central; 
+2. Contar o número de pares eletrônicos ligantes e não-ligantes;
+3. Referir-se às tabelas abaixo para prever a geometria molecular; 
+4. Tomar nota da força da repulsão mais intensa dos elétrons livres frente aos elétrons ligantes ao estimar os ângulos entre as ligações. 
+
+Perceba que todos esses desenvolvimentos são para moléculas de apenas um átomo central. Para moléculas de mais de um átomo central, será necessário aplicar a teoria individualmente para cada átomo e assim encontrar as posições relativas a cada um. 
 
 # Formas moleculares 
 
-Diversas formas moleculares são possíveis, Nesta seção, uma porção será listada e discorrida sobre. Na seção seguinte, uma tabela para consulta contendo diversas formas moleculares é disponibilizada.
+Diversas formas moleculares são possíveis, Nesta seção, uma porção será listada e discorrida sobre. Na seção seguinte, duas tabelas para consulta e predição da geometria de uma dada molécula em análise são disponibilizadas. 
 
 ## Simples 
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Xenon_tetrafluoride.png)
+
+<i>Tetrafluoreto de xenônio. De difícil síntese, este composto foi produzido pela primeira vez em 1962 evidenciando que é sim possível a reação química de gases nobres. Imagem produzida pelo Laboratório National de Argonne, via <a href="https://commons.wikimedia.org/wiki/File:Xenon_tetrafluoride.png" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
 
 Dentre as geometrias mais simples, temos inicialmente as moléculas <b>lineares</b>. Numa molécula linear, o ângulo de ligação é raso em razão da ausência de elétrons livres que provocam sua deformação. Como exemplo para essa categoria, podemos citar o dióxido de carbono.
 
@@ -26,10 +45,6 @@ Uma possível variação de uma pirâmide trigonal é uma molécula <b>em forma 
 
 Como último exemplo das formas moleculares simples, temos a <b>quadrada plana</b>. Uma molécula de geometria quadrada plana é formada por um átomo central ligado a quatro outros. A ausência de pares de elétrons livres no átomo central causa a forma plana da molécula, em forma de cruz grega. Como exemplo para essa categoria, podemos citar o tetrafluoreto de xenônio.
 
-![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Xenon_tetrafluoride.png)
-
-<i>Tetrafluoreto de xenônio. De difícil síntese, este composto foi produzido pela primeira vez em 1962 evidenciando que é sim possível a reação química de gases nobres. Imagem produzida pelo Laboratório National de Argonne, via <a href="https://commons.wikimedia.org/wiki/File:Xenon_tetrafluoride.png" target="_blank">Wikimedia Commons</a>.</i>
-
 ## Compostas
 
 As geometrias moleculares compostas podem ser formadas por combinações e variações das geometrias simples. Nesta categoria temos as geometrias <b>tetraédricas</b>, <b>trigonais bipiramidais</b> e <b>octogonais</b>. 
@@ -40,25 +55,31 @@ A geometria trigonal bipiramidal pode ser obtida ao ligar outro átomo ao átomo
 
 Por fim, as moléculas octogonais podem ser visualizadas como moléculas quadradas planas com mais dois átomos ligados ao átomo central. São reminiscentes de um octaedro regular, um dos sólidos de Platão. Como exemplo para essa geometria, podemos citar o hexafluoreto de enxofre.
 
-# Tabela
+# Tabelas 
 
-| Geometria                    | Átomos ligados ao átomo central | Pares de elétrons livres | Ângulos de ligação (ideais) | Exemplo |
-|------------------------------|---------------------------------|--------------------------|-----------------------------|---------|
-| Linear                       | 2                               | 0                        | 180°                         | CO2     |
-| Trigonal plana               | 3                               | 0                        | 120°                         | BF3     |
-| Angular                      | 2                               | 1                        | 120°                         | SO2     |
-| Tetraédrica                  | 4                               | 0                        | 109,5°                       | CH4     |
-| Trigonal piramidal           | 3                               | 1                        | 109,5°                       | NH3     |
-| Angular                      | 2                               | 2                        | 109,5°                       | H2O     |
-| Trigonal bipiramidal         | 5                               | 0                        | 90°; 120°                     | PCl5    |
-| Gangorra                     | 4                               | 1                        | 180°; 120°; 90°                | SF4     |
-| Formato de T                 | 3                               | 2                        | 90°; 180°                          | ClF3    |
-| Linear                       | 2                               | 3                        | 180°                         | XeF2    |
-| Octaédrica                   | 6                               | 0                        | 90°; 180°                     | SF6     |
-| Quadrada piramidal           | 5                               | 1                        | 90°                          | BrF5    |
-| Quadrada planar              | 4                               | 2                        | 90°; 180°                     | XeF4    |
-| Pentagonal bipiramidal       | 7                               | 0                        | 90°; 72°; 180°                 | IF7     |
-| Pentagonal piramidal         | 6                               | 1                        | 72°; 90°; 144°                 | XeOF5   |
-| Pentagonal planar            | 5                               | 2                        | 72°; 144°                     | XeF5    |
-| Quadrada antiprismática      | 8                               | 0                        | -                           | XeF8    |
-| Prismatrigonal triencapuzada | 9                               | 0                        | -                           | ReH9    |
+## Átomo central sem elétrons livres
+
+| # de pares de elétrons ligantes | Ângulos de ligação | Geometria resultante |
+|:-:|:-:|:-:|
+| 2 | 180° | Linear | 
+| 3 | 120° | Trigonal plana |
+| 4 | 109.5° | Tetraédrica |
+| 5 | 120°, 90° | Trigonal bipiramidal |
+| 6 | 90° | Octaédrica |
+
+## Átomo central com elétrons livres
+
+| Classe da molécula | # de pares de elétrons | # de pares ligantes | # de pares livres | Geometria dos pares eletrônicos | Geometria resultante 
+|:-:|:-:|:-:|:-:|:-:|:-|
+| AB<sub>2</sub>E | 3 | 2 | 1 | Trigonal plana | Angular |
+| AB<sub>3</sub>E | 4 | 3 | 1 | Tetraédrica | Trigonal piramidal | 
+| AB<sub>2</sub>E<sub>2</sub> | 4 | 2 | 2 | Tetraédrica | Angular | 
+| AB<sub>4</sub>E | 5 | 4 | 1 | Trigonal bipiramidal | Gangorra | 
+| AB<sub>3</sub>E<sub>2</sub> | 5 | 3 | 2 | Trigonal bipiramidal | Forma em T | 
+| AB<sub>2</sub>E<sub>3</sub> | 5 | 2 | 3 | Trigonal bipiramidal | Linear | 
+| AB<sub>5</sub>E | 6 | 5 | 1 | Octaédrica | Piramidal de base quadrada | 
+| AB<sub>4</sub>E<sub>2</sub> | 6 | 4 | 2 | Octaédrica | Quadrada plana
+
+# Referências 
+
+1. CHANG, Raymond. General Chemistry: The Essencial Concepts, 6ª ed. Nova Iorque: McGraw-Hill, 2008
