@@ -151,7 +151,7 @@ $$
 
 Isto é, a pressão abaixo de um líquido aumenta linearmente com a profundidade. Está demonstrada a lei de Stevin em sua forma mais usual.
 
-Esse resultado também pode ser demonstrado de uma outra maneira, considerando as forças que o líquido está sujeito como <b>forças conservativas</b>. Como <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">visto anteriormente</a>, isso implica em 
+Esse resultado também pode ser demonstrado de uma outra maneira, considerando as forças que o líquido está sujeito como <b>forças conservativas</b>. Como <a href="/books/scholarium/physics/physics_one/newtons_laws.html" target="_blank">visto anteriormente</a>, isso implica em 
 
 $$
 \vec{F} = -\nabla U
@@ -360,7 +360,7 @@ $$
 \dfrac{dp}{p} = -\dfrac{\rho_0 g}{p_0} dz = -\lambda dz
 $$
 
-com $\lambda = \dfrac{\rho_0 g}{p_0}$. Perceba que essa equação é análoga à <a href="/books/higher_education/physics/physics_one/momentum.html" target="_blank">equação da variação da velocidade de um foguete</a>. Esta também pode ser integrada de forma análoga.
+com $\lambda = \dfrac{\rho_0 g}{p_0}$. Perceba que essa equação é análoga à <a href="/books/scholarium/physics/physics_one/momentum.html" target="_blank">equação da variação da velocidade de um foguete</a>. Esta também pode ser integrada de forma análoga.
 
 Dessa forma, integrando em $p$, obtemos 
 

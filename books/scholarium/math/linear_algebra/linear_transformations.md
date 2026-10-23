@@ -580,7 +580,7 @@ Essa percepção de que a imagem de $A$ é construída à partir da combinação
 
 No exemplo acima, podemos verificar que o posto de $A$ é 2, i.e $\dim{\Im(A)}=2$, pois embora as duas últimas colunas sejam múltiplas uma da outra, estas não podem ser formadas por uma combinação linear com a primeira coluna.
 
-Embora a análise inicial seja feita pelas colunas de $A$, é possível demonstrar que a dimensão da imagem desta matriz é o número máximo de vetores linha linearmente independentes (é equivalente verificar a independência linear entre as linhas ou entre as colunas). Além disso, o posto pode ser encontrado com a ajuda de <b><a href="/books/higher_education/math/linear_algebra/determinants.html" target="_blank">determinantes</a></b>.
+Embora a análise inicial seja feita pelas colunas de $A$, é possível demonstrar que a dimensão da imagem desta matriz é o número máximo de vetores linha linearmente independentes (é equivalente verificar a independência linear entre as linhas ou entre as colunas). Além disso, o posto pode ser encontrado com a ajuda de <b><a href="/books/scholarium/math/linear_algebra/determinants.html" target="_blank">determinantes</a></b>.
 
 Relembrando o conceito de <b>menor</b> (a matriz obtida ao eliminar a i-ésima linha e a j-ésima coluna da matriz original), podemos afirmar que, para uma dada matriz $A$, seu posto é nulo se o determinante de todo menor for nulo. Caso contrário, seu posto é igual à ordem do menor de maior ordem cujo determinante é não-nulo. 
 
@@ -711,7 +711,7 @@ $$
 
 e, portanto, o conjunto $\{F_1, \dots, F_n\}$ é linearmente independente em $U^*$. Como este conjunto é L.I. e gera $U^*$, vemos que este é uma base do espaço dual de $U$.
 
-Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que, se $U$ e portanto $U^*$ forem munidos de <a href="/books/higher_education/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>, todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
+Quando o espaço $U$ é munido de um produto interno, o <b>teorema da representação de Riesz</b> diz que, se $U$ e portanto $U^*$ forem munidos de <a href="/books/scholarium/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>, todo funcional linear $F \in U^*$ pode ser representado por um único vetor $v \in U$ pela relação
 
 $$
 F(u) = \langle v, u \rangle 

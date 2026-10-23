@@ -1,4 +1,4 @@
-# Derivando funções transcendentais
+# Derivando Funções Transcendentais
 
 # Introdução
 

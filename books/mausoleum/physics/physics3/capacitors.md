@@ -121,7 +121,7 @@ Se temos uma esfera $E_1$ eletrizada (aqui, negativamente) e uma esfera $E_2$ el
 
 ![image.png](./images/capacitors/capacitores_esferas.png)
 
-Ok, nós já estudamos isso antes, lá nos <a href="/books/high_school/physics/physics3/introduction_electrostatics.html" target="_blank">processos de eletrização</a>, porém lá não tínhamos uma informação importante: <b>as cargas fluem de acordo com a diferença de potencial (DDP)</b>. 
+Ok, nós já estudamos isso antes, lá nos <a href="/books/mausoleum/physics/physics3/introduction_electrostatics.html" target="_blank">processos de eletrização</a>, porém lá não tínhamos uma informação importante: <b>as cargas fluem de acordo com a diferença de potencial (DDP)</b>. 
 
 Eventualmente, as <b>voltagens</b> de cada esfera serão iguais e o fluxo de cargas irá parar, ou seja, $V_1 = V_2$. 
 

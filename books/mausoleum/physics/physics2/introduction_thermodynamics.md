@@ -2,7 +2,7 @@
 
 # Introdução
 
-Termodinâmica é o estudo de como o <b>calor</b> consegue realizar trabalho (isto é, transferir energia) e por consequência ser utilizado para os mais variados propósitos, como mover máquinas. Ao longo do tempo, diferentes estudos e as famosas <a href="/books/high_school/physics/physics2/laws_thermodynamics.html" target="_blank">leis da termodinâmica</a> foram desenvolvidas.
+Termodinâmica é o estudo de como o <b>calor</b> consegue realizar trabalho (isto é, transferir energia) e por consequência ser utilizado para os mais variados propósitos, como mover máquinas. Ao longo do tempo, diferentes estudos e as famosas <a href="/books/mausoleum/physics/physics2/laws_thermodynamics.html" target="_blank">leis da termodinâmica</a> foram desenvolvidas.
 
 Esse exemplo foi uma das grandes razões pelo desenvolvimento acelerado da termodinâmica na ciência nos últimos séculos, começando pela Revolução Industrial, que foi impulsionada por máquinas à vapor. 
 

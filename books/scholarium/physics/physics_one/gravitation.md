@@ -171,7 +171,7 @@ A terceira lei foi publicada no prefácio do livro <i>Harmonices Mundi</i>, cujo
 
 ## Apêndice: Forma polar e anomalia verdadeira
 
-Embora as seções cônicas tenham sido suficientemente discutidas em <a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank"><i>De Sectiones Conicae</i></a>, cabe mencionar daqui em diante algumas informações e resultados interessantes e de verdadeira importância para a mecânica celeste. 
+Embora as seções cônicas tenham sido suficientemente discutidas em <a href="/books/scholarium/math/analytical_geometry/conics.html" target="_blank"><i>De Sectiones Conicae</i></a>, cabe mencionar daqui em diante algumas informações e resultados interessantes e de verdadeira importância para a mecânica celeste. 
 
 Dado um ponto $P$ qualquer de uma elipse, o ângulo formado pelo seu eixo principal e uma reta que conecta $P$ a um dos focos é chamado <b>anomalia verdadeira</b> e é geralmente denotado por $\theta$. 
 
@@ -329,7 +329,7 @@ Está demonstrada a terceira lei de Kepler.
 
 </aside>
 
-Por fim, a segunda lei de Kepler é uma consequência direta da conservação de momento angular em sistemas de atuação de forças centrais. Sua demonstração foi realizada anteriormente (cf. mencionado) no manuscrito sobre <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">rotações</a>.
+Por fim, a segunda lei de Kepler é uma consequência direta da conservação de momento angular em sistemas de atuação de forças centrais. Sua demonstração foi realizada anteriormente (cf. mencionado) no manuscrito sobre <a href="/books/scholarium/physics/physics_one/rotations.html" target="_blank">rotações</a>.
 
 Dois casos interessantes colocaram a Gravitação Universal à prova. Vamos começar pelo mais antigo, que ocorreu em 1676, em observações de Júpiter. 
 
@@ -355,7 +355,7 @@ Essas observações atestavam que, de fato, a força gravitacional atua em dist�
 
 <aside>
 
-Clique <a href="/books/higher_education/physics/physics_one/gravitation_two.html" target="_blank" target="_blank">aqui</a> para ir para o segundo volume.
+Clique <a href="/books/scholarium/physics/physics_one/gravitation_two.html" target="_blank" target="_blank">aqui</a> para ir para o segundo volume.
 
 </aside>
 

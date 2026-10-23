@@ -16,7 +16,7 @@ O polímata suíço Leonhard Euler (1707-1783) desenhou outra abordagem baseando
 
 <i>Exemplo de um campo de velocidades no estudo computacional da interação entre uma asa de avião e o ar ao seu redor. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Velocity_relative_to_ground.png" target="_blank">Wikimedia Commons</a>.</i>
 
-Na modelagem de Euler, as chamadas <b>linhas de corrente</b> são análogas às <b>linhas de força</b> no <a href="/books/high_school/physics/physics3/electric_field.html" target="_blank">campo elétrico</a>. Estas linhas são uma família de curvas cujos vetores tangentes formam o campo de velocidades supracitado. Uma consequência interessante é que as linhas de corrente são as trajetórias que um ponto material percorreria caso estivesse no interior do fluido.
+Na modelagem de Euler, as chamadas <b>linhas de corrente</b> são análogas às <b>linhas de força</b> do campo elétrico. Estas linhas são uma família de curvas cujos vetores tangentes formam o campo de velocidades supracitado. Uma consequência interessante é que as linhas de corrente são as trajetórias que um ponto material percorreria caso estivesse no interior do fluido.
 
 De forma similar podemos definir os chamados <b>tubos de corrente</b>, superfícies formadas num dado instante por todos as linhas decorrente num fluido que intersectam uma curva fechada qualquer $C$.
 
@@ -36,7 +36,7 @@ Fluidos em escoamento <b>estacionário</b> possuem um capo de velocidade constan
 
 Podemos enunciar os princípios básicos da hidrodinâmica a partir das leis de conservação. Num primeiro momento, é interessante analisar a conservação da massa. 
 
-Considere um tubo de corrente com uma seção transversal de área $A$. Podemos determinar a massa $\Delta m$ de fluido que atravessa esta área pelo estudo de um cilindro de base de área $A$ e altura infinitesimal $v\Delta t$, com $v = |\vec{v}|$. Como $\rho$ é a densidade do fluido na vizinhança do elemento de área considerado (cf. <a href="/books/higher_education/physics/physics_two/hydrostatics.html" target="_blank">Hidrostática</a>), temos que 
+Considere um tubo de corrente com uma seção transversal de área $A$. Podemos determinar a massa $\Delta m$ de fluido que atravessa esta área pelo estudo de um cilindro de base de área $A$ e altura infinitesimal $v\Delta t$, com $v = |\vec{v}|$. Como $\rho$ é a densidade do fluido na vizinhança do elemento de área considerado (cf. <a href="/books/scholarium/physics/physics_two/hydrostatics.html" target="_blank">Hidrostática</a>), temos que 
 
 $$
 \Delta m = \rho Av \Delta t 
@@ -106,7 +106,7 @@ com esta expressão sendo chamada <b>equação de continuidade</b>. Eis a maneir
 
 ## Forças num fluido em movimento
 
-Dada uma partícula de volume $\Delta V$ num fluido, temos pelo <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> que 
+Dada uma partícula de volume $\Delta V$ num fluido, temos pelo <a href="/books/scholarium/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> que 
 
 $$
 \Delta m \vec{a} = \rho \vec{a} \Delta V = \Delta \vec{F}_V + \vec{F}_S 
@@ -130,7 +130,7 @@ Quando consideramos a viscosidade num fluido, dizemos que este fluido é <b>real
 
 <i>Comparação do escoamento de dois líquidos de diferentes viscosidades. O líquido azul está mais próximo de um fluido ideal do que o fluido laranja. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Viscosities.gif" target="_blank">Wikimedia Commons</a>.</i>
 
-Assim, temos que a resultante das forças volumétricas e superficiais (decorrentes da pressão) para um fluido em movimento possui a mesma expressão para um fluido em repouso (cf. <a href="/books/higher_education/physics/physics_two/hydrostatics.html" target="_blank">Hidrostática</a>): 
+Assim, temos que a resultante das forças volumétricas e superficiais (decorrentes da pressão) para um fluido em movimento possui a mesma expressão para um fluido em repouso (cf. <a href="/books/scholarium/physics/physics_two/hydrostatics.html" target="_blank">Hidrostática</a>): 
 
 $$
 \vec{F}_V + \vec{F}_S = (\vec{f} - \nabla p)\Delta V
@@ -170,7 +170,7 @@ Como nota final, é importante perceber que as equações originais da estática
 
 # Equação de Bernoulli 
 
-A equação de Bernoulli, publicada pelo matemático suíço Daniel Bernoulli (1700-1782) em seu tratado <i>Hidrodinâmica</i>, é uma consequência da aplicação do <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">princípio da conservação de energia</a> a um fluido ideal, da mesma forma que a equação de continuidade é uma consequência da aplicação do principio da conservação da massa.
+A equação de Bernoulli, publicada pelo matemático suíço Daniel Bernoulli (1700-1782) em seu tratado <i>Hidrodinâmica</i>, é uma consequência da aplicação do <a href="/books/scholarium/physics/physics_one/work_energy.html" target="_blank">princípio da conservação de energia</a> a um fluido ideal, da mesma forma que a equação de continuidade é uma consequência da aplicação do principio da conservação da massa.
 
 Para deduzirmos esta importante equação, é importante primeiro frisar que estamos considerando um fluido ideal, incompressível, sob escoamento estacionário. Como consequência disto, o fluido também é isotérmico ao longo de todo o tempo e ao longo de toda a sua extensão.
 

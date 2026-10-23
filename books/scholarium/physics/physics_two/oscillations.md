@@ -14,7 +14,7 @@ Definimos como <b>oscilação</b> um movimento periódico, geralmente no tempo, 
 
 Podemos classificar as oscilações em <b>simples</b>, caso sejam próprias da natureza do sistema, ocorrendo sem nenhuma atuação de força externa, ou <b>forçadas</b>, caso contrário. Num primeiro momento iremos nos concentrar nas oscilações simples, pois as oscilaçoes forçadas necessitam de uma descrição físico-matemática um pouco mais rebuscada, que leva em conta tanto o regime natural do sistema quanto as oscilações na magnitude da força (resultante) atuante. 
 
-É conveniente, no estudo das oscilações simples, a aproximação da força restauradora atuante como algo linear, seguindo a <b>lei de Hooke</b>. Consequentemente, o poço de potencial associado é aproximadamente parabólico. Esse raciocínio foi conduzido anteriormente no tratamento de <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">gráficos de estabilidade</a>. 
+É conveniente, no estudo das oscilações simples, a aproximação da força restauradora atuante como algo linear, seguindo a <b>lei de Hooke</b>. Consequentemente, o poço de potencial associado é aproximadamente parabólico. Esse raciocínio foi conduzido anteriormente no tratamento de <a href="/books/scholarium/physics/physics_one/work_energy.html" target="_blank">gráficos de estabilidade</a>. 
 
 Imagine um sistema composto por uma massa $m$ ligada por uma mola de massa desprezível e constante $k$, suspensa verticalmente. Para esse sistema, a equação de movimento newtoniana é 
 
@@ -38,7 +38,7 @@ Este sistema é denominado como <b>oscilador harmônico</b>, com todo sistema os
 
 # Oscilações harmônicas
 
-Podemos verificar que a equação de movimento do oscilador harmônico (chamado <b>movimento harmônico simples</b> - MHS) é uma <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial ordinária de segunda ordem</a>, cuja incógnita é $x(t)$. 
+Podemos verificar que a equação de movimento do oscilador harmônico (chamado <b>movimento harmônico simples</b> - MHS) é uma <a href="/books/scholarium/math/calculus_two/differential_equations.html" target="_blank">equação diferencial ordinária de segunda ordem</a>, cuja incógnita é $x(t)$. 
 
 Embora possamos aproximar essa solução numericamente com o auxílio de algoritmos como o de Euler ou de Runge-Kutta, é possível encontrar $x(t)$ analiticamente, como será demonstrado a seguir
 
@@ -185,7 +185,7 @@ $$
 E = T + U = \dfrac{1}{2}\left(\dfrac{dx}{dt}\right)^2 + \dfrac{1}{2}kx^2 = \dfrac{1}{2}m\omega^2 A^2
 $$
 
-Como previamente discutido em <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">gráficos de estabilidade</a>, temos que um máximo de $T$ é uma raíz de $U$ e vice-versa. 
+Como previamente discutido em <a href="/books/scholarium/physics/physics_one/work_energy.html" target="_blank">gráficos de estabilidade</a>, temos que um máximo de $T$ é uma raíz de $U$ e vice-versa. 
 
 Uma consequência interessante dessas relações é a possibilidade de determinação da energia cinética em função da posição do oscilador: 
 
@@ -376,7 +376,7 @@ Comparando com as equações das energias cinética e mecânica do oscilador har
 
 Consequentemente, este sistema possui um comportamento equivalente às oscilações de um pêndulo simples de comprimento $l/2$.
 
-![](/books/higher_education/physics/physics_two/images/pendulo_tubo_u.gif)
+![](/books/scholarium/physics/physics_two/images/pendulo_tubo_u.gif)
 
 <blockquote>
     <p>
@@ -389,7 +389,7 @@ Consequentemente, este sistema possui um comportamento equivalente às oscilaç�
 
 Considere um sistema composto por duas partículas de massas $m_1$ e $m_2$ ligadas por uma mola de comprimento $l$ e de massa desprezível. O movimento dessas partículas é unidimensional sobre o eixo $Ox$ e a única força atuante em cada partícula é a força restauradora da mola.
 
-![](/books/higher_education/physics/physics_two/images/duas_particulas_mola.gif)
+![](/books/scholarium/physics/physics_two/images/duas_particulas_mola.gif)
 
 <i>No sistema acima, $m_2 = 2m_1$. Perceba que o centro de massa é estacionário enquanto o sistema oscila.</i>
 
@@ -469,7 +469,7 @@ Portanto, é razoável afirmar que um MHS é uma projeção de um movimento circ
 
 <i>O ponto preto executa um movimento circular uniforme no círculo unitário. As projeções nos eixos coordenados são movimentos harmônicos simples. GIF sob CC0, via <a href="https://commons.wikimedia.org/wiki/File:Sine-cosine-xy.gif" target="_blank">Wikimedia Commons</a>.</i>
 
-Esta representação do MHS por um movimento circular uniforme é chamada <i>representação em termos do vetor girante</i>, com a circunferência de raio $A$ denominada <b>círculo de referência</b>. Uma representação análoga e conveniente pode ser obtida através do emprego de <a href="/books/higher_education/math/calculus_two/complex_numbers.html" target="_blank">números complexos</a>.
+Esta representação do MHS por um movimento circular uniforme é chamada <i>representação em termos do vetor girante</i>, com a circunferência de raio $A$ denominada <b>círculo de referência</b>. Uma representação análoga e conveniente pode ser obtida através do emprego de <a href="/books/scholarium/math/calculus_two/complex_numbers.html" target="_blank">números complexos</a>.
 
 ## Superposição
 
@@ -646,7 +646,7 @@ $$
 
 que descreve uma curva de segundo grau inscrita num retângulo (e, portanto, na maior parte dos casos, uma elipse). Embora as elipses sejam o caso usual, $\phi = 0$ e $\phi = \pi$ degeneram a curva, que colapsa em um segmento de reta. Este segmento pode ser a diagonal principal ou secundária do retângulo, respectivamente. 
 
-Além destes, caso $\phi = \pi/2$ ou $\phi = 3\pi/2$, a equação se reduzirá à forma canônica de uma elipse (cf. <a href="/books/higher_education/math/analytical_geometry/conics.html" target="_blank">Cônicas</a>), 
+Além destes, caso $\phi = \pi/2$ ou $\phi = 3\pi/2$, a equação se reduzirá à forma canônica de uma elipse (cf. <a href="/books/scholarium/math/analytical_geometry/conics.html" target="_blank">Cônicas</a>), 
 
 $$
 \dfrac{x^2}{A^2} + \dfrac{y^2}{B^2} = 1

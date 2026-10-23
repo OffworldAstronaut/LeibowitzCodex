@@ -2,7 +2,7 @@
 
 # Introdução 
 
-Como discutido no manuscrito sobre <a href="/books/higher_education/math/analytical_geometry/the_plane_the_space.html" target="_blank">o plano e o espaço</a>, um sistema de coordenadas alternativo ao sistema usual (cartesiano) é o <b>sistema de coordenadas polares</b>. 
+Como discutido no manuscrito sobre <a href="/books/scholarium/math/analytical_geometry/the_plane_the_space.html" target="_blank">o plano e o espaço</a>, um sistema de coordenadas alternativo ao sistema usual (cartesiano) é o <b>sistema de coordenadas polares</b>. 
 
 Nesse sistema, cada ponto do plano possui como coordenadas a distância $r$ até a origem (também chamada de <b>polo</b>) e o ângulo $\theta$ que o segmento que liga o ponto à origem faz com a horizontal. O sistema polar é útil para a análise de problemas radialmente simétricos.
 
@@ -45,7 +45,7 @@ $$
 \end{cases}
 $$
 
-Pela fórmula para o <a href="/books/higher_education/math/calculus_two/solids_revolution.html" target="_blank">comprimento de uma curva paramétrica</a>, obtemos
+Pela fórmula para o <a href="/books/scholarium/math/calculus_two/solids_revolution.html" target="_blank">comprimento de uma curva paramétrica</a>, obtemos
 
 $$
 L(\rho) = \int_{\alpha}^{\beta} \sqrt{\left(\dfrac{dx}{d\theta}\right)^2 + \left(\dfrac{dy}{d\theta}\right)^2} \ d\theta

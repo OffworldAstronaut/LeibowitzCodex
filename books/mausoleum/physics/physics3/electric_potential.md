@@ -2,7 +2,7 @@
 
 # O que é um potencial elétrico?
 
-Enquanto o <a href="/books/high_school/physics/physics3/electric_field.html" target="_blank">campo elétrico</a> é um <b>campo vetorial</b>, o <b>potencial elétrico</b> é um <b>campo escalar</b>, ou seja, quando tivermos uma carga no espaço, cada ponto ao redor dela irá receber uma <b>energia potencial elétrica</b> atrelada a ele. 
+Enquanto o <a href="/books/mausoleum/physics/physics3/electric_field.html" target="_blank">campo elétrico</a> é um <b>campo vetorial</b>, o <b>potencial elétrico</b> é um <b>campo escalar</b>, ou seja, quando tivermos uma carga no espaço, cada ponto ao redor dela irá receber uma <b>energia potencial elétrica</b> atrelada a ele. 
 
 Assim, o <b>potencial elétrico</b> gerado por uma dada carga é medido em $\text{J/C}$, respondendo à pergunta “Quantos joules de energia potencial elétrica por coulomb de carga uma carga teria se colocada nesse ponto?”. Podemos reescrever essa unidade no SI, formando o Volt ($V$).
 

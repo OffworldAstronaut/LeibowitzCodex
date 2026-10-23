@@ -142,8 +142,7 @@ Para ilustrar isso, considere um vetor representando o número $z = 1 + 0i$. Rot
 
 Desta mesma visão geométrica dos números complexos parte a justificativa do <b>módulo</b> de um número real, que é apenas um caso particular da norma dos números complexos.
 
-<!-- Adicionando aqui uma justificativa para ser introduzido abaixo o cosx+isenx -->
-Além disso, podemos representar esse plano complexo em <a href="/books/higher_education/math/calculus_two/polar_coordinates.html" target="_blank">coordenadas polares</a>. Nessa representação, as projeções ortoginais do vetor sobre os eixos real e imaginário são dadas por
+Além disso, podemos representar esse plano complexo em <a href="/books/scholarium/math/calculus_two/polar_coordinates.html" target="_blank">coordenadas polares</a>. Nessa representação, as projeções ortoginais do vetor sobre os eixos real e imaginário são dadas por
 
 $$
 a = r\cos{\theta} \qquad\text{e}\qquad b = r\sin{\theta}
@@ -179,7 +178,7 @@ $$
 \dfrac{dz}{d\theta}=\dfrac{d}{d\theta}(\cos{\theta} + i\sin{\theta}) = i\cos{\theta} - \sin{\theta} = i(\cos{\theta} + i\sin{\theta})
 $$
 
-Quando $\theta = 0$, $\cos{x} + i\sin{x} = 1$. Além disso, considere também a seguinte <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial</a> linear de primeira ordem:
+Quando $\theta = 0$, $\cos{x} + i\sin{x} = 1$. Além disso, considere também a seguinte <a href="/books/scholarium/math/calculus_two/differential_equations.html" target="_blank">equação diferencial</a> linear de primeira ordem:
 
 $$
 \dfrac{df}{dx} = \lambda f(x) 
@@ -251,7 +250,7 @@ O que resulta na propriedade de que o módulo do quociente é o quociente dos m�
 
 # Equações diferenciais
 
-O estudo de números complexos é vital para a resolução de equações diferenciais, principalmente as de segunda ordem (cf. <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equações diferenciais</a>). Muitos conceitos próprios a este estudo foram discorridos sobre em outro manuscrito, entretanto, escrevemos abaixo algumas informações que podem ser úteis. 
+O estudo de números complexos é vital para a resolução de equações diferenciais, principalmente as de segunda ordem (cf. <a href="/books/scholarium/math/calculus_two/differential_equations.html" target="_blank">equações diferenciais</a>). Muitos conceitos próprios a este estudo foram discorridos sobre em outro manuscrito, entretanto, escrevemos abaixo algumas informações que podem ser úteis. 
 
 É possível verificar que se $\lambda_1, \lambda_2 \in \mathbb{R}$ e $z_1, z_2 \in \mathbb{C}$, é válido que 
 

@@ -2,7 +2,7 @@
 
 # Várias partículas
 
-No <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">volume anterior</a> consideramos em nossos resultados apenas corpos pontuais, porém, para análise de sistemas mais complexos torna-se necessária a análise de sistemas formados por várias partículas. 
+No <a href="/books/scholarium/physics/physics_one/rotations.html" target="_blank">volume anterior</a> consideramos em nossos resultados apenas corpos pontuais, porém, para análise de sistemas mais complexos torna-se necessária a análise de sistemas formados por várias partículas. 
 
 Inicialmente, podemos verificar que, para um sistema de $N$ partículas de massa, posições e velocidades $m_i$, $\vec{r_i}(t)$ e $\vec{v_i}(t)$, o momento angular $\vec{L}$ em relação ao referencial $O$ é da forma 
 
@@ -52,7 +52,7 @@ Em questões de nomenclatura, identifica-se também $\vec{L}'$ como o <b>momento
 
 ## Princípio fundamental da dinâmica para rotações
 
-Do <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> (2ª lei de Newton) é possível deduzir um princípio análogo para os movimentos de revolução, válido tanto para referenciais inerciais como não-inerciais.
+Do <a href="/books/scholarium/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> (2ª lei de Newton) é possível deduzir um princípio análogo para os movimentos de revolução, válido tanto para referenciais inerciais como não-inerciais.
 
 $$
 \dfrac{d\vec{L}}{dt} = \vec{\tau}_{\text{ext}}
@@ -200,7 +200,7 @@ esta relação será útil no futuro para o estudo de movimentos compostos, os r
 
 Dizemos que um corpo rígido executa um <b>movimento plano</b> quando todos os seus pontos traçam trajetórias paralelas a um plano denominado <b>plano de movimento</b>. 
 
-Para que um corpo execute um movimento plano, sua trajetória de translação deve ser paralela ao plano enquanto seu eixo de rotação permaneça perpendicular ao plano de movimento (cf. intuído previamente na <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">discussão sobre a 2ª Lei de Kepler</a>).
+Para que um corpo execute um movimento plano, sua trajetória de translação deve ser paralela ao plano enquanto seu eixo de rotação permaneça perpendicular ao plano de movimento (cf. intuído previamente na <a href="/books/scholarium/physics/physics_one/rotations.html" target="_blank">discussão sobre a 2ª Lei de Kepler</a>).
 
 Para analisar as equações que regem a dinâmica de movimento plano, é conveniente definir como plano de movimento o plano $Oxy$. Dessa forma, tomando-o como referência, temos que o momento linear $\vec{P}$ do corpo pode ser expresso na forma $\vec{P} = P_x \hat{i} + P_y \hat{j}$ e, consequentemente, a força aplicada sobre o corpo também pode ser expressa na forma $\vec{F}^{\text{ext}} = F^{\text{ext}}_x \hat{i} + F^{\text{ext}}_y \hat{j}$.
 

@@ -38,7 +38,7 @@ Este fenômeno é o que é utilizado nos cabos de utilização, que permite tran
 
 # Leis da refração
 
-Leis naturais para a descrição do fenômeno da refração foram escritas ao longo dos anos, comc duas leis fundamentais sendo definidas. É importante notar a utilização de termos da <b>óptica geométrica</b>, tratados no <a href="/books/high_school/physics/physics2/optics_1.html">primeiro volume desta série</a>. 
+Leis naturais para a descrição do fenômeno da refração foram escritas ao longo dos anos, comc duas leis fundamentais sendo definidas. É importante notar a utilização de termos da <b>óptica geométrica</b>, tratados no <a href="/books/mausoleum/physics/physics2/optics_1.html">primeiro volume desta série</a>. 
 
 A <b>primeira lei da refração</b> estabelece que tanto a normal, a reta perpendicular entre os dois meios ópticos, como os raios incidente e refratado são coplanares, isto é, pertencem ao mesmo plano no espaço tridimensional.
 

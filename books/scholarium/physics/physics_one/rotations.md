@@ -4,7 +4,7 @@
 
 Definimos como <b>corpo rígido</b> um corpo ideal que é indeformável independentemente das forças aplicadas nele. É claro que não há um corpo na realidade que atenda esta definição, pois até os materiais mais sólidos, como o aço, sofrem deformações, mesmo que microscópicas, em resposta às forças sobre eles aplicadas, entretanto, esse corpo ideal fornece uma boa aproximação para o estudo de vários corpos. 
 
-Neste volume iremos nos debruçar inicialmente sobre a cinemática desse corpo, seguindo para a dinâmica rotacional de partículas (corpos pontuais). Em seu volume irmão, sobre a <a href="/books/higher_education/physics/physics_one/rigid_bodies.html" target="_blank">dinâmica de corpos rígidos</a>, iremos nos debruçar inicialmente sobre a dinâmica de sistemas de muitas partículas e, em seguida, em corpos rígidos.
+Neste volume iremos nos debruçar inicialmente sobre a cinemática desse corpo, seguindo para a dinâmica rotacional de partículas (corpos pontuais). Em seu volume irmão, sobre a <a href="/books/scholarium/physics/physics_one/rigid_bodies.html" target="_blank">dinâmica de corpos rígidos</a>, iremos nos debruçar inicialmente sobre a dinâmica de sistemas de muitas partículas e, em seguida, em corpos rígidos.
 
 ## Translação e rotação
 
@@ -18,7 +18,7 @@ A <b>rotação em torno de um ponto fixo</b> se dá ao considerarmos um ponto $P
 
 ## Teorema de Chasles e graus de liberdade
 
-O <b>teorema de Mozzi-Chasles</b> ou simplesmente <b>teorema de Chasles</b>, nomeado em homenagem aos matemáticos Giulio Mozzi e Michel Chasles, mostra que o movimento mais geral de um corpo rígido é composto por uma translação e uma rotação, sendo uma <a href="/books/higher_education/math/linear_algebra/internal_product.html">isometria</a> no espaço euclidiano cujos vetores são os pontos do corpo. 
+O <b>teorema de Mozzi-Chasles</b> ou simplesmente <b>teorema de Chasles</b>, nomeado em homenagem aos matemáticos Giulio Mozzi e Michel Chasles, mostra que o movimento mais geral de um corpo rígido é composto por uma translação e uma rotação, sendo uma <a href="/books/scholarium/math/linear_algebra/internal_product.html">isometria</a> no espaço euclidiano cujos vetores são os pontos do corpo. 
 
 A conclusão de Mozzi e Chasles motiva uma introdução ao conceito de <b>graus de liberdade</b> de um sistema no contexto da mecânica. Dizemos que o grau de liberdade de um sistema é o mínimo de parâmetros necessários para fixar sua posição no espaço. No caso mais geral, um corpo rígido possui ao total seis graus de liberdade (três de rotação e três de translação). Uma consequência interessante disto é a observação do MCU e do MRU, por exemplo: ambos possuem expressões análogas para sua descrição (velocidade, aceleração, ...) por possuírem apenas um grau de liberdade.
 
@@ -117,7 +117,7 @@ Voltando nossos olhos agora ao momento angular, note que, como uma partícula so
 
 Como o vetor $\vec{l}$ se conserva ao longo de todo o movimento, e este é dado pelo produto vetorial $\vec{l} = \vec{r} \times \vec{p}$ — isto é, sempre perpendicular ao plano gerado por $\vec{r}$ e $\vec{p}$ — temos que se $\vec{l}$ não se conservasse, um dos vetores teria que apontar para uma direção fora do plano gerado por este par. Como isso não acontece, temos que a trajetória do corpo é plana.
 
-Um caso particular muito interessante da conservação de momento angular sob a ação de forças centrais é a <a href="/books/higher_education/physics/physics_one/gravitation.html" target="_blank">segunda lei de Kepler para o movimento planetário</a>. Vamos construí-la passo a passo. 
+Um caso particular muito interessante da conservação de momento angular sob a ação de forças centrais é a <a href="/books/scholarium/physics/physics_one/gravitation.html" target="_blank">segunda lei de Kepler para o movimento planetário</a>. Vamos construí-la passo a passo. 
 
 Imagine um corpo sob a ação de uma força central inicialmente num ponto $\vec{P}$. Considere agora um trecho infinitesimal de sua trajetória, correspondendo a um deslocamento $\vec{dr}$ a partir deste ponto inicial para um ponto $\vec{P'}$. Temos que a área $dA$ do triângulo formado pelos vetores $\vec{r} = \vec{OP}$, $\vec{OP'}$ e $\vec{dr}$ é dada por 
 
@@ -153,7 +153,7 @@ $$
 
 com $r$ sendo o raio da trajetória e $v$ a velocidade tangencial do corpo. Perceba que ao aumentarmos um pouco a força exercida sobre o fio, o raio da trajetória diminuirá para um valor $r + \Delta r$ (com $\Delta r \lt 0$) e a velocidade deste corpo sofrerá um acréscimo para $v + \Delta v$. 
 
-Pelo <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">teorema trabalho-energia cinética</a>, sabemos que esta variação $\Delta T$ de energia deve ser igual ao trabalho $W$ realizado. Portanto, temos que 
+Pelo <a href="/books/scholarium/physics/physics_one/work_energy.html" target="_blank">teorema trabalho-energia cinética</a>, sabemos que esta variação $\Delta T$ de energia deve ser igual ao trabalho $W$ realizado. Portanto, temos que 
 
 $$
 \Delta T = \dfrac{1}{2}m(v + \Delta v)^2 - \dfrac{1}{2}mv^2 \approx mv \Delta v

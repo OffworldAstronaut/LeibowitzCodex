@@ -7,7 +7,7 @@ Em que a serpente maculou o mundo <br>
 Estendo minha caneta e escrevo <br>
 Todas as minhas imprecações imortais <br>
 
-Maldito seja àquele dia no qual <br>
+Maldito seja aquele dia no qual <br>
 A serpente introduziu a morte no mundo <br>
 Maldita seja aquela que cuspindo na face de Deus <br>
 Eternamente corrompeu sua criação magistral <br>

@@ -2,7 +2,7 @@
 
 # Resistência elétrica e resistores
 
-Como dito no <a href="/books/high_school/physics/physics3/introduction_electrodynamics.md">livro introdutório</a>, a <b>resistência elétrica</b> é uma propriedade de um dado corpo que o faz demonstrar uma certa dificuldade à passagem de eletricidade.
+Como dito no <a href="/books/mausoleum/physics/physics3/introduction_electrodynamics.html">livro introdutório</a>, a <b>resistência elétrica</b> é uma propriedade de um dado corpo que o faz demonstrar uma certa dificuldade à passagem de eletricidade.
 
 Matematicamente, a resistência de um dado corpo que permite a passagem de $i$ ampères sob uma tensão de $U$ volts é dada pela razão $R=\dfrac{U}{i}$, com a unidade de medida sendo $\text{V/A}$, ou seja, ohms ($\Omega$)! 
 
@@ -140,7 +140,7 @@ Um galvanômetro é um amperímetro de baixa intensidade: ambos medem correntes,
 
 Como visto no diagrama, o resistor $R_2$ é um <b>potenciômetro</b>, ou seja, podemos variar a sua resistência, e o resistor $R_x$ possui uma resistência desconhecida. 
 
-Podemos determinar a resistência $R_x$ ao variarmos a resistência de $R_2$ até que nenhuma corrente esteja passando pelo galvanômetro. Perceba que, neste <a target="_blank" href="/books/high_school/physics/physics3/kirchhoff_laws.html">ponto de equilíbrio</a>, a corrente que chega em C é a mesma que sai deste nó $(I_{AC} = I_{CD})$, com algo idêntico ocorrendo na outra metade do circuito $(I_{AB} = I_{BD})$. Isto ocorre pois não há diferença de potencial entre os pontos C e B $(V_C = V_B)$.
+Podemos determinar a resistência $R_x$ ao variarmos a resistência de $R_2$ até que nenhuma corrente esteja passando pelo galvanômetro. Perceba que, neste <a target="_blank" href="/books/mausoleum/physics/physics3/kirchhoff_laws.html">ponto de equilíbrio</a>, a corrente que chega em C é a mesma que sai deste nó $(I_{AC} = I_{CD})$, com algo idêntico ocorrendo na outra metade do circuito $(I_{AB} = I_{BD})$. Isto ocorre pois não há diferença de potencial entre os pontos C e B $(V_C = V_B)$.
 
 Dessa forma, como $V_C = V_B$, temos que $V_{AC} = V_{AB}$ e $V_{CD} = V_{BD}$: como a tensão nestes nós é igual, a diferença de potencial entre os nós "espelhados" deve ser também igual. 
 

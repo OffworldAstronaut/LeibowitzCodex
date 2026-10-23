@@ -6,7 +6,7 @@ Durante todos os manuscritos de Physica I, especialmente no estudo de rotações
 
 Conforme mencionado nestes mesmos manuscritos, esta é uma aproximação suficiente para a maioria dos sólidos de nosso cotidiano, entretanto, seria possível um estudo, mesmo que introdutório, da <b>elasticidade</b>? 
 
-Como campo de estudo, podemos definir a <b>elasticidade</b> como o ramo da Física e da Engenharia cujo objeto de pesquisa é a deformação dos corpos quando estes são submetidos a forças, isto é, a <b>tensões</b>. Para uma abordagem mais detalhada sobre tensões, convém a consulta do documento <a href="/books/higher_education/physics/physics_two/hydrostatics.html"><i>De Hydrostatica</i></a>.
+Como campo de estudo, podemos definir a <b>elasticidade</b> como o ramo da Física e da Engenharia cujo objeto de pesquisa é a deformação dos corpos quando estes são submetidos a forças, isto é, a <b>tensões</b>. Para uma abordagem mais detalhada sobre tensões, convém a consulta do documento <a href="/books/scholarium/physics/physics_two/hydrostatics.html"><i>De Hydrostatica</i></a>.
 
 # Calculando deformações
 
@@ -66,7 +66,7 @@ onde $p$ é a pressão exercida pelo fluido, $\mu_V$ é o chamado <b>módulo de 
 
 <b>Solução 1.</b> Como um rolamento infinitesimal pode ser modelado como uma rotação em torno do ponto de contato, precisaremos encontrar o torque exercido na roda em relação a este ponto. 
 
-Dessa forma, temos que o torque exercido pelo peso possui módulo $r_p \cdot Mg$, enquanto a força $\vec{F}$ exerce um torque de módulo $r_F \cdot F$. Estes resultados são obtidos através da definição de torque (cf. <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">Rotações</a>). 
+Dessa forma, temos que o torque exercido pelo peso possui módulo $r_p \cdot Mg$, enquanto a força $\vec{F}$ exerce um torque de módulo $r_F \cdot F$. Estes resultados são obtidos através da definição de torque (cf. <a href="/books/scholarium/physics/physics_one/rotations.html" target="_blank">Rotações</a>). 
 
 Por trigonometria, temos que $r_F = r - h$ e $r_p = \sqrt{h(2r-h)}$. Logo, substituindo na expressão para os torques e considerando que estes possuem mesmo módulo: 
 

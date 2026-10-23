@@ -401,7 +401,7 @@ Uma das aplicações mais conhecidas da aproximação de Taylor é o caso da fun
 
 Como exemplo ligeriamente diferente, ilustramos abaixo as diferentes aproximações para $f(x)=\sin{x}$ no ponto $x_0 = \dfrac{\pi}{2}$ com polinômios de Taylor de diversos graus. 
 
-![](/books/higher_education/math/calculus_one/images/derivatives_applications/taylor_sinx_pi2.png)
+![](/books/scholarium/math/calculus_one/images/derivatives_applications/taylor_sinx_pi2.png)
 
 # Método de Newton-Raphson
 
@@ -417,7 +417,7 @@ $$
 
 Abaixo temos um exemplo da execução do método de Newton-Raphson para determinação das raízes do polinômio $P(x) = 5x^4 - 10x^3 + 2x^2 - 2x + 2$. 
 
-![](/books/higher_education/math/calculus_one/images/derivatives_applications/newton_convergence.png)
+![](/books/scholarium/math/calculus_one/images/derivatives_applications/newton_convergence.png)
 
 # Referências 
 

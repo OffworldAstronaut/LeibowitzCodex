@@ -22,7 +22,7 @@ $$
 \ddot{x} + \gamma \dot{x} + \omega_0^2 x = 0
 $$
 
-com $\omega_0^2 = \dfrac{k}{m}$ e $\gamma = \dfrac{\rho}{m}$. Note que esta é uma <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial linear homogênea de segunda ordem e coeficientes constantes</a>.
+com $\omega_0^2 = \dfrac{k}{m}$ e $\gamma = \dfrac{\rho}{m}$. Note que esta é uma <a href="/books/scholarium/math/calculus_two/differential_equations.html" target="_blank">equação diferencial linear homogênea de segunda ordem e coeficientes constantes</a>.
 
 Sua equação característica é 
 
@@ -55,7 +55,7 @@ $$
 x(t) = \exp\left(-\dfrac{1}{2}\gamma t\right)[a\cos{(\omega t)} + b\sin{(\omega t)}]
 $$
 
-Esta é a equação geral para as oscilações amortecidas, análoga a $x(t) = a\cos{(\omega t)} + b\sin{(\omega t)}$ deduzida para o oscilador harmônico (cf. <a href="/books/higher_education/physics/physics_two/oscillations.html" target="_blank">Oscilações I</a>).[^1]
+Esta é a equação geral para as oscilações amortecidas, análoga a $x(t) = a\cos{(\omega t)} + b\sin{(\omega t)}$ deduzida para o oscilador harmônico (cf. <a href="/books/scholarium/physics/physics_two/oscillations.html" target="_blank">Oscilações I</a>).[^1]
 
 Alternativamente, podemos empregar a notação complexa, tomar a parte real e simplificar, obtendo
 
@@ -102,7 +102,7 @@ com o termo $A\exp\left(-\dfrac{1}{2}\gamma t\right)$ podendo ser considerado a 
 
 Além disso, as curvas $\pm A\exp\left(-\dfrac{1}{2}\gamma t\right)$ definem o chamado <b>envoltório</b> das oscilações. 
 
-![](/books/higher_education/physics/physics_two/images/oscillations_underdamped.gif)
+![](/books/scholarium/physics/physics_two/images/oscillations_underdamped.gif)
 
 <i>Oscilações sob amortecimento subcrítico. Note o "envelope" tracejado.</i>
 
@@ -157,7 +157,7 @@ $$
 
 chegamos em $\bar{E}(t) = \dfrac{1}{2}m\omega_0^2A^2e^{-\gamma t} = \bar{E}(0) \cdot e^{-\gamma t}$, que indica um decaimento exponencial da energia do oscilador ao longo do tempo, como queríamos demonstrar.
 
-![](/books/higher_education/physics/physics_two/images/energia_oscilador_underdamped.png)
+![](/books/scholarium/physics/physics_two/images/energia_oscilador_underdamped.png)
 
 <i>Energia mecânica de um oscilador amortecido subcriticamente ao longo do tempo. A curva vermelha é a energia mecânica média $\bar{E}(t)$, enquanto a curva pontilhada azul é a energia real $E(t)$.</i>
 

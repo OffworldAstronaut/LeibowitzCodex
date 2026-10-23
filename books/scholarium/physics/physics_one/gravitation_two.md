@@ -58,7 +58,7 @@ Uma ressalva importante que deve ser levantada é o fato de que a lei da gravita
 
 O procedimento é simples conceitualmente mas potencialmente trabalhoso computacionalmente: considerar um diferencial de massa $dm$ no corpo extenso e, consequentemente, considerar o diferencial de força $d\vec{F}$ exercido por ele. Ao integrarmos, obteremos $\vec{F}$. 
 
-Note que a integral que iremos obter será vetorial. Entretanto, como a força gravitacional é <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">conservativa</a>, vale a relação 
+Note que a integral que iremos obter será vetorial. Entretanto, como a força gravitacional é <a href="/books/scholarium/physics/physics_one/work_energy.html" target="_blank">conservativa</a>, vale a relação 
 
 $$
 \vec{F} = -\nabla U
@@ -311,7 +311,7 @@ $$
 
 # Energias
 
-Em razão da força gravitacional ser conservativa (cf. <a href="/books/higher_education/physics/physics_one/work_energy.html" target="_blank">Trabalho e Energia</a>), uma análise das trajetórias planetárias sob o ponto de vista energético prova-se especialmente útil e interessante. 
+Em razão da força gravitacional ser conservativa (cf. <a href="/books/scholarium/physics/physics_one/work_energy.html" target="_blank">Trabalho e Energia</a>), uma análise das trajetórias planetárias sob o ponto de vista energético prova-se especialmente útil e interessante. 
 
 De fato, um primeiro resultado que pode ser obtido é a classificação de órbitas por meio da energia mecânica associada, isto é, uma relação entre a <b>excentricidade orbital</b> e a energia mecânica do corpo orbitante. 
 
@@ -337,7 +337,7 @@ $$
 E = T + V = \dfrac{1}{2}mv^2 - \dfrac{k}{r}
 $$
 
-Em razão da conservação do momento angular (cf. <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">Rotações</a>) — pois $\vec{F}(r)$ é uma força central — torna-se conveniente o emprego de coordenadas polares daqui em diante, pois o movimento de $m$ estará confinado a um plano. 
+Em razão da conservação do momento angular (cf. <a href="/books/scholarium/physics/physics_one/rotations.html" target="_blank">Rotações</a>) — pois $\vec{F}(r)$ é uma força central — torna-se conveniente o emprego de coordenadas polares daqui em diante, pois o movimento de $m$ estará confinado a um plano. 
 
 Logo, podemos escrever o momento angular $\vec{L}$ como 
 
@@ -405,7 +405,7 @@ $$
 \dfrac{d^2u}{d\theta^2} + u = \dfrac{mk}{L^2}
 $$
 
-Uma <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equação diferencial</a> ordinária, linear, de segunda ordem e homogênea. Consequentemente, sabemos que sua solução geral é da forma:
+Uma <a href="/books/scholarium/math/calculus_two/differential_equations.html" target="_blank">equação diferencial</a> ordinária, linear, de segunda ordem e homogênea. Consequentemente, sabemos que sua solução geral é da forma:
 
 $$
 u(\theta) = \dfrac{mk}{L^2} + A\cos{\theta} + B\sin{\theta}
@@ -423,7 +423,7 @@ $$
 r(\theta) = \dfrac{L^2/mk}{1+e\cos{\theta}} = \dfrac{p}{1+e\cos{\theta}}
 $$
 
-Note que esta é a equação geral das cônicas (e uma prova alternativa da <a href="/books/higher_education/physics/physics_one/gravitation.md" target="_blank">primeira lei de Kepler</a>!) e que podemos substituí-la na relação de energia para obtermos uma equação que conecta a energia mecânica do sistema com a excentricidade da trajetória, que é o que buscamos. 
+Note que esta é a equação geral das cônicas (e uma prova alternativa da <a href="/books/scholarium/physics/physics_one/gravitation.md" target="_blank">primeira lei de Kepler</a>!) e que podemos substituí-la na relação de energia para obtermos uma equação que conecta a energia mecânica do sistema com a excentricidade da trajetória, que é o que buscamos. 
 
 Tomando $u = \dfrac{mk}{L^2}(1+e\cos{\theta}) = \alpha(1+e\cos{\theta})$, podemos escrever: 
 
@@ -457,7 +457,7 @@ $$
 E_a = \dfrac{1}{2}mv_a^2 - \dfrac{k}{r_a}
 $$
 
-Pela conservação do momento angular (cf. <a href="/books/higher_education/physics/physics_one/rotations.html" target="_blank">Rotações</a>), vale: 
+Pela conservação do momento angular (cf. <a href="/books/scholarium/physics/physics_one/rotations.html" target="_blank">Rotações</a>), vale: 
 
 $$
 \dfrac{v_p}{v_a} = \dfrac{r_a}{r_p} \iff v_p = \left(\dfrac{r_a}{r_p}\right)v_a

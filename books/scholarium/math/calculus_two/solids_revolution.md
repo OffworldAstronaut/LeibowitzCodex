@@ -60,7 +60,7 @@ $$
 
 <!--TODO: ILUMINAR ESSA SEÇÃO-->
 
-Estamos acostumados com o tratamento de superfícies e suas respectivas áreas por meio de integrais em razão de sua própria definição (cf. <a href="/books/higher_education/math/calculus_two/integration.html" target="_blank">Integração</a>).
+Estamos acostumados com o tratamento de superfícies e suas respectivas áreas por meio de integrais em razão de sua própria definição (cf. <a href="/books/scholarium/math/calculus_two/integration.html" target="_blank">Integração</a>).
 
 Nesta seção, iremos expor alguns outros problemas relacionados ao tópico de áreas e superfícies que podem ser solucionados por meio da operação de integração. 
 
@@ -118,7 +118,7 @@ $$
 
 </div>
 
-Uma <b>superfície de revolução</b> é obtida pela rotação de uma curva no espaço tridimensional em torno de algum eixo de rotação, uma reta neste mesmo espaço. Como exemplo podemos citar os parabolóides, os hiperbolóides e os elipsóides, conforme vistos nos manuscritos de <a href="/books/higher_education/math/analytical_geometry/quadrics.html" target="_blank">Geometria Analythica</a>. 
+Uma <b>superfície de revolução</b> é obtida pela rotação de uma curva no espaço tridimensional em torno de algum eixo de rotação, uma reta neste mesmo espaço. Como exemplo podemos citar os parabolóides, os hiperbolóides e os elipsóides, conforme vistos nos manuscritos de <a href="/books/scholarium/math/analytical_geometry/quadrics.html" target="_blank">Geometria Analythica</a>. 
 
 Um questionamento imediato que pode surgir é o seguinte: se podemos descrever uma superfície a partir de rotação de uma curva, podemos construir um método para determinar sua área? A resposta, claramente, é afirmativa.
 

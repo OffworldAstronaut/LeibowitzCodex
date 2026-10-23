@@ -137,7 +137,7 @@ $$
 
 <aside>
 
-É importante notar que o termo $(-1)^n$ funciona como uma “condicional” para determinar se o último termo será uma soma ou uma subtração, conforme visto na <a href="/books/high_school/math/probability_statistics/counting_methods.html" target="_blank">discussão sobre o PIE</a>.
+É importante notar que o termo $(-1)^n$ funciona como uma “condicional” para determinar se o último termo será uma soma ou uma subtração, conforme visto na <a href="/books/scholarium/princmath/probability_statistics/counting_methods.html" target="_blank">discussão sobre o PIE</a>.
 
 </aside>
 

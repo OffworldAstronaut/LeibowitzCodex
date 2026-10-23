@@ -2,7 +2,7 @@
 
 # A equação de Schrödinger
 
-Enquanto na física clássica podemos estudar o comportamento de um sistema ou, mais basicamente, de uma partícula por meio do <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> 
+Enquanto na física clássica podemos estudar o comportamento de um sistema ou, mais basicamente, de uma partícula por meio do <a href="/books/scholarium/physics/physics_one/newtons_laws.html" target="_blank">princípio fundamental da dinâmica</a> 
 
 $$
 \vec{F} = \dfrac{d\vec{P}}{dt}

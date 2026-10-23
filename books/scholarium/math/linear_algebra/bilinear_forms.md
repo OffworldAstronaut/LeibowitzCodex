@@ -2,7 +2,7 @@
 
 # Formas bilineares 
 
-De forma lacônica, podemos entender as formas bilineares como <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank">funcionais lineares</a> em que cada termo do funcional é linear em relação ao outro.
+De forma lacônica, podemos entender as formas bilineares como <a href="/books/scholarium/math/linear_algebra/linear_transformations.html" target="_blank">funcionais lineares</a> em que cada termo do funcional é linear em relação ao outro.
 
 <aside>
 

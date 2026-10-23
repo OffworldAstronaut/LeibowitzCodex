@@ -36,7 +36,7 @@ Ao representarmos os vetores, fazemos o uso dos chamados <b>componentes</b>, pro
 
 <aside>
 
-Este manuscrito possui uma abordagem introdutória e contextualizada suficiente para as aplicações necessárias de Física 1. Para uma abordagem mais rigorosa, consulte os tratados de geometria analítica e álgebra linear (e.g. <a href="/books/higher_education/math/analytical_geometry/the_plane_the_space.html" target="_blank">O Plano e o Espaço</a> e <a href="/books/higher_education/math/linear_algebra/vector_spaces.html" target="_blank">Espaços Vetoriais</a>).
+Este manuscrito possui uma abordagem introdutória e contextualizada suficiente para as aplicações necessárias de Física 1. Para uma abordagem mais rigorosa, consulte os tratados de geometria analítica e álgebra linear (e.g. <a href="/books/scholarium/math/analytical_geometry/the_plane_the_space.html" target="_blank">O Plano e o Espaço</a> e <a href="/books/scholarium/math/linear_algebra/vector_spaces.html" target="_blank">Espaços Vetoriais</a>).
 
 </aside>
 
@@ -120,7 +120,7 @@ $$
 
 ## Produto escalar 
 
-O <b>produto escalar</b>, também chamado <b>produto ponto</b> ou <b>produto interno</b> (embora, nota-se, que rigorosamente o termo "<a href="/books/higher_education/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>" se refere a uma classe mais geral de operações) é uma operação especial definida como a soma do produto coordenada a coordenada dos vetores. Em notação de somatório, podemos escrever: 
+O <b>produto escalar</b>, também chamado <b>produto ponto</b> ou <b>produto interno</b> (embora, nota-se, que rigorosamente o termo "<a href="/books/scholarium/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>" se refere a uma classe mais geral de operações) é uma operação especial definida como a soma do produto coordenada a coordenada dos vetores. Em notação de somatório, podemos escrever: 
 
 $$
 \vec{a} \cdot \vec{b} = \langle \vec{a}, \vec{b} \rangle = \sum_{i=1}^{N}a_ib_i = a_1b_1 + a_2b_2 + ... + a_nb_n
@@ -280,7 +280,7 @@ $$
 
 O movimento circular uniforme é uma boa aproximação para o movimento de planetas cuja excentricidade orbital é suficientemente próxima de zero, como por exemplo, a Terra. 
 
-Nessas órbitas, podemos nos utilizar da <a href="/books/higher_education/physics/physics_one/gravitation.html" target="_blank">lei da gravitação universal</a> e da <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">segunda lei de Newton</a> para encontrar uma expressão para $v$ em função da massa do corpo central $M$ e do raio da órbita, $R$.
+Nessas órbitas, podemos nos utilizar da <a href="/books/scholarium/physics/physics_one/gravitation.html" target="_blank">lei da gravitação universal</a> e da <a href="/books/higher_education/physics/physics_one/newtons_laws.html" target="_blank">segunda lei de Newton</a> para encontrar uma expressão para $v$ em função da massa do corpo central $M$ e do raio da órbita, $R$.
 
 $$
 F = \dfrac{GMm}{R^2} = m\dfrac{v^2}{R} \implies v = \sqrt{\dfrac{GM}{R}}

@@ -2,7 +2,7 @@
 
 # Espaço de Hilbert 
 
-Como toda teoria científica, a mecânica quântica é construída sobre um sólido formalismo matemático, cuja linguagem é a álgebra linear. Neste formalismo, temos que as funções de onda são vetores num <a href="/books/higher_education/math/linear_algebra/vector_spaces.html" target="_blank">espaço vetorial</a>, enquanto os operadores são <a href="/books/higher_education/math/linear_algebra/linear_transformations.html" target="_blank">transformações lineares</a>. 
+Como toda teoria científica, a mecânica quântica é construída sobre um sólido formalismo matemático, cuja linguagem é a álgebra linear. Neste formalismo, temos que as funções de onda são vetores num <a href="/books/scholarium/math/linear_algebra/vector_spaces.html" target="_blank">espaço vetorial</a>, enquanto os operadores são <a href="/books/scholarium/math/linear_algebra/linear_transformations.html" target="_blank">transformações lineares</a>. 
 
 As funções de onda da mecânica quântica pertencem ao chamado <b>espaço das funções quadrado-integráveis</b>, denominado a rigor por $L_2(a, b)$ e definido por: 
 
@@ -10,7 +10,7 @@ $$
 L_2(a, b) = \left\{f(x) | \int_{a}^{b} |f(x)|^2 \ dx \lt \infty \right\}
 $$
 
-Dentre os físicos, este é geralmente chamado <b>espaço de Hilbert</b>, embora esta nomenclatura não esteja de todo correta. De fato, apoiando-nos na subseção "espaços hermitianos" do manuscrito de <a href="/books/higher_education/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>, podemos definir um <b>espaço de Hilbert</b> como um espaço hermitiano (ou seja, um espaço vetorial sobre os complexos que possui um produto interno) completo, isto é, em que toda sequência de Cauchy converge para alguma função no espaço (logo, um espaço de Hilbert não possui "buracos"). 
+Dentre os físicos, este é geralmente chamado <b>espaço de Hilbert</b>, embora esta nomenclatura não esteja de todo correta. De fato, apoiando-nos na subseção "espaços hermitianos" do manuscrito de <a href="/books/scholarium/math/linear_algebra/internal_product.html" target="_blank">produto interno</a>, podemos definir um <b>espaço de Hilbert</b> como um espaço hermitiano (ou seja, um espaço vetorial sobre os complexos que possui um produto interno) completo, isto é, em que toda sequência de Cauchy converge para alguma função no espaço (logo, um espaço de Hilbert não possui "buracos"). 
 
 Dessa forma, o espaço $L_2(a,b)$ que fundamenta a mecânica quântica não é <b>o</b> espaço de Hilbert, rigorosamente falando, mas sim <b>um</b> espaço de Hilbert. 
 

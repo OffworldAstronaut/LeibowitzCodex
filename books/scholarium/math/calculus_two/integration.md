@@ -12,7 +12,7 @@
 
 Quando estudamos as <b>integrais</b> em uma única variável, estamos normalmente nos referindo a um tipo específico de integral, chamada <b>Integral de Riemann</b>, nomeada em homenagem ao matemático alemão Bernhard Riemann. 
 
-Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibniz, o matemático abaixo foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como <b>limites</b> e <b>partições</b> de conjuntos.
+Embora o conceito de uma função que nos fornecesse a área sob o gráfico de uma determinada função já existisse desde Newton e Leibniz, o matemático abaixo foi o primeiro a fornecer uma definição verdadeiramente rigorosa para essa função, a partir de conceitos prévios na matemática, como <a href="/books/scholarium/math/calculus_one/limits.html" target="_blank">limites</a> e <b>partições</b> de conjuntos.
 
 Riemann também é famoso por outras contribuições igualmente monumentais nos campos da análise real, análise complexa, geometria não-euclideana (criador da geometria <i>riemanniana</i>) e muitos outros, pavimentando inclusive a matemática necessária para descrever a Relatividade Geral de Einstein. Ele também era bastante tímido e ficava doente com facilidade.
 
@@ -266,7 +266,7 @@ $$
 \end{align*}
 $$
 
-Perceba que, pelo <a href="/books/higher_education/math/calculus_one/derivatives_applications.html">teorema do valor médio</a>, $F(x)$ e $G(x)$ diferem apenas por uma constante real, logo:
+Perceba que, pelo <a href="/books/scholarium/math/calculus_one/derivatives_applications.html">teorema do valor médio</a>, $F(x)$ e $G(x)$ diferem apenas por uma constante real, logo:
 
 $$
 F(x) = G(x) + k, k \in \mathbb{R}

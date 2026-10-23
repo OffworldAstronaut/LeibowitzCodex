@@ -134,7 +134,7 @@ $$
 \bar{P} = \dfrac{\Delta W}{\Delta t}
 $$
 
-Entretanto, a chamada <b>potência instantânea</b>, ou simplesmente <b>potência</b>, é expressa como a derivada temporal do trabalho. O <a href="/books/higher_education/math/calculus_two/integration.html" target="_blank">teorema fundamental do Cálculo</a> nos garante que o trabalho é a integral da potência.
+Entretanto, a chamada <b>potência instantânea</b>, ou simplesmente <b>potência</b>, é expressa como a derivada temporal do trabalho. O <a href="/books/scholarium/math/calculus_two/integration.html" target="_blank">teorema fundamental do Cálculo</a> nos garante que o trabalho é a integral da potência.
 
 $$
 P(t) = \dfrac{dW}{dt} \Longleftrightarrow  W(t) = \int P(t) \ dt

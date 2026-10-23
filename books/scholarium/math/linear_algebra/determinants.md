@@ -2,7 +2,7 @@
 
 # Permutações
 
-Inicialmente, temos que a função <b>determinante</b> associa um número real à uma matriz $A \in M_{n \times n} (\mathbb{R})$. A esse número damos o nome de <b>determinante de $A$</b>. Para verificarmos a lei de associação desta função, isto é, como podemos calcular o determinante de uma matriz, precisamos primeiro explorar um pouco sobre <a href="/books/high_school/math/probability_statistics/permutations.html">permutações</a> e <a href="/books/higher_education/math/calculus_two/sequences.html">sequências</a>.
+Inicialmente, temos que a função <b>determinante</b> associa um número real à uma matriz $A \in M_{n \times n} (\mathbb{R})$. A esse número damos o nome de <b>determinante de $A$</b>. Para verificarmos a lei de associação desta função, isto é, como podemos calcular o determinante de uma matriz, precisamos primeiro explorar um pouco sobre <a href="/books/scholarium/princmath/probability_statistics/permutations.html">permutações</a> e <a href="/books/scholarium/math/calculus_two/sequences.html">sequências</a>.
 
 Podemos definir uma <b>permutação</b> de um conjunto (finito) como um rearranjo de seus elementos. A estas permutações podemos associar noções de <b>paridade</b> e <b>sinal</b>: uma permutação é <b>par</b> quando o número de trocas necessárias para se retornar à configuração inicial for par, com uma configuração dita <b>ímpar</b> caso contrário. 
 
@@ -298,7 +298,7 @@ Portanto, vemos que a validade da equação para uma matriz de ordem $k$ implica
 
 Além disso, a oitava propriedade é possívelmente uma das mais importantes da Álgebra Linear, interligando a resolução de sistemas lineares (e se estes possuem solução única) com o estudo de suas matrizes correspondentes.
 
-De fato, ao escalonarmos um <a href="/books/higher_education/math/linear_algebra/lsystems.html" target="_blank">sistema linear de Cramer</a> com $n$ equações, vemos que sua matriz de coeficientes é a matriz identidade, $I_n$. Como esta matriz é escalonada por meio da multiplicação da matriz de coeficientes original por diversas matrizes elementares, sabemos que o determinante da matriz original é não-nulo, pois os determinantes das matrizes elementares são sempre não-nulos e a matriz identidade possui $\det{I_n} = 1$.
+De fato, ao escalonarmos um <a href="/books/scholarium/math/linear_algebra/lsystems.html" target="_blank">sistema linear de Cramer</a> com $n$ equações, vemos que sua matriz de coeficientes é a matriz identidade, $I_n$. Como esta matriz é escalonada por meio da multiplicação da matriz de coeficientes original por diversas matrizes elementares, sabemos que o determinante da matriz original é não-nulo, pois os determinantes das matrizes elementares são sempre não-nulos e a matriz identidade possui $\det{I_n} = 1$.
 
 Além disso, da ligação entre sistemas lineares e determinantes é imprescindível discorrer um pouco sobre a regra de Cramer, e para falar sobre a regra de Cramer, é necessário explorar os conceitos de cofator e matriz adjunta. 
 

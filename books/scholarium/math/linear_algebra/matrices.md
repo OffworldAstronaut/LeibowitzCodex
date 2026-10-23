@@ -926,7 +926,7 @@ V_1 =
 \end{pmatrix}
 $$
 
-o vetor de probabilidades $T^nV_1$ aproxima-se de $V$; o vetor $V$ é o único que satisfaz a equação $TV = V$, isto é, $V$ é um <a href="/books/higher_education/math/linear_algebra/eigenvalues.html" target="_blank">autovetor</a> de $T$.
+o vetor de probabilidades $T^nV_1$ aproxima-se de $V$; o vetor $V$ é o único que satisfaz a equação $TV = V$, isto é, $V$ é um <a href="/books/scholarium/math/linear_algebra/eigenvalues.html" target="_blank">autovetor</a> de $T$.
 
 </aside>
 

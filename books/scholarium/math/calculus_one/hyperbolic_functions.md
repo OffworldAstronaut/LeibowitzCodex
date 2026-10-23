@@ -143,7 +143,7 @@ $$
 
 ## Funções inversas
 
-Pela propriedade previamente demonstrada no códice sobre <a href="/books/higher_education/math/calculus_one/derivatives_inverses.html" target="_blank">derivadas inversas</a>, podemos facilmente encontrar as derivadas das funções inversas trigonométricas.
+Pela propriedade previamente demonstrada no códice sobre <a href="/books/scholarium/math/calculus_one/derivatives_inverses.html" target="_blank">derivadas inversas</a>, podemos facilmente encontrar as derivadas das funções inversas trigonométricas.
 
 <aside>
 

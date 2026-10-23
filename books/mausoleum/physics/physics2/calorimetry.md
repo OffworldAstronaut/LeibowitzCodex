@@ -2,7 +2,7 @@
 
 # Introdução
 
-Chamamos <b>calorimetria</b> a área da termologia preocupada em estudar as <a href="/books/high_school/physics/physics2/termology_fundaments.html">trocas de calor</a>, energia térmica, entre corpos. 
+Chamamos <b>calorimetria</b> a área da termologia preocupada em estudar as <a href="/books/mausoleum/physics/physics2/thermology_fundaments.html">trocas de calor</a>, energia térmica, entre corpos. 
 
 Podemos classificar o calor em duas categorias, segundo seus efeitos: o calor <b>sensível</b> — que provoca o aumento de temperatura — e o calor <b>latente</b>, que provoca mudança de estado físico.
 

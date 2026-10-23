@@ -6,7 +6,7 @@ No estudo da termologia (do grego <i>thermos</i>, calor, e <i>logos</i>, estudo)
 
 Fisicamente, definimos <b>temperatura</b> como a medida indireta do grau de agitação das partículas dum corpo, ou seja, quanto maior a temperatura, maior a agitação dessas partículas. Geralmente denotamos a temperatura por $T$ ou então pela letra grega $\theta$ (theta). A energia associada a temperatura de um corpo é chamada <b>energia térmica</b>. 
 
-Os dispositivos criados para aferição de temperatura são chamados <b>termômetros</b>, com vários tipos existentes, dos mais rudimentares ou avançados. Os termômetros mais simples, como os de álcool, se apoiam no fenômeno da <a href="/books/high_school/physics/physics2/thermal_dilation.html" target="_blank">dilatação térmica</a>.
+Os dispositivos criados para aferição de temperatura são chamados <b>termômetros</b>, com vários tipos existentes, dos mais rudimentares ou avançados. Os termômetros mais simples, como os de álcool, se apoiam no fenômeno da <a href="/books/mausoleum/physics/physics2/thermal_dilation.html" target="_blank">dilatação térmica</a>.
 
 Conhecemos dois <b>limites fundamentais</b> para a temperatura que algo pode assumir, sendo eles o zero absoluto $(0 \text { K})$ e a temperatura de Planck $(1.416 \cdot 10^{32} \text{ K})$. No extremo mais frio, temos a ausência total de qualquer movimento, enquanto no mais quente, o corpo emitiria uma radiação no menor comprimento de onda possível pelas nossas teorias científicas. Alcançar o zero absoluto e exceder a temperatura de Planck são, dessa forma, objetivos impossíveis.
 

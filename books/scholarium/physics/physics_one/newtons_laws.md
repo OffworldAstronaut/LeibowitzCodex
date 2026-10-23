@@ -29,7 +29,7 @@ um corpo livre permanece em repouso ou em movimento retilíneo uniforme. É ness
 
 <aside>
 
-<b>2ª lei (Princípio fundamental da dinâmica)</b> — A variação do <b>momento</b> de um corpo é igual à resultante das forças impressas sobre ele.<!-- Se um vetor é igual a outro, já significa que eles têm a mesma direção. Como estava enunciado parecia que qualquer variação de momento era igual a uma força específica. --> A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/higher_education/physics/physics_one/momentum_collisions.html">aqui</a>. <!-- A rigor, a segunda Lei de Newton serve para definir a massa, por assim dizer, mas a primeiro contato é suficiente definir assim-->
+<b>2ª lei (Princípio fundamental da dinâmica)</b> — A variação do <b>momento</b> de um corpo é igual à resultante das forças impressas sobre ele. A <b>quantidade de movimento</b> (momento) de um corpo depende de sua massa e de sua velocidade. Mais sobre o momento pode ser visto <a href="/books/scholarium/physics/physics_one/momentum_collisions.html">aqui</a>. 
 
 $$
 \begin{align*}
@@ -115,7 +115,7 @@ Com $\mu_C$ sendo seu coeficiente de atrito cinético. Além disso, diferentemen
 
 # Arrasto 
 
-Chamamos <b>fluido</b>, de forma bem simples, toda substância capaz de escoar, como gases e líquidos (para uma definição mais rigorosa, consultar <a href="/books/higher_education/physics/physics_two/hydrostatics.html" target="_blank"><i>De Hydrostatica</i></a>). Ao considerarmos um corpo no interior de um fluido com uma certa velocidade relativa, uma força é exercida no móvel que, como a força de atrito, resiste ao movimento. Essa força é denominada <b>força de arrasto</b> ou apenas <b>arrasto</b>. 
+Chamamos <b>fluido</b>, de forma bem simples, toda substância capaz de escoar, como gases e líquidos (para uma definição mais rigorosa, consultar <a href="/books/scholarium/physics/physics_two/hydrostatics.html" target="_blank"><i>De Hydrostatica</i></a>). Ao considerarmos um corpo no interior de um fluido com uma certa velocidade relativa, uma força é exercida no móvel que, como a força de atrito, resiste ao movimento. Essa força é denominada <b>força de arrasto</b> ou apenas <b>arrasto</b>. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c8/Flow_sphere.svg)
 

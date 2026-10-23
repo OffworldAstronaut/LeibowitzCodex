@@ -6,7 +6,7 @@ Chamamos <b>momento (linear)</b> a grandeza (geralmente denotada por $\vec{p}$) 
 
 # Centro de massa
 
-Num sistema com mais de uma partícula, chamamos <b>forças internas</b> ao sistema as forças de interação entre essas partículas. Essas forças internas são chamadas ainda <b>newtonianas</b> quando formam pares ação e reação e, como consequência, conservam o momento total ao longo do tempo, conforme <a href="/books/higher_education/physics/physics_one/newtons_laws.html">visto anteriormente</a>.
+Num sistema com mais de uma partícula, chamamos <b>forças internas</b> ao sistema as forças de interação entre essas partículas. Essas forças internas são chamadas ainda <b>newtonianas</b> quando formam pares ação e reação e, como consequência, conservam o momento total ao longo do tempo, conforme <a href="/books/scholarium/physics/physics_one/newtons_laws.html">visto anteriormente</a>.
 
 Um resultado interessante que podemos demonstrar daqui é que, em um sistema de duas partículas com forças internas newtonianas, a variação do momento total do sistema é a força resultante externa sobre o sistema. Para demonstrar isso, vamos por passos. Primeiro, veja que as equações de movimento deste sistema são: 
 

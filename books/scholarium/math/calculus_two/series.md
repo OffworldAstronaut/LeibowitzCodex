@@ -40,7 +40,7 @@ $$
 \sum_{k=q}^\infty a_k = a_q + a_{q+1} + a_{q+2} + \dots
 $$
 
-Além disso, de forma análoga ao que foi discurido no manuscrito sobre <a href="/books/higher_education/math/calculus_two/sequences.html" target="_blank">sequências</a>, trabalhar com a série $\sum_{k=q}^\infty a_k$ é o mesmo que trabalhar com a série $\sum_{k=0}^\infty b_k, b_k = a_{k+q}, k \ge 0$. 
+Além disso, de forma análoga ao que foi discurido no manuscrito sobre <a href="/books/scholarium/math/calculus_two/sequences.html" target="_blank">sequências</a>, trabalhar com a série $\sum_{k=q}^\infty a_k$ é o mesmo que trabalhar com a série $\sum_{k=0}^\infty b_k, b_k = a_{k+q}, k \ge 0$. 
 
 Logo, por questões de simplificação, todos os resultados a seguir serão expostos e demonstrados para séries da forma 
 

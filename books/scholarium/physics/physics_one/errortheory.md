@@ -47,7 +47,7 @@ $$
 
 ## Grandeza com valor desconhecido 
 
-Ao medirmos repetidamente uma grandeza de valor desconhecido, observamos que as leituras raramente coincidem entre si. Esse espalhamento nos resultados é inevitável e constitui a manifestação prática da incerteza da medição. Suas origens são três: fatores instrumentais (a própria resolução do aparelho), fatores humanos (julgamento e reação do operador) e fatores ambientais (<a href="/books/high_school/physics/physics2/thermal_dilation.html" target="_blank">temperatura</a>, vibração, pressão atmosférica).
+Ao medirmos repetidamente uma grandeza de valor desconhecido, observamos que as leituras raramente coincidem entre si. Esse espalhamento nos resultados é inevitável e constitui a manifestação prática da incerteza da medição. Suas origens são três: fatores instrumentais (a própria resolução do aparelho), fatores humanos (julgamento e reação do operador) e fatores ambientais (temperatura, vibração, pressão atmosférica).
 
 ### Algarismos significativos e o algarismo duvidoso
 

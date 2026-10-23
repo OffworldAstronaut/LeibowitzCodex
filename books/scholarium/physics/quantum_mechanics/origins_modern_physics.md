@@ -26,7 +26,7 @@ A natureza da luz foi tópico de debate científico por um tempo considerável. 
 
 <i>Um dos experimentos mais conhecidos da teoria ondulatória da luz é o da fenda dupla de Young. Durante a era quântica, foi mostrado que partículas como elétrons também exibem o mesmo comportamento. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Single_slit_and_double_slit2.jpg" target="_blank">Wikimedia Commons</a>.</i>
 
-Os experimentos de Young e Fresnel produziram pesadas evidências em favor da teoria ondulatória da luz, motivando a sua descrição eletromagnética precisa por Maxwell através de seu famoso conjunto de <a href="/books/higher_education/math/calculus_two/differential_equations.html" target="_blank">equações diferenciais</a>. Este embate, entretanto, acrescido de mais alguns experimentos, motivou a categorização da luz em algo especial: sua natureza seria uma espécie de dualidade onda-matéria. Essa constatação floresceu através da teoria quântica, que será tratada nesta série de tomos. 
+Os experimentos de Young e Fresnel produziram pesadas evidências em favor da teoria ondulatória da luz, motivando a sua descrição eletromagnética precisa por Maxwell através de seu famoso conjunto de <a href="/books/scholarium/math/calculus_two/differential_equations.html" target="_blank">equações diferenciais</a>. Este embate, entretanto, acrescido de mais alguns experimentos, motivou a categorização da luz em algo especial: sua natureza seria uma espécie de dualidade onda-matéria. Essa constatação floresceu através da teoria quântica, que será tratada nesta série de tomos. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/99/EM-Wave.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 

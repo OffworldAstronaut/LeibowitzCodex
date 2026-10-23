@@ -428,7 +428,7 @@ $$
 
 Perceba que um limite aparentemente complexo torna-se relativamente simples ao reescrever uma função de forma que o máximo de termos tenda a zero quando $x$ torna-se arbitrariamente grande. 
 
-Agora, e para o cálculo de limites com indeterminações da forma $\infty - \infty$, como podemos proceder? Uma estratégia possível é a combinação do rearranjamento algébrico com a aplicação da <a href="/books/higher_education/math/calculus_one/derivatives_applications.html" target="_blank">Regra de L'Hôpital</a>.
+Agora, e para o cálculo de limites com indeterminações da forma $\infty - \infty$, como podemos proceder? Uma estratégia possível é a combinação do rearranjamento algébrico com a aplicação da <a href="/books/scholarium/math/calculus_one/derivatives_applications.html" target="_blank">Regra de L'Hôpital</a>.
 
 Por consequência, e finalizando o motivo da abertura desse adendo sobre limites no infinito, a reta $y=L$ é chamada **assíntota horizontal** da função $f$. 
 
@@ -633,7 +633,7 @@ como queríamos demonstrar.
 
 ## Limite fundamental exponencial 
 
-É possível demonstrar, por meio de <a href="/books/higher_education/math/calculus_two/sequences.html" target="_blank">sequências</a>, que a sequência 
+É possível demonstrar, por meio de <a href="/books/scholarium/math/calculus_two/sequences.html" target="_blank">sequências</a>, que a sequência 
 
 $$
 a_n = \left(1 + \dfrac{1}{n}\right)^n = e \approx 2.71
@@ -645,7 +645,7 @@ $$
 \lim_{x \to \infty} \left(1 + \dfrac{1}{x}\right)^x = e
 $$
 
-com este limite sendo denominado o <b>limite fundamental exponencial</b>. Este limite possui uma importância considerável para o tratamento no cálculo de funções exponenciais, principalmente em suas <a href="/books/higher_education/math/calculus_one/derivatives_concepts.html">derivadas</a>. Com efeito, ainda é possível demonstrar que 
+com este limite sendo denominado o <b>limite fundamental exponencial</b>. Este limite possui uma importância considerável para o tratamento no cálculo de funções exponenciais, principalmente em suas <a href="/books/scholarium/math/calculus_one/derivatives_introduction.html">derivadas</a>. Com efeito, ainda é possível demonstrar que 
 
 $$
 \begin{align*}
