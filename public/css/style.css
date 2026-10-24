@@ -221,6 +221,34 @@ textarea,
     text-shadow: 1px 1px 0px var(--bg), 2px 2px 0px var(--border);
 }
 
+.wiki-thumb {
+  float: right;            
+  width: 220px;            
+  margin: 0 0 1rem 1.5rem; 
+  padding: 8px;
+  text-align: center;
+}
+
+.wiki-thumb img {
+  width: 100%;             
+  height: auto;            
+  display: block;
+  margin-bottom: 8px;
+}
+
+.wiki-thumb img:last-child {
+  margin-bottom: 0;
+}
+
+.wiki-thumb i,
+.wiki-thumb p {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 0;
+  line-height: 1.3;
+  text-align: center;
+}
+
 /* ESTILO DO CHANGELOG */
 
 /* nota: aqui estão estilos adicionais próprios do changelog */

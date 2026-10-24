@@ -142,6 +142,16 @@ Enquanto nas regulares cada elétron em um par compartilhado provém de um átom
 
 ## Momento do dipolo
 
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/d/d1/Cis-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/b0/Trans-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>(a) Trans-dicloroetileno. Átomos de cloro em verde, hidrogênio em branco e carbono em cinza. (b) Cis-dicloroetileno. (a) Imagem sob domínio público via <a href="https://commons.wikimedia.org/wiki/File:Trans-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a>.(b) Imagem sob domínio público via <a href="https://commons.wikimedia.org/wiki/File:Cis-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a></i>
+
+</div>
+
 Para representar a polarização eletrônica numa molécula, podemos utilizar tanto a notação de carga parcial $\delta^-$ e $\delta^+$ (maior ou menor densidade eletrônica, respectivamente) como também uma seta (de base cruzada, ou não). Por exemplo, no ácido fluorídrico $\ce{HF}$ denotamos: 
 
 $$
@@ -159,16 +169,6 @@ $$
 $$
 
 com $Q$ a magnitude da carga parcial e $r$ a distância entre as cargas $\delta^+$ e $\delta^-$. Normalmente, esta grandeza é aferida em <b>debyes</b> — em homenagem ao físico-químico holandês Peter Debye (1884-1966) — de forma que $1 \text{D} = 3.336 \cdot 10^{-30} \text{ C}\cdot\text{m}$.
-
-<div class="wiki-thumb">
-
-![](https://upload.wikimedia.org/wikipedia/commons/d/d1/Cis-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-![](https://upload.wikimedia.org/wikipedia/commons/b/b0/Trans-1%2C2-dichloroethene-3D-balls.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-<i>Trans-dicloroetileno. Átomos de cloro em verde, hidrogênio em branco e carbono em cinza. Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Trans-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a>. Cis-dicloroetileno, Domínio público via <a href="https://commons.wikimedia.org/wiki/File:Cis-1,2-dichloroethene-3D-balls.png" target="_blank">Wikimedia Commons</a></i>
-
-</div>
 
 Nem sempre moléculas formadas por átomos distintos serão polares, pois a polarização referente a cada ligação pode ser anular para um mesmo átomo. Por exemplo, considere duas moléculas distintas formadas pelos mesmos átomos e as mesmas ligações: cis-dicloroetileno e trans-dicloroetileno.
 
@@ -235,26 +235,6 @@ Esse comportamento é a causa de diversas propriedades metálicas, como a fácil
 # Teoria da ligação de valência
 
 
-
-# Propriedades gerais das substâncias
-
-As substâncias iônicas são sólidas nas condições ambiente, com altos pontos de fusão e ebulição, em razão de suas fortes ligações eletrovalentes. Estas substâncias são solúveis em solventes polares, conduzindo eletricidade apenas durante sua fusão ou se dissolvidas. Sua dissolução libera seus íons carregados no solvente, possibilitando a formação de corrente elétrica. 
-
-No âmbito das substâncias formadas por ligações covalentes apolares, predominam as <b>forças de van der Waals</b>. 
-
-Nomeadas em homenagem ao físico teórico holandês Johannes Diderik van der Waals, nobelista de física, as forças de van der Waals surgem pela leve deformação das nuvens eletrônicas das ligações apolares, dependendo do tmaanho e da forma das moléculas interagentes. 
-
-Pela fraqueza destas forças, substâncias apolares evaporam facilmente (isto é, são voláteis), são isolantes elétricos, solúveis em solventes apolares e possuem baixos pontos de fusão e ebulição. 
-
-Substâncias polares, entretanto, mantem-se unidas pelas <b>forças dipolo-dipolo</b>, mais fortes que as forças de van der Waals, porém mais fracas que as forças eletrostáticas das ligações iônicas. Essas forças formam ligações entre os polos positivos e negativos das moléculas vizinhas. 
-
-Em razão disso, essas substâncias são um pouco menos voláteis, dissolvem em solventes polares e possuem temperaturas de fusão e ebulição um pouco maiores, se comparadas com substâncias apolares.
-
-Um caso especial de ligação entre moléculas polares são as chamadas <b>ligações</b> ou <b>pontes de hidrogênio</b>, formadas pela atração coulombiana entre um hidrogênio ligado a um átomo muito eletronegativo e um polo negativo de uma outra molécula. Como exemplo pode-se citar as pontes de hidrogênio formadas entre moléculas de água. 
-
-![](https://upload.wikimedia.org/wikipedia/commons/c/c6/3D_model_hydrogen_bonds_in_water.svg)
-
-<i>Representação de moléculas de água interagindo por pontes de hidrogênio. Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:3D_model_hydrogen_bonds_in_water.svg" target="_blank">Wikimedia Commons</a>.</i>
 
 # Referências 
 
