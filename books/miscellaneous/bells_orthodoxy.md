@@ -18,9 +18,7 @@ Na tradição ortodoxa, os sineiros são chamados <i>zvonar</i> (de <i>zvon</i>,
 
 Ainda, por essa importância litúrgica, a utilização de qualquer mecanismo automático para a execução da atividade é proibido.
 
-<div class="video-iframe">
-    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/qbn_Fzcxw3o" title="Russian Orthodox Bell Ringing in New Jersey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/qbn_Fzcxw3o" title="Russian Orthodox Bell Ringing in New Jersey" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 <i>Conhecido vídeo do toque dos sinos na Catedral de Alexander Nevsky, NJ, EUA.</i>
@@ -29,10 +27,7 @@ De forma semelhante aos ocidentais, os ortodoxos possuem certos serviços litúr
 
 Um aspecto teológico interessante é o seu simbolismo com a proclamação do Evangelho, completo com a utilização do <i>sematron</i>. Tradicionalmente, o <i>sematron</i>, de som baixo e simples, simboliza os profetas do Antigo Testamento. Após o <i>sematron</i>, os sinos, de som alto e passíveis de escuta a longas distâncias, são soados, simbolizando a proclamação do Evangelho pelo mundo.
 
-<div class="video-iframe">
-    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/uVTyuP1O6lQ" title="Semantron and Bells at St. Catherine&#39;s Monastery, Sinai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
-
+<iframe class="responsive-iframe" src="https://www.youtube.com/embed/uVTyuP1O6lQ" title="Semantron and Bells at St. Catherine&#39;s Monastery, Sinai" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <i>Acima: Monge toca o <b>semantron</b> e, logo após, os sinos no mosteiro de Santa Catarina, no Sinai.</i>
 
@@ -115,9 +110,7 @@ Cada sino do campanário é tocado uma vez, do menor para o maior, num ritmo len
 
 Cada toque do <i>perebor</i> só deve ser executado quando o som do sino anterior tiver-se extinguido naturalmente. Esse toque funerário possui como simbolismo a vida de uma pessoa terrena, de seu nascimento até sua morte, com o toque simultâneo simbolizando sua morte. 
 
-<div class="responsive-iframe">
-    <iframe class="video-iframe"src="https://www.youtube.com/embed/ASWLpwremnM" title="Orthodox Funeral Toll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe class="video-iframe"src="https://www.youtube.com/embed/ASWLpwremnM" title="Orthodox Funeral Toll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <i>Uma execução do <b>Perebor</b> no monastério de Duchovny Dom, Oregon, EUA, 2018.</i>
 
@@ -135,9 +128,7 @@ Geralmente é dividido em três estágios, com o começo contando com a marcante
 
 Uma variação menor, o <i>dvuzvon</i> (”duplo-badalo”), é executada diminuindo a quantidade de versos repetidos de três para duas vezes. 
 
-<div class="responsive-iframe">
-    <iframe class="video-iframe" src="https://www.youtube.com/embed/Kliywj7nHHA" title="Russian Orthodox Bell Ringing on Pascha (Easter)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+<iframe class="video-iframe" src="https://www.youtube.com/embed/Kliywj7nHHA" title="Russian Orthodox Bell Ringing on Pascha (Easter)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <i>Trezvon executado durante a Páscoa na catedral de Alexander Nevsky, NJ, EUA, 2023.</i>
 
