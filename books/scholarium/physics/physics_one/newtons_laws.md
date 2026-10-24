@@ -2,6 +2,14 @@
 
 # Mecânica newtoniana
 
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Isaac Newton (1643-1727) em pintura de 1689. Excêntrico e de gênio extremamente competitivo e um tanto orgulhoso, Newton deixou como legado uma maneira completamente diferente de analisar o mundo.</i>
+
+</div>
+
 Antes do estudo de movimentos sistematizado por Isaac Newton, inglês do século XVII, vigorava na academia um amplo consentimento aos desenvolvimentos de Aristóteles, escritos na Antiguidade Clássica. Segundo a física aristotélica, o Universo é permeado por dois tipos de movimento: o movimento <b>natural</b> e o movimento <b>violento</b>. 
 
 Os movimentos <b>naturais</b> eram executados pelos corpos de acordo com um agente interno, de acordo com sua composição. Por exemplo, uma pedra naturalmente iria se mover para o fundo de um lago em razão de ser composta majoritariamente do elemento Terra, enquanto as chamas de uma fogueira levitariam para o mais alto dos céus, o empíreo, pelo elemento Fogo ser mais leve que o elemento Ar. 
@@ -10,7 +18,7 @@ Dessa forma, movimentos contra essa tendência só seriam executados por meio de
 
 Uma consequência interessante da física aristotélica é o geocentrismo: se a Terra não estivesse no centro do Universo, ela iria se mover até ocupar o seu lugar natural. Essa ideia, combinada com a noção grega de esfera celeste, nos forneceu o modelo geocêntrico do Universo, que perdurou por muitos séculos. 
 
-O modelo ptolemaico analisava os céus como algo completamente diferente da Terra, feitos de quintessência, um elemento diferente de todos os outros, com os corpos descrevendo órbitas circulares e quaisquer imperfeições descritas por mecanismos como epiciclos. A presença considerável de circunferências deve-se a consideração grega do círculo como a figura geométrica perfeita. 
+O <a href="/books/scholarium/physics/physics_one/gravitation.html" target="_blank">modelo ptolemaico</a> analisava os céus como algo completamente diferente da Terra, feitos de quintessência, um elemento diferente de todos os outros, com os corpos descrevendo órbitas circulares e quaisquer imperfeições descritas por mecanismos como epiciclos. A presença considerável de circunferências deve-se a consideração grega do círculo como a figura geométrica perfeita. 
 
 A partir dos estudos de Galileu, que produziu conceitos como a relatividade galileana e o princípio da inércia (defendido pelo famosíssimo experimento do barco), Newton unificou o estudo dos movimentos celestes e terrestres num único sistema em sua obra-prima <i>Princípios Matemáticos da Filosofia Natural</i>. Dos estudos do inglês, são amplamente conhecidas as suas Leis da Mecânica. 
 

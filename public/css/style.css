@@ -11,6 +11,7 @@ Definição do esquema de cores do modo claro e do modo escuro.*/
     --text:                 light-dark(#1c1812, #faf9f6); /*cor do texto*/
     --text-muted:           light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85)); /**/
     --link:                 light-dark(#7a4f1e, wheat); /*cor dos links*/
+    --border:               light-dark(rgba(28,24,18,0.15), rgba(250,249,246,0.15));
     --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292)); /*cor do destaque de seleção de texto*/
 }
 
