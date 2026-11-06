@@ -234,7 +234,241 @@ Esse comportamento é a causa de diversas propriedades metálicas, como a fácil
 
 # Teoria da ligação de valência
 
+A introdução da mecânica quântica mostrou-se um passo fundamental para uma explicação mais substancial do fenômeno das ligações químicas: mesmo que a teoria VSPER seja moderadamente precisa e simples, com as estuturas de Lewis fornecendo previsões teóricas satisfatórias, estas não explicam o <i>motivo</i> do acontecimento das ligações. Por exemplo, a formação de hidrogênio e flúor moleculares é descrita exatamente da mesma maneira por essas teorias primordias, embora estas ligações possuam propriedades diferentes.
 
+Atualmente, duas teorias baseadas na mecânica quântica existem para descrever o processo das ligações químicas. Nota-se que nenhuma destas descreve corretamente todos os aspectos conhecidos experimentalmente das ligações químicas, entretanto, cada uma permitiu uma expansão da compreensão de seu funcionamento.
+
+A primeira teoria é chamada <b>teoria da ligação de valência</b> (TLV). Esta teoria supõe que os elétrons numa molécula ocupam orbitais atômicos que se intersectam durante a formação desta. A segunda teoria é conhecida por <b>teoria do orbital molecular</b> (TOM), postulando a formação de orbitais moleculares à partir dos orbitais atômicos. 
+
+Iniciaremos nossa discussão pela teoria da ligação de valência.
+
+Um exemplo perfeito para a comparação entre a teoria molecular de Lewis e a TLV é a formação do hidrogênio molecular, $\ce{H_2}$. A teoria de Lewis explica a formação desta molécula pelo compartilhamento de um par de elétrons entre os átomos de hidrogênio, que adquirem uma configuração eletrônica semelhante a do hélio. A teoria da ligação de valência, por outro lado, analisa o fenômeno pela intersecção dos orbitais $\text{1s}$ dos átomos: sua sobreposição diminui a energia potencial do sistema. Quando esta energia atinge um mínimo, a ligação está formada.
+
+## Hibridação
+
+Para modelar corretamente a formação de moléculas poliatômicas, a TLV faz uso do conceito de <b>hibridação</b> (ou hibridização). Denominamos hibridação o processo de mistura de órbitais atômicos presente na formação de moléculas. Os orbitais híbridos, assim, são formados a partir de orbitais não equivalentes de um mesmo átomo.
+
+Vamos a um exemplo. 
+
+Como forma-se a molécula de metano, $\ce{CH4}$? 
+
+O diagrama orbital da camada de valência do átomo de carbono inicialmente é
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|}
+    \hline
+    \uparrow \downarrow\\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    \uparrow & \uparrow & \\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+com os orbitais 2s à esquerda e os 2p à direita. Neste estado fundamental, o carbono consegue formar duas ligações com átomos de hidrogênio: algo raro que produz um composto instável. 
+
+Excitando um elétron do orbital 2s para o orbital 2p, chegamos na configuração 
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|}
+    \hline
+    \uparrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    \uparrow & \uparrow & \uparrow\\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+que possibilita a ligação com quatro átomos de hidrogênio. Perceba, entretanto, que esta configuração não atende à geometria tetraédrica do metano: todas as ligações formmariam ângulos retos (pois os orbitais 2p são mutuamente perpendiculares).
+
+Hibridizando os orbitais 2s e 2p, formamos os orbitais sp<sup>3</sup>: 
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|c|c|c|}
+    \hline
+    \uparrow & \uparrow & \uparrow & \uparrow \\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+Estes são chamados sp<sup>3</sup> pois possuem como orbitais originárias um orbital s e três orbitais p. Cada orbital sp<sup>3</sup> aponta para um vértice de um tetraedro, como explorado na teoria VSPER. Assim, os quatro átomos de hidrogênio podem se ligar ao carbono, formando o metano. 
+
+Vale mencionar que, embora o processo de hibridação envolva gasto energético (pela promoção eletrônica), o balanço é garantido em razão da liberação de energia na formação das ligações. 
+
+Vamos citar, como exemplo de hibridização sp, a formação de uma molécula de cloreto de berílio, $\ce{BeCl2}$, de geometria linear. De fato, a formação dessa molécula é explicada apenas com o processo de hibridação, pois os elétrons do orbital 2s do berílio já estão emparelhados.
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|}
+    \hline
+    \uparrow \downarrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    &  & \\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+Assim, um elétron do orbital 2s é excitado para um orbital 2p, 
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|}
+    \hline
+    \uparrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    \uparrow &  & \\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+e dois orbitais sp são formados:[^3]
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|c|}
+    \hline
+    \uparrow & \uparrow\\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|}
+    \hline
+    & \\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+Por fim, antes de partir para a discussão de cenário de hibridação com orbitais d, vamos citar um exemplo de hibridação sp<sup>2</sup>: a formação de uma molécula de trifluoreto de boro, que assume uma geometria trigonal plana.
+
+Inicialmente, sabemos que o diagrama orbital do boro é
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|}
+    \hline
+    \uparrow \downarrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    \uparrow &  & \\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+Promovendo um elétron e hibridizando os orbitais, obtemos: 
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|c|c|}
+    \hline
+    \uparrow & \uparrow & \uparrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|}
+    \hline
+    \\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+Com este arranjo justificando a geometria trigonal plana do $\ce{BF3}$. 
+
+A inclusão de orbitais $d$ no processo de hibridação justifica-se pela formação de moléculas de geometrias mais complexas por átomos de elementos presentes no terceiro período em diante (que conseguem expandir seu octeto). 
+
+Como primeiro exemplo de uma hibridação com orbitais $d$, podemos utilizar o hexafluoreto de enxofre. Inicialmente, temos que a distribuição eletrônica do enxofre em seu estado fundamental é [Ne] 3s<sup>2</sup> 3p<sup>4</sup>: 
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|}
+    \hline
+    \uparrow \downarrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    \uparrow \downarrow & \uparrow & \uparrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|c|c|}
+    \hline
+    &  & & &\\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+Pela proximidade energética entre os niveis 3s, 3p e 3d (verificada pela regra de Klechkowsky), é possível promover elétrons para os orbitais 3d: 
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|}
+    \hline
+    \uparrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    \uparrow & \uparrow & \uparrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|c|c|}
+    \hline
+    \uparrow & \uparrow & & &\\
+    \hline
+    \end{array}
+\end{array}
+$$
+
+E, por fim, formar os orbitais híbridos sp<sup>3</sup>d<sup>2</sup>: 
+
+$$
+\begin{array}{cc}
+    &\begin{array}{|c|c|c|c|c|c|}
+    \hline
+    \uparrow & \uparrow & \uparrow & \uparrow & \uparrow & \uparrow \\
+    \hline
+    \end{array}
+    &
+    &\begin{array}{|c|c|c|}
+    \hline
+    & & \\
+    \hline
+    \end{array}
+\end{array}
+$$
 
 # Referências 
 
@@ -245,3 +479,5 @@ Esse comportamento é a causa de diversas propriedades metálicas, como a fácil
 [^1]: A palavra <b>valência</b> vem do latim <i>valentia</i>, significando força, poder ou vigor. Essa mesma origem originou palavras como valente ou valentia, sendo utilizada na química justamente por indicar o "poder" ou a "força" de uma ligação química — essa camada é a responsável, a "força por trás", pelas ligações.
 
 [^2]: Nas estruturas de Lewis, representamos o excesso ou a falta de cargas negativas da mesma maneira que representamos os íons. 
+
+[^3]: O diagrama anterior, novamente, sem hibridação não explicaria a evidência experimental que ambas as ligações cloro-berílio são idênticas.

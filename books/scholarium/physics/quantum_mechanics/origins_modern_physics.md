@@ -263,9 +263,97 @@ Enquanto o primeiro postulado estende os <i>quanta</i> de Planck para o universo
 
 A consequência desses dois postulados é a explicação das linhas espectrais dos átomos, bastante conhecidas experimentalmente com os trabalhos de Johannes Rydberg (1854-1919) e Walter Ritz (1878-1909). Após a sua publicação, estes postulados foram verificados experimentalmente por James Franck (1882-1964) e Gustav Hertz (1887-1975) — sobrinho de Heinrich Hertz — lhes rendendo o prêmio Nobel de física de 1925.
 
-# Teoria de Bohr
+# Teoria de Bohr: O átomo de hidrogênio
 
+Vamos analisar o átomo mais simples existente, o átomo de hidrogênio: um elétron circunda um próton, com estes possuindo cargas elétricas iguais em módulo e opostas em sinal. Com efeito, é a atração coulombiana que mantém o elétron em uma órbita fechada que, por simplicidade, nós suporemos circular. 
 
+Consequentemente, podemos escrever duas equações de força para o elétorn em movimento circular uniforme: a atração coulombiana 
+
+$$
+f_E = \dfrac{1}{4\pi \varepsilon_0}\dfrac{e^2}{a^2}
+$$
+
+e a resultante centrípeta
+
+$$
+f_C = \dfrac{mv^2}{a}
+$$
+
+Nestas relações, $a$ é o raio da órbita, $e$ é a carga elementar e $v$ a velocidade do elétron. Igualando ambas as expressões, obtemos: 
+
+$$
+mv^2 = \dfrac{1}{4\pi\varepsilon_0} \dfrac{e^2}{a^2}
+$$
+
+que permite-nos eliminar a velocidade no cálculo da energia mecânica do sistema. 
+
+$$
+E= \dfrac{1}{2}mv^2 - \dfrac{e^2}{a^2} = -\dfrac{1}{2}\dfrac{1}{4\pi\varepsilon_0}\dfrac{e^2}{a^2}
+$$
+
+Embora classicamente o raio $a$ possa assumir qualquer valor positivo, a hipótese da quantização do momento angular como um múltimo inteiro de $\hbar = \dfrac{h}{2\pi}$ implica na relação $mva = n\hbar, n \in \mathbb{N}$.
+
+O valor natural $n$ foi então chamado <b>número quântico</b> em razão de caracterizar as órbitas e os níveis de energia permitidos ao elétron. De fato, é possível encontrar uma expressão para o raio da n-ésima órbita 
+
+$$
+a = \dfrac{4\pi \varepsilon_0 n^2 \hbar^2}{me^2}
+$$
+
+e sua energia $E_n$ associada:
+
+$$
+E_n = -\left(\dfrac{1}{4\pi\varepsilon_0}\right)^2\dfrac{me^4}{2\hbar^2n^2}
+$$
+
+Assim, o nível de energia $E_1$ é batizado <b>estado fundamental</b>, com os demais sendo <b>estados exaltados</b>. Perceba que ao conhecer os níveis de eneriga, podemos determinar as frequências do espectro de emissão do átomo de hidrogênio. Tomando como $n_m$ o estado mais excitado e $n_n$ o estado menos excitado, a frequência emitida pelo elétron ao decair de $n_m$ para $n_n$ é: 
+
+$$
+\nu = \left(\dfrac{1}{4\pi \varepsilon_0}\right)^2 \cdot \dfrac{me^4}{4\pi\hbar^3}\left(\dfrac{1}{n_n^2} - \dfrac{1}{n_m^2}\right)
+$$
+
+Podemos modificar a equação anterior da frequência para o chamado <b>número de onda</b> $\bar{\nu}$, o inverso do comprimento de onda $\lambda$. Como $c = \lambda\nu$, escrevemos: 
+
+$$
+\bar{\nu} = \left(\dfrac{1}{4\pi \varepsilon_0}\right)^2 \cdot \dfrac{me^4}{4\pi c\hbar^3}\left(\dfrac{1}{n_n^2} - \dfrac{1}{n_m^2}\right)
+$$
+
+Na forma mais usual para o átomo de hidrogênio:
+
+$$
+\bar{\nu} = R_H\left(\dfrac{1}{n_n^2} - \dfrac{1}{n_m^2}\right)
+$$
+
+A constante $R_H = 4.09677 \cdot 10^7 \text{ m}^{-1}$ é chamada <b>constante de Rydberg</b>. Tomando diferentes $n_n$ fixos e variando $n_m$ deduzimos as <b>séries espectrais</b> conhecidas experimentalmente, inclusive antes de Bohr. Para $n_n = 1$, temos a série de Lyman no ultravioleta; Para $n_n = 2$, temos a série de Balmer; Para $n_n = 3$, a série de Paschen; Para $n_n = 4$, a série de Brackett e, finalmente, para $n_n = 5$, a série de Pfund. A origem dessas séries é que o decaimento de diferentes estados excitados para um daod nível energético provoca a emissão de diferentes frequências discretas porém muito próximas. A união dessas múltiplas raias de frequências próximas produz as regiões maiores mais facilmente perceptíveis.
+
+# Quantização de Bohr-Sommerfeld
+
+Embora a proposta de Bohr tenha sido um grande sucesso, foi logo percebido que esta não atendia aos casosm ais complicados por um caso particular de uma relação mais geral: 
+
+$$
+\oint pdq = nh
+$$
+
+Nessa relação, $p$ e $q$ são coordenadas generalizadas, canonicamente conjugadas. A equação é válida para movimentos periódicos com a integral devendo ser realizada ao longo de um período. A coordenada $p$ deve ser função da posição $q$. Assim, a equação de Bohr surge ao escolher $q$ como a posição $\phi$ entre 0 e $2\pi$ e $p$ o momento angular $l = mr^2 \dot{\phi} = mr^2 \omega$.
+
+Tomando $p = l$, temos: 
+
+$$
+\oint pdq = \int_{0}^{2\pi} ld\phi = l\int_{0}^{2\pi} d\phi = 2\pi l
+$$
+
+Isto nos permite escrever $2\pi l = nh$ ou, equivalentemente, $l = n\hbar$, com a equação de Bohr sendo um caso particular desta. 
+
+Sommerfeld generalizou a relação para sistemas de periodicidade múltipla e vários graus de liberdade, isto é, sistemas que podem ser descritos por pares de coordenadas e momentos $(q_1, p_1), (q_2, p_2), \dots, (q_n, p_n)$, cada par periódico. 
+
+A regra de quantização proposta por Bohr-Sommerfeld geralmente é expressa por 
+
+$$
+\oint p_r dq_r = n_r h, r = 1, 2, \dots, n
+$$
+
+com $r$ sendo o número de graus de liberdade do sistema. 
+
+O conjunto dos postulados de Bohr e da regra de quantização acima forma a chamada <b>teoria quântica velha</b>. Embora esta foi substituída pela mecânica quântica moderna, a quântica velha ainda possui grande valor histórico.
 
 # Referências 
 
