@@ -242,7 +242,7 @@ $$
 
 que simplifica-se para a equação polar $r = b + 2a\cos{\theta}$. 
 
-Caso $b \ge 4a$, o limaçon fora uma figura convexa. Caso $4a \gt b \gt 2a$, o limaçon possui uma covinha que degenera-se numa cúspide quando $b = 2a$. Nesta mesma condição, o caracol degenera-se numa cardioide. Por fim, caso $b \lt 2a$, o limançon possui um laço interno.
+Caso $b \ge 4a$, o limaçon forma uma figura convexa. Caso $4a \gt b \gt 2a$, o limaçon possui uma covinha que degenera-se numa cúspide quando $b = 2a$. Nesta mesma condição, o caracol degenera-se numa cardioide. Por fim, caso $b \lt 2a$, o limançon possui um laço interno.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/c/c2/Limacons.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 

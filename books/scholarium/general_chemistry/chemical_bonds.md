@@ -404,7 +404,7 @@ Com este arranjo justificando a geometria trigonal plana do $\ce{BF3}$.
 
 A inclusão de orbitais $d$ no processo de hibridação justifica-se pela formação de moléculas de geometrias mais complexas por átomos de elementos presentes no terceiro período em diante (que conseguem expandir seu octeto). 
 
-Como primeiro exemplo de uma hibridação com orbitais $d$, podemos utilizar o hexafluoreto de enxofre. Inicialmente, temos que a distribuição eletrônica do enxofre em seu estado fundamental é [Ne] 3s<sup>2</sup> 3p<sup>4</sup>: 
+Como primeiro exemplo de uma hibridação com orbitais $d$, podemos utilizar o hexafluoreto de enxofre, $\ce{SF6}$. Inicialmente, temos que a distribuição eletrônica do enxofre em seu estado fundamental é [Ne] 3s<sup>2</sup> 3p<sup>4</sup>: 
 
 $$
 \begin{array}{cc}
@@ -469,6 +469,14 @@ $$
     \end{array}
 \end{array}
 $$
+
+Vale ressaltar que podemos analisar moléculas com ligações duplas e triplas quanto a sua geometria através da teroia da ligação de valência sem problemas. Por exemplo, considere a molécula de etileno, $\ce{C2H4}$. 
+
+Nessa molécula, os átomos de carbono ligam-se por meio de uma ligação dupla enquanto as ligações carbono-hidrogênio são todas simples. No caso da ligação dupla entre os átomos de carbono, está é consequência da hibridação sp<sup>2</sup> que forma três orbitais híbridos e um orbital 2p<sub>z</sub>. Nota-se que estes últimos são perpendiculares ao plano dos orbitais híbridos, formando ligações $\pi$ (em que os orbitais sobrepõem-se lateralmente) ao contrário dos sp<sup>2</sup>, que fazem ligações $\sigma$ (os orbitais se sobrepõem frontalmente). Em razão das ligações $\pi$ situarem-se acima e abaixo do plano da molécula, estras forçam a formação da geometria planar do etileno.
+
+# Teoria do orbital molecular
+
+
 
 # Referências 
 
