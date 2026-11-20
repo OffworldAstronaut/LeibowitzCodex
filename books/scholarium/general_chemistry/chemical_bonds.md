@@ -526,6 +526,8 @@ Até o momento nos concentramos em descrever ligações homonucleares em razão 
 
 ![](./images/c2_tom.png)
 
+![](./images/o2_tom.png)
+
 <i>Diagramas sob CC-BY, via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)/09%3A_Chemical_Bonding_and_Molecular_Structure/9.08%3A_Molecular_Orbital_Theory" target="_blank">LibreTexts Chemistry</a>.</i>
 
 </div>
@@ -533,14 +535,6 @@ Até o momento nos concentramos em descrever ligações homonucleares em razão 
 Começarmos pelo hidreto de lítio. Ao preencher todos os orbitais em ordem energética, percebemos que dois elétrons estão emparelhados num orbital $\sigma$ ligante enquanto nenhum elétron ocupa o orbital anti-ligante. A ordem de ligação resultante é 1. A utilidade desse exemplo, entretanto, reside na presença do orbital 1s do lítio, representado: este é um orbital <b>não-ligante</b>, que não interage com os outros em razão de sua proximidade do núcleo atômico — seus elétrons não são elétrons de valência.
 
 O exemplo do dicarbono, $\ce{C2}$, é interessante. Ao distribuir seus elétrons pelos orbitais moleculares formados, vemos que os primeiros quatro elétrons distribuem-se num par $\sigma$-$\sigma^*$ e, portanto, seus efeitos anulam-se. Consequentemente, apenas os elétrons do orbital $\pi$ contribuem para a ligação, totalizando $\phi = 2$.
-
-<div class="wiki-thumb">
-
-![](./images/o2_tom.png)
-
-<i>Diagrama sob CC-BY, via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)/09%3A_Chemical_Bonding_and_Molecular_Structure/9.08%3A_Molecular_Orbital_Theory" target="_blank">LibreTexts Chemistry</a>.</i>
-
-</div>
 
 Finalmente chegamos ao exemplo que motivou esta discussão, o $\ce{O2}$. Ao realizar a distribuição eletrônica, percebemos a presença de dois elétrons desemparelhados num orbital antiligante $\pi^*$: a origem do paramagnetismo do oxigênio. Além disso, a análise teórica desta molécula justifica outros achados experimentais: o cátion $\ce{O2+}$ é mais estável que o oxigênio molecular, enquanto o ânion $\ce{O2-}$ é menos.
 
