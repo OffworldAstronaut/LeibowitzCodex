@@ -476,7 +476,21 @@ Nessa molécula, os átomos de carbono ligam-se por meio de uma ligação dupla 
 
 # Teoria do orbital molecular
 
+A teoria do orbital molecular (TOM) é a segunda teoria que se utiliza da mecânica quântica para explicar o fenômeno da ligação covalente. Esta teoria fez-se necessária como um complemento para a teoria da ligação de valência (TLV), insuficiente na descrição eficaz de alguns fenômenos magnéticos como o experienciado pelo oxigênio molecular, $\ce{O2}$.
 
+Com efeito, o gás oxigênio é o exemplo clássico para a motivação desta teoria. Pela TLV, sabemos que todos os elétrons da molécula deveriam estar emparelhados e, consequentemente, a molécula deveria ser diamagnética, isto é, não ser afetada por campos magnéticos. Entretanto, o experimento contradiz a teoria: o gás oxigênio é diamagnético, sendo repelido por ímãs. 
+
+Daqui em diante iremos desenvolver um pouco a teoria do orbital molecular e, posteriormente, retornar à molécula de oxigênio para justificar esse estranho fenômeno. 
+
+A teoria deve seu nome pela suposição da formação de orbitais comuns a toda a molécula a partir dos orbitais atômicos. Durante a ligação química, as funções de onda de cada elétron combinam-se linearmente formando estes orbitais numa configuração que minimiza a energia do sistema. No decorrer dessa sobreposição, interferências construtivas e destrutivas ocorrem resultando em maior ou menor densidade eletrônica na região internuclear. 
+
+Os chamados <b>orbitais ligantes</b> possuem menor energia do que os <b>anti-ligantes</b>, com os primeiros sendo o resultado das interferências construtivas e os últimos das interferências destrutivas. Consequentemente, seus nomes são auto-explicativos: "colaboram" ou "atrapalham" a formação da ligação química. 
+
+A representação destes orbitais é geralmente feita por meio de um diagrama de energia, com os átomos participantes gravados nos extremos laterais e os orbitais moleculares na parte central. Da região inferior para superior, situam-se os orbitais em ordem crescente de energia. Nota-se que os orbitais e seus elétrons ocupantes continuam a ser representados por quadrados e setas (cuja orientação indica seu <i>spin</i>), respectivamente.
+
+Como representar, por exemplo, o hidrogênio molecular, $\ce{H2}$? 
+
+![](./images/h2_tom.png)
 
 # Referências 
 
