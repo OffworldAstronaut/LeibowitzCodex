@@ -490,7 +490,11 @@ A representação destes orbitais é geralmente feita por meio de um diagrama de
 
 Como representar, por exemplo, o hidrogênio molecular, $\ce{H2}$? 
 
+<div class="wiki-thumb">
+
 ![](./images/h2_tom.png)
+
+</div>
 
 # Referências 
 
