@@ -486,7 +486,7 @@ A teoria deve seu nome pela suposição da formação de orbitais comuns a toda 
 
 Os chamados <b>orbitais ligantes</b> possuem menor energia do que os <b>anti-ligantes</b>, com os primeiros sendo o resultado das interferências construtivas e os últimos das interferências destrutivas. Consequentemente, seus nomes são auto-explicativos: "colaboram" ou "atrapalham" a formação da ligação química. 
 
-A representação destes orbitais é geralmente feita por meio de um diagrama de energia, com os átomos participantes gravados nos extremos laterais e os orbitais moleculares na parte central. Da região inferior para superior, situam-se os orbitais em ordem crescente de energia. Nota-se que os orbitais e seus elétrons ocupantes continuam a ser representados por quadrados e setas (cuja orientação indica seu <i>spin</i>), respectivamente.
+## Diagramas de energia
 
 <div class="wiki-thumb">
 
@@ -498,17 +498,60 @@ A representação destes orbitais é geralmente feita por meio de um diagrama de
 
 </div>
 
-Como representar, por exemplo, o hidrogênio molecular, $\ce{H2}$? Esta ligação está representada ao lado. Perceba a presença de dois elétrons no orbital $\sigma$ (ligante) e a ausência de quaisquer elétrons do orbital $\sigma^*$ (anti-ligante). Esta é a razão pela qual esta molécula é bastante estável.
+A representação destes orbitais é geralmente feita por meio de um diagrama de energia, com os átomos participantes gravados nos extremos laterais e os orbitais moleculares na parte central. Da região inferior para superior, situam-se os orbitais em ordem crescente de energia. Nota-se que os orbitais e seus elétrons ocupantes continuam a ser representados por quadrados e setas (cuja orientação indica seu <i>spin</i>), respectivamente.
 
-Seria possível ainda representar o hélio molecular? Sabemos que esta molécula não existe em razão do hélio ser um gás nobre e, portanto, inerte. Entretanto, poderia a teoria do orbital molecular justificar essa impossibilidade? Sim. 
+Como representar, por exemplo, o hidrogênio molecular, $\ce{H2}$? O primeiro diagrama ao lado é desta molécula. Perceba a presença de dois elétrons no orbital $\sigma$ (ligante) e a ausência de quaisquer elétrons do orbital $\sigma^*$ (anti-ligante). Esta é a razão pela qual esta molécula é bastante estável.
+
+E o hélio molecular? Sabemos que esta molécula não existe em razão do hélio ser um gás nobre e, portanto, inerte. Entretanto, poderia a teoria do orbital molecular justificar essa impossibilidade? Sim. 
 
 Perceba que no caso do hélio molecular, a quantidade de elétrons nos orbitais $\sigma$ e $\sigma^*$ é a mesma. Consequentemente, seus efeitos se anulam e a repulsão eletrostática dos núcleos atômicos prevalece. Embora esta combinação possa ocorrer aleatoriamente, ela é desfeita logo após ser construída em razão de sua instabilidade.
+
+Estas análises motivam o cálculo da chamada <b>ordem de ligação</b> $\phi$. Esta grandeza indica a quantidade de ligações formadas entre os núcleos, sendo análoga à quantificação do modelo de Lewis do número de pares de elétrons compartilhados (e portanto, em ligações simples, duplas ou triplas).
+
+Matematicamente, definimos-a como
+
+$$
+\phi = \dfrac{1}{2}\left(e_L - e_\text{AL}\right)
+$$
+
+onde $e_L$ e $e_\text{AL}$ são, respectivamente, o número de elétrons em orbitais ligantes e anti-ligantes. Veja que nas moléculas exemplares anteriores, a ordem de ligação do hidrogênio molecular é 1 — indicando uma ligação simples — enquanto a ordem de ligação do hélio molecular é nula, indicando a impossibilidade de existência de moléculas. Nota-se que este número pode ser fracionário: ordens de ligação entre 0 e 1 indicam moléculas instáveis.
+
+## Moléculas mais complexas
+
+Até o momento nos concentramos em descrever ligações homonucleares em razão de sua simplicidade, útil para uma introdução. Daqui em diante iremos subir alguns degraus, começando por moléculas (homonucleares e heteronucleares) entre átomos dos primeiros períodos e, posteriormente, discorrendo sobre moléculas de períodos maiores.
+
+<div class="wiki-thumb">
+
+![](./images/lih_tom.png)
+
+![](./images/c2_tom.png)
+
+<i>Diagramas sob CC-BY, via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)/09%3A_Chemical_Bonding_and_Molecular_Structure/9.08%3A_Molecular_Orbital_Theory" target="_blank">LibreTexts Chemistry</a>.</i>
+
+</div>
+
+Começarmos pelo hidreto de lítio. Ao preencher todos os orbitais em ordem energética, percebemos que dois elétrons estão emparelhados num orbital $\sigma$ ligante enquanto nenhum elétron ocupa o orbital anti-ligante. A ordem de ligação resultante é 1. A utilidade desse exemplo, entretanto, reside na presença do orbital 1s do lítio, representado: este é um orbital <b>não-ligante</b>, que não interage com os outros em razão de sua proximidade do núcleo atômico — seus elétrons não são elétrons de valência.
+
+O exemplo do dicarbono, $\ce{C2}$, é interessante. Ao distribuir seus elétrons pelos orbitais moleculares formados, vemos que os primeiros quatro elétrons distribuem-se num par $\sigma$-$\sigma^*$ e, portanto, seus efeitos anulam-se. Consequentemente, apenas os elétrons do orbital $\pi$ contribuem para a ligação, totalizando $\phi = 2$.
+
+<div class="wiki-thumb">
+
+![](./images/o2_tom.png)
+
+<i>Diagrama sob CC-BY, via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)/09%3A_Chemical_Bonding_and_Molecular_Structure/9.08%3A_Molecular_Orbital_Theory" target="_blank">LibreTexts Chemistry</a>.</i>
+
+</div>
+
+Finalmente chegamos ao exemplo que motivou esta discussão, o $\ce{O2}$. Ao realizar a distribuição eletrônica, percebemos a presença de dois elétrons desemparelhados num orbital antiligante $\pi^*$: a origem do paramagnetismo do oxigênio. Além disso, a análise teórica desta molécula justifica outros achados experimentais: o cátion $\ce{O2+}$ é mais estável que o oxigênio molecular, enquanto o ânion $\ce{O2-}$ é menos.
+
+Vale discorrer um pouco sobre o emprego deste diagrama para moléculas poliatômicas. No caso da moléculas com um "átomo central", como por exemplo, o metano, o emprego do diagrama de orbitais pode ser útil para a descrição das ligações individuais $\ce{C-H}$, entretanto, para moléculas mais complexas, pode ser tornar algo progressivamente difícil.
 
 # Referências 
 
 1. HENRIQUES DA SILVA, Ronaldo. BRAGA DA SILVA, Edson. Princípios básicos de Química, v. 1. 2 . ed. São Paulo: HARBRA Ltda., 1986
 2. CHANG, Raymond. General Chemistry: The Essencial Concepts, 6ª ed. Nova Iorque: McGraw-Hill, 2008
 3. Notas de aula autorais das aulas de Química Geral ministradas pela profª. Dra. Aracelis Jose Panphile Adrian (IQB-UFAL), 2026
+4. "Molecular Orbital Theory". <i>Chemistry LibreTexts</i>. (<a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)/09%3A_Chemical_Bonding_and_Molecular_Structure/9.08%3A_Molecular_Orbital_Theory" target="_blank">Acesse aqui</a>)
 
 [^1]: A palavra <b>valência</b> vem do latim <i>valentia</i>, significando força, poder ou vigor. Essa mesma origem originou palavras como valente ou valentia, sendo utilizada na química justamente por indicar o "poder" ou a "força" de uma ligação química — essa camada é a responsável, a "força por trás", pelas ligações.
 
