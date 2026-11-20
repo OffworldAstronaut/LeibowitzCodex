@@ -488,11 +488,25 @@ Os chamados <b>orbitais ligantes</b> possuem menor energia do que os <b>anti-lig
 
 A representação destes orbitais é geralmente feita por meio de um diagrama de energia, com os átomos participantes gravados nos extremos laterais e os orbitais moleculares na parte central. Da região inferior para superior, situam-se os orbitais em ordem crescente de energia. Nota-se que os orbitais e seus elétrons ocupantes continuam a ser representados por quadrados e setas (cuja orientação indica seu <i>spin</i>), respectivamente.
 
-Como representar, por exemplo, o hidrogênio molecular, $\ce{H2}$? 
+Como representar, por exemplo, o hidrogênio molecular, $\ce{H2}$? Esta ligação está representada ao lado. Perceba a presença de dois elétrons no orbital $\sigma$ (ligante) e a ausência de quaisquer elétrons do orbital $\sigma^*$ (anti-ligante). Esta é a razão pela qual esta molécula é bastante estável.
 
 <div class="wiki-thumb">
 
 ![](./images/h2_tom.png)
+
+<i>Diagrama sob CC-BY, via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)/09%3A_Chemical_Bonding_and_Molecular_Structure/9.08%3A_Molecular_Orbital_Theory" target="_blank">LibreTexts Chemistry</a>.</i>
+
+</div>
+
+Seria possível ainda representar o hélio molecular? Sabemos que esta molécula não existe em razão do hélio ser um gás nobre e, portanto, inerte. Entretanto, poderia a teoria do orbital molecular justificar essa impossibilidade? Sim. 
+
+Perceba que no caso do hélio molecular, a quantidade de elétrons nos orbitais $\sigma$ e $\sigma^*$ é a mesma. Consequentemente, seus efeitos se anulam e a repulsão eletrostática dos núcleos atômicos prevalece. Embora esta combinação possa ocorrer aleatoriamente, ela é desfeita logo após ser construída em razão de sua instabilidade.
+
+<div class="wiki-thumb">
+
+![](./images/he2_tom.png)
+
+<i>Diagrama sob CC-BY, via <a href="https://chem.libretexts.org/Bookshelves/General_Chemistry/Chem1_(Lower)/09%3A_Chemical_Bonding_and_Molecular_Structure/9.08%3A_Molecular_Orbital_Theory" target="_blank">LibreTexts Chemistry</a>.</i>
 
 </div>
 
