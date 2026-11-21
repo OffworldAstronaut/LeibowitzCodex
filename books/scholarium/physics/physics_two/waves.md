@@ -1,6 +1,7 @@
 # Ondas
 
-<blockquote>
-  <p>Quo usque tandem abutere, Catilina, patientia nostra?</p>
-  <cite>Cícero</cite>
-</blockquote>
+
+
+# Referências 
+
+1. NUSSENZVEIG, Herch Moysés. Curso de física básica, v. 2: Fluidos; oscilações e ondas; calor. 4. ed. rev. São Paulo: Blucher, 2002

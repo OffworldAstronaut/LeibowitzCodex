@@ -114,7 +114,7 @@ Por essas combinações, podemos escrever, por exemplo:
 $$
 \begin{align*}
     &\ce{2CO_\text{(g)} + O2_\text{(g)} -> 2CO2_\text{(g)}} \\ 
-    &\ce{NaCl_\text{(s)} + H2O_\text{{l}} -> NaCl_\text{(aq)}} \\ 
+    &\ce{NaCl_\text{(s)} + H2O_\text{(l)} -> NaCl_\text{(aq)}} \\ 
     &\ce{NaCl_\text{(s)} ->[H2O] NaCl_\text{(aq)}}
 \end{align*}
 $$

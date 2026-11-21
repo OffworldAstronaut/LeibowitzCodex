@@ -224,7 +224,7 @@ Todos os elementos do terceiro período em diante podem eperienciar a chamada <b
 
 ## Ligações metálicas 
 
-EM um conjunto de átomos metálicos, seus orbitais se sobrepõem de forma que os átomos da ligação trocam elétrons entre si todo o tempo. Uma consequência disso é a formação de um "mar de elétrons" que circunda uma coleção de cátions metálicos. 
+Em um conjunto de átomos metálicos, seus orbitais se sobrepõem de forma que os átomos da ligação trocam elétrons entre si todo o tempo. Uma consequência disso é a formação de um "mar de elétrons" que circunda uma coleção de cátions metálicos. 
 
 Esse comportamento é a causa de diversas propriedades metálicas, como a fácil condução de calor e eletricidade e o brilho característico.
 
@@ -470,7 +470,7 @@ $$
 \end{array}
 $$
 
-Vale ressaltar que podemos analisar moléculas com ligações duplas e triplas quanto a sua geometria através da teroia da ligação de valência sem problemas. Por exemplo, considere a molécula de etileno, $\ce{C2H4}$. 
+Vale ressaltar que podemos analisar moléculas com ligações duplas e triplas quanto a sua geometria através da teoria da ligação de valência sem problemas. Por exemplo, considere a molécula de etileno, $\ce{C2H4}$. 
 
 Nessa molécula, os átomos de carbono ligam-se por meio de uma ligação dupla enquanto as ligações carbono-hidrogênio são todas simples. No caso da ligação dupla entre os átomos de carbono, está é consequência da hibridação sp<sup>2</sup> que forma três orbitais híbridos e um orbital 2p<sub>z</sub>. Nota-se que estes últimos são perpendiculares ao plano dos orbitais híbridos, formando ligações $\pi$ (em que os orbitais sobrepõem-se lateralmente) ao contrário dos sp<sup>2</sup>, que fazem ligações $\sigma$ (os orbitais se sobrepõem frontalmente). Em razão das ligações $\pi$ situarem-se acima e abaixo do plano da molécula, estras forçam a formação da geometria planar do etileno.
 

@@ -1,5 +1,7 @@
 # Números Naturais
 
+# Introdução
+
 A história dos números se confunde com a história da própria Matemática. Estes objetos são um dos dois conceitos mais fundamentais desde sistema de pensamento. O outro é o espaço e suas figuras geométricas nele contidas. 
 
 Da necessidade do homem primitivo de <b>contar</b> surgiram os chamados números <b>naturais</b>. Vale notar que isso foi algo de muita demora em razão de seu nível de abstração. 

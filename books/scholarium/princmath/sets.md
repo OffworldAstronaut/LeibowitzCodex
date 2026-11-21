@@ -1,6 +1,6 @@
 # Conjuntos 
 
-# Introdução aos conjuntos
+# Introdução
 
 A utilidade de estudarmos com mais cuidado os conjuntos durante o Ensino Médio é a sua importância fundamental na escrita da Matemática como conhecemos. De fato, toda a Matemática moderna é escrita nesta linguagem. 
 
