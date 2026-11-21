@@ -36,7 +36,8 @@ body::after {
 
 body::before {
     background-image: url('/Francisco_de_Holanda\,_The_First_day_of_Creation.jpeg');
-    opacity: 0.90;
+    mix-blend-mode: multiply;
+    opacity: 0.12;
 }
 
 body::after {
