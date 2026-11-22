@@ -35,13 +35,13 @@ body::after {
 }
 
 body::before {
-    background-image: url('/fundo_livros_leibowitzcodex.jpeg');
+    background-image: url('/public/background_images/fundo_livros_leibowitzcodex.jpeg');
     mix-blend-mode: luminosity;
     opacity: 0.04;
 }
 
 body::after {
-    background-image: url('/fundo_livros_leibowitzcodex_dm.png');
+    background-image: url('/public/background_images/fundo_livros_leibowitzcodex_dm.png');
     opacity: 0;
 }
 

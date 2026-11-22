@@ -40,7 +40,7 @@ body::after {
 
 /*modo claro: a escola de atenas é perfeitamente visível*/
 body::before {
-    background-image: url('../166_Emmanuel_Lansyer_Le_cloître_du_Mont-Saint-Michel.jpeg');
+    background-image: url('/public/background_images/166_Emmanuel_Lansyer_Le_cloître_du_Mont-Saint-Michel.jpeg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: bottom;
@@ -57,7 +57,7 @@ body.dark::before {
 
 /*modo claro: os monges não são visíveis*/
 body::after {
-    background-image: url('../Carl_Hasenpflug_Blick_auf_einen_winterlichen_Friedhof.jpeg');
+    background-image: url('/public/background_images/Carl_Hasenpflug_Blick_auf_einen_winterlichen_Friedhof.jpeg');
     opacity: 0;
 }
 

@@ -93,7 +93,7 @@ Esta relação pode ser demonstrada/visualizada por meio de um diagrama contendo
 
 <i>Mudanças de coordenadas por translação são extremamente comuns na mecânica. Imagem sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:CoordinateTranslation.png" target="_blank">Wikimedia Commons</a>.</i>
 
-Numa interpretação física, modificar o sistema de coordenadas utilizado (mais usualmente por meio de translação) é a chamada <b><a href="/books/higher_education/physics/physics_one/kinematics.html" target="_blank">mudança de referencial</a></b>, tornando possível a análise de um sistema físico a partir de outro "ponto de vista".
+Numa interpretação física, modificar o sistema de coordenadas utilizado (mais usualmente por meio de translação) é a chamada <b><a href="/books/scholarium/physics/physics_one/kinematics.html" target="_blank">mudança de referencial</a></b>, tornando possível a análise de um sistema físico a partir de outro "ponto de vista".
 
 ## Rotação 
 

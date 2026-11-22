@@ -34,12 +34,12 @@ body::after {
 }
 
 body::before {
-    background-image: url('../The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
+    background-image: url('/public/background_images/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
     opacity: 1.00;
 }
 
 body::after {
-    background-image: url('../Refectory_in_a_Greek_Monastery_\(Mount_Athos\).png');
+    background-image: url('/public/background_images/Refectory_in_a_Greek_Monastery_\(Mount_Athos\).png');
     opacity: 0;
 }
 

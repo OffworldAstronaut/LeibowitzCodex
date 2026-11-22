@@ -34,12 +34,12 @@ body::after {
 }
 
 body::before {
-    background-image: url('../Gaming_alt_quer.jpg');
+    background-image: url('/public/background_images/Gaming_alt_quer.jpg');
     opacity: 0.40;
 }
 
 body::after {
-    background-image: url('../Jean_Louis_de_Marne_-_Landschap_met_de_ruïne_van_de_abdij_van_Villers_-_1000640_-_Bonnefanten_Museum.jpeg');
+    background-image: url('/public/background_images/Jean_Louis_de_Marne_-_Landschap_met_de_ruïne_van_de_abdij_van_Villers_-_1000640_-_Bonnefanten_Museum.jpeg');
     background-position-y: -500px;
     opacity: 0;
 }
