@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O Claustro</title>
+    <link rel="stylesheet" href="css/style_cloister.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <div class="header-icon">
+                <img src="./crucifix.png" style="width: 14vh; min-width: 48px; flex-shrink: 0;">
+            </div>
+            <div class="header-text">
+                <h1 id="leibcodex">
+                    O Claustro
+                </h1>
+                <p id="tagline">
+                    <i>O sol arde em seus olhos. Algumas plantas adornam o coração da Abadia. Alguns irmãos trabalham arduamente. Outros contemplam as ruínas.</i>
+                </p>
+            </div>
+        </header>
+        <nav class="nav-back">
+            <button onclick="history.back()"><b>Voltar</b></button>
+            <button id="theme-toggle" aria-label="Toggle dark mode"><b>🌙 Trevas</b></button>
+        </nav>
+        <div class="introduction">
+            <div class="main_buttons">
+                <button id="bookshelves_button">
+                    <a href="bookshelves.html"><b>✥ Acervo ✥</b></a>
+                </button>
+                <button id="hortus_button">
+                    <a href="hortus.html"><b>✥ Hortus ✥</b></a>
+                </button>
+                <button id="officina_button">
+                    <a href="officina.html"><b>✥ Officina ✥</b></a>
+                </button>
+                <button id="hagiographia_button">
+                    <a href="hagiographia.html"><b>✥ Hagiographia ✥</b></a>
+                </button>
+            </div>
+        </div>
+        <footer>
+           🙙 O grande número de sábios é que salva o mundo 🙘 <br> (Lib. Sap. 6, 26)
+        </footer>
+    </div>
+    <script src="theme.js"></script>
+</body>
+</html>

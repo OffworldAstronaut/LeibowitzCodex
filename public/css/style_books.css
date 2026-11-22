@@ -35,9 +35,9 @@ body::after {
 }
 
 body::before {
-    background-image: url('/The_Creation_in_the_Livre_des_propriétés_des_choses_-_Google_Art_Project.jpeg');
+    background-image: url('/fundo_livros_leibowitzcodex.jpeg');
     mix-blend-mode: luminosity;
-    opacity: 0.08;
+    opacity: 0.04;
 }
 
 body::after {

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>O Jardim</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style_hortus.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libertinus+Math&display=swap" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header-icon">
+                <img src="./crucifix.png" style="width: 14vh; min-width: 48px; flex-shrink: 0;">
+            </div>
+        <div class="header-text">
+          <h1>O Jardim</h1>
+          <p id="tagline">
+            <i>
+              Ao redor de uma cisterna, círculos concêntricos de grama, camomila, erva-cidreira, 
+              capim-santo, limão-de-São-Caetano, palmas, lírios, espinheiros...
+            </i>
+          </p>
+        </div>
+      </header>
+
+      <nav class="nav-back">
+            <button onclick="history.back()"><b>Voltar</b></button>
+            <button id="theme-toggle" aria-label="Toggle dark mode"><b>🌙 Trevas</b></button>
+      </nav>
+
+      <section class="shelves">
+        <div class="section-title">
+          <h2>✥ Exagia ✥</h2>
+          <h4>
+            <i>— Omnium rerum principia parva sunt —</i>
+          </h4>
+        </div>
+
+        <div class="shelf">
+            <a class="book" href="/books/hortus/bells_orthodoxy.html">
+                <span class="book-title">Sinos na Ortodoxia Russa</span>
+            </a>
+        </div>
+      </section>
+      <footer>
+           🙙 O homem e a mulher estavam nus, e não se envergonhavam 🙘 <br> (Lib. Gen. 2, 25)
+      </footer>
+    </div>
+    <script src="theme.js"></script>
+  </body>
+</html>

@@ -1,0 +1,359 @@
+/* SEÇÃO 1 - TEMAS, BODY E VARIÁVEIS GERAIS */
+
+/*NOTA: Pseudoclasse 'root' seleciona o elemento pai de mais alto nível. 
+Definição do esquema de cores do modo claro e do modo escuro.*/
+:root {
+    color-scheme: light dark;
+
+    --bg:                   light-dark(#f5f0e8, #0c0c0c); /*cor do fundo translúcido*/
+    --surface:              light-dark(#ede7d9, #1a1919); /*cor do fundo dos elementos*/
+    --surface-hover:        light-dark(#e0d8c8, #2a2828); /* // quando o cursor passar*/
+    --text:                 light-dark(#1c1812, #faf9f6); /*cor do texto*/
+    --text-muted:           light-dark(rgba(28,24,18,0.75), rgba(250,249,246,0.85)); /**/
+    --link:                 light-dark(#4e3111, wheat); /*cor dos links*/
+    --border:               light-dark(rgba(28,24,18,0.15), rgba(250,249,246,0.15));
+    --selection-hl:         light-dark(#7a4f1e53, rgba(245, 222, 179, 0.292)); /*cor do destaque de seleção de texto*/
+}
+
+body {
+    font-family: "Inter", sans-serif; /*fonte padrão grotesk*/
+    margin: 0px; /*remove completamente a margem do body*/
+    color: var(--text); /*configura a cor do texto*/
+    background-color: var(--bg); /*configura a cor do fundo ("máscara" sobre as imagens)*/
+}
+
+/*pseudoelementos para a criação de duas camadas no body*/
+body::before,
+body::after {
+    content: ""; /*sem utilidade - existe apenas por necessidade*/
+    position: fixed; /*fixa as camadas para que estas não sejam deslocadas com o scroll*/
+    inset: 0; /*as camadas ocupam toda a tela*/
+    background-repeat: no-repeat; /*não induz a repetição de imagens no fundo*/
+    background-position: center; /*centraliza o fundo*/
+    background-size: cover; /*a imagem cobre toda a tela sem sofrer distorção*/
+    pointer-events: none; /*o cursor é indiferente às camadas (para não interferir com os elementos da página)*/
+    z-index: 0; /*estes pseudoelementos - e portanto, o fundo - estará antes de todos os outros*/
+    transition: opacity 0.4s ease; /*permite a transição suave e uniforme entre as camadas*/
+}
+
+/*configuração da camada 1 ('before')*/
+
+/*modo claro: a escola de atenas é perfeitamente visível*/
+body::before {
+    background-image: url('../166_Emmanuel_Lansyer_Le_cloître_du_Mont-Saint-Michel.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+/*modo escuro: ela desaparece*/
+body.dark::before {
+    opacity: 0;
+}
+
+/*configuração da camada 2 ('after')*/
+
+/*modo claro: os monges não são visíveis*/
+body::after {
+    background-image: url('../Carl_Hasenpflug_Blick_auf_einen_winterlichen_Friedhof.jpeg');
+    opacity: 0;
+}
+
+/*modo escuro: os monges são levemente visíveis*/
+body.dark::after {
+    opacity: 0.15;
+}
+
+/* SEÇÃO 2 - ELEMENTOS ESPECÍFICOS */
+
+/*contêiner principal*/
+.main {
+    max-width: min(800px, 92vw); /* responsividade da largura */
+    margin: clamp(32px, 10vh, 96px) auto; /* responsividade da margem */
+    z-index: 1; /* posicionamento dos elementos acima do fundo */
+    opacity: 0.9; /* elementos levemente transparentes */
+}
+
+/*cabeçalho*/
+header {
+    text-align: center;
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--surface);
+    padding: 20px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 
+              inset 0 0 10px rgba(61, 43, 31, 0.1);
+}
+
+.header-text { 
+    margin: auto;
+}
+
+.header-icon { 
+    margin: auto;
+}
+
+/*título da página*/
+h1 {
+    font-family: "Libertinus Math", "Georgia", sans-serif;
+    font-size: clamp(2rem, 4vw, 3rem);
+    margin: 0;
+}
+
+#tagline {
+    font-family: "Libertinus Math", "Georgia", sans-serif;
+    font-size: larger;
+    color: var(--text-muted);
+    opacity: var(--text-muted);
+    margin-top: 10px;
+}
+
+/*blocos de texto antes dos botões*/
+.introduction {
+    margin-top: 24px;
+}
+
+.introduction p {
+    text-align: justify;
+    line-height: 1.6;
+    background-color: var(--surface);
+    padding: clamp(20px, 4vw, 35px);
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 
+              inset 0 0 10px rgba(61, 43, 31, 0.1);
+}
+
+/*botões*/
+
+.main_buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.main_buttons button { 
+    border: none;
+}
+
+button {
+    font-size: 100%;
+    margin-top: 16px;
+    padding: 16px 24px;
+    background-color: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 
+              inset 0 0 10px rgba(61, 43, 31, 0.1);
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+#hagiographia_button {
+    padding: 36px 24px;
+    position: relative;
+    overflow: hidden;
+    background-image: none;
+}
+
+#hagiographia_button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Polycarp_of_Smyrna2.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original");
+    background-size: cover;
+    background-position-y: -120px;
+
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#hagiographia_button a {
+    position: relative;
+    z-index: 1;
+}
+
+#bookshelves_button {
+    padding: 36px 24px;
+    position: relative;
+    overflow: hidden;
+    background-image: none;
+}
+
+#bookshelves_button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/6d/Emil_B%C3%BCchner_Mei%C3%9Fner_Dom_Kreuzgang_1892.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original");
+    background-size: cover;
+    background-position-y: -895px;
+
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#bookshelves_button a {
+    position: relative;
+    z-index: 1;
+}
+
+#hortus_button {
+    padding: 36px 24px;
+    position: relative;
+    overflow: hidden;
+    background-image: none;
+}
+
+#hortus_button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/00/Kuindzhi_Jesus_Christ_1901.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original");
+    background-size: cover;
+    background-position-y: -140px;
+
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#hortus_button a {
+    position: relative;
+    z-index: 1;
+}
+
+#officina_button {
+    padding: 36px 24px;
+    position: relative;
+    overflow: hidden;
+    background-image: none;
+}
+
+#officina_button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/83/Mendel_I_072_v.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original");
+    background-size: cover;
+    background-position-y: -170px;
+
+    opacity: 0.2;
+    z-index: 0;
+}
+
+#officina_button a {
+    position: relative;
+    z-index: 1;
+}
+
+button:hover {
+    background-color: var(--surface-hover);
+}
+
+/*links*/
+a {
+    color: var(--link);
+    text-decoration: none;
+}
+
+/*estilo do footer*/
+footer {
+    text-align: center;
+    margin-top: clamp(48px, 6.7vh, 120px);
+    padding: 24px;
+    border: 1px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 
+              inset 0 0 10px rgba(61, 43, 31, 0.1);
+    background-color: var(--surface);
+}
+
+/* SEÇÃO 3 - CONFIGURAÇÕES DO CURSOR */
+
+html,
+body {
+    cursor: url('/cursors/featherpenpointer.cur'), auto;
+}
+
+a,
+button,
+[role="button"],
+input[type="submit"],
+input[type="button"] {
+    cursor: url('/cursors/featherpenlinkselect.cur'), pointer;
+}
+
+
+input,
+textarea,
+[contenteditable="true"] {
+    cursor: url('/cursors/featherpentextselect.cur'), text;
+}
+
+::selection { 
+    background: var(--selection-hl)
+}
+
+/* testes */ 
+
+.introduction p:first-of-type::first-letter {
+    font-family: "Libertinus Math", "Georgia", serif;
+    font-weight: bold;
+    float: left;
+    font-size: clamp(3.2rem, 8vw, 4.2rem); 
+    line-height: 0.82;
+    margin-top: 0.12em;
+    margin-right: 0.1em;
+    padding: 0.05em 0.08em 0 0.05em;
+    color: var(--link);
+
+    text-shadow: 1px 1px 0px var(--bg), 2px 2px 0px var(--border);
+}
+
+.about-card p:first-of-type::first-letter {
+    font-family: "Libertinus Math", "Georgia", serif;
+    font-weight: bold;
+    float: left;
+    font-size: clamp(3.2rem, 8vw, 4.2rem); 
+    line-height: 0.82;
+    margin-top: 0.12em;
+    margin-right: 0.1em;
+    padding: 0.05em 0.08em 0 0.05em;
+    color: var(--link);
+
+    text-shadow: 1px 1px 0px var(--bg), 2px 2px 0px var(--border);
+}
+
+.wiki-thumb {
+  float: right;            
+  width: 220px;            
+  margin: 0 0 1rem 1.5rem; 
+  padding: 8px;
+  text-align: center;
+}
+
+.wiki-thumb img {
+  width: 100%;             
+  height: auto;            
+  display: block;
+  margin-bottom: 8px;
+}
+
+.wiki-thumb img:last-child {
+  margin-bottom: 0;
+}
+
+.wiki-thumb i,
+.wiki-thumb p {
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 0;
+  line-height: 1.3;
+  text-align: center;
+}
