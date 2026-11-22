@@ -40,7 +40,7 @@ body::after {
 
 /*modo claro: a escola de atenas é perfeitamente visível*/
 body::before {
-    background-image: url('/public/background_images/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
+    background-image: url('/background_images/The_School_of_Athens_by_Raffaello_Sanzio_da_Urbino_in_Vatican.jpg');
     opacity: 1.00;
 }
 
@@ -53,7 +53,7 @@ body.dark::before {
 
 /*modo claro: os monges não são visíveis*/
 body::after {
-    background-image: url('/public/background_images/Refectory_in_a_Greek_Monastery_\(Mount_Athos\).png');
+    background-image: url('/background_images/Refectory_in_a_Greek_Monastery_\(Mount_Athos\).png');
     opacity: 0;
 }
 

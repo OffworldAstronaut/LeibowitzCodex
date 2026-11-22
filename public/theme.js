@@ -2,8 +2,8 @@ const btn = document.getElementById("theme-toggle");
 const root = document.documentElement;
 
 
-const lightSound = new Audio("/public/sounds/light-sound.mp3");
-const darkSound = new Audio("/public/sounds/dark-sound.mp3");
+const lightSound = new Audio("/sounds/light-sound.mp3");
+const darkSound = new Audio("/sounds/dark-sound.mp3");
 
 
 lightSound.preload = "auto";
