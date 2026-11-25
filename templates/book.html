@@ -59,9 +59,9 @@
         options: {
           skipHtmlTags: ["script", "noscript", "textarea", "pre", "code"],
         },
-        loader: { 
-          load: ['[tex]/mhchem', '[tex]/physics'] 
-        }
+        loader: {
+          load: ["[tex]/mhchem", "[tex]/physics"],
+        },
       };
     </script>
 
@@ -78,7 +78,9 @@
       </header>
       <nav class="nav-back">
         <button onclick="history.back()"><b>Voltar</b></button>
-        <button id="theme-toggle" aria-label="Toggle dark mode"><b>🌙 Trevas</b></button>
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <b>🌙 Trevas</b>
+        </button>
       </nav>
       <div class="book-content">{{CONTENT}}</div>
     </div>
@@ -86,8 +88,8 @@
       const btn = document.getElementById("theme-toggle");
       const root = document.documentElement;
 
-      const lightSound = new Audio("/light-sound.mp3");
-      const darkSound = new Audio("/dark-sound.mp3");
+      const lightSound = new Audio("/sounds/light-sound.mp3");
+      const darkSound = new Audio("/sounds/dark-sound.mp3");
 
       lightSound.preload = "auto";
       darkSound.preload = "auto";
@@ -101,21 +103,25 @@
         if (playSound) {
           if (theme === "dark") {
             darkSound.currentTime = 0; // Rewind to start if clicked rapidly
-            darkSound.play().catch(e => console.log("Audio play blocked:", e));
+            darkSound
+              .play()
+              .catch((e) => console.log("Audio play blocked:", e));
           } else {
             lightSound.currentTime = 0;
-            lightSound.play().catch(e => console.log("Audio play blocked:", e));
+            lightSound
+              .play()
+              .catch((e) => console.log("Audio play blocked:", e));
           }
         }
       }
 
       const saved = localStorage.getItem("theme") || "light";
-      setTheme(saved, false); 
+      setTheme(saved, false);
 
       btn.addEventListener("click", () => {
         const current = root.style.colorScheme || "light";
         const nextTheme = current === "light" ? "dark" : "light";
-        setTheme(nextTheme, true); 
+        setTheme(nextTheme, true);
       });
     </script>
     <script>
@@ -125,10 +131,8 @@
 
         // Collect headings
         const headings = Array.from(
-            content.querySelectorAll("h1, h2, h3")
-        ).filter(
-            (h) => !h.closest(".footnotes")
-        );
+          content.querySelectorAll("h1, h2, h3"),
+        ).filter((h) => !h.closest(".footnotes"));
         if (headings.length < 2) return;
 
         // Assign anchor IDs to each heading
