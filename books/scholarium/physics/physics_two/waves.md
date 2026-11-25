@@ -269,7 +269,7 @@ $$
 
 <div class="wiki-thumb">
 
-![](https://commons.wikimedia.org/wiki/File:String_Vibration.gif)
+![](https://upload.wikimedia.org/wikipedia/commons/d/d1/String_Vibration.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
 
 <i>Câmera lenta de um violino sendo tocado. Perceba a vibração da corda. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:String_Vibration.gif" target="_blank">Wikimedia Commons</a>.</i>
 
@@ -397,13 +397,9 @@ Comparando a densidade média de energia total da onda e a definição de intens
 
 # Interferência de ondas 
 
-<aside>
-
 ![](/books/scholarium/physics/physics_two/images/waveinterferencestring.gif)
 
 <i>Dois pulsos (vermelho e azul) viajam por uma corda (verde), interferindo no caminho.</i>
-
-</aside>
 
 Definimos como interferência o fenômeno de encontro de duas ondas, provocando sua sobreposição. Nesta seção, iremos analisar com mais detalhes o caso particular de ondas progressivas harmônicas de mesma frequência propagando-se numa corda. 
 
@@ -508,14 +504,6 @@ $$
 a(x, t) = 2A\cos{\left(\dfrac{\Delta k}{2}x - \dfrac{\Delta \omega}{2}t\right)}
 $$
 
-<div class="wiki-thumb">
-
-![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
-
-<i>Nesta animação, os pontos verdes viajam na velocidade de grupo enquanto o ponto vermelho viaja na velocidade de fase. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Wave_group.gif" target="_blank">Wikimedia Commons</a>.</i>
-
-</div>
-
 Como esperado, nesta configuração ocorre o fenômeno dos <b>batimentos</b>, validando a interpretação da função deduzida como uma onda de frequência $\bar{\omega}$ elevada modulada por uma onda de frequência $\Delta \omega$ bem mais baixa. Eeste é um exemplo de um grupo de ondas. Considerando a fase da $y(x, t)$ como $\phi(x, t) = \bar{k}x - \bar{\omega}t$, temos que a velocidade de fase é 
 
 $$
@@ -541,6 +529,10 @@ $$
 $$
 
 de forma que $v_y = d\omega / dk = v_\phi = k + dv_\phi / dk \neq v_\phi$. Neste caso, dizemos que há <b>dispersão</b> da onda: é o que ocorre na luz que adentra um meio material, com seu exemplo mais famoso sendo a decomposição da luz do Sol por um prisma de vidro. As ondas menores deslocam-se em relação ao envoltório, "desaparecendo" e sendo "substituídas" por outras.
+
+![](https://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Nesta animação, os pontos verdes viajam na velocidade de grupo enquanto o ponto vermelho viaja na velocidade de fase. GIF sob CC-BY-SA, via <a href="https://commons.wikimedia.org/wiki/File:Wave_group.gif" target="_blank">Wikimedia Commons</a>.</i>
 
 # Reflexão de ondas
 
