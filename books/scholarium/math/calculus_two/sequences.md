@@ -2,7 +2,7 @@
 
 # Sequências
 
-Uma <b>sequência</b> (também chamada <b>sucessão</b>) é uma função $f: D_f \to \mathbb{R}$ com a restrição de que $D_f \sub \mathbb{N}$. 
+Uma <b>sequência</b> (também chamada <b>sucessão</b>) é uma função $f: D_f \to \mathbb{R}$ com a restrição de que $D_f \subset \mathbb{N}$. 
 
 Daqui em diante, iremos considerar sequências cujo domínio é da forma 
 
@@ -12,17 +12,13 @@ $$
 
 com $q$ natural fixo. 
 
-Denotamos por $a_n$ o n-ésimo elemento da sequência $a_1, \dots, a_n$.
+Sendo sequências funções, estas podem ser definidas através de uma expressão para seu <b>termo geral</b> $a_n$, como por exemplo a sequência $\{1, 2, 4, 8, \dots\}$ cujo termo geral é $a_n = 2^n, n \in \mathbb{N}$ com $n \ge 0$. Por outro lado, nem toda sequência pode ser expressa por meio de uma lei de formação concisa. Muitas, assim, são definidas por expressões de recorrência, com o n-ésimo termo dependendo dos anteriores: é o caso da famosa <i>sequência de Fibonacci</i>, nomeada em homenagem ao italiano Leonardo Fibonacci (1170-1250), que encontrou-a e popularizou-a ao resolver um problema sobre a reprodução de coelhos. 
 
-Por exemplo, qual a sequência de termo geral $a_n = 2^n$? 
+<aside>
 
-$$
-\begin{align*}
-    n &= 1 &\implies a_1 = 2^1 = 2 \\ 
-    n &= 2 &\implies a_2 = 2^2 = 4 \\ 
-   &\vdots 
-\end{align*}
-$$
+<b>Exemplo (sequência de Fibonacci)</b> — Definimos $f_n: D_f \to \mathbb{N}$ a sequência regida pelas condições: $f_1 = f_2 = 1$; $f_n = f_{n-1} + f_{n-2}$; $D_f = \{n \in \mathbb{N} | n \ge 3\} como a sequência de Fibonacci. Seus primeiros termos são, assim, $\{1, 1, 2, 3, 5, 8, 13, 21, \dots\}$.
+
+</aside>
 
 <aside>
 
@@ -62,6 +58,18 @@ $$
     &= \dfrac{1}{2}
 \end{align*}
 $$
+
+</aside>
+
+<aside>
+
+<b>Teorema</b> — Se $\lim_{n \to \infty} |a_n| = 0$, então $\lim_{n \to \infty} a_n = 0$. 
+
+</aside>
+
+<aside>
+
+<b>Teorema</b> — Se $\lim_{n \to \infty} a_n = L$ e $f: D_f \to \mathbb{R}$ contínua em $L$, então $\lim_{n \to \infty} f(a_n) = f(L)$. 
 
 </aside>
 
@@ -270,7 +278,7 @@ $$
 m \lt n \implies a_m \le a_n
 $$
 
-Caso $m \lt n \implies a_n \le a_m$, dizemos que a sequênica $a_n$ é decrescente. 
+Caso $m \lt n \implies a_n \le a_m$, dizemos que a sequência $a_n$ é decrescente. 
 
 Sequências <b>monótonas</b> são crescentes ou decrescentes em todo o seu domínio. Sequências limitadas <b>superiormente</b> possuem um teto: $\exists \beta \in \mathbb{R}$ tal que $\forall n \in \mathbb{N}, a_n \le \beta$. Por outro lado, sequências limitadas <b>inferiormente</b> possuem um piso: $\exists \alpha \in \mathbb{R}$ tal que $\forall n \in \mathbb{N}, a_n \ge \alpha$. 
 
@@ -278,7 +286,7 @@ Uma sequência é dita <b>limitada</b> se esta for limitada superiormente e infe
 
 <aside>
 
-<b>Teorema</b> — Seja $a_n$ uma sequência crescente. 
+<b>Teorema</b> — Seja $a_n$ uma sequência crescente.[^1]
 
 Logo, se $a_n$ for uma sequência limitada superiormente, $a_n$ é convergente. Por outro lado, se $a_n$ não é limitada superiormente, $a_n$ diverge para $\infty$.
 
@@ -319,3 +327,6 @@ Isto é, $\lim_{n \to \infty} a_n = \infty$. Para uma sequência crescente só h
 # Referências 
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. Vol. 4. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. LTC. 
+2. STEWART, James. Cálculo. Volume 2. 7. ed. São Paulo: Cengage Learning, 2013.
+
+[^1]: Este resultado é análogo para sequências decrescentes e limitadas inferiormente. De forma geral, toda sequência monótona e limitada deve convergir. 
