@@ -367,7 +367,7 @@ com $P(x)$ sendo o polinômio de Taylor de ordem $n$, como exposto anteriormente
 
 <aside>
 
-<b>Teorema</b> — Seja $f$ derivável até a segunda ordem no intervalo $I$, com $x_0 \in I$. Logo, existe $M \gt 0$ tal que $|f''(x)| \le M, \forall x \in I$ e, além disso, para todo $x \in I$ vale 
+<b>Teorema (caso especial da <a href="/books/scholarium/math/calculus_two/series.html" target="_blank">desigualdade de Taylor</a>)</b> — Seja $f$ derivável até a segunda ordem no intervalo $I$, com $x_0 \in I$. Logo, existe $M \gt 0$ tal que $|f''(x)| \le M, \forall x \in I$ e, além disso, para todo $x \in I$ vale 
 
 $$
 |f(x) - P(x)| \le \dfrac{M}{2}|x - x_0|^2 

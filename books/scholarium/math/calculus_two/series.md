@@ -65,10 +65,10 @@ que resulta numa soma de exatamente 1. Para isso, considere um quadrado de lado 
 Séries geométricas são séries da forma
 
 $$
-\sum_{n=1}^{\infty} ar^{n-1} = a + ar + ar^2 + ar^{n-1} + \dots
+\sum_{n=1}^{\infty} ar^{n-1} = a + ar + ar^2 + \dots + ar^{n-1} + \dots
 $$
 
-com $a, r \in mathbb{R}$ e $a \neq 0$. O número $r$ em especial é chamado <b>razão comum</b> da série, com esta divergindo para $r = 1$. Caso $r \neq 1$, podemos definir a soma parcial $s_n = a + ar + ar^2 + \dots + a^{n-1}$ para um termo $n$ arbitrário. Daí temos $rs_n = ar + ar^2 + \dots + ar^{n-1} + ar^n$ e segue que 
+com $a, r \in \mathbb{R}$ e $a \neq 0$. O número $r$ em especial é chamado <b>razão comum</b> da série, com esta divergindo para $r = 1$. Caso $r \neq 1$, podemos definir a soma parcial $s_n = a + ar + ar^2 + \dots + a^{n-1}$ para um termo $n$ arbitrário. Daí temos $rs_n = ar + ar^2 + \dots + ar^{n-1} + ar^n$ e segue que 
 
 $$
 s_n - rs_n = a - ar^n \implies s_n = \dfrac{a(1-r^n)}{1-r}
@@ -99,8 +99,6 @@ $$
 $$
 
 </aside>
-
-<aside>
 
 <aside>
 
@@ -426,10 +424,167 @@ onde $x$ é uma variável e $c_n$ são os <b>coeficientes</b> da série, constan
 
 Assim, a soma da série é uma função $f(x) = c_0 + c_1x + c_2x^2 + \dots$ cujo domínio são todos os valores de $x$ para os quais a série converge.
 
+Em geral, séries da forma 
+
+$$
+\sum_{n=0}^{\infty} c_n(x-a)^n = c_0 + c_1(x-a) + c_2(x-a)^2 + \dots 
+$$
+
+são denominadas <b>séries de potências em $(x-a)$</b>, <b>séries de potências centradas em $a$</b> ou ainda <b>séries de potências em torno de $a$</b>. 
+
+<aside>
+
+<b>Teorema</b> — Para uma série de potências $\sum_{n=0}^{\infty} c_n(x-a)^n$, três possibilidades existem: 
+
+<ul>
+
+<li>A série converge apenas em $x=a$;</li>
+
+<li>A série converge para toda a reta real;</li>
+
+<li>Existe $R \gt 0$ tal que a série converge se $|x - a| \lt R$ e diverge se $|x - a| \gt R$</li>
+
+</ul>
+
+</aside>
+
+No terceiro caso, denominamos $R$ como o <b>raio de convergência</b> da série, enquanto o intervalo de todos os valores que a série converge é chamado <b>intervalo de convergência</b>. Convencionalmente, dizemos que $R=0$ no primeiro caso e $R = \infty$ no segundo.
+
+## Representando funções como séries de potências
+
+A representação de uma função como uma série de potências é de notável importância em diversas ciências: é assim que computadores tratam o cálculo de algumas funções, graficamente ou não, fundamentados em otimização. É ótimo realizar esse procedimento num ponto de vista de eficiência em razão da facilidade das unidades de processamento central executarem operações de soma repetidamente. 
+
+Das séries geométricas, perceba que ao tomar $a=1$ e $r=x$, 
+
+$$
+\sum_{n=1}^{\infty} x^{n-1} = x + x^2 + x^3 + \dots 
+$$
+
+cuja soma é $\lim_{n \to \infty} s_n = \lim_{n \to \infty} \left(\dfrac{1-x^n}{1-x}\right) = \dfrac{1}{1-x}$. Ou seja, podemos representar a função $f(x) = \dfrac{1}{1-x}$ como uma série de potências de $x$. Deste caso inicial já é possível representar diversas funções apenas com manipulações algébricas. 
+
+<aside>
+
+<b>Exemplo (Stewart 2013)</b> — Expresse $f(x) = \dfrac{1}{1+x^2}$ como uma série de potências e encontre o intervalo de convergência. 
+
+<b>Solução</b> — Ao trocar $x$ por $-x^2$ na expressão da soma da progressão geométrica, obtemos: 
+
+$$
+\dfrac{1}{1+x^2} = \dfrac{1}{1-(-x^2)} = \sum_{n = 0}^{\infty} (-x^2)^n = \sum_{n=0}^{\infty} (-1)^n x^{2n} = 1 - x^2 + x^4 - x^6 + x^8 - \dots
+$$
+
+Em razão de também ser uma série geométrica, esta converge em $r \in (-1, 1)$.
+
+</aside>
+
+## Derivação e integração de séries de potências
+
+Como ilustrado no estudo de oscilações de uma corda (cf. <a href="/books/scholarium/physics/physics_two/oscillations_two.html" target="_blank">Oscilações II</a> e <a href="/books/scholarium/physics/physics_two/waves.html" target="_blank">Ondas</a>) pela representação de seu movimento através da combinação linear de seus modos normais, é possível derivar e integrar alguns tipos de séries. Este tratamento matemático é válido para as séries trigonométricas.
+
+<aside>
+
+<b>Teorema</b> — Se a série de potências $\sum c_n(x-a)^N$ tiver um raio de convergência $R \gt 0$, então 
+
+$$
+f(x) = \sum_{n=0}^{\infty} c_n(x-a)^n
+$$
+
+é diferenciável no intervalo $(a-R, a+R)$ e vale[^3]
+
+<ol type="I">
+
+<li>$f'(x) = \sum_{n=1}^{\infty} nc_n(x-a)^{n-1}$</li>
+
+<li>$$\int f(x) \ dx = C + c_0(x-a) + c_1 \dfrac{(x-a)^2}{2} + \dots = C + \sum_{n=0}^{\infty} c_n \dfrac{(x-a)^{n+1}}{n+1}$$</li>
+
+</ol>
+
+Alternativamente, as expressões podem ser reescritas, respectivamente, como 
+
+$$
+\dfrac{d}{dx}\left[\sum_{n=0}^{\infty} c_n(x-a)^n\right] = \sum_{n=0}^{\infty} [c_n(x-a)^n]
+$$
+
+e
+
+$$
+\int \sum \left[\sum_{n=0}^{\infty} c_n(x-a)^n\right] \ dx = \sum_{n=0}^{\infty} \int c_n (x-a)^n \ dx 
+$$
+
+</aside>
+
+Como nota final, é interessante perceber que as séries de potências podem ser somadas, subtraídas, multiplicadas ou divididas umas pelas outras como se fossem polinômios. 
+
+# Séries de Taylor e MacLaurin
+
+<aside>
+
+<b>Teorema</b> — Se $f$ tiver uma representação em série de potência em $a$, isto é, se 
+
+$$
+f(x) = \sum_{n=0}^{\infty} c_n (x-a)^n, |x - a| \lt R 
+$$
+
+então seus coeficientes são dados pela fórmula 
+
+$$
+c_n = \dfrac{f^{(n)} (a)}{n!}
+$$
+
+ou seja, 
+
+$$
+f(x) = \sum_{n=0}^{\infty} \dfrac{f^{(n)} (a)}{n!}(x-a)^n
+$$
+
+</aside>
+
+A última equação do teorema anterior é batizada como <b>série de Taylor</b> da função $f$ em $a$ (ou, alternativamente, <i>em torno de </i> $a$ ou <i>centrada</i> em $a$). Quando $a=0$, denomina-se pela nomenclatura especial de <b>série de MacLaurin</b>. Além disso, as somas parciais (polinômios) são chamados polinômios de Taylor (ou MacLaurin) de n-ésimo grau de $f$ em $a$.
+
+<aside>
+
+<b>Teorema</b> — Se $f(x) = T_n(x) + R_n(x)$, onde $T_n$ é o polinômio de Taylor de n-ésimo grau de $f$ em $a$ e 
+
+$$
+\lim_{n \to \infty} R_n(x) = 0
+$$
+
+para $|x-a| \lt R$, então $f$ é igual à soma de sua série de Taylor no intervalo $|x - a| \lt R$. 
+
+</aside>
+
+<aside>
+
+<b>Teorema (desigualdade de Taylor)</b> — Se $|f^{(n+1)} (x) \le M$ para $|x-a| \le d$, então o resto $R_n(x)$ da série de Taylor satisfaz a desigualdade 
+
+$$
+|R_n(x)| \le \dfrac{M}{(n+1)!}|x-a|^{n+1}, |x-a| \le d 
+$$
+
+</aside>
+
+Ao utilizar estes dois teoremas em conjunto, é util ter em mente a identidade $\lim_{n \to \infty} \dfrac{x^n}{n!} = 0$.
+
+# Aplicações dos polinômios de Taylor
+
+## Aproximação de funções
+
+Vimos anteriormente (cf. <a href="/books/scholarium/math/calculus_one/derivatives_applications.html" target="_blank">Derivadas: Aplicações</a>) que é possível aproximar funções pelos polinômios de Taylor. Entretanto, diferentemente do caso anterior, necessitamos de novas ferramentas para estimar a precisão da aproximação por polinômios de graus maiores que 1 (isto é, lineares). De fato, isso é possível pela aplicação da desigualdade de Taylor (enunciada anteriormente) em conjunto com o teorema anterior a esta. 
+
+Abaixo, temos um exemplo. 
+
+<aside>
+
+<b>Exemplo</b> — 
+
+</aside>
+
 # Referências 
 
 1. GUIDORIZZI, Hamilton Luiz. Um curso de cálculo. Vol. 4. 5.ed., reimpr. Rio de Janeiro: LTC, 2011. LTC. 
 2. STEWART, James. Cálculo. Volume 2. 7. ed. São Paulo: Cengage Learning, 2013.
+3. <i>Representing functions as power series</i>. Departamento de Matemática da Universidade Estadual do Óregon. Acesso em 27 de novembro de 2026. (<a href="https://sites.science.oregonstate.edu/math/home/programs/undergrad/CalculusQuestStudyGuides/SandS/PowerSeries/series_as_functions.html" target="_blank">Acesse aqui</a>)
+
 
 [^1]: Perceba que as somas parciais da séries formam uma sequência. A série convergir é equivalentemente a esta sequência convergir. 
 [^2]: É evidente que se $r \ge $, a série irá divergir para infinito. Por outro lado, se $r \le -1$, a série irá oscilar entre diversos valores, nunca convergindo para um único valor. 
+[^3]: No caso II, $\int c_0 \ dx = c_0 x + c_1$ é escrito como $c_0(x-a) + C$, com $C = c_1 + ac_0$ para que assim a escrita da expressão se torne mais limpa.

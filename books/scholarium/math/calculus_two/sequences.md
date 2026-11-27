@@ -16,7 +16,7 @@ Sendo sequências funções, estas podem ser definidas através de uma expressã
 
 <aside>
 
-<b>Exemplo (sequência de Fibonacci)</b> — Definimos $f_n: D_f \to \mathbb{N}$ a sequência regida pelas condições: $f_1 = f_2 = 1$; $f_n = f_{n-1} + f_{n-2}$; $D_f = \{n \in \mathbb{N} | n \ge 3\} como a sequência de Fibonacci. Seus primeiros termos são, assim, $\{1, 1, 2, 3, 5, 8, 13, 21, \dots\}$.
+<b>Exemplo (sequência de Fibonacci)</b> — Definimos $f_n: D_f \to \mathbb{N}$ a sequência regida pelas condições: $f_1 = f_2 = 1$; $f_n = f_{n-1} + f_{n-2}$; $D_f = \{n \in \mathbb{N} | n \ge 3\}$ como a sequência de Fibonacci. Seus primeiros termos são, assim, $\{1, 1, 2, 3, 5, 8, 13, 21, \dots\}$.
 
 </aside>
 
@@ -80,7 +80,7 @@ Um resultado notável é a validade do teorema do confronto para sequências.
 <b>Teorema (do confronto)</b> — Dado um natural $n_1$ tal que $\forall n \ge n_1, a_n \le b_n \le c_n$ e um $\alpha \in \mathbb{R}$, 
 
 $$
-\lim_{n \to \infty} a_n = L = \lim_{n \to \infty} \implies \lim_{n \to \infty} b_n = L
+\lim_{n \to \infty} a_n = L = \lim_{n \to \infty} c_n \implies \lim_{n \to \infty} b_n = L
 $$
 
 </aside>
