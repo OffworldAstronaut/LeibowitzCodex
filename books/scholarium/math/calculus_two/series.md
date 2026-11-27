@@ -2,6 +2,14 @@
 
 # Introdução e definição
 
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/c/cb/Portretbuste_van_Zeno_van_Elea_Paradigmata_graphices_variorum_artificum_%28serietitel%29%2C_RP-P-1907-4495.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Gravura de busto de Zenão de Eleia, por Johann Episcopius (1628—1671). Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Portretbuste_van_Zeno_van_Elea_Paradigmata_graphices_variorum_artificum_(serietitel),_RP-P-1907-4495.jpg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
+
 Na Antiguidade Clássica, o filósofo pré-Socrático Zenão de Eleia (490 AC — 430 AC), discípulo de Parmênides, deixou diversos paradoxos relacionados ao conceito de movimento e mudança. Embora seus escritos originais tenham sido perdidos ao longo do tempo, suas ideias chegaram até nós pelos numerosos comentários sobre sua obra realizados por filósofos posteriores, como Aristóteles (384 AC — 322 AC), Platão (428 AC — 348 AC), Diógenes Laércio e Simplício da Cilícia (480 AD — 540 AD).  
 
 Em um dos paradoxos, Aquiles aposta uma corrida contra uma tartaruga: no instante inicial, o herói da Fítia começa no início do caminho, enquanto a tartaruga inicia da metade. Depois de um certo tempo, Aquiles alcança a posição original da tartaruga, enquanto esta se moveu metade do caminho restante. Isto se repete indefinidamente. Aquiles, então, alcança a tartaruga? O guerreiro chega ao final do caminho? Sabemos pela experiência que sim, embora nossa história sugira que não. Zenão defendia a posição de seu mestre que o movimento era uma ilusão dos sentidos.
@@ -208,6 +216,14 @@ Perceba que embora $\lim_{n \to \infty} \dfrac{1}{n} = 0$, a série diverge. Par
 $$
 \int_{1}^{\infty} \dfrac{1}{x} \ dx
 $$
+
+<div class="wiki-thumb">
+
+![](https://upload.wikimedia.org/wikipedia/commons/6/67/Integral_Test.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original)
+
+<i>Ilustração da comparação entre a integral de $1/x$ e a série harmônica (retângulos). Domínio público, via <a href="https://commons.wikimedia.org/wiki/File:Integral_Test.svg" target="_blank">Wikimedia Commons</a>.</i>
+
+</div>
 
 Note que a série harmônica é a aproximação superior desta integral, com os retângulos excedendo a área da curva. Como esta integral diverge (cf. <a href="/books/scholarium/math/calculus_two/improper_integrals.html" target="_blank">Integrais impróprias</a>), a série também deve divergir. Essa argumentação é um exemplo do chamado <b>teste da integral</b>: se conseguirmos comparar a série com uma integral imprópria, podemos muitas vezes determinar se esta converge ou diverge.
 
@@ -492,7 +508,7 @@ $$
 
 <ol type="I">
 
-<li>$f'(x) = \sum_{n=1}^{\infty} nc_n(x-a)^{n-1}$</li>
+<li>$$f'(x) = \sum_{n=1}^{\infty} nc_n(x-a)^{n-1}$$</li>
 
 <li>$$\int f(x) \ dx = C + c_0(x-a) + c_1 \dfrac{(x-a)^2}{2} + \dots = C + \sum_{n=0}^{\infty} c_n \dfrac{(x-a)^{n+1}}{n+1}$$</li>
 
