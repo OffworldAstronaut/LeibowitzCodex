@@ -554,7 +554,7 @@ para $|x-a| \lt R$, então $f$ é igual à soma de sua série de Taylor no inter
 
 <aside>
 
-<b>Teorema (desigualdade de Taylor)</b> — Se $|f^{(n+1)} (x) \le M$ para $|x-a| \le d$, então o resto $R_n(x)$ da série de Taylor satisfaz a desigualdade 
+<b>Teorema (desigualdade de Taylor)</b> — Se $|f^{(n+1)} (x)| \le M$ para $|x-a| \le d$, então o resto $R_n(x)$ da série de Taylor satisfaz a desigualdade 
 
 $$
 |R_n(x)| \le \dfrac{M}{(n+1)!}|x-a|^{n+1}, |x-a| \le d 
@@ -564,9 +564,7 @@ $$
 
 Ao utilizar estes dois teoremas em conjunto, é util ter em mente a identidade $\lim_{n \to \infty} \dfrac{x^n}{n!} = 0$.
 
-# Aplicações dos polinômios de Taylor
-
-## Aproximação de funções
+## Aproximando funções
 
 Vimos anteriormente (cf. <a href="/books/scholarium/math/calculus_one/derivatives_applications.html" target="_blank">Derivadas: Aplicações</a>) que é possível aproximar funções pelos polinômios de Taylor. Entretanto, diferentemente do caso anterior, necessitamos de novas ferramentas para estimar a precisão da aproximação por polinômios de graus maiores que 1 (isto é, lineares). De fato, isso é possível pela aplicação da desigualdade de Taylor (enunciada anteriormente) em conjunto com o teorema anterior a esta. 
 
@@ -574,7 +572,33 @@ Abaixo, temos um exemplo.
 
 <aside>
 
-<b>Exemplo</b> — 
+<b>Exemplo (Stewart 2013)</b> — Aproxime a função $\sqrt[3]{x}$ por um polinômio de Taylor de grau 2 em $a = 8$. Qual a precisão dessa aproximação quando $x \in [7, 9]$? 
+
+<b>Solução</b> — Temos que $f(x) = x^{1/3}$, o que implica em $f'(x) = \dfrac{1}{3}x^{-2/3}$, $f''(x) = -\dfrac{2}{9}x^{-5/3}$ e $f'''(x) = \dfrac{10}{27}x^{-8/3}$. Além disso, $f(8) = 2$, $f'(8) = 1/12$ e $f''(8) = -1/144$. Portanto, o polinômio de Taylor de grau 2 é 
+
+$$
+T_2(x) = f(8) + \dfrac{f'(8)}{1!} (x-8) + \dfrac{f''(8)}{2!} (x-8)^2 = 2 + \dfrac{1}{12}(x-8) - \dfrac{1}{288}(x-8)^2
+$$
+
+que é a aproximação desejada. O quão precisa é esta aproximação no intervalo dado? Pela desigualdade de Taylor com $n=2$ e $a=8$, 
+
+$$
+|R_2(x)| \le \dfrac{M}{3!}|x-8|^3
+$$
+
+com $|f'''(x)| \le M$. Note que, como $x \ge 7$, $x^{8/3} \ge 7^{8/3}$ e, portanto, 
+
+$$
+f'''(x) = \dfrac{10}{27} \cdot \dfrac{1}{x^{8/3}} \le \dfrac{10}{27} \cdot \dfrac{1}{7^{8/3}} \lt 0.0021
+$$
+
+Assim, podemos tomar $M = 0.0021$. Além disso, $7 \le x \le 9 \implies -1 \le x - 8 \le 1 \iff |x-8| \le 1$. A desigualdade de Taylor então dá 
+
+$$
+|R_2(x)| \le \dfrac{0.0021}{3!} \cdot 1^3 = \dfrac{0.0021}{6} \lt 0.0004
+$$
+
+que é a precisão de nossa aproximação de Taylor no intervalo dado.
 
 </aside>
 
